@@ -1,0 +1,130 @@
+{
+  "schema_version": "3.0",
+  "record_type": "model",
+  "status": "pending",
+  "payload": {
+    "identity": {
+      "entity_key": "model:google:gemma-2-9b-it",
+      "canonical_name": "Gemma-2-9b-it",
+      "entity_type": "ai_model"
+    },
+    "publisher_key": "org:google",
+    "parameter_count": 9200000000,
+    "total_parameters": 9200000000,
+    "model_type": "dense",
+    "context_length": 8192,
+    "context_length_tokens": 8192,
+    "license_name": "Gemma Terms of Use",
+    "capabilities": [
+      {
+        "capability_key": "vision",
+        "status": "unknown"
+      },
+      {
+        "capability_key": "code",
+        "status": "unknown"
+      }
+    ],
+    "variants": [
+      {
+        "identity": {
+          "entity_key": "variant:google:gemma-2-9b-it:gguf:q4-k-m",
+          "canonical_name": "Gemma-2-9b-it Q4_K_M GGUF",
+          "entity_type": "model_variant"
+        },
+        "quantization": "Q4_K_M",
+        "format": "GGUF",
+        "quantization_method": "Q4_K_M",
+        "weight_format": "GGUF",
+        "file_size_display": "5.29 GB (legacy value; GB/GiB and precision unverified)",
+        "source_url": "https://huggingface.co/bartowski/gemma-2-9b-it-GGUF",
+        "evidence": [
+          {
+            "source_key": "source:legacy:huggingface-co-bartowski-gemma-2-9b-it-gguf",
+            "field_key": "legacy.file_size_gb",
+            "raw_value": "5.29 GB",
+            "normalized_value": 5.29
+          }
+        ]
+      },
+      {
+        "identity": {
+          "entity_key": "variant:google:gemma-2-9b-it:gguf:q5-k-m",
+          "canonical_name": "Gemma-2-9b-it Q5_K_M GGUF",
+          "entity_type": "model_variant"
+        },
+        "quantization": "Q5_K_M",
+        "format": "GGUF",
+        "quantization_method": "Q5_K_M",
+        "weight_format": "GGUF",
+        "file_size_display": "6.13 GB (legacy value; GB/GiB and precision unverified)",
+        "source_url": "https://huggingface.co/bartowski/gemma-2-9b-it-GGUF",
+        "evidence": [
+          {
+            "source_key": "source:legacy:huggingface-co-bartowski-gemma-2-9b-it-gguf",
+            "field_key": "legacy.file_size_gb",
+            "raw_value": "6.13 GB",
+            "normalized_value": 6.13
+          }
+        ]
+      },
+      {
+        "identity": {
+          "entity_key": "variant:google:gemma-2-9b-it:gguf:q8-0",
+          "canonical_name": "Gemma-2-9b-it Q8_0 GGUF",
+          "entity_type": "model_variant"
+        },
+        "quantization": "Q8_0",
+        "format": "GGUF",
+        "quantization_method": "Q8_0",
+        "weight_format": "GGUF",
+        "file_size_display": "9.2 GB (legacy value; GB/GiB and precision unverified)",
+        "source_url": "https://huggingface.co/bartowski/gemma-2-9b-it-GGUF",
+        "evidence": [
+          {
+            "source_key": "source:legacy:huggingface-co-bartowski-gemma-2-9b-it-gguf",
+            "field_key": "legacy.file_size_gb",
+            "raw_value": "9.20 GB",
+            "normalized_value": 9.2
+          }
+        ]
+      }
+    ],
+    "evidence": [
+      {
+        "source_key": "source:legacy:huggingface-co-google-gemma-2-9b-it",
+        "field_key": "model.parameter_count",
+        "raw_value": "9.2B",
+        "normalized_value": 9.2
+      },
+      {
+        "source_key": "source:legacy:huggingface-co-google-gemma-2-9b-it",
+        "field_key": "model.context_length",
+        "raw_value": "8K",
+        "normalized_value": 8192
+      },
+      {
+        "source_key": "source:legacy:huggingface-co-google-gemma-2-9b-it",
+        "field_key": "legacy.supports_vision",
+        "raw_value": null,
+        "normalized_value": false
+      },
+      {
+        "source_key": "source:legacy:huggingface-co-google-gemma-2-9b-it",
+        "field_key": "legacy.supports_code",
+        "raw_value": null,
+        "normalized_value": false
+      },
+      {
+        "source_key": "source:legacy:huggingface-co-google-gemma-2-9b-it",
+        "field_key": "model.license",
+        "raw_value": "Gemma Terms of Use",
+        "normalized_value": "Gemma Terms of Use"
+      }
+    ]
+  },
+  "review_notes": [
+    "legacy false capability values became unknown",
+    "variant file_size_bytes intentionally omitted pending verification"
+  ]
+}

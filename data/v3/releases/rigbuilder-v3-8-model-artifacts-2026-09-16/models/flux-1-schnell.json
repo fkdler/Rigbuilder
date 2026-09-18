@@ -1,0 +1,98 @@
+{
+  "schema_version": "3.2",
+  "record_type": "model",
+  "status": "accepted",
+  "payload": {
+    "identity": {
+      "entity_key": "model:black-forest-labs:flux-1-schnell",
+      "canonical_name": "FLUX.1-schnell",
+      "entity_type": "ai_model",
+      "release_date": "2024-08-01",
+      "lifecycle_status": "unknown",
+      "recommendable": true
+    },
+    "publisher_key": "org:black-forest-labs",
+    "release_version": null,
+    "model_type": "diffusion",
+    "total_parameters": 11891178560,
+    "active_parameters": null,
+    "model_stage": "text_to_image",
+    "context_length_tokens": null,
+    "license_name": "Apache-2.0",
+    "commercial_use_status": "allowed",
+    "official_repo_url": "https://huggingface.co/black-forest-labs/FLUX.1-schnell",
+    "official_model_card_url": "https://huggingface.co/black-forest-labs/FLUX.1-schnell",
+    "architecture_notes": null,
+    "capabilities": [
+      {
+        "capability_key": "text_input",
+        "status": "supported",
+        "notes": null
+      },
+      {
+        "capability_key": "image_output",
+        "status": "supported",
+        "notes": null
+      }
+    ],
+    "variants": [
+      {
+        "identity": {
+          "entity_key": "variant:black-forest-labs-flux-1-schnell:official-safetensors",
+          "canonical_name": "FLUX.1-schnell 官方权重 (safetensors, black-forest-labs)",
+          "entity_type": "model_variant",
+          "release_date": null,
+          "lifecycle_status": "unknown",
+          "recommendable": true
+        },
+        "file_size_bytes": 57838764946,
+        "weight_format": "safetensors",
+        "official_status": "official",
+        "repository_url": "https://huggingface.co/black-forest-labs/FLUX.1-schnell",
+        "evidence": [
+          {
+            "source_key": "src:hf:black-forest-labs-flux-1-schnell",
+            "field_key": "entity.canonical_name",
+            "normalized_value": "FLUX.1-schnell 官方权重 (safetensors, black-forest-labs)",
+            "review_status": "accepted",
+            "confidence": 1
+          }
+        ]
+      }
+    ],
+    "evidence": [
+      {
+        "source_key": "src:card:flux-1-schnell",
+        "field_key": "entity.canonical_name",
+        "normalized_value": "FLUX.1-schnell",
+        "provenance_key": "official",
+        "raw_excerpt": "FLUX.1-schnell",
+        "review_status": "accepted",
+        "reviewed_at": null
+      },
+      {
+        "source_key": "src:card:flux-1-schnell",
+        "field_key": "model.license_name",
+        "normalized_value": "Apache-2.0",
+        "provenance_key": "official",
+        "raw_excerpt": "License: apache-2.0",
+        "review_status": "accepted",
+        "reviewed_at": null
+      },
+      {
+        "source_key": "src:card:flux-1-schnell",
+        "field_key": "model.total_parameters",
+        "normalized_value": 11891178560,
+        "provenance_key": "official",
+        "raw_excerpt": "HF API safetensors.total（精确）: 11891178560",
+        "review_status": "accepted",
+        "reviewed_at": null,
+        "notes": "由公开知识值校正为官方值（原值 12000000000）"
+      }
+    ],
+    "family": "FLUX.1"
+  },
+  "review_notes": [
+    "Model artifacts enumerated from the official Hugging Face API on 2026-09-16 (file list and byte sizes only; no weights were downloaded or verified)."
+  ]
+}

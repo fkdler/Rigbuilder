@@ -1,0 +1,14 @@
+{
+  "schema_version": "3.2",
+  "record_type": "entity_alias",
+  "status": "accepted",
+  "payload": {
+    "entity_key": "model:depth-anything:depth-anything-v2-large",
+    "alias": "depth-anything/Depth-Anything-V2-Large-hf",
+    "alias_type": "repository",
+    "language": null,
+    "normalized_alias": "depthanythingdepthanythingv2largehf",
+    "source_key": null
+  },
+  "review_notes": []
+}

@@ -1,0 +1,24 @@
+{
+  "schema_version": "3.2",
+  "record_type": "source_document",
+  "status": "accepted",
+  "payload": {
+    "source_key": "src:amd:cpu-amd-ryzen-7-7700x3d",
+    "title": "AMD Ryzen 7 7700X3D - 官方产品页",
+    "url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-7-7700x3d.html",
+    "publisher_key": "org:amd",
+    "source_type": "official_page",
+    "source_tier": "A",
+    "published_at": null,
+    "market_region": null,
+    "language": null,
+    "availability_status": "accessible",
+    "archive_url": null,
+    "accessed_at": "2026-09-14T10:27:22+00:00",
+    "content_hash": "bb8a3f53507e87ade2707159f39b8ebbc20c92994cddbe851bbf95b7574153d6"
+  },
+  "review_notes": [
+    "evidence 补全批（2026-09-07）：官方页/官方系列页；pending，待 page_save.py 抓取回填。",
+    "Approved in bulk on 2026-09-16 at the user's explicit request; no per-record human review."
+  ]
+}

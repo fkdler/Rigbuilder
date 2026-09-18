@@ -1,0 +1,125 @@
+{
+  "schema_version": "3.2",
+  "record_type": "hardware",
+  "status": "accepted",
+  "payload": {
+    "identity": {
+      "entity_key": "hw:amd:ryzen-5-9600:desktop:global",
+      "canonical_name": "Ryzen 5 9600",
+      "entity_type": "hardware",
+      "release_date": null,
+      "lifecycle_status": "unknown",
+      "recommendable": true
+    },
+    "category": "cpu",
+    "record_kind": "product",
+    "manufacturer_key": "org:amd",
+    "form_factor": "desktop",
+    "model_name": "Ryzen 5 9600",
+    "variant_name": null,
+    "market_segment": "consumer",
+    "region_code": "GLOBAL",
+    "official_product_id": null,
+    "product_family": null,
+    "attributes": [],
+    "evidence": [
+      {
+        "source_key": "src:amd:cpu-amd-ryzen-5-9600",
+        "field_key": "entity.canonical_name",
+        "normalized_value": "Ryzen 5 9600",
+        "provenance_key": "official",
+        "raw_excerpt": "Ryzen 5 9600",
+        "review_status": "accepted",
+        "reviewed_at": null
+      },
+      {
+        "source_key": "src:amd:cpu-amd-ryzen-5-9600",
+        "field_key": "cpu.l3_cache_mib",
+        "normalized_value": 32,
+        "provenance_key": "official",
+        "raw_excerpt": "L3 Cache \n 32 MB \n Default TDP \n 65W \n Processor Technology for CPU Cores \n TSMC 4nm FinFET \n Processor Technology for I",
+        "review_status": "accepted",
+        "reviewed_at": null
+      },
+      {
+        "source_key": "src:amd:cpu-amd-ryzen-5-9600",
+        "field_key": "cpu.base_power_w",
+        "normalized_value": 65,
+        "provenance_key": "official",
+        "raw_excerpt": "Default TDP \n 65W \n Processor Technology for CPU Cores \n TSMC 4nm FinFET \n Processor Technology for I/O Die \n TSMC 6nm F",
+        "review_status": "accepted",
+        "reviewed_at": null
+      },
+      {
+        "source_key": "src:amd:cpu-amd-ryzen-5-9600",
+        "field_key": "cpu.l2_cache_mib",
+        "normalized_value": 6,
+        "provenance_key": "official",
+        "raw_excerpt": "L2 Cache \n 6 MB \n L3 Cache \n 32 MB \n Default TDP \n 65W \n Processor Technology for CPU Cores \n TSMC 4nm FinFET \n Processo",
+        "review_status": "accepted",
+        "reviewed_at": null
+      },
+      {
+        "source_key": "src:amd:cpu-amd-ryzen-5-9600",
+        "field_key": "cpu.l3_cache_mib",
+        "normalized_value": 32,
+        "provenance_key": "official",
+        "raw_excerpt": "L3 Cache \n 32 MB \n Default TDP \n 65W \n Processor Technology for CPU Cores \n TSMC 4nm FinFET \n Processor Technology for I",
+        "review_status": "accepted",
+        "reviewed_at": null
+      },
+      {
+        "source_key": "src:amd:cpu-amd-ryzen-5-9600",
+        "field_key": "cpu.l2_cache_mib",
+        "normalized_value": 6,
+        "provenance_key": "official",
+        "raw_excerpt": "L2 Cache \n 6 MB \n L3 Cache \n 32 MB \n Default TDP \n 65W \n Processor Technology for CPU Cores \n TSMC 4nm FinFET \n Processo",
+        "review_status": "accepted",
+        "reviewed_at": null
+      },
+      {
+        "source_key": "src:amd:cpu-amd-ryzen-5-9600",
+        "field_key": "cpu.base_power_w",
+        "normalized_value": 65,
+        "provenance_key": "official",
+        "raw_excerpt": "Default TDP \n 65W \n Processor Technology for CPU Cores \n TSMC 4nm FinFET \n Processor Technology for I/O Die \n TSMC 6nm F",
+        "review_status": "accepted",
+        "reviewed_at": null
+      }
+    ],
+    "cpu_spec": {
+      "architecture": "Zen 5",
+      "codename": "Zen 5",
+      "cores_total": 6,
+      "threads": 12,
+      "performance_cores": null,
+      "efficiency_cores": null,
+      "base_clock_mhz": null,
+      "boost_clock_mhz": 5300,
+      "l2_cache_mib": 6,
+      "l3_cache_mib": 32,
+      "base_power_w": 65,
+      "max_power_w": null,
+      "socket": "AM5",
+      "memory_channels": 2,
+      "max_memory_gib": null,
+      "ecc_support": null,
+      "pcie_generation": 5,
+      "pcie_lanes": 24,
+      "integrated_gpu": null,
+      "npu_model": null
+    }
+  },
+  "review_notes": [
+    "后缀矩阵补全（2026-09-07）：官方来源页待核验，值按公开规格知识（含 T 系低功耗档），pending；部分型号参数待来源确认后核对。",
+    "2026-09-07 evidence 补全：挂 canonical_name 证据（来源见 sources）；其余字段证据待逐字核验后补。",
+    "2026-09-14 evidence 提取：从快照 src_amd_cpu-amd-ryzen-5-9600.txt 提取字段级逐字证据（pending，待审核）。",
+    "2026-09-14 evidence 提取：从快照 src_amd_cpu-amd-ryzen-5-9600.txt 提取字段级逐字证据（pending，待审核）。",
+    "2026-09-14 field_key 规范化：cpu_spec./gpu_spec. 前缀按 import_v3 规范改为 cpu./gpu.；删除 facts 中无对应键的 workload.requirement.* 证据。",
+    "2026-09-15 evidence 提取：从快照 src_amd_cpu-amd-ryzen-5-9600.txt 提取字段级逐字证据（pending，待审核）。",
+    "2026-09-15 evidence 提取：从快照 src_amd_cpu-amd-ryzen-5-9600.txt 提取字段级逐字证据（pending，待审核）。",
+    "2026-09-15 evidence 提取：从快照 src_amd_cpu-amd-ryzen-5-9600.txt 提取字段级逐字证据（pending，待审核）。",
+    "2026-09-15 evidence 提取：从快照 src_amd_cpu-amd-ryzen-5-9600.txt 提取字段级逐字证据（pending，待审核）。",
+    "Approved in bulk on 2026-09-16 at the user's explicit request; no per-record human review."
+  ]
+}

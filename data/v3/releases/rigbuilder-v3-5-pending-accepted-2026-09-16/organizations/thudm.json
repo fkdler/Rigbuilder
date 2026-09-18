@@ -1,0 +1,34 @@
+{
+  "schema_version": "3.2",
+  "record_type": "organization",
+  "status": "accepted",
+  "payload": {
+    "identity": {
+      "entity_key": "org:thudm",
+      "canonical_name": "Zhipu AI / THUDM (CogVideoX)",
+      "entity_type": "organization",
+      "release_date": null,
+      "lifecycle_status": "active",
+      "recommendable": false
+    },
+    "website_url": "https://huggingface.co/THUDM",
+    "organization_type": "model_publisher",
+    "country_or_region": null,
+    "evidence": [
+      {
+        "source_key": "src:org:thudm",
+        "field_key": "entity.canonical_name",
+        "normalized_value": "Zhipu AI / THUDM (CogVideoX)",
+        "provenance_key": "official",
+        "raw_excerpt": "Zhipu AI / THUDM (CogVideoX)",
+        "review_status": "accepted",
+        "reviewed_at": null
+      }
+    ]
+  },
+  "review_notes": [
+    "多模态批组织（2026-09-07）。",
+    "2026-09-15 evidence 补全：挂 canonical_name 证据（来源为其官网）。",
+    "Approved in bulk on 2026-09-16 at the user's explicit request; no per-record human review."
+  ]
+}

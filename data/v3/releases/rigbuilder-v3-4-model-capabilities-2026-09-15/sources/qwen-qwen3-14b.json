@@ -1,0 +1,18 @@
+{
+  "schema_version": "3.2",
+  "record_type": "source_document",
+  "status": "accepted",
+  "payload": {
+    "source_key": "source:hf-api-review-20260915:Qwen/Qwen3-14B",
+    "title": "Qwen/Qwen3-14B official repository metadata",
+    "url": "https://huggingface.co/api/models/Qwen/Qwen3-14B",
+    "source_type": "model_card",
+    "source_tier": "A",
+    "accessed_at": "2026-09-15T11:32:16.613111+00:00",
+    "content_hash": "b3790f4e7be888b60f023ae3c9882ed077cf7d94b3ddd4bdca3bd274c9a646b1",
+    "availability_status": "accessible"
+  },
+  "review_notes": [
+    "本次实际读取官方仓库公开 API 元数据；hash 对应保存的原始响应。不是下载权重或实测。"
+  ]
+}

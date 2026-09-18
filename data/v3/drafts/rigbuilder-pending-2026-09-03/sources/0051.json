@@ -1,0 +1,24 @@
+{
+  "schema_version": "3.2",
+  "record_type": "source_document",
+  "status": "pending",
+  "payload": {
+    "source_key": "src:gguf:bartowski-meta-llama-3-1-8b-instruct-gguf",
+    "title": "bartowski/Meta-Llama-3.1-8B-Instruct-GGUF (Hugging Face)",
+    "url": "https://huggingface.co/bartowski/Meta-Llama-3.1-8B-Instruct-GGUF",
+    "publisher_key": "org:bartowski",
+    "source_type": "community",
+    "source_tier": "D",
+    "published_at": null,
+    "market_region": null,
+    "language": null,
+    "availability_status": "accessible",
+    "archive_url": null,
+    "accessed_at": "2026-09-07T07:05:56+00:00",
+    "content_hash": "5bd4641ce4d0493cbba97b725e44cd09bc70c511e193fb9185508e1b272bb495"
+  },
+  "review_notes": [
+    "来源 retrieved_at 为占位时间，调查员须替换为实际看到页面的时间。",
+    "source_key 前缀暂为 src: 与 quantization/format 大小写（Q4_K_M/GGUF）待审核人与词表对齐（可统一为 source:/小写）。"
+  ]
+}

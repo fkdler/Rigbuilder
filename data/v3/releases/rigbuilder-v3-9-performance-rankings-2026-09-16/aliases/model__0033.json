@@ -1,0 +1,14 @@
+{
+  "schema_version": "3.2",
+  "record_type": "entity_alias",
+  "status": "accepted",
+  "payload": {
+    "entity_key": "model:opengvlab:internvl3-8b",
+    "alias": "OpenGVLab/InternVL3-8B-Instruct",
+    "alias_type": "repository",
+    "language": null,
+    "normalized_alias": "opengvlabinternvl38binstruct",
+    "source_key": null
+  },
+  "review_notes": []
+}

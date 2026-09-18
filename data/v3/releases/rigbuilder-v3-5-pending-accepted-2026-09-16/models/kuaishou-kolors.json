@@ -1,0 +1,77 @@
+{
+  "schema_version": "3.2",
+  "record_type": "model",
+  "status": "accepted",
+  "payload": {
+    "identity": {
+      "entity_key": "model:kuaishou:kolors",
+      "canonical_name": "Kolors",
+      "entity_type": "ai_model",
+      "release_date": "2024-07-06",
+      "lifecycle_status": "unknown",
+      "recommendable": true
+    },
+    "publisher_key": "org:kuaishou",
+    "release_version": null,
+    "model_type": "diffusion",
+    "total_parameters": 2579458820,
+    "active_parameters": null,
+    "model_stage": "text_to_image",
+    "context_length_tokens": null,
+    "license_name": "Kolors-License",
+    "commercial_use_status": "allowed",
+    "official_repo_url": "https://huggingface.co/Kwai-Kolors/Kolors",
+    "official_model_card_url": "https://huggingface.co/Kwai-Kolors/Kolors",
+    "architecture_notes": null,
+    "capabilities": [
+      {
+        "capability_key": "text_input",
+        "status": "supported",
+        "notes": null
+      },
+      {
+        "capability_key": "image_output",
+        "status": "supported",
+        "notes": null
+      }
+    ],
+    "variants": [],
+    "evidence": [
+      {
+        "source_key": "src:card:kolors",
+        "field_key": "entity.canonical_name",
+        "normalized_value": "Kolors",
+        "provenance_key": "official",
+        "raw_excerpt": "Kolors",
+        "review_status": "accepted",
+        "reviewed_at": null
+      },
+      {
+        "source_key": "src:card:kolors",
+        "field_key": "model.license_name",
+        "normalized_value": "Kolors-License",
+        "provenance_key": "official",
+        "raw_excerpt": "Kolors-License",
+        "review_status": "accepted",
+        "reviewed_at": null
+      },
+      {
+        "source_key": "src:card:kolors",
+        "field_key": "model.total_parameters",
+        "normalized_value": 2579458820,
+        "provenance_key": "official",
+        "raw_excerpt": "HF API safetensors.total（精确）: 2579458820",
+        "review_status": "accepted",
+        "reviewed_at": null,
+        "notes": "由公开知识值校正为官方值（原值 8700000000）"
+      }
+    ],
+    "family": "Kolors"
+  },
+  "review_notes": [
+    "多模态模型批（2026-09-07）：开放权重、可本地部署；官方卡/仓库页待逐字核验，参数与许可为公开知识值，pending。",
+    "本地部署权重要求：本批均为开放权重模型（非仅 API）；参数/日期/许可待官方卡逐字核验。",
+    "hf_fill --refresh-params：参数量取 HF API safetensors.total（精确），上下文取 config.json max_position_embeddings；已挂 evidence（pending）。",
+    "Approved in bulk on 2026-09-16 at the user's explicit request; no per-record human review."
+  ]
+}

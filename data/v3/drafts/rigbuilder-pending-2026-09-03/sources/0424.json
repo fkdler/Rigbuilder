@@ -1,0 +1,23 @@
+{
+  "schema_version": "3.2",
+  "record_type": "source_document",
+  "status": "pending",
+  "payload": {
+    "source_key": "src:amd:cpu-amd-ryzen-7-5700x3d",
+    "title": "AMD Ryzen 7 5700x3d 支持与下载页",
+    "url": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-7-5700x3d.html",
+    "publisher_key": "org:amd",
+    "source_type": "official_page",
+    "source_tier": "A",
+    "published_at": null,
+    "market_region": null,
+    "language": null,
+    "availability_status": "accessible",
+    "archive_url": null,
+    "accessed_at": "2026-09-15T13:14:26+00:00",
+    "content_hash": "fab2ea9448251257f57fc87c5630298daad55362094ec55675cb08f866d05869"
+  },
+  "review_notes": [
+    "2026-09-15 替换来源：原 HardQuery 栏目页无法定位具体型号，改用 AMD 官方支持页/芯片组页（tier A）。"
+  ]
+}

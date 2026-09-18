@@ -1,0 +1,166 @@
+{
+  "schema_version": "3.2",
+  "record_type": "model",
+  "status": "accepted",
+  "payload": {
+    "identity": {
+      "entity_key": "model:qwen:qwen2-5-1-5b-instruct",
+      "canonical_name": "Qwen2.5-1.5B-Instruct",
+      "entity_type": "ai_model",
+      "release_date": null,
+      "lifecycle_status": "unknown",
+      "recommendable": true
+    },
+    "publisher_key": "org:qwen",
+    "family": "Qwen2.5",
+    "release_version": null,
+    "model_type": "dense",
+    "total_parameters": 1540000000,
+    "active_parameters": null,
+    "model_stage": "instruct",
+    "context_length_tokens": 32768,
+    "license_name": "Apache-2.0",
+    "commercial_use_status": "allowed",
+    "official_repo_url": "https://huggingface.co/Qwen/Qwen2.5-1.5B-Instruct",
+    "official_model_card_url": "https://huggingface.co/Qwen/Qwen2.5-1.5B-Instruct",
+    "architecture_notes": null,
+    "capabilities": [
+      {
+        "capability_key": "text_input",
+        "status": "supported",
+        "notes": "官方模型卡：文本生成模型"
+      }
+    ],
+    "variants": [
+      {
+        "identity": {
+          "entity_key": "variant:qwen:qwen2-5-1-5b-instruct:gguf:q4-k-m:qwen",
+          "canonical_name": "Qwen2.5-1.5B-Instruct Q4_K_M (GGUF, qwen)",
+          "entity_type": "model_variant",
+          "release_date": null,
+          "lifecycle_status": "unknown",
+          "recommendable": false
+        },
+        "maintainer_key": "org:qwen",
+        "quantization_method": "Q4_K_M",
+        "weight_format": "GGUF",
+        "file_size_bytes": 1117320736,
+        "bits_per_weight": null,
+        "artifact_revision": null,
+        "official_status": "official",
+        "repository_url": "https://huggingface.co/Qwen/Qwen2.5-1.5B-Instruct-GGUF",
+        "artifact_manifest": null,
+        "checksum": null,
+        "evidence": [
+          {
+            "source_key": "source:qwen-qwen2.5-1.5b-instruct-gguf",
+            "field_key": "entity.canonical_name",
+            "normalized_value": "Qwen2.5-1.5B-Instruct Q4_K_M (GGUF, qwen)",
+            "raw_excerpt": "Qwen2.5-1.5B-Instruct-Q4_K_M.gguf",
+            "provenance_key": "official",
+            "review_status": "accepted",
+            "reviewed_at": "2026-09-07T00:00:00Z"
+          }
+        ]
+      },
+      {
+        "identity": {
+          "entity_key": "variant:qwen:qwen2-5-1-5b-instruct:gguf:q5-k-m:qwen",
+          "canonical_name": "Qwen2.5-1.5B-Instruct Q5_K_M (GGUF, qwen)",
+          "entity_type": "model_variant",
+          "release_date": null,
+          "lifecycle_status": "unknown",
+          "recommendable": false
+        },
+        "maintainer_key": "org:qwen",
+        "quantization_method": "Q5_K_M",
+        "weight_format": "GGUF",
+        "file_size_bytes": 1285494304,
+        "bits_per_weight": null,
+        "artifact_revision": null,
+        "official_status": "official",
+        "repository_url": "https://huggingface.co/Qwen/Qwen2.5-1.5B-Instruct-GGUF",
+        "artifact_manifest": null,
+        "checksum": null,
+        "evidence": [
+          {
+            "source_key": "source:qwen-qwen2.5-1.5b-instruct-gguf",
+            "field_key": "entity.canonical_name",
+            "normalized_value": "Qwen2.5-1.5B-Instruct Q5_K_M (GGUF, qwen)",
+            "raw_excerpt": "Qwen2.5-1.5B-Instruct-Q5_K_M.gguf",
+            "provenance_key": "official",
+            "review_status": "accepted",
+            "reviewed_at": "2026-09-07T00:00:00Z"
+          }
+        ]
+      },
+      {
+        "identity": {
+          "entity_key": "variant:qwen:qwen2-5-1-5b-instruct:gguf:q8-0:qwen",
+          "canonical_name": "Qwen2.5-1.5B-Instruct Q8_0 (GGUF, qwen)",
+          "entity_type": "model_variant",
+          "release_date": null,
+          "lifecycle_status": "unknown",
+          "recommendable": false
+        },
+        "maintainer_key": "org:qwen",
+        "quantization_method": "Q8_0",
+        "weight_format": "GGUF",
+        "file_size_bytes": 1894532128,
+        "bits_per_weight": null,
+        "artifact_revision": null,
+        "official_status": "official",
+        "repository_url": "https://huggingface.co/Qwen/Qwen2.5-1.5B-Instruct-GGUF",
+        "artifact_manifest": null,
+        "checksum": null,
+        "evidence": [
+          {
+            "source_key": "source:qwen-qwen2.5-1.5b-instruct-gguf",
+            "field_key": "entity.canonical_name",
+            "normalized_value": "Qwen2.5-1.5B-Instruct Q8_0 (GGUF, qwen)",
+            "raw_excerpt": "Qwen2.5-1.5B-Instruct-Q8_0.gguf",
+            "provenance_key": "official",
+            "review_status": "accepted",
+            "reviewed_at": "2026-09-07T00:00:00Z"
+          }
+        ]
+      }
+    ],
+    "evidence": [
+      {
+        "source_key": "source:qwen-qwen2.5-1.5b-instruct-card",
+        "field_key": "entity.canonical_name",
+        "normalized_value": "Qwen2.5-1.5B-Instruct",
+        "raw_excerpt": "Qwen2.5-1.5B-Instruct",
+        "provenance_key": "official",
+        "review_status": "accepted",
+        "reviewed_at": "2026-09-07T00:00:00Z"
+      },
+      {
+        "source_key": "source:qwen-qwen2.5-1.5b-instruct-card",
+        "field_key": "model.context_length_tokens",
+        "normalized_value": 32768,
+        "raw_excerpt": "32K",
+        "provenance_key": "official",
+        "unit_key": "tokens",
+        "review_status": "accepted",
+        "reviewed_at": "2026-09-07T00:00:00Z"
+      },
+      {
+        "source_key": "source:qwen-qwen2.5-1.5b-instruct-card",
+        "field_key": "model.license_name",
+        "normalized_value": "Apache-2.0",
+        "raw_excerpt": "Apache-2.0",
+        "provenance_key": "official",
+        "review_status": "accepted",
+        "reviewed_at": "2026-09-07T00:00:00Z"
+      }
+    ]
+  },
+  "review_notes": [
+    "值未逐字读取官方页面确认（web 检索确认页面存在）；accessed_at 为占位时间。",
+    "total_parameters 置 null：待官方 config（宣传 B 值不可直接作精确参数量）。",
+    "变体 file_size_bytes 置 null：需读仓库 Files 元数据补真实字节。",
+    "小模型档：低配/CPU 推理用。"
+  ]
+}

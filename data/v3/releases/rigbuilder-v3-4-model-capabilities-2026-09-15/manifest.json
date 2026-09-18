@@ -1,0 +1,573 @@
+{
+  "schema_version": "3.2",
+  "release_key": "rigbuilder-v3-4-model-capabilities-2026-09-15",
+  "created_at": "2026-09-15T11:39:54.501102+00:00",
+  "description": "Reviewed official model metadata and capability evidence; user-authorized 2026-09-15 import",
+  "git_commit": null,
+  "files": [
+    {
+      "path": "fields/model-capability-vision_input.json",
+      "sha256": "aa412301b67515515ab2e247dda30344563532719e09decb5196d701f140e2fe",
+      "record_type": "field_definition",
+      "status": "accepted"
+    },
+    {
+      "path": "fields/model-capability-image_generation.json",
+      "sha256": "23d7960419aa5f79bf5e7b3592e3da67d1c4c7d1e8b74435f54181c944d1f8a8",
+      "record_type": "field_definition",
+      "status": "accepted"
+    },
+    {
+      "path": "fields/model-capability-audio_input.json",
+      "sha256": "34d370629c0a49674a22f88810996367a11bf16f4ef006fdab2e9fdd766fe385",
+      "record_type": "field_definition",
+      "status": "accepted"
+    },
+    {
+      "path": "fields/model-capability-text_input.json",
+      "sha256": "0dd233ec53161111efbc023b1c3992caaada0df0ee48c716139983f7988ebecb",
+      "record_type": "field_definition",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/black-forest-labs-flux-1-dev.json",
+      "sha256": "f60f57932943a843d9305cd501931043ad253cfc7019c7facd3e79b70724e73f",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "models/black-forest-labs-flux-1-dev.json",
+      "sha256": "e57d07c23134286386c3c101e6608297b22010e0799bc46712330537cd4318cf",
+      "record_type": "model",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/deepseek-deepseek-r1.json",
+      "sha256": "90c099db2dbc29fc05a7a68df7d2edbf4987522c844dccf741f22d5f9861294c",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "models/deepseek-deepseek-r1.json",
+      "sha256": "8e0426c46406cd83dfadc86776e4786815019f684342651e5195f1aefec4141f",
+      "record_type": "model",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/deepseek-deepseek-v3-2-exp.json",
+      "sha256": "1301a9431c2aea1204609f34520692420581e24013adc093f728abb7de4544fb",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "models/deepseek-deepseek-v3-2-exp.json",
+      "sha256": "c2baa146159d2e7ec4e2b20a1cd49b41602937de5faf33681a451f662d023e8a",
+      "record_type": "model",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/google-gemma-3-12b-it.json",
+      "sha256": "a25fd0eee21a9130f7af65991c46755427cd397d261c978ce9e52fa17d5631c9",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "models/google-gemma-3-12b-it.json",
+      "sha256": "abda06b46338019d73a5d6b91d6607c1bf76c470024ac9758a14f6375107c839",
+      "record_type": "model",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/google-gemma-3-1b-it.json",
+      "sha256": "59d8dab064ef4529d455ff549084754fdd6a34441260504afbcaaad83e9bfaf8",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "models/google-gemma-3-1b-it.json",
+      "sha256": "75cc433d2f0403e5420dd561c9c263589d7f4c41994fe450a6ad16eec4483566",
+      "record_type": "model",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/google-gemma-3-27b-it.json",
+      "sha256": "c38b71e33a11c5e3110710a7d7ba203222629c2c57e2d176ef8445391457ced9",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "models/google-gemma-3-27b-it.json",
+      "sha256": "2794d24258ff4386ae10bc07dfd0f58a1343bee4d0ba0d803dd1a82de9487d1c",
+      "record_type": "model",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/google-gemma-3-4b-it.json",
+      "sha256": "6202d8a77f15c6de6e3c02753c2cfdf99c150939f251f505e587b2855988aee2",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "models/google-gemma-3-4b-it.json",
+      "sha256": "dda0ce8aa4f7f72279d77281aaecd8b22224b636690ed27f429b48945a8d2b8f",
+      "record_type": "model",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/google-gemma-3n-e2b-it.json",
+      "sha256": "77cc296862e307202fbc0dbefd57a8d40cf467f25b948419a6e71beebe804c16",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "models/google-gemma-3n-e2b-it.json",
+      "sha256": "e2545f42ceb8eaa00c26eaec34c541a98ea0bd88af80c293aecd219754364100",
+      "record_type": "model",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/google-gemma-3n-e4b-it.json",
+      "sha256": "ca48e90b36b32224128b587840b55c9d9d66335849e93a271449f011dc297d17",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "models/google-gemma-3n-e4b-it.json",
+      "sha256": "a9820efc815cd0fd597ccebe77fd817fac328efeee76e87294b1beef285643d2",
+      "record_type": "model",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/internlm-internlm3-8b-instruct.json",
+      "sha256": "4ee96792d1309bd450d290c3e7759c341b339ec110d469459ac0123b59240b49",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "models/internlm-internlm3-8b-instruct.json",
+      "sha256": "53fc0fb98a637e32abb0196c8a32713e3835f807ec867e0695b19f0af74f242f",
+      "record_type": "model",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/meta-llama-3-2-1b-instruct.json",
+      "sha256": "e15c17eb3f792f81b6ed6c9db68b918a2fe9654cd7157d9094d4d793f06eae52",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "models/meta-llama-3-2-1b-instruct.json",
+      "sha256": "7c8a812d3ae18bb0df834cccbdf8df3a43b5e8372a9d7be18ca637d17ed355b7",
+      "record_type": "model",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/meta-llama-3-2-3b-instruct.json",
+      "sha256": "1666f961ecb9e3e35d4ec0feaa25bbffe02657a72f16cf0ad8b36a2c7a661685",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "models/meta-llama-3-2-3b-instruct.json",
+      "sha256": "5042e56b9f4f5c0d004d847be981dbf69102b2d94d25550d740552d24977addd",
+      "record_type": "model",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/meta-llama-4-maverick-17b-128e.json",
+      "sha256": "683109d61a636cdbb3ffdd82169b9d9ab0d2c54a072d6309d3abb9e546cff573",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "models/meta-llama-4-maverick-17b-128e.json",
+      "sha256": "3f5cfd047c27bd71770e42715b27887dd1742e1c04c599fa9e5747732862370d",
+      "record_type": "model",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/meta-llama-4-scout-17b-16e.json",
+      "sha256": "3bc7a84bcec517db2bb84d0cca9a6bd27b2ed5e68df586a4a6659b541c867779",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "models/meta-llama-4-scout-17b-16e.json",
+      "sha256": "68a89b00ac689daf7b4e34691df860cca02c2b32abb69d43f176058e4b14e2c1",
+      "record_type": "model",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/microsoft-phi-4-mini-instruct.json",
+      "sha256": "f6f6bd59c9d89edc0570c5101e7cb7e397f1a25b8bf1f837cd1c87b2f8ac3f7d",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "models/microsoft-phi-4-mini-instruct.json",
+      "sha256": "bfcd9dbd89482a2372191aa2bfd2dc857b4fcd67e6ef7967522083d964d76f46",
+      "record_type": "model",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/microsoft-phi-4-multimodal-instruct.json",
+      "sha256": "c7b9f27cb6cd5871d2b382a064f2f62c7d920e9af611996e4385d51f27757364",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "models/microsoft-phi-4-multimodal-instruct.json",
+      "sha256": "6f59441f01e4815dc34a1681ee800d9322839f7f42cd58de9b201a7dd1656a9c",
+      "record_type": "model",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/minimax-minimax-m2.json",
+      "sha256": "c06f874f45131e3c0ec5643a9c936ee7497edb76b631522a679ab2eb50134ddb",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "models/minimax-minimax-m2.json",
+      "sha256": "c53d00e23f9ea834ecd7b51f8f4b2fb7a8f29637368b453bc93a1ddb6c141747",
+      "record_type": "model",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/mistral-ai-mistral-small-3-2-24b-instruct.json",
+      "sha256": "367a4bae0ea08b2ad6db7f50a1498a34efae7feeb5d127a9f88d4d401c32df17",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "models/mistral-ai-mistral-small-3-2-24b-instruct.json",
+      "sha256": "9628159d3889ddef4762f0dac80c3e9a84b43ce9d63147a7dca08a06d75e2060",
+      "record_type": "model",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/moonshot-ai-kimi-k2-instruct.json",
+      "sha256": "fe91c40ac2b4fe7ffdf733d299e094a13ddce6b3206dd8bc7402c573c383c00a",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "models/moonshot-ai-kimi-k2-instruct.json",
+      "sha256": "270df506a2719c3ddb1649b5d0681fa1e5e86bcd059fa0a64fba404384b633cb",
+      "record_type": "model",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/moonshot-ai-kimi-k2-thinking.json",
+      "sha256": "a8e764591097b29a5177cfbe96b3843ae293b4da72d9f8024225953e0e0bc6ad",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "models/moonshot-ai-kimi-k2-thinking.json",
+      "sha256": "d8ab1313eb265c20096cd5748de29d93129cd3f75feaeae520d3c0177d1393a8",
+      "record_type": "model",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/openai-whisper-large-v3.json",
+      "sha256": "f64d298a4769af64f0e8e1bd563f223a8b56b314762b354e3e2ad398a61c20c1",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "models/openai-whisper-large-v3.json",
+      "sha256": "0c01a39b2461e5794208b75b7ab4a7ed5bf178a725ded79fb54f2318ef619264",
+      "record_type": "model",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/qwen-qwen2-5-vl-7b-instruct.json",
+      "sha256": "a82a11360818f33c507468befaf3f8d84871b571e5bb0a493dc22e4bf4a7de6f",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "models/qwen-qwen2-5-vl-7b-instruct.json",
+      "sha256": "91392c29604f8f9e8f8e1917295ae09b4ef0bb841fbfe7b40bf826ce5f1c2b01",
+      "record_type": "model",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/qwen-qwen3-0-6b.json",
+      "sha256": "38697741620c170598199089bcf8f9430707f2f0c5548728de308211ff6ef86a",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "models/qwen-qwen3-0-6b.json",
+      "sha256": "68e8eee3951eb6501aaaaed42a61573fe591b0baee8c247956068eb169519850",
+      "record_type": "model",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/qwen-qwen3-1-7b.json",
+      "sha256": "659d649ebf60f4ed7e21840711a1221a5d9aebd5f4110d026664ec571fd174e0",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "models/qwen-qwen3-1-7b.json",
+      "sha256": "4243b24df93d07a5af66e3eec1dc343d4efc3a93a2459e07448a3d6760a2ea66",
+      "record_type": "model",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/qwen-qwen3-14b.json",
+      "sha256": "e1e3f8f277a128ec3d92f8df92e0652cd0b3c972e81ff4968196df73c6ec6373",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "models/qwen-qwen3-14b.json",
+      "sha256": "81c9509f50410a2d886b3b385897f7526ba732eefbe3ba4629232507c8bc8686",
+      "record_type": "model",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/qwen-qwen3-235b-a22b.json",
+      "sha256": "c90ea0d0e5b2107fde96272d0a658679d2093585c680be239ef52dce4424c993",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "models/qwen-qwen3-235b-a22b.json",
+      "sha256": "ac8f8d8286319b2ae12bd778e07fbf095ede916a04cbccfe2af8be7a601a04a7",
+      "record_type": "model",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/qwen-qwen3-30b-a3b-instruct-2507.json",
+      "sha256": "3a205c3573a536a6138e0f5c792cd5a7ff809963101c48a86b3597c9622b0597",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "models/qwen-qwen3-30b-a3b-instruct-2507.json",
+      "sha256": "68cf317e2f5015a383456afeb63635544cf6d2173195684d7654dc415172ef45",
+      "record_type": "model",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/qwen-qwen3-30b-a3b.json",
+      "sha256": "280e194f008bf724c1e32f3d4a1333115a2927745a632388144faedb71dedd99",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "models/qwen-qwen3-30b-a3b.json",
+      "sha256": "472c8e423d6b245ebe84268d024e6dbbb82210b65b63aceb1373e27fb7764a00",
+      "record_type": "model",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/qwen-qwen3-32b.json",
+      "sha256": "47e0dae2dde16a402ffb73381816d2057120406027e7e621ea008261c5d40662",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "models/qwen-qwen3-32b.json",
+      "sha256": "0f0290f61c3df5668105fe9c36551453b35764244e66087c1f27514ad1543fc3",
+      "record_type": "model",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/qwen-qwen3-4b-instruct-2507.json",
+      "sha256": "5e0c4f1f8b2ae2d5fc143ad913817a8d8f233957c93301f7bbb86c21f51e9f64",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "models/qwen-qwen3-4b-instruct-2507.json",
+      "sha256": "ef78a7a82a320c6825ce5f739a465d598a24b46e7bd7ea8e44d6d8aa1e061c95",
+      "record_type": "model",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/qwen-qwen3-4b.json",
+      "sha256": "4f99034e9e8e6564211cce98abd7f8444ca74fa4b123743129ec30b6fb6efc0a",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "models/qwen-qwen3-4b.json",
+      "sha256": "c33a9871fd2e0c2cb3b4e2b7654f6ad841df857658547142194ddeabbd95c6aa",
+      "record_type": "model",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/qwen-qwen3-coder-30b-a3b-instruct.json",
+      "sha256": "b2d2097dcc2154fd2ec41dcd8abc76a96b721969f5b14da88bcbbd7911d53f12",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "models/qwen-qwen3-coder-30b-a3b-instruct.json",
+      "sha256": "6d8469fe6eb48ff3f7de96544819fe23cfec11759bc83bced063b0482a06d614",
+      "record_type": "model",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/qwen-qwen3-coder-480b-a35b-instruct.json",
+      "sha256": "c36eddaf69f9126cbd87557155ea97b27d1869ef0d315c2b7accf47354dc48ad",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "models/qwen-qwen3-coder-480b-a35b-instruct.json",
+      "sha256": "e0d7fff00ae2205809f370e72ea7fa1208a9dc141102995d10a1e9735695d3cf",
+      "record_type": "model",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/qwen-qwen3-embedding-0-6b.json",
+      "sha256": "b5112d7cf1af827ae9cd67a50d2ec112dd1dd5532fec73d6b9e1d61449c615b4",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "models/qwen-qwen3-embedding-0-6b.json",
+      "sha256": "4f98df41d5ee93b6eed786e614d2565caad605c0c97c46c6e9569e86cda7990b",
+      "record_type": "model",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/qwen-qwen3-embedding-4b.json",
+      "sha256": "a9a2963bfbc3153042b4aa9bb3d76ad37f1d249dc519bac8e6800f63c43b4641",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "models/qwen-qwen3-embedding-4b.json",
+      "sha256": "7126eae15e446bea7e9b55a3cb75ee5e615ef062bd19ff779fbc01853a6ea327",
+      "record_type": "model",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/qwen-qwen3-embedding-8b.json",
+      "sha256": "ac1d5361b2d5cda1d151c15f7869724e2fdee76c563f0dcfee664379f8dada53",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "models/qwen-qwen3-embedding-8b.json",
+      "sha256": "bc48c0afc595b3a783231d23ff6e3b4a1f6745730181eae9e60ad3f1ef47e1e3",
+      "record_type": "model",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/qwen-qwen3-reranker-0-6b.json",
+      "sha256": "630b78454563375a60c97824b5ceafa46923ed7035577ecb1b2b8c01d07de05a",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "models/qwen-qwen3-reranker-0-6b.json",
+      "sha256": "e86273040a4476a05f1e94d2e7ee80d32c4a883228476a3b568aded2caa87363",
+      "record_type": "model",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/qwen-qwen3-reranker-4b.json",
+      "sha256": "920941d4f6c50a3e695ed503027c28cd944b92124f6ae7bf81ac0f90f74c4101",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "models/qwen-qwen3-reranker-4b.json",
+      "sha256": "5d4b94f3e8dcdae7a5d856407c14e0d7f3969d8a863f03cac0bec397d3e871f2",
+      "record_type": "model",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/qwen-qwen3-vl-30b-a3b-instruct.json",
+      "sha256": "9861cb460e9cba3221ec97251c5184a6f83649c63359ed462f51b4855c416ad8",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "models/qwen-qwen3-vl-30b-a3b-instruct.json",
+      "sha256": "a26580fc58c7abd2d1f17b0903086db123e88e1e4d13a70ec12828b406e12ca7",
+      "record_type": "model",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/qwen-qwen3-vl-32b.json",
+      "sha256": "9559bab17367729d6101f82a698369dde232d69f15c5b9ac2a485ed096c325a9",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "models/qwen-qwen3-vl-32b.json",
+      "sha256": "e9aa208a062d008b4e19d927c6a9570b0e27ec1840bf3b0de566c4595083f7f5",
+      "record_type": "model",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/qwen-qwen3-vl-4b.json",
+      "sha256": "35f8a602d29e500568a5df558f71d797976c6d953b5fe4dfeb9b66f39b03bf47",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "models/qwen-qwen3-vl-4b.json",
+      "sha256": "85077276c73d007607d0e962547fdc6f515fcddf51dfc5d19ac0b5ca1b9401e6",
+      "record_type": "model",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/qwen-qwen3-vl-8b.json",
+      "sha256": "3501f858bd8d00d647286d6cf374de6e8034cbb77a20dd9e5bdf0425540d79e6",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "models/qwen-qwen3-vl-8b.json",
+      "sha256": "746e9eb2b93336afa28e52a12c2ddad1b061e2b7031970b593fba87200d5baf2",
+      "record_type": "model",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/stability-ai-stable-diffusion-3-5-large.json",
+      "sha256": "f936e9ab00c6d23252aa21ba83d11145ce307db7cd09d4897d0e2fe75557c3d8",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "models/stability-ai-stable-diffusion-3-5-large.json",
+      "sha256": "f1985a45c0e0372199b633e61186fea7e5aa20a1e228a7f95aa47e6fc7049a49",
+      "record_type": "model",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/zai-org-glm-4-5-air.json",
+      "sha256": "d08456bea68165ff11559bd45d82b18ef05a890391f65a51660dc8bd174548fa",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "models/zai-org-glm-4-5-air.json",
+      "sha256": "f7d3122a3af87dadfad4ba1597347c308212e49d75f57e4400ea23f1293da53c",
+      "record_type": "model",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/zai-org-glm-4-6.json",
+      "sha256": "0b5b650c21d35514d63325e4d63415282b5901dfe317e74241fe42e3e13528e6",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "models/zai-org-glm-4-6.json",
+      "sha256": "17d696fc838e9d1e81089379d4c3c2eea794aebbe97c347acd96871acd09c331",
+      "record_type": "model",
+      "status": "accepted"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "schema_version": "3.2",
+  "record_type": "source_document",
+  "status": "accepted",
+  "payload": {
+    "source_key": "src:passmark:gpu-list-2026-09-16",
+    "title": "PassMark Video Card Benchmarks - High to Low End GPU List (snapshot 2026-09-16)",
+    "url": "https://www.videocardbenchmark.net/gpu_list.php",
+    "source_type": "independent_benchmark",
+    "published_at": null,
+    "accessed_at": "2026-09-16T04:16:15.307650Z",
+    "content_hash": "02be28f1d2a6ce37f7e46978acc01cdd2b1562ecb358a82cfc27bfa498539289",
+    "publisher_key": "org:passmark",
+    "source_tier": "C",
+    "archive_url": null,
+    "market_region": null,
+    "language": "en",
+    "availability_status": "accessible"
+  },
+  "review_notes": []
+}

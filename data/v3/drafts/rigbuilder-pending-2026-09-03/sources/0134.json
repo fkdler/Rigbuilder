@@ -1,0 +1,23 @@
+{
+  "schema_version": "3.2",
+  "record_type": "source_document",
+  "status": "pending",
+  "payload": {
+    "source_key": "src:card:qwen3-vl-4b",
+    "title": "Qwen3-VL-4B Model Card",
+    "url": "https://huggingface.co/Qwen/Qwen3-VL-4B-Instruct",
+    "publisher_key": "org:qwen",
+    "source_type": "model_card",
+    "source_tier": "A",
+    "published_at": null,
+    "market_region": null,
+    "language": null,
+    "availability_status": "accessible",
+    "archive_url": null,
+    "accessed_at": "2026-09-07T09:50:01+00:00",
+    "content_hash": "4221e91d49dadbec2582d184daf2cf63f4504f7ca51933f5d4274351308f9753"
+  },
+  "review_notes": [
+    "第一梯队模型来源登记（2026-09-07）：pending，待 page_save.py --only-missing 抓取并回填 accessed_at/content_hash；GGUF 仓（官方）以 hf_fill 报告核对实际文件。"
+  ]
+}

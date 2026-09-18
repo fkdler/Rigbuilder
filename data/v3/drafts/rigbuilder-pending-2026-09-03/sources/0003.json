@@ -1,0 +1,23 @@
+{
+  "schema_version": "3.2",
+  "record_type": "source_document",
+  "status": "pending",
+  "payload": {
+    "source_key": "source:deepseek-r1-distill-qwen-32b-card",
+    "title": "DeepSeek-R1-Distill-Qwen-32B Model Card",
+    "url": "https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-32B",
+    "source_type": "model_card",
+    "source_tier": "A",
+    "publisher_key": "org:deepseek",
+    "published_at": null,
+    "market_region": null,
+    "language": null,
+    "availability_status": "accessible",
+    "archive_url": null,
+    "accessed_at": "2026-09-07T07:04:27+00:00",
+    "content_hash": "37f09a665cfbf9343a1680be8db2da936c8f9fb5a16ef9263b9717acee9628fc"
+  },
+  "review_notes": [
+    "值未逐字读取官方页面确认，retrieved_at 为占位时间，须由实际访问者替换。"
+  ]
+}

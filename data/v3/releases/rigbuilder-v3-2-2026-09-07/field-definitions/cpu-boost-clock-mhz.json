@@ -1,0 +1,28 @@
+{
+    "schema_version":  "3.2",
+    "record_type":  "field_definition",
+    "status":  "accepted",
+    "payload":  {
+                    "field_key":  "cpu.boost_clock_mhz",
+                    "label":  "CPU boost clock",
+                    "applies_to_entity_type":  "hardware",
+                    "value_type":  "number",
+                    "canonical_unit":  "mhz",
+                    "description":  "V3.2 field definition for cpu.boost_clock_mhz",
+                    "allowed_units":  [
+                                          "mhz"
+                                      ],
+                    "indexed":  false,
+                    "cardinality":  "one",
+                    "comparison_method":  "exact",
+                    "tolerance":  null,
+                    "storage_kind":  "column",
+                    "storage_path":  "cpu_spec.boost_clock_mhz",
+                    "filterable":  false,
+                    "claimable":  true,
+                    "active":  true
+                },
+    "review_notes":  [
+                         "Accepted as part of rigbuilder-v3-2-2026-09-07"
+                     ]
+}

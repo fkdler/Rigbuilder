@@ -1,0 +1,14 @@
+{
+  "schema_version": "3.2",
+  "record_type": "entity_alias",
+  "status": "accepted",
+  "payload": {
+    "entity_key": "model:swivid:f5-tts",
+    "alias": "SWivid/F5-TTS",
+    "alias_type": "repository",
+    "language": null,
+    "normalized_alias": "swividf5tts",
+    "source_key": null
+  },
+  "review_notes": []
+}

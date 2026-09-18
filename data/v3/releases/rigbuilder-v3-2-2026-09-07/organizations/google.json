@@ -1,0 +1,23 @@
+{
+  "schema_version": "3.2",
+  "record_type": "organization",
+  "status": "accepted",
+  "payload": {
+    "identity": {
+      "entity_key": "org:google",
+      "canonical_name": "Google",
+      "entity_type": "organization",
+      "release_date": null,
+      "lifecycle_status": "active",
+      "recommendable": false
+    },
+    "website_url": "https://huggingface.co/google",
+    "organization_type": "model_publisher",
+    "country_or_region": null,
+    "evidence": []
+  },
+  "review_notes": [
+    "来源 retrieved_at 为占位时间，调查员须替换为实际看到页面的时间。",
+    "source_key 前缀暂为 src: 与 quantization/format 大小写（Q4_K_M/GGUF）待审核人与词表对齐（可统一为 source:/小写）。"
+  ]
+}

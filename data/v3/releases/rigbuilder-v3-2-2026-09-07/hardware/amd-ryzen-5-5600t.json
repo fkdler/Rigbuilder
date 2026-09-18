@@ -1,0 +1,120 @@
+{
+  "schema_version": "3.2",
+  "record_type": "hardware",
+  "status": "accepted",
+  "payload": {
+    "identity": {
+      "entity_key": "hw:amd:ryzen-5-5600t:desktop:global",
+      "canonical_name": "Ryzen 5 5600T",
+      "entity_type": "hardware",
+      "release_date": null,
+      "lifecycle_status": "unknown",
+      "recommendable": true
+    },
+    "manufacturer_key": "org:amd",
+    "record_kind": "product",
+    "product_family": "Ryzen 5",
+    "model_name": "Ryzen 5 5600T",
+    "variant_name": null,
+    "market_segment": "consumer",
+    "form_factor": "desktop",
+    "region_code": "GLOBAL",
+    "official_product_id": null,
+    "attributes": [],
+    "evidence": [
+      {
+        "source_key": "src:amd:cpu-amd-ryzen-5-5600t",
+        "field_key": "entity.canonical_name",
+        "normalized_value": "Ryzen 5 5600T",
+        "provenance_key": "official",
+        "raw_excerpt": "Ryzen 5 5600T",
+        "review_status": "accepted",
+        "reviewed_at": "2026-09-07T00:00:00Z"
+      },
+      {
+        "source_key": "src:amd:cpu-amd-ryzen-5-5600t",
+        "field_key": "cpu.architecture",
+        "normalized_value": "Zen 3",
+        "provenance_key": "official",
+        "raw_excerpt": "Zen 3",
+        "review_status": "accepted",
+        "reviewed_at": "2026-09-07T00:00:00Z"
+      },
+      {
+        "source_key": "src:amd:cpu-amd-ryzen-5-5600t",
+        "field_key": "cpu.cores_total",
+        "normalized_value": 6,
+        "provenance_key": "official",
+        "raw_excerpt": "6",
+        "review_status": "accepted",
+        "reviewed_at": "2026-09-07T00:00:00Z"
+      },
+      {
+        "source_key": "src:amd:cpu-amd-ryzen-5-5600t",
+        "field_key": "cpu.threads",
+        "normalized_value": 12,
+        "provenance_key": "official",
+        "raw_excerpt": "12",
+        "review_status": "accepted",
+        "reviewed_at": "2026-09-07T00:00:00Z"
+      },
+      {
+        "source_key": "src:amd:cpu-amd-ryzen-5-5600t",
+        "field_key": "cpu.boost_clock_mhz",
+        "normalized_value": 4500,
+        "unit_key": "mhz",
+        "provenance_key": "official",
+        "raw_excerpt": "up to 4.5 GHz",
+        "review_status": "accepted",
+        "reviewed_at": "2026-09-07T00:00:00Z"
+      },
+      {
+        "source_key": "src:amd:cpu-amd-ryzen-5-5600t",
+        "field_key": "cpu.base_power_w",
+        "normalized_value": 65,
+        "unit_key": "w",
+        "provenance_key": "official",
+        "raw_excerpt": "65 W",
+        "review_status": "accepted",
+        "reviewed_at": "2026-09-07T00:00:00Z"
+      },
+      {
+        "source_key": "src:amd:cpu-amd-ryzen-5-5600t",
+        "field_key": "cpu.socket",
+        "normalized_value": "AM4",
+        "provenance_key": "official",
+        "raw_excerpt": "AM4",
+        "review_status": "accepted",
+        "reviewed_at": "2026-09-07T00:00:00Z"
+      }
+    ],
+    "cpu_spec": {
+      "architecture": "Zen 3",
+      "codename": "Zen 3",
+      "cores_total": 6,
+      "threads": 12,
+      "performance_cores": null,
+      "efficiency_cores": null,
+      "base_clock_mhz": null,
+      "boost_clock_mhz": 4500,
+      "l2_cache_mib": null,
+      "l3_cache_mib": 32,
+      "base_power_w": 65,
+      "max_power_w": null,
+      "socket": "AM4",
+      "memory_channels": 2,
+      "max_memory_gib": null,
+      "ecc_support": null,
+      "pcie_generation": 4,
+      "pcie_lanes": 20,
+      "integrated_gpu": null,
+      "npu_model": null
+    },
+    "category": "cpu"
+  },
+  "review_notes": [
+    "来源 retrieved_at 为占位时间，调查员须替换为实际看到页面的时间。",
+    "source_key 前缀暂为 src: 与 quantization/format 大小写（Q4_K_M/GGUF）待审核人与词表对齐（可统一为 source:/小写）。",
+    "C 批补列（l3_cache_mib, pcie_generation, pcie_lanes, memory_channels）：公开规格知识填充，未逐字核对页面；对应 evidence 待审核阶段补（字段键待 vocabulary 注册）。"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "schema_version": "3.2",
+  "record_type": "source_document",
+  "status": "accepted",
+  "payload": {
+    "source_key": "src:card:qwen3-vl-8b",
+    "title": "Qwen3-VL-8B Model Card",
+    "url": "https://huggingface.co/Qwen/Qwen3-VL-8B-Instruct",
+    "publisher_key": "org:qwen",
+    "source_type": "model_card",
+    "source_tier": "A",
+    "published_at": null,
+    "market_region": null,
+    "language": null,
+    "availability_status": "accessible",
+    "archive_url": null,
+    "accessed_at": "2026-09-07T09:50:03+00:00",
+    "content_hash": "568c262e68ae9e254d9220e9d14514859a91dc3391ed3eeae851e03ea212e6da"
+  },
+  "review_notes": [
+    "第一梯队模型来源登记（2026-09-07）：pending，待 page_save.py --only-missing 抓取并回填 accessed_at/content_hash；GGUF 仓（官方）以 hf_fill 报告核对实际文件。",
+    "Approved in bulk on 2026-09-16 at the user's explicit request; no per-record human review."
+  ]
+}

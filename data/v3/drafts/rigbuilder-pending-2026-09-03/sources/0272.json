@@ -1,0 +1,24 @@
+{
+  "schema_version": "3.2",
+  "record_type": "source_document",
+  "status": "pending",
+  "payload": {
+    "source_key": "src:card:qwen3-vl-30b-a3b-instruct",
+    "title": "Qwen3-VL-30B-A3B-Instruct Model Card",
+    "url": "https://huggingface.co/Qwen/Qwen3-VL-30B-A3B-Instruct",
+    "publisher_key": "org:qwen",
+    "source_type": "model_card",
+    "source_tier": "A",
+    "published_at": null,
+    "market_region": null,
+    "language": null,
+    "availability_status": "accessible",
+    "archive_url": null,
+    "accessed_at": "2026-09-14T11:58:21+00:00",
+    "content_hash": "b21b99194268fe7bee1d6fde43c3c09cbddb67eee60678e60151b21008816b93"
+  },
+  "review_notes": [
+    "模型扩展第二批来源（2026-09-07）：pending，待抓取核验。",
+    "2026-09-14 经镜像抓取：https://hf-mirror.com/Qwen/Qwen3-VL-30B-A3B-Instruct（来源登记 URL 保持原样 https://huggingface.co/Qwen/Qwen3-VL-30B-A3B-Instruct）。"
+  ]
+}

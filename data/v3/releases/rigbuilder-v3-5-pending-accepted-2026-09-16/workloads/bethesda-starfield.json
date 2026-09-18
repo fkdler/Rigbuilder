@@ -1,0 +1,156 @@
+{
+  "schema_version": "3.2",
+  "record_type": "workload",
+  "status": "accepted",
+  "payload": {
+    "identity": {
+      "entity_key": "workload:game:starfield",
+      "canonical_name": "Starfield",
+      "entity_type": "workload",
+      "release_date": null,
+      "lifecycle_status": "unknown",
+      "recommendable": false
+    },
+    "workload_type": "game",
+    "publisher_key": "org:bethesda",
+    "family": "Starfield",
+    "current_version": null,
+    "engine": "Creation Engine 2",
+    "official_url": "https://store.steampowered.com/app/1716740/Starfield/",
+    "description": "",
+    "profiles": [
+      {
+        "profile_key": "minimum",
+        "label": "官方最低配置",
+        "version_label": null,
+        "settings": {},
+        "valid_from": null,
+        "valid_to": null,
+        "source_key": "source:bethesda-starfield-sysreq"
+      },
+      {
+        "profile_key": "recommended",
+        "label": "官方推荐配置",
+        "version_label": null,
+        "settings": {},
+        "valid_from": null,
+        "valid_to": null,
+        "source_key": "source:bethesda-starfield-sysreq"
+      }
+    ],
+    "requirements": [
+      {
+        "profile_key": "minimum",
+        "component_role": "cpu",
+        "operator": "text_only",
+        "value_text": "i7-6800K / R5 2600X",
+        "raw_value": "i7-6800K / R5 2600X",
+        "reference_entity_key": null,
+        "required_feature_key": null
+      },
+      {
+        "profile_key": "minimum",
+        "component_role": "gpu",
+        "operator": "text_only",
+        "value_text": "GTX 1070 Ti / RX 5700",
+        "raw_value": "GTX 1070 Ti / RX 5700",
+        "reference_entity_key": null,
+        "required_feature_key": null
+      },
+      {
+        "profile_key": "minimum",
+        "component_role": "ram",
+        "operator": "gte",
+        "numeric_value": 16,
+        "unit_key": "gib",
+        "reference_entity_key": null,
+        "required_feature_key": null
+      },
+      {
+        "profile_key": "minimum",
+        "component_role": "storage",
+        "operator": "text_only",
+        "value_text": "125 GB SSD",
+        "raw_value": "125 GB SSD",
+        "reference_entity_key": null,
+        "required_feature_key": null
+      },
+      {
+        "profile_key": "minimum",
+        "component_role": "feature",
+        "operator": "eq",
+        "value_text": "DX12",
+        "raw_value": "DX12",
+        "reference_entity_key": null,
+        "required_feature_key": "dx12"
+      },
+      {
+        "profile_key": "recommended",
+        "component_role": "cpu",
+        "operator": "text_only",
+        "value_text": "i5-10600K / R5 3600",
+        "raw_value": "i5-10600K / R5 3600",
+        "reference_entity_key": null,
+        "required_feature_key": null
+      },
+      {
+        "profile_key": "recommended",
+        "component_role": "gpu",
+        "operator": "text_only",
+        "value_text": "RTX 2080 / RX 6800 XT",
+        "raw_value": "RTX 2080 / RX 6800 XT",
+        "reference_entity_key": null,
+        "required_feature_key": null
+      },
+      {
+        "profile_key": "recommended",
+        "component_role": "ram",
+        "operator": "gte",
+        "numeric_value": 16,
+        "unit_key": "gib",
+        "reference_entity_key": null,
+        "required_feature_key": null
+      },
+      {
+        "profile_key": "recommended",
+        "component_role": "storage",
+        "operator": "text_only",
+        "value_text": "125 GB SSD",
+        "raw_value": "125 GB SSD",
+        "reference_entity_key": null,
+        "required_feature_key": null
+      },
+      {
+        "profile_key": "recommended",
+        "component_role": "feature",
+        "operator": "eq",
+        "value_text": "DX12",
+        "raw_value": "DX12",
+        "reference_entity_key": null,
+        "required_feature_key": "dx12"
+      }
+    ],
+    "evidence": [
+      {
+        "source_key": "source:bethesda-starfield-sysreq",
+        "field_key": "entity.canonical_name",
+        "normalized_value": "Starfield",
+        "raw_excerpt": "Starfield",
+        "provenance_key": "official",
+        "review_status": "accepted",
+        "reviewed_at": null
+      }
+    ]
+  },
+  "review_notes": [
+    "Workload 系统需求为公开常见值（官方/Steam 系统需求），未逐字读取页面；须对照官方页逐条复核。",
+    "CPU/GPU 官方多给具体型号名，本批以 value_text + operator=text_only 保留原文；RAM 用数值 gte；分辨率/画质设置不在 workload。",
+    "2026-09-14 evidence 提取：从快照 source_bethesda-starfield-sysreq.txt 提取字段级逐字证据（pending，待审核）。",
+    "2026-09-14 field_key 规范化：cpu_spec./gpu_spec. 前缀按 import_v3 规范改为 cpu./gpu.；删除 facts 中无对应键的 workload.requirement.* 证据。",
+    "2026-09-15 evidence 提取：从快照 source_bethesda-starfield-sysreq.txt 提取字段级逐字证据（pending，待审核）。",
+    "2026-09-15 evidence 提取：从快照 source_bethesda-starfield-sysreq.txt 提取字段级逐字证据（pending，待审核）。",
+    "2026-09-15 evidence 提取：从快照 source_bethesda-starfield-sysreq.txt 提取字段级逐字证据（pending，待审核）。",
+    "2026-09-15 evidence 提取：从快照 source_bethesda-starfield-sysreq.txt 提取字段级逐字证据（pending，待审核）。",
+    "Approved in bulk on 2026-09-16 at the user's explicit request; no per-record human review."
+  ]
+}

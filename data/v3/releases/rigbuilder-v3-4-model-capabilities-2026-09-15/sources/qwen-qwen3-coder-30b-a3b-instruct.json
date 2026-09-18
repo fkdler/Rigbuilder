@@ -1,0 +1,18 @@
+{
+  "schema_version": "3.2",
+  "record_type": "source_document",
+  "status": "accepted",
+  "payload": {
+    "source_key": "source:hf-api-review-20260915:Qwen/Qwen3-Coder-30B-A3B-Instruct",
+    "title": "Qwen/Qwen3-Coder-30B-A3B-Instruct official repository metadata",
+    "url": "https://huggingface.co/api/models/Qwen/Qwen3-Coder-30B-A3B-Instruct",
+    "source_type": "model_card",
+    "source_tier": "A",
+    "accessed_at": "2026-09-15T11:32:27.997203+00:00",
+    "content_hash": "d45257e37543b19febe1fcb4ea8f894e858ab98a15d3bca7a5e2305b1dbf268a",
+    "availability_status": "accessible"
+  },
+  "review_notes": [
+    "本次实际读取官方仓库公开 API 元数据；hash 对应保存的原始响应。不是下载权重或实测。"
+  ]
+}

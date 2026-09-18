@@ -1,0 +1,69 @@
+{
+  "schema_version": "3.2",
+  "record_type": "hardware",
+  "status": "accepted",
+  "payload": {
+    "identity": {
+      "entity_key": "hw:intel:core-ultra-7-155h:laptop:global",
+      "canonical_name": "Core Ultra 7 155H",
+      "entity_type": "hardware",
+      "release_date": null,
+      "lifecycle_status": "unknown",
+      "recommendable": true
+    },
+    "category": "cpu",
+    "record_kind": "product",
+    "manufacturer_key": "org:intel",
+    "form_factor": "laptop",
+    "model_name": "Core Ultra 7 155H",
+    "variant_name": null,
+    "market_segment": "mobile",
+    "region_code": "GLOBAL",
+    "official_product_id": null,
+    "product_family": null,
+    "attributes": [],
+    "evidence": [
+      {
+        "source_key": "src:hardquery:cpu",
+        "field_key": "entity.canonical_name",
+        "normalized_value": "Core Ultra 7 155H",
+        "provenance_key": "community_reported",
+        "raw_excerpt": "Core Ultra 7 155H",
+        "review_status": "accepted",
+        "reviewed_at": null
+      },
+      {
+        "source_key": "src:hardquery:cpu",
+        "field_key": "cpu.integrated_gpu",
+        "normalized_value": "Intel Arc Graphics",
+        "review_status": "accepted",
+        "confidence": 1
+      }
+    ],
+    "cpu_spec": {
+      "architecture": "Meteor Lake",
+      "codename": "Meteor Lake",
+      "cores_total": 16,
+      "threads": 22,
+      "performance_cores": 6,
+      "efficiency_cores": 10,
+      "base_clock_mhz": null,
+      "boost_clock_mhz": 4800,
+      "l2_cache_mib": null,
+      "l3_cache_mib": 24,
+      "base_power_w": 28,
+      "max_power_w": null,
+      "socket": null,
+      "memory_channels": null,
+      "max_memory_gib": null,
+      "ecc_support": null,
+      "pcie_generation": null,
+      "pcie_lanes": null,
+      "integrated_gpu": "Intel Arc Graphics",
+      "npu_model": "Intel NPU"
+    }
+  },
+  "review_notes": [
+    "Added 2026-09-16 by the migration/backfill pass; value matches the stored specification column."
+  ]
+}

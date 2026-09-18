@@ -1,0 +1,14 @@
+{
+  "schema_version": "3.2",
+  "record_type": "entity_alias",
+  "status": "accepted",
+  "payload": {
+    "entity_key": "hw:amd:radeon-rx-7600m-xt:laptop:global",
+    "alias": "Radeon RX 7600M XT",
+    "alias_type": "source_name",
+    "language": null,
+    "normalized_alias": "radeonrx7600mxt",
+    "source_key": "src:passmark:gpu-list-2026-09-16"
+  },
+  "review_notes": []
+}

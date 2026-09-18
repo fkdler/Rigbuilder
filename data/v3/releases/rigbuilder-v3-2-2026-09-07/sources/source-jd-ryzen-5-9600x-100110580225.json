@@ -1,0 +1,23 @@
+{
+  "schema_version": "3.2",
+  "record_type": "source_document",
+  "status": "accepted",
+  "payload": {
+    "source_key": "source:jd:ryzen-5-9600x-100110580225",
+    "title": "AMD 锐龙 5 9600X电脑组件CPU热卖榜第5名6核心12线程|TDP：65W|3.9 GHz|提速5.4GHz电脑组件CPU热卖榜第5名",
+    "url": "https://item.jd.com/100110580225.html",
+    "source_type": "retailer",
+    "source_tier": "C",
+    "publisher_key": null,
+    "published_at": null,
+    "market_region": "CN",
+    "language": "zh-CN",
+    "availability_status": "accessible",
+    "archive_url": null,
+    "accessed_at": "2026-09-07T07:13:44+00:00",
+    "content_hash": "55528dc4c5e8b7cfc7f7767416023f4c5477e44c0297ccf41b2dcdd5204a5e32"
+  },
+  "review_notes": [
+    "京东标价 SKU 100110580225；店铺：6万+30天加购飙升5倍AMD京东自营旗舰店；页面标价作为 current_new。"
+  ]
+}

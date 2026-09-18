@@ -1,0 +1,24 @@
+{
+  "schema_version": "3.2",
+  "record_type": "source_document",
+  "status": "accepted",
+  "payload": {
+    "source_key": "src:org:capcom",
+    "title": "Capcom 官方站点",
+    "url": "https://www.capcom.com",
+    "publisher_key": "org:capcom",
+    "source_type": "official_page",
+    "source_tier": "B",
+    "published_at": null,
+    "market_region": null,
+    "language": null,
+    "availability_status": "accessible",
+    "archive_url": null,
+    "accessed_at": "2026-09-14T11:15:44+00:00",
+    "content_hash": "a6593755d02a060305b9c81134c13486943d8b1040ba417c8549180d2e8243ea"
+  },
+  "review_notes": [
+    "evidence 补全批（2026-09-07）：pending，待抓取核验。",
+    "Approved in bulk on 2026-09-16 at the user's explicit request; no per-record human review."
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "schema_version": "3.2",
+  "record_type": "source_document",
+  "status": "pending",
+  "payload": {
+    "source_key": "src:card:qwen2-5-vl-32b-instruct",
+    "title": "Qwen2.5-VL-32B-Instruct Model Card",
+    "url": "https://huggingface.co/Qwen/Qwen2.5-VL-32B-Instruct",
+    "publisher_key": "org:qwen",
+    "source_type": "model_card",
+    "source_tier": "A",
+    "published_at": null,
+    "market_region": null,
+    "language": null,
+    "availability_status": "accessible",
+    "archive_url": null,
+    "accessed_at": "2026-09-15T11:31:59+00:00",
+    "content_hash": "08e098994e12ff8048d49ec259dae4a24e1dc6c168ed800cd521dbea11f54199"
+  },
+  "review_notes": [
+    "多模态模型来源登记（2026-09-07）：pending。",
+    "2026-09-15 经镜像抓取：https://hf-mirror.com/Qwen/Qwen2.5-VL-32B-Instruct（来源登记 URL 保持原样 https://huggingface.co/Qwen/Qwen2.5-VL-32B-Instruct）。"
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "schema_version": "3.2",
+  "record_type": "hardware",
+  "status": "pending",
+  "payload": {
+    "identity": {
+      "entity_key": "hw:nvidia:geforce-rtx-5090d:desktop:global",
+      "canonical_name": "GeForce RTX 5090D",
+      "entity_type": "hardware",
+      "release_date": null,
+      "lifecycle_status": "active",
+      "recommendable": true
+    },
+    "category": "gpu",
+    "manufacturer_key": "org:nvidia",
+    "gpu_spec": {
+      "architecture": "Blackwell",
+      "vram_gib": 32,
+      "memory_type": "GDDR7",
+      "board_power_w": 575
+    },
+    "form_factor": "desktop",
+    "market_segment": "consumer (China)",
+    "region_code": "CN",
+    "record_kind": "product",
+    "model_name": "GeForce RTX 5090D",
+    "variant_name": null,
+    "attributes": [],
+    "evidence": [
+      {
+        "source_key": "src:nvidia:gpu-desktop-50-series",
+        "field_key": "entity.canonical_name",
+        "normalized_value": "GeForce RTX 5090D",
+        "provenance_key": "official",
+        "raw_excerpt": "GeForce RTX 5090D",
+        "review_status": "pending",
+        "reviewed_at": null
+      }
+    ]
+  },
+  "review_notes": [
+    "新增国行 5090D 实体（用户要求）",
+    "2026-09-07 修复：补 form_factor=desktop / market_segment / region_code=CN（原为最小文件缺字段）。",
+    "2026-09-07 evidence 补全：挂 canonical_name 证据（来源见 sources）；其余字段证据待逐字核验后补。"
+  ]
+}

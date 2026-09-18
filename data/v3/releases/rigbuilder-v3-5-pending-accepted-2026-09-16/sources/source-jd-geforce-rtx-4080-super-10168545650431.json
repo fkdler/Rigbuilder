@@ -1,0 +1,24 @@
+{
+  "schema_version": "3.2",
+  "record_type": "source_document",
+  "status": "accepted",
+  "payload": {
+    "source_key": "source:jd:geforce-rtx-4080-super-10168545650431",
+    "title": "华硕TUF RTX4080SUPER 16G OCRGB光效|16G大显存|TUF电竞级HDMI输出RGB光效|16G大显存|TUF电竞级",
+    "url": "https://item.jd.com/10168545650431.html",
+    "source_type": "retailer",
+    "source_tier": "C",
+    "publisher_key": null,
+    "published_at": null,
+    "market_region": "CN",
+    "language": "zh-CN",
+    "availability_status": "accessible",
+    "archive_url": null,
+    "accessed_at": "2026-09-07T07:12:48+00:00",
+    "content_hash": "def20092db386f86c88ad26fb8fa90086a8a0851e91d16de276462e549877efe"
+  },
+  "review_notes": [
+    "京东 search SKU 10168545650431；店铺：第三方(未返回店名)；非京东自营，第三方渠道参考价，需审核确认。",
+    "Approved in bulk on 2026-09-16 at the user's explicit request; no per-record human review."
+  ]
+}

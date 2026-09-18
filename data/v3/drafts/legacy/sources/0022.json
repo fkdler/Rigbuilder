@@ -1,0 +1,16 @@
+{
+  "schema_version": "3.0",
+  "record_type": "source_document",
+  "status": "pending",
+  "payload": {
+    "source_key": "source:legacy:huggingface-co-bartowski-mistral-7b-instruct-v0-3-gguf",
+    "title": "Legacy source: Mistral AI",
+    "publisher": "Mistral AI",
+    "url": "https://huggingface.co/bartowski/Mistral-7B-Instruct-v0.3-GGUF",
+    "source_type": "official",
+    "retrieved_at": "1970-01-01T00:00:00Z"
+  },
+  "review_notes": [
+    "retrieved_at is an explicit sentinel; verify before acceptance"
+  ]
+}

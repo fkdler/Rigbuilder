@@ -1,0 +1,98 @@
+{
+  "schema_version": "3.2",
+  "record_type": "benchmark_run",
+  "status": "accepted",
+  "payload": {
+    "run_key": "passmark-cpu-models:hw:amd:ryzen-5-8645hs:laptop:global:2026-09-16",
+    "protocol_key": "passmark-cpu-models",
+    "protocol_version": "1",
+    "workload_key": null,
+    "started_at": "2026-09-16T04:16:04.406679Z",
+    "completed_at": null,
+    "environment": {
+      "snapshot_date": "2026-09-16",
+      "form_factor": "laptop",
+      "source_name": "AMD Ryzen 5 8645HS",
+      "population_source": "https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+5+8645HS&id=6064",
+      "population_all_cpus": 6006,
+      "population_in_class": 1588,
+      "rank_class_label": "Desktop"
+    },
+    "subjects": [
+      {
+        "entity_key": "hw:amd:ryzen-5-8645hs:laptop:global",
+        "role": "cpu",
+        "is_primary": true,
+        "quantity": 1
+      }
+    ],
+    "metrics": [
+      {
+        "metric_key": "passmark.cpu.mark",
+        "value_number": "21972",
+        "unit": "points",
+        "value_integer": null,
+        "value_boolean": null,
+        "value_text": null,
+        "statistic": "reported",
+        "sample_count": null
+      },
+      {
+        "metric_key": "passmark.cpu.single_thread",
+        "value_number": "3553",
+        "unit": "points",
+        "value_integer": null,
+        "value_boolean": null,
+        "value_text": null,
+        "statistic": "reported",
+        "sample_count": null
+      },
+      {
+        "metric_key": "passmark.cpu.rank_multi",
+        "value_number": null,
+        "unit": "rank",
+        "value_integer": 900,
+        "value_boolean": null,
+        "value_text": null,
+        "statistic": "reported",
+        "sample_count": null
+      },
+      {
+        "metric_key": "passmark.cpu.rank_class",
+        "value_number": null,
+        "unit": "rank",
+        "value_integer": 282,
+        "value_boolean": null,
+        "value_text": null,
+        "statistic": "reported",
+        "sample_count": null
+      },
+      {
+        "metric_key": "passmark.cpu.rank_single",
+        "value_number": null,
+        "unit": "rank",
+        "value_integer": 502,
+        "value_boolean": null,
+        "value_text": null,
+        "statistic": "reported",
+        "sample_count": null
+      }
+    ],
+    "evidence": [],
+    "source_key": "src:passmark:cpu-models-2026-09-16",
+    "run_origin": "independent",
+    "test_date": "2026-09-16",
+    "status": "success",
+    "settings": {
+      "source_page": "https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+5+8645HS&id=6064",
+      "score_column": "Average CPU Mark"
+    },
+    "settings_hash": null,
+    "sample_count": null,
+    "aggregation_method": "reported",
+    "raw_result_url": "https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+5+8645HS&id=6064",
+    "raw_result_hash": "def574f27194ec04ebcc9192c61d1c201c798498115630b92c8af20bf574c45b",
+    "notes": "Figures as published for 'AMD Ryzen 5 8645HS' in the 2026-09-16 snapshot."
+  },
+  "review_notes": []
+}

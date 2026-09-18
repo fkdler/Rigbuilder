@@ -1,0 +1,37 @@
+{
+  "schema_version": "3.2",
+  "record_type": "hardware",
+  "status": "accepted",
+  "payload": {
+    "identity": {
+      "entity_key": "hw:nvidia:geforce-rtx-5090d:desktop:global",
+      "canonical_name": "GeForce RTX 5090D",
+      "entity_type": "hardware",
+      "release_date": null,
+      "lifecycle_status": "active",
+      "recommendable": true
+    },
+    "category": "gpu",
+    "manufacturer_key": "org:nvidia",
+    "gpu_spec": {
+      "architecture": "Blackwell",
+      "vram_gib": 32,
+      "memory_type": "GDDR7",
+      "board_power_w": 575
+    },
+    "evidence": [
+      {
+        "source_key": "source:gpuxianka:rtx-5090d-index",
+        "field_key": "entity.canonical_name",
+        "normalized_value": "GeForce RTX 5090D",
+        "provenance_key": "community_documented",
+        "review_status": "accepted",
+        "reviewed_at": "2026-09-07T00:00:00Z",
+        "notes": "Bundle-level acceptance authorized by the release review; the user supplied the supporting source URL."
+      }
+    ]
+  },
+  "review_notes": [
+    "新增国行 5090D 实体（用户要求）"
+  ]
+}

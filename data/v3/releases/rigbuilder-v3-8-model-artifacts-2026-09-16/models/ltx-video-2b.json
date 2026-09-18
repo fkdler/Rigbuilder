@@ -1,0 +1,98 @@
+{
+  "schema_version": "3.2",
+  "record_type": "model",
+  "status": "accepted",
+  "payload": {
+    "identity": {
+      "entity_key": "model:lightricks:ltx-video-2b",
+      "canonical_name": "LTX-Video-2B",
+      "entity_type": "ai_model",
+      "release_date": "2024-11-20",
+      "lifecycle_status": "unknown",
+      "recommendable": true
+    },
+    "publisher_key": "org:lightricks",
+    "release_version": null,
+    "model_type": "diffusion",
+    "total_parameters": 1923385472,
+    "active_parameters": null,
+    "model_stage": "text_to_video",
+    "context_length_tokens": null,
+    "license_name": "LTX-Video-Open-Weights",
+    "commercial_use_status": "allowed",
+    "official_repo_url": "https://huggingface.co/Lightricks/LTX-Video",
+    "official_model_card_url": "https://huggingface.co/Lightricks/LTX-Video",
+    "architecture_notes": null,
+    "capabilities": [
+      {
+        "capability_key": "text_input",
+        "status": "supported",
+        "notes": null
+      },
+      {
+        "capability_key": "video_output",
+        "status": "supported",
+        "notes": null
+      }
+    ],
+    "variants": [
+      {
+        "identity": {
+          "entity_key": "variant:lightricks-ltx-video:official-safetensors",
+          "canonical_name": "LTX-Video-2B 官方权重 (safetensors, Lightricks)",
+          "entity_type": "model_variant",
+          "release_date": null,
+          "lifecycle_status": "unknown",
+          "recommendable": true
+        },
+        "file_size_bytes": 253809013320,
+        "weight_format": "safetensors",
+        "official_status": "official",
+        "repository_url": "https://huggingface.co/Lightricks/LTX-Video",
+        "evidence": [
+          {
+            "source_key": "src:hf:lightricks-ltx-video",
+            "field_key": "entity.canonical_name",
+            "normalized_value": "LTX-Video-2B 官方权重 (safetensors, Lightricks)",
+            "review_status": "accepted",
+            "confidence": 1
+          }
+        ]
+      }
+    ],
+    "evidence": [
+      {
+        "source_key": "src:card:ltx-video-2b",
+        "field_key": "entity.canonical_name",
+        "normalized_value": "LTX-Video-2B",
+        "provenance_key": "official",
+        "raw_excerpt": "LTX-Video-2B",
+        "review_status": "accepted",
+        "reviewed_at": null
+      },
+      {
+        "source_key": "src:card:ltx-video-2b",
+        "field_key": "model.license_name",
+        "normalized_value": "LTX-Video-Open-Weights",
+        "provenance_key": "official",
+        "raw_excerpt": "LTX-Video-Open-Weights",
+        "review_status": "accepted",
+        "reviewed_at": null
+      },
+      {
+        "source_key": "src:card:ltx-video-2b",
+        "field_key": "model.total_parameters",
+        "normalized_value": 1923385472,
+        "provenance_key": "official",
+        "raw_excerpt": "HF API safetensors.total（精确）: 1923385472",
+        "review_status": "accepted",
+        "reviewed_at": null,
+        "notes": "由公开知识值校正为官方值（原值 2000000000）"
+      }
+    ],
+    "family": "LTX-Video"
+  },
+  "review_notes": [
+    "Model artifacts enumerated from the official Hugging Face API on 2026-09-16 (file list and byte sizes only; no weights were downloaded or verified)."
+  ]
+}

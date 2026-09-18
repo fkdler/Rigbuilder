@@ -1,0 +1,23 @@
+{
+  "schema_version": "3.2",
+  "record_type": "source_document",
+  "status": "accepted",
+  "payload": {
+    "source_key": "src:hf:microsoft-florence-2-large",
+    "title": "microsoft/Florence-2-large (Hugging Face)",
+    "url": "https://huggingface.co/microsoft/Florence-2-large",
+    "source_type": "official_page",
+    "published_at": null,
+    "accessed_at": "2026-09-16T00:00:00Z",
+    "content_hash": null,
+    "publisher_key": null,
+    "source_tier": "A",
+    "archive_url": null,
+    "market_region": null,
+    "language": null,
+    "availability_status": "accessible"
+  },
+  "review_notes": [
+    "Enumerated from the official Hugging Face API on 2026-09-16."
+  ]
+}

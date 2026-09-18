@@ -1,0 +1,25 @@
+{
+  "schema_version": "3.2",
+  "record_type": "source_document",
+  "status": "accepted",
+  "payload": {
+    "source_key": "src:card:flux-1-dev",
+    "title": "FLUX.1-dev Model Card",
+    "url": "https://huggingface.co/black-forest-labs/FLUX.1-dev",
+    "publisher_key": "org:black-forest-labs",
+    "source_type": "model_card",
+    "source_tier": "A",
+    "published_at": null,
+    "market_region": null,
+    "language": null,
+    "availability_status": "accessible",
+    "archive_url": null,
+    "accessed_at": "2026-09-14T11:57:25+00:00",
+    "content_hash": "b97511f713595390032605427613473b597e2e5f1c61b50ebed0ef785dd0da78"
+  },
+  "review_notes": [
+    "模型扩展批来源登记（2026-09-07）：pending，待 page_save.py 抓取回填 accessed_at/content_hash。",
+    "2026-09-14 经镜像抓取：https://hf-mirror.com/black-forest-labs/FLUX.1-dev（来源登记 URL 保持原样 https://huggingface.co/black-forest-labs/FLUX.1-dev）。",
+    "Approved in bulk on 2026-09-16 at the user's explicit request; no per-record human review."
+  ]
+}

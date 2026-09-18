@@ -1,0 +1,53 @@
+{
+  "schema_version": "3.2",
+  "record_type": "hardware",
+  "status": "pending",
+  "payload": {
+    "identity": {
+      "entity_key": "hw:intel:platform-intel-z790:desktop:global",
+      "canonical_name": "Intel Z790",
+      "entity_type": "hardware",
+      "release_date": null,
+      "lifecycle_status": "unknown",
+      "recommendable": false
+    },
+    "category": "platform",
+    "record_kind": "spec_profile",
+    "manufacturer_key": "org:intel",
+    "form_factor": "desktop",
+    "product_family": "Intel Desktop Chipset",
+    "model_name": "Intel Z790",
+    "variant_name": null,
+    "market_segment": "consumer",
+    "region_code": "GLOBAL",
+    "official_product_id": null,
+    "platform_spec": {
+      "chipset": "Intel Z790",
+      "socket": "LGA1700",
+      "memory_standard": [
+        {
+          "standard": "DDR5",
+          "max_speed_mt_s": null
+        }
+      ],
+      "max_memory_gib": 192,
+      "pcie_generation": 5,
+      "overclock_support": true
+    },
+    "attributes": [],
+    "evidence": [
+      {
+        "source_key": "src:intel:platform-intel-z790",
+        "field_key": "entity.canonical_name",
+        "normalized_value": "Intel Z790",
+        "provenance_key": "community_reported",
+        "raw_excerpt": "Intel Z790",
+        "review_status": "pending",
+        "reviewed_at": null
+      }
+    ]
+  },
+  "review_notes": [
+    "platform 档位补充（2026-09-07）：芯片组规格为公开知识值，pending；Intel 官方页抓取困难，暂用 HardQuery 第三方库，后续可替换官方页；max_speed/容量待官方页核验。"
+  ]
+}

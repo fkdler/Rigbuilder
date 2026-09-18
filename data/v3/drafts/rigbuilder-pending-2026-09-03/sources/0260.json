@@ -1,0 +1,23 @@
+{
+  "schema_version": "3.2",
+  "record_type": "source_document",
+  "status": "pending",
+  "payload": {
+    "source_key": "src:hardquery:hardware",
+    "title": "HardQuery 硬件查询",
+    "url": "https://hardquery.com/hardware/computer_hardware/",
+    "publisher_key": "org:hardquery",
+    "source_type": "third_party_database",
+    "source_tier": "C",
+    "published_at": null,
+    "market_region": null,
+    "language": null,
+    "availability_status": "accessible",
+    "archive_url": null,
+    "accessed_at": "2026-09-14T10:28:49+00:00",
+    "content_hash": "c2030d9863f51b462f854dcf53e2decb9491b871663002c921b8ed1d9f968a68"
+  },
+  "review_notes": [
+    "evidence 补全批（2026-09-07）：HardQuery 第三方硬件库（官方页抓取困难时的替代来源，后续可替换为官方页）；pending，待 page_save.py 抓取回填。"
+  ]
+}

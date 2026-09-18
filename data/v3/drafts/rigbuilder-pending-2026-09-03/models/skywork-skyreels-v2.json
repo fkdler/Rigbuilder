@@ -1,0 +1,77 @@
+{
+  "schema_version": "3.2",
+  "record_type": "model",
+  "status": "pending",
+  "payload": {
+    "identity": {
+      "entity_key": "model:skywork:skyreels-v2",
+      "canonical_name": "SkyReels-V2",
+      "entity_type": "ai_model",
+      "release_date": "2025-04-21",
+      "lifecycle_status": "unknown",
+      "recommendable": true
+    },
+    "publisher_key": "org:skywork",
+    "release_version": null,
+    "model_type": "diffusion",
+    "total_parameters": 16394878784,
+    "active_parameters": null,
+    "model_stage": "text_to_video",
+    "context_length_tokens": null,
+    "license_name": "SkyReels-License",
+    "commercial_use_status": "allowed",
+    "official_repo_url": "https://huggingface.co/Skywork/SkyReels-V2-I2V-14B-720P-Diffusers",
+    "official_model_card_url": "https://huggingface.co/Skywork/SkyReels-V2-I2V-14B-720P-Diffusers",
+    "architecture_notes": null,
+    "capabilities": [
+      {
+        "capability_key": "text_input",
+        "status": "supported",
+        "notes": null
+      },
+      {
+        "capability_key": "video_output",
+        "status": "supported",
+        "notes": null
+      }
+    ],
+    "variants": [],
+    "evidence": [
+      {
+        "source_key": "src:card:skyreels-v2",
+        "field_key": "entity.canonical_name",
+        "normalized_value": "SkyReels-V2",
+        "provenance_key": "official",
+        "raw_excerpt": "SkyReels-V2",
+        "review_status": "pending",
+        "reviewed_at": null
+      },
+      {
+        "source_key": "src:card:skyreels-v2",
+        "field_key": "model.license_name",
+        "normalized_value": "SkyReels-License",
+        "provenance_key": "official",
+        "raw_excerpt": "SkyReels-License",
+        "review_status": "pending",
+        "reviewed_at": null
+      },
+      {
+        "source_key": "src:card:skyreels-v2",
+        "field_key": "model.total_parameters",
+        "normalized_value": 16394878784,
+        "provenance_key": "official",
+        "raw_excerpt": "HF API safetensors.total（精确）: 16394878784",
+        "notes": "由官方 config/API 回填",
+        "review_status": "pending",
+        "reviewed_at": null
+      }
+    ],
+    "family": "SkyReels"
+  },
+  "review_notes": [
+    "多模态模型批（2026-09-07）：开放权重、可本地部署；官方卡/仓库页待逐字核验，参数与许可为公开知识值，pending。",
+    "本地部署权重要求：本批均为开放权重模型（非仅 API）；参数/日期/许可待官方卡逐字核验。",
+    "2026-09-15 修正：官方仓指向 Skywork/SkyReels-V2-I2V-14B-720P-Diffusers（此前脚本误写为 Sana 仓库，已纠正）。",
+    "hf_fill --refresh-params：参数量取 HF API safetensors.total（精确），上下文取 config.json max_position_embeddings；已挂 evidence（pending）。"
+  ]
+}

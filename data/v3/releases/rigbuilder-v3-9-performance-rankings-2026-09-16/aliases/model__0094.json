@@ -1,0 +1,14 @@
+{
+  "schema_version": "3.2",
+  "record_type": "entity_alias",
+  "status": "accepted",
+  "payload": {
+    "entity_key": "model:meta:sam-2-1-hiera-large",
+    "alias": "facebook/sam2.1-hiera-large",
+    "alias_type": "repository",
+    "language": null,
+    "normalized_alias": "facebooksam21hieralarge",
+    "source_key": null
+  },
+  "review_notes": []
+}

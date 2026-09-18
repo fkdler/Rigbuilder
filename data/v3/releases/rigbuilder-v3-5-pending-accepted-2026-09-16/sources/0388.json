@@ -1,0 +1,25 @@
+{
+  "schema_version": "3.2",
+  "record_type": "source_document",
+  "status": "accepted",
+  "payload": {
+    "source_key": "src:card:bge-reranker-v2-m3",
+    "title": "bge-reranker-v2-m3 Model Card",
+    "url": "https://huggingface.co/BAAI/bge-reranker-v2-m3",
+    "publisher_key": "org:baai",
+    "source_type": "model_card",
+    "source_tier": "A",
+    "published_at": null,
+    "market_region": null,
+    "language": null,
+    "availability_status": "accessible",
+    "archive_url": null,
+    "accessed_at": "2026-09-15T11:33:11+00:00",
+    "content_hash": "bd22a2d8ac6e8b62d70f8b4ba014f3a263684946863042377d0e9c7d2baf03e3"
+  },
+  "review_notes": [
+    "多模态模型来源登记（2026-09-07）：pending。",
+    "2026-09-15 经镜像抓取：https://hf-mirror.com/BAAI/bge-reranker-v2-m3（来源登记 URL 保持原样 https://huggingface.co/BAAI/bge-reranker-v2-m3）。",
+    "Approved in bulk on 2026-09-16 at the user's explicit request; no per-record human review."
+  ]
+}

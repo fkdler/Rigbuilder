@@ -1,0 +1,24 @@
+{
+  "schema_version": "3.2",
+  "record_type": "source_document",
+  "status": "accepted",
+  "payload": {
+    "source_key": "src:gguf:unsloth-qwen3-235b-a22b-128k-gguf",
+    "title": "unsloth/Qwen3-235B-A22B-128K-GGUF (Hugging Face)",
+    "url": "https://huggingface.co/unsloth/Qwen3-235B-A22B-128K-GGUF",
+    "publisher_key": "org:unsloth",
+    "source_type": "community",
+    "source_tier": "D",
+    "published_at": null,
+    "market_region": null,
+    "language": null,
+    "availability_status": "accessible",
+    "archive_url": null,
+    "accessed_at": "2026-09-07T09:50:39+00:00",
+    "content_hash": "17661142081a1db935974716d575da6727dcfa27699f364a30cbbfbc085a6fe1"
+  },
+  "review_notes": [
+    "第一梯队模型来源登记（2026-09-07）：pending，待 page_save.py --only-missing 抓取并回填 accessed_at/content_hash；GGUF 仓（社区）以 hf_fill 报告核对实际文件。",
+    "Approved in bulk on 2026-09-16 at the user's explicit request; no per-record human review."
+  ]
+}

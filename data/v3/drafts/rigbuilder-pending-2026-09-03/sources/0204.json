@@ -1,0 +1,24 @@
+{
+  "schema_version": "3.2",
+  "record_type": "source_document",
+  "status": "pending",
+  "payload": {
+    "source_key": "src:gguf:qwen-qwen3-embedding-4b-gguf",
+    "title": "Qwen/Qwen3-Embedding-4B-GGUF (Hugging Face)",
+    "url": "https://huggingface.co/Qwen/Qwen3-Embedding-4B-GGUF",
+    "publisher_key": "org:Qwen",
+    "source_type": "official_page",
+    "source_tier": "A",
+    "published_at": null,
+    "market_region": null,
+    "language": null,
+    "availability_status": "accessible",
+    "archive_url": null,
+    "accessed_at": "2026-09-14T11:57:08+00:00",
+    "content_hash": "fae99de17fbc8d8f39e8c1aea3dbec53b30c35c6feea61e55df0a053772702ac"
+  },
+  "review_notes": [
+    "模型扩展批来源登记（2026-09-07）：pending，待 page_save.py 抓取回填 accessed_at/content_hash。",
+    "2026-09-14 经镜像抓取：https://hf-mirror.com/Qwen/Qwen3-Embedding-4B-GGUF（来源登记 URL 保持原样 https://huggingface.co/Qwen/Qwen3-Embedding-4B-GGUF）。"
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "schema_version": "3.2",
+  "record_type": "model",
+  "status": "accepted",
+  "payload": {
+    "identity": {
+      "entity_key": "model:deepseek:deepseek-v3-2-exp",
+      "canonical_name": "DeepSeek-V3.2-Exp",
+      "entity_type": "ai_model",
+      "release_date": "2025-09-29",
+      "lifecycle_status": "unknown",
+      "recommendable": true
+    },
+    "publisher_key": "org:deepseek",
+    "release_version": null,
+    "model_type": "moe",
+    "total_parameters": 685396921376,
+    "active_parameters": null,
+    "model_stage": "instruct",
+    "context_length_tokens": 163840,
+    "license_name": "MIT",
+    "commercial_use_status": "allowed",
+    "official_repo_url": "https://huggingface.co/deepseek-ai/DeepSeek-V3.2-Exp",
+    "official_model_card_url": "https://huggingface.co/deepseek-ai/DeepSeek-V3.2-Exp",
+    "architecture_notes": null,
+    "capabilities": [
+      {
+        "capability_key": "text_input",
+        "status": "supported",
+        "notes": null
+      },
+      {
+        "capability_key": "reasoning",
+        "status": "supported",
+        "notes": null
+      }
+    ],
+    "variants": [
+      {
+        "identity": {
+          "entity_key": "variant:deepseek-ai-deepseek-v3-2-exp:official-safetensors",
+          "canonical_name": "DeepSeek-V3.2-Exp 官方权重 (safetensors, deepseek-ai)",
+          "entity_type": "model_variant",
+          "release_date": null,
+          "lifecycle_status": "unknown",
+          "recommendable": true
+        },
+        "file_size_bytes": 689483049129,
+        "weight_format": "safetensors",
+        "official_status": "official",
+        "repository_url": "https://huggingface.co/deepseek-ai/DeepSeek-V3.2-Exp",
+        "evidence": [
+          {
+            "source_key": "src:hf:deepseek-ai-deepseek-v3-2-exp",
+            "field_key": "entity.canonical_name",
+            "normalized_value": "DeepSeek-V3.2-Exp 官方权重 (safetensors, deepseek-ai)",
+            "review_status": "accepted",
+            "confidence": 1
+          }
+        ]
+      }
+    ],
+    "evidence": [
+      {
+        "source_key": "src:card:deepseek-v3-2-exp",
+        "field_key": "entity.canonical_name",
+        "normalized_value": "DeepSeek-V3.2-Exp",
+        "provenance_key": "official",
+        "raw_excerpt": "DeepSeek-V3.2-Exp",
+        "review_status": "accepted",
+        "reviewed_at": null
+      },
+      {
+        "source_key": "src:card:deepseek-v3-2-exp",
+        "field_key": "model.context_length_tokens",
+        "normalized_value": 163840,
+        "provenance_key": "official",
+        "raw_excerpt": "163840",
+        "review_status": "accepted",
+        "reviewed_at": null
+      },
+      {
+        "source_key": "src:card:deepseek-v3-2-exp",
+        "field_key": "model.license_name",
+        "normalized_value": "MIT",
+        "provenance_key": "official",
+        "raw_excerpt": "License: mit",
+        "review_status": "accepted",
+        "reviewed_at": null
+      },
+      {
+        "source_key": "src:card:deepseek-v3-2-exp",
+        "field_key": "model.total_parameters",
+        "normalized_value": 685396921376,
+        "provenance_key": "official",
+        "raw_excerpt": "HF API safetensors.total（精确）: 685396921376",
+        "notes": "由官方 config/API 回填",
+        "review_status": "accepted",
+        "reviewed_at": null
+      }
+    ],
+    "family": "DeepSeek V3"
+  },
+  "review_notes": [
+    "Model artifacts enumerated from the official Hugging Face API on 2026-09-16 (file list and byte sizes only; no weights were downloaded or verified)."
+  ]
+}

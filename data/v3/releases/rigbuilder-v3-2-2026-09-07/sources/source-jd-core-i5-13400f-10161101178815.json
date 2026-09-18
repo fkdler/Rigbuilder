@@ -1,0 +1,23 @@
+{
+  "schema_version": "3.2",
+  "record_type": "source_document",
+  "status": "accepted",
+  "payload": {
+    "source_key": "source:jd:core-i5-13400f-10161101178815",
+    "title": "13400F+B760M BOMBER WIFI D4微星（msi）|B760",
+    "url": "https://item.jd.com/10161101178815.html",
+    "source_type": "retailer",
+    "source_tier": "C",
+    "publisher_key": null,
+    "published_at": null,
+    "market_region": "CN",
+    "language": "zh-CN",
+    "availability_status": "accessible",
+    "archive_url": null,
+    "accessed_at": "2026-09-07T07:11:45+00:00",
+    "content_hash": "ab45e7c35133f316ad3d84e81d5d729d81d01ca7cbaa1ec0f83cd0df6fd45cea"
+  },
+  "review_notes": [
+    "京东标价 SKU 10161101178815；店铺：邮已售3万+97%好评微星板U旗舰店；页面标价作为 current_new。"
+  ]
+}

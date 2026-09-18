@@ -1,0 +1,130 @@
+{
+  "schema_version": "3.2",
+  "record_type": "hardware",
+  "status": "accepted",
+  "payload": {
+    "identity": {
+      "entity_key": "hw:intel:core-ultra-7-265kf:desktop:global",
+      "canonical_name": "Core Ultra 7 265KF",
+      "entity_type": "hardware",
+      "release_date": null,
+      "lifecycle_status": "unknown",
+      "recommendable": true
+    },
+    "manufacturer_key": "org:intel",
+    "record_kind": "product",
+    "product_family": "Core Ultra 200S",
+    "model_name": "Core Ultra 7 265KF",
+    "variant_name": null,
+    "market_segment": "consumer",
+    "form_factor": "desktop",
+    "region_code": "GLOBAL",
+    "official_product_id": null,
+    "attributes": [],
+    "evidence": [
+      {
+        "source_key": "src:intel:cpu-sku-241062",
+        "field_key": "entity.canonical_name",
+        "normalized_value": "Core Ultra 7 265KF",
+        "provenance_key": "official",
+        "raw_excerpt": "Core Ultra 7 265KF",
+        "review_status": "accepted",
+        "reviewed_at": "2026-09-07T00:00:00Z"
+      },
+      {
+        "source_key": "src:intel:cpu-sku-241062",
+        "field_key": "cpu.architecture",
+        "normalized_value": "Arrow Lake",
+        "provenance_key": "official",
+        "raw_excerpt": "Arrow Lake",
+        "review_status": "accepted",
+        "reviewed_at": "2026-09-07T00:00:00Z"
+      },
+      {
+        "source_key": "src:intel:cpu-sku-241062",
+        "field_key": "cpu.cores_total",
+        "normalized_value": 20,
+        "provenance_key": "official",
+        "raw_excerpt": "20",
+        "review_status": "accepted",
+        "reviewed_at": "2026-09-07T00:00:00Z"
+      },
+      {
+        "source_key": "src:intel:cpu-sku-241062",
+        "field_key": "cpu.threads",
+        "normalized_value": 20,
+        "provenance_key": "official",
+        "raw_excerpt": "20",
+        "review_status": "accepted",
+        "reviewed_at": "2026-09-07T00:00:00Z"
+      },
+      {
+        "source_key": "src:intel:cpu-sku-241062",
+        "field_key": "cpu.base_clock_mhz",
+        "normalized_value": 3900,
+        "unit_key": "mhz",
+        "provenance_key": "official",
+        "raw_excerpt": "3.9 GHz",
+        "review_status": "accepted",
+        "reviewed_at": "2026-09-07T00:00:00Z"
+      },
+      {
+        "source_key": "src:intel:cpu-sku-241062",
+        "field_key": "cpu.boost_clock_mhz",
+        "normalized_value": 5500,
+        "unit_key": "mhz",
+        "provenance_key": "official",
+        "raw_excerpt": "up to 5.5 GHz",
+        "review_status": "accepted",
+        "reviewed_at": "2026-09-07T00:00:00Z"
+      },
+      {
+        "source_key": "src:intel:cpu-sku-241062",
+        "field_key": "cpu.base_power_w",
+        "normalized_value": 125,
+        "unit_key": "w",
+        "provenance_key": "official",
+        "raw_excerpt": "125 W",
+        "review_status": "accepted",
+        "reviewed_at": "2026-09-07T00:00:00Z"
+      },
+      {
+        "source_key": "src:intel:cpu-sku-241062",
+        "field_key": "cpu.socket",
+        "normalized_value": "LGA1851",
+        "provenance_key": "official",
+        "raw_excerpt": "LGA1851",
+        "review_status": "accepted",
+        "reviewed_at": "2026-09-07T00:00:00Z"
+      }
+    ],
+    "cpu_spec": {
+      "architecture": "Arrow Lake",
+      "codename": "Arrow Lake",
+      "cores_total": 20,
+      "threads": 20,
+      "performance_cores": 8,
+      "efficiency_cores": 12,
+      "base_clock_mhz": 3900,
+      "boost_clock_mhz": 5500,
+      "l2_cache_mib": null,
+      "l3_cache_mib": 30,
+      "base_power_w": 125,
+      "max_power_w": 250,
+      "socket": "LGA1851",
+      "memory_channels": 2,
+      "max_memory_gib": 192,
+      "ecc_support": null,
+      "pcie_generation": 5,
+      "pcie_lanes": 20,
+      "integrated_gpu": null,
+      "npu_model": null
+    },
+    "category": "cpu"
+  },
+  "review_notes": [
+    "来源 retrieved_at 为占位时间，调查员须替换为实际看到页面的时间。",
+    "source_key 前缀暂为 src: 与 quantization/format 大小写（Q4_K_M/GGUF）待审核人与词表对齐（可统一为 source:/小写）。",
+    "C 批补列（performance_cores, efficiency_cores, l3_cache_mib, max_power_w, memory_channels, max_memory_gib, pcie_generation, pcie_lanes）：公开规格知识填充，未逐字核对页面；对应 evidence 待审核阶段补（字段键待 vocabulary 注册）。"
+  ]
+}

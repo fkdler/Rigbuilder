@@ -1,0 +1,14 @@
+{
+  "schema_version": "3.2",
+  "record_type": "entity_alias",
+  "status": "accepted",
+  "payload": {
+    "entity_key": "model:allenai:molmo-7b-d",
+    "alias": "allenai/Molmo-7B-D-0924",
+    "alias_type": "repository",
+    "language": null,
+    "normalized_alias": "allenaimolmo7bd0924",
+    "source_key": null
+  },
+  "review_notes": []
+}

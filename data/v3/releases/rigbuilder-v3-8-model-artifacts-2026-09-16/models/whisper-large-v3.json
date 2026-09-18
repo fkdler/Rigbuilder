@@ -1,0 +1,108 @@
+{
+  "schema_version": "3.2",
+  "record_type": "model",
+  "status": "accepted",
+  "payload": {
+    "identity": {
+      "entity_key": "model:openai:whisper-large-v3",
+      "canonical_name": "whisper-large-v3",
+      "entity_type": "ai_model",
+      "release_date": "2023-11-06",
+      "lifecycle_status": "unknown",
+      "recommendable": true
+    },
+    "publisher_key": "org:openai",
+    "release_version": null,
+    "model_type": "dense",
+    "total_parameters": 1543490560,
+    "active_parameters": null,
+    "model_stage": "speech_recognition",
+    "context_length_tokens": 448,
+    "license_name": "Apache-2.0",
+    "commercial_use_status": "allowed",
+    "official_repo_url": "https://huggingface.co/openai/whisper-large-v3",
+    "official_model_card_url": "https://huggingface.co/openai/whisper-large-v3",
+    "architecture_notes": null,
+    "capabilities": [
+      {
+        "capability_key": "audio_input",
+        "status": "supported",
+        "notes": null
+      },
+      {
+        "capability_key": "text_output",
+        "status": "supported",
+        "notes": null
+      }
+    ],
+    "variants": [
+      {
+        "identity": {
+          "entity_key": "variant:openai-whisper-large-v3:official-safetensors",
+          "canonical_name": "whisper-large-v3 官方权重 (safetensors, openai)",
+          "entity_type": "model_variant",
+          "release_date": null,
+          "lifecycle_status": "unknown",
+          "recommendable": true
+        },
+        "file_size_bytes": 18523040177,
+        "weight_format": "safetensors",
+        "official_status": "official",
+        "repository_url": "https://huggingface.co/openai/whisper-large-v3",
+        "evidence": [
+          {
+            "source_key": "src:hf:openai-whisper-large-v3",
+            "field_key": "entity.canonical_name",
+            "normalized_value": "whisper-large-v3 官方权重 (safetensors, openai)",
+            "review_status": "accepted",
+            "confidence": 1
+          }
+        ]
+      }
+    ],
+    "evidence": [
+      {
+        "source_key": "src:card:whisper-large-v3",
+        "field_key": "entity.canonical_name",
+        "normalized_value": "whisper-large-v3",
+        "provenance_key": "official",
+        "raw_excerpt": "whisper-large-v3",
+        "review_status": "accepted",
+        "reviewed_at": null
+      },
+      {
+        "source_key": "src:card:whisper-large-v3",
+        "field_key": "model.total_parameters",
+        "normalized_value": 1543490560,
+        "provenance_key": "official",
+        "raw_excerpt": "HF API safetensors.total（精确）: 1543490560",
+        "review_status": "accepted",
+        "reviewed_at": null,
+        "notes": "由公开知识值校正为官方值（原值 1550000000）"
+      },
+      {
+        "source_key": "src:card:whisper-large-v3",
+        "field_key": "model.context_length_tokens",
+        "normalized_value": 448,
+        "unit_key": "tokens",
+        "provenance_key": "official",
+        "raw_excerpt": "448",
+        "review_status": "accepted",
+        "reviewed_at": null
+      },
+      {
+        "source_key": "src:card:whisper-large-v3",
+        "field_key": "model.license_name",
+        "normalized_value": "Apache-2.0",
+        "provenance_key": "official",
+        "raw_excerpt": "License: apache-2.0",
+        "review_status": "accepted",
+        "reviewed_at": null
+      }
+    ],
+    "family": "Whisper"
+  },
+  "review_notes": [
+    "Model artifacts enumerated from the official Hugging Face API on 2026-09-16 (file list and byte sizes only; no weights were downloaded or verified)."
+  ]
+}

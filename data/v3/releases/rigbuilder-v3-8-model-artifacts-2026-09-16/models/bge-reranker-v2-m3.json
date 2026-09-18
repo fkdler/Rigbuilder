@@ -1,0 +1,117 @@
+{
+  "schema_version": "3.2",
+  "record_type": "model",
+  "status": "accepted",
+  "payload": {
+    "identity": {
+      "entity_key": "model:baai:bge-reranker-v2-m3",
+      "canonical_name": "bge-reranker-v2-m3",
+      "entity_type": "ai_model",
+      "release_date": "2024-03-25",
+      "lifecycle_status": "unknown",
+      "recommendable": true
+    },
+    "publisher_key": "org:baai",
+    "release_version": null,
+    "model_type": "dense",
+    "total_parameters": 567755777,
+    "active_parameters": null,
+    "model_stage": "reranker",
+    "context_length_tokens": 8194,
+    "license_name": "Apache-2.0",
+    "commercial_use_status": "allowed",
+    "official_repo_url": "https://huggingface.co/BAAI/bge-reranker-v2-m3",
+    "official_model_card_url": "https://huggingface.co/BAAI/bge-reranker-v2-m3",
+    "architecture_notes": null,
+    "capabilities": [
+      {
+        "capability_key": "text_input",
+        "status": "supported",
+        "notes": null
+      },
+      {
+        "capability_key": "rerank",
+        "status": "supported",
+        "notes": null
+      }
+    ],
+    "variants": [
+      {
+        "identity": {
+          "entity_key": "variant:baai-bge-reranker-v2-m3:official-safetensors",
+          "canonical_name": "bge-reranker-v2-m3 官方权重 (safetensors, BAAI)",
+          "entity_type": "model_variant",
+          "release_date": null,
+          "lifecycle_status": "unknown",
+          "recommendable": true
+        },
+        "file_size_bytes": 2271071852,
+        "weight_format": "safetensors",
+        "official_status": "official",
+        "repository_url": "https://huggingface.co/BAAI/bge-reranker-v2-m3",
+        "evidence": [
+          {
+            "source_key": "src:hf:baai-bge-reranker-v2-m3",
+            "field_key": "entity.canonical_name",
+            "normalized_value": "bge-reranker-v2-m3 官方权重 (safetensors, BAAI)",
+            "review_status": "accepted",
+            "confidence": 1
+          }
+        ]
+      }
+    ],
+    "evidence": [
+      {
+        "source_key": "src:card:bge-reranker-v2-m3",
+        "field_key": "entity.canonical_name",
+        "normalized_value": "bge-reranker-v2-m3",
+        "provenance_key": "official",
+        "raw_excerpt": "bge-reranker-v2-m3",
+        "review_status": "accepted",
+        "reviewed_at": null
+      },
+      {
+        "source_key": "src:card:bge-reranker-v2-m3",
+        "field_key": "model.license_name",
+        "normalized_value": "Apache-2.0",
+        "provenance_key": "official",
+        "raw_excerpt": "License: apache-2.0",
+        "review_status": "accepted",
+        "reviewed_at": null
+      },
+      {
+        "source_key": "src:card:bge-reranker-v2-m3",
+        "field_key": "model.model_stage",
+        "normalized_value": "reranker",
+        "provenance_key": "official",
+        "raw_excerpt": "reranker",
+        "review_status": "accepted",
+        "reviewed_at": null
+      },
+      {
+        "source_key": "src:card:bge-reranker-v2-m3",
+        "field_key": "model.total_parameters",
+        "normalized_value": 567755777,
+        "provenance_key": "official",
+        "raw_excerpt": "HF API safetensors.total（精确）: 567755777",
+        "notes": "由官方 config/API 回填",
+        "review_status": "accepted",
+        "reviewed_at": null
+      },
+      {
+        "source_key": "src:card:bge-reranker-v2-m3",
+        "field_key": "model.context_length_tokens",
+        "normalized_value": 8194,
+        "provenance_key": "official",
+        "raw_excerpt": "config.json max_position_embeddings: 8194",
+        "notes": "由官方 config/API 回填",
+        "review_status": "accepted",
+        "reviewed_at": null
+      }
+    ],
+    "family": "BGE"
+  },
+  "review_notes": [
+    "Model artifacts enumerated from the official Hugging Face API on 2026-09-16 (file list and byte sizes only; no weights were downloaded or verified)."
+  ]
+}

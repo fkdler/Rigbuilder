@@ -1,0 +1,23 @@
+{
+  "schema_version": "3.2",
+  "record_type": "source_document",
+  "status": "pending",
+  "payload": {
+    "source_key": "src:amd:cpu-amd-ryzen-7-5700",
+    "title": "AMD Ryzen 7 5700 支持与下载页",
+    "url": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-7-5700.html",
+    "publisher_key": "org:amd",
+    "source_type": "official_page",
+    "source_tier": "A",
+    "published_at": null,
+    "market_region": null,
+    "language": null,
+    "availability_status": "accessible",
+    "archive_url": null,
+    "accessed_at": "2026-09-15T13:14:20+00:00",
+    "content_hash": "2f0681f0d5af8e25ac228e31f9f912e784662d4f71129c7b83adafe51f18df26"
+  },
+  "review_notes": [
+    "2026-09-15 替换来源：原 HardQuery 栏目页无法定位具体型号，改用 AMD 官方支持页/芯片组页（tier A）。"
+  ]
+}

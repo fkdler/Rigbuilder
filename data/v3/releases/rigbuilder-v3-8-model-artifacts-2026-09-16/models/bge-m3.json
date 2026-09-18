@@ -1,0 +1,107 @@
+{
+  "schema_version": "3.2",
+  "record_type": "model",
+  "status": "accepted",
+  "payload": {
+    "identity": {
+      "entity_key": "model:baai:bge-m3",
+      "canonical_name": "bge-m3",
+      "entity_type": "ai_model",
+      "release_date": "2024-01-30",
+      "lifecycle_status": "unknown",
+      "recommendable": true
+    },
+    "publisher_key": "org:baai",
+    "release_version": null,
+    "model_type": "dense",
+    "total_parameters": null,
+    "active_parameters": null,
+    "model_stage": "embedding",
+    "context_length_tokens": 8194,
+    "license_name": "MIT",
+    "commercial_use_status": "allowed",
+    "official_repo_url": "https://huggingface.co/BAAI/bge-m3",
+    "official_model_card_url": "https://huggingface.co/BAAI/bge-m3",
+    "architecture_notes": null,
+    "capabilities": [
+      {
+        "capability_key": "text_input",
+        "status": "supported",
+        "notes": null
+      },
+      {
+        "capability_key": "embedding",
+        "status": "supported",
+        "notes": null
+      }
+    ],
+    "variants": [
+      {
+        "identity": {
+          "entity_key": "variant:baai-bge-m3:official-pt",
+          "canonical_name": "bge-m3 官方权重 (pt, BAAI)",
+          "entity_type": "model_variant",
+          "release_date": null,
+          "lifecycle_status": "unknown",
+          "recommendable": true
+        },
+        "file_size_bytes": 2273974943,
+        "weight_format": "pt",
+        "official_status": "official",
+        "repository_url": "https://huggingface.co/BAAI/bge-m3",
+        "evidence": [
+          {
+            "source_key": "src:hf:baai-bge-m3",
+            "field_key": "entity.canonical_name",
+            "normalized_value": "bge-m3 官方权重 (pt, BAAI)",
+            "review_status": "accepted",
+            "confidence": 1
+          }
+        ]
+      }
+    ],
+    "evidence": [
+      {
+        "source_key": "src:card:bge-m3",
+        "field_key": "entity.canonical_name",
+        "normalized_value": "bge-m3",
+        "provenance_key": "official",
+        "raw_excerpt": "bge-m3",
+        "review_status": "accepted",
+        "reviewed_at": null
+      },
+      {
+        "source_key": "src:card:bge-m3",
+        "field_key": "model.license_name",
+        "normalized_value": "MIT",
+        "provenance_key": "official",
+        "raw_excerpt": "License: mit",
+        "review_status": "accepted",
+        "reviewed_at": null
+      },
+      {
+        "source_key": "src:card:bge-m3",
+        "field_key": "model.model_stage",
+        "normalized_value": "embedding",
+        "provenance_key": "official",
+        "raw_excerpt": "embedding",
+        "review_status": "accepted",
+        "reviewed_at": null
+      },
+      {
+        "source_key": "src:card:bge-m3",
+        "field_key": "model.context_length_tokens",
+        "normalized_value": 8194,
+        "provenance_key": "official",
+        "raw_excerpt": "config.json max_position_embeddings: 8194",
+        "notes": "由官方 config/API 回填",
+        "review_status": "accepted",
+        "reviewed_at": null
+      }
+    ],
+    "family": "BGE"
+  },
+  "review_notes": [
+    "Model artifacts enumerated from the official Hugging Face API on 2026-09-16 (file list and byte sizes only; no weights were downloaded or verified)."
+  ]
+}

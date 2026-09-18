@@ -1,0 +1,23 @@
+{
+  "schema_version": "3.2",
+  "record_type": "source_document",
+  "status": "accepted",
+  "payload": {
+    "source_key": "source:jd:intel-arc-a750-10223564546996",
+    "title": "SPARKLE A750 泰坦游戏显卡DP2.1接口|月光版外观|8G大显存泰坦性能DP2.1接口|月光版外观|8G大显存",
+    "url": "https://item.jd.com/10223564546996.html",
+    "source_type": "retailer",
+    "source_tier": "C",
+    "publisher_key": null,
+    "published_at": null,
+    "market_region": "CN",
+    "language": "zh-CN",
+    "availability_status": "accessible",
+    "archive_url": null,
+    "accessed_at": "2026-09-07T07:13:01+00:00",
+    "content_hash": "def20092db386f86c88ad26fb8fa90086a8a0851e91d16de276462e549877efe"
+  },
+  "review_notes": [
+    "京东标价 SKU 10223564546996；店铺：人看过100%好评旌宇博宇图显专卖店。"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version": "3.2",
+  "record_type": "source_document",
+  "status": "accepted",
+  "payload": {
+    "source_key": "src:card:qwen2-5-vl-72b-instruct",
+    "title": "Qwen2.5-VL-72B-Instruct Model Card",
+    "url": "https://huggingface.co/Qwen/Qwen2.5-VL-72B-Instruct",
+    "publisher_key": "org:qwen",
+    "source_type": "model_card",
+    "source_tier": "A",
+    "published_at": null,
+    "market_region": null,
+    "language": null,
+    "availability_status": "accessible",
+    "archive_url": null,
+    "accessed_at": "2026-09-15T11:32:03+00:00",
+    "content_hash": "df34e302b5d7aa54e524048252d2269e880cf83348e88148eb6fa9b3afa9e6ea"
+  },
+  "review_notes": [
+    "多模态模型来源登记（2026-09-07）：pending。",
+    "2026-09-15 经镜像抓取：https://hf-mirror.com/Qwen/Qwen2.5-VL-72B-Instruct（来源登记 URL 保持原样 https://huggingface.co/Qwen/Qwen2.5-VL-72B-Instruct）。",
+    "Approved in bulk on 2026-09-16 at the user's explicit request; no per-record human review."
+  ]
+}

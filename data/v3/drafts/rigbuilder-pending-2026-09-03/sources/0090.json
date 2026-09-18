@@ -1,0 +1,24 @@
+{
+  "schema_version": "3.2",
+  "record_type": "source_document",
+  "status": "pending",
+  "payload": {
+    "source_key": "src:nvidia:gpu-family-5070-tw",
+    "title": "GeForce RTX 5070 Family (zh-tw) - NVIDIA",
+    "url": "https://www.nvidia.com/zh-tw/geforce/graphics-cards/50-series/rtx-5070-family/",
+    "publisher_key": "org:nvidia",
+    "source_type": "official_page",
+    "source_tier": "A",
+    "published_at": null,
+    "market_region": null,
+    "language": null,
+    "availability_status": "accessible",
+    "archive_url": null,
+    "accessed_at": "2026-09-07T07:10:30+00:00",
+    "content_hash": "21a5163d2749ad43762350fbf88f0931869ffd6042f487f0eaf450520f0e5fe0"
+  },
+  "review_notes": [
+    "来源 retrieved_at 为占位时间，调查员须替换为实际看到页面的时间。",
+    "source_key 前缀暂为 src: 与 quantization/format 大小写（Q4_K_M/GGUF）待审核人与词表对齐（可统一为 source:/小写）。"
+  ]
+}

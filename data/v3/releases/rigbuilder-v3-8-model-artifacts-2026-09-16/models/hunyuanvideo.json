@@ -1,0 +1,97 @@
+{
+  "schema_version": "3.2",
+  "record_type": "model",
+  "status": "accepted",
+  "payload": {
+    "identity": {
+      "entity_key": "model:tencent:hunyuanvideo",
+      "canonical_name": "HunyuanVideo",
+      "entity_type": "ai_model",
+      "release_date": "2024-12-03",
+      "lifecycle_status": "unknown",
+      "recommendable": true
+    },
+    "publisher_key": "org:tencent",
+    "release_version": null,
+    "model_type": "diffusion",
+    "total_parameters": 13000000000,
+    "active_parameters": null,
+    "model_stage": "text_to_video",
+    "context_length_tokens": null,
+    "license_name": "Tencent-Hunyuan",
+    "commercial_use_status": "allowed",
+    "official_repo_url": "https://huggingface.co/tencent/HunyuanVideo",
+    "official_model_card_url": "https://huggingface.co/tencent/HunyuanVideo",
+    "architecture_notes": null,
+    "capabilities": [
+      {
+        "capability_key": "text_input",
+        "status": "supported",
+        "notes": null
+      },
+      {
+        "capability_key": "video_output",
+        "status": "supported",
+        "notes": null
+      }
+    ],
+    "variants": [
+      {
+        "identity": {
+          "entity_key": "variant:tencent-hunyuanvideo:official-pt",
+          "canonical_name": "HunyuanVideo 官方权重 (pt, tencent)",
+          "entity_type": "model_variant",
+          "release_date": null,
+          "lifecycle_status": "unknown",
+          "recommendable": true
+        },
+        "file_size_bytes": 39813651956,
+        "weight_format": "pt",
+        "official_status": "official",
+        "repository_url": "https://huggingface.co/tencent/HunyuanVideo",
+        "evidence": [
+          {
+            "source_key": "src:hf:tencent-hunyuanvideo",
+            "field_key": "entity.canonical_name",
+            "normalized_value": "HunyuanVideo 官方权重 (pt, tencent)",
+            "review_status": "accepted",
+            "confidence": 1
+          }
+        ]
+      }
+    ],
+    "evidence": [
+      {
+        "source_key": "src:card:hunyuanvideo",
+        "field_key": "entity.canonical_name",
+        "normalized_value": "HunyuanVideo",
+        "provenance_key": "official",
+        "raw_excerpt": "HunyuanVideo",
+        "review_status": "accepted",
+        "reviewed_at": null
+      },
+      {
+        "source_key": "src:card:hunyuanvideo",
+        "field_key": "model.license_name",
+        "normalized_value": "Tencent-Hunyuan",
+        "provenance_key": "official",
+        "raw_excerpt": "License: tencent-hunyuan-community",
+        "review_status": "accepted",
+        "reviewed_at": null
+      },
+      {
+        "source_key": "src:card:hunyuanvideo",
+        "field_key": "model.total_parameters",
+        "normalized_value": 13000000000,
+        "provenance_key": "official",
+        "raw_excerpt": "13000000000",
+        "review_status": "accepted",
+        "reviewed_at": null
+      }
+    ],
+    "family": "HunyuanVideo"
+  },
+  "review_notes": [
+    "Model artifacts enumerated from the official Hugging Face API on 2026-09-16 (file list and byte sizes only; no weights were downloaded or verified)."
+  ]
+}

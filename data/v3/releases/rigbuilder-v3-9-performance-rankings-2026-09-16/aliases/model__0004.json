@@ -1,0 +1,14 @@
+{
+  "schema_version": "3.2",
+  "record_type": "entity_alias",
+  "status": "accepted",
+  "payload": {
+    "entity_key": "model:funaudiollm:cosyvoice2-0-5b",
+    "alias": "FunAudioLLM/CosyVoice2-0.5B",
+    "alias_type": "repository",
+    "language": null,
+    "normalized_alias": "funaudiollmcosyvoice205b",
+    "source_key": null
+  },
+  "review_notes": []
+}

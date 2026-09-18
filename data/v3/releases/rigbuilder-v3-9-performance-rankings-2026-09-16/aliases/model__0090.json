@@ -1,0 +1,14 @@
+{
+  "schema_version": "3.2",
+  "record_type": "entity_alias",
+  "status": "accepted",
+  "payload": {
+    "entity_key": "model:qwen:qwen3-vl-30b-a3b-instruct",
+    "alias": "Qwen/Qwen3-VL-30B-A3B-Instruct",
+    "alias_type": "repository",
+    "language": null,
+    "normalized_alias": "qwenqwen3vl30ba3binstruct",
+    "source_key": null
+  },
+  "review_notes": []
+}

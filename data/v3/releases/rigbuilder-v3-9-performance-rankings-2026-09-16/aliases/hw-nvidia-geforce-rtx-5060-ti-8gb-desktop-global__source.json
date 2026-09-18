@@ -1,0 +1,14 @@
+{
+  "schema_version": "3.2",
+  "record_type": "entity_alias",
+  "status": "accepted",
+  "payload": {
+    "entity_key": "hw:nvidia:geforce-rtx-5060-ti-8gb:desktop:global",
+    "alias": "GeForce RTX 5060 Ti 8GB",
+    "alias_type": "source_name",
+    "language": null,
+    "normalized_alias": "geforcertx5060ti8gb",
+    "source_key": "src:passmark:gpu-list-2026-09-16"
+  },
+  "review_notes": []
+}

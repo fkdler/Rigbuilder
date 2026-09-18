@@ -1,0 +1,25 @@
+{
+  "schema_version": "3.2",
+  "record_type": "source_document",
+  "status": "accepted",
+  "payload": {
+    "source_key": "src:card:deepseek-v3-2-exp",
+    "title": "DeepSeek-V3.2-Exp Model Card",
+    "url": "https://huggingface.co/deepseek-ai/DeepSeek-V3.2-Exp",
+    "publisher_key": "org:deepseek",
+    "source_type": "model_card",
+    "source_tier": "A",
+    "published_at": null,
+    "market_region": null,
+    "language": null,
+    "availability_status": "accessible",
+    "archive_url": null,
+    "accessed_at": "2026-09-14T11:58:28+00:00",
+    "content_hash": "7edbb78eecd4396879eb9e888492d78e9fd639edf5865473fddcdc091f6a44f8"
+  },
+  "review_notes": [
+    "模型扩展第二批来源（2026-09-07）：pending，待抓取核验。",
+    "2026-09-14 经镜像抓取：https://hf-mirror.com/deepseek-ai/DeepSeek-V3.2-Exp（来源登记 URL 保持原样 https://huggingface.co/deepseek-ai/DeepSeek-V3.2-Exp）。",
+    "Approved in bulk on 2026-09-16 at the user's explicit request; no per-record human review."
+  ]
+}

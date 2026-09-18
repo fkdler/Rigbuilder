@@ -1,0 +1,75 @@
+{
+  "schema_version": "3.2",
+  "record_type": "model",
+  "status": "pending",
+  "payload": {
+    "identity": {
+      "entity_key": "model:nvidia:cosmos-predict2-14b-text2world",
+      "canonical_name": "Cosmos-Predict2-14B-Text2World",
+      "entity_type": "ai_model",
+      "release_date": "2025-01-07",
+      "lifecycle_status": "unknown",
+      "recommendable": true
+    },
+    "publisher_key": "org:nvidia",
+    "release_version": null,
+    "model_type": "diffusion",
+    "total_parameters": 14000000000,
+    "active_parameters": null,
+    "model_stage": "text_to_video",
+    "context_length_tokens": null,
+    "license_name": "NVIDIA-Open-Model",
+    "commercial_use_status": "allowed",
+    "official_repo_url": "https://github.com/nvidia-cosmos/cosmos-predict2",
+    "official_model_card_url": "https://huggingface.co/blog/nvidia/cosmos-predict-2",
+    "architecture_notes": null,
+    "capabilities": [
+      {
+        "capability_key": "text_input",
+        "status": "supported",
+        "notes": null
+      },
+      {
+        "capability_key": "video_output",
+        "status": "supported",
+        "notes": null
+      }
+    ],
+    "variants": [],
+    "evidence": [
+      {
+        "source_key": "src:card:cosmos-predict2-14b-text2world",
+        "field_key": "entity.canonical_name",
+        "normalized_value": "Cosmos-Predict2-14B-Text2World",
+        "provenance_key": "official",
+        "raw_excerpt": "Cosmos-Predict2-14B-Text2World",
+        "review_status": "pending",
+        "reviewed_at": null
+      },
+      {
+        "source_key": "src:card:cosmos-predict2-14b-text2world",
+        "field_key": "model.license_name",
+        "normalized_value": "NVIDIA-Open-Model",
+        "provenance_key": "official",
+        "raw_excerpt": "NVIDIA-Open-Model",
+        "review_status": "pending",
+        "reviewed_at": null
+      },
+      {
+        "source_key": "src:card:cosmos-predict2-14b-text2world",
+        "field_key": "model.total_parameters",
+        "normalized_value": 14000000000,
+        "provenance_key": "official",
+        "raw_excerpt": "14000000000",
+        "review_status": "pending",
+        "reviewed_at": null
+      }
+    ],
+    "family": "Cosmos"
+  },
+  "review_notes": [
+    "多模态模型批（2026-09-07）：开放权重、可本地部署；官方卡/仓库页待逐字核验，参数与许可为公开知识值，pending。",
+    "本地部署权重要求：本批均为开放权重模型（非仅 API）；参数/日期/许可待官方卡逐字核验。",
+    "2026-09-15 来源修正：原 HF 仓 nvidia/Cosmos-Predict2-14B-Text2World 不存在；official_repo_url 改为 NVIDIA 官方代码仓库 https://github.com/nvidia-cosmos/cosmos-predict2，模型卡指向官方博客 https://huggingface.co/blog/nvidia/cosmos-predict-2。模型名与规格待以官方仓库为准复核。"
+  ]
+}

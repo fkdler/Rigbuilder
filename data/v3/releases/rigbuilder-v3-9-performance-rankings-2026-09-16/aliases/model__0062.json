@@ -1,0 +1,14 @@
+{
+  "schema_version": "3.2",
+  "record_type": "entity_alias",
+  "status": "accepted",
+  "payload": {
+    "entity_key": "model:qwen:qwen-image-edit",
+    "alias": "Qwen/Qwen-Image-Edit",
+    "alias_type": "repository",
+    "language": null,
+    "normalized_alias": "qwenqwenimageedit",
+    "source_key": null
+  },
+  "review_notes": []
+}

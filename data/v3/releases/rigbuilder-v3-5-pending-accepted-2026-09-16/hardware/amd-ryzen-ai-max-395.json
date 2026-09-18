@@ -1,0 +1,64 @@
+{
+  "schema_version": "3.2",
+  "record_type": "hardware",
+  "status": "accepted",
+  "payload": {
+    "identity": {
+      "entity_key": "hw:amd:ryzen-ai-max-395:laptop:global",
+      "canonical_name": "Ryzen AI Max+ 395",
+      "entity_type": "hardware",
+      "release_date": null,
+      "lifecycle_status": "unknown",
+      "recommendable": true
+    },
+    "category": "cpu",
+    "record_kind": "product",
+    "manufacturer_key": "org:amd",
+    "form_factor": "laptop",
+    "model_name": "Ryzen AI Max+ 395",
+    "variant_name": null,
+    "market_segment": "mobile",
+    "region_code": "GLOBAL",
+    "official_product_id": null,
+    "product_family": null,
+    "attributes": [],
+    "evidence": [
+      {
+        "source_key": "src:amd:laptop-cpu",
+        "field_key": "entity.canonical_name",
+        "normalized_value": "Ryzen AI Max+ 395",
+        "provenance_key": "official",
+        "raw_excerpt": "Ryzen AI Max+ 395",
+        "review_status": "accepted",
+        "reviewed_at": null
+      }
+    ],
+    "cpu_spec": {
+      "architecture": "Zen 5",
+      "codename": "Zen 5",
+      "cores_total": 16,
+      "threads": 32,
+      "performance_cores": null,
+      "efficiency_cores": null,
+      "base_clock_mhz": 3000,
+      "boost_clock_mhz": 5100,
+      "l2_cache_mib": null,
+      "l3_cache_mib": 64,
+      "base_power_w": 55,
+      "max_power_w": null,
+      "socket": null,
+      "memory_channels": null,
+      "max_memory_gib": null,
+      "ecc_support": null,
+      "pcie_generation": null,
+      "pcie_lanes": null,
+      "integrated_gpu": "Radeon 8060S",
+      "npu_model": "Ryzen AI (NPU)"
+    }
+  },
+  "review_notes": [
+    "CPU 缺口补充批（2026-09-07）：官方来源页待核验，未挂 evidence；值按公开规格知识填写，pending，待来源确认后核对；不确定字段留空。",
+    "2026-09-07 evidence 补全：挂 canonical_name 证据（来源见 sources）；其余字段证据待逐字核验后补。",
+    "Approved in bulk on 2026-09-16 at the user's explicit request; no per-record human review."
+  ]
+}

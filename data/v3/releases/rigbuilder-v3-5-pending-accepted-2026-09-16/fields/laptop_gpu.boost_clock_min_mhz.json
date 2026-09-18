@@ -1,0 +1,26 @@
+{
+  "schema_version": "3.2",
+  "record_type": "field_definition",
+  "status": "accepted",
+  "payload": {
+    "field_key": "laptop_gpu.boost_clock_min_mhz",
+    "label": "移动 GPU 最低加速频率",
+    "applies_to_entity_type": "hardware",
+    "value_type": "integer",
+    "canonical_unit": "mhz",
+    "description": "移动 GPU 最低加速频率（2026-09-16 随 v3-5 批量补齐）",
+    "allowed_units": [
+      "mhz"
+    ],
+    "indexed": false,
+    "cardinality": "one",
+    "comparison_method": "exact",
+    "tolerance": null,
+    "storage_kind": "column",
+    "storage_path": "laptop_gpu_spec.boost_clock_min_mhz",
+    "filterable": false,
+    "claimable": true,
+    "active": true
+  },
+  "review_notes": []
+}

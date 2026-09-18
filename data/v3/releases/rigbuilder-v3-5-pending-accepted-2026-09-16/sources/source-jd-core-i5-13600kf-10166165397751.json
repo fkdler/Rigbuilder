@@ -1,0 +1,24 @@
+{
+  "schema_version": "3.2",
+  "record_type": "source_document",
+  "status": "accepted",
+  "payload": {
+    "source_key": "source:jd:core-i5-13600kf-10166165397751",
+    "title": "英特尔(Intel)i5-13600KF 盒装可开发票|强劲性能|发烧超频支持三年质保可开发票|强劲性能|发烧超频支持",
+    "url": "https://item.jd.com/10166165397751.html",
+    "source_type": "retailer",
+    "source_tier": "C",
+    "publisher_key": null,
+    "published_at": null,
+    "market_region": "CN",
+    "language": "zh-CN",
+    "availability_status": "accessible",
+    "archive_url": null,
+    "accessed_at": "2026-09-07T07:11:50+00:00",
+    "content_hash": "24c6752f4dd18f0cf79a804d60fe19d0d80ad2d3f7d8649aabc34a664c4388a3"
+  },
+  "review_notes": [
+    "京东标价 SKU 10166165397751；店铺：店铺未返回；页面标价作为 current_new。",
+    "Approved in bulk on 2026-09-16 at the user's explicit request; no per-record human review."
+  ]
+}

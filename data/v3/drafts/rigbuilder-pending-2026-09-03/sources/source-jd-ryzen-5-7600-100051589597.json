@@ -1,0 +1,23 @@
+{
+  "schema_version": "3.2",
+  "record_type": "source_document",
+  "status": "pending",
+  "payload": {
+    "source_key": "source:jd:ryzen-5-7600-100051589597",
+    "title": "AMD锐龙5 7600 智酷版处理器6核12线程|3.8GHz|强劲体验65W6核12线程|3.8GHz|强劲体验",
+    "url": "https://item.jd.com/100051589597.html",
+    "source_type": "retailer",
+    "source_tier": "C",
+    "publisher_key": null,
+    "published_at": null,
+    "market_region": "CN",
+    "language": "zh-CN",
+    "availability_status": "accessible",
+    "archive_url": null,
+    "accessed_at": "2026-09-07T07:13:39+00:00",
+    "content_hash": "925cb89df7c65a4253bfc702fecb80ab263f1dcc8984253aa65d4da2247ea2d0"
+  },
+  "review_notes": [
+    "京东标价 SKU 100051589597；店铺：2000+100+人种草AMD京东自营旗舰店；页面标价作为 current_new。"
+  ]
+}

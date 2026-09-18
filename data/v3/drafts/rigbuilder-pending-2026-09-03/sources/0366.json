@@ -1,0 +1,24 @@
+{
+  "schema_version": "3.2",
+  "record_type": "source_document",
+  "status": "pending",
+  "payload": {
+    "source_key": "src:card:open-sora-2-0",
+    "title": "Open-Sora-2.0 Model Card",
+    "url": "https://huggingface.co/hpcai-tech/Open-Sora-v2",
+    "publisher_key": "org:open-sora",
+    "source_type": "model_card",
+    "source_tier": "A",
+    "published_at": null,
+    "market_region": null,
+    "language": null,
+    "availability_status": "accessible",
+    "archive_url": null,
+    "accessed_at": "2026-09-15T11:31:35+00:00",
+    "content_hash": "7f1e6dd135041d58ca6b49c08d5ba8a202cb545826a2dab4653d160fee8a6ae6"
+  },
+  "review_notes": [
+    "多模态模型来源登记（2026-09-07）：pending，待抓取核验。",
+    "2026-09-15 经镜像抓取：https://hf-mirror.com/hpcai-tech/Open-Sora-v2（来源登记 URL 保持原样 https://huggingface.co/hpcai-tech/Open-Sora-v2）。"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "schema_version": "3.2",
+  "record_type": "source_document",
+  "status": "accepted",
+  "payload": {
+    "source_key": "source:blizzard-overwatch-2-sysreq",
+    "title": "Overwatch 2 — 官方系统需求",
+    "url": "https://store.steampowered.com/app/2357570/Overwatch_2/",
+    "source_type": "official_page",
+    "source_tier": "A",
+    "publisher_key": null,
+    "published_at": null,
+    "accessed_at": "2026-09-07T07:11:02+00:00",
+    "content_hash": "ca4375b57d0d609349656f9e8709081a924c5427cecf873a7970f8eaf1f3a451",
+    "archive_url": null,
+    "market_region": null,
+    "language": null,
+    "availability_status": "accessible"
+  },
+  "review_notes": [
+    "accessed_at 为占位时间，须由实际访问页面的调查员替换为真实访问时间。",
+    "Approved in bulk on 2026-09-16 at the user's explicit request; no per-record human review."
+  ]
+}

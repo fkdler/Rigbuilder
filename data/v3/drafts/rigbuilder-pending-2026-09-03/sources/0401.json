@@ -1,0 +1,26 @@
+{
+  "schema_version": "3.2",
+  "record_type": "source_document",
+  "status": "pending",
+  "payload": {
+    "source_key": "src:org:genmo",
+    "title": "Genmo (Mochi) 官方站点",
+    "url": "https://huggingface.co/genmo",
+    "publisher_key": "org:genmo",
+    "source_type": "official_page",
+    "source_tier": "B",
+    "published_at": null,
+    "market_region": null,
+    "language": null,
+    "availability_status": "accessible",
+    "archive_url": null,
+    "accessed_at": "2026-09-15T13:25:38+00:00",
+    "content_hash": "c9d5500a76cf974615c15429256f2d0ab9447677bef2ce3a83d8d8c0c26cf17b"
+  },
+  "review_notes": [
+    "组织来源登记（2026-09-15）：仅用于背书组织存在性；pending 待抓取。",
+    "2026-09-15 人工浏览器另存导入（src_org_genmo.html，86569B，文本 689 字）",
+    "2026-09-15 人工浏览器另存导入（src_org_genmo.html，86569B，文本 689 字）",
+    "2026-09-15 人工浏览器另存导入（src_org_genmo.html，86569B，文本 689 字）"
+  ]
+}

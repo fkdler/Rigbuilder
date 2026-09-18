@@ -1,0 +1,18 @@
+{
+  "schema_version": "3.2",
+  "record_type": "source_document",
+  "status": "accepted",
+  "payload": {
+    "source_key": "source:hf-api-review-20260915:internlm/internlm3-8b-instruct",
+    "title": "internlm/internlm3-8b-instruct official repository metadata",
+    "url": "https://huggingface.co/api/models/internlm/internlm3-8b-instruct",
+    "source_type": "model_card",
+    "source_tier": "A",
+    "accessed_at": "2026-09-15T11:31:42.209973+00:00",
+    "content_hash": "da6dce22f36a43a4301665554d6031f5f28c3fd312caa8e7ff6166183f703a5a",
+    "availability_status": "accessible"
+  },
+  "review_notes": [
+    "本次实际读取官方仓库公开 API 元数据；hash 对应保存的原始响应。不是下载权重或实测。"
+  ]
+}

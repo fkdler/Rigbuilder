@@ -1,0 +1,24 @@
+{
+  "schema_version": "3.2",
+  "record_type": "source_document",
+  "status": "pending",
+  "payload": {
+    "source_key": "src:card:mistral-small-3-2-24b-instruct",
+    "title": "Mistral-Small-3.2-24B-Instruct Model Card",
+    "url": "https://huggingface.co/mistralai/Mistral-Small-3.2-24B-Instruct-2506",
+    "publisher_key": "org:mistral-ai",
+    "source_type": "model_card",
+    "source_tier": "A",
+    "published_at": null,
+    "market_region": null,
+    "language": null,
+    "availability_status": "accessible",
+    "archive_url": null,
+    "accessed_at": "2026-09-14T11:58:31+00:00",
+    "content_hash": "c4df70c6083237728a50ba5e35428f33f35dd1c3d1d82b0a79feb1e384e2d608"
+  },
+  "review_notes": [
+    "模型扩展第二批来源（2026-09-07）：pending，待抓取核验。",
+    "2026-09-14 经镜像抓取：https://hf-mirror.com/mistralai/Mistral-Small-3.2-24B-Instruct-2506（来源登记 URL 保持原样 https://huggingface.co/mistralai/Mistral-Small-3.2-24B-Instruct-2506）。"
+  ]
+}

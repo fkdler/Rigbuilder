@@ -1,0 +1,19 @@
+{
+  "schema_version": "3.2",
+  "record_type": "field_definition",
+  "status": "accepted",
+  "payload": {
+    "field_key": "model.capability.vision_input",
+    "label": "图像输入与理解",
+    "applies_to_entity_type": "ai_model",
+    "value_type": "string",
+    "storage_kind": "attribute",
+    "filterable": true,
+    "claimable": true,
+    "comparison_method": "exact",
+    "description": "Reviewed official task metadata. Does not certify device-specific deployment or task accuracy."
+  },
+  "review_notes": [
+    "能力采用显式字段及同实体证据；不得用许可或名称代替能力证据。"
+  ]
+}

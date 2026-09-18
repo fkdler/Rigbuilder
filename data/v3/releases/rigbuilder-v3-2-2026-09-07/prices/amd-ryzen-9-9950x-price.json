@@ -1,0 +1,22 @@
+{
+  "schema_version": "3.2",
+  "record_type": "price_snapshot",
+  "status": "accepted",
+  "payload": {
+    "price_key": "price:hw:amd:ryzen-9-9950x:desktop:global:cn:2026-09",
+    "entity_key": "hw:amd:ryzen-9-9950x:desktop:global",
+    "source_key": "source:jd:ryzen-9-9950x-100110580223",
+    "observed_at": "2026-09-05T16:21:43+08:00",
+    "currency": "CNY",
+    "amount": 3602.14,
+    "availability": "in_stock",
+    "price_type": "current_new",
+    "market_region": "CN",
+    "condition": "new",
+    "seller_key": null,
+    "notes": "已售1万+100+人复购AMD京东自营旗舰店"
+  },
+  "review_notes": [
+    "京东页面标价；抓取2026-09-05。"
+  ]
+}

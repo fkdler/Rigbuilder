@@ -1,0 +1,14 @@
+{
+  "schema_version": "3.2",
+  "record_type": "entity_alias",
+  "status": "accepted",
+  "payload": {
+    "entity_key": "model:minimax:minimax-m2",
+    "alias": "MiniMaxAI/MiniMax-M2",
+    "alias_type": "repository",
+    "language": null,
+    "normalized_alias": "minimaxaiminimaxm2",
+    "source_key": null
+  },
+  "review_notes": []
+}

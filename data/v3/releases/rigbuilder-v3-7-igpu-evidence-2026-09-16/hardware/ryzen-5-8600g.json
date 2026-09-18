@@ -1,0 +1,123 @@
+{
+  "schema_version": "3.2",
+  "record_type": "hardware",
+  "status": "accepted",
+  "payload": {
+    "identity": {
+      "entity_key": "hw:amd:ryzen-5-8600g:desktop:global",
+      "canonical_name": "Ryzen 5 8600G",
+      "entity_type": "hardware",
+      "release_date": null,
+      "lifecycle_status": "unknown",
+      "recommendable": true
+    },
+    "category": "cpu",
+    "record_kind": "product",
+    "manufacturer_key": "org:amd",
+    "form_factor": "desktop",
+    "model_name": "Ryzen 5 8600G",
+    "variant_name": null,
+    "market_segment": "consumer",
+    "region_code": "GLOBAL",
+    "official_product_id": null,
+    "product_family": null,
+    "attributes": [],
+    "evidence": [
+      {
+        "source_key": "src:amd:cpu-amd-ryzen-5-8600g",
+        "field_key": "entity.canonical_name",
+        "normalized_value": "Ryzen 5 8600G",
+        "provenance_key": "official",
+        "raw_excerpt": "Ryzen 5 8600G",
+        "review_status": "accepted",
+        "reviewed_at": null
+      },
+      {
+        "source_key": "src:amd:cpu-amd-ryzen-5-8600g",
+        "field_key": "cpu.l3_cache_mib",
+        "normalized_value": 16,
+        "provenance_key": "official",
+        "raw_excerpt": "L3 Cache \n 16 MB \n Default TDP \n 65W \n AMD Configurable TDP (cTDP) \n 45-65W \n Processor Technology for CPU Cores \n TSMC",
+        "review_status": "accepted",
+        "reviewed_at": null
+      },
+      {
+        "source_key": "src:amd:cpu-amd-ryzen-5-8600g",
+        "field_key": "cpu.base_power_w",
+        "normalized_value": 65,
+        "provenance_key": "official",
+        "raw_excerpt": "Default TDP \n 65W \n AMD Configurable TDP (cTDP) \n 45-65W \n Processor Technology for CPU Cores \n TSMC 4nm FinFET \n CPU Co",
+        "review_status": "accepted",
+        "reviewed_at": null
+      },
+      {
+        "source_key": "src:amd:cpu-amd-ryzen-5-8600g",
+        "field_key": "cpu.l2_cache_mib",
+        "normalized_value": 6,
+        "provenance_key": "official",
+        "raw_excerpt": "L2 Cache \n 6 MB \n L3 Cache \n 16 MB \n Default TDP \n 65W \n AMD Configurable TDP (cTDP) \n 45-65W \n Processor Technology for",
+        "review_status": "accepted",
+        "reviewed_at": null
+      },
+      {
+        "source_key": "src:amd:cpu-amd-ryzen-5-8600g",
+        "field_key": "cpu.l3_cache_mib",
+        "normalized_value": 16,
+        "provenance_key": "official",
+        "raw_excerpt": "L3 Cache \n 16 MB \n Default TDP \n 65W \n AMD Configurable TDP (cTDP) \n 45-65W \n Processor Technology for CPU Cores \n TSMC",
+        "review_status": "accepted",
+        "reviewed_at": null
+      },
+      {
+        "source_key": "src:amd:cpu-amd-ryzen-5-8600g",
+        "field_key": "cpu.l2_cache_mib",
+        "normalized_value": 6,
+        "provenance_key": "official",
+        "raw_excerpt": "L2 Cache \n 6 MB \n L3 Cache \n 16 MB \n Default TDP \n 65W \n AMD Configurable TDP (cTDP) \n 45-65W \n Processor Technology for",
+        "review_status": "accepted",
+        "reviewed_at": null
+      },
+      {
+        "source_key": "src:amd:cpu-amd-ryzen-5-8600g",
+        "field_key": "cpu.base_power_w",
+        "normalized_value": 65,
+        "provenance_key": "official",
+        "raw_excerpt": "Default TDP \n 65W \n AMD Configurable TDP (cTDP) \n 45-65W \n Processor Technology for CPU Cores \n TSMC 4nm FinFET \n CPU Co",
+        "review_status": "accepted",
+        "reviewed_at": null
+      },
+      {
+        "source_key": "src:amd:cpu-amd-ryzen-5-8600g",
+        "field_key": "cpu.integrated_gpu",
+        "normalized_value": "Radeon 760M",
+        "review_status": "accepted",
+        "confidence": 1
+      }
+    ],
+    "cpu_spec": {
+      "architecture": "Zen 4",
+      "codename": "Zen 4",
+      "cores_total": 6,
+      "threads": 12,
+      "performance_cores": null,
+      "efficiency_cores": null,
+      "base_clock_mhz": null,
+      "boost_clock_mhz": 5000,
+      "l2_cache_mib": 6,
+      "l3_cache_mib": 16,
+      "base_power_w": 65,
+      "max_power_w": null,
+      "socket": "AM5",
+      "memory_channels": 2,
+      "max_memory_gib": null,
+      "ecc_support": null,
+      "pcie_generation": 5,
+      "pcie_lanes": 24,
+      "integrated_gpu": "Radeon 760M",
+      "npu_model": null
+    }
+  },
+  "review_notes": [
+    "Added 2026-09-16 by the migration/backfill pass; value matches the stored specification column."
+  ]
+}

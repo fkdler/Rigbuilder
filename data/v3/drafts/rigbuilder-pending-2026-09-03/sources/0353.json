@@ -1,0 +1,24 @@
+{
+  "schema_version": "3.2",
+  "record_type": "source_document",
+  "status": "pending",
+  "payload": {
+    "source_key": "src:card:flux-1-kontext-dev",
+    "title": "FLUX.1-Kontext-dev Model Card",
+    "url": "https://huggingface.co/black-forest-labs/FLUX.1-Kontext-dev",
+    "publisher_key": "org:black-forest-labs",
+    "source_type": "model_card",
+    "source_tier": "A",
+    "published_at": null,
+    "market_region": null,
+    "language": null,
+    "availability_status": "accessible",
+    "archive_url": null,
+    "accessed_at": "2026-09-15T11:30:46+00:00",
+    "content_hash": "8c7034f28783d6ce143c362e58f8d6125c934aaebb1ca85d6154b47cef0fecaa"
+  },
+  "review_notes": [
+    "多模态模型来源登记（2026-09-07）：pending，待抓取核验。",
+    "2026-09-15 经镜像抓取：https://hf-mirror.com/black-forest-labs/FLUX.1-Kontext-dev（来源登记 URL 保持原样 https://huggingface.co/black-forest-labs/FLUX.1-Kontext-dev）。"
+  ]
+}

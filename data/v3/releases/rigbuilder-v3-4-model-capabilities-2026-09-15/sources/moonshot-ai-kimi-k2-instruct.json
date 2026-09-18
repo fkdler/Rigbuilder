@@ -1,0 +1,18 @@
+{
+  "schema_version": "3.2",
+  "record_type": "source_document",
+  "status": "accepted",
+  "payload": {
+    "source_key": "source:hf-api-review-20260915:moonshotai/Kimi-K2-Instruct",
+    "title": "moonshotai/Kimi-K2-Instruct official repository metadata",
+    "url": "https://huggingface.co/api/models/moonshotai/Kimi-K2-Instruct",
+    "source_type": "model_card",
+    "source_tier": "A",
+    "accessed_at": "2026-09-15T11:31:58.906383+00:00",
+    "content_hash": "03181f5754a66744051a2645227aef96ce77b9a91e891065d4e1dadd843a7352",
+    "availability_status": "accessible"
+  },
+  "review_notes": [
+    "本次实际读取官方仓库公开 API 元数据；hash 对应保存的原始响应。不是下载权重或实测。"
+  ]
+}

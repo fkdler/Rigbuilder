@@ -1,0 +1,24 @@
+{
+  "schema_version": "3.2",
+  "record_type": "source_document",
+  "status": "accepted",
+  "payload": {
+    "source_key": "source:jd:radeon-rx-7600-xt-10233102401048",
+    "title": "小影霸Radeon RX7600XT 8G GDDR6 台式机显卡电脑高清AMD独显办公设计渲染全新电竞三角洲游戏高清显卡 RX7600XT 8GD6 魔影3A",
+    "url": "https://item.jd.com/10233102401048.html",
+    "source_type": "retailer",
+    "source_tier": "C",
+    "publisher_key": null,
+    "published_at": null,
+    "market_region": "CN",
+    "language": "zh-CN",
+    "availability_status": "accessible",
+    "archive_url": null,
+    "accessed_at": "2026-09-07T07:13:22+00:00",
+    "content_hash": "def20092db386f86c88ad26fb8fa90086a8a0851e91d16de276462e549877efe"
+  },
+  "review_notes": [
+    "京东 search SKU 10233102401048；店铺：看过100%好评小影霸电脑配件旗舰店；京东自营/官方旗舰。",
+    "Approved in bulk on 2026-09-16 at the user's explicit request; no per-record human review."
+  ]
+}

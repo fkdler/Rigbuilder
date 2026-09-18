@@ -1,0 +1,98 @@
+{
+  "schema_version": "3.2",
+  "record_type": "benchmark_run",
+  "status": "accepted",
+  "payload": {
+    "run_key": "passmark-cpu-models:hw:intel:core-i5-13420h:laptop:global:2026-09-16",
+    "protocol_key": "passmark-cpu-models",
+    "protocol_version": "1",
+    "workload_key": null,
+    "started_at": "2026-09-16T04:16:04.406679Z",
+    "completed_at": null,
+    "environment": {
+      "snapshot_date": "2026-09-16",
+      "form_factor": "laptop",
+      "source_name": "Intel Core i5-13420H",
+      "population_source": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-13420H&id=5434",
+      "population_all_cpus": 6006,
+      "population_in_class": 1647,
+      "rank_class_label": "Laptop"
+    },
+    "subjects": [
+      {
+        "entity_key": "hw:intel:core-i5-13420h:laptop:global",
+        "role": "cpu",
+        "is_primary": true,
+        "quantity": 1
+      }
+    ],
+    "metrics": [
+      {
+        "metric_key": "passmark.cpu.mark",
+        "value_number": "16794",
+        "unit": "points",
+        "value_integer": null,
+        "value_boolean": null,
+        "value_text": null,
+        "statistic": "reported",
+        "sample_count": null
+      },
+      {
+        "metric_key": "passmark.cpu.single_thread",
+        "value_number": "3348",
+        "unit": "points",
+        "value_integer": null,
+        "value_boolean": null,
+        "value_text": null,
+        "statistic": "reported",
+        "sample_count": null
+      },
+      {
+        "metric_key": "passmark.cpu.rank_multi",
+        "value_number": null,
+        "unit": "rank",
+        "value_integer": 1224,
+        "value_boolean": null,
+        "value_text": null,
+        "statistic": "reported",
+        "sample_count": null
+      },
+      {
+        "metric_key": "passmark.cpu.rank_class",
+        "value_number": null,
+        "unit": "rank",
+        "value_integer": 276,
+        "value_boolean": null,
+        "value_text": null,
+        "statistic": "reported",
+        "sample_count": null
+      },
+      {
+        "metric_key": "passmark.cpu.rank_single",
+        "value_number": null,
+        "unit": "rank",
+        "value_integer": 655,
+        "value_boolean": null,
+        "value_text": null,
+        "statistic": "reported",
+        "sample_count": null
+      }
+    ],
+    "evidence": [],
+    "source_key": "src:passmark:cpu-models-2026-09-16",
+    "run_origin": "independent",
+    "test_date": "2026-09-16",
+    "status": "success",
+    "settings": {
+      "source_page": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-13420H&id=5434",
+      "score_column": "Average CPU Mark"
+    },
+    "settings_hash": null,
+    "sample_count": null,
+    "aggregation_method": "reported",
+    "raw_result_url": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-13420H&id=5434",
+    "raw_result_hash": "d64a5b92cd65a5643b091ca69cf2417d7fc72fa09fbffa36c2bcc7450550c3e1",
+    "notes": "Figures as published for 'Intel Core i5-13420H' in the 2026-09-16 snapshot."
+  },
+  "review_notes": []
+}

@@ -1,0 +1,26 @@
+{
+  "schema_version": "3.2",
+  "record_type": "field_definition",
+  "status": "accepted",
+  "payload": {
+    "field_key": "model.deployment_estimated_load_gb",
+    "label": "推理预估占用内存",
+    "applies_to_entity_type": "ai_model",
+    "value_type": "number",
+    "canonical_unit": "gib",
+    "description": "ModelFit 估算的加载后内存占用（Q4_K_M）。估算值，不是实测值，也不等于权重文件体积。",
+    "allowed_units": [
+      "gib"
+    ],
+    "indexed": false,
+    "cardinality": "one",
+    "comparison_method": "range",
+    "tolerance": null,
+    "storage_kind": "attribute",
+    "storage_path": null,
+    "filterable": true,
+    "claimable": true,
+    "active": true
+  },
+  "review_notes": []
+}

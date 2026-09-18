@@ -1,0 +1,28 @@
+{
+    "schema_version":  "3.2",
+    "record_type":  "field_definition",
+    "status":  "accepted",
+    "payload":  {
+                    "field_key":  "model.total_parameters",
+                    "label":  "Model total parameters",
+                    "applies_to_entity_type":  "ai_model",
+                    "value_type":  "integer",
+                    "canonical_unit":  null,
+                    "description":  "V3.2 field definition for model.total_parameters",
+                    "allowed_units":  [
+
+                                      ],
+                    "indexed":  true,
+                    "cardinality":  "one",
+                    "comparison_method":  "exact",
+                    "tolerance":  null,
+                    "storage_kind":  "column",
+                    "storage_path":  "ai_model.total_parameters",
+                    "filterable":  true,
+                    "claimable":  true,
+                    "active":  true
+                },
+    "review_notes":  [
+                         "Accepted as part of rigbuilder-v3-2-2026-09-07"
+                     ]
+}

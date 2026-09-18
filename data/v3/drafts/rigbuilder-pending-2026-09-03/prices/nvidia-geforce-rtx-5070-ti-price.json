@@ -1,0 +1,22 @@
+{
+  "schema_version": "3.2",
+  "record_type": "price_snapshot",
+  "status": "pending",
+  "payload": {
+    "price_key": "price:hw:nvidia:geforce-rtx-5070-ti:desktop:global:cn:2026-09",
+    "entity_key": "hw:nvidia:geforce-rtx-5070-ti:desktop:global",
+    "source_key": "source:jd:geforce-rtx-5070-ti-100188447084",
+    "observed_at": "2026-09-05T13:39:37+08:00",
+    "currency": "CNY",
+    "amount": 11090.36,
+    "availability": "in_stock",
+    "price_type": "current_new",
+    "market_region": "CN",
+    "condition": "new",
+    "seller_key": null,
+    "notes": "京东自营/官方旗舰"
+  },
+  "review_notes": [
+    "京东页面当前价；抓取2026-09-05。"
+  ]
+}

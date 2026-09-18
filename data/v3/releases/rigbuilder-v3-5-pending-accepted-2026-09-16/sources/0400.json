@@ -1,0 +1,25 @@
+{
+  "schema_version": "3.2",
+  "record_type": "source_document",
+  "status": "accepted",
+  "payload": {
+    "source_key": "src:org:funaudiollm",
+    "title": "FunAudioLLM (Alibaba / CosyVoice) 官方站点",
+    "url": "https://huggingface.co/FunAudioLLM",
+    "publisher_key": "org:funaudiollm",
+    "source_type": "official_page",
+    "source_tier": "B",
+    "published_at": null,
+    "market_region": null,
+    "language": null,
+    "availability_status": "accessible",
+    "archive_url": null,
+    "accessed_at": "2026-09-15T13:23:45+00:00",
+    "content_hash": "99baa69f2a6eb2ded0d9b749e1cc82b47693adcca24192b354ff9a7699788b26"
+  },
+  "review_notes": [
+    "组织来源登记（2026-09-15）：仅用于背书组织存在性；pending 待抓取。",
+    "2026-09-15 回滚：原抓取结果为 hf-mirror 的\"跳转原站\"提示页（190 字符，非真实内容），已重置为未抓取状态，需直连 huggingface.co 重抓。",
+    "Approved in bulk on 2026-09-16 at the user's explicit request; no per-record human review."
+  ]
+}

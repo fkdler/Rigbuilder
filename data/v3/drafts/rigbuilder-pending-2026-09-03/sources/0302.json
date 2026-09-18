@@ -1,0 +1,23 @@
+{
+  "schema_version": "3.2",
+  "record_type": "source_document",
+  "status": "pending",
+  "payload": {
+    "source_key": "src:org:epic-games",
+    "title": "Epic Games 官方站点",
+    "url": "https://www.epicgames.com/",
+    "publisher_key": "org:epic-games",
+    "source_type": "official_page",
+    "source_tier": "B",
+    "published_at": null,
+    "market_region": null,
+    "language": null,
+    "availability_status": "accessible",
+    "archive_url": null,
+    "accessed_at": "2026-09-14T11:18:33+00:00",
+    "content_hash": "7725fa8774fd65177add35f83344f1bb2e38186c6dc3cd5e1d35d2312e206539"
+  },
+  "review_notes": [
+    "evidence 补全批（2026-09-07）：pending，待抓取核验。"
+  ]
+}

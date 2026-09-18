@@ -1,0 +1,54 @@
+{
+  "schema_version": "3.2",
+  "record_type": "hardware",
+  "status": "accepted",
+  "payload": {
+    "identity": {
+      "entity_key": "hw:amd:platform-socket-am5:desktop:global",
+      "canonical_name": "Socket AM5",
+      "entity_type": "hardware",
+      "release_date": null,
+      "lifecycle_status": "unknown",
+      "recommendable": false
+    },
+    "category": "platform",
+    "record_kind": "spec_profile",
+    "manufacturer_key": "org:amd",
+    "form_factor": "desktop",
+    "product_family": "AMD Desktop (Ryzen 7000/9000)",
+    "model_name": "AM5",
+    "variant_name": null,
+    "market_segment": "consumer",
+    "region_code": "GLOBAL",
+    "official_product_id": null,
+    "platform_spec": {
+      "chipset": null,
+      "socket": "AM5",
+      "memory_standard": [
+        {
+          "standard": "DDR5",
+          "max_speed_mt_s": 5600
+        }
+      ],
+      "max_memory_gib": null,
+      "pcie_generation": 5,
+      "overclock_support": null
+    },
+    "attributes": [],
+    "evidence": [
+      {
+        "source_key": "src:amd:cpu-amd-ryzen-7-9800x3d",
+        "field_key": "entity.canonical_name",
+        "normalized_value": "Socket AM5",
+        "raw_excerpt": "Socket AM5",
+        "provenance_key": "official",
+        "review_status": "accepted",
+        "reviewed_at": "2026-09-07T00:00:00Z"
+      }
+    ]
+  },
+  "review_notes": [
+    "platform spec_profile：公开规格知识填充（关联 CPU 官方规格页），值未逐字读取页面确认；access/复核待真人。",
+    "chipset/overclock/max_memory 等未填项待平台/芯片组官方页确认。"
+  ]
+}

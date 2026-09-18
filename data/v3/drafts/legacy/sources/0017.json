@@ -1,0 +1,16 @@
+{
+  "schema_version": "3.0",
+  "record_type": "source_document",
+  "status": "pending",
+  "payload": {
+    "source_key": "source:legacy:huggingface-co-microsoft-phi-4",
+    "title": "Legacy source: Microsoft",
+    "publisher": "Microsoft",
+    "url": "https://huggingface.co/microsoft/Phi-4",
+    "source_type": "official",
+    "retrieved_at": "1970-01-01T00:00:00Z"
+  },
+  "review_notes": [
+    "retrieved_at is an explicit sentinel; verify before acceptance"
+  ]
+}

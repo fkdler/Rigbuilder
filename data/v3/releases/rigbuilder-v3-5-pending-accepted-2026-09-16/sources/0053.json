@@ -1,0 +1,25 @@
+{
+  "schema_version": "3.2",
+  "record_type": "source_document",
+  "status": "accepted",
+  "payload": {
+    "source_key": "src:gguf:lmstudio-community-llama-3-3-70b-instruct-gguf",
+    "title": "lmstudio-community/Llama-3.3-70B-Instruct-GGUF (Hugging Face)",
+    "url": "https://huggingface.co/lmstudio-community/Llama-3.3-70B-Instruct-GGUF",
+    "publisher_key": "org:lmstudio-community",
+    "source_type": "community",
+    "source_tier": "D",
+    "published_at": null,
+    "market_region": null,
+    "language": null,
+    "availability_status": "accessible",
+    "archive_url": null,
+    "accessed_at": "2026-09-07T07:05:58+00:00",
+    "content_hash": "d802d35d3c4a925f69c2725c4b7145b22485d5fa4ac868987f3919cef1f8f813"
+  },
+  "review_notes": [
+    "来源 retrieved_at 为占位时间，调查员须替换为实际看到页面的时间。",
+    "source_key 前缀暂为 src: 与 quantization/format 大小写（Q4_K_M/GGUF）待审核人与词表对齐（可统一为 source:/小写）。",
+    "Approved in bulk on 2026-09-16 at the user's explicit request; no per-record human review."
+  ]
+}

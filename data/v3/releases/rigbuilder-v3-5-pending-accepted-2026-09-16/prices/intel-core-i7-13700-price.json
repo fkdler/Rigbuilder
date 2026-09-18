@@ -1,0 +1,23 @@
+{
+  "schema_version": "3.2",
+  "record_type": "price_snapshot",
+  "status": "accepted",
+  "payload": {
+    "price_key": "price:hw:intel:core-i7-13700:desktop:global:cn:2026-09",
+    "entity_key": "hw:intel:core-i7-13700:desktop:global",
+    "source_key": "source:jd:core-i7-13700-10092138267064",
+    "observed_at": "2026-09-07T07:35:22+08:00",
+    "currency": "CNY",
+    "amount": 1688,
+    "availability": "unknown",
+    "price_type": "current_used",
+    "market_region": "CN",
+    "condition": "used",
+    "seller_key": null,
+    "notes": "二手"
+  },
+  "review_notes": [
+    "用户提供；二手 京东页面价(二手)。",
+    "Approved in bulk on 2026-09-16 at the user's explicit request; no per-record human review."
+  ]
+}

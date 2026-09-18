@@ -1,0 +1,25 @@
+{
+  "schema_version": "3.2",
+  "record_type": "source_document",
+  "status": "accepted",
+  "payload": {
+    "source_key": "src:card:internlm3-8b-instruct",
+    "title": "InternLM3-8B-Instruct Model Card",
+    "url": "https://huggingface.co/internlm/internlm3-8b-instruct",
+    "publisher_key": "org:internlm",
+    "source_type": "model_card",
+    "source_tier": "A",
+    "published_at": null,
+    "market_region": null,
+    "language": null,
+    "availability_status": "accessible",
+    "archive_url": null,
+    "accessed_at": "2026-09-14T11:58:02+00:00",
+    "content_hash": "bf7de455299750ee671908c21535a18db5b2804d948036cfad28313b136b612d"
+  },
+  "review_notes": [
+    "模型扩展第二批来源（2026-09-07）：pending，待抓取核验。",
+    "2026-09-14 经镜像抓取：https://hf-mirror.com/internlm/internlm3-8b-instruct（来源登记 URL 保持原样 https://huggingface.co/internlm/internlm3-8b-instruct）。",
+    "Approved in bulk on 2026-09-16 at the user's explicit request; no per-record human review."
+  ]
+}

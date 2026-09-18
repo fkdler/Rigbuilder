@@ -1,0 +1,177 @@
+{
+  "schema_version": "3.2",
+  "record_type": "model",
+  "status": "accepted",
+  "payload": {
+    "identity": {
+      "entity_key": "model:microsoft:phi-4",
+      "canonical_name": "Phi-4",
+      "entity_type": "ai_model",
+      "release_date": "2024-12-12",
+      "lifecycle_status": "unknown",
+      "recommendable": true
+    },
+    "publisher_key": "org:microsoft",
+    "release_version": null,
+    "model_type": "dense",
+    "total_parameters": 14700000000,
+    "active_parameters": null,
+    "model_stage": "instruct",
+    "context_length_tokens": 16384,
+    "license_name": "MIT",
+    "commercial_use_status": "allowed",
+    "official_repo_url": "https://huggingface.co/microsoft/Phi-4",
+    "official_model_card_url": "https://huggingface.co/microsoft/Phi-4",
+    "architecture_notes": null,
+    "capabilities": [
+      {
+        "capability_key": "text_input",
+        "status": "supported",
+        "notes": null
+      }
+    ],
+    "variants": [
+      {
+        "identity": {
+          "entity_key": "variant:microsoft:phi-4:gguf:q4-k-m:unsloth",
+          "canonical_name": "Phi-4 Q4_K_M (GGUF, unsloth)",
+          "entity_type": "model_variant",
+          "release_date": null,
+          "lifecycle_status": "unknown",
+          "recommendable": false
+        },
+        "maintainer_key": "org:unsloth",
+        "quantization_method": "Q4_K_M",
+        "weight_format": "GGUF",
+        "bits_per_weight": null,
+        "file_size_bytes": 8890306112,
+        "official_status": "community",
+        "repository_url": "https://huggingface.co/unsloth/phi-4-GGUF",
+        "artifact_revision": null,
+        "artifact_manifest": null,
+        "checksum": null,
+        "evidence": [
+          {
+            "source_key": "src:gguf:unsloth-phi-4-gguf",
+            "field_key": "entity.canonical_name",
+            "normalized_value": "Phi-4 Q4_K_M (GGUF, unsloth)",
+            "provenance_key": "community_reported",
+            "raw_excerpt": "Phi-4 Q4_K_M (GGUF, unsloth)",
+            "review_status": "accepted",
+            "reviewed_at": "2026-09-07T00:00:00Z"
+          }
+        ]
+      },
+      {
+        "identity": {
+          "entity_key": "variant:microsoft:phi-4:gguf:q5-k-m:unsloth",
+          "canonical_name": "Phi-4 Q5_K_M (GGUF, unsloth)",
+          "entity_type": "model_variant",
+          "release_date": null,
+          "lifecycle_status": "unknown",
+          "recommendable": false
+        },
+        "maintainer_key": "org:unsloth",
+        "quantization_method": "Q5_K_M",
+        "weight_format": "GGUF",
+        "bits_per_weight": null,
+        "file_size_bytes": 10412707392,
+        "official_status": "community",
+        "repository_url": "https://huggingface.co/unsloth/phi-4-GGUF",
+        "artifact_revision": null,
+        "artifact_manifest": null,
+        "checksum": null,
+        "evidence": [
+          {
+            "source_key": "src:gguf:unsloth-phi-4-gguf",
+            "field_key": "entity.canonical_name",
+            "normalized_value": "Phi-4 Q5_K_M (GGUF, unsloth)",
+            "provenance_key": "community_reported",
+            "raw_excerpt": "Phi-4 Q5_K_M (GGUF, unsloth)",
+            "review_status": "accepted",
+            "reviewed_at": "2026-09-07T00:00:00Z"
+          }
+        ]
+      },
+      {
+        "identity": {
+          "entity_key": "variant:microsoft:phi-4:gguf:q8-0:unsloth",
+          "canonical_name": "Phi-4 Q8_0 (GGUF, unsloth)",
+          "entity_type": "model_variant",
+          "release_date": null,
+          "lifecycle_status": "unknown",
+          "recommendable": false
+        },
+        "maintainer_key": "org:unsloth",
+        "quantization_method": "Q8_0",
+        "weight_format": "GGUF",
+        "bits_per_weight": null,
+        "file_size_bytes": 15580507712,
+        "official_status": "community",
+        "repository_url": "https://huggingface.co/unsloth/phi-4-GGUF",
+        "artifact_revision": null,
+        "artifact_manifest": null,
+        "checksum": null,
+        "evidence": [
+          {
+            "source_key": "src:gguf:unsloth-phi-4-gguf",
+            "field_key": "entity.canonical_name",
+            "normalized_value": "Phi-4 Q8_0 (GGUF, unsloth)",
+            "provenance_key": "community_reported",
+            "raw_excerpt": "Phi-4 Q8_0 (GGUF, unsloth)",
+            "review_status": "accepted",
+            "reviewed_at": "2026-09-07T00:00:00Z"
+          }
+        ]
+      }
+    ],
+    "evidence": [
+      {
+        "source_key": "src:card:phi-4",
+        "field_key": "entity.canonical_name",
+        "normalized_value": "Phi-4",
+        "provenance_key": "official",
+        "raw_excerpt": "Phi-4",
+        "review_status": "accepted",
+        "reviewed_at": "2026-09-07T00:00:00Z"
+      },
+      {
+        "source_key": "src:card:phi-4",
+        "field_key": "model.total_parameters",
+        "normalized_value": 14700000000,
+        "provenance_key": "official",
+        "notes": "由官方宣传 B 值换算，待以官方 config 复核实际参数数",
+        "raw_excerpt": "14.7B",
+        "review_status": "accepted",
+        "reviewed_at": "2026-09-07T00:00:00Z"
+      },
+      {
+        "source_key": "src:card:phi-4",
+        "field_key": "model.context_length_tokens",
+        "normalized_value": 16384,
+        "unit_key": "tokens",
+        "provenance_key": "official",
+        "raw_excerpt": "16384",
+        "review_status": "accepted",
+        "reviewed_at": "2026-09-07T00:00:00Z"
+      },
+      {
+        "source_key": "src:card:phi-4",
+        "field_key": "model.license_name",
+        "normalized_value": "MIT",
+        "provenance_key": "official",
+        "raw_excerpt": "MIT",
+        "review_status": "accepted",
+        "reviewed_at": "2026-09-07T00:00:00Z"
+      }
+    ],
+    "family": "Phi"
+  },
+  "review_notes": [
+    "来源 retrieved_at 为占位时间，调查员须替换为实际看到页面的时间。",
+    "source_key 前缀暂为 src: 与 quantization/format 大小写（Q4_K_M/GGUF）待审核人与词表对齐（可统一为 source:/小写）。",
+    "变体 Q4_K_M 页面参考大小：8.71 GB（页面十进制参考值，非精确字节；file_size_bytes 待真实元数据）（file_size_bytes 待真实元数据）",
+    "变体 Q5_K_M 页面参考大小：10.08 GB（页面十进制参考值，非精确字节；file_size_bytes 待真实元数据）（file_size_bytes 待真实元数据）",
+    "变体 Q8_0 页面参考大小：15.31 GB（页面十进制参考值，非精确字节；file_size_bytes 待真实元数据）（file_size_bytes 待真实元数据）"
+  ]
+}

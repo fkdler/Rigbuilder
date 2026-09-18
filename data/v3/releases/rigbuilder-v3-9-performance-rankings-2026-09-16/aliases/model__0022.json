@@ -1,0 +1,14 @@
+{
+  "schema_version": "3.2",
+  "record_type": "entity_alias",
+  "status": "accepted",
+  "payload": {
+    "entity_key": "model:google:gemma-3n-e2b-it",
+    "alias": "google/gemma-3n-E2B-it",
+    "alias_type": "repository",
+    "language": null,
+    "normalized_alias": "googlegemma3ne2bit",
+    "source_key": null
+  },
+  "review_notes": []
+}

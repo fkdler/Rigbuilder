@@ -1,0 +1,27 @@
+{
+  "schema_version": "3.2",
+  "record_type": "source_document",
+  "status": "pending",
+  "payload": {
+    "source_key": "src:card:cosmos-predict2-14b-text2world",
+    "title": "Introducing Cosmos Predict-2（NVIDIA 官方博客）",
+    "url": "https://huggingface.co/blog/nvidia/cosmos-predict-2",
+    "publisher_key": "org:nvidia",
+    "source_type": "official_page",
+    "source_tier": "A",
+    "published_at": null,
+    "market_region": null,
+    "language": null,
+    "availability_status": "accessible",
+    "archive_url": null,
+    "accessed_at": "2026-09-15T13:36:26+00:00",
+    "content_hash": "c0a3544ca316f179b5fa3581676ade1688d345b04f72a18afe13052bbc99b7ec"
+  },
+  "review_notes": [
+    "多模态模型来源登记（2026-09-07）：pending，待抓取核验。",
+    "2026-09-15 复核：HF 返回 401；nvidia/Cosmos-Predict2-14B-Text2World 疑为 gated 或仓名待核，保留 URL 并标注待人工确认。",
+    "2026-09-15 回滚：原抓取结果为 hf-mirror 的\"跳转原站\"提示页（190 字符，非真实内容），已重置为未抓取状态，需直连 huggingface.co 重抓。",
+    "2026-09-15 来源替换：原 HF 仓 https://huggingface.co/nvidia/Cosmos-Predict2-14B-Text2World 不存在（404/401）。改用 NVIDIA 官方来源——HF 官方博客《Introducing Cosmos Predict-2》；官方代码仓库见 https://github.com/nvidia-cosmos/cosmos-predict2。",
+    "具体 HF 模型仓名（如 nvidia/Cosmos-Predict2-14B-Text2World）待确认；如后续找到官方仓，应替换回仓库页。"
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "schema_version": "3.2",
+  "record_type": "model",
+  "status": "accepted",
+  "payload": {
+    "identity": {
+      "entity_key": "model:wan-ai:wan2-2-t2v-a14b",
+      "canonical_name": "Wan2.2-T2V-A14B",
+      "entity_type": "ai_model",
+      "release_date": "2025-07-28",
+      "lifecycle_status": "unknown",
+      "recommendable": true
+    },
+    "publisher_key": "org:wan-ai",
+    "release_version": null,
+    "model_type": "moe",
+    "total_parameters": 14000000000,
+    "active_parameters": 14000000000,
+    "model_stage": "text_to_video",
+    "context_length_tokens": null,
+    "license_name": "Apache-2.0",
+    "commercial_use_status": "allowed",
+    "official_repo_url": "https://huggingface.co/Wan-AI/Wan2.2-T2V-A14B",
+    "official_model_card_url": "https://huggingface.co/Wan-AI/Wan2.2-T2V-A14B",
+    "architecture_notes": null,
+    "capabilities": [
+      {
+        "capability_key": "text_input",
+        "status": "supported",
+        "notes": null
+      },
+      {
+        "capability_key": "video_output",
+        "status": "supported",
+        "notes": null
+      }
+    ],
+    "variants": [],
+    "evidence": [
+      {
+        "source_key": "src:card:wan2-2-t2v-a14b",
+        "field_key": "entity.canonical_name",
+        "normalized_value": "Wan2.2-T2V-A14B",
+        "provenance_key": "official",
+        "raw_excerpt": "Wan2.2-T2V-A14B",
+        "review_status": "accepted",
+        "reviewed_at": null
+      },
+      {
+        "source_key": "src:card:wan2-2-t2v-a14b",
+        "field_key": "model.license_name",
+        "normalized_value": "Apache-2.0",
+        "provenance_key": "official",
+        "raw_excerpt": "License: apache-2.0",
+        "review_status": "accepted",
+        "reviewed_at": null
+      },
+      {
+        "source_key": "src:card:wan2-2-t2v-a14b",
+        "field_key": "model.active_parameters",
+        "normalized_value": 14000000000,
+        "provenance_key": "official",
+        "raw_excerpt": "14000000000",
+        "review_status": "accepted",
+        "reviewed_at": null
+      },
+      {
+        "source_key": "src:card:wan2-2-t2v-a14b",
+        "field_key": "model.total_parameters",
+        "normalized_value": 14000000000,
+        "provenance_key": "official",
+        "raw_excerpt": "README 参数字样: parameters but only 14B: 14000000000",
+        "notes": "由官方 config/API 回填",
+        "review_status": "accepted",
+        "reviewed_at": null
+      }
+    ],
+    "family": "Wan"
+  },
+  "review_notes": [
+    "多模态模型批（2026-09-07）：开放权重、可本地部署；官方卡/仓库页待逐字核验，参数与许可为公开知识值，pending。",
+    "本地部署权重要求：本批均为开放权重模型（非仅 API）；参数/日期/许可待官方卡逐字核验。",
+    "2026-09-15 evidence 提取：从快照 src_card_wan2-2-t2v-a14b.txt 提取字段级逐字证据（pending，待审核）。",
+    "hf_fill --refresh-params：参数量取 HF API safetensors.total（精确），上下文取 config.json max_position_embeddings；已挂 evidence（pending）。",
+    "2026-09-15 evidence 提取：从快照 src_card_wan2-2-t2v-a14b.txt 提取字段级逐字证据（pending，待审核）。",
+    "2026-09-15 evidence 提取：从快照 src_card_wan2-2-t2v-a14b.txt 提取字段级逐字证据（pending，待审核）。",
+    "2026-09-15 evidence 提取：从快照 src_card_wan2-2-t2v-a14b.txt 提取字段级逐字证据（pending，待审核）。",
+    "Approved in bulk on 2026-09-16 at the user's explicit request; no per-record human review."
+  ]
+}

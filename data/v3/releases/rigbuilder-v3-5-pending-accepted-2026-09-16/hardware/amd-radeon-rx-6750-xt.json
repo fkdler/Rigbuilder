@@ -1,0 +1,54 @@
+{
+  "schema_version": "3.2",
+  "record_type": "hardware",
+  "status": "accepted",
+  "payload": {
+    "identity": {
+      "entity_key": "hw:amd:radeon-rx-6750-xt:desktop:global",
+      "canonical_name": "Radeon RX 6750 XT",
+      "entity_type": "hardware",
+      "release_date": null,
+      "lifecycle_status": "unknown",
+      "recommendable": true
+    },
+    "category": "gpu",
+    "record_kind": "product",
+    "manufacturer_key": "org:amd",
+    "form_factor": "desktop",
+    "model_name": "Radeon RX 6750 XT",
+    "variant_name": null,
+    "market_segment": "consumer",
+    "region_code": "GLOBAL",
+    "official_product_id": null,
+    "product_family": null,
+    "attributes": [],
+    "evidence": [
+      {
+        "source_key": "src:amd:gpu-rx-6750-xt",
+        "field_key": "entity.canonical_name",
+        "normalized_value": "Radeon RX 6750 XT",
+        "provenance_key": "official",
+        "raw_excerpt": "Radeon RX 6750 XT",
+        "review_status": "accepted",
+        "reviewed_at": null
+      }
+    ],
+    "gpu_spec": {
+      "architecture": "RDNA 2",
+      "vram_gib": 12,
+      "memory_type": "GDDR6",
+      "memory_bus_width_bit": 192,
+      "memory_bandwidth_gb_s": 432,
+      "ecc_support": false,
+      "interface": null,
+      "pcie_generation": 4,
+      "pcie_lanes": null,
+      "board_power_w": 250
+    }
+  },
+  "review_notes": [
+    "重建/扩展收集（2026-09-07）：官方来源页待核验（弃用页将找替代官方来源），未挂 evidence；值按公开规格知识填写，pending，待来源确认后核对。",
+    "2026-09-07 evidence 补全：挂 canonical_name 证据（来源见 sources）；其余字段证据待逐字核验后补。",
+    "Approved in bulk on 2026-09-16 at the user's explicit request; no per-record human review."
+  ]
+}

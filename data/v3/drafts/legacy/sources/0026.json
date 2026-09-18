@@ -1,0 +1,16 @@
+{
+  "schema_version": "3.0",
+  "record_type": "source_document",
+  "status": "pending",
+  "payload": {
+    "source_key": "source:legacy:huggingface-co-unsloth-deepseek-r1-distill-qwen-7b-gguf",
+    "title": "Legacy source: DeepSeek",
+    "publisher": "DeepSeek",
+    "url": "https://huggingface.co/unsloth/DeepSeek-R1-Distill-Qwen-7B-GGUF",
+    "source_type": "official",
+    "retrieved_at": "1970-01-01T00:00:00Z"
+  },
+  "review_notes": [
+    "retrieved_at is an explicit sentinel; verify before acceptance"
+  ]
+}

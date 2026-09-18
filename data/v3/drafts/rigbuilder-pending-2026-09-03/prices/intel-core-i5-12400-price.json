@@ -1,0 +1,22 @@
+{
+  "schema_version": "3.2",
+  "record_type": "price_snapshot",
+  "status": "pending",
+  "payload": {
+    "price_key": "price:hw:intel:core-i5-12400:desktop:global:cn:2026-09",
+    "entity_key": "hw:intel:core-i5-12400:desktop:global",
+    "source_key": "source:jd:core-i5-12400-10223181888200",
+    "observed_at": "2026-09-05T16:23:14+08:00",
+    "currency": "CNY",
+    "amount": 969,
+    "availability": "in_stock",
+    "price_type": "current_new",
+    "market_region": "CN",
+    "condition": "new",
+    "seller_key": null,
+    "notes": "店铺未返回"
+  },
+  "review_notes": [
+    "京东页面标价；抓取2026-09-05。"
+  ]
+}

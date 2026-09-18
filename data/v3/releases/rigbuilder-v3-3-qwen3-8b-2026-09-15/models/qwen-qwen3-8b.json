@@ -1,0 +1,173 @@
+{
+  "schema_version": "3.2",
+  "record_type": "model",
+  "status": "accepted",
+  "payload": {
+    "identity": {
+      "entity_key": "model:qwen:qwen3-8b",
+      "canonical_name": "Qwen3-8B",
+      "entity_type": "ai_model",
+      "release_date": "2025-04-29",
+      "lifecycle_status": "unknown",
+      "recommendable": true
+    },
+    "publisher_key": "org:qwen",
+    "release_version": null,
+    "model_type": "dense",
+    "total_parameters": 8000000000,
+    "active_parameters": null,
+    "model_stage": "instruct",
+    "context_length_tokens": 131072,
+    "license_name": "Apache-2.0",
+    "commercial_use_status": "allowed",
+    "official_repo_url": "https://huggingface.co/Qwen/Qwen3-8B",
+    "official_model_card_url": "https://huggingface.co/Qwen/Qwen3-8B",
+    "architecture_notes": null,
+    "capabilities": [
+      {
+        "capability_key": "text_input",
+        "status": "supported",
+        "notes": null
+      }
+    ],
+    "variants": [
+      {
+        "identity": {
+          "entity_key": "variant:qwen:qwen3-8b:gguf:q4-k-m:qwen",
+          "canonical_name": "Qwen3-8B Q4_K_M (GGUF, qwen)",
+          "entity_type": "model_variant",
+          "release_date": null,
+          "lifecycle_status": "unknown",
+          "recommendable": false
+        },
+        "quantization_method": "Q4_K_M",
+        "weight_format": "GGUF",
+        "bits_per_weight": null,
+        "file_size_bytes": 5027783488,
+        "official_status": "official",
+        "repository_url": "https://huggingface.co/Qwen/Qwen3-8B-GGUF",
+        "artifact_revision": null,
+        "artifact_manifest": null,
+        "checksum": null,
+        "evidence": [
+          {
+            "source_key": "src:gguf:qwen-qwen3-8b-gguf",
+            "field_key": "entity.canonical_name",
+            "normalized_value": "Qwen3-8B Q4_K_M (GGUF, qwen)",
+            "provenance_key": "community_reported",
+            "raw_excerpt": "Qwen3-8B Q4_K_M (GGUF, qwen)",
+            "review_status": "accepted",
+            "reviewed_at": null
+          }
+        ]
+      },
+      {
+        "identity": {
+          "entity_key": "variant:qwen:qwen3-8b:gguf:q5-k-m:qwen",
+          "canonical_name": "Qwen3-8B Q5_K_M (GGUF, qwen)",
+          "entity_type": "model_variant",
+          "release_date": null,
+          "lifecycle_status": "unknown",
+          "recommendable": false
+        },
+        "quantization_method": "Q5_K_M",
+        "weight_format": "GGUF",
+        "bits_per_weight": null,
+        "file_size_bytes": 5851112224,
+        "official_status": "official",
+        "repository_url": "https://huggingface.co/Qwen/Qwen3-8B-GGUF",
+        "artifact_revision": null,
+        "artifact_manifest": null,
+        "checksum": null,
+        "evidence": [
+          {
+            "source_key": "src:gguf:qwen-qwen3-8b-gguf",
+            "field_key": "entity.canonical_name",
+            "normalized_value": "Qwen3-8B Q5_K_M (GGUF, qwen)",
+            "provenance_key": "community_reported",
+            "raw_excerpt": "Qwen3-8B Q5_K_M (GGUF, qwen)",
+            "review_status": "accepted",
+            "reviewed_at": null
+          }
+        ]
+      },
+      {
+        "identity": {
+          "entity_key": "variant:qwen:qwen3-8b:gguf:q8-0:qwen",
+          "canonical_name": "Qwen3-8B Q8_0 (GGUF, qwen)",
+          "entity_type": "model_variant",
+          "release_date": null,
+          "lifecycle_status": "unknown",
+          "recommendable": false
+        },
+        "quantization_method": "Q8_0",
+        "weight_format": "GGUF",
+        "bits_per_weight": null,
+        "file_size_bytes": 8709518112,
+        "official_status": "official",
+        "repository_url": "https://huggingface.co/Qwen/Qwen3-8B-GGUF",
+        "artifact_revision": null,
+        "artifact_manifest": null,
+        "checksum": null,
+        "evidence": [
+          {
+            "source_key": "src:gguf:qwen-qwen3-8b-gguf",
+            "field_key": "entity.canonical_name",
+            "normalized_value": "Qwen3-8B Q8_0 (GGUF, qwen)",
+            "provenance_key": "community_reported",
+            "raw_excerpt": "Qwen3-8B Q8_0 (GGUF, qwen)",
+            "review_status": "accepted",
+            "reviewed_at": null
+          }
+        ]
+      }
+    ],
+    "evidence": [
+      {
+        "source_key": "src:card:qwen3-8b",
+        "field_key": "entity.canonical_name",
+        "normalized_value": "Qwen3-8B",
+        "provenance_key": "official",
+        "raw_excerpt": "Qwen3-8B",
+        "review_status": "accepted",
+        "reviewed_at": null
+      },
+      {
+        "source_key": "src:card:qwen3-8b",
+        "field_key": "model.total_parameters",
+        "normalized_value": 8000000000,
+        "provenance_key": "official",
+        "raw_excerpt": "8000000000",
+        "review_status": "accepted",
+        "reviewed_at": null
+      },
+      {
+        "source_key": "src:card:qwen3-8b",
+        "field_key": "model.context_length_tokens",
+        "normalized_value": 131072,
+        "unit_key": "tokens",
+        "provenance_key": "official",
+        "raw_excerpt": "131072",
+        "review_status": "accepted",
+        "reviewed_at": null
+      },
+      {
+        "source_key": "src:card:qwen3-8b",
+        "field_key": "model.license_name",
+        "normalized_value": "Apache-2.0",
+        "provenance_key": "official",
+        "raw_excerpt": "License: apache-2.0",
+        "review_status": "accepted",
+        "reviewed_at": null
+      }
+    ],
+    "family": "Qwen3"
+  },
+  "review_notes": [
+    "第一梯队主流模型收集（2026-09-07）：官方卡/仓库页待核验，未挂 evidence；参数量/上下文为公开知识档位值（如 8B/131072），pending，待 hf_fill --apply-params 或官方 config 复核后核对；MoE 的 total_parameters 未知档置 null。",
+    "GGUF 变体骨架：file_size_bytes 留空，待 hf_fill.py --apply-bytes 按仓库真实文件回填；量化档/仓库 URL 若与实际不符，以 hf_fill 报告为准校正或删除。",
+    "2026-09-07 evidence 补全：挂 canonical_name/参数/上下文/许可证据（引 model card 来源，pending 待逐字核验）。",
+    "2026-09-14 evidence 提取：从快照 src_card_qwen3-8b.txt 提取字段级逐字证据（pending，待审核）。",
+    "2026-09-14 evidence 提取：从快照 src_gguf_qwen-qwen3-8b-gguf.txt 提取字段级逐字证据（pending，待审核）。"
+  ]
+}

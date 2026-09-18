@@ -1,0 +1,138 @@
+{
+  "schema_version": "3.2",
+  "record_type": "hardware",
+  "status": "accepted",
+  "payload": {
+    "identity": {
+      "entity_key": "hw:nvidia:geforce-rtx-5070:desktop:global",
+      "canonical_name": "GeForce RTX 5070",
+      "entity_type": "hardware",
+      "release_date": "2025-03-05",
+      "lifecycle_status": "unknown",
+      "recommendable": true
+    },
+    "manufacturer_key": "org:nvidia",
+    "record_kind": "product",
+    "product_family": null,
+    "model_name": "GeForce RTX 5070",
+    "variant_name": null,
+    "market_segment": "consumer",
+    "form_factor": "desktop",
+    "region_code": "GLOBAL",
+    "official_product_id": null,
+    "attributes": [],
+    "evidence": [
+      {
+        "source_key": "src:nvidia:gpu-family-5070-tw",
+        "field_key": "entity.canonical_name",
+        "normalized_value": "GeForce RTX 5070",
+        "provenance_key": "official",
+        "raw_excerpt": "GeForce RTX 5070",
+        "review_status": "accepted",
+        "reviewed_at": "2026-09-07T00:00:00Z"
+      },
+      {
+        "source_key": "src:nvidia:gpu-family-5070-tw",
+        "field_key": "gpu.architecture",
+        "normalized_value": "Blackwell",
+        "provenance_key": "official",
+        "raw_excerpt": "Blackwell",
+        "review_status": "accepted",
+        "reviewed_at": "2026-09-07T00:00:00Z"
+      },
+      {
+        "source_key": "src:nvidia:gpu-family-5070-tw",
+        "field_key": "gpu.vram_gib",
+        "normalized_value": 12,
+        "unit_key": "gib",
+        "provenance_key": "official",
+        "raw_excerpt": "12 GB GDDR7",
+        "review_status": "accepted",
+        "reviewed_at": "2026-09-07T00:00:00Z"
+      },
+      {
+        "source_key": "src:nvidia:gpu-family-5070-tw",
+        "field_key": "gpu.memory_type",
+        "normalized_value": "GDDR7",
+        "provenance_key": "official",
+        "raw_excerpt": "GDDR7",
+        "review_status": "accepted",
+        "reviewed_at": "2026-09-07T00:00:00Z"
+      },
+      {
+        "source_key": "src:nvidia:gpu-family-5070-tw",
+        "field_key": "gpu.board_power_w",
+        "normalized_value": 250,
+        "unit_key": "w",
+        "provenance_key": "official",
+        "raw_excerpt": "250 W",
+        "review_status": "accepted",
+        "reviewed_at": "2026-09-07T00:00:00Z"
+      },
+      {
+        "source_key": "src:nvidia:gpu-family-5070-tw",
+        "field_key": "gpu.memory_bus_width_bit",
+        "normalized_value": 192,
+        "unit_key": "bit",
+        "provenance_key": "official",
+        "raw_excerpt": "192-bit",
+        "review_status": "accepted",
+        "reviewed_at": "2026-09-07T00:00:00Z"
+      },
+      {
+        "source_key": "src:nvidia:gpu-family-5070-tw",
+        "field_key": "gpu.memory_bandwidth_gb_s",
+        "normalized_value": 672,
+        "unit_key": "gb_s",
+        "provenance_key": "official",
+        "raw_excerpt": "672 GB/s",
+        "review_status": "accepted",
+        "reviewed_at": "2026-09-07T00:00:00Z"
+      },
+      {
+        "source_key": "src:nvidia:gpu-family-5070-tw",
+        "field_key": "gpu.pcie_generation",
+        "normalized_value": 5,
+        "provenance_key": "official",
+        "raw_excerpt": "PCIe 5.0",
+        "review_status": "accepted",
+        "reviewed_at": "2026-09-07T00:00:00Z"
+      },
+      {
+        "source_key": "src:nvidia:gpu-family-5070-tw",
+        "field_key": "gpu.pcie_lanes",
+        "normalized_value": 16,
+        "provenance_key": "official",
+        "raw_excerpt": "x16",
+        "review_status": "accepted",
+        "reviewed_at": "2026-09-07T00:00:00Z"
+      },
+      {
+        "source_key": "src:nvidia:gpu-family-5070-tw",
+        "field_key": "gpu.ecc_support",
+        "normalized_value": false,
+        "provenance_key": "official",
+        "raw_excerpt": "ECC not supported",
+        "review_status": "accepted",
+        "reviewed_at": "2026-09-07T00:00:00Z"
+      }
+    ],
+    "gpu_spec": {
+      "architecture": "Blackwell",
+      "vram_gib": 12,
+      "memory_type": "GDDR7",
+      "memory_bus_width_bit": 192,
+      "memory_bandwidth_gb_s": 672,
+      "ecc_support": false,
+      "interface": null,
+      "pcie_generation": 5,
+      "pcie_lanes": 16,
+      "board_power_w": 250
+    },
+    "category": "gpu"
+  },
+  "review_notes": [
+    "来源 retrieved_at 为占位时间，调查员须替换为实际看到页面的时间。",
+    "source_key 前缀暂为 src: 与 quantization/format 大小写（Q4_K_M/GGUF）待审核人与词表对齐（可统一为 source:/小写）。"
+  ]
+}

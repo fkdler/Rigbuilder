@@ -1,0 +1,295 @@
+{
+  "schema_version": "3.2",
+  "record_type": "model",
+  "status": "accepted",
+  "payload": {
+    "identity": {
+      "entity_key": "model:microsoft:phi-4",
+      "canonical_name": "Phi-4",
+      "entity_type": "ai_model",
+      "release_date": "2024-12-12",
+      "lifecycle_status": "unknown",
+      "recommendable": true
+    },
+    "publisher_key": "org:microsoft",
+    "release_version": null,
+    "model_type": "dense",
+    "total_parameters": 14659507200,
+    "active_parameters": null,
+    "model_stage": "instruct",
+    "context_length_tokens": 16384,
+    "license_name": "MIT",
+    "commercial_use_status": "allowed",
+    "official_repo_url": "https://huggingface.co/microsoft/Phi-4",
+    "official_model_card_url": "https://huggingface.co/microsoft/Phi-4",
+    "architecture_notes": null,
+    "capabilities": [
+      {
+        "capability_key": "text_input",
+        "status": "supported",
+        "notes": null
+      }
+    ],
+    "variants": [
+      {
+        "identity": {
+          "entity_key": "variant:microsoft:phi-4:gguf:q4-k-m:unsloth",
+          "canonical_name": "Phi-4 Q4_K_M (GGUF, unsloth)",
+          "entity_type": "model_variant",
+          "release_date": null,
+          "lifecycle_status": "unknown",
+          "recommendable": false
+        },
+        "maintainer_key": "org:unsloth",
+        "quantization_method": "Q4_K_M",
+        "weight_format": "GGUF",
+        "bits_per_weight": null,
+        "file_size_bytes": 8890306112,
+        "official_status": "community",
+        "repository_url": "https://huggingface.co/unsloth/phi-4-GGUF",
+        "artifact_revision": null,
+        "artifact_manifest": null,
+        "checksum": null,
+        "evidence": [
+          {
+            "source_key": "src:gguf:unsloth-phi-4-gguf",
+            "field_key": "entity.canonical_name",
+            "normalized_value": "Phi-4 Q4_K_M (GGUF, unsloth)",
+            "provenance_key": "community_reported",
+            "raw_excerpt": "Phi-4 Q4_K_M (GGUF, unsloth)",
+            "review_status": "accepted",
+            "reviewed_at": null
+          }
+        ]
+      },
+      {
+        "identity": {
+          "entity_key": "variant:microsoft:phi-4:gguf:q5-k-m:unsloth",
+          "canonical_name": "Phi-4 Q5_K_M (GGUF, unsloth)",
+          "entity_type": "model_variant",
+          "release_date": null,
+          "lifecycle_status": "unknown",
+          "recommendable": false
+        },
+        "maintainer_key": "org:unsloth",
+        "quantization_method": "Q5_K_M",
+        "weight_format": "GGUF",
+        "bits_per_weight": null,
+        "file_size_bytes": 10412707392,
+        "official_status": "community",
+        "repository_url": "https://huggingface.co/unsloth/phi-4-GGUF",
+        "artifact_revision": null,
+        "artifact_manifest": null,
+        "checksum": null,
+        "evidence": [
+          {
+            "source_key": "src:gguf:unsloth-phi-4-gguf",
+            "field_key": "entity.canonical_name",
+            "normalized_value": "Phi-4 Q5_K_M (GGUF, unsloth)",
+            "provenance_key": "community_reported",
+            "raw_excerpt": "Phi-4 Q5_K_M (GGUF, unsloth)",
+            "review_status": "accepted",
+            "reviewed_at": null
+          }
+        ]
+      },
+      {
+        "identity": {
+          "entity_key": "variant:microsoft:phi-4:gguf:q8-0:unsloth",
+          "canonical_name": "Phi-4 Q8_0 (GGUF, unsloth)",
+          "entity_type": "model_variant",
+          "release_date": null,
+          "lifecycle_status": "unknown",
+          "recommendable": false
+        },
+        "maintainer_key": "org:unsloth",
+        "quantization_method": "Q8_0",
+        "weight_format": "GGUF",
+        "bits_per_weight": null,
+        "file_size_bytes": 15580507712,
+        "official_status": "community",
+        "repository_url": "https://huggingface.co/unsloth/phi-4-GGUF",
+        "artifact_revision": null,
+        "artifact_manifest": null,
+        "checksum": null,
+        "evidence": [
+          {
+            "source_key": "src:gguf:unsloth-phi-4-gguf",
+            "field_key": "entity.canonical_name",
+            "normalized_value": "Phi-4 Q8_0 (GGUF, unsloth)",
+            "provenance_key": "community_reported",
+            "raw_excerpt": "Phi-4 Q8_0 (GGUF, unsloth)",
+            "review_status": "accepted",
+            "reviewed_at": null
+          }
+        ]
+      }
+    ],
+    "evidence": [
+      {
+        "source_key": "src:card:phi-4",
+        "field_key": "entity.canonical_name",
+        "normalized_value": "Phi-4",
+        "provenance_key": "official",
+        "raw_excerpt": "Phi-4",
+        "review_status": "accepted",
+        "reviewed_at": null
+      },
+      {
+        "source_key": "src:card:phi-4",
+        "field_key": "model.total_parameters",
+        "normalized_value": 14659507200,
+        "provenance_key": "official",
+        "notes": "由公开知识值校正为官方值（原值 14700000000）",
+        "raw_excerpt": "HF API safetensors.total（精确）: 14659507200",
+        "review_status": "accepted",
+        "reviewed_at": null
+      },
+      {
+        "source_key": "src:card:phi-4",
+        "field_key": "model.context_length_tokens",
+        "normalized_value": 16384,
+        "unit_key": "tokens",
+        "provenance_key": "official",
+        "raw_excerpt": "16384",
+        "review_status": "accepted",
+        "reviewed_at": null
+      },
+      {
+        "source_key": "src:card:phi-4",
+        "field_key": "model.license_name",
+        "normalized_value": "MIT",
+        "provenance_key": "official",
+        "raw_excerpt": "License: mit",
+        "review_status": "accepted",
+        "reviewed_at": null
+      },
+      {
+        "source_key": "src:modelfit:hardware-dataset-2026-09-16",
+        "field_key": "model.deployment_min_ram_gb",
+        "normalized_value": 24,
+        "raw_excerpt": "ModelFit dataset, model 'Phi-4 14B', minRamGb=24",
+        "source_locator": "models[model='Phi-4 14B'].minRamGb",
+        "confidence": "0.8",
+        "unit_key": "gib",
+        "provenance_key": null,
+        "review_status": "accepted",
+        "collected_at": "2026-09-16T00:00:00Z",
+        "reviewed_at": null,
+        "notes": "ModelFit 自述该字段为估算值（estimates, not measured）；CC BY 4.0。"
+      },
+      {
+        "source_key": "src:modelfit:hardware-dataset-2026-09-16",
+        "field_key": "model.deployment_estimated_load_gb",
+        "normalized_value": 11.5,
+        "raw_excerpt": "ModelFit dataset, model 'Phi-4 14B', estimatedLoadGb=11.5",
+        "source_locator": "models[model='Phi-4 14B'].estimatedLoadGb",
+        "confidence": "0.8",
+        "unit_key": "gib",
+        "provenance_key": null,
+        "review_status": "accepted",
+        "collected_at": "2026-09-16T00:00:00Z",
+        "reviewed_at": null,
+        "notes": "ModelFit 自述该字段为估算值（estimates, not measured）；CC BY 4.0。"
+      },
+      {
+        "source_key": "src:modelfit:hardware-dataset-2026-09-16",
+        "field_key": "model.deployment_min_ram_gb",
+        "normalized_value": 24,
+        "raw_excerpt": "ModelFit dataset, model 'Phi-4 14B (Q8)', minRamGb=24",
+        "source_locator": "models[model='Phi-4 14B (Q8)'].minRamGb",
+        "confidence": "0.8",
+        "unit_key": "gib",
+        "provenance_key": null,
+        "review_status": "accepted",
+        "collected_at": "2026-09-16T00:00:00Z",
+        "reviewed_at": null,
+        "notes": "ModelFit 自述该字段为估算值（estimates, not measured）；CC BY 4.0。"
+      },
+      {
+        "source_key": "src:modelfit:hardware-dataset-2026-09-16",
+        "field_key": "model.deployment_estimated_load_gb",
+        "normalized_value": 14.5,
+        "raw_excerpt": "ModelFit dataset, model 'Phi-4 14B (Q8)', estimatedLoadGb=14.5",
+        "source_locator": "models[model='Phi-4 14B (Q8)'].estimatedLoadGb",
+        "confidence": "0.8",
+        "unit_key": "gib",
+        "provenance_key": null,
+        "review_status": "accepted",
+        "collected_at": "2026-09-16T00:00:00Z",
+        "reviewed_at": null,
+        "notes": "ModelFit 自述该字段为估算值（estimates, not measured）；CC BY 4.0。"
+      }
+    ],
+    "family": "Phi",
+    "attributes": [
+      {
+        "field_key": "model.deployment_min_ram_gb",
+        "qualifier_key": "Q4_K_M",
+        "value_number": "24",
+        "value_boolean": null,
+        "value_date": null,
+        "value_json": null,
+        "value_integer": null,
+        "value_text": null,
+        "unit": "gib",
+        "value_status": "known",
+        "qualifier": {
+          "quantization": "Q4_K_M",
+          "source_field": "minRamGb"
+        }
+      },
+      {
+        "field_key": "model.deployment_estimated_load_gb",
+        "qualifier_key": "Q4_K_M",
+        "value_number": "11.5",
+        "value_boolean": null,
+        "value_date": null,
+        "value_json": null,
+        "value_integer": null,
+        "value_text": null,
+        "unit": "gib",
+        "value_status": "known",
+        "qualifier": {
+          "quantization": "Q4_K_M",
+          "source_field": "estimatedLoadGb"
+        }
+      },
+      {
+        "field_key": "model.deployment_min_ram_gb",
+        "qualifier_key": "Q8_0",
+        "value_number": "24",
+        "value_boolean": null,
+        "value_date": null,
+        "value_json": null,
+        "value_integer": null,
+        "value_text": null,
+        "unit": "gib",
+        "value_status": "known",
+        "qualifier": {
+          "quantization": "Q8_0",
+          "source_field": "minRamGb"
+        }
+      },
+      {
+        "field_key": "model.deployment_estimated_load_gb",
+        "qualifier_key": "Q8_0",
+        "value_number": "14.5",
+        "value_boolean": null,
+        "value_date": null,
+        "value_json": null,
+        "value_integer": null,
+        "value_text": null,
+        "unit": "gib",
+        "value_status": "known",
+        "qualifier": {
+          "quantization": "Q8_0",
+          "source_field": "estimatedLoadGb"
+        }
+      }
+    ]
+  },
+  "review_notes": [
+    "Deployment attributes added 2026-09-16 from the ModelFit dataset (CC BY 4.0, modelfit.io). These are estimates published by ModelFit, not measurements this project performed."
+  ]
+}

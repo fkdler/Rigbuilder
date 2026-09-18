@@ -1,0 +1,22 @@
+{
+  "schema_version": "3.2",
+  "record_type": "price_snapshot",
+  "status": "accepted",
+  "payload": {
+    "price_key": "price:hw:nvidia:geforce-rtx-5090d:desktop:global:cn:2026-09",
+    "entity_key": "hw:nvidia:geforce-rtx-5090d:desktop:global",
+    "source_key": "source:jd:geforce-rtx-5090d-100200850043",
+    "observed_at": "2026-09-07T08:02:51+08:00",
+    "currency": "CNY",
+    "amount": 28999,
+    "availability": "unknown",
+    "price_type": "current_used",
+    "market_region": "CN",
+    "condition": "used",
+    "seller_key": null,
+    "notes": "京东5090D二手28999"
+  },
+  "review_notes": [
+    "5090D 二手"
+  ]
+}

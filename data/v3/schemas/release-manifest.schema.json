@@ -1,0 +1,100 @@
+{
+  "$defs": {
+    "ManifestFile": {
+      "additionalProperties": false,
+      "properties": {
+        "path": {
+          "minLength": 1,
+          "title": "Path",
+          "type": "string"
+        },
+        "sha256": {
+          "pattern": "^[0-9a-f]{64}$",
+          "title": "Sha256",
+          "type": "string"
+        },
+        "record_type": {
+          "enum": [
+            "source_document",
+            "field_definition",
+            "metric_definition",
+            "organization",
+            "hardware",
+            "model",
+            "workload",
+            "benchmark_protocol",
+            "benchmark_run",
+            "price_snapshot",
+            "runtime_support",
+            "rule_definition",
+            "entity_alias"
+          ],
+          "title": "Record Type",
+          "type": "string"
+        },
+        "status": {
+          "const": "accepted",
+          "default": "accepted",
+          "title": "Status",
+          "type": "string"
+        }
+      },
+      "required": [
+        "path",
+        "sha256",
+        "record_type"
+      ],
+      "title": "ManifestFile",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "schema_version": {
+      "const": "3.2",
+      "default": "3.2",
+      "title": "Schema Version",
+      "type": "string"
+    },
+    "release_key": {
+      "title": "Release Key",
+      "type": "string"
+    },
+    "created_at": {
+      "format": "date-time",
+      "title": "Created At",
+      "type": "string"
+    },
+    "description": {
+      "default": "",
+      "title": "Description",
+      "type": "string"
+    },
+    "git_commit": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Git Commit"
+    },
+    "files": {
+      "items": {
+        "$ref": "#/$defs/ManifestFile"
+      },
+      "title": "Files",
+      "type": "array"
+    }
+  },
+  "required": [
+    "release_key",
+    "created_at",
+    "files"
+  ],
+  "title": "ReleaseManifest",
+  "type": "object"
+}

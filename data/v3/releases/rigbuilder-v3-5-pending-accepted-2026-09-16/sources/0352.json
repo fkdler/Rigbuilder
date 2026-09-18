@@ -1,0 +1,25 @@
+{
+  "schema_version": "3.2",
+  "record_type": "source_document",
+  "status": "accepted",
+  "payload": {
+    "source_key": "src:card:flux-1-schnell",
+    "title": "FLUX.1-schnell Model Card",
+    "url": "https://huggingface.co/black-forest-labs/FLUX.1-schnell",
+    "publisher_key": "org:black-forest-labs",
+    "source_type": "model_card",
+    "source_tier": "A",
+    "published_at": null,
+    "market_region": null,
+    "language": null,
+    "availability_status": "accessible",
+    "archive_url": null,
+    "accessed_at": "2026-09-15T11:30:43+00:00",
+    "content_hash": "2558682ab8be20dffa9bd18f6bc1c1f9135a9bedce98d7f9c46be4a57a49c73b"
+  },
+  "review_notes": [
+    "多模态模型来源登记（2026-09-07）：pending，待抓取核验。",
+    "2026-09-15 经镜像抓取：https://hf-mirror.com/black-forest-labs/FLUX.1-schnell（来源登记 URL 保持原样 https://huggingface.co/black-forest-labs/FLUX.1-schnell）。",
+    "Approved in bulk on 2026-09-16 at the user's explicit request; no per-record human review."
+  ]
+}

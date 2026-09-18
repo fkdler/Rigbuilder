@@ -1,0 +1,25 @@
+{
+  "schema_version": "3.2",
+  "record_type": "source_document",
+  "status": "accepted",
+  "payload": {
+    "source_key": "src:org:google",
+    "title": "Google 官方站点",
+    "url": "https://huggingface.co/google",
+    "publisher_key": "org:google",
+    "source_type": "official_page",
+    "source_tier": "B",
+    "published_at": null,
+    "market_region": null,
+    "language": null,
+    "availability_status": "accessible",
+    "archive_url": null,
+    "accessed_at": "2026-09-14T11:59:02+00:00",
+    "content_hash": "dbd8cd4bb6ab7c7baebb27536b384c397d4ace0eaf124cda97a2fbd92a72ea7d"
+  },
+  "review_notes": [
+    "evidence 补全批（2026-09-07）：pending，待抓取核验。",
+    "2026-09-14 经镜像抓取：https://hf-mirror.com/google（来源登记 URL 保持原样 https://huggingface.co/google）。",
+    "Approved in bulk on 2026-09-16 at the user's explicit request; no per-record human review."
+  ]
+}

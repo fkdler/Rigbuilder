@@ -1,0 +1,18 @@
+{
+  "schema_version": "3.2",
+  "record_type": "source_document",
+  "status": "accepted",
+  "payload": {
+    "source_key": "source:hf-api-review-20260915:google/gemma-3-12b-it",
+    "title": "google/gemma-3-12b-it official repository metadata",
+    "url": "https://huggingface.co/api/models/google/gemma-3-12b-it",
+    "source_type": "model_card",
+    "source_tier": "A",
+    "accessed_at": "2026-09-15T11:31:33.574580+00:00",
+    "content_hash": "a5651563f6d03996455e456aec4c1f9a190082b24c09ebdabb44a2b2decc74ff",
+    "availability_status": "accessible"
+  },
+  "review_notes": [
+    "本次实际读取官方仓库公开 API 元数据；hash 对应保存的原始响应。不是下载权重或实测。"
+  ]
+}

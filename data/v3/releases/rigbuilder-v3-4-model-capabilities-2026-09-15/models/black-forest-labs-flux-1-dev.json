@@ -1,0 +1,88 @@
+{
+  "schema_version": "3.2",
+  "record_type": "model",
+  "status": "accepted",
+  "payload": {
+    "identity": {
+      "entity_key": "model:black-forest-labs:flux-1-dev",
+      "canonical_name": "FLUX.1-dev",
+      "entity_type": "ai_model",
+      "recommendable": true
+    },
+    "official_repo_url": "https://huggingface.co/black-forest-labs/FLUX.1-dev",
+    "official_model_card_url": "https://huggingface.co/black-forest-labs/FLUX.1-dev",
+    "license_name": null,
+    "commercial_use_status": "unknown",
+    "variants": [],
+    "evidence": [
+      {
+        "source_key": "source:hf-api-review-20260915:black-forest-labs/FLUX.1-dev",
+        "field_key": "entity.canonical_name",
+        "normalized_value": "FLUX.1-dev",
+        "raw_excerpt": "black-forest-labs/FLUX.1-dev",
+        "source_locator": "$.id (repository basename)",
+        "provenance_key": "official",
+        "review_status": "accepted",
+        "reviewed_at": "2026-09-15T11:31:25.238853+00:00"
+      },
+      {
+        "source_key": "source:hf-api-review-20260915:black-forest-labs/FLUX.1-dev",
+        "field_key": "model.total_parameters",
+        "normalized_value": 11901408320,
+        "raw_excerpt": "11901408320",
+        "source_locator": "$.safetensors.total",
+        "provenance_key": "official",
+        "review_status": "accepted",
+        "reviewed_at": "2026-09-15T11:31:25.238853+00:00"
+      },
+      {
+        "source_key": "source:hf-api-review-20260915:black-forest-labs/FLUX.1-dev",
+        "field_key": "model.capability.text_input",
+        "normalized_value": "supported",
+        "raw_excerpt": "text-to-image",
+        "source_locator": "$.pipeline_tag",
+        "provenance_key": "official",
+        "review_status": "accepted",
+        "reviewed_at": "2026-09-15T11:31:25.238853+00:00"
+      },
+      {
+        "source_key": "source:hf-api-review-20260915:black-forest-labs/FLUX.1-dev",
+        "field_key": "model.capability.image_generation",
+        "normalized_value": "supported",
+        "raw_excerpt": "text-to-image",
+        "source_locator": "$.pipeline_tag",
+        "provenance_key": "official",
+        "review_status": "accepted",
+        "reviewed_at": "2026-09-15T11:31:25.238853+00:00"
+      }
+    ],
+    "capabilities": [
+      {
+        "capability_key": "text_input",
+        "status": "supported",
+        "notes": "Official repository pipeline_tag: text-to-image"
+      },
+      {
+        "capability_key": "image_generation",
+        "status": "supported",
+        "notes": "Official repository pipeline_tag: text-to-image"
+      }
+    ],
+    "attributes": [
+      {
+        "field_key": "model.capability.text_input",
+        "value_text": "supported"
+      },
+      {
+        "field_key": "model.capability.image_generation",
+        "value_text": "supported"
+      }
+    ],
+    "total_parameters": 11901408320
+  },
+  "review_notes": [
+    "User authorized reviewed import on 2026-09-15. Official repository metadata re-fetched and checked.",
+    "Only identity, explicit license, reported safetensors total and pipeline-derived supported capability fields are admitted; unverified draft release date, context length, commercial permission and variants are omitted for new models.",
+    "Pipeline is evidence of declared task support, not benchmark or device compatibility. A different pipeline does not prove unsupported modalities."
+  ]
+}

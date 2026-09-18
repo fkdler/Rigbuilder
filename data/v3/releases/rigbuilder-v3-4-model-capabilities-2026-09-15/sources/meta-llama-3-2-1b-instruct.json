@@ -1,0 +1,18 @@
+{
+  "schema_version": "3.2",
+  "record_type": "source_document",
+  "status": "accepted",
+  "payload": {
+    "source_key": "source:hf-api-review-20260915:meta-llama/Llama-3.2-1B-Instruct",
+    "title": "meta-llama/Llama-3.2-1B-Instruct official repository metadata",
+    "url": "https://huggingface.co/api/models/meta-llama/Llama-3.2-1B-Instruct",
+    "source_type": "model_card",
+    "source_tier": "A",
+    "accessed_at": "2026-09-15T11:31:42.812570+00:00",
+    "content_hash": "f82019d303bbbf1899dc90852341187f4b56473e095e656b5a92b405a1568713",
+    "availability_status": "accessible"
+  },
+  "review_notes": [
+    "本次实际读取官方仓库公开 API 元数据；hash 对应保存的原始响应。不是下载权重或实测。"
+  ]
+}

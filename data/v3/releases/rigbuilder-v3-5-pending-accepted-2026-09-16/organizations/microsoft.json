@@ -1,0 +1,35 @@
+{
+  "schema_version": "3.2",
+  "record_type": "organization",
+  "status": "accepted",
+  "payload": {
+    "identity": {
+      "entity_key": "org:microsoft",
+      "canonical_name": "Microsoft",
+      "entity_type": "organization",
+      "release_date": null,
+      "lifecycle_status": "active",
+      "recommendable": false
+    },
+    "website_url": "https://huggingface.co/microsoft",
+    "organization_type": "model_publisher",
+    "country_or_region": null,
+    "evidence": [
+      {
+        "source_key": "src:org:microsoft",
+        "field_key": "entity.canonical_name",
+        "normalized_value": "Microsoft",
+        "provenance_key": "community_reported",
+        "raw_excerpt": "Microsoft",
+        "review_status": "accepted",
+        "reviewed_at": null
+      }
+    ]
+  },
+  "review_notes": [
+    "来源 retrieved_at 为占位时间，调查员须替换为实际看到页面的时间。",
+    "source_key 前缀暂为 src: 与 quantization/format 大小写（Q4_K_M/GGUF）待审核人与词表对齐（可统一为 source:/小写）。",
+    "2026-09-07 evidence 补全：挂 canonical_name 证据（来源见 sources）。",
+    "Approved in bulk on 2026-09-16 at the user's explicit request; no per-record human review."
+  ]
+}

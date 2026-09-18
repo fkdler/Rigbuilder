@@ -1,0 +1,24 @@
+{
+  "schema_version": "3.2",
+  "record_type": "source_document",
+  "status": "pending",
+  "payload": {
+    "source_key": "src:card:stable-diffusion-3-5-medium",
+    "title": "stable-diffusion-3.5-medium Model Card",
+    "url": "https://huggingface.co/stabilityai/stable-diffusion-3.5-medium",
+    "publisher_key": "org:stability-ai",
+    "source_type": "model_card",
+    "source_tier": "A",
+    "published_at": null,
+    "market_region": null,
+    "language": null,
+    "availability_status": "accessible",
+    "archive_url": null,
+    "accessed_at": "2026-09-15T11:30:49+00:00",
+    "content_hash": "b4033d419e8b1593a77f63023c00310825f26c1d1e6ad540fbe3d22dcec2b264"
+  },
+  "review_notes": [
+    "多模态模型来源登记（2026-09-07）：pending，待抓取核验。",
+    "2026-09-15 经镜像抓取：https://hf-mirror.com/stabilityai/stable-diffusion-3.5-medium（来源登记 URL 保持原样 https://huggingface.co/stabilityai/stable-diffusion-3.5-medium）。"
+  ]
+}

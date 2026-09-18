@@ -1,0 +1,14 @@
+{
+  "schema_version": "3.2",
+  "record_type": "entity_alias",
+  "status": "accepted",
+  "payload": {
+    "entity_key": "model:zai-org:glm-4-5-air",
+    "alias": "zai-org/GLM-4.5-Air",
+    "alias_type": "repository",
+    "language": null,
+    "normalized_alias": "zaiorgglm45air",
+    "source_key": null
+  },
+  "review_notes": []
+}

@@ -1,0 +1,135 @@
+{
+  "schema_version": "3.2",
+  "record_type": "hardware",
+  "status": "accepted",
+  "payload": {
+    "identity": {
+      "entity_key": "hw:intel:core-i5-12400:desktop:global",
+      "canonical_name": "Core i5-12400",
+      "entity_type": "hardware",
+      "release_date": null,
+      "lifecycle_status": "unknown",
+      "recommendable": true
+    },
+    "manufacturer_key": "org:intel",
+    "record_kind": "product",
+    "product_family": "Core",
+    "model_name": "Core i5-12400",
+    "variant_name": null,
+    "market_segment": "consumer",
+    "form_factor": "desktop",
+    "region_code": "GLOBAL",
+    "official_product_id": null,
+    "attributes": [],
+    "evidence": [
+      {
+        "source_key": "src:intel:cpu-sku-134586",
+        "field_key": "entity.canonical_name",
+        "normalized_value": "Core i5-12400",
+        "provenance_key": "official",
+        "raw_excerpt": "Core i5-12400",
+        "review_status": "accepted",
+        "reviewed_at": null
+      },
+      {
+        "source_key": "src:intel:cpu-sku-134586",
+        "field_key": "cpu.architecture",
+        "normalized_value": "Alder Lake",
+        "provenance_key": "official",
+        "raw_excerpt": "Alder Lake",
+        "review_status": "accepted",
+        "reviewed_at": null
+      },
+      {
+        "source_key": "src:intel:cpu-sku-134586",
+        "field_key": "cpu.cores_total",
+        "normalized_value": 6,
+        "provenance_key": "official",
+        "raw_excerpt": "6",
+        "review_status": "accepted",
+        "reviewed_at": null
+      },
+      {
+        "source_key": "src:intel:cpu-sku-134586",
+        "field_key": "cpu.threads",
+        "normalized_value": 12,
+        "provenance_key": "official",
+        "raw_excerpt": "12",
+        "review_status": "accepted",
+        "reviewed_at": null
+      },
+      {
+        "source_key": "src:intel:cpu-sku-134586",
+        "field_key": "cpu.base_clock_mhz",
+        "normalized_value": 2500,
+        "unit_key": "mhz",
+        "provenance_key": "official",
+        "raw_excerpt": "2.5 GHz",
+        "review_status": "accepted",
+        "reviewed_at": null
+      },
+      {
+        "source_key": "src:intel:cpu-sku-134586",
+        "field_key": "cpu.boost_clock_mhz",
+        "normalized_value": 4400,
+        "unit_key": "mhz",
+        "provenance_key": "official",
+        "raw_excerpt": "up to 4.4 GHz",
+        "review_status": "accepted",
+        "reviewed_at": null
+      },
+      {
+        "source_key": "src:intel:cpu-sku-134586",
+        "field_key": "cpu.base_power_w",
+        "normalized_value": 65,
+        "unit_key": "w",
+        "provenance_key": "official",
+        "raw_excerpt": "65 W",
+        "review_status": "accepted",
+        "reviewed_at": null
+      },
+      {
+        "source_key": "src:intel:cpu-sku-134586",
+        "field_key": "cpu.socket",
+        "normalized_value": "LGA1700",
+        "provenance_key": "official",
+        "raw_excerpt": "LGA1700",
+        "review_status": "accepted",
+        "reviewed_at": null
+      },
+      {
+        "source_key": "src:intel:cpu-sku-134586",
+        "field_key": "cpu.integrated_gpu",
+        "normalized_value": "UHD Graphics 730",
+        "review_status": "accepted",
+        "confidence": 1
+      }
+    ],
+    "cpu_spec": {
+      "architecture": "Alder Lake",
+      "codename": "Alder Lake",
+      "cores_total": 6,
+      "threads": 12,
+      "performance_cores": 6,
+      "efficiency_cores": 0,
+      "base_clock_mhz": 2500,
+      "boost_clock_mhz": 4400,
+      "l2_cache_mib": null,
+      "l3_cache_mib": 18,
+      "base_power_w": 65,
+      "max_power_w": 117,
+      "socket": "LGA1700",
+      "memory_channels": 2,
+      "max_memory_gib": 128,
+      "ecc_support": null,
+      "pcie_generation": 5,
+      "pcie_lanes": 20,
+      "integrated_gpu": "UHD Graphics 730",
+      "npu_model": null
+    },
+    "category": "cpu"
+  },
+  "review_notes": [
+    "Added 2026-09-16 by the migration/backfill pass; value matches the stored specification column."
+  ]
+}

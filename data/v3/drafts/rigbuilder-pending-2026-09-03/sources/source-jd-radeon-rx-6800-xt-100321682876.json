@@ -1,0 +1,23 @@
+{
+  "schema_version": "3.2",
+  "record_type": "source_document",
+  "status": "pending",
+  "payload": {
+    "source_key": "source:jd:radeon-rx-6800-xt-100321682876",
+    "title": "盈通（yeston）RX 6800 XT 16GB GDDR6 樱瞳花嫁 SA AMD RADEON 7nm RDNA2架构 电竞游戏显卡电竞爱好者显卡热卖榜第",
+    "url": "https://item.jd.com/100321682876.html",
+    "source_type": "retailer",
+    "source_tier": "C",
+    "publisher_key": null,
+    "published_at": null,
+    "market_region": "CN",
+    "language": "zh-CN",
+    "availability_status": "accessible",
+    "archive_url": null,
+    "accessed_at": "2026-09-07T07:13:13+00:00",
+    "content_hash": "def20092db386f86c88ad26fb8fa90086a8a0851e91d16de276462e549877efe"
+  },
+  "review_notes": [
+    "京东 search SKU 100321682876；店铺：000+30天加购飙升5倍盈通京东自营旗舰店；京东自营/官方旗舰。"
+  ]
+}

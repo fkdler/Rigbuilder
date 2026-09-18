@@ -1,0 +1,18 @@
+{
+  "schema_version": "3.2",
+  "record_type": "source_document",
+  "status": "accepted",
+  "payload": {
+    "source_key": "source:hf-api-review-20260915:deepseek-ai/DeepSeek-R1",
+    "title": "deepseek-ai/DeepSeek-R1 official repository metadata",
+    "url": "https://huggingface.co/api/models/deepseek-ai/DeepSeek-R1",
+    "source_type": "model_card",
+    "source_tier": "A",
+    "accessed_at": "2026-09-15T11:31:32.378011+00:00",
+    "content_hash": "e6716a40ff3072de6e042a120f4b89596448e79bc3322f01e09757966ed3dad7",
+    "availability_status": "accessible"
+  },
+  "review_notes": [
+    "本次实际读取官方仓库公开 API 元数据；hash 对应保存的原始响应。不是下载权重或实测。"
+  ]
+}

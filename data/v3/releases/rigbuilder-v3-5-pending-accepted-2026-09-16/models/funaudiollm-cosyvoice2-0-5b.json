@@ -1,0 +1,90 @@
+{
+  "schema_version": "3.2",
+  "record_type": "model",
+  "status": "accepted",
+  "payload": {
+    "identity": {
+      "entity_key": "model:funaudiollm:cosyvoice2-0-5b",
+      "canonical_name": "CosyVoice2-0.5B",
+      "entity_type": "ai_model",
+      "release_date": "2024-12-13",
+      "lifecycle_status": "unknown",
+      "recommendable": true
+    },
+    "publisher_key": "org:funaudiollm",
+    "release_version": null,
+    "model_type": "dense",
+    "total_parameters": 500000000,
+    "active_parameters": null,
+    "model_stage": "text_to_speech",
+    "context_length_tokens": null,
+    "license_name": "Apache-2.0",
+    "commercial_use_status": "allowed",
+    "official_repo_url": "https://huggingface.co/FunAudioLLM/CosyVoice2-0.5B",
+    "official_model_card_url": "https://huggingface.co/FunAudioLLM/CosyVoice2-0.5B",
+    "architecture_notes": null,
+    "capabilities": [
+      {
+        "capability_key": "text_input",
+        "status": "supported",
+        "notes": null
+      },
+      {
+        "capability_key": "audio_output",
+        "status": "supported",
+        "notes": null
+      }
+    ],
+    "variants": [],
+    "evidence": [
+      {
+        "source_key": "src:card:cosyvoice2-0-5b",
+        "field_key": "entity.canonical_name",
+        "normalized_value": "CosyVoice2-0.5B",
+        "provenance_key": "official",
+        "raw_excerpt": "CosyVoice2-0.5B",
+        "review_status": "accepted",
+        "reviewed_at": null
+      },
+      {
+        "source_key": "src:card:cosyvoice2-0-5b",
+        "field_key": "model.license_name",
+        "normalized_value": "Apache-2.0",
+        "provenance_key": "official",
+        "raw_excerpt": "License: apache-2.0",
+        "review_status": "accepted",
+        "reviewed_at": null
+      },
+      {
+        "source_key": "src:card:cosyvoice2-0-5b",
+        "field_key": "model.model_stage",
+        "normalized_value": "text_to_speech",
+        "provenance_key": "official",
+        "raw_excerpt": "text_to_speech",
+        "review_status": "accepted",
+        "reviewed_at": null
+      },
+      {
+        "source_key": "src:card:cosyvoice2-0-5b",
+        "field_key": "model.total_parameters",
+        "normalized_value": 500000000,
+        "provenance_key": "official",
+        "raw_excerpt": "官方模型名即 \"CosyVoice2-0.5B\"（0.5B 参数）",
+        "notes": "依官方模型名（参数档位）",
+        "review_status": "accepted",
+        "reviewed_at": null
+      }
+    ],
+    "family": "CosyVoice"
+  },
+  "review_notes": [
+    "多模态模型批（2026-09-07）：开放权重、可本地部署；参数/日期/许可为公开知识值或留空，pending，待官方卡核验（参数量建议由 hf_fill 从 safetensors 精确回填）。",
+    "本地部署：开放权重（非 API-only）。",
+    "2026-09-15 evidence 提取：从快照 src_card_cosyvoice2-0-5b.txt 提取字段级逐字证据（pending，待审核）。",
+    "2026-09-15 补参数量：500000000（依据：官方模型名即 \"CosyVoice2-0.5B\"（0.5B 参数）；官方命名）。",
+    "2026-09-15 evidence 提取：从快照 src_card_cosyvoice2-0-5b.txt 提取字段级逐字证据（pending，待审核）。",
+    "2026-09-15 evidence 提取：从快照 src_card_cosyvoice2-0-5b.txt 提取字段级逐字证据（pending，待审核）。",
+    "2026-09-15 evidence 提取：从快照 src_card_cosyvoice2-0-5b.txt 提取字段级逐字证据（pending，待审核）。",
+    "Approved in bulk on 2026-09-16 at the user's explicit request; no per-record human review."
+  ]
+}

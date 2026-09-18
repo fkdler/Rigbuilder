@@ -1,0 +1,14 @@
+{
+  "schema_version": "3.2",
+  "record_type": "entity_alias",
+  "status": "accepted",
+  "payload": {
+    "entity_key": "model:black-forest-labs:flux-1-schnell",
+    "alias": "black-forest-labs/FLUX.1-schnell",
+    "alias_type": "repository",
+    "language": null,
+    "normalized_alias": "blackforestlabsflux1schnell",
+    "source_key": null
+  },
+  "review_notes": []
+}

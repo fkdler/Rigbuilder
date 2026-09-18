@@ -1,0 +1,24 @@
+{
+  "schema_version": "3.2",
+  "record_type": "source_document",
+  "status": "pending",
+  "payload": {
+    "source_key": "src:card:f5-tts",
+    "title": "F5-TTS Model Card",
+    "url": "https://huggingface.co/SWivid/F5-TTS",
+    "publisher_key": "org:swivid",
+    "source_type": "model_card",
+    "source_tier": "A",
+    "published_at": null,
+    "market_region": null,
+    "language": null,
+    "availability_status": "accessible",
+    "archive_url": null,
+    "accessed_at": "2026-09-15T11:32:53+00:00",
+    "content_hash": "18ea2c34e1ab337b16ade94add52b7dfb21b3298138cecf3de51f25e51e8ca79"
+  },
+  "review_notes": [
+    "多模态模型来源登记（2026-09-07）：pending。",
+    "2026-09-15 经镜像抓取：https://hf-mirror.com/SWivid/F5-TTS（来源登记 URL 保持原样 https://huggingface.co/SWivid/F5-TTS）。"
+  ]
+}

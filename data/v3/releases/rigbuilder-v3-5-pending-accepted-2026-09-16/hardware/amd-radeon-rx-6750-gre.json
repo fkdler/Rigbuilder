@@ -1,0 +1,56 @@
+{
+  "schema_version": "3.2",
+  "record_type": "hardware",
+  "status": "accepted",
+  "payload": {
+    "identity": {
+      "entity_key": "hw:amd:radeon-rx-6750-gre:desktop:global",
+      "canonical_name": "Radeon RX 6750 GRE",
+      "entity_type": "hardware",
+      "release_date": null,
+      "lifecycle_status": "unknown",
+      "recommendable": true
+    },
+    "category": "gpu",
+    "record_kind": "product",
+    "manufacturer_key": "org:amd",
+    "form_factor": "desktop",
+    "model_name": "Radeon RX 6750 GRE",
+    "variant_name": null,
+    "market_segment": "consumer",
+    "region_code": "GLOBAL",
+    "official_product_id": null,
+    "product_family": null,
+    "attributes": [],
+    "evidence": [
+      {
+        "source_key": "src:amd:gpu-rx-6750-gre",
+        "field_key": "entity.canonical_name",
+        "normalized_value": "Radeon RX 6750 GRE",
+        "provenance_key": "official",
+        "raw_excerpt": "Radeon RX 6750 GRE",
+        "review_status": "accepted",
+        "reviewed_at": null
+      }
+    ],
+    "gpu_spec": {
+      "architecture": "RDNA 2",
+      "vram_gib": 12,
+      "memory_type": "GDDR6",
+      "memory_bus_width_bit": 192,
+      "memory_bandwidth_gb_s": null,
+      "ecc_support": false,
+      "interface": null,
+      "pcie_generation": 4,
+      "pcie_lanes": 16,
+      "board_power_w": 230
+    }
+  },
+  "review_notes": [
+    "GPU 缺口补充/修复批（2026-09-07）：官方来源页待核验（抓取困难者用 HardQuery 第三方库），未逐字核验；值按公开规格知识填写，pending，待来源确认后核对。",
+    "来源等级：A（官方页）。",
+    "2026-09-14 来源替换：AMD 官网产品页 404，evidence 改指 HardQuery 第三方库（tier C），待官方替代来源或详情页核验。",
+    "2026-09-15 来源替换：HardQuery 栏目页 → AMD 官方支持页（tier A，可脚本抓取）。",
+    "Approved in bulk on 2026-09-16 at the user's explicit request; no per-record human review."
+  ]
+}

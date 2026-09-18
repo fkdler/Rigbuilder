@@ -1,0 +1,91 @@
+{
+  "schema_version": "3.2",
+  "record_type": "model",
+  "status": "accepted",
+  "payload": {
+    "identity": {
+      "entity_key": "model:qwen:qwen3-coder-480b-a35b-instruct",
+      "canonical_name": "Qwen3-Coder-480B-A35B-Instruct",
+      "entity_type": "ai_model",
+      "release_date": "2025-07-22",
+      "lifecycle_status": "unknown",
+      "recommendable": true
+    },
+    "publisher_key": "org:qwen",
+    "release_version": null,
+    "model_type": "moe",
+    "total_parameters": 480154875392,
+    "active_parameters": 35000000000,
+    "model_stage": "instruct",
+    "context_length_tokens": 262144,
+    "license_name": "Apache-2.0",
+    "commercial_use_status": "allowed",
+    "official_repo_url": "https://huggingface.co/Qwen/Qwen3-Coder-480B-A35B-Instruct",
+    "official_model_card_url": "https://huggingface.co/Qwen/Qwen3-Coder-480B-A35B-Instruct",
+    "architecture_notes": null,
+    "capabilities": [
+      {
+        "capability_key": "text_input",
+        "status": "supported",
+        "notes": null
+      },
+      {
+        "capability_key": "code",
+        "status": "supported",
+        "notes": null
+      }
+    ],
+    "variants": [],
+    "evidence": [
+      {
+        "source_key": "src:card:qwen3-coder-480b-a35b-instruct",
+        "field_key": "entity.canonical_name",
+        "normalized_value": "Qwen3-Coder-480B-A35B-Instruct",
+        "provenance_key": "official",
+        "raw_excerpt": "Qwen3-Coder-480B-A35B-Instruct",
+        "review_status": "accepted",
+        "reviewed_at": null
+      },
+      {
+        "source_key": "src:card:qwen3-coder-480b-a35b-instruct",
+        "field_key": "model.total_parameters",
+        "normalized_value": 480154875392,
+        "provenance_key": "official",
+        "raw_excerpt": "HF API safetensors.total（精确）: 480154875392",
+        "review_status": "accepted",
+        "reviewed_at": null,
+        "notes": "由公开知识值校正为官方值（原值 480000000000）"
+      },
+      {
+        "source_key": "src:card:qwen3-coder-480b-a35b-instruct",
+        "field_key": "model.context_length_tokens",
+        "normalized_value": 262144,
+        "unit_key": "tokens",
+        "provenance_key": "official",
+        "raw_excerpt": "262144",
+        "review_status": "accepted",
+        "reviewed_at": null
+      },
+      {
+        "source_key": "src:card:qwen3-coder-480b-a35b-instruct",
+        "field_key": "model.license_name",
+        "normalized_value": "Apache-2.0",
+        "provenance_key": "official",
+        "raw_excerpt": "License: apache-2.0",
+        "review_status": "accepted",
+        "reviewed_at": null
+      }
+    ],
+    "family": "Qwen3-Coder"
+  },
+  "review_notes": [
+    "模型扩展批（2026-09-07）：官方卡待逐字核验；参数量/上下文为公开知识档位值，pending；GGUF 变体 file_size_bytes 待 hf_fill --apply-bytes。",
+    "2026-09-14 evidence 提取：从快照 src_card_qwen3-coder-480b-a35b-instruct.txt 提取字段级逐字证据（pending，待审核）。",
+    "2026-09-15 evidence 提取：从快照 src_card_qwen3-coder-480b-a35b-instruct.txt 提取字段级逐字证据（pending，待审核）。",
+    "hf_fill --refresh-params：参数量取 HF API safetensors.total（精确），上下文取 config.json max_position_embeddings；已挂 evidence（pending）。",
+    "2026-09-15 evidence 提取：从快照 src_card_qwen3-coder-480b-a35b-instruct.txt 提取字段级逐字证据（pending，待审核）。",
+    "2026-09-15 evidence 提取：从快照 src_card_qwen3-coder-480b-a35b-instruct.txt 提取字段级逐字证据（pending，待审核）。",
+    "2026-09-15 evidence 提取：从快照 src_card_qwen3-coder-480b-a35b-instruct.txt 提取字段级逐字证据（pending，待审核）。",
+    "Approved in bulk on 2026-09-16 at the user's explicit request; no per-record human review."
+  ]
+}

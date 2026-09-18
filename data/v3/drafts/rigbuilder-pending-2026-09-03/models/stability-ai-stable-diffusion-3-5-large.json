@@ -1,0 +1,90 @@
+{
+  "schema_version": "3.2",
+  "record_type": "model",
+  "status": "pending",
+  "payload": {
+    "identity": {
+      "entity_key": "model:stability-ai:stable-diffusion-3-5-large",
+      "canonical_name": "stable-diffusion-3.5-large",
+      "entity_type": "ai_model",
+      "release_date": "2024-10-22",
+      "lifecycle_status": "unknown",
+      "recommendable": true
+    },
+    "publisher_key": "org:stability-ai",
+    "release_version": null,
+    "model_type": "dense",
+    "total_parameters": 8146280768,
+    "active_parameters": null,
+    "model_stage": "text_to_image",
+    "context_length_tokens": 256,
+    "license_name": "Stability-AI-Community",
+    "commercial_use_status": "allowed",
+    "official_repo_url": "https://huggingface.co/stabilityai/stable-diffusion-3.5-large",
+    "official_model_card_url": "https://huggingface.co/stabilityai/stable-diffusion-3.5-large",
+    "architecture_notes": null,
+    "capabilities": [
+      {
+        "capability_key": "text_input",
+        "status": "supported",
+        "notes": null
+      },
+      {
+        "capability_key": "image_output",
+        "status": "supported",
+        "notes": null
+      }
+    ],
+    "variants": [],
+    "evidence": [
+      {
+        "source_key": "src:card:stable-diffusion-3-5-large",
+        "field_key": "entity.canonical_name",
+        "normalized_value": "stable-diffusion-3.5-large",
+        "provenance_key": "official",
+        "raw_excerpt": "stable-diffusion-3.5-large",
+        "review_status": "pending",
+        "reviewed_at": null
+      },
+      {
+        "source_key": "src:card:stable-diffusion-3-5-large",
+        "field_key": "model.total_parameters",
+        "normalized_value": 8146280768,
+        "provenance_key": "official",
+        "raw_excerpt": "HF API safetensors.total（精确）: 8146280768",
+        "review_status": "pending",
+        "reviewed_at": null,
+        "notes": "由公开知识值校正为官方值（原值 8100000000）"
+      },
+      {
+        "source_key": "src:card:stable-diffusion-3-5-large",
+        "field_key": "model.context_length_tokens",
+        "normalized_value": 256,
+        "unit_key": "tokens",
+        "provenance_key": "official",
+        "raw_excerpt": "256",
+        "review_status": "pending",
+        "reviewed_at": null
+      },
+      {
+        "source_key": "src:card:stable-diffusion-3-5-large",
+        "field_key": "model.license_name",
+        "normalized_value": "Stability-AI-Community",
+        "provenance_key": "official",
+        "raw_excerpt": "License: stabilityai-ai-community",
+        "review_status": "pending",
+        "reviewed_at": null
+      }
+    ],
+    "family": "Stable Diffusion 3.5"
+  },
+  "review_notes": [
+    "模型扩展批（2026-09-07）：官方卡待逐字核验；参数量/上下文为公开知识档位值，pending；GGUF 变体 file_size_bytes 待 hf_fill --apply-bytes。",
+    "2026-09-14 evidence 提取：从快照 src_card_stable-diffusion-3-5-large.txt 提取字段级逐字证据（pending，待审核）。",
+    "2026-09-15 evidence 提取：从快照 src_card_stable-diffusion-3-5-large.txt 提取字段级逐字证据（pending，待审核）。",
+    "hf_fill --refresh-params：参数量取 HF API safetensors.total（精确），上下文取 config.json max_position_embeddings；已挂 evidence（pending）。",
+    "2026-09-15 evidence 提取：从快照 src_card_stable-diffusion-3-5-large.txt 提取字段级逐字证据（pending，待审核）。",
+    "2026-09-15 evidence 提取：从快照 src_card_stable-diffusion-3-5-large.txt 提取字段级逐字证据（pending，待审核）。",
+    "2026-09-15 evidence 提取：从快照 src_card_stable-diffusion-3-5-large.txt 提取字段级逐字证据（pending，待审核）。"
+  ]
+}

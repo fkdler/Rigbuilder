@@ -1,0 +1,29 @@
+{
+  "schema_version": "3.2",
+  "record_type": "benchmark_protocol",
+  "status": "accepted",
+  "payload": {
+    "protocol_key": "passmark-cpu-models",
+    "name": "PassMark CPU per-model result pages",
+    "version": "1",
+    "description": "One published snapshot of PassMark's per-part figures, read with the rank column the publisher reports and the population that rank was taken from. This is an aggregator-published index, not a measurement this project performed; it is recorded with run_origin 'independent'.",
+    "workload_type": "benchmark_suite",
+    "method_document_url": "https://www.passmark.com/products/performancetest/",
+    "settings_schema": {
+      "type": "object",
+      "required": [
+        "source_page",
+        "score_column"
+      ]
+    },
+    "environment_schema": {
+      "type": "object",
+      "required": [
+        "snapshot_date",
+        "form_factor"
+      ]
+    },
+    "active": true
+  },
+  "review_notes": []
+}

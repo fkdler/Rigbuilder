@@ -1,0 +1,56 @@
+{
+  "schema_version": "3.0",
+  "record_type": "hardware",
+  "status": "pending",
+  "payload": {
+    "identity": {
+      "entity_key": "hardware:nvidia:geforce-rtx-4090",
+      "canonical_name": "GeForce RTX 4090",
+      "entity_type": "hardware",
+      "release_date": "2022-10-12"
+    },
+    "hardware_type": "desktop_gpu",
+    "manufacturer_key": "org:nvidia",
+    "evidence": [
+      {
+        "source_key": "source:legacy:www-nvidia-com-en-us-geforce-graphics-cards-40-series-rtx-4090",
+        "field_key": "gpu.architecture",
+        "raw_value": "Ada Lovelace",
+        "normalized_value": "Ada Lovelace"
+      },
+      {
+        "source_key": "source:legacy:www-nvidia-com-en-us-geforce-graphics-cards-40-series-rtx-4090",
+        "field_key": "gpu.vram_gib",
+        "raw_value": "24 GB GDDR6X",
+        "normalized_value": 24
+      },
+      {
+        "source_key": "source:legacy:www-nvidia-com-en-us-geforce-graphics-cards-40-series-rtx-4090",
+        "field_key": "gpu.memory_type",
+        "raw_value": "GDDR6X",
+        "normalized_value": "GDDR6X"
+      },
+      {
+        "source_key": "source:legacy:www-nvidia-com-en-us-geforce-graphics-cards-40-series-rtx-4090",
+        "field_key": "gpu.board_power_w",
+        "raw_value": "450 W",
+        "normalized_value": 450
+      },
+      {
+        "source_key": "source:legacy:www-nvidia-com-en-us-geforce-graphics-cards-40-series-rtx-4090",
+        "field_key": "legacy.release_date",
+        "raw_value": null,
+        "normalized_value": "2022-10-12"
+      }
+    ],
+    "gpu_spec": {
+      "architecture": "Ada Lovelace",
+      "vram_gib": 24,
+      "memory_type": "GDDR6X",
+      "board_power_w": 450
+    }
+  },
+  "review_notes": [
+    "legacy normalized data; all fields require V3 review"
+  ]
+}

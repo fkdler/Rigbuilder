@@ -1,0 +1,14 @@
+{
+  "schema_version": "3.2",
+  "record_type": "entity_alias",
+  "status": "accepted",
+  "payload": {
+    "entity_key": "model:qwen:qwen3-30b-a3b",
+    "alias": "Qwen/Qwen3-30B-A3B",
+    "alias_type": "repository",
+    "language": null,
+    "normalized_alias": "qwenqwen330ba3b",
+    "source_key": null
+  },
+  "review_notes": []
+}

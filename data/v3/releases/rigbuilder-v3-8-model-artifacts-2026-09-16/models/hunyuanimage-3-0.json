@@ -1,0 +1,108 @@
+{
+  "schema_version": "3.2",
+  "record_type": "model",
+  "status": "accepted",
+  "payload": {
+    "identity": {
+      "entity_key": "model:tencent:hunyuanimage-3-0",
+      "canonical_name": "HunyuanImage-3.0",
+      "entity_type": "ai_model",
+      "release_date": "2025-09-28",
+      "lifecycle_status": "unknown",
+      "recommendable": true
+    },
+    "publisher_key": "org:tencent",
+    "release_version": null,
+    "model_type": "moe",
+    "total_parameters": 83009199459,
+    "active_parameters": null,
+    "model_stage": "text_to_image",
+    "context_length_tokens": 22800,
+    "license_name": "Tencent-Hunyuan",
+    "commercial_use_status": "allowed",
+    "official_repo_url": "https://huggingface.co/tencent/HunyuanImage-3.0",
+    "official_model_card_url": "https://huggingface.co/tencent/HunyuanImage-3.0",
+    "architecture_notes": null,
+    "capabilities": [
+      {
+        "capability_key": "text_input",
+        "status": "supported",
+        "notes": null
+      },
+      {
+        "capability_key": "image_output",
+        "status": "supported",
+        "notes": null
+      }
+    ],
+    "variants": [
+      {
+        "identity": {
+          "entity_key": "variant:tencent-hunyuanimage-3-0:official-safetensors",
+          "canonical_name": "HunyuanImage-3.0 官方权重 (safetensors, tencent)",
+          "entity_type": "model_variant",
+          "release_date": null,
+          "lifecycle_status": "unknown",
+          "recommendable": true
+        },
+        "file_size_bytes": 168540402060,
+        "weight_format": "safetensors",
+        "official_status": "official",
+        "repository_url": "https://huggingface.co/tencent/HunyuanImage-3.0",
+        "evidence": [
+          {
+            "source_key": "src:hf:tencent-hunyuanimage-3-0",
+            "field_key": "entity.canonical_name",
+            "normalized_value": "HunyuanImage-3.0 官方权重 (safetensors, tencent)",
+            "review_status": "accepted",
+            "confidence": 1
+          }
+        ]
+      }
+    ],
+    "evidence": [
+      {
+        "source_key": "src:card:hunyuanimage-3-0",
+        "field_key": "entity.canonical_name",
+        "normalized_value": "HunyuanImage-3.0",
+        "provenance_key": "official",
+        "raw_excerpt": "HunyuanImage-3.0",
+        "review_status": "accepted",
+        "reviewed_at": null
+      },
+      {
+        "source_key": "src:card:hunyuanimage-3-0",
+        "field_key": "model.license_name",
+        "normalized_value": "Tencent-Hunyuan",
+        "provenance_key": "official",
+        "raw_excerpt": "License: tencent-hunyuan-community",
+        "review_status": "accepted",
+        "reviewed_at": null
+      },
+      {
+        "source_key": "src:card:hunyuanimage-3-0",
+        "field_key": "model.total_parameters",
+        "normalized_value": 83009199459,
+        "provenance_key": "official",
+        "raw_excerpt": "HF API safetensors.total（精确）: 83009199459",
+        "review_status": "accepted",
+        "reviewed_at": null,
+        "notes": "由公开知识值校正为官方值（原值 80000000000）"
+      },
+      {
+        "source_key": "src:card:hunyuanimage-3-0",
+        "field_key": "model.context_length_tokens",
+        "normalized_value": 22800,
+        "provenance_key": "official",
+        "raw_excerpt": "config.json max_position_embeddings: 22800",
+        "notes": "由官方 config/API 回填",
+        "review_status": "accepted",
+        "reviewed_at": null
+      }
+    ],
+    "family": "HunyuanImage"
+  },
+  "review_notes": [
+    "Model artifacts enumerated from the official Hugging Face API on 2026-09-16 (file list and byte sizes only; no weights were downloaded or verified)."
+  ]
+}

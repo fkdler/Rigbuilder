@@ -1,0 +1,33 @@
+{
+  "schema_version": "3.2",
+  "record_type": "organization",
+  "status": "pending",
+  "payload": {
+    "identity": {
+      "entity_key": "org:zai-org",
+      "canonical_name": "Z.ai / Zhipu AI (GLM)",
+      "entity_type": "organization",
+      "release_date": null,
+      "lifecycle_status": "active",
+      "recommendable": false
+    },
+    "website_url": "https://huggingface.co/zai-org",
+    "organization_type": "model_publisher",
+    "country_or_region": null,
+    "evidence": [
+      {
+        "source_key": "src:org:zai-org",
+        "field_key": "entity.canonical_name",
+        "normalized_value": "Z.ai / Zhipu AI (GLM)",
+        "provenance_key": "community_reported",
+        "raw_excerpt": "Z.ai / Zhipu AI (GLM)",
+        "review_status": "pending",
+        "reviewed_at": null
+      }
+    ]
+  },
+  "review_notes": [
+    "组织补充批（2026-09-07）：为新增模型/第三方来源登记；未挂 evidence，待来源核验。",
+    "2026-09-07 evidence 补全：挂 canonical_name 证据（来源见 sources）。"
+  ]
+}

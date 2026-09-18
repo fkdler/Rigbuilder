@@ -1,0 +1,23 @@
+{
+  "schema_version": "3.2",
+  "record_type": "source_document",
+  "status": "accepted",
+  "payload": {
+    "source_key": "source:jd:geforce-rtx-5090-10212691978527",
+    "title": "GeForce RTX 5090 京东商品 10212691978527",
+    "url": "https://item.jd.com/10212691978527.html",
+    "source_type": "retailer",
+    "source_tier": "C",
+    "publisher_key": null,
+    "published_at": null,
+    "market_region": "CN",
+    "language": "zh-CN",
+    "availability_status": "accessible",
+    "archive_url": null,
+    "accessed_at": "2026-09-07T08:02:51+08:00",
+    "content_hash": null
+  },
+  "review_notes": [
+    "京东 5090 页面标价 ¥33500（无货）"
+  ]
+}

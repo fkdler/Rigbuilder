@@ -1,0 +1,25 @@
+{
+  "schema_version": "3.2",
+  "record_type": "source_document",
+  "status": "accepted",
+  "payload": {
+    "source_key": "src:intel:gpu-arc-a770m",
+    "title": "Intel Arc A770M（Intel 官方移动版规格文章）",
+    "url": "https://www.intel.com/content/www/us/en/support/articles/000091109/graphics.html",
+    "publisher_key": "org:intel",
+    "source_type": "official_page",
+    "source_tier": "A",
+    "published_at": null,
+    "market_region": null,
+    "language": null,
+    "availability_status": "accessible",
+    "archive_url": null,
+    "accessed_at": "2026-09-15T13:25:38+00:00",
+    "content_hash": "87bfc715ccf86092153e0537c83cb60caf0b7d6e7fcb5e2829a25defc95ad88e"
+  },
+  "review_notes": [
+    "2026-09-15 来源替换：HardQuery 栏目页 → Intel 官方支持文章《Arc A 系列移动版规格》（同一页含 A350M/A370M/A550M/A730M/A770M）。注：intel.com 有 Akamai 反爬，需浏览器另存。",
+    "2026-09-15 人工浏览器另存导入（src_intel_gpu-arc-a770m.html，88520B，文本 3067 字）",
+    "Approved in bulk on 2026-09-16 at the user's explicit request; no per-record human review."
+  ]
+}

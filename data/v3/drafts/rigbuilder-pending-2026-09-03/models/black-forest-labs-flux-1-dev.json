@@ -1,0 +1,85 @@
+{
+  "schema_version": "3.2",
+  "record_type": "model",
+  "status": "pending",
+  "payload": {
+    "identity": {
+      "entity_key": "model:black-forest-labs:flux-1-dev",
+      "canonical_name": "FLUX.1-dev",
+      "entity_type": "ai_model",
+      "release_date": "2024-08-01",
+      "lifecycle_status": "unknown",
+      "recommendable": true
+    },
+    "publisher_key": "org:black-forest-labs",
+    "release_version": null,
+    "model_type": "dense",
+    "total_parameters": 11901408320,
+    "active_parameters": null,
+    "model_stage": "text_to_image",
+    "context_length_tokens": 512,
+    "license_name": "FLUX.1-dev-Non-Commercial",
+    "commercial_use_status": "restricted",
+    "official_repo_url": "https://huggingface.co/black-forest-labs/FLUX.1-dev",
+    "official_model_card_url": "https://huggingface.co/black-forest-labs/FLUX.1-dev",
+    "architecture_notes": null,
+    "capabilities": [
+      {
+        "capability_key": "text_input",
+        "status": "supported",
+        "notes": null
+      },
+      {
+        "capability_key": "image_output",
+        "status": "supported",
+        "notes": null
+      }
+    ],
+    "variants": [],
+    "evidence": [
+      {
+        "source_key": "src:card:flux-1-dev",
+        "field_key": "entity.canonical_name",
+        "normalized_value": "FLUX.1-dev",
+        "provenance_key": "official",
+        "raw_excerpt": "FLUX.1-dev",
+        "review_status": "pending",
+        "reviewed_at": null
+      },
+      {
+        "source_key": "src:card:flux-1-dev",
+        "field_key": "model.total_parameters",
+        "normalized_value": 11901408320,
+        "provenance_key": "official",
+        "raw_excerpt": "HF API safetensors.total（精确）: 11901408320",
+        "review_status": "pending",
+        "reviewed_at": null,
+        "notes": "由公开知识值校正为官方值（原值 12000000000）"
+      },
+      {
+        "source_key": "src:card:flux-1-dev",
+        "field_key": "model.context_length_tokens",
+        "normalized_value": 512,
+        "unit_key": "tokens",
+        "provenance_key": "official",
+        "raw_excerpt": "512",
+        "review_status": "pending",
+        "reviewed_at": null
+      },
+      {
+        "source_key": "src:card:flux-1-dev",
+        "field_key": "model.license_name",
+        "normalized_value": "FLUX.1-dev-Non-Commercial",
+        "provenance_key": "official",
+        "raw_excerpt": "FLUX.1-dev-Non-Commercial",
+        "review_status": "pending",
+        "reviewed_at": null
+      }
+    ],
+    "family": "FLUX.1"
+  },
+  "review_notes": [
+    "模型扩展批（2026-09-07）：官方卡待逐字核验；参数量/上下文为公开知识档位值，pending；GGUF 变体 file_size_bytes 待 hf_fill --apply-bytes。",
+    "hf_fill --refresh-params：参数量取 HF API safetensors.total（精确），上下文取 config.json max_position_embeddings；已挂 evidence（pending）。"
+  ]
+}

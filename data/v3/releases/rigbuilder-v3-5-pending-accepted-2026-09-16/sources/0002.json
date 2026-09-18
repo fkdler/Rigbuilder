@@ -1,0 +1,24 @@
+{
+  "schema_version": "3.2",
+  "record_type": "source_document",
+  "status": "accepted",
+  "payload": {
+    "source_key": "source:qwen-qwen2.5-32b-instruct-gguf",
+    "title": "Qwen/Qwen2.5-32B-Instruct-GGUF (Hugging Face)",
+    "url": "https://huggingface.co/Qwen/Qwen2.5-32B-Instruct-GGUF",
+    "source_type": "official_page",
+    "source_tier": "A",
+    "publisher_key": "org:qwen",
+    "published_at": null,
+    "market_region": null,
+    "language": null,
+    "availability_status": "accessible",
+    "archive_url": null,
+    "accessed_at": "2026-09-07T07:04:26+00:00",
+    "content_hash": "fe64051e5cf922b8a0c262885b86e3f46304a58c843309ceaf4e638380b57465"
+  },
+  "review_notes": [
+    "值未逐字读取官方页面确认，retrieved_at 为占位时间，须由实际访问者替换。",
+    "Approved in bulk on 2026-09-16 at the user's explicit request; no per-record human review."
+  ]
+}

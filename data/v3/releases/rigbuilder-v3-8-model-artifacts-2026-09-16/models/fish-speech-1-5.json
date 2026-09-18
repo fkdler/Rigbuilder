@@ -1,0 +1,102 @@
+{
+  "schema_version": "3.2",
+  "record_type": "model",
+  "status": "accepted",
+  "payload": {
+    "identity": {
+      "entity_key": "model:fishaudio:fish-speech-1-5",
+      "canonical_name": "Fish-Speech-1.5",
+      "entity_type": "ai_model",
+      "release_date": "2024-12-10",
+      "lifecycle_status": "unknown",
+      "recommendable": true
+    },
+    "publisher_key": "org:fishaudio",
+    "release_version": null,
+    "model_type": "dense",
+    "total_parameters": null,
+    "active_parameters": null,
+    "model_stage": "text_to_speech",
+    "context_length_tokens": null,
+    "license_name": "CC-BY-NC-SA-4.0",
+    "commercial_use_status": "restricted",
+    "official_repo_url": "https://huggingface.co/fishaudio/fish-speech-1.5",
+    "official_model_card_url": "https://huggingface.co/fishaudio/fish-speech-1.5",
+    "architecture_notes": null,
+    "capabilities": [
+      {
+        "capability_key": "text_input",
+        "status": "supported",
+        "notes": null
+      },
+      {
+        "capability_key": "audio_input",
+        "status": "supported",
+        "notes": null
+      },
+      {
+        "capability_key": "audio_output",
+        "status": "supported",
+        "notes": null
+      }
+    ],
+    "variants": [
+      {
+        "identity": {
+          "entity_key": "variant:fishaudio-fish-speech-1-5:official-pth",
+          "canonical_name": "Fish-Speech-1.5 官方权重 (pth, fishaudio)",
+          "entity_type": "model_variant",
+          "release_date": null,
+          "lifecycle_status": "unknown",
+          "recommendable": true
+        },
+        "file_size_bytes": 1464426609,
+        "weight_format": "pth",
+        "official_status": "official",
+        "repository_url": "https://huggingface.co/fishaudio/fish-speech-1.5",
+        "evidence": [
+          {
+            "source_key": "src:hf:fishaudio-fish-speech-1-5",
+            "field_key": "entity.canonical_name",
+            "normalized_value": "Fish-Speech-1.5 官方权重 (pth, fishaudio)",
+            "review_status": "accepted",
+            "confidence": 1
+          }
+        ]
+      }
+    ],
+    "evidence": [
+      {
+        "source_key": "src:card:fish-speech-1-5",
+        "field_key": "entity.canonical_name",
+        "normalized_value": "Fish-Speech-1.5",
+        "provenance_key": "official",
+        "raw_excerpt": "Fish-Speech-1.5",
+        "review_status": "accepted",
+        "reviewed_at": null
+      },
+      {
+        "source_key": "src:card:fish-speech-1-5",
+        "field_key": "model.license_name",
+        "normalized_value": "CC-BY-NC-SA-4.0",
+        "provenance_key": "official",
+        "raw_excerpt": "License: cc-by-nc-sa-4.0",
+        "review_status": "accepted",
+        "reviewed_at": null
+      },
+      {
+        "source_key": "src:card:fish-speech-1-5",
+        "field_key": "model.model_stage",
+        "normalized_value": "text_to_speech",
+        "provenance_key": "official",
+        "raw_excerpt": "text_to_speech",
+        "review_status": "accepted",
+        "reviewed_at": null
+      }
+    ],
+    "family": "Fish-Speech"
+  },
+  "review_notes": [
+    "Model artifacts enumerated from the official Hugging Face API on 2026-09-16 (file list and byte sizes only; no weights were downloaded or verified)."
+  ]
+}

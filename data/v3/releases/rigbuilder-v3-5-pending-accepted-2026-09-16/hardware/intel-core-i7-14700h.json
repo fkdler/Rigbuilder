@@ -1,0 +1,64 @@
+{
+  "schema_version": "3.2",
+  "record_type": "hardware",
+  "status": "accepted",
+  "payload": {
+    "identity": {
+      "entity_key": "hw:intel:core-i7-14700h:laptop:global",
+      "canonical_name": "Core i7-14700H",
+      "entity_type": "hardware",
+      "release_date": null,
+      "lifecycle_status": "unknown",
+      "recommendable": true
+    },
+    "category": "cpu",
+    "record_kind": "product",
+    "manufacturer_key": "org:intel",
+    "form_factor": "laptop",
+    "model_name": "Core i7-14700H",
+    "variant_name": null,
+    "market_segment": "mobile",
+    "region_code": "GLOBAL",
+    "official_product_id": null,
+    "product_family": null,
+    "attributes": [],
+    "evidence": [
+      {
+        "source_key": "src:hardquery:cpu",
+        "field_key": "entity.canonical_name",
+        "normalized_value": "Core i7-14700H",
+        "provenance_key": "community_reported",
+        "raw_excerpt": "Core i7-14700H",
+        "review_status": "accepted",
+        "reviewed_at": null
+      }
+    ],
+    "cpu_spec": {
+      "architecture": "Raptor Lake Refresh",
+      "codename": "Raptor Lake Refresh",
+      "cores_total": 20,
+      "threads": 28,
+      "performance_cores": 8,
+      "efficiency_cores": 12,
+      "base_clock_mhz": null,
+      "boost_clock_mhz": 5500,
+      "l2_cache_mib": null,
+      "l3_cache_mib": 33,
+      "base_power_w": 45,
+      "max_power_w": null,
+      "socket": null,
+      "memory_channels": null,
+      "max_memory_gib": null,
+      "ecc_support": null,
+      "pcie_generation": null,
+      "pcie_lanes": null,
+      "integrated_gpu": "UHD Graphics",
+      "npu_model": null
+    }
+  },
+  "review_notes": [
+    "CPU 缺口补充批（2026-09-07）：官方来源页待核验，未挂 evidence；值按公开规格知识填写，pending，待来源确认后核对；不确定字段留空。",
+    "2026-09-07 evidence 补全：挂 canonical_name 证据（来源见 sources）；其余字段证据待逐字核验后补。",
+    "Approved in bulk on 2026-09-16 at the user's explicit request; no per-record human review."
+  ]
+}

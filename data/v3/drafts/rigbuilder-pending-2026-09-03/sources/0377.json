@@ -1,0 +1,24 @@
+{
+  "schema_version": "3.2",
+  "record_type": "source_document",
+  "status": "pending",
+  "payload": {
+    "source_key": "src:card:molmo-7b-d",
+    "title": "Molmo-7B-D Model Card",
+    "url": "https://huggingface.co/allenai/Molmo-7B-D-0924",
+    "publisher_key": "org:allenai",
+    "source_type": "model_card",
+    "source_tier": "A",
+    "published_at": null,
+    "market_region": null,
+    "language": null,
+    "availability_status": "accessible",
+    "archive_url": null,
+    "accessed_at": "2026-09-15T11:32:26+00:00",
+    "content_hash": "7dae3aa4395224a532607913825b1f37faa47809eaa9beaa09d8bd117bcd8caa"
+  },
+  "review_notes": [
+    "多模态模型来源登记（2026-09-07）：pending。",
+    "2026-09-15 经镜像抓取：https://hf-mirror.com/allenai/Molmo-7B-D-0924（来源登记 URL 保持原样 https://huggingface.co/allenai/Molmo-7B-D-0924）。"
+  ]
+}

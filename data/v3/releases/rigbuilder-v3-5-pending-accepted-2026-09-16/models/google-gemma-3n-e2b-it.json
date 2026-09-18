@@ -1,0 +1,96 @@
+{
+  "schema_version": "3.2",
+  "record_type": "model",
+  "status": "accepted",
+  "payload": {
+    "identity": {
+      "entity_key": "model:google:gemma-3n-e2b-it",
+      "canonical_name": "Gemma-3n-E2B-it",
+      "entity_type": "ai_model",
+      "release_date": "2025-06-26",
+      "lifecycle_status": "unknown",
+      "recommendable": true
+    },
+    "publisher_key": "org:google",
+    "release_version": null,
+    "model_type": "dense",
+    "total_parameters": 5439438272,
+    "active_parameters": 2000000000,
+    "model_stage": "instruct",
+    "context_length_tokens": 32768,
+    "license_name": "Gemma",
+    "commercial_use_status": "allowed",
+    "official_repo_url": "https://huggingface.co/google/gemma-3n-E2B-it",
+    "official_model_card_url": "https://huggingface.co/google/gemma-3n-E2B-it",
+    "architecture_notes": null,
+    "capabilities": [
+      {
+        "capability_key": "text_input",
+        "status": "supported",
+        "notes": null
+      },
+      {
+        "capability_key": "vision_input",
+        "status": "supported",
+        "notes": null
+      },
+      {
+        "capability_key": "audio_input",
+        "status": "supported",
+        "notes": null
+      }
+    ],
+    "variants": [],
+    "evidence": [
+      {
+        "source_key": "src:card:gemma-3n-e2b-it",
+        "field_key": "entity.canonical_name",
+        "normalized_value": "Gemma-3n-E2B-it",
+        "provenance_key": "official",
+        "raw_excerpt": "Gemma-3n-E2B-it",
+        "review_status": "accepted",
+        "reviewed_at": null
+      },
+      {
+        "source_key": "src:card:gemma-3n-e2b-it",
+        "field_key": "model.context_length_tokens",
+        "normalized_value": 32768,
+        "provenance_key": "official",
+        "raw_excerpt": "32768",
+        "review_status": "accepted",
+        "reviewed_at": null
+      },
+      {
+        "source_key": "src:card:gemma-3n-e2b-it",
+        "field_key": "model.license_name",
+        "normalized_value": "Gemma",
+        "provenance_key": "official",
+        "raw_excerpt": "License: gemma",
+        "review_status": "accepted",
+        "reviewed_at": null
+      },
+      {
+        "source_key": "src:card:gemma-3n-e2b-it",
+        "field_key": "model.total_parameters",
+        "normalized_value": 5439438272,
+        "provenance_key": "official",
+        "raw_excerpt": "HF API safetensors.total（精确）: 5439438272",
+        "notes": "由官方 config/API 回填",
+        "review_status": "accepted",
+        "reviewed_at": null
+      }
+    ],
+    "family": "Gemma 3n"
+  },
+  "review_notes": [
+    "模型扩展第二批（2026-09-07）：官方卡待逐字核验；参数量/上下文为公开知识值，pending；GGUF file_size_bytes 待 hf_fill。",
+    "2026-09-14 evidence 提取：从快照 src_card_gemma-3n-e2b-it.txt 提取字段级逐字证据（pending，待审核）。",
+    "2026-09-15 evidence 提取：从快照 src_card_gemma-3n-e2b-it.txt 提取字段级逐字证据（pending，待审核）。",
+    "hf_fill --refresh-params：参数量取 HF API safetensors.total（精确），上下文取 config.json max_position_embeddings；已挂 evidence（pending）。",
+    "参数量说明（2026-09-15）：Gemma 3n 的 \"E2B\" 指 effective parameters（每层嵌入技术下的有效参数 2B），仓库实际权重为 5.44B（HF API safetensors.total）。字段填的是仓库总权重；effective 值与总权重语义不同。",
+    "2026-09-15 evidence 提取：从快照 src_card_gemma-3n-e2b-it.txt 提取字段级逐字证据（pending，待审核）。",
+    "2026-09-15 evidence 提取：从快照 src_card_gemma-3n-e2b-it.txt 提取字段级逐字证据（pending，待审核）。",
+    "2026-09-15 evidence 提取：从快照 src_card_gemma-3n-e2b-it.txt 提取字段级逐字证据（pending，待审核）。",
+    "Approved in bulk on 2026-09-16 at the user's explicit request; no per-record human review."
+  ]
+}

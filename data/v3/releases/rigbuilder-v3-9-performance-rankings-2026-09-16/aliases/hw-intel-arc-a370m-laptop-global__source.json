@@ -1,0 +1,14 @@
+{
+  "schema_version": "3.2",
+  "record_type": "entity_alias",
+  "status": "accepted",
+  "payload": {
+    "entity_key": "hw:intel:arc-a370m:laptop:global",
+    "alias": "Intel Arc A370M",
+    "alias_type": "source_name",
+    "language": null,
+    "normalized_alias": "arca370m",
+    "source_key": "src:passmark:gpu-list-2026-09-16"
+  },
+  "review_notes": []
+}

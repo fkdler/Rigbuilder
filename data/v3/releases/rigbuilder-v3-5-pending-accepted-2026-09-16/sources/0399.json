@@ -1,0 +1,27 @@
+{
+  "schema_version": "3.2",
+  "record_type": "source_document",
+  "status": "accepted",
+  "payload": {
+    "source_key": "src:org:fishaudio",
+    "title": "Fish Audio 官方站点",
+    "url": "https://huggingface.co/fishaudio",
+    "publisher_key": "org:fishaudio",
+    "source_type": "official_page",
+    "source_tier": "B",
+    "published_at": null,
+    "market_region": null,
+    "language": null,
+    "availability_status": "accessible",
+    "archive_url": null,
+    "accessed_at": "2026-09-15T13:25:38+00:00",
+    "content_hash": "7f492419202cb997a9f24611675d3367db5ae9292bb58458eb9f76379c233e24"
+  },
+  "review_notes": [
+    "组织来源登记（2026-09-15）：仅用于背书组织存在性；pending 待抓取。",
+    "2026-09-15 人工浏览器另存导入（src_org_fishaudio.html，237329B，文本 18563 字）",
+    "2026-09-15 人工浏览器另存导入（src_org_fishaudio.html，237329B，文本 18563 字）",
+    "2026-09-15 人工浏览器另存导入（src_org_fishaudio.html，237329B，文本 18563 字）",
+    "Approved in bulk on 2026-09-16 at the user's explicit request; no per-record human review."
+  ]
+}

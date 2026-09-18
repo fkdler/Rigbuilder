@@ -1,0 +1,14 @@
+{
+  "schema_version": "3.2",
+  "record_type": "entity_alias",
+  "status": "accepted",
+  "payload": {
+    "entity_key": "model:moonshot-ai:kimi-k2-thinking",
+    "alias": "moonshotai/Kimi-K2-Thinking",
+    "alias_type": "repository",
+    "language": null,
+    "normalized_alias": "moonshotaikimik2thinking",
+    "source_key": null
+  },
+  "review_notes": []
+}

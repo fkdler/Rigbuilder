@@ -1,0 +1,83 @@
+{
+  "schema_version": "3.2",
+  "record_type": "model",
+  "status": "pending",
+  "payload": {
+    "identity": {
+      "entity_key": "model:fishaudio:fish-speech-1-5",
+      "canonical_name": "Fish-Speech-1.5",
+      "entity_type": "ai_model",
+      "release_date": "2024-12-10",
+      "lifecycle_status": "unknown",
+      "recommendable": true
+    },
+    "publisher_key": "org:fishaudio",
+    "release_version": null,
+    "model_type": "dense",
+    "total_parameters": null,
+    "active_parameters": null,
+    "model_stage": "text_to_speech",
+    "context_length_tokens": null,
+    "license_name": "CC-BY-NC-SA-4.0",
+    "commercial_use_status": "restricted",
+    "official_repo_url": "https://huggingface.co/fishaudio/fish-speech-1.5",
+    "official_model_card_url": "https://huggingface.co/fishaudio/fish-speech-1.5",
+    "architecture_notes": null,
+    "capabilities": [
+      {
+        "capability_key": "text_input",
+        "status": "supported",
+        "notes": null
+      },
+      {
+        "capability_key": "audio_input",
+        "status": "supported",
+        "notes": null
+      },
+      {
+        "capability_key": "audio_output",
+        "status": "supported",
+        "notes": null
+      }
+    ],
+    "variants": [],
+    "evidence": [
+      {
+        "source_key": "src:card:fish-speech-1-5",
+        "field_key": "entity.canonical_name",
+        "normalized_value": "Fish-Speech-1.5",
+        "provenance_key": "official",
+        "raw_excerpt": "Fish-Speech-1.5",
+        "review_status": "pending",
+        "reviewed_at": null
+      },
+      {
+        "source_key": "src:card:fish-speech-1-5",
+        "field_key": "model.license_name",
+        "normalized_value": "CC-BY-NC-SA-4.0",
+        "provenance_key": "official",
+        "raw_excerpt": "License: cc-by-nc-sa-4.0",
+        "review_status": "pending",
+        "reviewed_at": null
+      },
+      {
+        "source_key": "src:card:fish-speech-1-5",
+        "field_key": "model.model_stage",
+        "normalized_value": "text_to_speech",
+        "provenance_key": "official",
+        "raw_excerpt": "text_to_speech",
+        "review_status": "pending",
+        "reviewed_at": null
+      }
+    ],
+    "family": "Fish-Speech"
+  },
+  "review_notes": [
+    "多模态模型批（2026-09-07）：开放权重、可本地部署；参数/日期/许可为公开知识值或留空，pending，待官方卡核验（参数量建议由 hf_fill 从 safetensors 精确回填）。",
+    "本地部署：开放权重（非 API-only）。",
+    "2026-09-15 evidence 提取：从快照 src_card_fish-speech-1-5.txt 提取字段级逐字证据（pending，待审核）。",
+    "2026-09-15 evidence 提取：从快照 src_card_fish-speech-1-5.txt 提取字段级逐字证据（pending，待审核）。",
+    "2026-09-15 evidence 提取：从快照 src_card_fish-speech-1-5.txt 提取字段级逐字证据（pending，待审核）。",
+    "2026-09-15 evidence 提取：从快照 src_card_fish-speech-1-5.txt 提取字段级逐字证据（pending，待审核）。"
+  ]
+}

@@ -1,0 +1,128 @@
+/* Base Reset & Typography */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.sr-only {
+  position: absolute !important;
+  width: 1px !important;
+  height: 1px !important;
+  padding: 0 !important;
+  margin: -1px !important;
+  overflow: hidden !important;
+  clip: rect(0, 0, 0, 0) !important;
+  white-space: nowrap !important;
+  border: 0 !important;
+}
+
+html {
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html,
+body,
+#app {
+  min-height: 100%;
+  margin: 0;
+}
+
+body {
+  min-height: 100vh;
+  font-family: var(--font-sans);
+  color: var(--color-terminal-fg);
+  background: var(--color-terminal-bg);
+  line-height: var(--line-height-base);
+}
+
+button,
+textarea,
+input {
+  font: inherit;
+}
+
+/* Element Plus Theme Overrides for Terminal Style */
+:root {
+  --el-color-primary: var(--color-status-success);
+  --el-color-success: var(--color-status-success);
+  --el-color-warning: var(--color-status-warning);
+  --el-color-error: var(--color-status-error);
+  --el-color-info: var(--color-terminal-fg-dim);
+
+  --el-bg-color: var(--color-terminal-bg);
+  --el-bg-color-page: var(--color-terminal-bg);
+  --el-bg-color-overlay: var(--color-terminal-bg-overlay);
+
+  --el-text-color-primary: var(--color-terminal-fg);
+  --el-text-color-regular: var(--color-terminal-fg-dim);
+  --el-text-color-secondary: var(--color-terminal-fg-dimmer);
+
+  --el-border-color: var(--color-border);
+  --el-border-color-light: var(--color-border);
+  --el-border-color-lighter: var(--color-border);
+  --el-border-color-extra-light: var(--color-border);
+
+  --el-border-radius-base: var(--radius-sm);
+  --el-border-radius-small: var(--radius-sm);
+
+  --el-font-family: var(--font-sans);
+  --el-font-size-base: var(--font-size-base);
+}
+
+/* Element Plus Component Overrides */
+.el-button {
+  font-family: var(--font-mono);
+  border-radius: var(--radius-sm);
+}
+
+.el-button--primary {
+  background-color: var(--color-status-success-dim);
+  border-color: var(--color-status-success);
+  color: var(--color-terminal-fg);
+}
+
+.el-button--primary:hover,
+.el-button--primary:focus {
+  background-color: var(--color-status-success);
+  border-color: var(--color-status-success);
+}
+
+.el-input__inner,
+.el-textarea__inner {
+  background-color: var(--color-terminal-bg-elevated);
+  border-color: var(--color-border);
+  color: var(--color-terminal-fg);
+}
+
+.el-input__inner:focus,
+.el-textarea__inner:focus {
+  border-color: var(--color-accent-cyan);
+}
+
+.el-drawer {
+  background-color: var(--color-terminal-bg);
+}
+
+.el-drawer__header {
+  color: var(--color-terminal-fg);
+  border-bottom-color: var(--color-border);
+}
+
+.el-alert {
+  border-radius: var(--radius-sm);
+}
+
+.el-progress-bar__outer {
+  background-color: var(--color-terminal-bg-elevated);
+}
+
+.el-progress-bar__inner {
+  background-color: var(--color-status-success);
+}
+
+:focus-visible { outline:2px solid var(--color-status-success); outline-offset:3px; }
+::selection { background:var(--color-status-success-dim); color:var(--color-terminal-fg); }

@@ -1,0 +1,16 @@
+{
+  "schema_version": "3.0",
+  "record_type": "source_document",
+  "status": "pending",
+  "payload": {
+    "source_key": "source:legacy:huggingface-co-qwen-qwen2-5-14b-instruct",
+    "title": "Legacy source: Alibaba",
+    "publisher": "Alibaba",
+    "url": "https://huggingface.co/Qwen/Qwen2.5-14B-Instruct",
+    "source_type": "official",
+    "retrieved_at": "1970-01-01T00:00:00Z"
+  },
+  "review_notes": [
+    "retrieved_at is an explicit sentinel; verify before acceptance"
+  ]
+}

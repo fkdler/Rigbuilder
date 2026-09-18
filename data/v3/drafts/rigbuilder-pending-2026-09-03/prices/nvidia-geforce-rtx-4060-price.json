@@ -1,0 +1,22 @@
+{
+  "schema_version": "3.2",
+  "record_type": "price_snapshot",
+  "status": "pending",
+  "payload": {
+    "price_key": "price:hw:nvidia:geforce-rtx-4060:desktop:global:cn:2026-09",
+    "entity_key": "hw:nvidia:geforce-rtx-4060:desktop:global",
+    "source_key": "source:jd:geforce-rtx-4060-10166834608980",
+    "observed_at": "2026-09-05T12:46:13+08:00",
+    "currency": "CNY",
+    "amount": 2599,
+    "availability": "in_stock",
+    "price_type": "current_new",
+    "market_region": "CN",
+    "condition": "new",
+    "seller_key": null,
+    "notes": "search 未返回店铺名，需人工复核"
+  },
+  "review_notes": [
+    "京东页面当前价；抓取 2026-09-05；建议审核复核店铺与库存。"
+  ]
+}

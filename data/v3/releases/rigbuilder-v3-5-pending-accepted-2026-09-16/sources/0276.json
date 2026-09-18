@@ -1,0 +1,25 @@
+{
+  "schema_version": "3.2",
+  "record_type": "source_document",
+  "status": "accepted",
+  "payload": {
+    "source_key": "src:gguf:unsloth-mistral-small-3-2-24b-instruct-2506-gguf",
+    "title": "unsloth/Mistral-Small-3.2-24B-Instruct-2506-GGUF (Hugging Face)",
+    "url": "https://huggingface.co/unsloth/Mistral-Small-3.2-24B-Instruct-2506-GGUF",
+    "publisher_key": "org:unsloth",
+    "source_type": "community",
+    "source_tier": "D",
+    "published_at": null,
+    "market_region": null,
+    "language": null,
+    "availability_status": "accessible",
+    "archive_url": null,
+    "accessed_at": "2026-09-14T11:58:34+00:00",
+    "content_hash": "427a3f0bc5da394be202823fafea977cf06072aa463d445aef2a1b299a565383"
+  },
+  "review_notes": [
+    "模型扩展第二批来源（2026-09-07）：pending，待抓取核验。",
+    "2026-09-14 经镜像抓取：https://hf-mirror.com/unsloth/Mistral-Small-3.2-24B-Instruct-2506-GGUF（来源登记 URL 保持原样 https://huggingface.co/unsloth/Mistral-Small-3.2-24B-Instruct-2506-GGUF）。",
+    "Approved in bulk on 2026-09-16 at the user's explicit request; no per-record human review."
+  ]
+}

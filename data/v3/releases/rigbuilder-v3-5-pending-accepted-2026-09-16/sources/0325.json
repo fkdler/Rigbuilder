@@ -1,0 +1,25 @@
+{
+  "schema_version": "3.2",
+  "record_type": "source_document",
+  "status": "accepted",
+  "payload": {
+    "source_key": "src:org:zai-org",
+    "title": "Z.ai / Zhipu AI (GLM) 官方站点",
+    "url": "https://huggingface.co/zai-org",
+    "publisher_key": "org:zai-org",
+    "source_type": "official_page",
+    "source_tier": "B",
+    "published_at": null,
+    "market_region": null,
+    "language": null,
+    "availability_status": "accessible",
+    "archive_url": null,
+    "accessed_at": "2026-09-14T11:59:49+00:00",
+    "content_hash": "292f002a3c0cf5d93cd7b9ae483d945f012f529d150511af7c0dcac5e6701c3a"
+  },
+  "review_notes": [
+    "evidence 补全批（2026-09-07）：pending，待抓取核验。",
+    "2026-09-14 经镜像抓取：https://hf-mirror.com/zai-org（来源登记 URL 保持原样 https://huggingface.co/zai-org）。",
+    "Approved in bulk on 2026-09-16 at the user's explicit request; no per-record human review."
+  ]
+}

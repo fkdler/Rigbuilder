@@ -1,0 +1,14 @@
+{
+  "schema_version": "3.2",
+  "record_type": "entity_alias",
+  "status": "accepted",
+  "payload": {
+    "entity_key": "hw:amd:ryzen-9-9955hx:laptop:global",
+    "alias": "AMD Ryzen 9 9955HX",
+    "alias_type": "source_name",
+    "language": null,
+    "normalized_alias": "ryzen99955hx",
+    "source_key": "src:passmark:cpu-models-2026-09-16"
+  },
+  "review_notes": []
+}

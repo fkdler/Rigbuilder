@@ -1,0 +1,23 @@
+{
+  "schema_version": "3.2",
+  "record_type": "source_document",
+  "status": "pending",
+  "payload": {
+    "source_key": "source:jd:ryzen-7-5800x-10232004367133",
+    "title": "AMD R7-5800X 处理器一年质保|售后无忧|赠送硅脂",
+    "url": "https://item.jd.com/10232004367133.html",
+    "source_type": "retailer",
+    "source_tier": "C",
+    "publisher_key": null,
+    "published_at": null,
+    "market_region": "CN",
+    "language": "zh-CN",
+    "availability_status": "accessible",
+    "archive_url": null,
+    "accessed_at": "2026-09-07T07:13:47+00:00",
+    "content_hash": "5e2e7fb9bb4ec14b3ec1295f5436fb7e4293fc262ff25514c2df1c2ecc52b8c3"
+  },
+  "review_notes": [
+    "京东标价 SKU 10232004367133；店铺：店铺未返回；页面标价作为 current_new。"
+  ]
+}

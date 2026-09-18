@@ -1,0 +1,24 @@
+{
+  "schema_version": "3.2",
+  "record_type": "source_document",
+  "status": "accepted",
+  "payload": {
+    "source_key": "src:amd:cpu-amd-ryzen-5-9600",
+    "title": "AMD 5 9600 Desktop Processor",
+    "url": "https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-5-9600.html",
+    "publisher_key": null,
+    "source_type": "official_page",
+    "source_tier": "A",
+    "published_at": null,
+    "market_region": null,
+    "language": null,
+    "availability_status": "accessible",
+    "archive_url": null,
+    "accessed_at": "2026-09-07T08:58:12+00:00",
+    "content_hash": "b63cf5e43a72cd8ce45b9aafc700d14f8cfa76f43de12766f4625841e9f3e735"
+  },
+  "review_notes": [
+    "gap_collect 自动注册（2026-09-07）：URL 为规则模板，待 page_save.py --only-missing 抓取并回填 accessed_at/content_hash；若页面 404 或未含目标型号规格，则人工更换官方替代来源。",
+    "Approved in bulk on 2026-09-16 at the user's explicit request; no per-record human review."
+  ]
+}

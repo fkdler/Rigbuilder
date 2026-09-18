@@ -1,0 +1,14 @@
+{
+  "schema_version": "3.2",
+  "record_type": "entity_alias",
+  "status": "accepted",
+  "payload": {
+    "entity_key": "model:meta:llama-4-scout-17b-16e",
+    "alias": "meta-llama/Llama-4-Scout-17B-16E-Instruct",
+    "alias_type": "repository",
+    "language": null,
+    "normalized_alias": "metallamallama4scout17b16einstruct",
+    "source_key": null
+  },
+  "review_notes": []
+}

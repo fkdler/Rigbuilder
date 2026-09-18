@@ -1,0 +1,14 @@
+{
+  "schema_version": "3.2",
+  "record_type": "entity_alias",
+  "status": "accepted",
+  "payload": {
+    "entity_key": "model:qwen:qwen3-vl-32b",
+    "alias": "Qwen/Qwen3-VL-32B-Instruct",
+    "alias_type": "repository",
+    "language": null,
+    "normalized_alias": "qwenqwen3vl32binstruct",
+    "source_key": null
+  },
+  "review_notes": []
+}

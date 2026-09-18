@@ -1,0 +1,300 @@
+{
+  "schema_version": "3.2",
+  "record_type": "model",
+  "status": "accepted",
+  "payload": {
+    "identity": {
+      "entity_key": "model:google:gemma-3-4b-it",
+      "canonical_name": "Gemma-3-4b-it",
+      "entity_type": "ai_model",
+      "release_date": "2025-03-12",
+      "lifecycle_status": "unknown",
+      "recommendable": true
+    },
+    "publisher_key": "org:google",
+    "release_version": null,
+    "model_type": "dense",
+    "total_parameters": 4300079472,
+    "active_parameters": null,
+    "model_stage": "instruct",
+    "context_length_tokens": 131072,
+    "license_name": "Gemma",
+    "commercial_use_status": "allowed",
+    "official_repo_url": "https://huggingface.co/google/gemma-3-4b-it",
+    "official_model_card_url": "https://huggingface.co/google/gemma-3-4b-it",
+    "architecture_notes": null,
+    "capabilities": [
+      {
+        "capability_key": "text_input",
+        "status": "supported",
+        "notes": null
+      },
+      {
+        "capability_key": "vision_input",
+        "status": "supported",
+        "notes": null
+      }
+    ],
+    "variants": [
+      {
+        "identity": {
+          "entity_key": "variant:google:gemma-3-4b-it:gguf:q4-k-m:bartowski",
+          "canonical_name": "Gemma-3-4b-it Q4_K_M (GGUF, bartowski)",
+          "entity_type": "model_variant",
+          "release_date": null,
+          "lifecycle_status": "unknown",
+          "recommendable": false
+        },
+        "maintainer_key": "org:bartowski",
+        "quantization_method": "Q4_K_M",
+        "weight_format": "GGUF",
+        "bits_per_weight": null,
+        "file_size_bytes": 2489758112,
+        "official_status": "community",
+        "repository_url": "https://huggingface.co/bartowski/google_gemma-3-4b-it-GGUF",
+        "artifact_revision": null,
+        "artifact_manifest": null,
+        "checksum": null,
+        "evidence": [
+          {
+            "source_key": "src:gguf:bartowski-google-gemma-3-4b-it-gguf",
+            "field_key": "entity.canonical_name",
+            "normalized_value": "Gemma-3-4b-it Q4_K_M (GGUF, bartowski)",
+            "provenance_key": "community_reported",
+            "raw_excerpt": "Gemma-3-4b-it Q4_K_M (GGUF, bartowski)",
+            "review_status": "accepted",
+            "reviewed_at": null
+          }
+        ]
+      },
+      {
+        "identity": {
+          "entity_key": "variant:google:gemma-3-4b-it:gguf:q5-k-m:bartowski",
+          "canonical_name": "Gemma-3-4b-it Q5_K_M (GGUF, bartowski)",
+          "entity_type": "model_variant",
+          "release_date": null,
+          "lifecycle_status": "unknown",
+          "recommendable": false
+        },
+        "maintainer_key": "org:bartowski",
+        "quantization_method": "Q5_K_M",
+        "weight_format": "GGUF",
+        "bits_per_weight": null,
+        "file_size_bytes": 2829562272,
+        "official_status": "community",
+        "repository_url": "https://huggingface.co/bartowski/google_gemma-3-4b-it-GGUF",
+        "artifact_revision": null,
+        "artifact_manifest": null,
+        "checksum": null,
+        "evidence": [
+          {
+            "source_key": "src:gguf:bartowski-google-gemma-3-4b-it-gguf",
+            "field_key": "entity.canonical_name",
+            "normalized_value": "Gemma-3-4b-it Q5_K_M (GGUF, bartowski)",
+            "provenance_key": "community_reported",
+            "raw_excerpt": "Gemma-3-4b-it Q5_K_M (GGUF, bartowski)",
+            "review_status": "accepted",
+            "reviewed_at": null
+          }
+        ]
+      },
+      {
+        "identity": {
+          "entity_key": "variant:google:gemma-3-4b-it:gguf:q8-0:bartowski",
+          "canonical_name": "Gemma-3-4b-it Q8_0 (GGUF, bartowski)",
+          "entity_type": "model_variant",
+          "release_date": null,
+          "lifecycle_status": "unknown",
+          "recommendable": false
+        },
+        "maintainer_key": "org:bartowski",
+        "quantization_method": "Q8_0",
+        "weight_format": "GGUF",
+        "bits_per_weight": null,
+        "file_size_bytes": 4130226592,
+        "official_status": "community",
+        "repository_url": "https://huggingface.co/bartowski/google_gemma-3-4b-it-GGUF",
+        "artifact_revision": null,
+        "artifact_manifest": null,
+        "checksum": null,
+        "evidence": [
+          {
+            "source_key": "src:gguf:bartowski-google-gemma-3-4b-it-gguf",
+            "field_key": "entity.canonical_name",
+            "normalized_value": "Gemma-3-4b-it Q8_0 (GGUF, bartowski)",
+            "provenance_key": "community_reported",
+            "raw_excerpt": "Gemma-3-4b-it Q8_0 (GGUF, bartowski)",
+            "review_status": "accepted",
+            "reviewed_at": null
+          }
+        ]
+      }
+    ],
+    "evidence": [
+      {
+        "source_key": "src:card:gemma-3-4b-it",
+        "field_key": "entity.canonical_name",
+        "normalized_value": "Gemma-3-4b-it",
+        "provenance_key": "official",
+        "raw_excerpt": "Gemma-3-4b-it",
+        "review_status": "accepted",
+        "reviewed_at": null
+      },
+      {
+        "source_key": "src:card:gemma-3-4b-it",
+        "field_key": "model.total_parameters",
+        "normalized_value": 4300079472,
+        "provenance_key": "official",
+        "raw_excerpt": "HF API safetensors.total（精确）: 4300079472",
+        "review_status": "accepted",
+        "reviewed_at": null,
+        "notes": "由公开知识值校正为官方值（原值 4000000000）"
+      },
+      {
+        "source_key": "src:card:gemma-3-4b-it",
+        "field_key": "model.context_length_tokens",
+        "normalized_value": 131072,
+        "unit_key": "tokens",
+        "provenance_key": "official",
+        "raw_excerpt": "131072",
+        "review_status": "accepted",
+        "reviewed_at": null
+      },
+      {
+        "source_key": "src:card:gemma-3-4b-it",
+        "field_key": "model.license_name",
+        "normalized_value": "Gemma",
+        "provenance_key": "official",
+        "raw_excerpt": "License: gemma",
+        "review_status": "accepted",
+        "reviewed_at": null
+      },
+      {
+        "source_key": "src:modelfit:hardware-dataset-2026-09-16",
+        "field_key": "model.deployment_min_ram_gb",
+        "normalized_value": 6,
+        "raw_excerpt": "ModelFit dataset, model 'Gemma 3 4B Instruct', minRamGb=6",
+        "source_locator": "models[model='Gemma 3 4B Instruct'].minRamGb",
+        "confidence": "0.8",
+        "unit_key": "gib",
+        "provenance_key": null,
+        "review_status": "accepted",
+        "collected_at": "2026-09-16T00:00:00Z",
+        "reviewed_at": null,
+        "notes": "ModelFit 自述该字段为估算值（estimates, not measured）；CC BY 4.0。"
+      },
+      {
+        "source_key": "src:modelfit:hardware-dataset-2026-09-16",
+        "field_key": "model.deployment_estimated_load_gb",
+        "normalized_value": 3.5,
+        "raw_excerpt": "ModelFit dataset, model 'Gemma 3 4B Instruct', estimatedLoadGb=3.5",
+        "source_locator": "models[model='Gemma 3 4B Instruct'].estimatedLoadGb",
+        "confidence": "0.8",
+        "unit_key": "gib",
+        "provenance_key": null,
+        "review_status": "accepted",
+        "collected_at": "2026-09-16T00:00:00Z",
+        "reviewed_at": null,
+        "notes": "ModelFit 自述该字段为估算值（estimates, not measured）；CC BY 4.0。"
+      },
+      {
+        "source_key": "src:modelfit:hardware-dataset-2026-09-16",
+        "field_key": "model.deployment_min_ram_gb",
+        "normalized_value": 8,
+        "raw_excerpt": "ModelFit dataset, model 'Gemma 3 4B Instruct (Q8)', minRamGb=8",
+        "source_locator": "models[model='Gemma 3 4B Instruct (Q8)'].minRamGb",
+        "confidence": "0.8",
+        "unit_key": "gib",
+        "provenance_key": null,
+        "review_status": "accepted",
+        "collected_at": "2026-09-16T00:00:00Z",
+        "reviewed_at": null,
+        "notes": "ModelFit 自述该字段为估算值（estimates, not measured）；CC BY 4.0。"
+      },
+      {
+        "source_key": "src:modelfit:hardware-dataset-2026-09-16",
+        "field_key": "model.deployment_estimated_load_gb",
+        "normalized_value": 3.9,
+        "raw_excerpt": "ModelFit dataset, model 'Gemma 3 4B Instruct (Q8)', estimatedLoadGb=3.9",
+        "source_locator": "models[model='Gemma 3 4B Instruct (Q8)'].estimatedLoadGb",
+        "confidence": "0.8",
+        "unit_key": "gib",
+        "provenance_key": null,
+        "review_status": "accepted",
+        "collected_at": "2026-09-16T00:00:00Z",
+        "reviewed_at": null,
+        "notes": "ModelFit 自述该字段为估算值（estimates, not measured）；CC BY 4.0。"
+      }
+    ],
+    "family": "Gemma 3",
+    "attributes": [
+      {
+        "field_key": "model.deployment_min_ram_gb",
+        "qualifier_key": "Q4_K_M",
+        "value_number": "6",
+        "value_boolean": null,
+        "value_date": null,
+        "value_json": null,
+        "value_integer": null,
+        "value_text": null,
+        "unit": "gib",
+        "value_status": "known",
+        "qualifier": {
+          "quantization": "Q4_K_M",
+          "source_field": "minRamGb"
+        }
+      },
+      {
+        "field_key": "model.deployment_estimated_load_gb",
+        "qualifier_key": "Q4_K_M",
+        "value_number": "3.5",
+        "value_boolean": null,
+        "value_date": null,
+        "value_json": null,
+        "value_integer": null,
+        "value_text": null,
+        "unit": "gib",
+        "value_status": "known",
+        "qualifier": {
+          "quantization": "Q4_K_M",
+          "source_field": "estimatedLoadGb"
+        }
+      },
+      {
+        "field_key": "model.deployment_min_ram_gb",
+        "qualifier_key": "Q8_0",
+        "value_number": "8",
+        "value_boolean": null,
+        "value_date": null,
+        "value_json": null,
+        "value_integer": null,
+        "value_text": null,
+        "unit": "gib",
+        "value_status": "known",
+        "qualifier": {
+          "quantization": "Q8_0",
+          "source_field": "minRamGb"
+        }
+      },
+      {
+        "field_key": "model.deployment_estimated_load_gb",
+        "qualifier_key": "Q8_0",
+        "value_number": "3.9",
+        "value_boolean": null,
+        "value_date": null,
+        "value_json": null,
+        "value_integer": null,
+        "value_text": null,
+        "unit": "gib",
+        "value_status": "known",
+        "qualifier": {
+          "quantization": "Q8_0",
+          "source_field": "estimatedLoadGb"
+        }
+      }
+    ]
+  },
+  "review_notes": [
+    "Deployment attributes added 2026-09-16 from the ModelFit dataset (CC BY 4.0, modelfit.io). These are estimates published by ModelFit, not measurements this project performed."
+  ]
+}

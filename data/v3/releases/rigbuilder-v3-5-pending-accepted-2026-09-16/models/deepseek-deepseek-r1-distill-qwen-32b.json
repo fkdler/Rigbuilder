@@ -1,0 +1,188 @@
+{
+  "schema_version": "3.2",
+  "record_type": "model",
+  "status": "accepted",
+  "payload": {
+    "identity": {
+      "entity_key": "model:deepseek:deepseek-r1-distill-qwen-32b",
+      "canonical_name": "DeepSeek-R1-Distill-Qwen-32B",
+      "entity_type": "ai_model",
+      "release_date": null,
+      "lifecycle_status": "unknown",
+      "recommendable": true
+    },
+    "publisher_key": "org:deepseek",
+    "release_version": null,
+    "model_type": "dense",
+    "total_parameters": 32763876352,
+    "active_parameters": null,
+    "model_stage": "reasoning",
+    "context_length_tokens": 131072,
+    "license_name": "MIT",
+    "commercial_use_status": "allowed",
+    "official_repo_url": "https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-32B",
+    "official_model_card_url": "https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-32B",
+    "architecture_notes": null,
+    "capabilities": [
+      {
+        "capability_key": "text_input",
+        "status": "supported",
+        "notes": "官方模型卡：文本推理"
+      },
+      {
+        "capability_key": "reasoning",
+        "status": "supported",
+        "notes": "官方模型卡：R1 蒸馏推理模型"
+      }
+    ],
+    "variants": [
+      {
+        "identity": {
+          "entity_key": "variant:deepseek:deepseek-r1-distill-qwen-32b:gguf:q4-k-m:unsloth",
+          "canonical_name": "deepseek r1 distill qwen 32b Q4_K_M (GGUF, unsloth)",
+          "entity_type": "model_variant",
+          "release_date": null,
+          "lifecycle_status": "unknown",
+          "recommendable": false
+        },
+        "maintainer_key": "org:unsloth",
+        "quantization_method": "Q4_K_M",
+        "weight_format": "GGUF",
+        "bits_per_weight": null,
+        "file_size_bytes": 19851335584,
+        "official_status": "community",
+        "repository_url": "https://huggingface.co/unsloth/DeepSeek-R1-Distill-Qwen-32B-GGUF",
+        "artifact_revision": null,
+        "artifact_manifest": null,
+        "checksum": null,
+        "evidence": [
+          {
+            "source_key": "source:unsloth-r1-distill-qwen-32b-gguf",
+            "field_key": "entity.canonical_name",
+            "normalized_value": "deepseek r1 distill qwen 32b Q4_K_M (GGUF, unsloth)",
+            "raw_excerpt": "deepseek r1 distill qwen 32b Q4_K_M (GGUF, unsloth)",
+            "provenance_key": "community_reported",
+            "review_status": "accepted",
+            "reviewed_at": null
+          }
+        ]
+      },
+      {
+        "identity": {
+          "entity_key": "variant:deepseek:deepseek-r1-distill-qwen-32b:gguf:q5-k-m:unsloth",
+          "canonical_name": "deepseek r1 distill qwen 32b Q5_K_M (GGUF, unsloth)",
+          "entity_type": "model_variant",
+          "release_date": null,
+          "lifecycle_status": "unknown",
+          "recommendable": false
+        },
+        "maintainer_key": "org:unsloth",
+        "quantization_method": "Q5_K_M",
+        "weight_format": "GGUF",
+        "bits_per_weight": null,
+        "file_size_bytes": 23262156704,
+        "official_status": "community",
+        "repository_url": "https://huggingface.co/unsloth/DeepSeek-R1-Distill-Qwen-32B-GGUF",
+        "artifact_revision": null,
+        "artifact_manifest": null,
+        "checksum": null,
+        "evidence": [
+          {
+            "source_key": "source:unsloth-r1-distill-qwen-32b-gguf",
+            "field_key": "entity.canonical_name",
+            "normalized_value": "deepseek r1 distill qwen 32b Q5_K_M (GGUF, unsloth)",
+            "raw_excerpt": "deepseek r1 distill qwen 32b Q5_K_M (GGUF, unsloth)",
+            "provenance_key": "community_reported",
+            "review_status": "accepted",
+            "reviewed_at": null
+          }
+        ]
+      },
+      {
+        "identity": {
+          "entity_key": "variant:deepseek:deepseek-r1-distill-qwen-32b:gguf:q8-0:unsloth",
+          "canonical_name": "deepseek r1 distill qwen 32b Q8_0 (GGUF, unsloth)",
+          "entity_type": "model_variant",
+          "release_date": null,
+          "lifecycle_status": "unknown",
+          "recommendable": false
+        },
+        "maintainer_key": "org:unsloth",
+        "quantization_method": "Q8_0",
+        "weight_format": "GGUF",
+        "bits_per_weight": null,
+        "file_size_bytes": 34820884384,
+        "official_status": "community",
+        "repository_url": "https://huggingface.co/unsloth/DeepSeek-R1-Distill-Qwen-32B-GGUF",
+        "artifact_revision": null,
+        "artifact_manifest": null,
+        "checksum": null,
+        "evidence": [
+          {
+            "source_key": "source:unsloth-r1-distill-qwen-32b-gguf",
+            "field_key": "entity.canonical_name",
+            "normalized_value": "deepseek r1 distill qwen 32b Q8_0 (GGUF, unsloth)",
+            "raw_excerpt": "deepseek r1 distill qwen 32b Q8_0 (GGUF, unsloth)",
+            "provenance_key": "community_reported",
+            "review_status": "accepted",
+            "reviewed_at": null
+          }
+        ]
+      }
+    ],
+    "evidence": [
+      {
+        "source_key": "source:deepseek-r1-distill-qwen-32b-card",
+        "field_key": "entity.canonical_name",
+        "normalized_value": "DeepSeek-R1-Distill-Qwen-32B",
+        "raw_excerpt": "DeepSeek-R1-Distill-Qwen-32B",
+        "provenance_key": "official",
+        "review_status": "accepted",
+        "reviewed_at": null
+      },
+      {
+        "source_key": "source:deepseek-r1-distill-qwen-32b-card",
+        "field_key": "model.license_name",
+        "normalized_value": "MIT",
+        "raw_excerpt": "License: mit",
+        "provenance_key": "official",
+        "review_status": "accepted",
+        "reviewed_at": null
+      },
+      {
+        "source_key": "source:deepseek-r1-distill-qwen-32b-card",
+        "field_key": "model.total_parameters",
+        "normalized_value": 32763876352,
+        "provenance_key": "official",
+        "raw_excerpt": "HF API safetensors.total（精确）: 32763876352",
+        "notes": "由官方 config/API 回填",
+        "review_status": "accepted",
+        "reviewed_at": null
+      },
+      {
+        "source_key": "source:deepseek-r1-distill-qwen-32b-card",
+        "field_key": "model.context_length_tokens",
+        "normalized_value": 131072,
+        "provenance_key": "official",
+        "raw_excerpt": "config.json max_position_embeddings: 131072",
+        "notes": "由官方 config/API 回填",
+        "review_status": "accepted",
+        "reviewed_at": null
+      }
+    ],
+    "family": "DeepSeek-R1-Distill"
+  },
+  "review_notes": [
+    "值未逐字读取官方页面确认，retrieved_at 为占位时间，须由实际访问者替换。",
+    "total_parameters / 部分 context_length_tokens 置 null：以官方 config/模型卡为准，不采用宣传 B 值猜测。",
+    "变体 file_size_bytes 置 null：需读取仓库 Files 元数据补真实字节。",
+    "32B 推理档：适配 24GB 显存卡（Q4_K_M 约 20GiB 内，待字节确认）；上下文长度待模型卡确认。",
+    "2026-09-14 evidence 提取：从快照 source_deepseek-r1-distill-qwen-32b-card.txt 提取字段级逐字证据（pending，待审核）。",
+    "hf_fill --refresh-params：参数量取 HF API safetensors.total（精确），上下文取 config.json max_position_embeddings；已挂 evidence（pending）。",
+    "2026-09-15 evidence 提取：从快照 source_deepseek-r1-distill-qwen-32b-card.txt 提取字段级逐字证据（pending，待审核）。",
+    "2026-09-15 evidence 提取：从快照 source_deepseek-r1-distill-qwen-32b-card.txt 提取字段级逐字证据（pending，待审核）。",
+    "2026-09-15 evidence 提取：从快照 source_deepseek-r1-distill-qwen-32b-card.txt 提取字段级逐字证据（pending，待审核）。",
+    "2026-09-15 evidence 提取：从快照 source_deepseek-r1-distill-qwen-32b-card.txt 提取字段级逐字证据（pending，待审核）。",
+    "Approved in bulk on 2026-09-16 at the user's explicit request; no per-record human review."
+  ]
+}

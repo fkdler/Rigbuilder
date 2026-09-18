@@ -1,0 +1,16 @@
+{
+  "schema_version": "3.2",
+  "record_type": "metric_definition",
+  "status": "accepted",
+  "payload": {
+    "metric_key": "passmark.cpu.rank_class",
+    "label": "PassMark CPU rank within form-factor class",
+    "value_type": "integer",
+    "canonical_unit": "rank",
+    "higher_is_better": false,
+    "description": "Rank among the Desktop (or Laptop) CPUs PassMark has graded; the cohort a recommendation should compare against.",
+    "comparison_scope": "cpu",
+    "active": true
+  },
+  "review_notes": []
+}

@@ -1,0 +1,24 @@
+{
+  "schema_version": "3.2",
+  "record_type": "source_document",
+  "status": "pending",
+  "payload": {
+    "source_key": "src:card:hunyuanimage-3-0",
+    "title": "HunyuanImage-3.0 Model Card",
+    "url": "https://huggingface.co/tencent/HunyuanImage-3.0",
+    "publisher_key": "org:tencent",
+    "source_type": "model_card",
+    "source_tier": "A",
+    "published_at": null,
+    "market_region": null,
+    "language": null,
+    "availability_status": "accessible",
+    "archive_url": null,
+    "accessed_at": "2026-09-15T11:30:40+00:00",
+    "content_hash": "d64b73467caaca2af4c34969668f84ac46cc694d7ef18ad99ecef6d178cb3cf1"
+  },
+  "review_notes": [
+    "多模态模型来源登记（2026-09-07）：pending，待抓取核验。",
+    "2026-09-15 经镜像抓取：https://hf-mirror.com/tencent/HunyuanImage-3.0（来源登记 URL 保持原样 https://huggingface.co/tencent/HunyuanImage-3.0）。"
+  ]
+}

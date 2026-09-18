@@ -1,0 +1,25 @@
+{
+  "schema_version": "3.2",
+  "record_type": "source_document",
+  "status": "accepted",
+  "payload": {
+    "source_key": "src:card:minicpm-o-2-6",
+    "title": "MiniCPM-o-2.6 Model Card",
+    "url": "https://huggingface.co/openbmb/MiniCPM-o-2_6",
+    "publisher_key": "org:openbmb",
+    "source_type": "model_card",
+    "source_tier": "A",
+    "published_at": null,
+    "market_region": null,
+    "language": null,
+    "availability_status": "accessible",
+    "archive_url": null,
+    "accessed_at": "2026-09-15T11:32:22+00:00",
+    "content_hash": "1a75a83f08474ade3ae9a21b53c6a6f5e550c0b7a813308a85df696b0e3f41a9"
+  },
+  "review_notes": [
+    "多模态模型来源登记（2026-09-07）：pending。",
+    "2026-09-15 经镜像抓取：https://hf-mirror.com/openbmb/MiniCPM-o-2_6（来源登记 URL 保持原样 https://huggingface.co/openbmb/MiniCPM-o-2_6）。",
+    "Approved in bulk on 2026-09-16 at the user's explicit request; no per-record human review."
+  ]
+}

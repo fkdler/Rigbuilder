@@ -1,0 +1,132 @@
+{
+  "schema_version": "3.2",
+  "record_type": "hardware",
+  "status": "accepted",
+  "payload": {
+    "identity": {
+      "entity_key": "hw:amd:ryzen-3-8300g:desktop:global",
+      "canonical_name": "Ryzen 3 8300G",
+      "entity_type": "hardware",
+      "release_date": null,
+      "lifecycle_status": "unknown",
+      "recommendable": true
+    },
+    "category": "cpu",
+    "record_kind": "product",
+    "manufacturer_key": "org:amd",
+    "form_factor": "desktop",
+    "model_name": "Ryzen 3 8300G",
+    "variant_name": null,
+    "market_segment": "consumer",
+    "region_code": "GLOBAL",
+    "official_product_id": null,
+    "product_family": null,
+    "attributes": [],
+    "evidence": [
+      {
+        "source_key": "src:amd:cpu-amd-ryzen-3-8300g",
+        "field_key": "entity.canonical_name",
+        "normalized_value": "Ryzen 3 8300G",
+        "provenance_key": "official",
+        "raw_excerpt": "Ryzen 3 8300G",
+        "review_status": "accepted",
+        "reviewed_at": null
+      },
+      {
+        "source_key": "src:amd:cpu-amd-ryzen-3-8300g",
+        "field_key": "cpu.l3_cache_mib",
+        "normalized_value": 8,
+        "provenance_key": "official",
+        "raw_excerpt": "L3 Cache \n 8 MB \n Default TDP \n 65W \n AMD Configurable TDP (cTDP) \n 45-65W \n Processor Technology for CPU Cores \n TSMC 4",
+        "review_status": "accepted",
+        "reviewed_at": null
+      },
+      {
+        "source_key": "src:amd:cpu-amd-ryzen-3-8300g",
+        "field_key": "cpu.base_power_w",
+        "normalized_value": 65,
+        "provenance_key": "official",
+        "raw_excerpt": "Default TDP \n 65W \n AMD Configurable TDP (cTDP) \n 45-65W \n Processor Technology for CPU Cores \n TSMC 4nm FinFET \n CPU Co",
+        "review_status": "accepted",
+        "reviewed_at": null
+      },
+      {
+        "source_key": "src:amd:cpu-amd-ryzen-3-8300g",
+        "field_key": "cpu.l2_cache_mib",
+        "normalized_value": 4,
+        "provenance_key": "official",
+        "raw_excerpt": "L2 Cache \n 4 MB \n L3 Cache \n 8 MB \n Default TDP \n 65W \n AMD Configurable TDP (cTDP) \n 45-65W \n Processor Technology for",
+        "review_status": "accepted",
+        "reviewed_at": null
+      },
+      {
+        "source_key": "src:amd:cpu-amd-ryzen-3-8300g",
+        "field_key": "cpu.memory_channels",
+        "normalized_value": 2,
+        "provenance_key": "official",
+        "raw_excerpt": "Memory Channels \n 2 \n Max. Memory \n 256 GB \n System Memory Subtype \n UDIMM \n Max Memory Speed \n 2x1R \n DDR5-5200 \n 2x2R",
+        "review_status": "accepted",
+        "reviewed_at": null
+      },
+      {
+        "source_key": "src:amd:cpu-amd-ryzen-3-8300g",
+        "field_key": "cpu.l3_cache_mib",
+        "normalized_value": 8,
+        "provenance_key": "official",
+        "raw_excerpt": "L3 Cache \n 8 MB \n Default TDP \n 65W \n AMD Configurable TDP (cTDP) \n 45-65W \n Processor Technology for CPU Cores \n TSMC 4",
+        "review_status": "accepted",
+        "reviewed_at": null
+      },
+      {
+        "source_key": "src:amd:cpu-amd-ryzen-3-8300g",
+        "field_key": "cpu.l2_cache_mib",
+        "normalized_value": 4,
+        "provenance_key": "official",
+        "raw_excerpt": "L2 Cache \n 4 MB \n L3 Cache \n 8 MB \n Default TDP \n 65W \n AMD Configurable TDP (cTDP) \n 45-65W \n Processor Technology for",
+        "review_status": "accepted",
+        "reviewed_at": null
+      },
+      {
+        "source_key": "src:amd:cpu-amd-ryzen-3-8300g",
+        "field_key": "cpu.base_power_w",
+        "normalized_value": 65,
+        "provenance_key": "official",
+        "raw_excerpt": "Default TDP \n 65W \n AMD Configurable TDP (cTDP) \n 45-65W \n Processor Technology for CPU Cores \n TSMC 4nm FinFET \n CPU Co",
+        "review_status": "accepted",
+        "reviewed_at": null
+      },
+      {
+        "source_key": "src:amd:cpu-amd-ryzen-3-8300g",
+        "field_key": "cpu.integrated_gpu",
+        "normalized_value": "Radeon 740M",
+        "review_status": "accepted",
+        "confidence": 1
+      }
+    ],
+    "cpu_spec": {
+      "architecture": "Zen 4",
+      "codename": "Zen 4",
+      "cores_total": 4,
+      "threads": 8,
+      "performance_cores": 1,
+      "efficiency_cores": 3,
+      "base_clock_mhz": 3400,
+      "boost_clock_mhz": 4900,
+      "l2_cache_mib": 4,
+      "l3_cache_mib": 8,
+      "base_power_w": 65,
+      "max_power_w": null,
+      "socket": "AM5",
+      "memory_channels": 2,
+      "max_memory_gib": null,
+      "ecc_support": null,
+      "pcie_generation": 4,
+      "pcie_lanes": 20,
+      "integrated_gpu": "Radeon 740M",
+      "npu_model": null
+    }
+  },
+  "review_notes": [
+    "Added 2026-09-16 by the migration/backfill pass; value matches the stored specification column."
+  ]
+}

@@ -1,0 +1,189 @@
+{
+  "schema_version": "3.2",
+  "record_type": "model",
+  "status": "accepted",
+  "payload": {
+    "identity": {
+      "entity_key": "model:qwen:qwen2-5-14b-instruct",
+      "canonical_name": "Qwen2.5-14B-Instruct",
+      "entity_type": "ai_model",
+      "release_date": "2024-09-19",
+      "lifecycle_status": "unknown",
+      "recommendable": true
+    },
+    "publisher_key": "org:qwen",
+    "release_version": null,
+    "model_type": "dense",
+    "total_parameters": 14770033664,
+    "active_parameters": null,
+    "model_stage": "instruct",
+    "context_length_tokens": 32768,
+    "license_name": "Apache-2.0",
+    "commercial_use_status": "allowed",
+    "official_repo_url": "https://huggingface.co/Qwen/Qwen2.5-14B-Instruct",
+    "official_model_card_url": "https://huggingface.co/Qwen/Qwen2.5-14B-Instruct",
+    "architecture_notes": null,
+    "capabilities": [
+      {
+        "capability_key": "text_input",
+        "status": "supported",
+        "notes": null
+      }
+    ],
+    "variants": [
+      {
+        "identity": {
+          "entity_key": "variant:qwen:qwen2-5-14b-instruct:gguf:q4-k-m:qwen",
+          "canonical_name": "Qwen2.5-14B-Instruct Q4_K_M (GGUF, qwen)",
+          "entity_type": "model_variant",
+          "release_date": null,
+          "lifecycle_status": "unknown",
+          "recommendable": false
+        },
+        "maintainer_key": "org:qwen",
+        "quantization_method": "Q4_K_M",
+        "weight_format": "GGUF",
+        "bits_per_weight": null,
+        "file_size_bytes": 8988110496,
+        "official_status": "official",
+        "repository_url": "https://huggingface.co/Qwen/Qwen2.5-14B-Instruct-GGUF",
+        "artifact_revision": null,
+        "artifact_manifest": null,
+        "checksum": null,
+        "evidence": [
+          {
+            "source_key": "src:gguf:qwen-qwen2-5-14b-instruct-gguf",
+            "field_key": "entity.canonical_name",
+            "normalized_value": "Qwen2.5-14B-Instruct Q4_K_M (GGUF, qwen)",
+            "provenance_key": "official",
+            "raw_excerpt": "Qwen2.5-14B-Instruct Q4_K_M (GGUF, qwen)",
+            "review_status": "accepted",
+            "reviewed_at": null
+          }
+        ]
+      },
+      {
+        "identity": {
+          "entity_key": "variant:qwen:qwen2-5-14b-instruct:gguf:q5-k-m:qwen",
+          "canonical_name": "Qwen2.5-14B-Instruct Q5_K_M (GGUF, qwen)",
+          "entity_type": "model_variant",
+          "release_date": null,
+          "lifecycle_status": "unknown",
+          "recommendable": false
+        },
+        "maintainer_key": "org:qwen",
+        "quantization_method": "Q5_K_M",
+        "weight_format": "GGUF",
+        "bits_per_weight": null,
+        "file_size_bytes": 10508873376,
+        "official_status": "official",
+        "repository_url": "https://huggingface.co/Qwen/Qwen2.5-14B-Instruct-GGUF",
+        "artifact_revision": null,
+        "artifact_manifest": null,
+        "checksum": null,
+        "evidence": [
+          {
+            "source_key": "src:gguf:qwen-qwen2-5-14b-instruct-gguf",
+            "field_key": "entity.canonical_name",
+            "normalized_value": "Qwen2.5-14B-Instruct Q5_K_M (GGUF, qwen)",
+            "provenance_key": "official",
+            "raw_excerpt": "Qwen2.5-14B-Instruct Q5_K_M (GGUF, qwen)",
+            "review_status": "accepted",
+            "reviewed_at": null
+          }
+        ]
+      },
+      {
+        "identity": {
+          "entity_key": "variant:qwen:qwen2-5-14b-instruct:gguf:q8-0:qwen",
+          "canonical_name": "Qwen2.5-14B-Instruct Q8_0 (GGUF, qwen)",
+          "entity_type": "model_variant",
+          "release_date": null,
+          "lifecycle_status": "unknown",
+          "recommendable": false
+        },
+        "maintainer_key": "org:qwen",
+        "quantization_method": "Q8_0",
+        "weight_format": "GGUF",
+        "bits_per_weight": null,
+        "file_size_bytes": 15701597984,
+        "official_status": "official",
+        "repository_url": "https://huggingface.co/Qwen/Qwen2.5-14B-Instruct-GGUF",
+        "artifact_revision": null,
+        "artifact_manifest": null,
+        "checksum": null,
+        "evidence": [
+          {
+            "source_key": "src:gguf:qwen-qwen2-5-14b-instruct-gguf",
+            "field_key": "entity.canonical_name",
+            "normalized_value": "Qwen2.5-14B-Instruct Q8_0 (GGUF, qwen)",
+            "provenance_key": "official",
+            "raw_excerpt": "Qwen2.5-14B-Instruct Q8_0 (GGUF, qwen)",
+            "review_status": "accepted",
+            "reviewed_at": null
+          }
+        ]
+      }
+    ],
+    "evidence": [
+      {
+        "source_key": "src:card:qwen2-5-14b-instruct",
+        "field_key": "entity.canonical_name",
+        "normalized_value": "Qwen2.5-14B-Instruct",
+        "provenance_key": "official",
+        "raw_excerpt": "Qwen2.5-14B-Instruct",
+        "review_status": "accepted",
+        "reviewed_at": null
+      },
+      {
+        "source_key": "src:card:qwen2-5-14b-instruct",
+        "field_key": "model.total_parameters",
+        "normalized_value": 14770033664,
+        "provenance_key": "official",
+        "notes": "由公开知识值校正为官方值（原值 14800000000）",
+        "raw_excerpt": "HF API safetensors.total（精确）: 14770033664",
+        "review_status": "accepted",
+        "reviewed_at": null
+      },
+      {
+        "source_key": "src:card:qwen2-5-14b-instruct",
+        "field_key": "model.context_length_tokens",
+        "normalized_value": 32768,
+        "unit_key": "tokens",
+        "provenance_key": "official",
+        "raw_excerpt": "32768",
+        "review_status": "accepted",
+        "reviewed_at": null
+      },
+      {
+        "source_key": "src:card:qwen2-5-14b-instruct",
+        "field_key": "model.license_name",
+        "normalized_value": "Apache-2.0",
+        "provenance_key": "official",
+        "raw_excerpt": "License: apache-2.0",
+        "review_status": "accepted",
+        "reviewed_at": null
+      }
+    ],
+    "family": "Qwen2.5"
+  },
+  "review_notes": [
+    "来源 retrieved_at 为占位时间，调查员须替换为实际看到页面的时间。",
+    "source_key 前缀暂为 src: 与 quantization/format 大小写（Q4_K_M/GGUF）待审核人与词表对齐（可统一为 source:/小写）。",
+    "变体 Q4_K_M 页面参考大小：9.08 GB（页面十进制参考值，非精确字节；file_size_bytes 待真实元数据）（file_size_bytes 待真实元数据）",
+    "变体 Q5_K_M 页面参考大小：10.52 GB（页面十进制参考值，非精确字节；file_size_bytes 待真实元数据）（file_size_bytes 待真实元数据）",
+    "变体 Q8_0 页面参考大小：16.12 GB（页面十进制参考值，非精确字节；file_size_bytes 待真实元数据）（file_size_bytes 待真实元数据）",
+    "2026-09-14 evidence 提取：从快照 src_card_qwen2-5-14b-instruct.txt 提取字段级逐字证据（pending，待审核）。",
+    "2026-09-14 evidence 提取：从快照 src_gguf_qwen-qwen2-5-14b-instruct-gguf.txt 提取字段级逐字证据（pending，待审核）。",
+    "2026-09-15 evidence 提取：从快照 src_card_qwen2-5-14b-instruct.txt 提取字段级逐字证据（pending，待审核）。",
+    "2026-09-15 evidence 提取：从快照 src_gguf_qwen-qwen2-5-14b-instruct-gguf.txt 提取字段级逐字证据（pending，待审核）。",
+    "hf_fill --refresh-params：参数量取 HF API safetensors.total（精确），上下文取 config.json max_position_embeddings；已挂 evidence（pending）。",
+    "2026-09-15 evidence 提取：从快照 src_card_qwen2-5-14b-instruct.txt 提取字段级逐字证据（pending，待审核）。",
+    "2026-09-15 evidence 提取：从快照 src_gguf_qwen-qwen2-5-14b-instruct-gguf.txt 提取字段级逐字证据（pending，待审核）。",
+    "2026-09-15 evidence 提取：从快照 src_card_qwen2-5-14b-instruct.txt 提取字段级逐字证据（pending，待审核）。",
+    "2026-09-15 evidence 提取：从快照 src_gguf_qwen-qwen2-5-14b-instruct-gguf.txt 提取字段级逐字证据（pending，待审核）。",
+    "2026-09-15 evidence 提取：从快照 src_card_qwen2-5-14b-instruct.txt 提取字段级逐字证据（pending，待审核）。",
+    "2026-09-15 evidence 提取：从快照 src_gguf_qwen-qwen2-5-14b-instruct-gguf.txt 提取字段级逐字证据（pending，待审核）。",
+    "Approved in bulk on 2026-09-16 at the user's explicit request; no per-record human review."
+  ]
+}

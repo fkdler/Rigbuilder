@@ -1,0 +1,14 @@
+{
+  "schema_version": "3.2",
+  "record_type": "entity_alias",
+  "status": "accepted",
+  "payload": {
+    "entity_key": "model:microsoft:trellis-image-large",
+    "alias": "microsoft/TRELLIS-image-large",
+    "alias_type": "repository",
+    "language": null,
+    "normalized_alias": "microsofttrellisimagelarge",
+    "source_key": null
+  },
+  "review_notes": []
+}

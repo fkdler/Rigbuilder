@@ -1,0 +1,69 @@
+{
+  "schema_version": "3.2",
+  "record_type": "hardware",
+  "status": "accepted",
+  "payload": {
+    "identity": {
+      "entity_key": "hw:intel:core-i9-14900ks:desktop:global",
+      "canonical_name": "Core i9-14900KS",
+      "entity_type": "hardware",
+      "release_date": null,
+      "lifecycle_status": "unknown",
+      "recommendable": true
+    },
+    "category": "cpu",
+    "record_kind": "product",
+    "manufacturer_key": "org:intel",
+    "form_factor": "desktop",
+    "model_name": "Core i9-14900KS",
+    "variant_name": null,
+    "market_segment": "consumer",
+    "region_code": "GLOBAL",
+    "official_product_id": null,
+    "product_family": null,
+    "attributes": [],
+    "evidence": [
+      {
+        "source_key": "src:hardquery:cpu",
+        "field_key": "entity.canonical_name",
+        "normalized_value": "Core i9-14900KS",
+        "provenance_key": "community_reported",
+        "raw_excerpt": "Core i9-14900KS",
+        "review_status": "accepted",
+        "reviewed_at": null
+      },
+      {
+        "source_key": "src:hardquery:cpu",
+        "field_key": "cpu.integrated_gpu",
+        "normalized_value": "UHD Graphics 770",
+        "review_status": "accepted",
+        "confidence": 1
+      }
+    ],
+    "cpu_spec": {
+      "architecture": "Raptor Lake Refresh",
+      "codename": "Raptor Lake Refresh",
+      "cores_total": 24,
+      "threads": 32,
+      "performance_cores": 8,
+      "efficiency_cores": 16,
+      "base_clock_mhz": 3200,
+      "boost_clock_mhz": 6200,
+      "l2_cache_mib": null,
+      "l3_cache_mib": 36,
+      "base_power_w": 150,
+      "max_power_w": null,
+      "socket": "LGA1700",
+      "memory_channels": null,
+      "max_memory_gib": null,
+      "ecc_support": null,
+      "pcie_generation": 5,
+      "pcie_lanes": 20,
+      "integrated_gpu": "UHD Graphics 770",
+      "npu_model": null
+    }
+  },
+  "review_notes": [
+    "Added 2026-09-16 by the migration/backfill pass; value matches the stored specification column."
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "schema_version": "3.2",
+  "record_type": "source_document",
+  "status": "accepted",
+  "payload": {
+    "source_key": "src:nvidia:gpu-family-5060-5060ti",
+    "title": "GeForce RTX 5060 Family - NVIDIA",
+    "url": "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5060-family/",
+    "publisher_key": null,
+    "source_type": "official_page",
+    "source_tier": "A",
+    "published_at": null,
+    "market_region": null,
+    "language": null,
+    "availability_status": "accessible",
+    "archive_url": null,
+    "accessed_at": "2026-09-07T08:58:40+00:00",
+    "content_hash": "5fa932abcdadab34568ee139dea2566258d5ada2bfd563b1e5aa35702b176988"
+  },
+  "review_notes": [
+    "gap_collect 自动注册（2026-09-07）：URL 为规则模板/家族页候选，待 page_save.py --only-missing 抓取并回填 accessed_at/content_hash；若页面 404 或未含目标型号规格，则人工更换官方替代来源。",
+    "Approved in bulk on 2026-09-16 at the user's explicit request; no per-record human review."
+  ]
+}

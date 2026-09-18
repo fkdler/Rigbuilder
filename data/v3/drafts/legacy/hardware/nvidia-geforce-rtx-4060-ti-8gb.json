@@ -1,0 +1,56 @@
+{
+  "schema_version": "3.0",
+  "record_type": "hardware",
+  "status": "pending",
+  "payload": {
+    "identity": {
+      "entity_key": "hardware:nvidia:geforce-rtx-4060-ti-8gb",
+      "canonical_name": "GeForce RTX 4060 Ti 8GB",
+      "entity_type": "hardware",
+      "release_date": "2023-05-24"
+    },
+    "hardware_type": "desktop_gpu",
+    "manufacturer_key": "org:nvidia",
+    "evidence": [
+      {
+        "source_key": "source:legacy:www-nvidia-com-en-us-geforce-graphics-cards-40-series-rtx-4060-4060ti",
+        "field_key": "gpu.architecture",
+        "raw_value": "Ada Lovelace",
+        "normalized_value": "Ada Lovelace"
+      },
+      {
+        "source_key": "source:legacy:www-nvidia-com-en-us-geforce-graphics-cards-40-series-rtx-4060-4060ti",
+        "field_key": "gpu.vram_gib",
+        "raw_value": "8 GB GDDR6",
+        "normalized_value": 8
+      },
+      {
+        "source_key": "source:legacy:www-nvidia-com-en-us-geforce-graphics-cards-40-series-rtx-4060-4060ti",
+        "field_key": "gpu.memory_type",
+        "raw_value": "GDDR6",
+        "normalized_value": "GDDR6"
+      },
+      {
+        "source_key": "source:legacy:www-nvidia-com-en-us-geforce-graphics-cards-40-series-rtx-4060-4060ti",
+        "field_key": "gpu.board_power_w",
+        "raw_value": "160 W",
+        "normalized_value": 160
+      },
+      {
+        "source_key": "source:legacy:www-nvidia-com-en-us-geforce-graphics-cards-40-series-rtx-4060-4060ti",
+        "field_key": "legacy.release_date",
+        "raw_value": null,
+        "normalized_value": "2023-05-24"
+      }
+    ],
+    "gpu_spec": {
+      "architecture": "Ada Lovelace",
+      "vram_gib": 8,
+      "memory_type": "GDDR6",
+      "board_power_w": 160
+    }
+  },
+  "review_notes": [
+    "legacy normalized data; all fields require V3 review"
+  ]
+}

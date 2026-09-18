@@ -1,0 +1,23 @@
+{
+  "schema_version": "3.2",
+  "record_type": "source_document",
+  "status": "pending",
+  "payload": {
+    "source_key": "src:nvidia:gpu-desktop-40-series",
+    "title": "GeForce RTX 40 Series - NVIDIA",
+    "url": "https://www.nvidia.com/en-us/geforce/graphics-cards/40-series/",
+    "publisher_key": "org:nvidia",
+    "source_type": "official_page",
+    "source_tier": "A",
+    "published_at": null,
+    "market_region": null,
+    "language": null,
+    "availability_status": "accessible",
+    "archive_url": null,
+    "accessed_at": "2026-09-14T10:28:28+00:00",
+    "content_hash": "68892a3dfe7c8bea49d0b0e61b39f579e844369f77951f2a76f9f235a476a99d"
+  },
+  "review_notes": [
+    "evidence 补全批（2026-09-07）：官方页/官方系列页；pending，待 page_save.py 抓取回填。"
+  ]
+}

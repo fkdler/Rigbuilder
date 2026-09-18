@@ -1,0 +1,16 @@
+{
+  "schema_version": "3.2",
+  "record_type": "metric_definition",
+  "status": "accepted",
+  "payload": {
+    "metric_key": "passmark.gpu.g3d_mark",
+    "label": "PassMark G3D Mark",
+    "value_type": "number",
+    "canonical_unit": "points",
+    "higher_is_better": true,
+    "description": "Aggregate PassMark 3D graphics score as published in the PassMark video card list.",
+    "comparison_scope": "gpu",
+    "active": true
+  },
+  "review_notes": []
+}

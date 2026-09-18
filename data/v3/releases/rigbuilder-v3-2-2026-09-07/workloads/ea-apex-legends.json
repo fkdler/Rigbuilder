@@ -1,0 +1,131 @@
+{
+  "schema_version": "3.2",
+  "record_type": "workload",
+  "status": "accepted",
+  "payload": {
+    "identity": {
+      "entity_key": "workload:game:apex-legends",
+      "canonical_name": "Apex Legends",
+      "entity_type": "workload",
+      "release_date": null,
+      "lifecycle_status": "unknown",
+      "recommendable": false
+    },
+    "workload_type": "game",
+    "publisher_key": "org:ea",
+    "family": "Apex",
+    "current_version": null,
+    "engine": "Source",
+    "official_url": "https://store.steampowered.com/app/1172470/Apex_Legends/",
+    "description": "",
+    "profiles": [
+      {
+        "profile_key": "minimum",
+        "label": "官方最低配置",
+        "version_label": null,
+        "settings": {},
+        "valid_from": null,
+        "valid_to": null,
+        "source_key": "source:ea-apex-legends-sysreq"
+      },
+      {
+        "profile_key": "recommended",
+        "label": "官方推荐配置",
+        "version_label": null,
+        "settings": {},
+        "valid_from": null,
+        "valid_to": null,
+        "source_key": "source:ea-apex-legends-sysreq"
+      }
+    ],
+    "requirements": [
+      {
+        "profile_key": "minimum",
+        "component_role": "cpu",
+        "operator": "text_only",
+        "value_text": "Intel i3-6300 / FX-4350",
+        "raw_value": "Intel i3-6300 / FX-4350",
+        "reference_entity_key": null,
+        "required_feature_key": null
+      },
+      {
+        "profile_key": "minimum",
+        "component_role": "gpu",
+        "operator": "text_only",
+        "value_text": "GT 640 / HD 7730",
+        "raw_value": "GT 640 / HD 7730",
+        "reference_entity_key": null,
+        "required_feature_key": null
+      },
+      {
+        "profile_key": "minimum",
+        "component_role": "ram",
+        "operator": "gte",
+        "numeric_value": 6,
+        "unit_key": "gib",
+        "reference_entity_key": null,
+        "required_feature_key": null
+      },
+      {
+        "profile_key": "minimum",
+        "component_role": "storage",
+        "operator": "text_only",
+        "value_text": "22 GB 可用空间",
+        "raw_value": "22 GB 可用空间",
+        "reference_entity_key": null,
+        "required_feature_key": null
+      },
+      {
+        "profile_key": "recommended",
+        "component_role": "cpu",
+        "operator": "text_only",
+        "value_text": "Intel i5-3570K / Ryzen 5 2600",
+        "raw_value": "Intel i5-3570K / Ryzen 5 2600",
+        "reference_entity_key": null,
+        "required_feature_key": null
+      },
+      {
+        "profile_key": "recommended",
+        "component_role": "gpu",
+        "operator": "text_only",
+        "value_text": "GTX 970 / R9 290",
+        "raw_value": "GTX 970 / R9 290",
+        "reference_entity_key": null,
+        "required_feature_key": null
+      },
+      {
+        "profile_key": "recommended",
+        "component_role": "ram",
+        "operator": "gte",
+        "numeric_value": 8,
+        "unit_key": "gib",
+        "reference_entity_key": null,
+        "required_feature_key": null
+      },
+      {
+        "profile_key": "recommended",
+        "component_role": "storage",
+        "operator": "text_only",
+        "value_text": "22 GB 可用空间",
+        "raw_value": "22 GB 可用空间",
+        "reference_entity_key": null,
+        "required_feature_key": null
+      }
+    ],
+    "evidence": [
+      {
+        "source_key": "source:ea-apex-legends-sysreq",
+        "field_key": "entity.canonical_name",
+        "normalized_value": "Apex Legends",
+        "raw_excerpt": "Apex Legends",
+        "provenance_key": "official",
+        "review_status": "accepted",
+        "reviewed_at": "2026-09-07T00:00:00Z"
+      }
+    ]
+  },
+  "review_notes": [
+    "Workload 系统需求为公开常见值（官方/Steam 系统需求），未逐字读取页面；须对照官方页逐条复核。",
+    "CPU/GPU 官方多给具体型号名，本批以 value_text + operator=text_only 保留原文；RAM 用数值 gte；分辨率/画质设置不在 workload。"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "schema_version": "3.2",
+  "record_type": "runtime_support",
+  "status": "accepted",
+  "payload": {
+    "snapshot_key": "modelfit:variant:qwen:qwen2-5-7b-instruct:gguf:q4-k-m:qwen:llama.cpp:2026-09-16",
+    "support_status": "supported",
+    "variant_key": "variant:qwen:qwen2-5-7b-instruct:gguf:q4-k-m:qwen",
+    "runtime_key": "llama.cpp",
+    "min_version": null,
+    "tested_version": null,
+    "backend": "gguf",
+    "notes": "ModelFit lists this build as a GGUF package usable through this runtime. Runnability recorded; measured throughput is not part of this record. Reference command: ollama run qwen2.5:7b-instruct-q4_K_M",
+    "source_key": "src:modelfit:hardware-dataset-2026-09-16",
+    "checked_at": "2026-09-16T00:00:00Z"
+  },
+  "review_notes": []
+}

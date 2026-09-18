@@ -1,0 +1,24 @@
+{
+  "schema_version": "3.2",
+  "record_type": "source_document",
+  "status": "accepted",
+  "payload": {
+    "source_key": "src:gguf:unsloth-llama-4-scout-17b-16e-instruct-gguf",
+    "title": "unsloth/Llama-4-Scout-17B-16E-Instruct-GGUF (Hugging Face)",
+    "url": "https://huggingface.co/unsloth/Llama-4-Scout-17B-16E-Instruct-GGUF",
+    "publisher_key": "org:unsloth",
+    "source_type": "community",
+    "source_tier": "D",
+    "published_at": null,
+    "market_region": null,
+    "language": null,
+    "availability_status": "accessible",
+    "archive_url": null,
+    "accessed_at": "2026-09-07T09:50:49+00:00",
+    "content_hash": "07f0366f297055eb9a7cfe01f361ca2809dda35c100a50391f4095545bffce31"
+  },
+  "review_notes": [
+    "第一梯队模型来源登记（2026-09-07）：pending，待 page_save.py --only-missing 抓取并回填 accessed_at/content_hash；GGUF 仓（社区）以 hf_fill 报告核对实际文件。",
+    "Approved in bulk on 2026-09-16 at the user's explicit request; no per-record human review."
+  ]
+}

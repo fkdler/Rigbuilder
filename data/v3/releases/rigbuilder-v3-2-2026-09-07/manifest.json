@@ -1,0 +1,2625 @@
+{
+  "schema_version": "3.2",
+  "release_key": "rigbuilder-v3-2-2026-09-07",
+  "created_at": "2026-09-10T08:26:19.902766Z",
+  "description": "Initial accepted V3.2 Truth release; bundle-level Evidence review completed 2026-09-07.",
+  "git_commit": null,
+  "files": [
+    {
+      "path": "field-definitions/cpu-architecture.json",
+      "sha256": "10e9df83050b094b473d1de64c51413645c1cfa3ae6a827cec64677f6e464697",
+      "record_type": "field_definition",
+      "status": "accepted"
+    },
+    {
+      "path": "field-definitions/cpu-base-clock-mhz.json",
+      "sha256": "483c1515182047a1693a22938143c51b044522fa8e4f2737c6489323dec537dd",
+      "record_type": "field_definition",
+      "status": "accepted"
+    },
+    {
+      "path": "field-definitions/cpu-base-power-w.json",
+      "sha256": "66bd57697ed1eb17195f7d380803ffac64d614ab73f4b5662b78c56224c7fb58",
+      "record_type": "field_definition",
+      "status": "accepted"
+    },
+    {
+      "path": "field-definitions/cpu-boost-clock-mhz.json",
+      "sha256": "1b4be5b830d495ac5bcfd7f8f69a3e22a21518d90eaefd3ab5d320da31aa8939",
+      "record_type": "field_definition",
+      "status": "accepted"
+    },
+    {
+      "path": "field-definitions/cpu-cores-total.json",
+      "sha256": "1ab1151ef2feeaa183cb67db2273663bc783a9e954572ef3dab67e15afb6363a",
+      "record_type": "field_definition",
+      "status": "accepted"
+    },
+    {
+      "path": "field-definitions/cpu-socket.json",
+      "sha256": "b1ed12a0f6ba4050376576e0d1c0f392e97792a152dc60fa6d3d56bb7b196ad1",
+      "record_type": "field_definition",
+      "status": "accepted"
+    },
+    {
+      "path": "field-definitions/cpu-threads.json",
+      "sha256": "5c5ca31830d6c5cadb634e3a6d124f402d5bb7b931b90dd67007bcb9e4668116",
+      "record_type": "field_definition",
+      "status": "accepted"
+    },
+    {
+      "path": "field-definitions/entity-canonical-name.json",
+      "sha256": "349585e2497f325d4b032f4ce92a21d2438e5b9d4d5bbdb9e1f56c626932ea18",
+      "record_type": "field_definition",
+      "status": "accepted"
+    },
+    {
+      "path": "field-definitions/gpu-architecture.json",
+      "sha256": "36de9f5f373c5f36d8c0e58af29ac798803f08266e3c6e26e5186d44bda73135",
+      "record_type": "field_definition",
+      "status": "accepted"
+    },
+    {
+      "path": "field-definitions/gpu-board-power-w.json",
+      "sha256": "fb52122d418b31b6d5fb31a77e5bc8f2474916b9efcdfcd60c19ffceb10ed29b",
+      "record_type": "field_definition",
+      "status": "accepted"
+    },
+    {
+      "path": "field-definitions/gpu-ecc-support.json",
+      "sha256": "97765f2bab86ea8bac6d650629ce8625bbf6f9f085f5bcf94710c10569c10252",
+      "record_type": "field_definition",
+      "status": "accepted"
+    },
+    {
+      "path": "field-definitions/gpu-memory-bandwidth-gb-s.json",
+      "sha256": "78776471b0f6332dd56afc5ec4039ae23c7185a76469c5a9c7f4d2f20623b19d",
+      "record_type": "field_definition",
+      "status": "accepted"
+    },
+    {
+      "path": "field-definitions/gpu-memory-bus-width-bit.json",
+      "sha256": "b468bd0ab4256b8e3f4ec8a2db82840d39dd87fd16632a70a383ea21c3d7b2c3",
+      "record_type": "field_definition",
+      "status": "accepted"
+    },
+    {
+      "path": "field-definitions/gpu-memory-type.json",
+      "sha256": "4efa9eb3919a4adb939d371c90be82ab16eb252b02c19709e3e2e7f834ca7a1d",
+      "record_type": "field_definition",
+      "status": "accepted"
+    },
+    {
+      "path": "field-definitions/gpu-pcie-generation.json",
+      "sha256": "ce3e2236def2d99f4b0116513b3cc78a6bdb75e2b7e484f86b87b14c5e99a005",
+      "record_type": "field_definition",
+      "status": "accepted"
+    },
+    {
+      "path": "field-definitions/gpu-pcie-lanes.json",
+      "sha256": "bb41efd7cea7514e771d88438449a8e74186ce8ab54a1fef943187845e695289",
+      "record_type": "field_definition",
+      "status": "accepted"
+    },
+    {
+      "path": "field-definitions/gpu-vram-gib.json",
+      "sha256": "bf7fba497ef458e1e99200af88d3702d5692ab76c04cbf9430c2646d0a716820",
+      "record_type": "field_definition",
+      "status": "accepted"
+    },
+    {
+      "path": "field-definitions/model-context-length-tokens.json",
+      "sha256": "d2f5790bc030f0cfa1f9cdab3b881086361e142d2f905507fe8a3ad6506b007f",
+      "record_type": "field_definition",
+      "status": "accepted"
+    },
+    {
+      "path": "field-definitions/model-license-name.json",
+      "sha256": "270e729ac0b042f3094a9f1a6a60bd10a6b3fbfef6c74088a8a5c12427413936",
+      "record_type": "field_definition",
+      "status": "accepted"
+    },
+    {
+      "path": "field-definitions/model-total-parameters.json",
+      "sha256": "2418bc206a8ea5e9bfce280fe16f923d588aa89b8d35622e9718b98e019ff51b",
+      "record_type": "field_definition",
+      "status": "accepted"
+    },
+    {
+      "path": "hardware/amd-radeon-rx-6600-xt.json",
+      "sha256": "68b1a5ba74da889132e4adba84a67c52f45791d2059c1c2004604328279185dd",
+      "record_type": "hardware",
+      "status": "accepted"
+    },
+    {
+      "path": "hardware/amd-radeon-rx-6600.json",
+      "sha256": "9171c35d3fe7dff7e24ed2b5647bc718539eaa6e77a8afdd3f9c086fb78063d7",
+      "record_type": "hardware",
+      "status": "accepted"
+    },
+    {
+      "path": "hardware/amd-radeon-rx-6700-xt.json",
+      "sha256": "4c8a342761aa6d7eaa9944c6060de04d7b8a4db28faf4e8eb3798e225a5d1e0d",
+      "record_type": "hardware",
+      "status": "accepted"
+    },
+    {
+      "path": "hardware/amd-radeon-rx-6800-xt.json",
+      "sha256": "f575fc8534214fb9bed1f08dd14dd957727ea1b396eab3a31806699d0804d407",
+      "record_type": "hardware",
+      "status": "accepted"
+    },
+    {
+      "path": "hardware/amd-radeon-rx-6800.json",
+      "sha256": "d97d8594d5c7ae36f59b657a9efa689e17792a4201a37bc63258aec718ecf259",
+      "record_type": "hardware",
+      "status": "accepted"
+    },
+    {
+      "path": "hardware/amd-radeon-rx-6900-xt.json",
+      "sha256": "4508145a183b57179c76053b211d4666a8132a6be44e183b6d86cd432c835194",
+      "record_type": "hardware",
+      "status": "accepted"
+    },
+    {
+      "path": "hardware/amd-radeon-rx-7600-xt.json",
+      "sha256": "19a6e2db1f8b7e1e2ea1b23154be200fb98adad0ccd77ff13157effe7d892f9e",
+      "record_type": "hardware",
+      "status": "accepted"
+    },
+    {
+      "path": "hardware/amd-radeon-rx-7600.json",
+      "sha256": "568b4825a1c7f29b1e26e47bf1506a9f63ae308bc7ea0acda30e87f9a7d78d41",
+      "record_type": "hardware",
+      "status": "accepted"
+    },
+    {
+      "path": "hardware/amd-radeon-rx-7700-xt.json",
+      "sha256": "70ce8e2abafff4b575f4f4ce5ba13f1730deff69913c796bd63e681e5809f3a2",
+      "record_type": "hardware",
+      "status": "accepted"
+    },
+    {
+      "path": "hardware/amd-radeon-rx-7800-xt.json",
+      "sha256": "f83f895d364b9f93eab5236de5bfd099a8c39e540e0d9f48097b65d40f5a6d36",
+      "record_type": "hardware",
+      "status": "accepted"
+    },
+    {
+      "path": "hardware/amd-radeon-rx-7900-xt.json",
+      "sha256": "333c5ccf94ba9c43912bc38415763dcc7a75ddbf1c79bb1c3cb51e34fab12908",
+      "record_type": "hardware",
+      "status": "accepted"
+    },
+    {
+      "path": "hardware/amd-radeon-rx-7900-xtx.json",
+      "sha256": "8dd83b559afb650baecf8c832dd16799199dd8a3469a510ceab5da0275bbd204",
+      "record_type": "hardware",
+      "status": "accepted"
+    },
+    {
+      "path": "hardware/amd-radeon-rx-9060-xt.json",
+      "sha256": "a2823bcc14f8110729f529333848e332c8bfcd0f65d1ad41415598507e9def49",
+      "record_type": "hardware",
+      "status": "accepted"
+    },
+    {
+      "path": "hardware/amd-radeon-rx-9070-xt.json",
+      "sha256": "213a28787483369b8c127602a57419ee7b6b7825e87d33fb05cc35b5fb7629ef",
+      "record_type": "hardware",
+      "status": "accepted"
+    },
+    {
+      "path": "hardware/amd-radeon-rx-9070.json",
+      "sha256": "67fcae8baba247c46eadca99ad6c7f57cc37c8fafacf523dfa285200a7b4dffc",
+      "record_type": "hardware",
+      "status": "accepted"
+    },
+    {
+      "path": "hardware/amd-ryzen-5-5600f.json",
+      "sha256": "7963586d7736ba59d48d5c827a2b5d2471f9901557f06c84a80d18ef016adc29",
+      "record_type": "hardware",
+      "status": "accepted"
+    },
+    {
+      "path": "hardware/amd-ryzen-5-5600t.json",
+      "sha256": "ec156b912bc656b3955e182c4ccece0c1ac659d3a75bd7b54d561927bd04e8ea",
+      "record_type": "hardware",
+      "status": "accepted"
+    },
+    {
+      "path": "hardware/amd-ryzen-5-5600x.json",
+      "sha256": "3ce68d49eb10fc068f2d91997a388d931a16eab3350d53dfd9db87233a14eee6",
+      "record_type": "hardware",
+      "status": "accepted"
+    },
+    {
+      "path": "hardware/amd-ryzen-5-7600.json",
+      "sha256": "2b51f85b2b72a0060836b37d59e2786a3875022b52fea634491b5e2d887cee85",
+      "record_type": "hardware",
+      "status": "accepted"
+    },
+    {
+      "path": "hardware/amd-ryzen-5-7600x.json",
+      "sha256": "dd7c91a8767b6d4152f3b71a43a0c8f27833c455db4a6bd76101aad5148eb33d",
+      "record_type": "hardware",
+      "status": "accepted"
+    },
+    {
+      "path": "hardware/amd-ryzen-5-9600x.json",
+      "sha256": "7180f928ce0b87dafb4bc6a324292b5069bfcbdc469abffbb1f6a66665348a47",
+      "record_type": "hardware",
+      "status": "accepted"
+    },
+    {
+      "path": "hardware/amd-ryzen-7-5800x.json",
+      "sha256": "e99011558d68a1e1b3e954f7ee66ac153de1f440432c3647582bb5f6151d17fe",
+      "record_type": "hardware",
+      "status": "accepted"
+    },
+    {
+      "path": "hardware/amd-ryzen-7-5800x3d.json",
+      "sha256": "e8431d2aa74ca0ef2112c3310e2501a98b727efa6dcdc4867d9f453b9db52b9c",
+      "record_type": "hardware",
+      "status": "accepted"
+    },
+    {
+      "path": "hardware/amd-ryzen-7-7700.json",
+      "sha256": "ce5427336875889bb04b1c44539a57b393f7c0276033c7a4df759e378c9fda18",
+      "record_type": "hardware",
+      "status": "accepted"
+    },
+    {
+      "path": "hardware/amd-ryzen-7-7700x.json",
+      "sha256": "c3136c645b6206bf4d379bf72fb6a93e858eab11205223dc964cabc0f845784e",
+      "record_type": "hardware",
+      "status": "accepted"
+    },
+    {
+      "path": "hardware/amd-ryzen-7-7800x3d.json",
+      "sha256": "66abadbe78c44086af5bb4f6faad6bf46eef8c796b8cce76492c11bd328fcb22",
+      "record_type": "hardware",
+      "status": "accepted"
+    },
+    {
+      "path": "hardware/amd-ryzen-7-9700x.json",
+      "sha256": "b6896514742d7f8ebb30c1f0a16fbb5d520c91bdb3a04ee83d47b2b1ca9cb252",
+      "record_type": "hardware",
+      "status": "accepted"
+    },
+    {
+      "path": "hardware/amd-ryzen-7-9800x3d.json",
+      "sha256": "2825013f508a53222c2f473298d98cfaa7a26dbebddf648a9d9725144152254b",
+      "record_type": "hardware",
+      "status": "accepted"
+    },
+    {
+      "path": "hardware/amd-ryzen-9-7900x.json",
+      "sha256": "ccb5da96d59176b0cd92b943387318e3e73917becb321bad791eb8e842824383",
+      "record_type": "hardware",
+      "status": "accepted"
+    },
+    {
+      "path": "hardware/amd-ryzen-9-7950x.json",
+      "sha256": "28915b8b9c4441cb211a5e0db662c96ab37ee943c02966ea45f13ea4f7b06cd5",
+      "record_type": "hardware",
+      "status": "accepted"
+    },
+    {
+      "path": "hardware/amd-ryzen-9-7950x3d.json",
+      "sha256": "2dfff29306ed9a45db82152e20f4b167b451c604d3c383f77114b80e53d05f5d",
+      "record_type": "hardware",
+      "status": "accepted"
+    },
+    {
+      "path": "hardware/amd-ryzen-9-9900x.json",
+      "sha256": "54d5b8561f82cc72b24ef07cec9ed9f155f27e525d979ce8e6e0333d263ede90",
+      "record_type": "hardware",
+      "status": "accepted"
+    },
+    {
+      "path": "hardware/amd-ryzen-9-9950x.json",
+      "sha256": "5568f407889f5b9733069d9d00e36b075194a1d48c628dc707407b8156037e21",
+      "record_type": "hardware",
+      "status": "accepted"
+    },
+    {
+      "path": "hardware/amd-ryzen-9-9950x3d.json",
+      "sha256": "996665d23013ef15e4f343870ec9aefd6689bf66d1bb8fa1d6333a92fae6b398",
+      "record_type": "hardware",
+      "status": "accepted"
+    },
+    {
+      "path": "hardware/amd-socket-am4.json",
+      "sha256": "940da81434b7124533401514d9adff4bb6f83f4215e21a8bcfb00d97ed7c1da5",
+      "record_type": "hardware",
+      "status": "accepted"
+    },
+    {
+      "path": "hardware/amd-socket-am5.json",
+      "sha256": "b863e6a83763dad6c0a740604c3aa9eeacdf7e1f951dbb2045ee056658f583ca",
+      "record_type": "hardware",
+      "status": "accepted"
+    },
+    {
+      "path": "hardware/intel-arc-a380.json",
+      "sha256": "30925d8d0e2dbefa5733991147e8a76580f17bfd9ec54dbd0ea53e63de8a75ca",
+      "record_type": "hardware",
+      "status": "accepted"
+    },
+    {
+      "path": "hardware/intel-arc-a580.json",
+      "sha256": "6dd02c4a33b7195fc1bf417ae386550a771e5fc8943dc7783b0674735ab7c57c",
+      "record_type": "hardware",
+      "status": "accepted"
+    },
+    {
+      "path": "hardware/intel-arc-a750.json",
+      "sha256": "ac6cfa819d06d13231059abe4bd3ddd6df7fc9dcf155ced5690511390e0ed29d",
+      "record_type": "hardware",
+      "status": "accepted"
+    },
+    {
+      "path": "hardware/intel-arc-a770-16gb.json",
+      "sha256": "a1423c553630be7c98d173154f5485476fbce6b59bcba0c9c03ee2f8128b3a4b",
+      "record_type": "hardware",
+      "status": "accepted"
+    },
+    {
+      "path": "hardware/intel-arc-b570.json",
+      "sha256": "fe0f4bb6c22095b3d09e543e087df41c15d59773541e2e1443ad10ee03bb5761",
+      "record_type": "hardware",
+      "status": "accepted"
+    },
+    {
+      "path": "hardware/intel-arc-b580.json",
+      "sha256": "563b91265704e3062de8d127d714ece66f6d64b84b22bc7c04b8cfb8f0910e88",
+      "record_type": "hardware",
+      "status": "accepted"
+    },
+    {
+      "path": "hardware/intel-core-i5-12400.json",
+      "sha256": "56e91b3c6b3914baee4847c1e8b99744fbefa45d8ebf7918df4d490f9b6c10cf",
+      "record_type": "hardware",
+      "status": "accepted"
+    },
+    {
+      "path": "hardware/intel-core-i5-12400f.json",
+      "sha256": "54eb19c7dcca8f91628badb6aa10c3cef58390d15c1dcfc02d10bcd3166656c5",
+      "record_type": "hardware",
+      "status": "accepted"
+    },
+    {
+      "path": "hardware/intel-core-i5-13400.json",
+      "sha256": "aff29430c7ce3b51d20e476f2f213a8c134c62bf0fada25164bb6d9770b90b4f",
+      "record_type": "hardware",
+      "status": "accepted"
+    },
+    {
+      "path": "hardware/intel-core-i5-13400f.json",
+      "sha256": "49baee20c55237353ce8bf0786b68d6cf1bc5a98093e87d8767fd0ef6d7f09e8",
+      "record_type": "hardware",
+      "status": "accepted"
+    },
+    {
+      "path": "hardware/intel-core-i5-13600.json",
+      "sha256": "d0225990c5285d187768cfc390063f2f82b48ca12fbf5305aa0883d41c01459f",
+      "record_type": "hardware",
+      "status": "accepted"
+    },
+    {
+      "path": "hardware/intel-core-i5-13600k.json",
+      "sha256": "472bec92fc4e97a9a5c16630abf8823ef92efd505014b2eb6e1502049db350ca",
+      "record_type": "hardware",
+      "status": "accepted"
+    },
+    {
+      "path": "hardware/intel-core-i5-13600kf.json",
+      "sha256": "6bd05d9e792a996304ecc90504413bcb8e70903f81ccc20ae1a02acc62152771",
+      "record_type": "hardware",
+      "status": "accepted"
+    },
+    {
+      "path": "hardware/intel-core-i5-14600k.json",
+      "sha256": "504191ec866cd24461169729bd3d83460cd5cd48c2257ff800b2365bfc2e340a",
+      "record_type": "hardware",
+      "status": "accepted"
+    },
+    {
+      "path": "hardware/intel-core-i5-14600kf.json",
+      "sha256": "16adddca8370bdf24920a78954e263841e1384bba31edbcc0990e64d19cda08d",
+      "record_type": "hardware",
+      "status": "accepted"
+    },
+    {
+      "path": "hardware/intel-core-i7-13700.json",
+      "sha256": "fa2fe7846186cf05a36891346add1e23f28df356af5723f2efb7f3d4bf29f72b",
+      "record_type": "hardware",
+      "status": "accepted"
+    },
+    {
+      "path": "hardware/intel-core-i7-13700k.json",
+      "sha256": "dcf5e2aeb01b5f63a8575f556f00abf08298d9af38b96703878b98850bbc0f09",
+      "record_type": "hardware",
+      "status": "accepted"
+    },
+    {
+      "path": "hardware/intel-core-i7-13700kf.json",
+      "sha256": "45b7aa633bbcdddc0acf921a68a34538c1192ff8c17bee372e16aac046d7b3ba",
+      "record_type": "hardware",
+      "status": "accepted"
+    },
+    {
+      "path": "hardware/intel-core-i7-14700k.json",
+      "sha256": "5cb227212c0f614da1ea97c4074f7068f5e7f23a0ece39b433e2afd7933fd419",
+      "record_type": "hardware",
+      "status": "accepted"
+    },
+    {
+      "path": "hardware/intel-core-i7-14700kf.json",
+      "sha256": "0d24cfd5ed0b468a6fca693f3016e1ffaf5f62d515afda7bfcf260e1646c4f19",
+      "record_type": "hardware",
+      "status": "accepted"
+    },
+    {
+      "path": "hardware/intel-core-i9-13900k.json",
+      "sha256": "5be1c46f095d74e980df80a9fd8b7f095f3b6101e2e1ca35519de22651b4fd3e",
+      "record_type": "hardware",
+      "status": "accepted"
+    },
+    {
+      "path": "hardware/intel-core-i9-13900kf.json",
+      "sha256": "000194f8ba37525cd8ca1b8bf968638f1fa44d85dd3598fe7be8b656ed84b16b",
+      "record_type": "hardware",
+      "status": "accepted"
+    },
+    {
+      "path": "hardware/intel-core-i9-14900k.json",
+      "sha256": "f4f4e0ffeb027710f4b5e4881e13f175ccda1b293ef4de5a77a16363ae622aca",
+      "record_type": "hardware",
+      "status": "accepted"
+    },
+    {
+      "path": "hardware/intel-core-i9-14900kf.json",
+      "sha256": "d58c9fe9efb39d3f453a4dbdc875fd2d0be76d11d879e2976d1753f7d2f61e0c",
+      "record_type": "hardware",
+      "status": "accepted"
+    },
+    {
+      "path": "hardware/intel-core-ultra-7-265k.json",
+      "sha256": "8a904c3b7482744394008308d496018bbd77027fa361005a5f40159d699158bd",
+      "record_type": "hardware",
+      "status": "accepted"
+    },
+    {
+      "path": "hardware/intel-core-ultra-7-265kf.json",
+      "sha256": "c8a8fedc5e6b1739fcdd9003ac34979af471238fa4b4c79737d2ec4b63760e9f",
+      "record_type": "hardware",
+      "status": "accepted"
+    },
+    {
+      "path": "hardware/intel-core-ultra-9-285k.json",
+      "sha256": "2ffc398b97405f049e7097089a129210154c26c6153d6ff2f8f2d3134593bd50",
+      "record_type": "hardware",
+      "status": "accepted"
+    },
+    {
+      "path": "hardware/intel-socket-lga1700.json",
+      "sha256": "0410cc0cfe3c3d3c24b58b65884ff5c88f8468dc837ac1979b4cc878e7242936",
+      "record_type": "hardware",
+      "status": "accepted"
+    },
+    {
+      "path": "hardware/intel-socket-lga1851.json",
+      "sha256": "e3498b9cc763fdeb515a52d0222b54dec74a3d07241d79dd952e4bc66e1013b9",
+      "record_type": "hardware",
+      "status": "accepted"
+    },
+    {
+      "path": "hardware/nvidia-geforce-rtx-3080-12gb.json",
+      "sha256": "2b7d543f21f3350743e50830b0d883b53d93de8cc083e3d5e139a40b80fd3a74",
+      "record_type": "hardware",
+      "status": "accepted"
+    },
+    {
+      "path": "hardware/nvidia-geforce-rtx-3080-ti.json",
+      "sha256": "3e28792134716c19bebf9bf43132838805151b7aec787b96c425a16af880b1a1",
+      "record_type": "hardware",
+      "status": "accepted"
+    },
+    {
+      "path": "hardware/nvidia-geforce-rtx-3080.json",
+      "sha256": "1d99d1094d61b162cfdf56dae38afa517a258d23a1bdcc32bd84c80fe27e2429",
+      "record_type": "hardware",
+      "status": "accepted"
+    },
+    {
+      "path": "hardware/nvidia-geforce-rtx-3090-ti.json",
+      "sha256": "c6db9ff826c8494bc4fd7b855ffce42f1703ecd77132678e44203d06529ec780",
+      "record_type": "hardware",
+      "status": "accepted"
+    },
+    {
+      "path": "hardware/nvidia-geforce-rtx-3090.json",
+      "sha256": "14c34366c901e4f44c6276d084f7d750ebd4a8da67885492847e00b432ec54be",
+      "record_type": "hardware",
+      "status": "accepted"
+    },
+    {
+      "path": "hardware/nvidia-geforce-rtx-4060-ti-16gb.json",
+      "sha256": "5787f6ca1c943943cbdcf0c6b51a6886456610a72db14077decdbe5c1f7eb70d",
+      "record_type": "hardware",
+      "status": "accepted"
+    },
+    {
+      "path": "hardware/nvidia-geforce-rtx-4060-ti-8gb.json",
+      "sha256": "f2bdbdbc815c5261dfb86f9e47ccc6f0d3bba06912b4d78857690af4c26e807d",
+      "record_type": "hardware",
+      "status": "accepted"
+    },
+    {
+      "path": "hardware/nvidia-geforce-rtx-4060.json",
+      "sha256": "3357bc0760a9cae1505db0c412692bedd83f5bd2c1312d82ffbd01b8e43f72f7",
+      "record_type": "hardware",
+      "status": "accepted"
+    },
+    {
+      "path": "hardware/nvidia-geforce-rtx-4070-super.json",
+      "sha256": "169cbb0db85581a89f89f0e0c8279b7956c130c089491e5331e2324165662f92",
+      "record_type": "hardware",
+      "status": "accepted"
+    },
+    {
+      "path": "hardware/nvidia-geforce-rtx-4070-ti-super.json",
+      "sha256": "0b9084c4d3253a8e4bf1bbf939a80085f5bcea295168e54ec8415d3827e5fbb3",
+      "record_type": "hardware",
+      "status": "accepted"
+    },
+    {
+      "path": "hardware/nvidia-geforce-rtx-4070-ti.json",
+      "sha256": "0bb97d48e3760768c9a52bc55e7bcec7073f4860111903eb9c88fb453506d712",
+      "record_type": "hardware",
+      "status": "accepted"
+    },
+    {
+      "path": "hardware/nvidia-geforce-rtx-4070.json",
+      "sha256": "bba854b4275ce0b19c5721c36644e779f66d39a348071a84dce72cfa8d170d42",
+      "record_type": "hardware",
+      "status": "accepted"
+    },
+    {
+      "path": "hardware/nvidia-geforce-rtx-4080-super.json",
+      "sha256": "a9d23da171c7da5c34119d0cc0874b8f73045b74329045d69b260378e100e484",
+      "record_type": "hardware",
+      "status": "accepted"
+    },
+    {
+      "path": "hardware/nvidia-geforce-rtx-4080.json",
+      "sha256": "83188a921e9064b1c8ed45460da06639bd6249d2397b46690a74d24fdf841ccc",
+      "record_type": "hardware",
+      "status": "accepted"
+    },
+    {
+      "path": "hardware/nvidia-geforce-rtx-4090.json",
+      "sha256": "ef2501426f19f2f5cd33e16cb1a40aeae706eefea7e43cb84f3479c5d9b6422a",
+      "record_type": "hardware",
+      "status": "accepted"
+    },
+    {
+      "path": "hardware/nvidia-geforce-rtx-5070-ti.json",
+      "sha256": "b51fb6a7c3c31dc3b45467656ac814c6dd093d11df30ec8aad0aa9d244186fe7",
+      "record_type": "hardware",
+      "status": "accepted"
+    },
+    {
+      "path": "hardware/nvidia-geforce-rtx-5070.json",
+      "sha256": "c06e858cafb25471255c4642829f5f476d0da87bb26b9fb1f5c10a177e240a2a",
+      "record_type": "hardware",
+      "status": "accepted"
+    },
+    {
+      "path": "hardware/nvidia-geforce-rtx-5080.json",
+      "sha256": "453e1420a462c9e03271d55f0155ce3b2ee944ee56105b9d021e859a48d58c74",
+      "record_type": "hardware",
+      "status": "accepted"
+    },
+    {
+      "path": "hardware/nvidia-geforce-rtx-5090.json",
+      "sha256": "98535953d8cb2feccb2a092c88121c5e89f4ead88db724dce6ba16c8d9319083",
+      "record_type": "hardware",
+      "status": "accepted"
+    },
+    {
+      "path": "hardware/nvidia-geforce-rtx-5090d.json",
+      "sha256": "4b45cc71c6aaf9a8bca50a4228a589b396e58db38c0fac480e80879521c968ed",
+      "record_type": "hardware",
+      "status": "accepted"
+    },
+    {
+      "path": "hardware/spec-atx3-550w.json",
+      "sha256": "eb83e624236646764330f9faded15a75ff3389b42edc731924f919e6554dd290",
+      "record_type": "hardware",
+      "status": "accepted"
+    },
+    {
+      "path": "hardware/spec-atx3-650w.json",
+      "sha256": "bd5c9dd4f7c12e0c77fa298ba400dc330797a5582c420a31b258d8e74b857999",
+      "record_type": "hardware",
+      "status": "accepted"
+    },
+    {
+      "path": "hardware/spec-atx3-850w.json",
+      "sha256": "49486bc1540d2c604ad4558cfafcf618323c5671056ced057aae341d909df3eb",
+      "record_type": "hardware",
+      "status": "accepted"
+    },
+    {
+      "path": "hardware/spec-ddr4-3200.json",
+      "sha256": "95d0f66fd5dd54ea7a57f30e1bd6bad6bf332ca45a55d8ae5de1a41d22164beb",
+      "record_type": "hardware",
+      "status": "accepted"
+    },
+    {
+      "path": "hardware/spec-ddr5-4800.json",
+      "sha256": "ec186b141ce5beeaee67b3dc32d014acb2761de5f07ae41fe15f3582088928dd",
+      "record_type": "hardware",
+      "status": "accepted"
+    },
+    {
+      "path": "hardware/spec-ddr5-5600.json",
+      "sha256": "44f2947fe0b4d10134af63903fdbcd5bcd9f02a1d9b42189b29aa5aeb9b66b7c",
+      "record_type": "hardware",
+      "status": "accepted"
+    },
+    {
+      "path": "hardware/spec-ddr5-6400.json",
+      "sha256": "0e1be69c5b313f5e3fdb3e50fcc0bd4089e773bec3625d20bf1c677925c2dfad",
+      "record_type": "hardware",
+      "status": "accepted"
+    },
+    {
+      "path": "hardware/spec-nvme-ssd-pcie-4-0-x4.json",
+      "sha256": "cff2083d36103f891ca0cc3427e9d8e0c4835d7cdc3fa592dfd4355659dd2069",
+      "record_type": "hardware",
+      "status": "accepted"
+    },
+    {
+      "path": "hardware/spec-nvme-ssd-pcie-5-0-x4.json",
+      "sha256": "75eabbdd48ce2c265aa73cadaba847a72ab2182029d0c125d2e19946d29dd5c6",
+      "record_type": "hardware",
+      "status": "accepted"
+    },
+    {
+      "path": "hardware/spec-sata-ssd.json",
+      "sha256": "6c42620dff2a9ce1904c98c4aa57150ae14d573c1655d3c6a4e2fab141bf4643",
+      "record_type": "hardware",
+      "status": "accepted"
+    },
+    {
+      "path": "models/deepseek-deepseek-r1-distill-qwen-14b.json",
+      "sha256": "ca96b7f70f7935f8c975c4eee6611e5c9cf45697cac22ade0e4bdc241e7c5ace",
+      "record_type": "model",
+      "status": "accepted"
+    },
+    {
+      "path": "models/deepseek-deepseek-r1-distill-qwen-32b.json",
+      "sha256": "603e829979eb3c9329b5ee6600dabf37e084efc14adec0991a053d856c3b2f1b",
+      "record_type": "model",
+      "status": "accepted"
+    },
+    {
+      "path": "models/deepseek-deepseek-r1-distill-qwen-7b.json",
+      "sha256": "817580af7cc7a7b31f4b9767694b6bb9302c31d2e7ccccdadc8b95a3c5de8672",
+      "record_type": "model",
+      "status": "accepted"
+    },
+    {
+      "path": "models/google-gemma-2-9b-it.json",
+      "sha256": "f634b88c36e6b9b0f829f84cd032e82512531e6e1aa7d9674cab889d56a4470c",
+      "record_type": "model",
+      "status": "accepted"
+    },
+    {
+      "path": "models/meta-llama-3-1-8b-instruct.json",
+      "sha256": "dabf7105d8e0e4216690af702f8508f1f07b545923091664b5e5db2b013a6e5d",
+      "record_type": "model",
+      "status": "accepted"
+    },
+    {
+      "path": "models/meta-llama-3-3-70b-instruct.json",
+      "sha256": "f9078c76c799c28c94fb2868dfbac63084fcfb4d7039edf5586c08e3435684db",
+      "record_type": "model",
+      "status": "accepted"
+    },
+    {
+      "path": "models/microsoft-phi-4.json",
+      "sha256": "6d43e7302c143c98b208abe388bd008b2ce75fb9f99ee33b64161ac3fe184981",
+      "record_type": "model",
+      "status": "accepted"
+    },
+    {
+      "path": "models/mistral-ai-mistral-7b-instruct-v0-3.json",
+      "sha256": "e6363098b1363de4e7744037bdef8814f5e940d7e983bf7394c5e02515652098",
+      "record_type": "model",
+      "status": "accepted"
+    },
+    {
+      "path": "models/qwen-qwen2-5-1-5b-instruct.json",
+      "sha256": "9d211382fda4cd3aed0dd98a699b7588accb40ad523aa405e6d873573499141b",
+      "record_type": "model",
+      "status": "accepted"
+    },
+    {
+      "path": "models/qwen-qwen2-5-14b-instruct.json",
+      "sha256": "66e3638954e032f1eae1f5073a72a28a23b3b3e1d8aa1312ce867b7841ef8bfa",
+      "record_type": "model",
+      "status": "accepted"
+    },
+    {
+      "path": "models/qwen-qwen2-5-32b-instruct.json",
+      "sha256": "2fedf376905f6f920e52c6aef759148d81e40f5bc531a5e9880f5d8fba3073e3",
+      "record_type": "model",
+      "status": "accepted"
+    },
+    {
+      "path": "models/qwen-qwen2-5-3b-instruct.json",
+      "sha256": "2a4c56e4a352fb233988558400a2c1c7d97adba0d4df4964082bbfbea5a1ec69",
+      "record_type": "model",
+      "status": "accepted"
+    },
+    {
+      "path": "models/qwen-qwen2-5-7b-instruct.json",
+      "sha256": "d6b38f154d8194dd388532cd98dea24376b46a799ef4e85aab40a5f05676a453",
+      "record_type": "model",
+      "status": "accepted"
+    },
+    {
+      "path": "models/qwen-qwen2-5-vl-7b-instruct.json",
+      "sha256": "a2bce7ab1ce258eef728a52e70338363febd6bb7e7470c2ec1ab27973f19636e",
+      "record_type": "model",
+      "status": "accepted"
+    },
+    {
+      "path": "organizations/amd.json",
+      "sha256": "9e8c98dcb39445c56af5b3c6cc90a14ceb3c1bfa0fe1d403bf33ab6689cb2268",
+      "record_type": "organization",
+      "status": "accepted"
+    },
+    {
+      "path": "organizations/bandai-namco.json",
+      "sha256": "6fec50e5a4a271c5de38e970f5b490c37c725ebb5d44ae14c62d775481150f7d",
+      "record_type": "organization",
+      "status": "accepted"
+    },
+    {
+      "path": "organizations/bartowski.json",
+      "sha256": "f3b94b42a58d17ae669ee74710859ad09ab0ae65dea20fb2d974e75982b26a65",
+      "record_type": "organization",
+      "status": "accepted"
+    },
+    {
+      "path": "organizations/bethesda.json",
+      "sha256": "9cabd2595b4890d86bb59b9ce5c3f2cba6cd0abf8f2b1aba38fc6a73580dc97c",
+      "record_type": "organization",
+      "status": "accepted"
+    },
+    {
+      "path": "organizations/blizzard.json",
+      "sha256": "5f62c67c1b9abfce3f4987db1679f444184ba44841f10bdf98391ad5b67a609f",
+      "record_type": "organization",
+      "status": "accepted"
+    },
+    {
+      "path": "organizations/cd-projekt.json",
+      "sha256": "22d211012cadfe54d6e22964a1c20024dd27c68baa3951dcfd02beccb7162572",
+      "record_type": "organization",
+      "status": "accepted"
+    },
+    {
+      "path": "organizations/deepseek.json",
+      "sha256": "6cde885bf065817a86c3928e28cdee6859b26a10d8b5fb2f3475f93f28eb858a",
+      "record_type": "organization",
+      "status": "accepted"
+    },
+    {
+      "path": "organizations/ea.json",
+      "sha256": "84d2bd7c83b9144435ed3dddb50e2ee46d4b35e09307d6ebcbfc9264578be5da",
+      "record_type": "organization",
+      "status": "accepted"
+    },
+    {
+      "path": "organizations/epic-games.json",
+      "sha256": "258c84051ec595db60e8d0c8f1a38ca4628e659b2536fac3f4e32876f431922e",
+      "record_type": "organization",
+      "status": "accepted"
+    },
+    {
+      "path": "organizations/google.json",
+      "sha256": "57113ce87f6cbb7baa2b3bb4b13f18a1cf2c490436342136197b9d4fc007c653",
+      "record_type": "organization",
+      "status": "accepted"
+    },
+    {
+      "path": "organizations/intel.json",
+      "sha256": "44c14dff125f760c588559e855e1d44b583699477ba29f88a0600ca3bed0f554",
+      "record_type": "organization",
+      "status": "accepted"
+    },
+    {
+      "path": "organizations/krafton.json",
+      "sha256": "ef4eb2f13863f6b913134288f7d5f16f3c4b16c59721a1f3a1f12094b0bac8b1",
+      "record_type": "organization",
+      "status": "accepted"
+    },
+    {
+      "path": "organizations/larian.json",
+      "sha256": "4d703e460bbb2dec3edc5fab86ff06811a763a03be69db24a5bcb1abbc4a4af6",
+      "record_type": "organization",
+      "status": "accepted"
+    },
+    {
+      "path": "organizations/lmstudio-community.json",
+      "sha256": "943f767720a4f9721a72717980b50010aabeb07dc7b7b67452f38f82a01af345",
+      "record_type": "organization",
+      "status": "accepted"
+    },
+    {
+      "path": "organizations/meta.json",
+      "sha256": "2615aa5efb3f7b26fa8fb5c468cd218d073e378635f39c287668ddc0ce6ca26c",
+      "record_type": "organization",
+      "status": "accepted"
+    },
+    {
+      "path": "organizations/microsoft.json",
+      "sha256": "e0d7c3a5651a0fbb652c2a73c7d23a6f7c9437d4a295928338f83e5069f3b132",
+      "record_type": "organization",
+      "status": "accepted"
+    },
+    {
+      "path": "organizations/mistral-ai.json",
+      "sha256": "68a9dbffae27714ab583aa910550b6acb7dea28fd27ac7389ab72c0eed3526ce",
+      "record_type": "organization",
+      "status": "accepted"
+    },
+    {
+      "path": "organizations/nvidia.json",
+      "sha256": "eb08fea2399ea3d31b1eb3ffff611a344de1ba78986eb8b903d9344b928d7945",
+      "record_type": "organization",
+      "status": "accepted"
+    },
+    {
+      "path": "organizations/qwen.json",
+      "sha256": "53564f26b37e92f1add7db02bd3af690e54893bf50057b3bff1abcd5e113be3a",
+      "record_type": "organization",
+      "status": "accepted"
+    },
+    {
+      "path": "organizations/riot-games.json",
+      "sha256": "5308bf9c9da2c5160a9e88fbcce4f103ee1e75704fd3960db7b02b1d572b9f3d",
+      "record_type": "organization",
+      "status": "accepted"
+    },
+    {
+      "path": "organizations/rockstar-games.json",
+      "sha256": "a43df4c23ac9b31cb26df3957232e0d711e57111ab174e78086b70349b6117d7",
+      "record_type": "organization",
+      "status": "accepted"
+    },
+    {
+      "path": "organizations/unsloth.json",
+      "sha256": "71e7c05240dacdcda800f431588859a5705203c60639078ed31c80037147bb16",
+      "record_type": "organization",
+      "status": "accepted"
+    },
+    {
+      "path": "organizations/valve.json",
+      "sha256": "fe248b1dca3855dee2248930796d4dfa552fe9606e68852871c9d86c1724f0d1",
+      "record_type": "organization",
+      "status": "accepted"
+    },
+    {
+      "path": "prices/amd-radeon-rx-6600-price.json",
+      "sha256": "d1618adf4344a44b819d6e9e5befb2092059cdaf8ecf52bda8df673a6dcb2704",
+      "record_type": "price_snapshot",
+      "status": "accepted"
+    },
+    {
+      "path": "prices/amd-radeon-rx-6600-xt-price.json",
+      "sha256": "ff74ab24ab55d632947d1612a930cd71a4aa80d09b5e4824adac9267486cf80b",
+      "record_type": "price_snapshot",
+      "status": "accepted"
+    },
+    {
+      "path": "prices/amd-radeon-rx-6700-xt-price.json",
+      "sha256": "eabc6e2d1ef3a3a1cc9befcbd071010e44a634666f8dea119ac2b68e2768afce",
+      "record_type": "price_snapshot",
+      "status": "accepted"
+    },
+    {
+      "path": "prices/amd-radeon-rx-6800-price.json",
+      "sha256": "221dd5889dea06b3b723baee73b59941587f51043d3c113f337eb099ef6feb83",
+      "record_type": "price_snapshot",
+      "status": "accepted"
+    },
+    {
+      "path": "prices/amd-radeon-rx-6800-xt-price.json",
+      "sha256": "a7100babbc620ee4eeeb61331895ef5529209ffcc4b08cc281648ed3e50cda8f",
+      "record_type": "price_snapshot",
+      "status": "accepted"
+    },
+    {
+      "path": "prices/amd-radeon-rx-6900-xt-price.json",
+      "sha256": "a45b86e987bd19a390ab33ebada69b475f83c96322415164ab0421ed722d523e",
+      "record_type": "price_snapshot",
+      "status": "accepted"
+    },
+    {
+      "path": "prices/amd-radeon-rx-7600-price.json",
+      "sha256": "fb3f263c7d2fa1407c09370ad1f91231fe45d667ee2cc6161b8c69e215efb024",
+      "record_type": "price_snapshot",
+      "status": "accepted"
+    },
+    {
+      "path": "prices/amd-radeon-rx-7600-xt-price.json",
+      "sha256": "04de2ca86f106b6943799dfa5fe7573a78097e61f535d2f9741180b46a59dfb3",
+      "record_type": "price_snapshot",
+      "status": "accepted"
+    },
+    {
+      "path": "prices/amd-radeon-rx-7700-xt-price.json",
+      "sha256": "023a433007545df7bdb348111f3903cafb066d52b0b6d3a9c572ccf7c1b15f88",
+      "record_type": "price_snapshot",
+      "status": "accepted"
+    },
+    {
+      "path": "prices/amd-radeon-rx-7800-xt-price.json",
+      "sha256": "bd7efbd64ebbaa3f8fd15d1d910801beebf505931e128961721e84a49a59422f",
+      "record_type": "price_snapshot",
+      "status": "accepted"
+    },
+    {
+      "path": "prices/amd-radeon-rx-7900-xt-price.json",
+      "sha256": "ce5d7924107076628ada6bad8cfb41039942b98a85e2d1e6ac611ad44d911329",
+      "record_type": "price_snapshot",
+      "status": "accepted"
+    },
+    {
+      "path": "prices/amd-radeon-rx-7900-xtx-price.json",
+      "sha256": "4374389388923d9b79ce440768b464201b032dd1ce505136bb3b9c24739a7cb3",
+      "record_type": "price_snapshot",
+      "status": "accepted"
+    },
+    {
+      "path": "prices/amd-radeon-rx-9060-xt-price.json",
+      "sha256": "17bd4bf4f197dbe2cde7128bd1ae0ead2b3a7a68bda61d4059609233fe12feb2",
+      "record_type": "price_snapshot",
+      "status": "accepted"
+    },
+    {
+      "path": "prices/amd-radeon-rx-9070-price.json",
+      "sha256": "765ad928b7868cf318d7848aa9e9de353e0fb8424b7616b697ba521418f44305",
+      "record_type": "price_snapshot",
+      "status": "accepted"
+    },
+    {
+      "path": "prices/amd-radeon-rx-9070-xt-price.json",
+      "sha256": "bf00967ba3f55fa86b77b3d102092f4144c492abbf0619735c58590119334cfe",
+      "record_type": "price_snapshot",
+      "status": "accepted"
+    },
+    {
+      "path": "prices/amd-ryzen-5-5600f-price.json",
+      "sha256": "275d845ec9c27066c836ad39d9d40d2011180818a6cb594e07082a899cb8637c",
+      "record_type": "price_snapshot",
+      "status": "accepted"
+    },
+    {
+      "path": "prices/amd-ryzen-5-5600t-price.json",
+      "sha256": "2a021294e9648d4d72cdffb00e216470c4406a90c8d019077bae191fc9b7e8f6",
+      "record_type": "price_snapshot",
+      "status": "accepted"
+    },
+    {
+      "path": "prices/amd-ryzen-5-5600x-price.json",
+      "sha256": "f76e130e6d1ebdbd0099f4fcf786d0ee4f93e93c1afde8d3d2fab52a19a87ae7",
+      "record_type": "price_snapshot",
+      "status": "accepted"
+    },
+    {
+      "path": "prices/amd-ryzen-5-7600-price.json",
+      "sha256": "4a58ce97eccf3d84ebf99d7468f46e36a94bf9b247bad169bf9bdec66894bf07",
+      "record_type": "price_snapshot",
+      "status": "accepted"
+    },
+    {
+      "path": "prices/amd-ryzen-5-7600x-price.json",
+      "sha256": "ff3cd27d4703679524a05e69b864a897a67f10d0c88de236bf246b8db45a9854",
+      "record_type": "price_snapshot",
+      "status": "accepted"
+    },
+    {
+      "path": "prices/amd-ryzen-5-9600x-price.json",
+      "sha256": "c51d9fb79461b65fa35495005a1d96a46d628b9f43a43fe8fdb1f026adb2b45f",
+      "record_type": "price_snapshot",
+      "status": "accepted"
+    },
+    {
+      "path": "prices/amd-ryzen-7-5800x-price.json",
+      "sha256": "b02b5d5b38f24b23ff031de061002075c01d057086fd63d7a2b08cbd4a9cf035",
+      "record_type": "price_snapshot",
+      "status": "accepted"
+    },
+    {
+      "path": "prices/amd-ryzen-7-5800x3d-price.json",
+      "sha256": "e869bd67ddb57a46ea04d8e01b1165f5615172444954c47ef89a7ae2286257ef",
+      "record_type": "price_snapshot",
+      "status": "accepted"
+    },
+    {
+      "path": "prices/amd-ryzen-7-7700-price.json",
+      "sha256": "cafecbfc620cb4a4685a1c91fc9d8061dcabdca2e44a1c8563310150864afb44",
+      "record_type": "price_snapshot",
+      "status": "accepted"
+    },
+    {
+      "path": "prices/amd-ryzen-7-7700x-price.json",
+      "sha256": "ec6a779b4c74adb24d51672506faee87efb456696639a6131a06b57fed05854f",
+      "record_type": "price_snapshot",
+      "status": "accepted"
+    },
+    {
+      "path": "prices/amd-ryzen-7-7800x3d-price.json",
+      "sha256": "476bb1357ad06bc0e262477025cac9069e239b9fb8790383419047a11e0aa729",
+      "record_type": "price_snapshot",
+      "status": "accepted"
+    },
+    {
+      "path": "prices/amd-ryzen-7-9700x-price.json",
+      "sha256": "11d5a71ac2761fa6a3aa18a4ecf5faf41c763a248c10b52e9f03e881b58e75b0",
+      "record_type": "price_snapshot",
+      "status": "accepted"
+    },
+    {
+      "path": "prices/amd-ryzen-7-9800x3d-price.json",
+      "sha256": "e7547e661a15b72a78a7407ddcad5516f5de0ff0cd2fc4a13181b88af1e54b78",
+      "record_type": "price_snapshot",
+      "status": "accepted"
+    },
+    {
+      "path": "prices/amd-ryzen-9-7900x-price.json",
+      "sha256": "ba504decd3b12fed3d61afabebdc0060a08121cde00ef6121c8c2ac89abc0d4f",
+      "record_type": "price_snapshot",
+      "status": "accepted"
+    },
+    {
+      "path": "prices/amd-ryzen-9-7950x-price.json",
+      "sha256": "fb3b3f6c926d097ca9401a5a9b3f9cb3beadf79f92a714fd35b305635ca32bce",
+      "record_type": "price_snapshot",
+      "status": "accepted"
+    },
+    {
+      "path": "prices/amd-ryzen-9-7950x3d-price.json",
+      "sha256": "1215b41251db07b8c7963163d131373f53f7e94f66626c266fe67a4dd48de220",
+      "record_type": "price_snapshot",
+      "status": "accepted"
+    },
+    {
+      "path": "prices/amd-ryzen-9-9900x-price.json",
+      "sha256": "c1fec4d081f5acd5cd00fcdb12577e4c52d38fc36611ad0438adcc56f7bca5a9",
+      "record_type": "price_snapshot",
+      "status": "accepted"
+    },
+    {
+      "path": "prices/amd-ryzen-9-9950x-price.json",
+      "sha256": "e28bbae0c3c7a90b3c56f917753a11822705c6cefd86080d8b16ea41cce0274c",
+      "record_type": "price_snapshot",
+      "status": "accepted"
+    },
+    {
+      "path": "prices/amd-ryzen-9-9950x3d-price.json",
+      "sha256": "1c3ec2118376fad4d0d21ee04fc96418f6ba2f9d9b75d1b4bae417a2bda4ddcc",
+      "record_type": "price_snapshot",
+      "status": "accepted"
+    },
+    {
+      "path": "prices/intel-arc-a380-price.json",
+      "sha256": "3f97fb6d950092caa399e00cc27c716be357b1d59351762447579414ae6e1418",
+      "record_type": "price_snapshot",
+      "status": "accepted"
+    },
+    {
+      "path": "prices/intel-arc-a580-price.json",
+      "sha256": "23281d3421aaeff02cddf455b3d1c651f52027e021dc08dfdda68f4ecb31dd5f",
+      "record_type": "price_snapshot",
+      "status": "accepted"
+    },
+    {
+      "path": "prices/intel-arc-a750-price.json",
+      "sha256": "26a274d2f3c8eb097c3e8980c8f1480434c6149fc8eac2f325ebffd7c8fed06f",
+      "record_type": "price_snapshot",
+      "status": "accepted"
+    },
+    {
+      "path": "prices/intel-arc-a770-16gb-price.json",
+      "sha256": "a6f9c08de28e188a4c4acaa4e55b2992eb22efe3340123f5426f3043b39d5d1a",
+      "record_type": "price_snapshot",
+      "status": "accepted"
+    },
+    {
+      "path": "prices/intel-arc-b570-price.json",
+      "sha256": "53c5bd4b85241c369d0e275b895aef6b537c228037919fee1c933291e428bcb6",
+      "record_type": "price_snapshot",
+      "status": "accepted"
+    },
+    {
+      "path": "prices/intel-arc-b580-price.json",
+      "sha256": "f80d99ff7d0a65e6cb70e7db90080e9bdd62bb920c11a911b5b96d8ad6fece7c",
+      "record_type": "price_snapshot",
+      "status": "accepted"
+    },
+    {
+      "path": "prices/intel-core-i5-12400-price.json",
+      "sha256": "4d3cfa5c019c807eb3ab4c67b8644f0b1394e6c37f1eb01aadb1e1a45c3e050d",
+      "record_type": "price_snapshot",
+      "status": "accepted"
+    },
+    {
+      "path": "prices/intel-core-i5-12400f-price.json",
+      "sha256": "5d94d3579582bb21f7f7a3ed2a6c12bbc7ee13ba98395955d3a91c06241620b5",
+      "record_type": "price_snapshot",
+      "status": "accepted"
+    },
+    {
+      "path": "prices/intel-core-i5-13400-price.json",
+      "sha256": "82dc2ed39ecc42cfcefc4e96fb235b201245bca895294cc39c14962ccf05d6d7",
+      "record_type": "price_snapshot",
+      "status": "accepted"
+    },
+    {
+      "path": "prices/intel-core-i5-13400f-price.json",
+      "sha256": "ca3ea83ea2254ae2eb5f35348bf9707aa4f4d7e2a65c660d95690c8ff0aeb1cd",
+      "record_type": "price_snapshot",
+      "status": "accepted"
+    },
+    {
+      "path": "prices/intel-core-i5-13600-price.json",
+      "sha256": "1f37e7fa55a7824532f3c56143e2b469e51b9616842ef3820848ea65ae9b3cc4",
+      "record_type": "price_snapshot",
+      "status": "accepted"
+    },
+    {
+      "path": "prices/intel-core-i5-13600k-price.json",
+      "sha256": "d98c962eae2a6933e14b8d13200ceb4e45cf8150db1b085b4e42c1913cb5704b",
+      "record_type": "price_snapshot",
+      "status": "accepted"
+    },
+    {
+      "path": "prices/intel-core-i5-13600kf-price.json",
+      "sha256": "3942f33add0dae68a7f5dd9053041c609ca85c82857490432f08f32d2052a884",
+      "record_type": "price_snapshot",
+      "status": "accepted"
+    },
+    {
+      "path": "prices/intel-core-i5-14600k-price.json",
+      "sha256": "efb15633d19c3d6dd148851f6f6e685798285cff44b7dba092e3f78ef9b9389a",
+      "record_type": "price_snapshot",
+      "status": "accepted"
+    },
+    {
+      "path": "prices/intel-core-i5-14600kf-price.json",
+      "sha256": "8e84a7cdd313c3ffa0212fbc5845ebef1466c10c020c837966d32c2be82f0daf",
+      "record_type": "price_snapshot",
+      "status": "accepted"
+    },
+    {
+      "path": "prices/intel-core-i7-13700-price.json",
+      "sha256": "a113483e5d6fac8b21ef2106d3e9c577b5cf22e9877e863ee882d9bf7497aa60",
+      "record_type": "price_snapshot",
+      "status": "accepted"
+    },
+    {
+      "path": "prices/intel-core-i7-13700k-price.json",
+      "sha256": "2d2c3d250ae45c53ea825a3120191ddee92b4ff5c7cf2938d017dbfa5ff85c21",
+      "record_type": "price_snapshot",
+      "status": "accepted"
+    },
+    {
+      "path": "prices/intel-core-i7-13700kf-price.json",
+      "sha256": "18606b56538dded43c066c1190f6569b9297baf0b9af8bb1d063b2be184db0c8",
+      "record_type": "price_snapshot",
+      "status": "accepted"
+    },
+    {
+      "path": "prices/intel-core-i7-14700k-price.json",
+      "sha256": "e96cfd3097861c5aff35e7920def3cf5b8585f332b583c55688f0c2ffbed7401",
+      "record_type": "price_snapshot",
+      "status": "accepted"
+    },
+    {
+      "path": "prices/intel-core-i7-14700kf-price.json",
+      "sha256": "d61ce3c9c916307b612a6df201c022620f268bf0d4abaab54b2d17f29cf2bd9e",
+      "record_type": "price_snapshot",
+      "status": "accepted"
+    },
+    {
+      "path": "prices/intel-core-i9-13900k-price.json",
+      "sha256": "f12cf4f6bb47f499a93c22ace92b5f366ec1678b99c52ffae1721e1925aabe9f",
+      "record_type": "price_snapshot",
+      "status": "accepted"
+    },
+    {
+      "path": "prices/intel-core-i9-13900kf-price.json",
+      "sha256": "213518c8b572ae41eb8da4e7f6b50d5f2ec30a266cc3c24054dea5265ba56de6",
+      "record_type": "price_snapshot",
+      "status": "accepted"
+    },
+    {
+      "path": "prices/intel-core-i9-14900k-price.json",
+      "sha256": "ff9db6a91b37f3ce61a8375dc62327a017dd7b2954a47e0e789590296ff7ea31",
+      "record_type": "price_snapshot",
+      "status": "accepted"
+    },
+    {
+      "path": "prices/intel-core-i9-14900kf-price.json",
+      "sha256": "350af9c4c73b8fa8cc30a10e019e5ae758c4d09ee84776570b44201da0a4283f",
+      "record_type": "price_snapshot",
+      "status": "accepted"
+    },
+    {
+      "path": "prices/intel-core-ultra-7-265k-price.json",
+      "sha256": "96222f41f8f91d7ae8338adc4296dc02144d79f54561ac740375763f4f248668",
+      "record_type": "price_snapshot",
+      "status": "accepted"
+    },
+    {
+      "path": "prices/intel-core-ultra-7-265kf-price.json",
+      "sha256": "d27642e4c35b0ac05941c8610bcb8d95c9852bd4b32d848dc85a2ea3d03c7972",
+      "record_type": "price_snapshot",
+      "status": "accepted"
+    },
+    {
+      "path": "prices/intel-core-ultra-9-285k-price.json",
+      "sha256": "29c5a25a34c6486dc421a3904f9698b1c271b50a5f0e691c6c0571dae582a44c",
+      "record_type": "price_snapshot",
+      "status": "accepted"
+    },
+    {
+      "path": "prices/nvidia-geforce-rtx-3080-12gb-price.json",
+      "sha256": "c88935370f5c1d0c1e9a770c54b651c762d06a1b77cc65f824ebbdd28dee4809",
+      "record_type": "price_snapshot",
+      "status": "accepted"
+    },
+    {
+      "path": "prices/nvidia-geforce-rtx-3080-price.json",
+      "sha256": "15e917b93a0b7c85682eda7426e105d58887c45d01aa157eab74742294b55c87",
+      "record_type": "price_snapshot",
+      "status": "accepted"
+    },
+    {
+      "path": "prices/nvidia-geforce-rtx-3080-ti-price.json",
+      "sha256": "dbf5e00710349268bbda7d7fd48d7693e58c9e2b7f9deac98a4137d8ef3e26f9",
+      "record_type": "price_snapshot",
+      "status": "accepted"
+    },
+    {
+      "path": "prices/nvidia-geforce-rtx-3090-price.json",
+      "sha256": "29a6fea6b659165b2154299afb61660aa1fb71707ffff8958dbfb43f7778a3d9",
+      "record_type": "price_snapshot",
+      "status": "accepted"
+    },
+    {
+      "path": "prices/nvidia-geforce-rtx-3090-ti-price.json",
+      "sha256": "74f27ef6dc45d0b24d2ccfae9cfbfcdc48b97419d986c3a4eaaedf15fde4c8cd",
+      "record_type": "price_snapshot",
+      "status": "accepted"
+    },
+    {
+      "path": "prices/nvidia-geforce-rtx-4060-price.json",
+      "sha256": "2cd7aacc16a7035b2c8f54d23be0f684db6453ceb82579247514e9e1bf4ded8d",
+      "record_type": "price_snapshot",
+      "status": "accepted"
+    },
+    {
+      "path": "prices/nvidia-geforce-rtx-4060-ti-16gb-price.json",
+      "sha256": "92a2269e3b3489709f8a7b8a19269e581029e1541f8c229266efa30885715f27",
+      "record_type": "price_snapshot",
+      "status": "accepted"
+    },
+    {
+      "path": "prices/nvidia-geforce-rtx-4060-ti-8gb-price.json",
+      "sha256": "23fcc450e2947028db62b9fbe8a7b5a16a051b07b1877fd8e653a3587210707f",
+      "record_type": "price_snapshot",
+      "status": "accepted"
+    },
+    {
+      "path": "prices/nvidia-geforce-rtx-4070-price.json",
+      "sha256": "a1ca6ad66d37490d81bf4865377e069063bc950060d875ba99dc8beb7ad1d74a",
+      "record_type": "price_snapshot",
+      "status": "accepted"
+    },
+    {
+      "path": "prices/nvidia-geforce-rtx-4070-super-price.json",
+      "sha256": "d2db1b8bda1a8c75696560f4d0ab8eb8b4adcbe3fe3d198fd9ed10b002b8c71a",
+      "record_type": "price_snapshot",
+      "status": "accepted"
+    },
+    {
+      "path": "prices/nvidia-geforce-rtx-4070-ti-price.json",
+      "sha256": "aa8e995733240d6dda5bd095a8aed87c0765b7c00dac2c9b7410cac464e47380",
+      "record_type": "price_snapshot",
+      "status": "accepted"
+    },
+    {
+      "path": "prices/nvidia-geforce-rtx-4070-ti-super-price.json",
+      "sha256": "219b22ef547a23247286c0c775766c145f4e8f7813b47ecca500d5678102fb76",
+      "record_type": "price_snapshot",
+      "status": "accepted"
+    },
+    {
+      "path": "prices/nvidia-geforce-rtx-4080-price.json",
+      "sha256": "d5a0c0a4e679017b6dd06bb24c41f0863c4e3265b3a9ad6acef272ccdcffea01",
+      "record_type": "price_snapshot",
+      "status": "accepted"
+    },
+    {
+      "path": "prices/nvidia-geforce-rtx-4080-super-price.json",
+      "sha256": "4db996d5c8056abf120572fcb2968c6e2bdd26adf1be087dccf8b24cae67650f",
+      "record_type": "price_snapshot",
+      "status": "accepted"
+    },
+    {
+      "path": "prices/nvidia-geforce-rtx-4090-price.json",
+      "sha256": "de5b1c8f826f2b1e467506c5bc0d3bad3699cbd1ff09d69999b30e4774fee798",
+      "record_type": "price_snapshot",
+      "status": "accepted"
+    },
+    {
+      "path": "prices/nvidia-geforce-rtx-5070-price.json",
+      "sha256": "8f0e1d3c7c1f49240acf6acdc7d2397d72b0c759289e5ff96fbab5307190dbff",
+      "record_type": "price_snapshot",
+      "status": "accepted"
+    },
+    {
+      "path": "prices/nvidia-geforce-rtx-5070-ti-price.json",
+      "sha256": "e8efc47892e9eb8e29d7907d36a1ec36f39e258c136da434f7900963bf7ad378",
+      "record_type": "price_snapshot",
+      "status": "accepted"
+    },
+    {
+      "path": "prices/nvidia-geforce-rtx-5090-price.json",
+      "sha256": "7601bd0ec8492752303bb3989ac8d736552c933a67ef162aac233f6253fc1141",
+      "record_type": "price_snapshot",
+      "status": "accepted"
+    },
+    {
+      "path": "prices/nvidia-geforce-rtx-5090d-price.json",
+      "sha256": "81280815ec462c838209fe6772d3be55a9ba82c9f96449054a168672eb6ba5d9",
+      "record_type": "price_snapshot",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/0001.json",
+      "sha256": "fe239883ce8004a67df4c133a52a59dd214ad8df9dfd7f581d6780c63789bf45",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/0002.json",
+      "sha256": "0241ab69656f0273f657d8d0aafd0ef2be45e4cbc8f4449ca181f72c6d95b8c0",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/0003.json",
+      "sha256": "a5c09d844dc4b85b46c7813d2cd798695a94b381a167f756a297b425718ccc5d",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/0004.json",
+      "sha256": "ceb6ef684e71921e589e9b61676ce51ef745e6813fc49d2a5b55956e7653e013",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/0005.json",
+      "sha256": "a20c0b2ddbb5b1c6e8a09e64b00fb3a0ac6930b2690e9b2fbf8ff3166acd8ac8",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/0006.json",
+      "sha256": "1381fcbe877f89777f572f4fcc408355075173441f6511eaa3695e93d350da86",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/0007.json",
+      "sha256": "ef2cd284df2092c0fdfbd7ce3e5f105b6120b8c8620ca8ca2103c9b327fbbea9",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/0008.json",
+      "sha256": "a845493a8125e532553003c58c0bd522425c08b58a36a86ff45ffc908746af48",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/0009.json",
+      "sha256": "c55b393ddc377df4aac8d1ba534e5a3ed2be370154a3dc3713376cf6710a9880",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/0010.json",
+      "sha256": "337099ad068f0564a8295da34bbca85d238c682e6bf711000483e5bb1b4e0764",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/0011.json",
+      "sha256": "812602ad8d1ab44d3359239dc78b94cc7be6c49568cd015e3cca53399b638dda",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/0012.json",
+      "sha256": "a19f0c73601984999a8efb03601cc58062f4c39582ce89c75c6fe9807a88defb",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/0013.json",
+      "sha256": "e1eedecb74127748f1ae4cf120a988d433f87d9950e5419f0cc56ab88baae94e",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/0014.json",
+      "sha256": "bd539057572e14a1caac1245c7d7ce5827dd059c0a7566d0d6a3ad17b6031afd",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/0015.json",
+      "sha256": "8e4b9f237fc9c301569de3ec03e69a91350da4c0e1d02375395bf41ad38871f2",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/0016.json",
+      "sha256": "62d09c900194fea706b3ddcc7debdedc2031ca329c2ffc4eee875823255cb475",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/0017.json",
+      "sha256": "23e32be00217ad7080bd27e5898657d1da80c26583737d781b48b31764ffa639",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/0018.json",
+      "sha256": "1a417680b3f5df266044b6c158ec5dfa2899cf7a541951fe16fce44e640e5f0f",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/0019.json",
+      "sha256": "cbb55036b2655129f1b5f604006ddd0d0b6d1366c69cee77f27617621b251912",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/0020.json",
+      "sha256": "f02fbb483cf77c4aec23470322a26910d8ebf65f40349d848a5b757f65fba711",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/0021.json",
+      "sha256": "7c3630b4c34096c1f63f55dec9fc6e4976f837d05c20ac7e273e04ebb36779ee",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/0022.json",
+      "sha256": "06da5a058ffddcdf4c7e98a874374ac5a08d8aeb577d73c69630e27ed5831895",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/0023.json",
+      "sha256": "0637c064ca9626dcbbad6a1b8ce86f599d813f805af6661410c8c4dd2e631cf4",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/0024.json",
+      "sha256": "5442d88ea9cb810aab0ac261f9e719b9d77ea0db230e79bfce7ba363197968ab",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/0025.json",
+      "sha256": "bf6e69d4b1ddc13baa8ec74867873b813c3fca192957370d56395e6e0da52ab1",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/0026.json",
+      "sha256": "bc242e2942334a89de8ca7b4f230d056401d4e665f676fe0b14d1d0113bfa20c",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/0027.json",
+      "sha256": "c69cce913d55687a8681fe3fff4687cae25b7d5c7eee810b902930c78bc8d0f6",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/0028.json",
+      "sha256": "d23f61235faf550d8afe2fb474d797314c1a14b58efe3a06ead8ad7711f07aa4",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/0029.json",
+      "sha256": "a9bf19d46386fc1585575e4884f8246e60189f5260a595164b6a3c401add33f3",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/0030.json",
+      "sha256": "0002a4ea26c8392177c072df83f820c1d2972461f15bde3ff957c3b52fc290a6",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/0031.json",
+      "sha256": "0246d98231409a49863fb202e044e03da26e54d8fb664f9046f7c8dc34654552",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/0032.json",
+      "sha256": "8726e13892ce8cb2413de90381d8828970e893318f53b423724ceb155093c6a6",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/0033.json",
+      "sha256": "0d8f353b7db6d6c80eb0137634bea0e0b34a7a0a0a03e8c9cfa307f0788d51ca",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/0034.json",
+      "sha256": "89c1930f03d6d5cd0e17e42ad470de381d29511d3373e45b420fe002b06435ef",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/0035.json",
+      "sha256": "799a35936a801808bf3b0545d85a749adb5ea43e30a0048a3f7af7e4a8e6d5f0",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/0036.json",
+      "sha256": "6fd699e9078b0c95a6ceb1845eb6f0a0bd9243ac1f985aacf174f4995a792535",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/0037.json",
+      "sha256": "4a08af82f1d5b3a479d9f0d9ba367b3c81c2d20ff9494dde710d6ca7e0d29361",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/0038.json",
+      "sha256": "9d77360616c8c968a896df0d6d348e3693effb7041ee2f9ab97e279e13dd084f",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/0039.json",
+      "sha256": "21798e5a1596215abad43852322ecab2785b02f71ec220c632c931b59d4d28d3",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/0040.json",
+      "sha256": "92383fa77983e4c074ccf5ba726cb0661ff73e5cb5a055adc2974a8c66b3e1fd",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/0041.json",
+      "sha256": "5e639a9ee5ff678cbf77653d31b7d4a1336ae4b01f3a0d3ff459aa770339da82",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/0042.json",
+      "sha256": "a6d0e063da7654439436e56dadc4ab8aace8be57f25ad155ed935da824188dbd",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/0043.json",
+      "sha256": "f749f4963a554b988bbb05e011a460c9385c972e60a2bbd1d842c5d73dac7192",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/0044.json",
+      "sha256": "ed75d0e8a8dcfbce351f39740710a723c823862aed976d3f21eb2fa8ec76483c",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/0045.json",
+      "sha256": "25b6f176b1246b3993bd444158c4689b3f7384f6b499bf440c1f3d6bfdf5a710",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/0046.json",
+      "sha256": "44bf67b1af4b1443927a4a2fc028e87d7bd490e5764fe68c0e51f63976d5b396",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/0047.json",
+      "sha256": "2600454d1ac8bdf021ae39baabf7834094cbc00bbc6cfd1504ce622bb6e47232",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/0048.json",
+      "sha256": "bfe5a090a8e8cb37c95298f2c4f46579ed3e526792c8282d259769fbfdc5eb99",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/0049.json",
+      "sha256": "e3c55ff08d29d30a1f4e893bd824ed8e5185319477c55ae5aeea367a36244595",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/0050.json",
+      "sha256": "be252a93b69071faabef1f46010c6c77fe4a044b5baf3085eee3b2dcb361e74d",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/0051.json",
+      "sha256": "2efbb2aefbfa5d413e4efbd9d94ead9f475f0d36f3fa7be4d447d1d53833e814",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/0052.json",
+      "sha256": "35aa0a1520a92f58aefb4ebc5e7d552f3d2bb7926d3255b50da44ffddc0b673c",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/0053.json",
+      "sha256": "1e8a780c8067bf23c0fe4b4bc78725a2c9a29ef0c7387448ed34100dc2e965b8",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/0054.json",
+      "sha256": "404a0671ff51cbc478782ac2d9d3ec3e8fae1c0d1e54aaddcb4251bd222d3bca",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/0055.json",
+      "sha256": "2f1bc83d15581e06116f45e6bce7f049539f73334ceb3f44822d5249d9eede77",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/0056.json",
+      "sha256": "5ccde4a159c37e347f4e0372ca439a843bafd395ed51bc20ac89d815cd039443",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/0057.json",
+      "sha256": "268fe1b1616ca6a2395688414b227153d572b611b9b911edc6ad42d86ec0d4c7",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/0058.json",
+      "sha256": "8b000ec5f347189736981dd0ae17033950dc9c99354319cc4193044b158758b9",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/0059.json",
+      "sha256": "7da01a39a1384dc177911b1d5f3bdb44223f30633d9780097c857bc3eb3f7427",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/0060.json",
+      "sha256": "871b7beed8bb965c1c24202f5778f3b6f8f4ccf0e316b50800a934415d6775a3",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/0061.json",
+      "sha256": "640a8a91000f694d7be1c305cef06de68c75bc0eb8122079c045192c0929ff99",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/0062.json",
+      "sha256": "1208740a9568324e8d651ca757539d91f99b000c08aa9695e96c877ab5674c75",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/0063.json",
+      "sha256": "29c6e14270d3337637b51a2e4cecb6619c48efc9e468df8c0dfbe29839cb7a95",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/0064.json",
+      "sha256": "47551298ea8b170e1a27016ada16e5d4c1a615f05ab2b8986e33f28c1f1c49c4",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/0065.json",
+      "sha256": "bf951100f3313e24592e9aec6bd14e7064544e298ebf6270a93b9ca38e6ceef5",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/0066.json",
+      "sha256": "4f0327f3cb1402e48af2d4cbff097a75feb659fe3061d161a236053f0d95aa6e",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/0067.json",
+      "sha256": "dcd7b8fb60be37f30ebffa884c13e8fc6ca4f9a986eb9c0229e14e6d640b0b41",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/0068.json",
+      "sha256": "5d3fc8a18fb9a8464f56d79ace598abb27fe83af0e9831b87708cc433a2182d9",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/0069.json",
+      "sha256": "af2a6ed01e9ef36a5d57661e42016ca9d4da08062170b0701e6a436c289731f3",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/0070.json",
+      "sha256": "6bb0ee841a82ee0b4b8e7f754e6284433fced1acdce916d93bb0e18fca2223f9",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/0071.json",
+      "sha256": "08f1c75ca0cc0b9c3b0782d435e76c61854c211916d9c500b53eb34f4899afca",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/0072.json",
+      "sha256": "81d869f6cd6c715c729e53aaaa8340499f239983cf27171bbdfa17de0e0c1f49",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/0073.json",
+      "sha256": "4ccbf66f07724bd8dbd96314d2b8ed10cc5e4e38b664c183714f5d6721be322b",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/0074.json",
+      "sha256": "0b50745f67c4783d08e078b3362382e279e334fc0099e4dda106b085b393c964",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/0075.json",
+      "sha256": "31b4e11f75d94b0ed937c1353e06e45931bed22088542289c3d660c6e18ea39a",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/0076.json",
+      "sha256": "66a14a6c4c862034f56de1476aef9a523feadb696943453617b1f3605f2e97eb",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/0077.json",
+      "sha256": "2c474cd531d5e1673689a173e224c46a4eeb6d4ba97d2389b171bc04d0fcde3b",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/0078.json",
+      "sha256": "fdbc9dfac431bdad8506228a6c568b719c6b308b2269afbea6b429a0eafe4a4e",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/0079.json",
+      "sha256": "35aa75887348eaf01169c39fbcb11ac07391a9c0232196a0c3cc23f48ee49a1f",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/0080.json",
+      "sha256": "8eeae546f68d89a7795a767c95be95bec29d6b83119c32f04caa0ebab479b9e1",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/0081.json",
+      "sha256": "7211c0d5c23b65cf5b11f41d76c279f44b71321df032ad9ed48be9919a28aaaa",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/0082.json",
+      "sha256": "0809a5e9b1da0a84df0dfe3477867e008544a76549cfb0a31ff9cdd10756ebc5",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/0083.json",
+      "sha256": "f43081a25bbee01dddb171b66d5d27946c21913761177f7a6cbd2028a445419b",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/0084.json",
+      "sha256": "68be84ab6c4de3e9335d5b7a4e15feba90ff3abada23e603047d9881b8e51a4a",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/0085.json",
+      "sha256": "d29e1574245af36e89097a0864c90fde300d1c4fdf9c864bdb48fd96cdbbae35",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/0086.json",
+      "sha256": "858ea84e78e2a1de0acb0619ba1773a9d65ba55fe53c78908d3ceeec7d34b1cd",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/0087.json",
+      "sha256": "e824efeaf48dd518fab8ffcf9d5ffec5f30ed5bb18b89155fd9e71a85fc0320f",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/0088.json",
+      "sha256": "4c2797f0d92de50d0b2dc496f8af2379e9145bee9ceda98755f0cfb2564eaef8",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/0089.json",
+      "sha256": "0a680a225bc1272138f39f7759261e8ba45ff33f7826640112f0ba8447b9cff8",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/0090.json",
+      "sha256": "63563625c695510f1e228e245f2e81b107bb8d34ebcf7552c01e97181dcd33fc",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/0091.json",
+      "sha256": "305bc7ef9a6b7c2d10c900e0717e22714833ae64607640eb9eddcdf356662328",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/0092.json",
+      "sha256": "24067147bee922c620e391733c39470de933d090ba4a54e738f796ab99f5b94d",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/0093.json",
+      "sha256": "b59e1e0affed79457f81beb0e06852944c648ed27fedab4e33602e18af89af09",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/0094.json",
+      "sha256": "c28b6e3baa974694f98faf6dc8d40a637e8e27f69f641cc4ce493bca7ae06c7f",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/0095.json",
+      "sha256": "821236a02f3de1dbdb7f56d7311e0c3ce76f41f010421fd900fa874bff07364c",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/0096.json",
+      "sha256": "ef13da613a7da19c37384653e8ad349b966473e78418b7c637f587c7504636aa",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/0097.json",
+      "sha256": "4fafa32294b4251c136f7d50f8773b0e03c25bb6c7d0ab49bcd22774ce8452db",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/0098.json",
+      "sha256": "3f0615785b2e7d96ea39c1ed98fc41dd701cba58cba9c9f4663a415c76f0e859",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/0099.json",
+      "sha256": "6ffdb09077c897774a9bb10c9c2f83151581312b3e5f884f064f32234d0b1ba6",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/0100.json",
+      "sha256": "5a51a6f924e0519bd210dc6319354cc945531d1402607cf1735d6c2d67cdee1f",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/0101.json",
+      "sha256": "0256430c39d6546036ee827ee4c9ebf90b0d02c9c261c61cdc0a92887017703e",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/0102.json",
+      "sha256": "20c6f408e400363bb72f634b358b29eb4d61394ea0b901469c1554f7ed9a30ce",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/0103.json",
+      "sha256": "5fed9f157249aa0a058f09edf1fed6220d24d70fdae8415778908321142c97ab",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/0104.json",
+      "sha256": "4bc656e932f7af7ec011c33ec4c1e8484311d4ad3d159ce3841370164a413ddf",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/0105.json",
+      "sha256": "8c010141d57786a4e87a5d714490e42febd813d15b9b2d83dd24edadd22119fa",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/0106.json",
+      "sha256": "5d70bd54e8594b434ed2a2a72ad581e11e7b7dd7081f329aaf8851d5e5e3c3ef",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/0107.json",
+      "sha256": "0e6425fa4eb55221e62288e0ecf47e37619ebce77f46b8a201b7ad3b09b3dc20",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/0108.json",
+      "sha256": "c04d4f373f9f5a318432209215d462bed19b4bbbdbad5deada8f7075d26db374",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/0109.json",
+      "sha256": "5af33925d043544d4552095e29842f3fc1e74ac0e34b70ff00ee84f5ad6b526e",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/0110.json",
+      "sha256": "7d816979b13967098014129efab3c437bed4a11f1999ad41a7f72c624ab097ef",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/source-gpuxianka-rtx-5090d-index.json",
+      "sha256": "fe7ce0c2b168907e0ca2389e0371976a94ddc25ce1679e35e00ce43cc0ef0319",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/source-jd-core-i5-12400-10223181888200.json",
+      "sha256": "3b63a2bb29ddd63e33d62b29f039fcbae311884604b3b19fbd30f0b33c4b8d89",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/source-jd-core-i5-12400f-10166159185330.json",
+      "sha256": "b6124cb2a229b53472387c7a1fe6843824eccf799d3c6963b72c331db3c113b0",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/source-jd-core-i5-13400-10115164570550.json",
+      "sha256": "ae219957c5224bca818e66743ccdb21e505c72d8a62c9e16ea99b04451366ac5",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/source-jd-core-i5-13400f-10161101178815.json",
+      "sha256": "c1558e5c6573b88a1e11f77269afbae740d2230d68560719a97e3877eb145ee8",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/source-jd-core-i5-13600-10078882241358.json",
+      "sha256": "9910e20c4560d1f253981e5ba8dc6ebe77d8901768d2fd43324f74c2b7fa1f22",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/source-jd-core-i5-13600k-10166165397750.json",
+      "sha256": "7ec6245ac5b9d1f146c8069655dea929c3c81d5b5886f2cfd5b7ecaa483f79c0",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/source-jd-core-i5-13600kf-10166165397751.json",
+      "sha256": "33695c0d69485d58d32a78ef72f9939a068b8440aa23c149a28452696f302f87",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/source-jd-core-i5-14600k-10087603489123.json",
+      "sha256": "c6f189129b8b658bf935a2ec5eb5c897d29a28e3df212e767158fae9df6fdf99",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/source-jd-core-i5-14600kf-10087603489124.json",
+      "sha256": "c5dc87bc79e3bcc3fff1ae1249bfe0e281e8e980956c9a9be503528aa06d53f6",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/source-jd-core-i7-13700-10092138267064.json",
+      "sha256": "d00a294038bcb8366c473e163bb0d0ba6f3876255d483573aa71c41b77d4ebcd",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/source-jd-core-i7-13700k-100040185489.json",
+      "sha256": "462446c3d911a80892b10eb46c662c200a40daa8df0377f39a484b4ce989a307",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/source-jd-core-i7-13700kf-10223181888261.json",
+      "sha256": "78eb9a80cd876cbb632cef6033962fd7fda86f5aa7de83793da5e5e8fca9bed3",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/source-jd-core-i7-14700k-10087603489125.json",
+      "sha256": "6d10f646731593dbef9436414d5807ac2ddfe42e71a3da75806c6bdba077989c",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/source-jd-core-i7-14700kf-10087603489126.json",
+      "sha256": "47f145a1095e19cdf0d5530c9e34334dd39044d598f5bda22a7bf64db7a3c910",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/source-jd-core-i9-13900k-10115164570558.json",
+      "sha256": "44f22a871fd26d5f0dda3546f47574c544fbc6fd1a8787d8ab6c16effad3d2b9",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/source-jd-core-i9-13900kf-10120941369251.json",
+      "sha256": "3d2145df44508a7e217e91adc79e239504a4b812a08bc1c0b44e0a515c7c5b2d",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/source-jd-core-i9-14900k-10213585841872.json",
+      "sha256": "f89f367990e767dd3d1d2144fc5c7c16c165a714082eb1e4387e2c3e919dc032",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/source-jd-core-i9-14900kf-10141760708477.json",
+      "sha256": "ccc49262535f2beef89640db27d34db6a9c690efd6e891149c603cb98678d495",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/source-jd-core-ultra-7-265k-100120799071.json",
+      "sha256": "db13192820bf19b85bbf0cae09686970985d369b2eb1503c9e1f479472ab8620",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/source-jd-core-ultra-7-265kf-100120799085.json",
+      "sha256": "ddc0c3f08c8b4fea88e9724b9c9b01a071d992a6453152548a33d99712ca1871",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/source-jd-core-ultra-9-285k-100145512952.json",
+      "sha256": "c70900046a325cee20982de13126378e349bdaeb8e7f7ee1e86991804c3336a2",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/source-jd-geforce-rtx-3080-10150847424536.json",
+      "sha256": "18cac1cf01a3abc16778e06729732ba39389b7458849299266e53706e260bc26",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/source-jd-geforce-rtx-3080-12gb-10100584480075.json",
+      "sha256": "6b51f44efecf40b8e69e8ba211b2cb9564ecba4801e8c6ea267688b5aaa2d201",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/source-jd-geforce-rtx-3080-ti-10227212321266.json",
+      "sha256": "3c02f4250373aa70d1aba2ff8af1aeac1fe37f715013b99e028b9649d06f3828",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/source-jd-geforce-rtx-3090-10143406753582.json",
+      "sha256": "006703ea5b006440cc15467c5eb9e0df0b7fcd7a575a9bf0af2ac827adc13a3b",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/source-jd-geforce-rtx-3090-ti-10143406753592.json",
+      "sha256": "748de3e0c60533e1cac79f4f00f0e82cf082e816bd4027c9e508704984f43a46",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/source-jd-geforce-rtx-4060-10166834608980.json",
+      "sha256": "3c3e26acf0bfbaba14abd472aa790849401d5a3c519083432a8b956269a0130a",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/source-jd-geforce-rtx-4060-ti-16gb-10194428793230.json",
+      "sha256": "3132b17256cf10e452f6a2fce864f86e7a5eb3497f296c8ef31c70a2b92fd577",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/source-jd-geforce-rtx-4060-ti-8gb-10212672769446.json",
+      "sha256": "531e9a6255d1a8a6f3a9f8f74079c8bb0a45056a93bc7cf9c49056ab96a05708",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/source-jd-geforce-rtx-4070-10166834608982.json",
+      "sha256": "1dc85651916e2a3ed94a3bbc07d8ce76c66118e4c21f8b824e78f3d3aa0d5dd7",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/source-jd-geforce-rtx-4070-super-100373693346.json",
+      "sha256": "eaf5fb0b656cdb56ae6cf186729e70f5de1a93947ea2e2b3d6aff418a9bc1cb6",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/source-jd-geforce-rtx-4070-ti-10232015118416.json",
+      "sha256": "49442a08cd2212e4fc08bd45ebaafd25d6377faf21952989a19cfa104ec8d15e",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/source-jd-geforce-rtx-4070-ti-super-10158758460326.json",
+      "sha256": "5d90f75c6634365607e49518d9072fcecfe43a5d61a52ff8f7e504a040f85b54",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/source-jd-geforce-rtx-4080-10232007385908.json",
+      "sha256": "cccd5df20616c383e45033103144f8b448aa2d2c1ff6576ba1bebc8fbae3c6dd",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/source-jd-geforce-rtx-4080-super-10168545650431.json",
+      "sha256": "6e7820fad9277921646161e9ab123f80eced5260805dbf4ec367f29ffec0feb7",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/source-jd-geforce-rtx-4090-10202342064286.json",
+      "sha256": "d879026883b69a5d49f2b6aa620a2278cfc17eff5f05ef0c777c340d50911c08",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/source-jd-geforce-rtx-5070-100293009528.json",
+      "sha256": "76bb4ff2e6ee5a1576d2e7f184435ec5bc17041bfbaa14a2bf433564e2f84b30",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/source-jd-geforce-rtx-5070-ti-100188447084.json",
+      "sha256": "87c9d8b652ebfe1b673d452a6e83890585b1ce98b00c7b7816deca0b6a6599d4",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/source-jd-geforce-rtx-5090-10212691978527.json",
+      "sha256": "f772cfdc6f6cb7b328864465e17640b2b34c844ceec73f8c5087754261a6a7c1",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/source-jd-geforce-rtx-5090d-100200850043.json",
+      "sha256": "3f5f3ac7dab6931924aefad5294472b5124ebed635487757dc1845a11a9ec9f2",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/source-jd-intel-arc-a380-100123396963.json",
+      "sha256": "df877bde6bb6f6cf523a48e393d4b70b6e4eae13a5a68e8ea79bc78e88eaa16b",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/source-jd-intel-arc-a580-100070840263.json",
+      "sha256": "2d9d6a80783ec46a2511295c89cc0c5e208418d233eed5723b67db07b4912003",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/source-jd-intel-arc-a750-10223564546996.json",
+      "sha256": "592aa7268941c41575a08bb535fb6bfd244c5cf9ee8991a53c7ce7b2797f2f99",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/source-jd-intel-arc-a770-16gb-100049871423.json",
+      "sha256": "dcdb30924431a78f76e85c05c7ec2cb862cf5ef1517c78bcefde1bae00cfcf4f",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/source-jd-intel-arc-b570-10193688417972.json",
+      "sha256": "200d5bbf4dd55a616995176699ed11d1d54925eb29989ca425d5c5af0c2260d0",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/source-jd-intel-arc-b580-100166655976.json",
+      "sha256": "fbf6334495136d20c69bb492973e0794bd402d8818887c58d6af453a16dac4cc",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/source-jd-radeon-rx-6600-10229497347934.json",
+      "sha256": "25c0997eeb3e79b3cdc2bd9e98a45aba4a2cd81befaaa05d80f943f9a806cab0",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/source-jd-radeon-rx-6600-xt-10229497347935.json",
+      "sha256": "03dc6d93ff7a071b96b3fb3d390d83a6666f99cd4b01ef5c99eb4bdb0ed4457d",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/source-jd-radeon-rx-6700-xt-10161539635802.json",
+      "sha256": "db683ab5c3d60822c9712c47179826a134c3295a73dc662fe9eaf47e2e232b49",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/source-jd-radeon-rx-6800-10233607472486.json",
+      "sha256": "e4b72d6ac479d24c0cdff2a1f6245b4cbb5c550f05d27272e5f56b9adb713a72",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/source-jd-radeon-rx-6800-xt-100321682876.json",
+      "sha256": "b7d5e5f91eee493744af8d8d9c7d33dfdb617e9c41dc393b50425ae5d77af522",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/source-jd-radeon-rx-6900-xt-10111193502747.json",
+      "sha256": "76b1064665ba9471390de4ed8cb5924ab094324fe1113434164c661e1b1efefa",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/source-jd-radeon-rx-7600-10233230021106.json",
+      "sha256": "548ee85f6fc58d5b31a9e3f42cc42a61a37ed46822b965187174bdba41c5512c",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/source-jd-radeon-rx-7600-xt-10233102401048.json",
+      "sha256": "022ca855ae55d2f1fb6cebb455e7c8450ef44329cecdbbe7d9d3afbf08a22311",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/source-jd-radeon-rx-7700-xt-10155573120328.json",
+      "sha256": "a13f8dcf14a75766067f31492e4144ab3861503d669cb26d84ac51d1086c5800",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/source-jd-radeon-rx-7800-xt-10229477836673.json",
+      "sha256": "88141fff0f467253ab5621e9d54c354edcfb88ba0d6bae5da69853ba778511d4",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/source-jd-radeon-rx-7900-xt-10233443358451.json",
+      "sha256": "822fae3eb9d9ecbee0960799b8ff5fbcfe6ff18d622dc99d23cb53fc83bca47e",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/source-jd-radeon-rx-7900-xtx-10079430463027.json",
+      "sha256": "5d97f6686847be65b3f773fdcac40d8744ef97b993f4999444894391d3ddc936",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/source-jd-radeon-rx-9060-xt-100217735992.json",
+      "sha256": "3aca9c769bc60eeb2f21e285e005db1926b0bb8fe263099fb95b0d77935efa5d",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/source-jd-radeon-rx-9070-100152380935.json",
+      "sha256": "26a606ade96fe06926109fdabb1d9932ed9706a36573a34869ef466c430feff2",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/source-jd-radeon-rx-9070-xt-100193357148.json",
+      "sha256": "91220eabf9c601f4adbe280697fc5eeca2ba105404023cb2345bc84ed135208e",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/source-jd-ryzen-5-5600f-100035814972.json",
+      "sha256": "a8548325355e88691ae0a56ec0c3391e6ed780f6b68042a9482c2fea34169cb2",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/source-jd-ryzen-5-5600t-100085063817.json",
+      "sha256": "14271d45da44924faf18ff4e6cf59073beabb55bdb53a52ff68dd3461cf79568",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/source-jd-ryzen-5-5600x-10222303490790.json",
+      "sha256": "055a815ae6224396cf3c291cbe5bf04bba043c1ad7d7dc1a438e660c19772432",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/source-jd-ryzen-5-7600-100051589597.json",
+      "sha256": "179d9b36b94b80eebb70c9b2c347b8a6ba570bf20c12865eb619799db6d53ef3",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/source-jd-ryzen-5-7600x-10061637321328.json",
+      "sha256": "b95e5ae43203e1817588827250e5b104a452beff8f5e7ab8f4036a2b82402c83",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/source-jd-ryzen-5-9600x-100110580225.json",
+      "sha256": "40f9761f695d5605cfe89207883f227c8d324d233b01d736f091f3d8d16831f9",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/source-jd-ryzen-7-5800x-10232004367133.json",
+      "sha256": "cf44447b14b0e15f2d7e7b919919c4e1aa10b81880b04af2fea5f1a25046be58",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/source-jd-ryzen-7-5800x3d-100285871853.json",
+      "sha256": "f43c4784ed13eb6c883b5b34387eb1997c0be5a6c924fe3f3df9d43a293e28f6",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/source-jd-ryzen-7-7700-10166863909098.json",
+      "sha256": "1c20bad5c95085ee19cb667d27a5940ef40f9aff4a44f36409b899be99602286",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/source-jd-ryzen-7-7700x-10218676242559.json",
+      "sha256": "c9f9a737a3fe15bc097ab6e3e12c72a5a4a5418abd9c9cf55b0658304cc84f54",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/source-jd-ryzen-7-7800x3d-100046394400.json",
+      "sha256": "1cee1232d2b2c071d4e233b8206723a08d8db7965cdf2ac02e727558af134837",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/source-jd-ryzen-7-9700x-100109234839.json",
+      "sha256": "1fbfa7603ce3c4910b4fc615e8e2f5e12bd85dcf6ddc34e8b8f811c0679fd68b",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/source-jd-ryzen-7-9800x3d-100147630258.json",
+      "sha256": "f094af130fae883b75f38c4a914ef36339810ef85ea2d8be09937900913a76db",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/source-jd-ryzen-9-7900x-10218676242575.json",
+      "sha256": "9089bf5ca2d461946490dfa8a33d71e6fd6c6d5318108714d5cfe50075a6f113",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/source-jd-ryzen-9-7950x-10166863909062.json",
+      "sha256": "2ff1b6f3e06cd8966ea70012a0e20a2f0b76f7f5279841c69b7aad7f26223269",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/source-jd-ryzen-9-7950x3d-100053675655.json",
+      "sha256": "cbfe2c47a61b90dc0a4533172582f69fc81f0054dc9d8555457b3a15f9aa0604",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/source-jd-ryzen-9-9900x-10140500539425.json",
+      "sha256": "73a6b3edc38876aa7405e444ba1fdef8e3b2f0f66cef76da6d4e9aac7f1c0f4c",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/source-jd-ryzen-9-9950x-100110580223.json",
+      "sha256": "0cb2cc77f96e05bd14963e101fe197e7bb3e60a25f0ee4b4e9cc9c215f50fd24",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/source-jd-ryzen-9-9950x3d-100149071725.json",
+      "sha256": "27b8486a69a97b3a64d0ffd3be8c1b4f66dbe41b24f159800b2e15efea9fabe0",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "workloads/bandai-namco-elden-ring.json",
+      "sha256": "72f06ce37e55f156d378caa8f14157af2f2214c580bff5ae8e6df8957a281a38",
+      "record_type": "workload",
+      "status": "accepted"
+    },
+    {
+      "path": "workloads/bethesda-starfield.json",
+      "sha256": "09559ee42c2a142c811fa3f9034640de962a782a27d147f0630a0396d67a56d0",
+      "record_type": "workload",
+      "status": "accepted"
+    },
+    {
+      "path": "workloads/blizzard-overwatch-2.json",
+      "sha256": "5606ac0c9ce9c1fed3283b5e2997aafe80d2be3f5283f3abae48b5ece04286dd",
+      "record_type": "workload",
+      "status": "accepted"
+    },
+    {
+      "path": "workloads/cd-projekt-cyberpunk-2077.json",
+      "sha256": "05a164f1d46501a833bb72c548d2c0f7efd03c20c21bc1e375b2b2839669d311",
+      "record_type": "workload",
+      "status": "accepted"
+    },
+    {
+      "path": "workloads/ea-apex-legends.json",
+      "sha256": "b09347bcaa2a49912eaf0d4ccd8f2d0f7002c8bd7504668f2d3807da754fd522",
+      "record_type": "workload",
+      "status": "accepted"
+    },
+    {
+      "path": "workloads/epic-games-fortnite.json",
+      "sha256": "5623217a8ce0b941e60c0e1c1046541d7f5312148917b7ea164b0198062dd4cd",
+      "record_type": "workload",
+      "status": "accepted"
+    },
+    {
+      "path": "workloads/krafton-pubg-battlegrounds.json",
+      "sha256": "1f8d7e75c7de311c487195c7c63d39274019d0cb5ac25d9a3c4ee8f3ac10db6d",
+      "record_type": "workload",
+      "status": "accepted"
+    },
+    {
+      "path": "workloads/larian-baldurs-gate-3.json",
+      "sha256": "09179c5dbd513ee35da4428055de123e9c7f4c17d9a9f368c7af0f482e70ff7e",
+      "record_type": "workload",
+      "status": "accepted"
+    },
+    {
+      "path": "workloads/riot-games-league-of-legends.json",
+      "sha256": "0b2cb89ff08a317823572919bdb3f343066a99d729c81f4dd84ced834a4768b7",
+      "record_type": "workload",
+      "status": "accepted"
+    },
+    {
+      "path": "workloads/riot-games-valorant.json",
+      "sha256": "ca14879800845ece2b82922a56fb46d77784053c41f4116a2074e8cad8a7cd43",
+      "record_type": "workload",
+      "status": "accepted"
+    },
+    {
+      "path": "workloads/rockstar-games-gta-v.json",
+      "sha256": "2ee82c779a21b176964ad1631837a342656ed1f00d2f0bb0688ff7d1ef5cc712",
+      "record_type": "workload",
+      "status": "accepted"
+    },
+    {
+      "path": "workloads/valve-counter-strike-2.json",
+      "sha256": "bb458f7663fde7d3c640e475cecb0e8404cd45dea5eff22595c991f5ad1f5a1f",
+      "record_type": "workload",
+      "status": "accepted"
+    },
+    {
+      "path": "workloads/valve-dota-2.json",
+      "sha256": "1fafa5d50042751bdb154126881b2ba17dfb41dfea2b31e701b5ae1a56d72d2a",
+      "record_type": "workload",
+      "status": "accepted"
+    }
+  ]
+}

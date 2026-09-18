@@ -1,0 +1,14 @@
+{
+  "schema_version": "3.2",
+  "record_type": "entity_alias",
+  "status": "accepted",
+  "payload": {
+    "entity_key": "model:nvidia:sana-1-6b",
+    "alias": "Efficient-Large-Model/Sana_1600M_1024px_diffusers",
+    "alias_type": "repository",
+    "language": null,
+    "normalized_alias": "efficientlargemodelsana1600m1024pxdiffusers",
+    "source_key": null
+  },
+  "review_notes": []
+}

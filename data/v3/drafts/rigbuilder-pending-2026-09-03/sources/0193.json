@@ -1,0 +1,24 @@
+{
+  "schema_version": "3.2",
+  "record_type": "source_document",
+  "status": "pending",
+  "payload": {
+    "source_key": "src:card:kimi-k2-instruct",
+    "title": "Kimi-K2-Instruct Model Card",
+    "url": "https://huggingface.co/moonshotai/Kimi-K2-Instruct",
+    "publisher_key": "org:moonshot-ai",
+    "source_type": "model_card",
+    "source_tier": "A",
+    "published_at": null,
+    "market_region": null,
+    "language": null,
+    "availability_status": "accessible",
+    "archive_url": null,
+    "accessed_at": "2026-09-14T11:56:26+00:00",
+    "content_hash": "5e3931ee4f6cefe3415f78d956fd7579d1c494e4b1497648d55d5da3e01b9161"
+  },
+  "review_notes": [
+    "模型扩展批来源登记（2026-09-07）：pending，待 page_save.py 抓取回填 accessed_at/content_hash。",
+    "2026-09-14 经镜像抓取：https://hf-mirror.com/moonshotai/Kimi-K2-Instruct（来源登记 URL 保持原样 https://huggingface.co/moonshotai/Kimi-K2-Instruct）。"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": "3.2",
+  "record_type": "entity_alias",
+  "status": "accepted",
+  "payload": {
+    "entity_key": "model:microsoft:phi-4-multimodal-instruct",
+    "alias": "microsoft/Phi-4-multimodal-instruct",
+    "alias_type": "repository",
+    "language": null,
+    "normalized_alias": "microsoftphi4multimodalinstruct",
+    "source_key": null
+  },
+  "review_notes": []
+}

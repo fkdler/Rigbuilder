@@ -1,0 +1,109 @@
+{
+  "schema_version": "3.2",
+  "record_type": "model",
+  "status": "accepted",
+  "payload": {
+    "identity": {
+      "entity_key": "model:qwen:qwen3-reranker-0-6b",
+      "canonical_name": "Qwen3-Reranker-0.6B",
+      "entity_type": "ai_model",
+      "release_date": "2025-06-05",
+      "lifecycle_status": "unknown",
+      "recommendable": true
+    },
+    "publisher_key": "org:qwen",
+    "release_version": null,
+    "model_type": "dense",
+    "total_parameters": 595776512,
+    "active_parameters": null,
+    "model_stage": "reranker",
+    "context_length_tokens": 40960,
+    "license_name": "Apache-2.0",
+    "commercial_use_status": "allowed",
+    "official_repo_url": "https://huggingface.co/Qwen/Qwen3-Reranker-0.6B",
+    "official_model_card_url": "https://huggingface.co/Qwen/Qwen3-Reranker-0.6B",
+    "architecture_notes": null,
+    "capabilities": [
+      {
+        "capability_key": "text_input",
+        "status": "supported",
+        "notes": null
+      },
+      {
+        "capability_key": "rerank",
+        "status": "supported",
+        "notes": null
+      }
+    ],
+    "variants": [
+      {
+        "identity": {
+          "entity_key": "variant:qwen-qwen3-reranker-0-6b:official-safetensors",
+          "canonical_name": "Qwen3-Reranker-0.6B 官方权重 (safetensors, Qwen)",
+          "entity_type": "model_variant",
+          "release_date": null,
+          "lifecycle_status": "unknown",
+          "recommendable": true
+        },
+        "file_size_bytes": 1191588280,
+        "weight_format": "safetensors",
+        "official_status": "official",
+        "repository_url": "https://huggingface.co/Qwen/Qwen3-Reranker-0.6B",
+        "evidence": [
+          {
+            "source_key": "src:hf:qwen-qwen3-reranker-0-6b",
+            "field_key": "entity.canonical_name",
+            "normalized_value": "Qwen3-Reranker-0.6B 官方权重 (safetensors, Qwen)",
+            "review_status": "accepted",
+            "confidence": 1
+          }
+        ]
+      }
+    ],
+    "evidence": [
+      {
+        "source_key": "src:card:qwen3-reranker-0-6b",
+        "field_key": "entity.canonical_name",
+        "normalized_value": "Qwen3-Reranker-0.6B",
+        "provenance_key": "official",
+        "raw_excerpt": "Qwen3-Reranker-0.6B",
+        "review_status": "accepted",
+        "reviewed_at": null
+      },
+      {
+        "source_key": "src:card:qwen3-reranker-0-6b",
+        "field_key": "model.total_parameters",
+        "normalized_value": 595776512,
+        "provenance_key": "official",
+        "raw_excerpt": "HF API safetensors.total（精确）: 595776512",
+        "review_status": "accepted",
+        "reviewed_at": null,
+        "notes": "由公开知识值校正为官方值（原值 600000000）"
+      },
+      {
+        "source_key": "src:card:qwen3-reranker-0-6b",
+        "field_key": "model.context_length_tokens",
+        "normalized_value": 40960,
+        "unit_key": "tokens",
+        "provenance_key": "official",
+        "raw_excerpt": "config.json max_position_embeddings: 40960",
+        "review_status": "accepted",
+        "reviewed_at": null,
+        "notes": "由公开知识值校正为官方值（原值 32768）"
+      },
+      {
+        "source_key": "src:card:qwen3-reranker-0-6b",
+        "field_key": "model.license_name",
+        "normalized_value": "Apache-2.0",
+        "provenance_key": "official",
+        "raw_excerpt": "License: apache-2.0",
+        "review_status": "accepted",
+        "reviewed_at": null
+      }
+    ],
+    "family": "Qwen3-Reranker"
+  },
+  "review_notes": [
+    "Model artifacts enumerated from the official Hugging Face API on 2026-09-16 (file list and byte sizes only; no weights were downloaded or verified)."
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version": "3.2",
+  "record_type": "source_document",
+  "status": "accepted",
+  "payload": {
+    "source_key": "src:card:wan2-1-t2v-14b",
+    "title": "Wan2.1-T2V-14B Model Card",
+    "url": "https://huggingface.co/Wan-AI/Wan2.1-T2V-14B",
+    "publisher_key": "org:wan-ai",
+    "source_type": "model_card",
+    "source_tier": "A",
+    "published_at": null,
+    "market_region": null,
+    "language": null,
+    "availability_status": "accessible",
+    "archive_url": null,
+    "accessed_at": "2026-09-15T11:31:09+00:00",
+    "content_hash": "16c22c3263fb0f7d32d7457e6c5aa5b84e848cfcf247adfae0cd494774021d5a"
+  },
+  "review_notes": [
+    "多模态模型来源登记（2026-09-07）：pending，待抓取核验。",
+    "2026-09-15 经镜像抓取：https://hf-mirror.com/Wan-AI/Wan2.1-T2V-14B（来源登记 URL 保持原样 https://huggingface.co/Wan-AI/Wan2.1-T2V-14B）。",
+    "Approved in bulk on 2026-09-16 at the user's explicit request; no per-record human review."
+  ]
+}

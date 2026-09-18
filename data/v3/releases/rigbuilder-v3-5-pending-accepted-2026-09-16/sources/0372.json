@@ -1,0 +1,25 @@
+{
+  "schema_version": "3.2",
+  "record_type": "source_document",
+  "status": "accepted",
+  "payload": {
+    "source_key": "src:card:internvl3-8b",
+    "title": "InternVL3-8B Model Card",
+    "url": "https://huggingface.co/OpenGVLab/InternVL3-8B-Instruct",
+    "publisher_key": "org:opengvlab",
+    "source_type": "model_card",
+    "source_tier": "A",
+    "published_at": null,
+    "market_region": null,
+    "language": null,
+    "availability_status": "accessible",
+    "archive_url": null,
+    "accessed_at": "2026-09-15T11:32:08+00:00",
+    "content_hash": "eab78281c95c040a1785dbf2ddc73d0916cdab943d1a6f783afdc1e32080e4f6"
+  },
+  "review_notes": [
+    "多模态模型来源登记（2026-09-07）：pending。",
+    "2026-09-15 经镜像抓取：https://hf-mirror.com/OpenGVLab/InternVL3-8B-Instruct（来源登记 URL 保持原样 https://huggingface.co/OpenGVLab/InternVL3-8B-Instruct）。",
+    "Approved in bulk on 2026-09-16 at the user's explicit request; no per-record human review."
+  ]
+}

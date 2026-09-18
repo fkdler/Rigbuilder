@@ -1,0 +1,54 @@
+{
+  "schema_version": "3.2",
+  "record_type": "hardware",
+  "status": "accepted",
+  "payload": {
+    "identity": {
+      "entity_key": "hw:nvidia:geforce-rtx-5060-ti-8gb:desktop:global",
+      "canonical_name": "GeForce RTX 5060 Ti 8GB",
+      "entity_type": "hardware",
+      "release_date": null,
+      "lifecycle_status": "unknown",
+      "recommendable": true
+    },
+    "category": "gpu",
+    "record_kind": "product",
+    "manufacturer_key": "org:nvidia",
+    "form_factor": "desktop",
+    "model_name": "GeForce RTX 5060 Ti 8GB",
+    "variant_name": null,
+    "market_segment": "consumer",
+    "region_code": "GLOBAL",
+    "official_product_id": null,
+    "product_family": null,
+    "attributes": [],
+    "evidence": [
+      {
+        "source_key": "src:nvidia:gpu-desktop-50-series",
+        "field_key": "entity.canonical_name",
+        "normalized_value": "GeForce RTX 5060 Ti 8GB",
+        "provenance_key": "official",
+        "raw_excerpt": "GeForce RTX 5060 Ti 8GB",
+        "review_status": "accepted",
+        "reviewed_at": null
+      }
+    ],
+    "gpu_spec": {
+      "architecture": "Blackwell",
+      "vram_gib": 8,
+      "memory_type": "GDDR7",
+      "memory_bus_width_bit": 128,
+      "memory_bandwidth_gb_s": null,
+      "ecc_support": false,
+      "interface": null,
+      "pcie_generation": 5,
+      "pcie_lanes": 8,
+      "board_power_w": 180
+    }
+  },
+  "review_notes": [
+    "后缀矩阵补全（2026-09-07）：官方来源页待核验，值按公开规格知识（含 T 系低功耗档），pending；部分型号参数待来源确认后核对。",
+    "2026-09-07 evidence 补全：挂 canonical_name 证据（来源见 sources）；其余字段证据待逐字核验后补。",
+    "Approved in bulk on 2026-09-16 at the user's explicit request; no per-record human review."
+  ]
+}

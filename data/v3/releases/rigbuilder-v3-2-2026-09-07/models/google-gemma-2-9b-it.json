@@ -1,0 +1,178 @@
+{
+  "schema_version": "3.2",
+  "record_type": "model",
+  "status": "accepted",
+  "payload": {
+    "identity": {
+      "entity_key": "model:google:gemma-2-9b-it",
+      "canonical_name": "Gemma-2-9b-it",
+      "entity_type": "ai_model",
+      "release_date": "2024-06-27",
+      "lifecycle_status": "unknown",
+      "recommendable": true
+    },
+    "publisher_key": "org:google",
+    "release_version": null,
+    "model_type": "dense",
+    "total_parameters": 9200000000,
+    "active_parameters": null,
+    "model_stage": "instruct",
+    "context_length_tokens": 8192,
+    "license_name": "Gemma Terms of Use",
+    "commercial_use_status": "allowed",
+    "official_repo_url": "https://huggingface.co/google/Gemma-2-9b-it",
+    "official_model_card_url": "https://huggingface.co/google/Gemma-2-9b-it",
+    "architecture_notes": null,
+    "capabilities": [
+      {
+        "capability_key": "text_input",
+        "status": "supported",
+        "notes": null
+      }
+    ],
+    "variants": [
+      {
+        "identity": {
+          "entity_key": "variant:google:gemma-2-9b-it:gguf:q4-k-m:bartowski",
+          "canonical_name": "Gemma-2-9b-it Q4_K_M (GGUF, bartowski)",
+          "entity_type": "model_variant",
+          "release_date": null,
+          "lifecycle_status": "unknown",
+          "recommendable": false
+        },
+        "maintainer_key": "org:bartowski",
+        "quantization_method": "Q4_K_M",
+        "weight_format": "GGUF",
+        "bits_per_weight": null,
+        "file_size_bytes": 5761057728,
+        "official_status": "community",
+        "repository_url": "https://huggingface.co/bartowski/gemma-2-9b-it-GGUF",
+        "artifact_revision": null,
+        "artifact_manifest": null,
+        "checksum": null,
+        "evidence": [
+          {
+            "source_key": "src:gguf:bartowski-gemma-2-9b-it-gguf",
+            "field_key": "entity.canonical_name",
+            "normalized_value": "Gemma-2-9b-it Q4_K_M (GGUF, bartowski)",
+            "provenance_key": "community_reported",
+            "raw_excerpt": "Gemma-2-9b-it Q4_K_M (GGUF, bartowski)",
+            "review_status": "accepted",
+            "reviewed_at": "2026-09-07T00:00:00Z"
+          }
+        ]
+      },
+      {
+        "identity": {
+          "entity_key": "variant:google:gemma-2-9b-it:gguf:q5-k-m:bartowski",
+          "canonical_name": "Gemma-2-9b-it Q5_K_M (GGUF, bartowski)",
+          "entity_type": "model_variant",
+          "release_date": null,
+          "lifecycle_status": "unknown",
+          "recommendable": false
+        },
+        "maintainer_key": "org:bartowski",
+        "quantization_method": "Q5_K_M",
+        "weight_format": "GGUF",
+        "bits_per_weight": null,
+        "file_size_bytes": 6647366592,
+        "official_status": "community",
+        "repository_url": "https://huggingface.co/bartowski/gemma-2-9b-it-GGUF",
+        "artifact_revision": null,
+        "artifact_manifest": null,
+        "checksum": null,
+        "evidence": [
+          {
+            "source_key": "src:gguf:bartowski-gemma-2-9b-it-gguf",
+            "field_key": "entity.canonical_name",
+            "normalized_value": "Gemma-2-9b-it Q5_K_M (GGUF, bartowski)",
+            "provenance_key": "community_reported",
+            "raw_excerpt": "Gemma-2-9b-it Q5_K_M (GGUF, bartowski)",
+            "review_status": "accepted",
+            "reviewed_at": "2026-09-07T00:00:00Z"
+          }
+        ]
+      },
+      {
+        "identity": {
+          "entity_key": "variant:google:gemma-2-9b-it:gguf:q8-0:bartowski",
+          "canonical_name": "Gemma-2-9b-it Q8_0 (GGUF, bartowski)",
+          "entity_type": "model_variant",
+          "release_date": null,
+          "lifecycle_status": "unknown",
+          "recommendable": false
+        },
+        "maintainer_key": "org:bartowski",
+        "quantization_method": "Q8_0",
+        "weight_format": "GGUF",
+        "bits_per_weight": null,
+        "file_size_bytes": 9827148736,
+        "official_status": "community",
+        "repository_url": "https://huggingface.co/bartowski/gemma-2-9b-it-GGUF",
+        "artifact_revision": null,
+        "artifact_manifest": null,
+        "checksum": null,
+        "evidence": [
+          {
+            "source_key": "src:gguf:bartowski-gemma-2-9b-it-gguf",
+            "field_key": "entity.canonical_name",
+            "normalized_value": "Gemma-2-9b-it Q8_0 (GGUF, bartowski)",
+            "provenance_key": "community_reported",
+            "raw_excerpt": "Gemma-2-9b-it Q8_0 (GGUF, bartowski)",
+            "review_status": "accepted",
+            "reviewed_at": "2026-09-07T00:00:00Z"
+          }
+        ]
+      }
+    ],
+    "evidence": [
+      {
+        "source_key": "src:card:gemma-2-9b-it",
+        "field_key": "entity.canonical_name",
+        "normalized_value": "Gemma-2-9b-it",
+        "provenance_key": "official",
+        "raw_excerpt": "Gemma-2-9b-it",
+        "review_status": "accepted",
+        "reviewed_at": "2026-09-07T00:00:00Z"
+      },
+      {
+        "source_key": "src:card:gemma-2-9b-it",
+        "field_key": "model.total_parameters",
+        "normalized_value": 9200000000,
+        "provenance_key": "official",
+        "notes": "由官方宣传 B 值换算，待以官方 config 复核实际参数数",
+        "raw_excerpt": "9.2B",
+        "review_status": "accepted",
+        "reviewed_at": "2026-09-07T00:00:00Z"
+      },
+      {
+        "source_key": "src:card:gemma-2-9b-it",
+        "field_key": "model.context_length_tokens",
+        "normalized_value": 8192,
+        "unit_key": "tokens",
+        "provenance_key": "official",
+        "raw_excerpt": "8192",
+        "review_status": "accepted",
+        "reviewed_at": "2026-09-07T00:00:00Z"
+      },
+      {
+        "source_key": "src:card:gemma-2-9b-it",
+        "field_key": "model.license_name",
+        "normalized_value": "Gemma Terms of Use",
+        "provenance_key": "official",
+        "raw_excerpt": "Gemma Terms of Use",
+        "review_status": "accepted",
+        "reviewed_at": "2026-09-07T00:00:00Z"
+      }
+    ],
+    "family": "Gemma"
+  },
+  "review_notes": [
+    "来源 retrieved_at 为占位时间，调查员须替换为实际看到页面的时间。",
+    "source_key 前缀暂为 src: 与 quantization/format 大小写（Q4_K_M/GGUF）待审核人与词表对齐（可统一为 source:/小写）。",
+    "变体 Q4_K_M 页面参考大小：5.29 GB（页面十进制参考值，非精确字节；file_size_bytes 待真实元数据）（file_size_bytes 待真实元数据）",
+    "变体 Q5_K_M 页面参考大小：6.13 GB（页面十进制参考值，非精确字节；file_size_bytes 待真实元数据）（file_size_bytes 待真实元数据）",
+    "变体 Q8_0 页面参考大小：9.2 GB（页面十进制参考值，非精确字节；file_size_bytes 待真实元数据）（file_size_bytes 待真实元数据）",
+    "2026-09-03 人工核对仓库 Files：同名 -fp16/-L 变体不属本量化，取完整单文件（Q4_K_M=5761057728B、Q8_0=9827148736B）。"
+  ]
+}

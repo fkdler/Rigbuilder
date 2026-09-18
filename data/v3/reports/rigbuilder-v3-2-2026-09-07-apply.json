@@ -1,0 +1,2191 @@
+{
+  "mode": "apply",
+  "release": "rigbuilder-v3-2-2026-09-07",
+  "added": 1719,
+  "updated": 0,
+  "skipped": 0,
+  "rejected": 0,
+  "files": [
+    {
+      "path": "field-definitions/cpu-architecture.json",
+      "status": "validated",
+      "record_type": "field_definition"
+    },
+    {
+      "path": "field-definitions/cpu-base-clock-mhz.json",
+      "status": "validated",
+      "record_type": "field_definition"
+    },
+    {
+      "path": "field-definitions/cpu-base-power-w.json",
+      "status": "validated",
+      "record_type": "field_definition"
+    },
+    {
+      "path": "field-definitions/cpu-boost-clock-mhz.json",
+      "status": "validated",
+      "record_type": "field_definition"
+    },
+    {
+      "path": "field-definitions/cpu-cores-total.json",
+      "status": "validated",
+      "record_type": "field_definition"
+    },
+    {
+      "path": "field-definitions/cpu-socket.json",
+      "status": "validated",
+      "record_type": "field_definition"
+    },
+    {
+      "path": "field-definitions/cpu-threads.json",
+      "status": "validated",
+      "record_type": "field_definition"
+    },
+    {
+      "path": "field-definitions/entity-canonical-name.json",
+      "status": "validated",
+      "record_type": "field_definition"
+    },
+    {
+      "path": "field-definitions/gpu-architecture.json",
+      "status": "validated",
+      "record_type": "field_definition"
+    },
+    {
+      "path": "field-definitions/gpu-board-power-w.json",
+      "status": "validated",
+      "record_type": "field_definition"
+    },
+    {
+      "path": "field-definitions/gpu-ecc-support.json",
+      "status": "validated",
+      "record_type": "field_definition"
+    },
+    {
+      "path": "field-definitions/gpu-memory-bandwidth-gb-s.json",
+      "status": "validated",
+      "record_type": "field_definition"
+    },
+    {
+      "path": "field-definitions/gpu-memory-bus-width-bit.json",
+      "status": "validated",
+      "record_type": "field_definition"
+    },
+    {
+      "path": "field-definitions/gpu-memory-type.json",
+      "status": "validated",
+      "record_type": "field_definition"
+    },
+    {
+      "path": "field-definitions/gpu-pcie-generation.json",
+      "status": "validated",
+      "record_type": "field_definition"
+    },
+    {
+      "path": "field-definitions/gpu-pcie-lanes.json",
+      "status": "validated",
+      "record_type": "field_definition"
+    },
+    {
+      "path": "field-definitions/gpu-vram-gib.json",
+      "status": "validated",
+      "record_type": "field_definition"
+    },
+    {
+      "path": "field-definitions/model-context-length-tokens.json",
+      "status": "validated",
+      "record_type": "field_definition"
+    },
+    {
+      "path": "field-definitions/model-license-name.json",
+      "status": "validated",
+      "record_type": "field_definition"
+    },
+    {
+      "path": "field-definitions/model-total-parameters.json",
+      "status": "validated",
+      "record_type": "field_definition"
+    },
+    {
+      "path": "hardware/amd-radeon-rx-6600-xt.json",
+      "status": "validated",
+      "record_type": "hardware"
+    },
+    {
+      "path": "hardware/amd-radeon-rx-6600.json",
+      "status": "validated",
+      "record_type": "hardware"
+    },
+    {
+      "path": "hardware/amd-radeon-rx-6700-xt.json",
+      "status": "validated",
+      "record_type": "hardware"
+    },
+    {
+      "path": "hardware/amd-radeon-rx-6800-xt.json",
+      "status": "validated",
+      "record_type": "hardware"
+    },
+    {
+      "path": "hardware/amd-radeon-rx-6800.json",
+      "status": "validated",
+      "record_type": "hardware"
+    },
+    {
+      "path": "hardware/amd-radeon-rx-6900-xt.json",
+      "status": "validated",
+      "record_type": "hardware"
+    },
+    {
+      "path": "hardware/amd-radeon-rx-7600-xt.json",
+      "status": "validated",
+      "record_type": "hardware"
+    },
+    {
+      "path": "hardware/amd-radeon-rx-7600.json",
+      "status": "validated",
+      "record_type": "hardware"
+    },
+    {
+      "path": "hardware/amd-radeon-rx-7700-xt.json",
+      "status": "validated",
+      "record_type": "hardware"
+    },
+    {
+      "path": "hardware/amd-radeon-rx-7800-xt.json",
+      "status": "validated",
+      "record_type": "hardware"
+    },
+    {
+      "path": "hardware/amd-radeon-rx-7900-xt.json",
+      "status": "validated",
+      "record_type": "hardware"
+    },
+    {
+      "path": "hardware/amd-radeon-rx-7900-xtx.json",
+      "status": "validated",
+      "record_type": "hardware"
+    },
+    {
+      "path": "hardware/amd-radeon-rx-9060-xt.json",
+      "status": "validated",
+      "record_type": "hardware"
+    },
+    {
+      "path": "hardware/amd-radeon-rx-9070-xt.json",
+      "status": "validated",
+      "record_type": "hardware"
+    },
+    {
+      "path": "hardware/amd-radeon-rx-9070.json",
+      "status": "validated",
+      "record_type": "hardware"
+    },
+    {
+      "path": "hardware/amd-ryzen-5-5600f.json",
+      "status": "validated",
+      "record_type": "hardware"
+    },
+    {
+      "path": "hardware/amd-ryzen-5-5600t.json",
+      "status": "validated",
+      "record_type": "hardware"
+    },
+    {
+      "path": "hardware/amd-ryzen-5-5600x.json",
+      "status": "validated",
+      "record_type": "hardware"
+    },
+    {
+      "path": "hardware/amd-ryzen-5-7600.json",
+      "status": "validated",
+      "record_type": "hardware"
+    },
+    {
+      "path": "hardware/amd-ryzen-5-7600x.json",
+      "status": "validated",
+      "record_type": "hardware"
+    },
+    {
+      "path": "hardware/amd-ryzen-5-9600x.json",
+      "status": "validated",
+      "record_type": "hardware"
+    },
+    {
+      "path": "hardware/amd-ryzen-7-5800x.json",
+      "status": "validated",
+      "record_type": "hardware"
+    },
+    {
+      "path": "hardware/amd-ryzen-7-5800x3d.json",
+      "status": "validated",
+      "record_type": "hardware"
+    },
+    {
+      "path": "hardware/amd-ryzen-7-7700.json",
+      "status": "validated",
+      "record_type": "hardware"
+    },
+    {
+      "path": "hardware/amd-ryzen-7-7700x.json",
+      "status": "validated",
+      "record_type": "hardware"
+    },
+    {
+      "path": "hardware/amd-ryzen-7-7800x3d.json",
+      "status": "validated",
+      "record_type": "hardware"
+    },
+    {
+      "path": "hardware/amd-ryzen-7-9700x.json",
+      "status": "validated",
+      "record_type": "hardware"
+    },
+    {
+      "path": "hardware/amd-ryzen-7-9800x3d.json",
+      "status": "validated",
+      "record_type": "hardware"
+    },
+    {
+      "path": "hardware/amd-ryzen-9-7900x.json",
+      "status": "validated",
+      "record_type": "hardware"
+    },
+    {
+      "path": "hardware/amd-ryzen-9-7950x.json",
+      "status": "validated",
+      "record_type": "hardware"
+    },
+    {
+      "path": "hardware/amd-ryzen-9-7950x3d.json",
+      "status": "validated",
+      "record_type": "hardware"
+    },
+    {
+      "path": "hardware/amd-ryzen-9-9900x.json",
+      "status": "validated",
+      "record_type": "hardware"
+    },
+    {
+      "path": "hardware/amd-ryzen-9-9950x.json",
+      "status": "validated",
+      "record_type": "hardware"
+    },
+    {
+      "path": "hardware/amd-ryzen-9-9950x3d.json",
+      "status": "validated",
+      "record_type": "hardware"
+    },
+    {
+      "path": "hardware/amd-socket-am4.json",
+      "status": "validated",
+      "record_type": "hardware"
+    },
+    {
+      "path": "hardware/amd-socket-am5.json",
+      "status": "validated",
+      "record_type": "hardware"
+    },
+    {
+      "path": "hardware/intel-arc-a380.json",
+      "status": "validated",
+      "record_type": "hardware"
+    },
+    {
+      "path": "hardware/intel-arc-a580.json",
+      "status": "validated",
+      "record_type": "hardware"
+    },
+    {
+      "path": "hardware/intel-arc-a750.json",
+      "status": "validated",
+      "record_type": "hardware"
+    },
+    {
+      "path": "hardware/intel-arc-a770-16gb.json",
+      "status": "validated",
+      "record_type": "hardware"
+    },
+    {
+      "path": "hardware/intel-arc-b570.json",
+      "status": "validated",
+      "record_type": "hardware"
+    },
+    {
+      "path": "hardware/intel-arc-b580.json",
+      "status": "validated",
+      "record_type": "hardware"
+    },
+    {
+      "path": "hardware/intel-core-i5-12400.json",
+      "status": "validated",
+      "record_type": "hardware"
+    },
+    {
+      "path": "hardware/intel-core-i5-12400f.json",
+      "status": "validated",
+      "record_type": "hardware"
+    },
+    {
+      "path": "hardware/intel-core-i5-13400.json",
+      "status": "validated",
+      "record_type": "hardware"
+    },
+    {
+      "path": "hardware/intel-core-i5-13400f.json",
+      "status": "validated",
+      "record_type": "hardware"
+    },
+    {
+      "path": "hardware/intel-core-i5-13600.json",
+      "status": "validated",
+      "record_type": "hardware"
+    },
+    {
+      "path": "hardware/intel-core-i5-13600k.json",
+      "status": "validated",
+      "record_type": "hardware"
+    },
+    {
+      "path": "hardware/intel-core-i5-13600kf.json",
+      "status": "validated",
+      "record_type": "hardware"
+    },
+    {
+      "path": "hardware/intel-core-i5-14600k.json",
+      "status": "validated",
+      "record_type": "hardware"
+    },
+    {
+      "path": "hardware/intel-core-i5-14600kf.json",
+      "status": "validated",
+      "record_type": "hardware"
+    },
+    {
+      "path": "hardware/intel-core-i7-13700.json",
+      "status": "validated",
+      "record_type": "hardware"
+    },
+    {
+      "path": "hardware/intel-core-i7-13700k.json",
+      "status": "validated",
+      "record_type": "hardware"
+    },
+    {
+      "path": "hardware/intel-core-i7-13700kf.json",
+      "status": "validated",
+      "record_type": "hardware"
+    },
+    {
+      "path": "hardware/intel-core-i7-14700k.json",
+      "status": "validated",
+      "record_type": "hardware"
+    },
+    {
+      "path": "hardware/intel-core-i7-14700kf.json",
+      "status": "validated",
+      "record_type": "hardware"
+    },
+    {
+      "path": "hardware/intel-core-i9-13900k.json",
+      "status": "validated",
+      "record_type": "hardware"
+    },
+    {
+      "path": "hardware/intel-core-i9-13900kf.json",
+      "status": "validated",
+      "record_type": "hardware"
+    },
+    {
+      "path": "hardware/intel-core-i9-14900k.json",
+      "status": "validated",
+      "record_type": "hardware"
+    },
+    {
+      "path": "hardware/intel-core-i9-14900kf.json",
+      "status": "validated",
+      "record_type": "hardware"
+    },
+    {
+      "path": "hardware/intel-core-ultra-7-265k.json",
+      "status": "validated",
+      "record_type": "hardware"
+    },
+    {
+      "path": "hardware/intel-core-ultra-7-265kf.json",
+      "status": "validated",
+      "record_type": "hardware"
+    },
+    {
+      "path": "hardware/intel-core-ultra-9-285k.json",
+      "status": "validated",
+      "record_type": "hardware"
+    },
+    {
+      "path": "hardware/intel-socket-lga1700.json",
+      "status": "validated",
+      "record_type": "hardware"
+    },
+    {
+      "path": "hardware/intel-socket-lga1851.json",
+      "status": "validated",
+      "record_type": "hardware"
+    },
+    {
+      "path": "hardware/nvidia-geforce-rtx-3080-12gb.json",
+      "status": "validated",
+      "record_type": "hardware"
+    },
+    {
+      "path": "hardware/nvidia-geforce-rtx-3080-ti.json",
+      "status": "validated",
+      "record_type": "hardware"
+    },
+    {
+      "path": "hardware/nvidia-geforce-rtx-3080.json",
+      "status": "validated",
+      "record_type": "hardware"
+    },
+    {
+      "path": "hardware/nvidia-geforce-rtx-3090-ti.json",
+      "status": "validated",
+      "record_type": "hardware"
+    },
+    {
+      "path": "hardware/nvidia-geforce-rtx-3090.json",
+      "status": "validated",
+      "record_type": "hardware"
+    },
+    {
+      "path": "hardware/nvidia-geforce-rtx-4060-ti-16gb.json",
+      "status": "validated",
+      "record_type": "hardware"
+    },
+    {
+      "path": "hardware/nvidia-geforce-rtx-4060-ti-8gb.json",
+      "status": "validated",
+      "record_type": "hardware"
+    },
+    {
+      "path": "hardware/nvidia-geforce-rtx-4060.json",
+      "status": "validated",
+      "record_type": "hardware"
+    },
+    {
+      "path": "hardware/nvidia-geforce-rtx-4070-super.json",
+      "status": "validated",
+      "record_type": "hardware"
+    },
+    {
+      "path": "hardware/nvidia-geforce-rtx-4070-ti-super.json",
+      "status": "validated",
+      "record_type": "hardware"
+    },
+    {
+      "path": "hardware/nvidia-geforce-rtx-4070-ti.json",
+      "status": "validated",
+      "record_type": "hardware"
+    },
+    {
+      "path": "hardware/nvidia-geforce-rtx-4070.json",
+      "status": "validated",
+      "record_type": "hardware"
+    },
+    {
+      "path": "hardware/nvidia-geforce-rtx-4080-super.json",
+      "status": "validated",
+      "record_type": "hardware"
+    },
+    {
+      "path": "hardware/nvidia-geforce-rtx-4080.json",
+      "status": "validated",
+      "record_type": "hardware"
+    },
+    {
+      "path": "hardware/nvidia-geforce-rtx-4090.json",
+      "status": "validated",
+      "record_type": "hardware"
+    },
+    {
+      "path": "hardware/nvidia-geforce-rtx-5070-ti.json",
+      "status": "validated",
+      "record_type": "hardware"
+    },
+    {
+      "path": "hardware/nvidia-geforce-rtx-5070.json",
+      "status": "validated",
+      "record_type": "hardware"
+    },
+    {
+      "path": "hardware/nvidia-geforce-rtx-5080.json",
+      "status": "validated",
+      "record_type": "hardware"
+    },
+    {
+      "path": "hardware/nvidia-geforce-rtx-5090.json",
+      "status": "validated",
+      "record_type": "hardware"
+    },
+    {
+      "path": "hardware/nvidia-geforce-rtx-5090d.json",
+      "status": "validated",
+      "record_type": "hardware"
+    },
+    {
+      "path": "hardware/spec-atx3-550w.json",
+      "status": "validated",
+      "record_type": "hardware"
+    },
+    {
+      "path": "hardware/spec-atx3-650w.json",
+      "status": "validated",
+      "record_type": "hardware"
+    },
+    {
+      "path": "hardware/spec-atx3-850w.json",
+      "status": "validated",
+      "record_type": "hardware"
+    },
+    {
+      "path": "hardware/spec-ddr4-3200.json",
+      "status": "validated",
+      "record_type": "hardware"
+    },
+    {
+      "path": "hardware/spec-ddr5-4800.json",
+      "status": "validated",
+      "record_type": "hardware"
+    },
+    {
+      "path": "hardware/spec-ddr5-5600.json",
+      "status": "validated",
+      "record_type": "hardware"
+    },
+    {
+      "path": "hardware/spec-ddr5-6400.json",
+      "status": "validated",
+      "record_type": "hardware"
+    },
+    {
+      "path": "hardware/spec-nvme-ssd-pcie-4-0-x4.json",
+      "status": "validated",
+      "record_type": "hardware"
+    },
+    {
+      "path": "hardware/spec-nvme-ssd-pcie-5-0-x4.json",
+      "status": "validated",
+      "record_type": "hardware"
+    },
+    {
+      "path": "hardware/spec-sata-ssd.json",
+      "status": "validated",
+      "record_type": "hardware"
+    },
+    {
+      "path": "models/deepseek-deepseek-r1-distill-qwen-14b.json",
+      "status": "validated",
+      "record_type": "model"
+    },
+    {
+      "path": "models/deepseek-deepseek-r1-distill-qwen-32b.json",
+      "status": "validated",
+      "record_type": "model"
+    },
+    {
+      "path": "models/deepseek-deepseek-r1-distill-qwen-7b.json",
+      "status": "validated",
+      "record_type": "model"
+    },
+    {
+      "path": "models/google-gemma-2-9b-it.json",
+      "status": "validated",
+      "record_type": "model"
+    },
+    {
+      "path": "models/meta-llama-3-1-8b-instruct.json",
+      "status": "validated",
+      "record_type": "model"
+    },
+    {
+      "path": "models/meta-llama-3-3-70b-instruct.json",
+      "status": "validated",
+      "record_type": "model"
+    },
+    {
+      "path": "models/microsoft-phi-4.json",
+      "status": "validated",
+      "record_type": "model"
+    },
+    {
+      "path": "models/mistral-ai-mistral-7b-instruct-v0-3.json",
+      "status": "validated",
+      "record_type": "model"
+    },
+    {
+      "path": "models/qwen-qwen2-5-1-5b-instruct.json",
+      "status": "validated",
+      "record_type": "model"
+    },
+    {
+      "path": "models/qwen-qwen2-5-14b-instruct.json",
+      "status": "validated",
+      "record_type": "model"
+    },
+    {
+      "path": "models/qwen-qwen2-5-32b-instruct.json",
+      "status": "validated",
+      "record_type": "model"
+    },
+    {
+      "path": "models/qwen-qwen2-5-3b-instruct.json",
+      "status": "validated",
+      "record_type": "model"
+    },
+    {
+      "path": "models/qwen-qwen2-5-7b-instruct.json",
+      "status": "validated",
+      "record_type": "model"
+    },
+    {
+      "path": "models/qwen-qwen2-5-vl-7b-instruct.json",
+      "status": "validated",
+      "record_type": "model"
+    },
+    {
+      "path": "organizations/amd.json",
+      "status": "validated",
+      "record_type": "organization"
+    },
+    {
+      "path": "organizations/bandai-namco.json",
+      "status": "validated",
+      "record_type": "organization"
+    },
+    {
+      "path": "organizations/bartowski.json",
+      "status": "validated",
+      "record_type": "organization"
+    },
+    {
+      "path": "organizations/bethesda.json",
+      "status": "validated",
+      "record_type": "organization"
+    },
+    {
+      "path": "organizations/blizzard.json",
+      "status": "validated",
+      "record_type": "organization"
+    },
+    {
+      "path": "organizations/cd-projekt.json",
+      "status": "validated",
+      "record_type": "organization"
+    },
+    {
+      "path": "organizations/deepseek.json",
+      "status": "validated",
+      "record_type": "organization"
+    },
+    {
+      "path": "organizations/ea.json",
+      "status": "validated",
+      "record_type": "organization"
+    },
+    {
+      "path": "organizations/epic-games.json",
+      "status": "validated",
+      "record_type": "organization"
+    },
+    {
+      "path": "organizations/google.json",
+      "status": "validated",
+      "record_type": "organization"
+    },
+    {
+      "path": "organizations/intel.json",
+      "status": "validated",
+      "record_type": "organization"
+    },
+    {
+      "path": "organizations/krafton.json",
+      "status": "validated",
+      "record_type": "organization"
+    },
+    {
+      "path": "organizations/larian.json",
+      "status": "validated",
+      "record_type": "organization"
+    },
+    {
+      "path": "organizations/lmstudio-community.json",
+      "status": "validated",
+      "record_type": "organization"
+    },
+    {
+      "path": "organizations/meta.json",
+      "status": "validated",
+      "record_type": "organization"
+    },
+    {
+      "path": "organizations/microsoft.json",
+      "status": "validated",
+      "record_type": "organization"
+    },
+    {
+      "path": "organizations/mistral-ai.json",
+      "status": "validated",
+      "record_type": "organization"
+    },
+    {
+      "path": "organizations/nvidia.json",
+      "status": "validated",
+      "record_type": "organization"
+    },
+    {
+      "path": "organizations/qwen.json",
+      "status": "validated",
+      "record_type": "organization"
+    },
+    {
+      "path": "organizations/riot-games.json",
+      "status": "validated",
+      "record_type": "organization"
+    },
+    {
+      "path": "organizations/rockstar-games.json",
+      "status": "validated",
+      "record_type": "organization"
+    },
+    {
+      "path": "organizations/unsloth.json",
+      "status": "validated",
+      "record_type": "organization"
+    },
+    {
+      "path": "organizations/valve.json",
+      "status": "validated",
+      "record_type": "organization"
+    },
+    {
+      "path": "prices/amd-radeon-rx-6600-price.json",
+      "status": "validated",
+      "record_type": "price_snapshot"
+    },
+    {
+      "path": "prices/amd-radeon-rx-6600-xt-price.json",
+      "status": "validated",
+      "record_type": "price_snapshot"
+    },
+    {
+      "path": "prices/amd-radeon-rx-6700-xt-price.json",
+      "status": "validated",
+      "record_type": "price_snapshot"
+    },
+    {
+      "path": "prices/amd-radeon-rx-6800-price.json",
+      "status": "validated",
+      "record_type": "price_snapshot"
+    },
+    {
+      "path": "prices/amd-radeon-rx-6800-xt-price.json",
+      "status": "validated",
+      "record_type": "price_snapshot"
+    },
+    {
+      "path": "prices/amd-radeon-rx-6900-xt-price.json",
+      "status": "validated",
+      "record_type": "price_snapshot"
+    },
+    {
+      "path": "prices/amd-radeon-rx-7600-price.json",
+      "status": "validated",
+      "record_type": "price_snapshot"
+    },
+    {
+      "path": "prices/amd-radeon-rx-7600-xt-price.json",
+      "status": "validated",
+      "record_type": "price_snapshot"
+    },
+    {
+      "path": "prices/amd-radeon-rx-7700-xt-price.json",
+      "status": "validated",
+      "record_type": "price_snapshot"
+    },
+    {
+      "path": "prices/amd-radeon-rx-7800-xt-price.json",
+      "status": "validated",
+      "record_type": "price_snapshot"
+    },
+    {
+      "path": "prices/amd-radeon-rx-7900-xt-price.json",
+      "status": "validated",
+      "record_type": "price_snapshot"
+    },
+    {
+      "path": "prices/amd-radeon-rx-7900-xtx-price.json",
+      "status": "validated",
+      "record_type": "price_snapshot"
+    },
+    {
+      "path": "prices/amd-radeon-rx-9060-xt-price.json",
+      "status": "validated",
+      "record_type": "price_snapshot"
+    },
+    {
+      "path": "prices/amd-radeon-rx-9070-price.json",
+      "status": "validated",
+      "record_type": "price_snapshot"
+    },
+    {
+      "path": "prices/amd-radeon-rx-9070-xt-price.json",
+      "status": "validated",
+      "record_type": "price_snapshot"
+    },
+    {
+      "path": "prices/amd-ryzen-5-5600f-price.json",
+      "status": "validated",
+      "record_type": "price_snapshot"
+    },
+    {
+      "path": "prices/amd-ryzen-5-5600t-price.json",
+      "status": "validated",
+      "record_type": "price_snapshot"
+    },
+    {
+      "path": "prices/amd-ryzen-5-5600x-price.json",
+      "status": "validated",
+      "record_type": "price_snapshot"
+    },
+    {
+      "path": "prices/amd-ryzen-5-7600-price.json",
+      "status": "validated",
+      "record_type": "price_snapshot"
+    },
+    {
+      "path": "prices/amd-ryzen-5-7600x-price.json",
+      "status": "validated",
+      "record_type": "price_snapshot"
+    },
+    {
+      "path": "prices/amd-ryzen-5-9600x-price.json",
+      "status": "validated",
+      "record_type": "price_snapshot"
+    },
+    {
+      "path": "prices/amd-ryzen-7-5800x-price.json",
+      "status": "validated",
+      "record_type": "price_snapshot"
+    },
+    {
+      "path": "prices/amd-ryzen-7-5800x3d-price.json",
+      "status": "validated",
+      "record_type": "price_snapshot"
+    },
+    {
+      "path": "prices/amd-ryzen-7-7700-price.json",
+      "status": "validated",
+      "record_type": "price_snapshot"
+    },
+    {
+      "path": "prices/amd-ryzen-7-7700x-price.json",
+      "status": "validated",
+      "record_type": "price_snapshot"
+    },
+    {
+      "path": "prices/amd-ryzen-7-7800x3d-price.json",
+      "status": "validated",
+      "record_type": "price_snapshot"
+    },
+    {
+      "path": "prices/amd-ryzen-7-9700x-price.json",
+      "status": "validated",
+      "record_type": "price_snapshot"
+    },
+    {
+      "path": "prices/amd-ryzen-7-9800x3d-price.json",
+      "status": "validated",
+      "record_type": "price_snapshot"
+    },
+    {
+      "path": "prices/amd-ryzen-9-7900x-price.json",
+      "status": "validated",
+      "record_type": "price_snapshot"
+    },
+    {
+      "path": "prices/amd-ryzen-9-7950x-price.json",
+      "status": "validated",
+      "record_type": "price_snapshot"
+    },
+    {
+      "path": "prices/amd-ryzen-9-7950x3d-price.json",
+      "status": "validated",
+      "record_type": "price_snapshot"
+    },
+    {
+      "path": "prices/amd-ryzen-9-9900x-price.json",
+      "status": "validated",
+      "record_type": "price_snapshot"
+    },
+    {
+      "path": "prices/amd-ryzen-9-9950x-price.json",
+      "status": "validated",
+      "record_type": "price_snapshot"
+    },
+    {
+      "path": "prices/amd-ryzen-9-9950x3d-price.json",
+      "status": "validated",
+      "record_type": "price_snapshot"
+    },
+    {
+      "path": "prices/intel-arc-a380-price.json",
+      "status": "validated",
+      "record_type": "price_snapshot"
+    },
+    {
+      "path": "prices/intel-arc-a580-price.json",
+      "status": "validated",
+      "record_type": "price_snapshot"
+    },
+    {
+      "path": "prices/intel-arc-a750-price.json",
+      "status": "validated",
+      "record_type": "price_snapshot"
+    },
+    {
+      "path": "prices/intel-arc-a770-16gb-price.json",
+      "status": "validated",
+      "record_type": "price_snapshot"
+    },
+    {
+      "path": "prices/intel-arc-b570-price.json",
+      "status": "validated",
+      "record_type": "price_snapshot"
+    },
+    {
+      "path": "prices/intel-arc-b580-price.json",
+      "status": "validated",
+      "record_type": "price_snapshot"
+    },
+    {
+      "path": "prices/intel-core-i5-12400-price.json",
+      "status": "validated",
+      "record_type": "price_snapshot"
+    },
+    {
+      "path": "prices/intel-core-i5-12400f-price.json",
+      "status": "validated",
+      "record_type": "price_snapshot"
+    },
+    {
+      "path": "prices/intel-core-i5-13400-price.json",
+      "status": "validated",
+      "record_type": "price_snapshot"
+    },
+    {
+      "path": "prices/intel-core-i5-13400f-price.json",
+      "status": "validated",
+      "record_type": "price_snapshot"
+    },
+    {
+      "path": "prices/intel-core-i5-13600-price.json",
+      "status": "validated",
+      "record_type": "price_snapshot"
+    },
+    {
+      "path": "prices/intel-core-i5-13600k-price.json",
+      "status": "validated",
+      "record_type": "price_snapshot"
+    },
+    {
+      "path": "prices/intel-core-i5-13600kf-price.json",
+      "status": "validated",
+      "record_type": "price_snapshot"
+    },
+    {
+      "path": "prices/intel-core-i5-14600k-price.json",
+      "status": "validated",
+      "record_type": "price_snapshot"
+    },
+    {
+      "path": "prices/intel-core-i5-14600kf-price.json",
+      "status": "validated",
+      "record_type": "price_snapshot"
+    },
+    {
+      "path": "prices/intel-core-i7-13700-price.json",
+      "status": "validated",
+      "record_type": "price_snapshot"
+    },
+    {
+      "path": "prices/intel-core-i7-13700k-price.json",
+      "status": "validated",
+      "record_type": "price_snapshot"
+    },
+    {
+      "path": "prices/intel-core-i7-13700kf-price.json",
+      "status": "validated",
+      "record_type": "price_snapshot"
+    },
+    {
+      "path": "prices/intel-core-i7-14700k-price.json",
+      "status": "validated",
+      "record_type": "price_snapshot"
+    },
+    {
+      "path": "prices/intel-core-i7-14700kf-price.json",
+      "status": "validated",
+      "record_type": "price_snapshot"
+    },
+    {
+      "path": "prices/intel-core-i9-13900k-price.json",
+      "status": "validated",
+      "record_type": "price_snapshot"
+    },
+    {
+      "path": "prices/intel-core-i9-13900kf-price.json",
+      "status": "validated",
+      "record_type": "price_snapshot"
+    },
+    {
+      "path": "prices/intel-core-i9-14900k-price.json",
+      "status": "validated",
+      "record_type": "price_snapshot"
+    },
+    {
+      "path": "prices/intel-core-i9-14900kf-price.json",
+      "status": "validated",
+      "record_type": "price_snapshot"
+    },
+    {
+      "path": "prices/intel-core-ultra-7-265k-price.json",
+      "status": "validated",
+      "record_type": "price_snapshot"
+    },
+    {
+      "path": "prices/intel-core-ultra-7-265kf-price.json",
+      "status": "validated",
+      "record_type": "price_snapshot"
+    },
+    {
+      "path": "prices/intel-core-ultra-9-285k-price.json",
+      "status": "validated",
+      "record_type": "price_snapshot"
+    },
+    {
+      "path": "prices/nvidia-geforce-rtx-3080-12gb-price.json",
+      "status": "validated",
+      "record_type": "price_snapshot"
+    },
+    {
+      "path": "prices/nvidia-geforce-rtx-3080-price.json",
+      "status": "validated",
+      "record_type": "price_snapshot"
+    },
+    {
+      "path": "prices/nvidia-geforce-rtx-3080-ti-price.json",
+      "status": "validated",
+      "record_type": "price_snapshot"
+    },
+    {
+      "path": "prices/nvidia-geforce-rtx-3090-price.json",
+      "status": "validated",
+      "record_type": "price_snapshot"
+    },
+    {
+      "path": "prices/nvidia-geforce-rtx-3090-ti-price.json",
+      "status": "validated",
+      "record_type": "price_snapshot"
+    },
+    {
+      "path": "prices/nvidia-geforce-rtx-4060-price.json",
+      "status": "validated",
+      "record_type": "price_snapshot"
+    },
+    {
+      "path": "prices/nvidia-geforce-rtx-4060-ti-16gb-price.json",
+      "status": "validated",
+      "record_type": "price_snapshot"
+    },
+    {
+      "path": "prices/nvidia-geforce-rtx-4060-ti-8gb-price.json",
+      "status": "validated",
+      "record_type": "price_snapshot"
+    },
+    {
+      "path": "prices/nvidia-geforce-rtx-4070-price.json",
+      "status": "validated",
+      "record_type": "price_snapshot"
+    },
+    {
+      "path": "prices/nvidia-geforce-rtx-4070-super-price.json",
+      "status": "validated",
+      "record_type": "price_snapshot"
+    },
+    {
+      "path": "prices/nvidia-geforce-rtx-4070-ti-price.json",
+      "status": "validated",
+      "record_type": "price_snapshot"
+    },
+    {
+      "path": "prices/nvidia-geforce-rtx-4070-ti-super-price.json",
+      "status": "validated",
+      "record_type": "price_snapshot"
+    },
+    {
+      "path": "prices/nvidia-geforce-rtx-4080-price.json",
+      "status": "validated",
+      "record_type": "price_snapshot"
+    },
+    {
+      "path": "prices/nvidia-geforce-rtx-4080-super-price.json",
+      "status": "validated",
+      "record_type": "price_snapshot"
+    },
+    {
+      "path": "prices/nvidia-geforce-rtx-4090-price.json",
+      "status": "validated",
+      "record_type": "price_snapshot"
+    },
+    {
+      "path": "prices/nvidia-geforce-rtx-5070-price.json",
+      "status": "validated",
+      "record_type": "price_snapshot"
+    },
+    {
+      "path": "prices/nvidia-geforce-rtx-5070-ti-price.json",
+      "status": "validated",
+      "record_type": "price_snapshot"
+    },
+    {
+      "path": "prices/nvidia-geforce-rtx-5090-price.json",
+      "status": "validated",
+      "record_type": "price_snapshot"
+    },
+    {
+      "path": "prices/nvidia-geforce-rtx-5090d-price.json",
+      "status": "validated",
+      "record_type": "price_snapshot"
+    },
+    {
+      "path": "sources/0001.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "sources/0002.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "sources/0003.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "sources/0004.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "sources/0005.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "sources/0006.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "sources/0007.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "sources/0008.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "sources/0009.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "sources/0010.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "sources/0011.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "sources/0012.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "sources/0013.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "sources/0014.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "sources/0015.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "sources/0016.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "sources/0017.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "sources/0018.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "sources/0019.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "sources/0020.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "sources/0021.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "sources/0022.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "sources/0023.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "sources/0024.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "sources/0025.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "sources/0026.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "sources/0027.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "sources/0028.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "sources/0029.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "sources/0030.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "sources/0031.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "sources/0032.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "sources/0033.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "sources/0034.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "sources/0035.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "sources/0036.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "sources/0037.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "sources/0038.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "sources/0039.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "sources/0040.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "sources/0041.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "sources/0042.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "sources/0043.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "sources/0044.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "sources/0045.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "sources/0046.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "sources/0047.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "sources/0048.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "sources/0049.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "sources/0050.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "sources/0051.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "sources/0052.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "sources/0053.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "sources/0054.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "sources/0055.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "sources/0056.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "sources/0057.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "sources/0058.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "sources/0059.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "sources/0060.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "sources/0061.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "sources/0062.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "sources/0063.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "sources/0064.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "sources/0065.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "sources/0066.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "sources/0067.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "sources/0068.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "sources/0069.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "sources/0070.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "sources/0071.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "sources/0072.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "sources/0073.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "sources/0074.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "sources/0075.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "sources/0076.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "sources/0077.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "sources/0078.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "sources/0079.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "sources/0080.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "sources/0081.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "sources/0082.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "sources/0083.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "sources/0084.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "sources/0085.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "sources/0086.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "sources/0087.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "sources/0088.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "sources/0089.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "sources/0090.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "sources/0091.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "sources/0092.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "sources/0093.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "sources/0094.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "sources/0095.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "sources/0096.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "sources/0097.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "sources/0098.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "sources/0099.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "sources/0100.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "sources/0101.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "sources/0102.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "sources/0103.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "sources/0104.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "sources/0105.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "sources/0106.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "sources/0107.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "sources/0108.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "sources/0109.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "sources/0110.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "sources/source-gpuxianka-rtx-5090d-index.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "sources/source-jd-core-i5-12400-10223181888200.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "sources/source-jd-core-i5-12400f-10166159185330.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "sources/source-jd-core-i5-13400-10115164570550.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "sources/source-jd-core-i5-13400f-10161101178815.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "sources/source-jd-core-i5-13600-10078882241358.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "sources/source-jd-core-i5-13600k-10166165397750.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "sources/source-jd-core-i5-13600kf-10166165397751.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "sources/source-jd-core-i5-14600k-10087603489123.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "sources/source-jd-core-i5-14600kf-10087603489124.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "sources/source-jd-core-i7-13700-10092138267064.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "sources/source-jd-core-i7-13700k-100040185489.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "sources/source-jd-core-i7-13700kf-10223181888261.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "sources/source-jd-core-i7-14700k-10087603489125.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "sources/source-jd-core-i7-14700kf-10087603489126.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "sources/source-jd-core-i9-13900k-10115164570558.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "sources/source-jd-core-i9-13900kf-10120941369251.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "sources/source-jd-core-i9-14900k-10213585841872.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "sources/source-jd-core-i9-14900kf-10141760708477.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "sources/source-jd-core-ultra-7-265k-100120799071.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "sources/source-jd-core-ultra-7-265kf-100120799085.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "sources/source-jd-core-ultra-9-285k-100145512952.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "sources/source-jd-geforce-rtx-3080-10150847424536.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "sources/source-jd-geforce-rtx-3080-12gb-10100584480075.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "sources/source-jd-geforce-rtx-3080-ti-10227212321266.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "sources/source-jd-geforce-rtx-3090-10143406753582.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "sources/source-jd-geforce-rtx-3090-ti-10143406753592.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "sources/source-jd-geforce-rtx-4060-10166834608980.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "sources/source-jd-geforce-rtx-4060-ti-16gb-10194428793230.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "sources/source-jd-geforce-rtx-4060-ti-8gb-10212672769446.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "sources/source-jd-geforce-rtx-4070-10166834608982.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "sources/source-jd-geforce-rtx-4070-super-100373693346.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "sources/source-jd-geforce-rtx-4070-ti-10232015118416.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "sources/source-jd-geforce-rtx-4070-ti-super-10158758460326.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "sources/source-jd-geforce-rtx-4080-10232007385908.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "sources/source-jd-geforce-rtx-4080-super-10168545650431.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "sources/source-jd-geforce-rtx-4090-10202342064286.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "sources/source-jd-geforce-rtx-5070-100293009528.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "sources/source-jd-geforce-rtx-5070-ti-100188447084.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "sources/source-jd-geforce-rtx-5090-10212691978527.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "sources/source-jd-geforce-rtx-5090d-100200850043.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "sources/source-jd-intel-arc-a380-100123396963.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "sources/source-jd-intel-arc-a580-100070840263.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "sources/source-jd-intel-arc-a750-10223564546996.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "sources/source-jd-intel-arc-a770-16gb-100049871423.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "sources/source-jd-intel-arc-b570-10193688417972.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "sources/source-jd-intel-arc-b580-100166655976.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "sources/source-jd-radeon-rx-6600-10229497347934.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "sources/source-jd-radeon-rx-6600-xt-10229497347935.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "sources/source-jd-radeon-rx-6700-xt-10161539635802.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "sources/source-jd-radeon-rx-6800-10233607472486.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "sources/source-jd-radeon-rx-6800-xt-100321682876.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "sources/source-jd-radeon-rx-6900-xt-10111193502747.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "sources/source-jd-radeon-rx-7600-10233230021106.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "sources/source-jd-radeon-rx-7600-xt-10233102401048.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "sources/source-jd-radeon-rx-7700-xt-10155573120328.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "sources/source-jd-radeon-rx-7800-xt-10229477836673.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "sources/source-jd-radeon-rx-7900-xt-10233443358451.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "sources/source-jd-radeon-rx-7900-xtx-10079430463027.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "sources/source-jd-radeon-rx-9060-xt-100217735992.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "sources/source-jd-radeon-rx-9070-100152380935.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "sources/source-jd-radeon-rx-9070-xt-100193357148.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "sources/source-jd-ryzen-5-5600f-100035814972.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "sources/source-jd-ryzen-5-5600t-100085063817.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "sources/source-jd-ryzen-5-5600x-10222303490790.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "sources/source-jd-ryzen-5-7600-100051589597.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "sources/source-jd-ryzen-5-7600x-10061637321328.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "sources/source-jd-ryzen-5-9600x-100110580225.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "sources/source-jd-ryzen-7-5800x-10232004367133.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "sources/source-jd-ryzen-7-5800x3d-100285871853.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "sources/source-jd-ryzen-7-7700-10166863909098.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "sources/source-jd-ryzen-7-7700x-10218676242559.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "sources/source-jd-ryzen-7-7800x3d-100046394400.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "sources/source-jd-ryzen-7-9700x-100109234839.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "sources/source-jd-ryzen-7-9800x3d-100147630258.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "sources/source-jd-ryzen-9-7900x-10218676242575.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "sources/source-jd-ryzen-9-7950x-10166863909062.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "sources/source-jd-ryzen-9-7950x3d-100053675655.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "sources/source-jd-ryzen-9-9900x-10140500539425.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "sources/source-jd-ryzen-9-9950x-100110580223.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "sources/source-jd-ryzen-9-9950x3d-100149071725.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "workloads/bandai-namco-elden-ring.json",
+      "status": "validated",
+      "record_type": "workload"
+    },
+    {
+      "path": "workloads/bethesda-starfield.json",
+      "status": "validated",
+      "record_type": "workload"
+    },
+    {
+      "path": "workloads/blizzard-overwatch-2.json",
+      "status": "validated",
+      "record_type": "workload"
+    },
+    {
+      "path": "workloads/cd-projekt-cyberpunk-2077.json",
+      "status": "validated",
+      "record_type": "workload"
+    },
+    {
+      "path": "workloads/ea-apex-legends.json",
+      "status": "validated",
+      "record_type": "workload"
+    },
+    {
+      "path": "workloads/epic-games-fortnite.json",
+      "status": "validated",
+      "record_type": "workload"
+    },
+    {
+      "path": "workloads/krafton-pubg-battlegrounds.json",
+      "status": "validated",
+      "record_type": "workload"
+    },
+    {
+      "path": "workloads/larian-baldurs-gate-3.json",
+      "status": "validated",
+      "record_type": "workload"
+    },
+    {
+      "path": "workloads/riot-games-league-of-legends.json",
+      "status": "validated",
+      "record_type": "workload"
+    },
+    {
+      "path": "workloads/riot-games-valorant.json",
+      "status": "validated",
+      "record_type": "workload"
+    },
+    {
+      "path": "workloads/rockstar-games-gta-v.json",
+      "status": "validated",
+      "record_type": "workload"
+    },
+    {
+      "path": "workloads/valve-counter-strike-2.json",
+      "status": "validated",
+      "record_type": "workload"
+    },
+    {
+      "path": "workloads/valve-dota-2.json",
+      "status": "validated",
+      "record_type": "workload"
+    }
+  ],
+  "errors": []
+}

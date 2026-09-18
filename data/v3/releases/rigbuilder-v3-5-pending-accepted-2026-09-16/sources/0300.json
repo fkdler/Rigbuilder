@@ -1,0 +1,25 @@
+{
+  "schema_version": "3.2",
+  "record_type": "source_document",
+  "status": "accepted",
+  "payload": {
+    "source_key": "src:org:deepseek",
+    "title": "DeepSeek 官方站点",
+    "url": "https://huggingface.co/deepseek-ai",
+    "publisher_key": "org:deepseek",
+    "source_type": "official_page",
+    "source_tier": "B",
+    "published_at": null,
+    "market_region": null,
+    "language": null,
+    "availability_status": "accessible",
+    "archive_url": null,
+    "accessed_at": "2026-09-14T11:58:58+00:00",
+    "content_hash": "6128fa748dd6455666d35e8f04278decd505fe8eab44bf9e232fec55403a6bd7"
+  },
+  "review_notes": [
+    "evidence 补全批（2026-09-07）：pending，待抓取核验。",
+    "2026-09-14 经镜像抓取：https://hf-mirror.com/deepseek-ai（来源登记 URL 保持原样 https://huggingface.co/deepseek-ai）。",
+    "Approved in bulk on 2026-09-16 at the user's explicit request; no per-record human review."
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "schema_version": "3.2",
+  "record_type": "source_document",
+  "status": "accepted",
+  "payload": {
+    "source_key": "source:hf-api-review-20260915:stabilityai/stable-diffusion-3.5-large",
+    "title": "stabilityai/stable-diffusion-3.5-large official repository metadata",
+    "url": "https://huggingface.co/api/models/stabilityai/stable-diffusion-3.5-large",
+    "source_type": "model_card",
+    "source_tier": "A",
+    "accessed_at": "2026-09-15T11:32:46.550189+00:00",
+    "content_hash": "c9f455be72b61a481d98750aa6c0baf8e1a1202847499e9530b399076e543c05",
+    "availability_status": "accessible"
+  },
+  "review_notes": [
+    "本次实际读取官方仓库公开 API 元数据；hash 对应保存的原始响应。不是下载权重或实测。"
+  ]
+}

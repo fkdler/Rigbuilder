@@ -1,0 +1,24 @@
+{
+  "schema_version": "3.2",
+  "record_type": "source_document",
+  "status": "accepted",
+  "payload": {
+    "source_key": "source:jd:core-i7-13700kf-10223181888261",
+    "title": "酷睿i7-13700KF全新正品三年质保公司采购发票|全新三年质保|无核显可独显新店促销秒杀公司采购发票|全新三年质保|无核显可独显",
+    "url": "https://item.jd.com/10223181888261.html",
+    "source_type": "retailer",
+    "source_tier": "C",
+    "publisher_key": null,
+    "published_at": null,
+    "market_region": "CN",
+    "language": "zh-CN",
+    "availability_status": "accessible",
+    "archive_url": null,
+    "accessed_at": "2026-09-07T07:12:01+00:00",
+    "content_hash": "def20092db386f86c88ad26fb8fa90086a8a0851e91d16de276462e549877efe"
+  },
+  "review_notes": [
+    "京东标价 SKU 10223181888261；店铺：店铺未返回。",
+    "Approved in bulk on 2026-09-16 at the user's explicit request; no per-record human review."
+  ]
+}

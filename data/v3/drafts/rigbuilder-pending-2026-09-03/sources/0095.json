@@ -1,0 +1,23 @@
+{
+  "schema_version": "3.2",
+  "record_type": "source_document",
+  "status": "pending",
+  "payload": {
+    "source_key": "source:unsloth-r1-distill-qwen-14b-gguf",
+    "title": "unsloth/DeepSeek-R1-Distill-Qwen-14B-GGUF (Hugging Face)",
+    "url": "https://huggingface.co/unsloth/DeepSeek-R1-Distill-Qwen-14B-GGUF",
+    "source_type": "community",
+    "source_tier": "D",
+    "publisher_key": "org:unsloth",
+    "published_at": null,
+    "accessed_at": "2026-09-07T07:10:35+00:00",
+    "content_hash": "e3bf953fb56c9c5458944ffb34f55227429749c3e9e9c639cddf4c24916bb734",
+    "archive_url": null,
+    "market_region": null,
+    "language": null,
+    "availability_status": "accessible"
+  },
+  "review_notes": [
+    "accessed_at 为占位时间，须由实际访问页面的调查员替换为真实访问时间。"
+  ]
+}

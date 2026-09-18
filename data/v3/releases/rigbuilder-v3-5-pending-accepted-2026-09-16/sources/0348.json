@@ -1,0 +1,25 @@
+{
+  "schema_version": "3.2",
+  "record_type": "source_document",
+  "status": "accepted",
+  "payload": {
+    "source_key": "src:gguf:internlm-internlm3-8b-instruct-gguf",
+    "title": "internlm/internlm3-8b-instruct-gguf (Hugging Face)",
+    "url": "https://huggingface.co/internlm/internlm3-8b-instruct-gguf",
+    "publisher_key": "org:internlm",
+    "source_type": "official_page",
+    "source_tier": "A",
+    "published_at": null,
+    "market_region": null,
+    "language": null,
+    "availability_status": "accessible",
+    "archive_url": null,
+    "accessed_at": "2026-09-15T11:30:30+00:00",
+    "content_hash": "7a25fdb7470291b1bf4952bba771d7cedb790f4f9d91444a5168104841333ccb"
+  },
+  "review_notes": [
+    "2026-09-14 修正：原登记 unsloth/internlm3-8b-instruct-GGUF 不存在（404/401），改用 InternLM 官方 GGUF 仓。",
+    "2026-09-15 经镜像抓取：https://hf-mirror.com/internlm/internlm3-8b-instruct-gguf（来源登记 URL 保持原样 https://huggingface.co/internlm/internlm3-8b-instruct-gguf）。",
+    "Approved in bulk on 2026-09-16 at the user's explicit request; no per-record human review."
+  ]
+}

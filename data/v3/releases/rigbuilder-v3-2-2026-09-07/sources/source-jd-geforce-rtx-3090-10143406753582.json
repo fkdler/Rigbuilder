@@ -1,0 +1,23 @@
+{
+  "schema_version": "3.2",
+  "record_type": "source_document",
+  "status": "accepted",
+  "payload": {
+    "source_key": "source:jd:geforce-rtx-3090-10143406753582",
+    "title": "GeForce RTX 3090 京东商品 10143406753582",
+    "url": "https://item.jd.com/10143406753582.html",
+    "source_type": "retailer",
+    "source_tier": "C",
+    "publisher_key": null,
+    "published_at": null,
+    "market_region": "CN",
+    "language": "zh-CN",
+    "availability_status": "accessible",
+    "archive_url": null,
+    "accessed_at": "2026-09-07T07:35:22+08:00",
+    "content_hash": null
+  },
+  "review_notes": [
+    "用户提供渠道价：华硕猛禽  京东 SKU 10143406753582"
+  ]
+}

@@ -1,0 +1,3645 @@
+{
+  "schema_version": "3.2",
+  "release_key": "rigbuilder-v3-9-performance-rankings-2026-09-16",
+  "created_at": "2026-09-16T04:44:50.128762Z",
+  "description": "Relative performance rankings and source-name aliases: PassMark per-model CPU pages (161 CPUs, Intel and AMD) and the GPU list page (83 GPUs), each with the publisher's rank and the population it was taken from; no Evidence is claimed for these aggregator values",
+  "git_commit": null,
+  "files": [
+    {
+      "path": "aliases/hw-amd-radeon-rx-6400-desktop-global__source.json",
+      "sha256": "66d7fdad1e8aafe0a73c1aca0af8e3b3c04346087784146698f4e9f709d17159",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-amd-radeon-rx-6500-xt-desktop-global__source.json",
+      "sha256": "9932918c48b98730dd9d15b9fbb7653a4e5191b050135efb92b86dc997f0975c",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-amd-radeon-rx-6600-desktop-global__source.json",
+      "sha256": "15ab60900b23cd6fd8e56d68510a1e9210b745d95aff353021a6112828f2f8db",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-amd-radeon-rx-6600-xt-desktop-global__source.json",
+      "sha256": "14725fac53999ce187e74fed1d1e36bec26e7ffa396cb392cba97ba9142ec9d8",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-amd-radeon-rx-6650-xt-desktop-global__source.json",
+      "sha256": "617832725a85398b73eca1d7d1db9b23c992fb3c39119bcd6f14b7b93642f88e",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-amd-radeon-rx-6700-desktop-global__source.json",
+      "sha256": "ada0b388ffd01ba2748c8af199ee69e3babb743e9d0170211db9e0941419f68c",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-amd-radeon-rx-6700-xt-desktop-global__source.json",
+      "sha256": "da55f4742193bcd138f8777ee2949c6cfc7d2f3528431ddf914bd3e1b020080e",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-amd-radeon-rx-6750-xt-desktop-global__source.json",
+      "sha256": "8e260adb21d8226f8c6c94e63ecd71bb875b16e3dd70befe611525b1a11d330c",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-amd-radeon-rx-6800-desktop-global__source.json",
+      "sha256": "1ead4c9878df461df0844ceba7ee5be9bbf46c58d1281fd7e998f4478b326a75",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-amd-radeon-rx-6800-xt-desktop-global__source.json",
+      "sha256": "90d3e31b40f75fb1d2cffe20f02531ed5230c6a849863ca60867ab98ed02d07e",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-amd-radeon-rx-6900-xt-desktop-global__source.json",
+      "sha256": "96ef339d75a0270c2a8826a4013f202b0851b46cc9ba3e96025882b782479fa3",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-amd-radeon-rx-6950-xt-desktop-global__source.json",
+      "sha256": "fd7b453ac65fb4dd1eb951d5ff1d7d6099d8c2b36db5205886ed97fbcf57131b",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-amd-radeon-rx-7600-desktop-global__source.json",
+      "sha256": "ca129a403d621bcb4803b2377a15be6b2d64a233e097169721dc10e4a9876cea",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-amd-radeon-rx-7600-xt-desktop-global__source.json",
+      "sha256": "02a67bf10708d78b0656f646fd85903514e4c613094ca2c356180021b218bc7c",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-amd-radeon-rx-7600m-xt-laptop-global__source.json",
+      "sha256": "5674aa33c4c69ab34d3feca3236b5798f72b6519574481f5cadbdbddd227f9d6",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-amd-radeon-rx-7700-xt-desktop-global__source.json",
+      "sha256": "a4fb31b9537d8136e92f39cdf12ce707beacfe583bc21b5d42ad2ed46b352156",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-amd-radeon-rx-7800-xt-desktop-global__source.json",
+      "sha256": "a5a771ec350c215aa2117d274707d8e706f16cb199eb639c15f5b5056375fdb3",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-amd-radeon-rx-7900-gre-desktop-global__source.json",
+      "sha256": "752bfaeedf508bc31c7ddcb3f801f17608cf42a23603bb55014903c70c49fc62",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-amd-radeon-rx-7900-xt-desktop-global__source.json",
+      "sha256": "3d426b888a95af427274ed945599a42d7c3715b9b380cd5423ea624ef4dd3b54",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-amd-radeon-rx-7900-xtx-desktop-global__source.json",
+      "sha256": "989f1b58746b018d503432345db4e6d9b53d7d10043078d4cbb79fa61cdcbbfd",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-amd-radeon-rx-7900m-laptop-global__source.json",
+      "sha256": "17626d4dd10e36766ba2279093e2401540f13380daabde2e4139b852fbeeb1ed",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-amd-radeon-rx-9060-xt-8gb-desktop-global__source.json",
+      "sha256": "0b3749b4d41a77a416f507c8ef7c67099e658989ee5aad258f3937a2db6b7e9b",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-amd-radeon-rx-9070-desktop-global__source.json",
+      "sha256": "873b2265365748b975b27608ab5237f2369aa92e58e43191c0cd8c9ce56950bf",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-amd-radeon-rx-9070-gre-desktop-global__source.json",
+      "sha256": "8e98718807e49355e859060b11522d72ed4a6ec1d336408c782948f0220d9f9a",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-amd-radeon-rx-9070-xt-desktop-global__source.json",
+      "sha256": "d1fd142086473adc67b8d1ebec82b03d1a236acdc53fbb3be7c698807aa05571",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-amd-ryzen-3-8300g-desktop-global__source.json",
+      "sha256": "9c6d62c57ac1ecaa9cacc8231f8d223efa950a84c2b9e60938d6812174b6b161",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-amd-ryzen-5-5500-desktop-global__source.json",
+      "sha256": "410b88627aed35820626c3671cefb2405fb078387587a020defc74a550545c3f",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-amd-ryzen-5-5500gt-desktop-global__source.json",
+      "sha256": "d8b85526b134bcb677570d1e2887b63f2b33ec97170d2fad872dd7d4c2d6889f",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-amd-ryzen-5-5500x3d-desktop-global__source.json",
+      "sha256": "3b09553fd3c484df0f50c91d5c3252d843fc40c091f8651c8ed22e562e8ec656",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-amd-ryzen-5-5600-desktop-global__source.json",
+      "sha256": "cd0f518a373f55071a4fcb79b7c7e5425657b7f361fa7199edf37421df7430ef",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-amd-ryzen-5-5600f-desktop-global__source.json",
+      "sha256": "e090e98ad13342952a67baa49f97766cf2f3e877c44101e5849b543c699134ea",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-amd-ryzen-5-5600g-desktop-global__source.json",
+      "sha256": "b7b40f37e7d5aae50ac7e1a8716d55a928e0c8c6a5d4172ad353c9e9ee12e04e",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-amd-ryzen-5-5600gt-desktop-global__source.json",
+      "sha256": "283464aab58c3c24a765df32eb64310b08de92322d0b6cb879bf36e272821e9f",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-amd-ryzen-5-5600t-desktop-global__source.json",
+      "sha256": "522b219499949c3be9d5f358852cf90d12cc64c865a943b420e3e03669afe1de",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-amd-ryzen-5-5600x-desktop-global__source.json",
+      "sha256": "ae4f58c3fef2d93b48b4eaef08a0bee3cc97ce72b01bb7f70a5375031ca197d8",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-amd-ryzen-5-5600x3d-desktop-global__source.json",
+      "sha256": "bb11595a39ea851fc6279870372a520210712d6cf10afd55a56c8343c9d604ae",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-amd-ryzen-5-7500f-desktop-global__source.json",
+      "sha256": "2e903b1af977886bdae3f469a65c0f147fb8d19531b7541044c75331c85c5f11",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-amd-ryzen-5-7500x3d-desktop-global__source.json",
+      "sha256": "b27174bcdb4d3023ef78b92d28beaa26894e0711b3aaa300771c29d054ba78f2",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-amd-ryzen-5-7600-desktop-global__source.json",
+      "sha256": "4fc5fc2ee37e95df9f9284a60ca26322b397a7547540f76c1d5e50132a22a414",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-amd-ryzen-5-7600x-desktop-global__source.json",
+      "sha256": "7a120a160c153a0af9d3ee21faed1f866ca9fc4a87a38942e540512159f93e70",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-amd-ryzen-5-7600x3d-desktop-global__source.json",
+      "sha256": "95a7a8e9a26a4c2cb765abf2625fc970ba29b6d1e8d80f6db68ade11183da227",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-amd-ryzen-5-7640hs-laptop-global__source.json",
+      "sha256": "1597a054bf7396d2ea65d3e7080344d2c7d078cc68d14ddce5dd898e1f140bb6",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-amd-ryzen-5-8400f-desktop-global__source.json",
+      "sha256": "0662c6f7896b65e007c05b0ac7ef474d98af87dc6da47864bec4279edd82b688",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-amd-ryzen-5-8500g-desktop-global__source.json",
+      "sha256": "59039b4cc73e5c470e0b00a3ca7fd2c449a19f8a5593e16f5db0f4e586ab23c3",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-amd-ryzen-5-8600g-desktop-global__source.json",
+      "sha256": "01de17abaa2be12f84b939bc5561775b891c4ea6501da15d5ee6d8ad182324fc",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-amd-ryzen-5-8640hs-laptop-global__source.json",
+      "sha256": "dca6952a36a716593cb2e74626e5aaf24b022939cf3529afd553ad868265e145",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-amd-ryzen-5-8645hs-laptop-global__source.json",
+      "sha256": "f95c215e70265d215d9d3446b849106151420f52c7562f3750e363bf8cfd259c",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-amd-ryzen-5-9600-desktop-global__source.json",
+      "sha256": "ad97f128d83430960571ad023f542b8da3274b8f6713b750f7a062818e64c25d",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-amd-ryzen-5-9600x-desktop-global__source.json",
+      "sha256": "1c5b804f883fede8e7bd76034f8ccbf219acf97fe8e98494564b56cd81125463",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-amd-ryzen-7-5700-desktop-global__source.json",
+      "sha256": "b032348bda95842e2720c6f702bd2b688b7d44bd33addae9559d82ef4f0fcbc5",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-amd-ryzen-7-5700g-desktop-global__source.json",
+      "sha256": "d428d18f4fe4404d689294cb6fef361e6e4fa20aba1a371dfad128668befd1e4",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-amd-ryzen-7-5700x-desktop-global__source.json",
+      "sha256": "1f002267ae260edd13f508bb8147152218f169e52a453675ba089fd415eca5c7",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-amd-ryzen-7-5700x3d-desktop-global__source.json",
+      "sha256": "30ed47977a25c25dc1edd71ccf17efd159a37a1f0073663dd6d4170d846d94ba",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-amd-ryzen-7-5800x-desktop-global__source.json",
+      "sha256": "f3738bbd641e0278ca09f97e730f96ff6338a981d4e11acf39060ababb402db9",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-amd-ryzen-7-5800x3d-desktop-global__source.json",
+      "sha256": "8c9fba42a44ec6db1b94e3979564ef70d3112637299e0d5ff53ba21f7aa3714b",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-amd-ryzen-7-7700-desktop-global__source.json",
+      "sha256": "76e4ce54ea4266380de3209f71acee7c9de76c79c4cfcc7da5bc64e0fb1f82e2",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-amd-ryzen-7-7700x-desktop-global__source.json",
+      "sha256": "04b119b03bd5877f4bd9adac2e6884b96f68d3fc7d7b804fcff9bd2ffbbf7a96",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-amd-ryzen-7-7800x3d-desktop-global__source.json",
+      "sha256": "61224dbd535022c25fd24bc8f7be197a74a1721a0b8c3cdd84cf0001d9317ca8",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-amd-ryzen-7-7840hs-laptop-global__source.json",
+      "sha256": "e6e9fe9f42c6934527c7a9be02a980ce301bd77aaf1276f5a1a5607ca449ea03",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-amd-ryzen-7-8700f-desktop-global__source.json",
+      "sha256": "fa62d5f5695be1dbf5c757546cbe71cda486593c9ee99e232c52fdef993188d4",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-amd-ryzen-7-8700g-desktop-global__source.json",
+      "sha256": "e6ceac264fad96ab6e678fd0ee28232f8ad5d3fd314d1e161e4285ca4dc19d32",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-amd-ryzen-7-8840hs-laptop-global__source.json",
+      "sha256": "2dac8b1433c431b96cd3b56226caa39ec3953b9f1bea46faf5f67f8c921e9aa4",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-amd-ryzen-7-8845hs-laptop-global__source.json",
+      "sha256": "a676dcd631c66a3e40b0ccd48eb371fab86524899c4036448bda15ab12e2e2a7",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-amd-ryzen-7-9700x-desktop-global__source.json",
+      "sha256": "70ddbeaa1319b8670ce7f498e5b5c687ab58c949c7f5e34e73d841c2954320d6",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-amd-ryzen-7-9800x3d-desktop-global__source.json",
+      "sha256": "6ed4a58081f1571fabcc3e629a0d784905063462fa1a61b6a7f00b5b04a24d98",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-amd-ryzen-9-5900x-desktop-global__source.json",
+      "sha256": "531059feb96f4cb499c36775e8302731418415f2c8c7551d0f53d5d5d52d3893",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-amd-ryzen-9-5950x-desktop-global__source.json",
+      "sha256": "5d2e260fc45d4df1baac5373c4365a01674cc594dd22bfe025b35a26429a83dc",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-amd-ryzen-9-7900-desktop-global__source.json",
+      "sha256": "ef8cdc81e59b26cac0f3af5d57d4ea05e7c9013f5d8596d3727e2403f329ff14",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-amd-ryzen-9-7900x-desktop-global__source.json",
+      "sha256": "e37274c5224d15fc38a82b1f612f6681fd88a79930a3157f4169338118c6ff71",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-amd-ryzen-9-7900x3d-desktop-global__source.json",
+      "sha256": "5cac318bb3215289b389dc200c11e0b03ef4f11d4156b3f677881eef0712e319",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-amd-ryzen-9-7940hs-laptop-global__source.json",
+      "sha256": "d59532d3a8e8ac84aa3ec7859e12aea5fdfdbd19f473e49003d828218dd2425c",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-amd-ryzen-9-7945hx-laptop-global__source.json",
+      "sha256": "a89f46ddd75e140a3aaedc0c45beeff819b756fe2c02474ad5fe708c4b848973",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-amd-ryzen-9-7945hx3d-laptop-global__source.json",
+      "sha256": "6f5d96278c0eaca7b40d793ee4435b29c1a35b6863937130008c84591bd343f5",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-amd-ryzen-9-7950x-desktop-global__source.json",
+      "sha256": "e084b3a8f9768fd40c78cb74da8d7620e65a0f02fbb296c535eb9c023f0c0b0f",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-amd-ryzen-9-7950x3d-desktop-global__source.json",
+      "sha256": "6c463d02b73108256cb1fd4671f4bb2e591b2d8e0a73c93628c67d9387fdbd9c",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-amd-ryzen-9-8945hs-laptop-global__source.json",
+      "sha256": "da5141ca9344eab46afcb4013251a8850f37c82022ba44c5376aa598302f5022",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-amd-ryzen-9-8945hx-laptop-global__source.json",
+      "sha256": "8d9e1fbd3c7284430230d6d462fcb6162871713898344585848b1143859e39f2",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-amd-ryzen-9-9900x-desktop-global__source.json",
+      "sha256": "567e039f4519dbada0df9d546fd0211ad37375b9c3552b44e037f1180ba41929",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-amd-ryzen-9-9900x3d-desktop-global__source.json",
+      "sha256": "736c24eb2ec9a36ab9f760b7b5559ca175c16891f3e85cf1cb066a6758713986",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-amd-ryzen-9-9950x-desktop-global__source.json",
+      "sha256": "5577c73359e64cd3d4890aaca7ab9ad45e726e1946a52c6a50dca4d45a28da96",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-amd-ryzen-9-9950x3d-desktop-global__source.json",
+      "sha256": "ecc7d48d1202ba79d9209431d5d7539084bf3165ecd0591242f2e5a4ca0cfaae",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-amd-ryzen-9-9955hx-laptop-global__source.json",
+      "sha256": "7e9583a89ec789f22585b7c99ddcdde4bc1f1ba900d7252923e630d5a6df2abb",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-amd-ryzen-9-9955hx3d-laptop-global__source.json",
+      "sha256": "c21d451a0994d1868d0191ab1116fc13770ae910b407731cc04103bbd4503a36",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-amd-ryzen-ai-5-340-laptop-global__source.json",
+      "sha256": "50d97c29f54ad9b69895cc8e1c721da1baab02f3f04f276979b24dca16d051b5",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-amd-ryzen-ai-7-350-laptop-global__source.json",
+      "sha256": "3554167c30b5bc7d2911a18c77fa66227055161e9b8cce13c1f9c1586a7c03d0",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-amd-ryzen-ai-9-365-laptop-global__source.json",
+      "sha256": "491d42f2250cfddfdbd3266d1cb41b6d21ba9b7224580dd0312bb65fa47e7ca9",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-amd-ryzen-ai-9-hx-370-laptop-global__source.json",
+      "sha256": "669df2c49f62c8a1a0aa1a01bb533acd0bcc2e02682e0458c158262d29d04741",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-amd-ryzen-ai-max-385-laptop-global__source.json",
+      "sha256": "605e6a6b2d3019d8deaa1331d94612af9fe2b68aa4ef356f6bc147c51d45e472",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-amd-ryzen-ai-max-390-laptop-global__source.json",
+      "sha256": "f80b71ec75008528aeddde2fa83f5e2a5601e2d15e270bc6da842efc4ad84e70",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-amd-ryzen-ai-max-395-laptop-global__source.json",
+      "sha256": "2320e8d14cd55517bf63819cb578e8a2e2addffb4093f05f1e552eed5b4d2e25",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-intel-arc-a310-desktop-global__source.json",
+      "sha256": "675f3a6003ceee9d68b710cb78eeb4df2c639edcbda902048677414d62377a7d",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-intel-arc-a370m-laptop-global__source.json",
+      "sha256": "cad10eb7004b32b6682ddf26b2012d4e85e771553fa047e0621d5e6ec0c54367",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-intel-arc-a380-desktop-global__source.json",
+      "sha256": "c820ef876af25d405631aec3c718806926d2d78960579421948cb12bdd799f84",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-intel-arc-a580-desktop-global__source.json",
+      "sha256": "df2de3e6283f5bb8131cf808841072af162375086fbadcaf5cf745b9b1904d2d",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-intel-arc-a730m-laptop-global__source.json",
+      "sha256": "c8d5debad8a5f5e8cfc1f5851bb2feb17e79642e62a5a12be48381aaa8b8120f",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-intel-arc-a750-desktop-global__source.json",
+      "sha256": "cd255cc17656fa6a05c010933e68a62389a195b16f72a2cccb3979ce9c3a256f",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-intel-arc-a770-16gb-desktop-global__source.json",
+      "sha256": "5abcd5eca0aa39b169f882c7d4c7fe25e583631bd235901f07be69ea8b90de83",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-intel-arc-a770m-laptop-global__source.json",
+      "sha256": "405311052a7edf052a3447fe8c993b0aec9d3dbadfb63cf9e0d4ca204c753604",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-intel-arc-b570-desktop-global__source.json",
+      "sha256": "6b023ffed92b57030d5f8432acfde35d0804e5c3e4c1ed3eadb6ebf9bed16f9b",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-intel-arc-b580-desktop-global__source.json",
+      "sha256": "acb5ca4f1838d2bb722305f9de6826a132a06f41a22689fc8b78b6b1335a2a03",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-intel-core-i3-12100-desktop-global__source.json",
+      "sha256": "9b8d837462e424ef123aa61a1dbb4489027fd14be3a77632b4e73c3055b02fad",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-intel-core-i3-12100f-desktop-global__source.json",
+      "sha256": "e27b815a576aeb5f63abcb1a72966cdba3c6b235c7089d5782c40ed4178ed1fe",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-intel-core-i3-13100-desktop-global__source.json",
+      "sha256": "978d360b771542f4cbaa0be508dccfc6f7f883a7a384c4ea3468a0793e8aca44",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-intel-core-i3-13100f-desktop-global__source.json",
+      "sha256": "8f218ef2d5659947cd4326ff28263f95bd9dfbac96bcefa2121c8dc0c7479109",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-intel-core-i3-14100-desktop-global__source.json",
+      "sha256": "ca4f3ade772db6757f1ffb4aa89269b4be50cc181d11f0a4c24c3a28396d19d0",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-intel-core-i3-14100f-desktop-global__source.json",
+      "sha256": "75c0dd631c62143e4f811b03dc8e62d7b8f6990e271d5883ffc95c5008016fd6",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-intel-core-i5-12400-desktop-global__source.json",
+      "sha256": "85685fdbb102da70a96e1f05437a77f6d9304567619ba20c0e1d8ca1f0d8c882",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-intel-core-i5-12400f-desktop-global__source.json",
+      "sha256": "d035202f2f474954b9da0fb34015eeeed5979063c7814a9efb6e05d33850bc71",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-intel-core-i5-12490f-desktop-global__source.json",
+      "sha256": "cfd04864bedb6de9b76510728f82054eb88255d77c24898ac8dfda333a3ed6ea",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-intel-core-i5-12500-desktop-global__source.json",
+      "sha256": "408a5ef87e21dc010c40538ad317fb0cc1912f4c51af23e4272b5ba6a592a489",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-intel-core-i5-12600-desktop-global__source.json",
+      "sha256": "6460dc847ff24049bd35477ee4245ce4084bdcc1eb1ae43019084130f60090a1",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-intel-core-i5-12600k-desktop-global__source.json",
+      "sha256": "ba1668a8f043cfd7a92b5dc64b69a9ea779039a06aa4071fe99b917c424f848d",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-intel-core-i5-12600kf-desktop-global__source.json",
+      "sha256": "d6d06fc5642b929df46c8135a003a842da15a0e21a14169828f42b9d845c9672",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-intel-core-i5-13400-desktop-global__source.json",
+      "sha256": "57aa56c98e9f43e48849c3a5bf7671e1cf7866d2f86c480ef5d953ecc5513c3b",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-intel-core-i5-13400f-desktop-global__source.json",
+      "sha256": "9d5beb11f9555ec1f53c429a8503a20f90e853ffa225267b76302dc6bad68332",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-intel-core-i5-13400t-desktop-global__source.json",
+      "sha256": "3f16936859795bd22fa4bb4aa4e50b045c10841fb3cc31a51b0fa0a6ba3baf92",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-intel-core-i5-13420h-laptop-global__source.json",
+      "sha256": "f6cbff33ff9d919a259ad524083b5124bffa88bcb89e8ab4b02731495e9c000f",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-intel-core-i5-13500-desktop-global__source.json",
+      "sha256": "0513e6aaf64a684c5e1a80e4375e70f8c7c6926deefc214a8c6e3ee81d23f3de",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-intel-core-i5-13500h-laptop-global__source.json",
+      "sha256": "0f0ec3004f69f1d0f97a2c4fbb7c5479aa1d52df3402e4c73c67980e831a866e",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-intel-core-i5-13500t-desktop-global__source.json",
+      "sha256": "a06c4407826f7a1d3d3707774700327bf16f152d4b84d3777ec772c691673af3",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-intel-core-i5-13600-desktop-global__source.json",
+      "sha256": "0942df8df2ed5d77579dc411f692462bbcb431097e16f7d9c91aaf637beff08d",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-intel-core-i5-13600k-desktop-global__source.json",
+      "sha256": "12ebae24357a10c0e4010760017048fddf0c1e2cf06b91eaef731542359aecd3",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-intel-core-i5-13600kf-desktop-global__source.json",
+      "sha256": "aa92a906715a02ba6114c1bf3841fb8ba297a960a55f285d8496911882d13b9b",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-intel-core-i5-14400-desktop-global__source.json",
+      "sha256": "caa4236bc7e7ece6c80c65f42d88eb540b0a3a46e3fe8088d611c32d25018aff",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-intel-core-i5-14400f-desktop-global__source.json",
+      "sha256": "cfc186684ab9a455bb9c1490eaba182ff9eef52aa5ebde4005fe1f455dd78fb2",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-intel-core-i5-14400t-desktop-global__source.json",
+      "sha256": "8d7880a443300d5d032eca8cb1c12d07cccdf6677958c661564528ae6c0d7ffa",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-intel-core-i5-14500-desktop-global__source.json",
+      "sha256": "1cda4a97e87333e5b1bcfe177de6f72d98acce9cbd94b07f4096ad77f77a6ab6",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-intel-core-i5-14500t-desktop-global__source.json",
+      "sha256": "49cc5bbe12b151bc0bb2cc2fd38d0c1b5e50cb3c5be3b5a32d8c76e9783b2156",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-intel-core-i5-14600-desktop-global__source.json",
+      "sha256": "772c771d5221c9699314f10a459b7f94eb9547aad9ca6c32749c30f8d89af62c",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-intel-core-i5-14600k-desktop-global__source.json",
+      "sha256": "403b4a9c400d8941c03cd1747f4716ad02f5b5e82e79278af4719d46945deac0",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-intel-core-i5-14600kf-desktop-global__source.json",
+      "sha256": "4d5dc6b2c4c240bd4b4a832416bb1bbdb8a4bb1b9f23ae28e72ada873e68ac58",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-intel-core-i7-12700-desktop-global__source.json",
+      "sha256": "5dfd226cdb289a90bc2ca0a09289a359be1cf95c4743669fd731d472f3b0908f",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-intel-core-i7-12700k-desktop-global__source.json",
+      "sha256": "4c4e0016ec98ed95c913a345bfdbbf300640ee8ecc795ca4821f62d36afe4575",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-intel-core-i7-12700kf-desktop-global__source.json",
+      "sha256": "86a3094d1cba5999b68d7c4bdc41fe94d913893493768149af7af8b26ef08ebd",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-intel-core-i7-13650hx-laptop-global__source.json",
+      "sha256": "55906c818b904ba9f6bab85eb48d79a787140fa3a75afdbf9bbf99774c2943be",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-intel-core-i7-13700-desktop-global__source.json",
+      "sha256": "675dacf6e9df4fdd835b91ca5a28584c131d4810f343ef9a6b8cc36864637719",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-intel-core-i7-13700f-desktop-global__source.json",
+      "sha256": "6ed22e219c428dd6895184410ddac390a6989cfe5676dd9c0f7ed0b7cb531f77",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-intel-core-i7-13700k-desktop-global__source.json",
+      "sha256": "0882e1434163cee27fbe8f30969b847599d8aaed8f32e59d588ec404bd4dc9b0",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-intel-core-i7-13700kf-desktop-global__source.json",
+      "sha256": "3c33ccfb06ff631675e92e20401f1f3da9965706ace6bf2ca0d4049ee89ce284",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-intel-core-i7-13700t-desktop-global__source.json",
+      "sha256": "70d682d8d3defc4756e6972de1d35d421247b0ea1f8659c68226815c80d11f5f",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-intel-core-i7-14650hx-laptop-global__source.json",
+      "sha256": "65b5a7fe8065cd6816e18defabab88244c65675fc8cfdb7ca4ad7e1770812192",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-intel-core-i7-14700-desktop-global__source.json",
+      "sha256": "bfbd1ce7681ef156a3f92840d4144e5964dc5af0a4f1414d49a5386de5ef948e",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-intel-core-i7-14700f-desktop-global__source.json",
+      "sha256": "61a08536bad733d9b93c860af25cc9fead1a69bb5a7efb632b01a845b0a9d1b6",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-intel-core-i7-14700hx-laptop-global__source.json",
+      "sha256": "83cc7f78eba63d57fba62040dbad31863cd4d86a915f820ad9f93ef8161e6510",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-intel-core-i7-14700k-desktop-global__source.json",
+      "sha256": "6fa98851f52c7b57f1908b5387c04419618d1b6503918b629887d8f1aab85d09",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-intel-core-i7-14700kf-desktop-global__source.json",
+      "sha256": "9134704666249413e8c0f93b45f0f6849011e52807d653bd46871861cc33ac83",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-intel-core-i7-14700t-desktop-global__source.json",
+      "sha256": "51006972f28478dc3d2ecf1d3724ad02690b76946934a415b1cbfa702a408754",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-intel-core-i9-12900-desktop-global__source.json",
+      "sha256": "6913863681cf115fbf0a5e7f9985f8ff49f094d9af54a7ecaa23753d01d68e00",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-intel-core-i9-12900k-desktop-global__source.json",
+      "sha256": "994203ccb86dd10a0e4a135761095a85a0350cc70706d6233aa7d7bcaf2ea304",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-intel-core-i9-12900kf-desktop-global__source.json",
+      "sha256": "2dcb7b2eb6e1b61bdbb55302b6da76b2e74e3c7c522878c471c28e05fa0c2df9",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-intel-core-i9-12900ks-desktop-global__source.json",
+      "sha256": "166013f99e5b1c2dc4d3c51fad34a087ca1118b7f87f450c78f31d0ae6b993f6",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-intel-core-i9-13900-desktop-global__source.json",
+      "sha256": "f101eecffa01b595b4635e374f767c0f2bcf2442655d0e5081a68fb858686797",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-intel-core-i9-13900hx-laptop-global__source.json",
+      "sha256": "21a163c06789628f3df559cbd903986d06eaafc3c752f9792dc91c63881ef04d",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-intel-core-i9-13900k-desktop-global__source.json",
+      "sha256": "58edc9b649171f60348c821582b0daaa5e9458eda07209e16404e920031f0d86",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-intel-core-i9-13900kf-desktop-global__source.json",
+      "sha256": "c7551717a96d4f905a2b682bdd37bf7a4eac9a5fca490535ecffc12481e715b0",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-intel-core-i9-13900ks-desktop-global__source.json",
+      "sha256": "a534fb4a784bf77e97c7b8e70eb6bf3165f4146a67b021d076f5cea0e9553bd2",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-intel-core-i9-13900t-desktop-global__source.json",
+      "sha256": "f71d6c791f10bd282f7a3fe77c2d43844f45c0895d1b7a0a429a8817fdb56361",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-intel-core-i9-13980hx-laptop-global__source.json",
+      "sha256": "4c07d6b4004557aad91987b37afb1ab4bb8f022e248c8d2126e71667d1eb597f",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-intel-core-i9-14900-desktop-global__source.json",
+      "sha256": "77576f5c16ca6af1c78ec41142c3b4ed039d90ad4359be8649dde81496f9575c",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-intel-core-i9-14900f-desktop-global__source.json",
+      "sha256": "add6670ce3786745eb690417ee16d94cf44469a45c6692ddacce4a4b5d93f8d6",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-intel-core-i9-14900hx-laptop-global__source.json",
+      "sha256": "767db593c405832e1601cdb46a62dcc9771c35299ffa41793295de279db33338",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-intel-core-i9-14900k-desktop-global__source.json",
+      "sha256": "1a7ffad409022801a5a72a12bd0fe69e82fc55bb90839b6009092876c2349574",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-intel-core-i9-14900kf-desktop-global__source.json",
+      "sha256": "123e62d7f7c61c6cee8a4ba0adc541b6117a52313fbc9eb192902e6aec5772b1",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-intel-core-i9-14900ks-desktop-global__source.json",
+      "sha256": "c2c563688be89af39a6b1bfaff6ed60753449ee4145fd79a84d0ceee29a8c9fc",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-intel-core-i9-14900t-desktop-global__source.json",
+      "sha256": "1b4144288ee38bb0f0b15cc4a94531536aa68c98f8ea0a64e222d1ac80650058",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-intel-core-ultra-5-125h-laptop-global__source.json",
+      "sha256": "ed229ce682545c9c04bd6c05d27941053215229ea29619793026ca534a8041b5",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-intel-core-ultra-5-225-desktop-global__source.json",
+      "sha256": "14ab2a41e6a629619f576eefbee27c1ce4ccdc6b0219ca564dabbf11cf9fc811",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-intel-core-ultra-5-225f-desktop-global__source.json",
+      "sha256": "9d09ae3e19d51fe82ff2d1911a994837fe554a0b94f6a15a22783c9cc58e22d2",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-intel-core-ultra-5-225h-laptop-global__source.json",
+      "sha256": "f3caf0993f86131e5033d9d937d463a6c32d0f6e4acb2378e7bcd4c6fd49e620",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-intel-core-ultra-5-225t-desktop-global__source.json",
+      "sha256": "9b81a4801e88945b8c0d75b37213aa694f38bc7ceb6aea7cb22f6e6df4965670",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-intel-core-ultra-5-228v-laptop-global__source.json",
+      "sha256": "1bd87776eaede951204655da2d4245e52515caa481bf638b864731706ee3069c",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-intel-core-ultra-5-235-desktop-global__source.json",
+      "sha256": "4275b16bb275e3bebc3151e26114960fda4ba787e2569821a0343d0920cde46d",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-intel-core-ultra-5-235h-laptop-global__source.json",
+      "sha256": "ddd4d98756aecaf00b14e4a9a61a3bd9e02280aca6f88c3eb73d50f1e3d26e1e",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-intel-core-ultra-5-235t-desktop-global__source.json",
+      "sha256": "2bc6bd150215525a0d02b87b81a1c5b0eeae9d6dde657f8f078b98e458115168",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-intel-core-ultra-5-245-desktop-global__source.json",
+      "sha256": "9a6fcc727133ca555d4b8f2a29ecdc10abf4ad7f381d30adb4c75a0adf7b3240",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-intel-core-ultra-5-245k-desktop-global__source.json",
+      "sha256": "a17df7a315f38a86c449ec26f5071b75e58df8189713e38f49f2d57af40646ae",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-intel-core-ultra-5-245kf-desktop-global__source.json",
+      "sha256": "1919f24a6c4cd75959d4e2738e20eefe76be78eaa45d3e12627e62837a7ab7b2",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-intel-core-ultra-5-245t-desktop-global__source.json",
+      "sha256": "281e3facdc44f9628fa7996e436d8fb699a6d8a5f62fbe41bbf086a1bd460562",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-intel-core-ultra-7-155h-laptop-global__source.json",
+      "sha256": "7f2ef48c9d87969849a67eb09d868761501ec383f296d16b3f1faf6b0bc0bba2",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-intel-core-ultra-7-255h-laptop-global__source.json",
+      "sha256": "c33f793b970dae2acd9a88736b9280673f33bb12ac55c4c075faf3751ccccd86",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-intel-core-ultra-7-258v-laptop-global__source.json",
+      "sha256": "ec9c001a55246b45fd39e5e9263d4972b32c023977773fa86e27026f47d5f855",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-intel-core-ultra-7-265-desktop-global__source.json",
+      "sha256": "544f8908a2ee3c8ca61cbf0b04c6501beda2eedd36f5359dd5ac01b4f25d8a9d",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-intel-core-ultra-7-265f-desktop-global__source.json",
+      "sha256": "01ab301bd10261543b066a8d32a8d45f504906f1a7aa80cc4d6efcbd6faeacd2",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-intel-core-ultra-7-265h-laptop-global__source.json",
+      "sha256": "d4de47be2a7460341174ceb8406e276255fcbedb51df396bf25de114b3681a27",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-intel-core-ultra-7-265k-desktop-global__source.json",
+      "sha256": "5e10506d174659287616f0f46c99b8b5265855b518dbf3500a35525e9749ca5a",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-intel-core-ultra-7-265kf-desktop-global__source.json",
+      "sha256": "df70eac9d1d8846f541cd09f7c9358e6ef6c43c79f8ba6adef90790f68d1072f",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-intel-core-ultra-7-265t-desktop-global__source.json",
+      "sha256": "cdd60f43c5cbe7f26c7a3a8812e460284052d0465bf8354717e14415fb2b62f7",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-intel-core-ultra-7-268v-laptop-global__source.json",
+      "sha256": "71c07230fac0e8f24752eacb432026f1f9bf1d36c13bb34d64e99805c077bf03",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-intel-core-ultra-9-185h-laptop-global__source.json",
+      "sha256": "6e9fa18121159bba0d66d91d51eb744c0d5538188cea3a1873025d44b06c2d95",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-intel-core-ultra-9-275hx-laptop-global__source.json",
+      "sha256": "166921b1ed8e9839b1d5caca2304e8d2b7d8d66ced85689aae9ca8b08f37c1c5",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-intel-core-ultra-9-285-desktop-global__source.json",
+      "sha256": "705a7d19c6890de9a1b56b35d5665a0255b941efb5a8e82e8d88aa519a9c6b49",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-intel-core-ultra-9-285h-laptop-global__source.json",
+      "sha256": "a52f0f019edc159cb6c6792c287fa4fe1631cad5bbb87368b72020327dab30d5",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-intel-core-ultra-9-285hx-laptop-global__source.json",
+      "sha256": "3aa839ed40b538a18d90f3743829d040a3109399d338f3e0b8353028cc99491b",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-intel-core-ultra-9-285k-desktop-global__source.json",
+      "sha256": "1428982908cf3673c1b57377c2346db8130c8e88f94b8f8530dbb2061594c033",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-intel-core-ultra-9-285t-desktop-global__source.json",
+      "sha256": "3de7cca3b57b1b2a258fb30265d55de143a8e9a2848f64092f0d8470227cba6c",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-intel-core-ultra-9-288v-laptop-global__source.json",
+      "sha256": "7d961c62444741ffccb908649b83b2e0ad58c602630002c45aa4b7f095685d7d",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-nvidia-geforce-rtx-3050-6gb-desktop-global__source.json",
+      "sha256": "e5838b05e37c58b9360441dc96475333b87653188e8cd9125a7f9bcfe848a4fc",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-nvidia-geforce-rtx-3050-laptop-laptop-global__source.json",
+      "sha256": "6b9444a06b847305567d0b6f56fb95c981c9761b0eb695b8f90a87fffd2b478d",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-nvidia-geforce-rtx-3060-8gb-desktop-global__source.json",
+      "sha256": "cfb7fdebf0466f0744cbd969fe2518bad5ab2a3b86d307f0fe0459278a3c42d7",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-nvidia-geforce-rtx-3060-desktop-global__source.json",
+      "sha256": "a30aa11a6297460947f859814d543604a1105934dce4b3dcdc013b269d3c6885",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-nvidia-geforce-rtx-3060-laptop-laptop-global__source.json",
+      "sha256": "93efee2e26131a29adc4aeca9b01106d9e2a187d1e5c4e0a31363bd642e933e4",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-nvidia-geforce-rtx-3060-ti-desktop-global__source.json",
+      "sha256": "c0d156953db31c1fa7eae32c18882c5e7f1178b02d7ad5fa62ab681c4efd458b",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-nvidia-geforce-rtx-3070-desktop-global__source.json",
+      "sha256": "89beed43426150fe8fc658fe698bdfa4e756e30ac794eb5d2092421c335fc18e",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-nvidia-geforce-rtx-3070-laptop-laptop-global__source.json",
+      "sha256": "443d8a6120662c621db9d0c7872ee40bfaa8fb8a20591dd7c62fd1f3cf545882",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-nvidia-geforce-rtx-3070-ti-desktop-global__source.json",
+      "sha256": "1bd97e2b69d0210596ee9d276f782b977186c4374fd38561e8e7226c08d8d9d5",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-nvidia-geforce-rtx-3070-ti-laptop-gpu-laptop-global__source.json",
+      "sha256": "0db9a0dc8a0fc38f4933c47e63be7066266f7ba406f9769affdd0453ffe7c9d2",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-nvidia-geforce-rtx-3080-12gb-desktop-global__source.json",
+      "sha256": "a941c86be8c7cbef7accef93a9872fbaf55a17e49cb2b21c1094fac20a61ea2b",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-nvidia-geforce-rtx-3080-desktop-global__source.json",
+      "sha256": "92d2afe17cba9931ce21df05258c280e301118a5b73d5b853c72d890e7b93e71",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-nvidia-geforce-rtx-3080-laptop-laptop-global__source.json",
+      "sha256": "bf252dcd3d7ea0a13385d836dffefa7bd79133df3d3d232983429f5fc9273f53",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-nvidia-geforce-rtx-3080-ti-desktop-global__source.json",
+      "sha256": "52b39ceb6662fe6c64c13c4b261ea9d10b2a036d94f99c38a9b9ce71c93a0f61",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-nvidia-geforce-rtx-3080-ti-laptop-laptop-global__source.json",
+      "sha256": "07f9066a283604d1fc7089700bee3ea05b955dbf21996d887b55cc86081683b5",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-nvidia-geforce-rtx-3090-desktop-global__source.json",
+      "sha256": "4da7bda5f153d10244885b141cf1add5e43948765c5d657dbf410e0b61e84de2",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-nvidia-geforce-rtx-3090-ti-desktop-global__source.json",
+      "sha256": "3cc4ddb799fc0a43d326272f883f5861af70f12eec53d55303ffdf01199c46f8",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-nvidia-geforce-rtx-4050-laptop-laptop-global__source.json",
+      "sha256": "1c64630977fc77223de82bd223abaaedcbc356aeb0cc0abdb0ff522e5ace509e",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-nvidia-geforce-rtx-4060-desktop-global__source.json",
+      "sha256": "b34e78e0d69391e0759a028178e387c27e1c3895a17b933708c662ecaa3b71ce",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-nvidia-geforce-rtx-4060-laptop-laptop-global__source.json",
+      "sha256": "a00b29c1acb0e217f7bce5bb5393a1ab255dc7ae9510ea58369b2dddbbe39424",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-nvidia-geforce-rtx-4060-ti-16gb-desktop-global__source.json",
+      "sha256": "4fdc9448d0480e9b0b304a3c41a2935c189d3ec11d5e04568b06b31744ffec98",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-nvidia-geforce-rtx-4060-ti-8gb-desktop-global__source.json",
+      "sha256": "2a566b6df8f1786284a0a1d7ca1babc1750158bd0270acebd5a5158fb176fcdb",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-nvidia-geforce-rtx-4070-desktop-global__source.json",
+      "sha256": "cc6eb1e5cbfa51c9be268d7cddb8f4a75362ec77ace5905c251632fc6bac687a",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-nvidia-geforce-rtx-4070-laptop-laptop-global__source.json",
+      "sha256": "cf9498926c7171242533b1dbbbc7679da5e9dcbd6da1ce09a1d458fa4d988a30",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-nvidia-geforce-rtx-4070-super-desktop-global__source.json",
+      "sha256": "f98c17e9b91168d17292f85455d306b06215e377183afeb0c379694cf93f0782",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-nvidia-geforce-rtx-4070-ti-desktop-global__source.json",
+      "sha256": "83ec1e16912263d24bf638e041d18b96470e5b4493df83c831009b89998b6b63",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-nvidia-geforce-rtx-4070-ti-super-desktop-global__source.json",
+      "sha256": "b95da60612fcf0b44e72d489203ac35d647f5706724fc9725deacfe09c996d52",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-nvidia-geforce-rtx-4080-desktop-global__source.json",
+      "sha256": "302ffc4879d981150fbfe5612613a2731cbb32b9aa5c920612311f63ee3b6ccf",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-nvidia-geforce-rtx-4080-laptop-laptop-global__source.json",
+      "sha256": "99f5b9650ed259455fe5a59c45971ce469a7101fbede3bb6120bca01a8262e5b",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-nvidia-geforce-rtx-4080-super-desktop-global__source.json",
+      "sha256": "57d824b9b73712082620b8f5ed75c7edbb0c8086efd6a0a918a8b3d35de56396",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-nvidia-geforce-rtx-4090-d-desktop-global__source.json",
+      "sha256": "495cd7e32d2227182566738231e335c300efded751887e508dcedff74f797a8a",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-nvidia-geforce-rtx-4090-desktop-global__source.json",
+      "sha256": "f828ec0ac456fe1339f42488779f2c8dd66b73423db75b85b6872d07d695f8b8",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-nvidia-geforce-rtx-4090-laptop-laptop-global__source.json",
+      "sha256": "a35ec7ecb5fcc7d0a7f61053aa2b7d61b7f421df1bf19250165cd5cfeb54d524",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-nvidia-geforce-rtx-5050-desktop-global__source.json",
+      "sha256": "76e0a25fb2380f713024df673cd6aa770f8a7e04f3c20704385f60e023c49ad1",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-nvidia-geforce-rtx-5050-laptop-gpu-laptop-global__source.json",
+      "sha256": "deb663b9c22dfc746b1917db8d4b253145bfa394a04f4f753487be436794fc84",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-nvidia-geforce-rtx-5060-desktop-global__source.json",
+      "sha256": "3596e92a8d01a058019d8abdbf97a2840d64ae470e770d02c2a103f3f3c7d1bd",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-nvidia-geforce-rtx-5060-laptop-laptop-global__source.json",
+      "sha256": "886cc4956dd8eb58291b059cdb8757808ca7ef1730781b1c18ee9011a89749b1",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-nvidia-geforce-rtx-5060-ti-16gb-desktop-global__source.json",
+      "sha256": "613fe4acee0a76b5a8dad3c9b3ef8ba944c74d8326f788cc1779df50bdee3234",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-nvidia-geforce-rtx-5060-ti-8gb-desktop-global__source.json",
+      "sha256": "d98d6b3b4342c06ad88d6a2b9092d8c65ad5f4b939409acc669b3ac990e50190",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-nvidia-geforce-rtx-5070-desktop-global__source.json",
+      "sha256": "988ad7fb39c366a47091cf809bf7cfbdfc2bdeafb95fcd2c02898272e4dd3023",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-nvidia-geforce-rtx-5070-laptop-laptop-global__source.json",
+      "sha256": "a5418f51b96f5a03498a80114f43a0bad6ece0130aca7f5cea24e5564bd41de5",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-nvidia-geforce-rtx-5070-ti-desktop-global__source.json",
+      "sha256": "83b12dab133453c738388f418a532868b292ad8d25e3480a31acad32c82a96d8",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-nvidia-geforce-rtx-5070-ti-laptop-gpu-laptop-global__source.json",
+      "sha256": "c05e15856c70e77296c7fa74f96047d2539c58b7e1a65cf1aac52510a5e2e8a0",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-nvidia-geforce-rtx-5080-desktop-global__source.json",
+      "sha256": "ac85a5246e081ed11bec5462df9f7a5fc9ba019a78b0354360b3b631becead62",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-nvidia-geforce-rtx-5080-laptop-laptop-global__source.json",
+      "sha256": "c5f17aa552674b4994607675386265fcd7a52bccca5cc3871a9179f4bba0e2e4",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-nvidia-geforce-rtx-5090-desktop-global__source.json",
+      "sha256": "8ad554420a543a9b4198e3ad3be8635770ef0951704ee66f819ba42bc95ff79f",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-nvidia-geforce-rtx-5090-laptop-laptop-global__source.json",
+      "sha256": "18eb209dece27a9bb7edfb5dfb5eab342b89f8e6c3650039aedac5916496d904",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/hw-nvidia-geforce-rtx-5090d-desktop-global__source.json",
+      "sha256": "c5afc7ab7713b29c19e1933ee8ef5fa8182ac360c7724fa0d49e7e31f0b7c8dc",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/model__0000.json",
+      "sha256": "9aebca5f2f0b11311b043c3aabf102e2fd77514688b5b9121e72be16e284d956",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/model__0001.json",
+      "sha256": "1a433b999ed4d634c43ae6eddfaace5bf8bf7f7f8ace5bd667e6694c7664aeb6",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/model__0002.json",
+      "sha256": "33098a65abddcc27ce70de5d97baaf8ff5ea684919e6d1363ab4fe5acb5c1f93",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/model__0003.json",
+      "sha256": "2e7b687302e032f7e7b62732667a2fb6ab4b0c76c97646fec25de578bbf2583d",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/model__0004.json",
+      "sha256": "2ee696c12be263cbe97e3b151098da82ee8fabfa76629f780ddf2ec7262b45dc",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/model__0005.json",
+      "sha256": "bec2d9e42ec474515fc62795bb3fec1f9cb22125d079cfce50e8b3d8cd01af9e",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/model__0006.json",
+      "sha256": "4f7ce1a2ac91d77725ed1ba139e34b9318a2469a114bd1c927721b0c6fcaf30b",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/model__0007.json",
+      "sha256": "ef9d336b7d8736405f0b31157ec7345838210ab6cbaa0dc530f8497821c59d83",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/model__0008.json",
+      "sha256": "f0a16ee3007d97bb73f2f196f20ee4d355029c3beb2000dea21876939b078511",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/model__0009.json",
+      "sha256": "0b2b6117d16d53991d2004cc7cc41d9eccf166ab0f18f3d808a4f304eed8ca3b",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/model__0010.json",
+      "sha256": "d5c3196156b212648a8a78f4473d386c3db0e08503bd0b1ef5e6fb6fad86d9c9",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/model__0011.json",
+      "sha256": "de39d8a3a2b5815d1e2c63c7e95923a98eb178b09bb70384f23ead94a8ad1468",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/model__0012.json",
+      "sha256": "f3c54e4c0f75949883ac618dde468820cf9f98c5731cf109ea107a06cc0ba7ec",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/model__0013.json",
+      "sha256": "6199d8dd7b177a86a7f8df34ed037769274a2b71e7f1f1faff2458ddc08a4fc8",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/model__0014.json",
+      "sha256": "c3d661e729db1fbe85e86c5f179d14eaf302c0fd6d435a26cfb8c6a9c0e23220",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/model__0015.json",
+      "sha256": "a7206ef20add65810375b163904439d0656e2fb4da949987dfb20d35c417657b",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/model__0016.json",
+      "sha256": "3546b925ae44a5a6204dd3c5d31aa598b73a8526c0362e86845633fbbf220dfa",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/model__0017.json",
+      "sha256": "472199105f9aa4c2824411172bce121b9c0372362a3c073000f96551b2e80b85",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/model__0018.json",
+      "sha256": "ba3d4d0e20e06326d9f9dfac62e16e6991c642b1082f71a0b4834b11754e43fb",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/model__0019.json",
+      "sha256": "55c3c3a5725a836933e6af7fa1810d938e94dbea2e32471fb173ac5b82e404a9",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/model__0020.json",
+      "sha256": "dbaf45d5902d6ded757a3beb2d8d1e2b987587e76a51f52da39129dc870ccd2c",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/model__0021.json",
+      "sha256": "0eed51773021ea9019cb369f631b791a137d7c7b4448018d6aa55f766b088772",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/model__0022.json",
+      "sha256": "a59131c16a77864a283a3e7e25fdbaeaafad29a586d6f373e4c16a0a0a3afa73",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/model__0023.json",
+      "sha256": "1a20aadc048e193607cf7a1966ece31bf345f69ad268377b44d108322bb81675",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/model__0024.json",
+      "sha256": "03bac859ebbc141e63884bfdb24d880836dd6dbb6bf8a032193ad6b68a27cde1",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/model__0025.json",
+      "sha256": "c7e65c16823789f1be1b6b215cf61b15bf77dcd5371e9b340407cf8cd0df70eb",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/model__0026.json",
+      "sha256": "eff7f30678ddee14e2ba441ffb9e65a66af4080548048c85a2740b6cd6578ffb",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/model__0027.json",
+      "sha256": "39afd9b1e94c377d75ce3608eab2230fb49c10520a939f869ba2c3910421706a",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/model__0028.json",
+      "sha256": "d5635496a727814987c1d7144702022c8a3bd20b745450f9d5618dafe38cd3e4",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/model__0029.json",
+      "sha256": "dc77a8d58208c7502a53ddf7411eb9cb18c0ff865d6f3b96a2a598b75cbe3110",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/model__0030.json",
+      "sha256": "61d2e66a75d91322772f4fda93b9558f035e33644c5f0427f9a1b3be3f8d43a1",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/model__0031.json",
+      "sha256": "371920b73834577b4ec0c4d38ef0a6f6099ed70e4421ab0e8855e6348582a134",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/model__0032.json",
+      "sha256": "53b0be5e3ce698a88cb8a526e663cd54c29c48be576e9e5a466608298890f0d0",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/model__0033.json",
+      "sha256": "80fd0ed669bf49d3139b1f59c04716d4b90c417834eb4503ac8fa6464b82e1f3",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/model__0034.json",
+      "sha256": "bd7a9fb665ec5e8ce62308a661187b9c20daccc492dae30d39f997f4ebb9024f",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/model__0035.json",
+      "sha256": "54af55f4dd5b7bc2696c49fc391fc95b616ea92af0fc440cc38b8019a18c82b0",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/model__0036.json",
+      "sha256": "14fb2dfd7c714083096f36ac1284df89906dc7d3c3de53d040a09597a9325cd3",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/model__0037.json",
+      "sha256": "31408b1dcbb4bd6fbd6a9848006dae0bf42a5c027180e91ca0ef385cedfafecd",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/model__0038.json",
+      "sha256": "ecbf60e8356c29098a04a1d9fb2ef3812c1839acb7cea513582dc52e2ab4e381",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/model__0039.json",
+      "sha256": "3301c394e37b4a41fd44b5be2c78cbe73a142a0edc7565a078272bf71fecb10e",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/model__0040.json",
+      "sha256": "7da5d60ed000e75f8ccb650410a5a583349feef2b2619aa60cfafa6deb41da6b",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/model__0041.json",
+      "sha256": "2959cccbaee3f53902df039ba2957cc311a9d6b19077f710b3eee9ad5b01acb8",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/model__0042.json",
+      "sha256": "78e0d221435b5d00b6877dd60e65eda4bba2b7a2c3a2a2312191ca405bf6198e",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/model__0043.json",
+      "sha256": "041a569a6db4bd1ed6bc2c16c72ebac8c4535b20ff254cfa8300d09e03211a19",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/model__0044.json",
+      "sha256": "15619b1aab82be7134ff7da31b6dac19b753600c3d676a58aee700916d2bfe99",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/model__0045.json",
+      "sha256": "3060a300942d7bcfd0bd655abc0f656c4a564cc3713c87b40c9bb623b075c60e",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/model__0046.json",
+      "sha256": "e3d7fb0b6a843632ac0fc60c786d3ee42ef91e6d2c4f3e93d9ee6960449ed5c7",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/model__0047.json",
+      "sha256": "9076af792d761a6ec12dc126fed70ebeaa5d1b0d76cde3f321dc0c0e926058dc",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/model__0048.json",
+      "sha256": "4c91fb49ff5cda88c9d0b34605944a33f0ed392bd79cc64f417326dc9885b7cd",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/model__0049.json",
+      "sha256": "fdf96224830502aa6ddbe59494bcf96ed43fcc8027905ac7f30d7a1b7d17ea0c",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/model__0050.json",
+      "sha256": "66aade8bd7ee08861d58ddcb8f84cade815760f5d2e33f0fd68f2247cb43f170",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/model__0051.json",
+      "sha256": "82ec9699cfd6732e3c318020fc1ed8a2bc0f90b53df3bcdbb496498546f55bf6",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/model__0052.json",
+      "sha256": "fe27129fafd5f77cb7a927951d4d04414906bf3a0b050b6ad82db4f5a205508c",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/model__0053.json",
+      "sha256": "00aa9275aa057d1ac849cd392f27d7a445ddfab519d441a95ee50fd67f3a9635",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/model__0054.json",
+      "sha256": "2ca4f99bd149b52edc1c07b07f681f915566e46211e944419e150797657815b7",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/model__0055.json",
+      "sha256": "1c7b4af1f8ee6e723081f703fed067101b3b2dc7d16b42ba7f15ff6e57c0e01f",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/model__0056.json",
+      "sha256": "1ba35daa3c808a31739c4cfead72d8b8dc0147f3a0333b17850241dcdf0d546e",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/model__0057.json",
+      "sha256": "ce412e9f455b256449a48978874cf96be7440d79a9f2a8d0aa629932cc1947f5",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/model__0058.json",
+      "sha256": "639631195c845f5c54883976dcdf62dc472615d63e99c1c4b8c6003c8e1a1c3e",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/model__0059.json",
+      "sha256": "080fac45a1a9dd93b888031fcc1a543333f9166bd2c3e5d83ed51940a328d770",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/model__0060.json",
+      "sha256": "6ee391a2c88bc34df30b282c757a2264bd4cac2027d2c8e6b849fbdbe82bd0dc",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/model__0061.json",
+      "sha256": "04eaf9a1714c81774856a3ac9148f2ce2442a96608c521882a9756ce29cc218f",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/model__0062.json",
+      "sha256": "6cc71edbe478ffb52ec7a0efd02044e81bc69bb876687f7b7a8fd7c8295f57c1",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/model__0063.json",
+      "sha256": "dbdfebf38ebab36ad9c48bc69e5c951b2a38dcd8962f0a970d8514b9cbe1314a",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/model__0064.json",
+      "sha256": "b4d3fc4f1a7e5b9e1fad438f535a543c4e0bfcb6020629edb4c581d0bf3c9da2",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/model__0065.json",
+      "sha256": "7d7b2de56f0012452fde5ed325c72f8d3c4fb468c7e88a42ff97b6c8bf946015",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/model__0066.json",
+      "sha256": "23b5958186a43446f0561b4596de6d9b2d2ca8884081a87287c7911f9477699f",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/model__0067.json",
+      "sha256": "5476af88b33085631c6f24f540e76b3493c1c9eb4c287d1553f3738fa6e96882",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/model__0068.json",
+      "sha256": "1e444f7018a850c341ef1f119d253f3a785915e07bf937c918088e2067c204e4",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/model__0069.json",
+      "sha256": "c245c195e29464ddf134bf51739f3f9b89d937d72776626781ad161c1e88e687",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/model__0070.json",
+      "sha256": "0401935c72338814b4c14de5a843754b21d27de099539e22c8c775d898f3fd9a",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/model__0071.json",
+      "sha256": "6c0f56f9a29aaa7f02b092dd9d0b05ee523df0102248607966de3bf8b8a9a671",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/model__0072.json",
+      "sha256": "acad2117d2d2830e1fddfc54a74552fc78f1b78b53996da3c706e69d3c906a45",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/model__0073.json",
+      "sha256": "e1bb4c7a383a27cefd0f67111073ba18115af50932d1c39a0630241d9bd82d5d",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/model__0074.json",
+      "sha256": "bd0cdcf28971e906f0275f48931c1419bae5c7b50e4954ebd6ee367a855c74a1",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/model__0075.json",
+      "sha256": "cb83f5ff76f983a5d0d0a18851e5c3b7a12b62a15e87c3d7c8b982d6fc801b5d",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/model__0076.json",
+      "sha256": "83ab2cf4adb3b9e8c5e9a1e96cde569f3a003a1632f8e35d0b1e5bb7b5762c7b",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/model__0077.json",
+      "sha256": "fef87d6ff90b4d6de0151f3217efc11376f31f1be4a9e805ec1481f51ac118fd",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/model__0078.json",
+      "sha256": "d2ca3e36ea86c42a45db119a7e0ccbbcb17ce809ce12aaee2797bc3521e87ae0",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/model__0079.json",
+      "sha256": "69bd0e0f6ee8ab41370df57c3b1a3d5c0dc3fd78d422d2caa06a0f5417e58fdf",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/model__0080.json",
+      "sha256": "a04210446021ab696d7e04b5d52b0890a0ce11ae02d59713a7feb419ecc37b6a",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/model__0081.json",
+      "sha256": "cfc6c87ca35bc186e9e035c5455a7e5407da423025109325a4fda59534f8fde2",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/model__0082.json",
+      "sha256": "c59934e402175d9bb04d2e4f4956a5bff7934e8e04341f9bf1f62f3020bed532",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/model__0083.json",
+      "sha256": "4f59bc46f777a7758959e9e842964eb5c64d79cf8a5e99e7112085e310a2cb7e",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/model__0084.json",
+      "sha256": "4e16bb70f4e82f7349adac8bdb05d8b33f3fa970af84141561cf9c4d4afba16f",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/model__0085.json",
+      "sha256": "6791563dac068c53ce03f0c31ba944c2a820dcaf6cc92b4df8d7d92110b94292",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/model__0086.json",
+      "sha256": "88e97582734619cd2acb62df3382efcd406ba1220265fac4b93c85e148bd13e4",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/model__0087.json",
+      "sha256": "5b9f8f4bfba0730bcc16f967b2a3cbf5a6c0b85ebb194deafcd412d7417a1dfe",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/model__0088.json",
+      "sha256": "83b8036ddb65b15e067e926c193f6983d6f32418e7f606bfb21d41bf97c17a07",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/model__0089.json",
+      "sha256": "9467dd6fef9d1a709943c18a4e1ab58d833dbdbb03faaff6645b098bb8107ce3",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/model__0090.json",
+      "sha256": "ecbfc69825877b004633ea63a7219625858a9d73fe8519acd08ad8a049fe5189",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/model__0091.json",
+      "sha256": "c9d3b9bbfa1b2ebd4834939b5b8dcb1f15529b797b95c36da35cb21ebc0138fe",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/model__0092.json",
+      "sha256": "d2f79a17a1c3a90c9d456c1778c190e392f0ea77d0ddbefe71ed6059074e3556",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/model__0093.json",
+      "sha256": "bf443f8c131d479250266ef623a35c44bf05a9141411b925b0f1b013e3d09451",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/model__0094.json",
+      "sha256": "e83aaf9fb3329970a029077c6b35dc4e54a5cecf731f259b7f53f796d6b8015c",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/model__0095.json",
+      "sha256": "18ca5617eb094fe1df76e14d6363a39da3c1e8c1955baebe45ec07a655d6b10d",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/model__0096.json",
+      "sha256": "dc6f4d12f40a567a1591e57dc102d15b3e33ec798fa4d4b05f26101d4187545f",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/model__0097.json",
+      "sha256": "edf6b9ce6e8efa9fa46b7fb601a54d05f66898c7fb4205d55a31392a21eff7d8",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/model__0098.json",
+      "sha256": "a0dd996b9e2cc8441804865cf00b9b26304068f367bf45fdc7f074c2c85eba95",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/model__0099.json",
+      "sha256": "f633b56414fae40f3a1ecee19cae0db6490d0b093288fa69dabf00c0a953d914",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/model__0100.json",
+      "sha256": "e540ca108a85694821fff0ebc422b074c3928c3323cb75d3ecfcf375cda52190",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/model__0101.json",
+      "sha256": "4ae1f7095d63688996581cc80d6bd144efbbf036bb05bda3fcf8abc6f1883aa6",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/model__0102.json",
+      "sha256": "e57ddb1743a2e5f40740359aea1a4f6f15f2e909f0ed1c58ef842d471b74bc6e",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/model__0103.json",
+      "sha256": "3e9505d09861073093a17d385ca34b2e4473ff0177bd1593ac9536702ebe5f31",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/model__0104.json",
+      "sha256": "b7e875b098cbc26cfdf9da41aa4b81a6879857d33e12090d5027a6e26a6bd110",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "aliases/model__0105.json",
+      "sha256": "252228b5b34a7741c267931feb2924abce111b6545b9cb5817c85686a45a1f5f",
+      "record_type": "entity_alias",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-amd-radeon-rx-6400-desktop-global.json",
+      "sha256": "f7a49445da4c81078be8060ae32eec6f21a4dcce2c761d7fb2bee547563638de",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-amd-radeon-rx-6500-xt-desktop-global.json",
+      "sha256": "a94c9f2dd8b46ba4ca2c9f51e9c89a47424c37f10e3e083b97a38dedfe7b2268",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-amd-radeon-rx-6600-desktop-global.json",
+      "sha256": "db677746ac5b654cff3c07b7b7a13a87e9c84a61250b1f1ae998db3105e89235",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-amd-radeon-rx-6600-xt-desktop-global.json",
+      "sha256": "0d63420415e6d7bd34486783ba4ffa2c0e21ca48fa963cf55e4a496460508c79",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-amd-radeon-rx-6650-xt-desktop-global.json",
+      "sha256": "b318c9ff274c62e2cc5e8682e104295e39c1bcb62e4e7a50f9c0dbe3c1f00517",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-amd-radeon-rx-6700-desktop-global.json",
+      "sha256": "b32f339a2b09a8fae3d9578108e032536301e4d27834da7811b2782e2e02612e",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-amd-radeon-rx-6700-xt-desktop-global.json",
+      "sha256": "56f988088c4880933b83d9fc2d7947dd81be325a5db3e4df35ec733b3d7c38b1",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-amd-radeon-rx-6750-xt-desktop-global.json",
+      "sha256": "cee63a0a502bc17eb2cd9e892e08143211ceef33ef85c50f8ee5e2309cad52d6",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-amd-radeon-rx-6800-desktop-global.json",
+      "sha256": "a89f09d025bd7ef010dc9d1d2fda24b2d230408ad5b1c2a655a6eaf592ef6ef7",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-amd-radeon-rx-6800-xt-desktop-global.json",
+      "sha256": "6730cc9dc18259b0ee6a7a6053655247d796ffa7d92a54bd6647ea44a48b4b8d",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-amd-radeon-rx-6900-xt-desktop-global.json",
+      "sha256": "9a72eb0b70bb8287fb6dad7f0add91128d61167d4479140115796ece242469c9",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-amd-radeon-rx-6950-xt-desktop-global.json",
+      "sha256": "b6edfcb68ffb7e390a71115a85b44795002addb7f0bb1ff76aa6329b5534ab89",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-amd-radeon-rx-7600-desktop-global.json",
+      "sha256": "f3f6b611c72223b1d9166f34a8fdcefa8b85dd239207cd20b41a8b637df37cca",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-amd-radeon-rx-7600-xt-desktop-global.json",
+      "sha256": "f31f87c0218b7717c728139b582906a8382a04195da6476081789aefe35820a9",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-amd-radeon-rx-7600m-xt-laptop-global.json",
+      "sha256": "9a602e56799827e1233c1643969d4d2d26755452444fb4fc913d8ccf098089d1",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-amd-radeon-rx-7700-xt-desktop-global.json",
+      "sha256": "6e7cbeced35881f5955510d5d28da937e241034cf0b3de06958f6adb6cf87983",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-amd-radeon-rx-7800-xt-desktop-global.json",
+      "sha256": "d16f9828fba27a00b83fb2967e432091d3266996a6f8a04e5ea1d9a45244ff84",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-amd-radeon-rx-7900-gre-desktop-global.json",
+      "sha256": "4aa7851f9a1915d4a4ef9bdc58d35b0a42b93feae5be53e13a9cfaffeb8554ba",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-amd-radeon-rx-7900-xt-desktop-global.json",
+      "sha256": "4396566ea7d4253d24607f736751d4abdc434cde5e17d050c9ab12e9243c8314",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-amd-radeon-rx-7900-xtx-desktop-global.json",
+      "sha256": "781149d02db85f8b13ac46bc4649101884d471e5d085daed8cbecfe6e1f40655",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-amd-radeon-rx-7900m-laptop-global.json",
+      "sha256": "4d61df5ea31343f26935ef206e1df21723eeb317e58d5e3c4a39a7eb1136b93b",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-amd-radeon-rx-9060-xt-8gb-desktop-global.json",
+      "sha256": "1437c7b0703778e67234a40e4e57d3c23ba44637fcac403b5e4bf6495f1bbfca",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-amd-radeon-rx-9070-desktop-global.json",
+      "sha256": "34cefb7b35128c58a529987baddc08f4d4fbac63d6a3a0a615f3c19f241fab47",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-amd-radeon-rx-9070-gre-desktop-global.json",
+      "sha256": "14743e3c44f8add7080e1ccb2cbe8b8ae03e695091589898098721f1d3a95614",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-amd-radeon-rx-9070-xt-desktop-global.json",
+      "sha256": "936094866a066250ad0e81dc01e3081c3c29266af593c86dd596d3b31090f44e",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-amd-ryzen-3-8300g-desktop-global.json",
+      "sha256": "592d67f9632d03b0e15d0258eb61d16005c04385b8de29de0ead293038522e1e",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-amd-ryzen-5-5500-desktop-global.json",
+      "sha256": "dcce2f6e3c827e04703b7bc827dbb6310a584229093a94e09ef1930143bd87b7",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-amd-ryzen-5-5500gt-desktop-global.json",
+      "sha256": "6e94e3ceb0fb7b0a5898c59d7a6919e89a931be429e1e48427253a2b42a38346",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-amd-ryzen-5-5500x3d-desktop-global.json",
+      "sha256": "2b7d52fb4c288a70487449e6f3c10c57d6d46d57b9922749033470917c6f861b",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-amd-ryzen-5-5600-desktop-global.json",
+      "sha256": "9039b4838d1d57c5d3e997e8e7a843111de1e7907fde1108ae4a320ecdad375d",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-amd-ryzen-5-5600f-desktop-global.json",
+      "sha256": "67fdee7209c2dccd776a580ca97ef505afe43a3ed7228a4707110e1ba3b3f96a",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-amd-ryzen-5-5600g-desktop-global.json",
+      "sha256": "ed78a7da6a10a3a6c8a9ceb41f2f42c68023c1175f327e1bf788ba31fe8e15c2",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-amd-ryzen-5-5600gt-desktop-global.json",
+      "sha256": "41e71549b9276801821cd518521233235aab822b737d017a8535e4e5f7511be7",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-amd-ryzen-5-5600t-desktop-global.json",
+      "sha256": "3ddca05f689b34d735eec42f136dfaaef3f5e8401ff640c9026034c8aadde92e",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-amd-ryzen-5-5600x-desktop-global.json",
+      "sha256": "eee95945c4f73e1c93f4fb69f24565626dad9ea8bca0e53b9c69f61c89c713ac",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-amd-ryzen-5-5600x3d-desktop-global.json",
+      "sha256": "f5e5879dc19d2d8f52cec7ca138529fd9496298d71a823e14963ad0332da91b9",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-amd-ryzen-5-7500f-desktop-global.json",
+      "sha256": "ed61f47c6f59306a38a1983997afc3bdf37ba435bf90efa5f7035ef78702320d",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-amd-ryzen-5-7500x3d-desktop-global.json",
+      "sha256": "020b1b93232ed9ea837abb596860840ac006999e2e2b49c9398f6fce1df5e111",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-amd-ryzen-5-7600-desktop-global.json",
+      "sha256": "b41e196dbb2ea703334d83881762300561542a53e45a3ba57b7cd430bd721d4a",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-amd-ryzen-5-7600x-desktop-global.json",
+      "sha256": "b005f5d0f8132661272fd75bedb70fdcc982055c5ef2dee3648adb63df3c753c",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-amd-ryzen-5-7600x3d-desktop-global.json",
+      "sha256": "85495b6999c184472ebab09281324d5975f34b3c5747bd81862fd1ae571f7623",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-amd-ryzen-5-7640hs-laptop-global.json",
+      "sha256": "988abaf924e89f4615cd99632ac61b198064176c9268ee09bc38ffa32c17d546",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-amd-ryzen-5-8400f-desktop-global.json",
+      "sha256": "a1bdfe29cb53f60972a83521cb275909633f70f7accdb7260616ebe0a774c12b",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-amd-ryzen-5-8500g-desktop-global.json",
+      "sha256": "d78fb03e97d9089b450ac0c17c049002ce12b454140694abc978011ad47defd4",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-amd-ryzen-5-8600g-desktop-global.json",
+      "sha256": "4c0a438ed4177d71175cc06ed13bf89dc3e66c4e498df78550d6b19dd2fc6dcf",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-amd-ryzen-5-8640hs-laptop-global.json",
+      "sha256": "7d8bad56b5b5c04b27205e2b8869994fb0efbfc656578909579c0ad3a3be006f",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-amd-ryzen-5-8645hs-laptop-global.json",
+      "sha256": "6358e7e189191677b47c0a658ca1628b12db083a817681dc4a565fa01d807e95",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-amd-ryzen-5-9600-desktop-global.json",
+      "sha256": "c6d26481c885319818d92718c1fd3a970e157bf7810bad5f8351f3fc7d17623e",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-amd-ryzen-5-9600x-desktop-global.json",
+      "sha256": "1b9b7132b73b0cd35ffdd2ddbaf03a2606c470c3b1e4d2d3e4dd382060c2b03e",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-amd-ryzen-7-5700-desktop-global.json",
+      "sha256": "fc7b99a4f2e495205616f17fb6bbb165bdef242780caa3f3ac77cfd4a65866da",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-amd-ryzen-7-5700g-desktop-global.json",
+      "sha256": "3e9b08f0671c938378217f1c79b8b34797b6316c5491ce53ea1e70da246a494b",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-amd-ryzen-7-5700x-desktop-global.json",
+      "sha256": "e63e1c080e753b24b253915aedc8643073522b95ecef7b5196de9a8b78d7a9ba",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-amd-ryzen-7-5700x3d-desktop-global.json",
+      "sha256": "54849603118f0d7a835bde7a32a44bd0e2eaeffddc00d9c5281c1c3f8b383534",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-amd-ryzen-7-5800x-desktop-global.json",
+      "sha256": "2b04b20f2321ce5125b66688838617bf837195b2d3b622ce4e4665c27c106eec",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-amd-ryzen-7-5800x3d-desktop-global.json",
+      "sha256": "c7fede665e69c6211689e2ed25879cf4bf84328531d3bc459b423a3892c1b582",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-amd-ryzen-7-7700-desktop-global.json",
+      "sha256": "081153c61b9c5ec2a0be25bdffce68fdaf2e1d0f6b4702af8c3f769ca759b86b",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-amd-ryzen-7-7700x-desktop-global.json",
+      "sha256": "5fdf3977162202cc34e3e76bb5e5fac95c8db4dbd9ae4cbe8edef1d209808b1f",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-amd-ryzen-7-7800x3d-desktop-global.json",
+      "sha256": "771bde945faf84a888a33a87469e184cbf6b660a78619066cdde4d347cc36f23",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-amd-ryzen-7-7840hs-laptop-global.json",
+      "sha256": "9e5989ef1b8837aa676ef01332dee99b8447e3acc937d571c0c7a7ce540fa8b7",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-amd-ryzen-7-8700f-desktop-global.json",
+      "sha256": "e00da46356bf9eb08790be9048c541e1c0db382515bcbef7019f1ff83d09951d",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-amd-ryzen-7-8700g-desktop-global.json",
+      "sha256": "85d108f9f7ce9e462c00c91efaab25608065a0f1bdcd90b447524cf5e1224ab8",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-amd-ryzen-7-8840hs-laptop-global.json",
+      "sha256": "d15cd25c97b50276d90cd6cd7b64faab263db9109f0e821dc111f277ea867c2f",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-amd-ryzen-7-8845hs-laptop-global.json",
+      "sha256": "690c5ff5b120d692a70fb7f3f0a65c2bce9f185bf15d6e56ccf0d6ee3cd5b723",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-amd-ryzen-7-9700x-desktop-global.json",
+      "sha256": "095f9defb63293496808c7395683755c8b794d8cce438619a5ea1f10a9fd6d3f",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-amd-ryzen-7-9800x3d-desktop-global.json",
+      "sha256": "050654bbcb8f1197ce2badfd02d7dba3d84ffe445fc75ce523baa689e90a1518",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-amd-ryzen-9-5900x-desktop-global.json",
+      "sha256": "f8d0fb608aa74b2aa6b9f3830cacf738d6238d49427dce25810c193bc548bfa3",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-amd-ryzen-9-5950x-desktop-global.json",
+      "sha256": "81463d7bab8da51122c3939154953738148c93c0b462b43c005e662d82b04004",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-amd-ryzen-9-7900-desktop-global.json",
+      "sha256": "67546d8330677cc4c2ce45ac127a060f805a1cc6a4071901a5e729bcfa8094f2",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-amd-ryzen-9-7900x-desktop-global.json",
+      "sha256": "e1f87e1214b1ffd63dc3ab6b8a26b9e7fb0aa1838bb1f7fec98b14ddea53431b",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-amd-ryzen-9-7900x3d-desktop-global.json",
+      "sha256": "8d0b31556917b8af6aa2b1d9af6dbc0bb5593e68ef22814b2c36e9a6dee6096c",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-amd-ryzen-9-7940hs-laptop-global.json",
+      "sha256": "7c1c5cf9c3e003341f08d802ab03e8fd4d8721f9447f769d2b6b0600c2ea807b",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-amd-ryzen-9-7945hx-laptop-global.json",
+      "sha256": "c5b2250f2cc4ddaf2b9660002912ba90826f85733077441eb6cf509d0c4a0625",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-amd-ryzen-9-7945hx3d-laptop-global.json",
+      "sha256": "6d9afa35a4964cd6013bde6b26659f7cc05bb921692ac9bc5710e938cb527303",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-amd-ryzen-9-7950x-desktop-global.json",
+      "sha256": "2737f1ff32e8262239aa73f7e9dff1fcfcc6bbff46d13bdf2c368ffc87b83d78",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-amd-ryzen-9-7950x3d-desktop-global.json",
+      "sha256": "2543011599a1148286265c5c79be6fc9f238a31dcf7108fda6d56e1a48e49b72",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-amd-ryzen-9-8945hs-laptop-global.json",
+      "sha256": "4de8bbf219469ad794f1790b1196c029eb6a02ad8d37b571e57f8b2325c14a8a",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-amd-ryzen-9-8945hx-laptop-global.json",
+      "sha256": "bb725aab01c766b0995df93da5e04d120f070c2438d60ca956c6989e8756d91a",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-amd-ryzen-9-9900x-desktop-global.json",
+      "sha256": "7d32a2192bb4103acbcd916724785b0f4dc0bc1100f379312910f5cd2eef7240",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-amd-ryzen-9-9900x3d-desktop-global.json",
+      "sha256": "87054f54287408b0d386eb722f6b08ad917b383c91b645473abdb17c5207917f",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-amd-ryzen-9-9950x-desktop-global.json",
+      "sha256": "c57338ede8942489acd3305a7ea3e1f27161340debe38a3f81dfb3f305bf8838",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-amd-ryzen-9-9950x3d-desktop-global.json",
+      "sha256": "276e1bb24f7e278c84da1360c2ca5f5ab60b386e9db484a39144971c69d55697",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-amd-ryzen-9-9955hx-laptop-global.json",
+      "sha256": "ccac2a1debbf19440b37ab4ccf2aa3806a2d527728bfed13239144387a2073bc",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-amd-ryzen-9-9955hx3d-laptop-global.json",
+      "sha256": "db151159bcd676d655e4490b86fce9fe72f2b678468cdd6d835e98de935ab9db",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-amd-ryzen-ai-5-340-laptop-global.json",
+      "sha256": "e35279108b00c0692d85820006f69dcb9511bc0828274a50806c38a80d48a0f7",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-amd-ryzen-ai-7-350-laptop-global.json",
+      "sha256": "3fc3cef8a8d1a2389d3ba1abc78f1f31436111c0a374cd1e17692d4a8c277e12",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-amd-ryzen-ai-9-365-laptop-global.json",
+      "sha256": "e7065882908a246c66f430933941fa239b0659f22c142881762b708496281813",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-amd-ryzen-ai-9-hx-370-laptop-global.json",
+      "sha256": "142f581e9bec78bee798c489cdbf35c2834d8b0991507db01a4a99ac9627603a",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-amd-ryzen-ai-max-385-laptop-global.json",
+      "sha256": "bc0cc5c7c909fbea5d3ed0489634b711ccf30e72040117f843e03db0a3c6294e",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-amd-ryzen-ai-max-390-laptop-global.json",
+      "sha256": "433db107bafdc58b1e03d2c72fe05ae2d0118ec581edb0494ad8c62e21a48a66",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-amd-ryzen-ai-max-395-laptop-global.json",
+      "sha256": "8b1985c346293a64a2d79fa73e4a1d35616b13a87b6d924839eba27465c8eb20",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-intel-arc-a310-desktop-global.json",
+      "sha256": "de61cad215cc8d752b91b2c94434d9f869b028703ec272ee63f10354851ebf70",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-intel-arc-a370m-laptop-global.json",
+      "sha256": "04ad467f6dca46fed8dfd75e3242fce664e330e76c433f8f2289896d2f54f7b2",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-intel-arc-a380-desktop-global.json",
+      "sha256": "f633d4e1ae47230f7b5e673068217949ceac5bcae5903f871f2b147dea91e588",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-intel-arc-a580-desktop-global.json",
+      "sha256": "b9fdb548b19a69dae5ebfe99af35141e796c70877fcb56bfe783920672a9891a",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-intel-arc-a730m-laptop-global.json",
+      "sha256": "fea9229c0d92bd9ebc2f2c12511d22b0d1d592b02b161c0594af72c7fd11eccd",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-intel-arc-a750-desktop-global.json",
+      "sha256": "6dc2ef24ff8c5ecb576da3886d94726ed50866f249151d67ca6aaa1c8cf75d1f",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-intel-arc-a770-16gb-desktop-global.json",
+      "sha256": "5f44eb8414ecdd36d9ef84fba63b9e49676773f16d0a438934f66dc57fcc8fd4",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-intel-arc-a770m-laptop-global.json",
+      "sha256": "edb9841c46b2f703abe8cbbc5f8c16820a3f4804f29f9f8fa19079e9ef7a84de",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-intel-arc-b570-desktop-global.json",
+      "sha256": "7c28bf752f149af1026d858ba93aefa5a4e6cb660ac4ebc479d7b1a0362d45f6",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-intel-arc-b580-desktop-global.json",
+      "sha256": "4e1ffd0a507b1355a8d372b7209e9bccf9b55991aa3ad6836564b074c7c61106",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-intel-core-i3-12100-desktop-global.json",
+      "sha256": "99b78081542f2eab5d564beff74e3570a01e296e429ef0d12b7b3a188a1cf81c",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-intel-core-i3-12100f-desktop-global.json",
+      "sha256": "800008bb6136b76aecb7103494dc72a78f14dbc6c310fd450f35deeb0cda3126",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-intel-core-i3-13100-desktop-global.json",
+      "sha256": "b4433d7a0a0fc700d24c578856d518aed1c5f1811ecccdd0cfa012e947cbd43b",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-intel-core-i3-13100f-desktop-global.json",
+      "sha256": "9b4759916c9eb064213c71323e384c81db836af051f536223b159e20ab7538c4",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-intel-core-i3-14100-desktop-global.json",
+      "sha256": "7c3bf622533e9e5903c9ecac98eb73b2d9aa48372edcb6fc4434a88254cf82d0",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-intel-core-i3-14100f-desktop-global.json",
+      "sha256": "43389147adf484240bf4cbcb01027ade6b730afc3bdc59e7109b86706238cc4b",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-intel-core-i5-12400-desktop-global.json",
+      "sha256": "b26376f18ef4727be1f661fd3f8267bd4a55f4d581a4c30173b089f2969e7b7c",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-intel-core-i5-12400f-desktop-global.json",
+      "sha256": "80eb345b2c59fbccdf3949e410437764f9551ef907218cb737f1570f68248ab9",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-intel-core-i5-12490f-desktop-global.json",
+      "sha256": "86a4cb3863fdedc33fb49f98c5a23f1645d7993b17494ae816d0a0faedb499ee",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-intel-core-i5-12500-desktop-global.json",
+      "sha256": "246dcb7e37959d7e79a49a1554465c8da747154e621a206021533d90e758164b",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-intel-core-i5-12600-desktop-global.json",
+      "sha256": "b5f56ce5e036a6914b7f7bfebcb19db39a8c0487dc5b1b050ca0bd03139dbe0b",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-intel-core-i5-12600k-desktop-global.json",
+      "sha256": "9be548e096b1957bb23bc548039cba7392e57aa0783a753aea879fe61d542a5c",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-intel-core-i5-12600kf-desktop-global.json",
+      "sha256": "6e60606c65a6468a9076f75d634181cf5f64b80ade703b727f7e625b0bf9050a",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-intel-core-i5-13400-desktop-global.json",
+      "sha256": "ad1cd2d1f1553d83927eeb338c4c2f41f4238ce7780db0d36b864735b6d9554b",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-intel-core-i5-13400f-desktop-global.json",
+      "sha256": "b0656ff24f58605b6f921229b1658cc28acfd10e5b1000735f57929dda65c65e",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-intel-core-i5-13400t-desktop-global.json",
+      "sha256": "bde31856b14b9775914dc0b9020799bdabed37f39da1a5b279d52450aa3bcc6d",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-intel-core-i5-13420h-laptop-global.json",
+      "sha256": "a74380312796777bed901690e32180a4192c68a11abc338a19e28113d4aec7b7",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-intel-core-i5-13500-desktop-global.json",
+      "sha256": "2db9c53be7af272ba9e00972e05261170f70c11d1f5312e5e4c5e49ff193ea18",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-intel-core-i5-13500h-laptop-global.json",
+      "sha256": "4850fb35b245239ea36e90e8caca553168518573f1b4cdefadbb41a2fad97806",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-intel-core-i5-13500t-desktop-global.json",
+      "sha256": "41c04c70f8fdfb306aa4340e3c3f8a01cbe3bbd9ffeb1ef0a04337a8423f400c",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-intel-core-i5-13600-desktop-global.json",
+      "sha256": "49ce2404c624916761e1cc9c225e3f3f4efab49e520aec9b0d50bacb74ebfc32",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-intel-core-i5-13600k-desktop-global.json",
+      "sha256": "0bc1d81d796205323a395485b56c45caa9bdf5c02e68e3cabb4a668200315565",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-intel-core-i5-13600kf-desktop-global.json",
+      "sha256": "c8c829662dfda0ccb65f2a313f7fd343af89832c9648536bf6c4818a899e0729",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-intel-core-i5-14400-desktop-global.json",
+      "sha256": "efa0b92e1360ef363d1aea88244ce797f927a28e94760d79a8b57a8c4cb490bd",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-intel-core-i5-14400f-desktop-global.json",
+      "sha256": "a898ace0703608504be4370eed6bca60b54ee09f75981ff296824bb8498bc750",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-intel-core-i5-14400t-desktop-global.json",
+      "sha256": "02966a76bd6e44cd27733558ababa5f40e58e65bc7fb02ddab8ed73d6d3b1b33",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-intel-core-i5-14500-desktop-global.json",
+      "sha256": "a826a8c707929d2416f3babcb8ee896c92937a49ad7979c854b1cda83357d14c",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-intel-core-i5-14500t-desktop-global.json",
+      "sha256": "7aea4068a621077e4bd7b871539e4b63020ffe698f3967c383c34cc112817d8c",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-intel-core-i5-14600-desktop-global.json",
+      "sha256": "2028d1b51d345e9901112cfb663f4db60e525b06a79fb01bba8d50ef31e7b4ec",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-intel-core-i5-14600k-desktop-global.json",
+      "sha256": "25eb83c5c8a1ab602346cf82b88fc06cab3507bdc8d3750edd6196ae302b35b3",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-intel-core-i5-14600kf-desktop-global.json",
+      "sha256": "af9c409de511d5f531a8372aba323d208f207e910733e704389ef86aacaa3ce8",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-intel-core-i7-12700-desktop-global.json",
+      "sha256": "73dea3ba604735c22e98d00d2aa1622aefad115b25b3c34d6ab84a1968312796",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-intel-core-i7-12700k-desktop-global.json",
+      "sha256": "a5bed125c5dc5b32ecb7d627771cf215efa533eb7d38813261875d3f62ed0d79",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-intel-core-i7-12700kf-desktop-global.json",
+      "sha256": "24dc2c26e748f1c79457ad2dd2f6a503e55f335130f29b655a4d1f68b66b874b",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-intel-core-i7-13650hx-laptop-global.json",
+      "sha256": "29fd7a6732d6847d8fab76e3695e6f7e388ccdf4cfceff7e31d7fae88659f592",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-intel-core-i7-13700-desktop-global.json",
+      "sha256": "d4777f885ad91bf40bc207e7201ebfd654b40c4a8f51397f2519b1a358af5ad8",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-intel-core-i7-13700f-desktop-global.json",
+      "sha256": "468e3640ffd920cf7cd5797768cb9f0e588b2afb072b802f105cd991c1fb96d3",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-intel-core-i7-13700k-desktop-global.json",
+      "sha256": "9b84347ff581a0be3e0d84518d31864305fe61d6c363be66196256c900f7baa1",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-intel-core-i7-13700kf-desktop-global.json",
+      "sha256": "e7faf417bfc526666080f9d1c4aedeffb39fb6f8bf108352222f3477cba35b95",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-intel-core-i7-13700t-desktop-global.json",
+      "sha256": "93271a4b6bfdc0452e86d6bd5915898e1ca70f0fb6aeb7af26a41a5ed0c9ea74",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-intel-core-i7-14650hx-laptop-global.json",
+      "sha256": "1afb7063cbac026495c2f53d7e8d43f0af88fe8ad909accf96117714de3af774",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-intel-core-i7-14700-desktop-global.json",
+      "sha256": "87c25cc920779bc02d269e1c19d2f443761c2ff37a4208e4886ce7d9fe135828",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-intel-core-i7-14700f-desktop-global.json",
+      "sha256": "04134db0681914fa98288bf9582a08dbfe2b3d6698b51d0cc1c484f7920edb05",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-intel-core-i7-14700hx-laptop-global.json",
+      "sha256": "92ef7779089f0960110656837f341dd7c0f03f725c9bd6172ccaa36f6cafe811",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-intel-core-i7-14700k-desktop-global.json",
+      "sha256": "b56683b34b0d1a29b51767a31bc9325327ad4d9bee0da7e40228d727a210a173",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-intel-core-i7-14700kf-desktop-global.json",
+      "sha256": "c6dce11a8d8946c47c361f9d4f19479b69f638e02254f6c57ea688dec75146ed",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-intel-core-i7-14700t-desktop-global.json",
+      "sha256": "9f6e7a77f2a8050d37b2762eeca6c2d1f83fd91f0b2b867d3a284f15a0ef7413",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-intel-core-i9-12900-desktop-global.json",
+      "sha256": "f4a8896155b21e2e947df7539a27a531f5e012fce0affea3b1ad82eb8193f81f",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-intel-core-i9-12900k-desktop-global.json",
+      "sha256": "75ecdee2584424e97cb2196ac2e276587f7966b9f2315addc6a9ac7bd8582ff9",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-intel-core-i9-12900kf-desktop-global.json",
+      "sha256": "df26b7dc796352b045fb3e43475e55395577e54897cc504bd6b07d4441dcb6c0",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-intel-core-i9-12900ks-desktop-global.json",
+      "sha256": "72ce4e26f9a7b5d73eca09ad59134af7436106fb0805ace63757f6efaa5a6224",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-intel-core-i9-13900-desktop-global.json",
+      "sha256": "8686a10a5b0da7030a06f00703c0eff8d849585d8e2ef45641f3702c4ca3e1ce",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-intel-core-i9-13900hx-laptop-global.json",
+      "sha256": "cca9e5a8b03d772b9268baf85ac703f0a4bafe9427e6915265242453c87cfb28",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-intel-core-i9-13900k-desktop-global.json",
+      "sha256": "ccb0d82d2f6e2d99d84e2f712ee33817130297ce8f3a01b32a170ccb325b66b4",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-intel-core-i9-13900kf-desktop-global.json",
+      "sha256": "5b74ebe6b10bf4c130778d5f85837c4247041be738eb57503ceaf2c5b0b70814",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-intel-core-i9-13900ks-desktop-global.json",
+      "sha256": "df702cd67ccfac947c9529afdfd80d3c126e398ad9eb954593a4f54b4767cb3c",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-intel-core-i9-13900t-desktop-global.json",
+      "sha256": "3e3c7df4924f879dcc9d24cbca7afd073f8d2fdbcb6c17e92f3c54562a32e258",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-intel-core-i9-13980hx-laptop-global.json",
+      "sha256": "64a05ef51f32ea11597c54a9fcc1aee988af7c9beec349f1c64a34c648436806",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-intel-core-i9-14900-desktop-global.json",
+      "sha256": "781224ac7fe6bd7ad7bae1cf24188dc022e7dcff95da4e735a6755c1cd8b1d50",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-intel-core-i9-14900f-desktop-global.json",
+      "sha256": "fd0c2675060079d33d6541418b4b3bbf07bc6e467fd2d6ace7f53c1ac966f73a",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-intel-core-i9-14900hx-laptop-global.json",
+      "sha256": "127c92f0e237fe08bfd241d3a3df3b09107497b0f518020fb7314aafac23e0c8",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-intel-core-i9-14900k-desktop-global.json",
+      "sha256": "51a1f8d9a3d41dfa8d9a856b8b5fe54a5d4fdd4c7120cbb3b8f910b4a9b0de1b",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-intel-core-i9-14900kf-desktop-global.json",
+      "sha256": "4a4e02c98b9f36f10750a48cc20510d641d74f4b5b76e73b4f8e8980089b9239",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-intel-core-i9-14900ks-desktop-global.json",
+      "sha256": "a9502883576983de18f66cadcda6d04427313e29cb047151e7f9407b82577d76",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-intel-core-i9-14900t-desktop-global.json",
+      "sha256": "cf18d264443871387cc3f7ecb06bea8d8ae5c5eb720a59563cee26f4b388ef5b",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-intel-core-ultra-5-125h-laptop-global.json",
+      "sha256": "a84ae508dd2ae5b69c78a0311778fcc74a6737923096de156898272a3600028f",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-intel-core-ultra-5-225-desktop-global.json",
+      "sha256": "545082affc789eff59de214405dcb7f560029cf78fd2ea4b2fb4ca20948799ed",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-intel-core-ultra-5-225f-desktop-global.json",
+      "sha256": "1faad0b07c08603cb92a3ca8fc3d628ab1d9a1a15b25ad18d5808fdfe49bdf4a",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-intel-core-ultra-5-225h-laptop-global.json",
+      "sha256": "38da5fdb38aec7f6bbdff9e7ace88d2282bff444ffcf4842df4d124e7c062304",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-intel-core-ultra-5-225t-desktop-global.json",
+      "sha256": "db38adce0b9fbb03caa8c42368602cf092433cf5a86caffada4509704e54ac49",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-intel-core-ultra-5-228v-laptop-global.json",
+      "sha256": "0f7204cc3413178f21de170e02ceb62e88fe636f70613966c3a89d5249fe679a",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-intel-core-ultra-5-235-desktop-global.json",
+      "sha256": "bf9466821b001b0c575e3524ccb4df89ce35977ee167c741805e073282af92ec",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-intel-core-ultra-5-235h-laptop-global.json",
+      "sha256": "3d9e082a030e31959419aa71ea31f0d75a4664a69efc79ed0313585346f1b3ae",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-intel-core-ultra-5-235t-desktop-global.json",
+      "sha256": "916b82b79689abf0a6f90345d66f307fa3bb159165746145213c1b72f6258d56",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-intel-core-ultra-5-245-desktop-global.json",
+      "sha256": "e7c2e3f965f20f732dc307bb9a7027b313f5f0cd768257299f9b1fac81c60b0c",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-intel-core-ultra-5-245k-desktop-global.json",
+      "sha256": "9ba4e2a800260a3f55a5c448113992390cd406dc1bb245a9cf42efc4fa316fb5",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-intel-core-ultra-5-245kf-desktop-global.json",
+      "sha256": "a5c9a50b0cfb14aeeaa729c0a5f81c594ec6543ae1156eefa3ed8aeb4e9d3912",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-intel-core-ultra-5-245t-desktop-global.json",
+      "sha256": "28fcebec54fa9f114cf857c0eafa0908458aa91dec232dd499c9ff5dd14d2071",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-intel-core-ultra-7-155h-laptop-global.json",
+      "sha256": "06773f669473e70851476e8c21f1ba7147cf94b96c89c0b25925e7fa77515b04",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-intel-core-ultra-7-255h-laptop-global.json",
+      "sha256": "d32bba76480eefd93d180ae7c437fbca5daccd36bb0b228f7c5eb107264fe7f2",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-intel-core-ultra-7-258v-laptop-global.json",
+      "sha256": "7a2f6c60f7595dd850132a2933735194f46dd2ef0b65674f1cd5ab4e4059fa12",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-intel-core-ultra-7-265-desktop-global.json",
+      "sha256": "b4933104f020e6d6760edb3d1748c71701a6ec89378cf70bd69e52445c55e353",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-intel-core-ultra-7-265f-desktop-global.json",
+      "sha256": "a1247d1d7a3c4ea3a0da1ba2ffd437994c477d0aa4a76554242cd7129ce2a09c",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-intel-core-ultra-7-265h-laptop-global.json",
+      "sha256": "8539821c3032e5fbde9c08d8d1bfb4e4da80f2f8b6f388d158e7f07af02103f6",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-intel-core-ultra-7-265k-desktop-global.json",
+      "sha256": "95512eea1537662555731cc0e5f7697e30366188f693f678e000f2a2b1cc807d",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-intel-core-ultra-7-265kf-desktop-global.json",
+      "sha256": "db98a29b90b8fb99cab5ea3658f4d24950019bf385be5694e82fad8a8b632ea9",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-intel-core-ultra-7-265t-desktop-global.json",
+      "sha256": "81268370766cb53fff1dbdd4354649d6098eac69d9ad1eef8911049795a266d6",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-intel-core-ultra-7-268v-laptop-global.json",
+      "sha256": "3163cb17ecef6f7744fa3a1af7306278a2b182befa561f88fa5372dd13076aec",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-intel-core-ultra-9-185h-laptop-global.json",
+      "sha256": "baa38834082f5913ce956a7e4e89957cf8a5f1d97ccb9498f882e1f1f9b48ff6",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-intel-core-ultra-9-275hx-laptop-global.json",
+      "sha256": "00199aad1d6c5a1ee9dc33238baf830a66d40e2e905d555eadd9f6624bee00df",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-intel-core-ultra-9-285-desktop-global.json",
+      "sha256": "5e9c191941e037ec070707e65fd67e0c60361426f4ebe9dd72bcdf06bad8230d",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-intel-core-ultra-9-285h-laptop-global.json",
+      "sha256": "b42468088dd3c25a3f65032c8f210906146eb08c62197195ec54bf33c7b23033",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-intel-core-ultra-9-285hx-laptop-global.json",
+      "sha256": "7f8e5555c4ad851e3f7db15be261e24c6745e1c697c6932a158291b8b4ce48d3",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-intel-core-ultra-9-285k-desktop-global.json",
+      "sha256": "f4a31de906d22d061c0ac6e904f15f01329e4ba21948bb6d208248bd660c2f37",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-intel-core-ultra-9-285t-desktop-global.json",
+      "sha256": "b516f4ffe7ba3b651d1c241d48bc5eb7eee67b8c08009bdac57a3bbfcdc52d08",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-intel-core-ultra-9-288v-laptop-global.json",
+      "sha256": "9ccc59c429d9684c7c7131b6d316faeb5b4076d261cfbaa37d6745141a344265",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-nvidia-geforce-rtx-3050-6gb-desktop-global.json",
+      "sha256": "dbef6439fb173bb3e39e1d6a4771cf8d45dc09df5542bbdabe1e6673cbe6b089",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-nvidia-geforce-rtx-3050-laptop-laptop-global.json",
+      "sha256": "e276a0ec3df456e2a3d469e9bd3b798b02b2c89d5231c59258284a4cc201fd2f",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-nvidia-geforce-rtx-3060-8gb-desktop-global.json",
+      "sha256": "7c1451f92cbaf153cd69214831a37d663541cc5953a867fabb625346f91e1504",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-nvidia-geforce-rtx-3060-desktop-global.json",
+      "sha256": "2396140f7191748d7262b5d2b132e41d7b689a68a3e3abb76f7076ba21b3ee3a",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-nvidia-geforce-rtx-3060-laptop-laptop-global.json",
+      "sha256": "e554b0362b9a9ce69de3889bc13c3c41dee8a3f0fc4bf1f9c08380f523a4f895",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-nvidia-geforce-rtx-3060-ti-desktop-global.json",
+      "sha256": "9a266d2df1c5a18b6ca259a6175bd6fd22296a5f5a041c928cb72cf366082f70",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-nvidia-geforce-rtx-3070-desktop-global.json",
+      "sha256": "967dcbf65dfea25163832f55e8d09e8352448326af0ec2c6fe4e507f0cd029f3",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-nvidia-geforce-rtx-3070-laptop-laptop-global.json",
+      "sha256": "e72af9566b4dd3bbac385d3310425e1cdaf5462a63eee8d9759dbf1ae3fb1863",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-nvidia-geforce-rtx-3070-ti-desktop-global.json",
+      "sha256": "ab905b78d1729af983e468e504865e5cb2f03e5803f1104e3944da547dc657c3",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-nvidia-geforce-rtx-3070-ti-laptop-gpu-laptop-global.json",
+      "sha256": "86befd0eaf9b197a2c79a0b98f71fe9ddc653f229075474cfbb48a238e5297d2",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-nvidia-geforce-rtx-3080-12gb-desktop-global.json",
+      "sha256": "92c0fd886579db284d46eb740320f50c12fcbb8ad01bf3759c27f5fccac99ee3",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-nvidia-geforce-rtx-3080-desktop-global.json",
+      "sha256": "677049bc000ffa72e140fd703fdd76cea8c1a10fc5b5c31f4d0012698896ab53",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-nvidia-geforce-rtx-3080-laptop-laptop-global.json",
+      "sha256": "dee36286a093a33c04981ecc48dc50d4d9a42c7bfbeadf7a33ac82590fb91484",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-nvidia-geforce-rtx-3080-ti-desktop-global.json",
+      "sha256": "b08f1756f677398db0157bb0c24eec4a783b9f883c1b892656ff9e2524e83066",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-nvidia-geforce-rtx-3080-ti-laptop-laptop-global.json",
+      "sha256": "1edd6dcba1090a79541ac7f1cd327890e66e98c204b38b776ff409134ac7e0c6",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-nvidia-geforce-rtx-3090-desktop-global.json",
+      "sha256": "93dc5e613c3c9211d123b7f19467a800ec0f5c9f27bdf2319d806ebdd669821d",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-nvidia-geforce-rtx-3090-ti-desktop-global.json",
+      "sha256": "df36fc45367e2e55b54eab2d3047dbd98e2cdd392d7c06c94ef8a107686dae51",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-nvidia-geforce-rtx-4050-laptop-laptop-global.json",
+      "sha256": "6cfda88dd18f8f6e094c86f1a1053b53207ee466363d6f6a73b6de40666f73c5",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-nvidia-geforce-rtx-4060-desktop-global.json",
+      "sha256": "9e914ad423a40b8349e6f2684ed661a6d3c523257c13c9b8ad721113063862b8",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-nvidia-geforce-rtx-4060-laptop-laptop-global.json",
+      "sha256": "43b1f0dc6bcdd9c5df204fbae349f103ba14a35789274a7bd3a368496e030ad9",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-nvidia-geforce-rtx-4060-ti-16gb-desktop-global.json",
+      "sha256": "2265b6410c62fd846c160796182df332bbfe2fe83c5a31187853d5f6d689cb18",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-nvidia-geforce-rtx-4060-ti-8gb-desktop-global.json",
+      "sha256": "5ff16b7e8d9a8c560f4d6a77729a10a522573f0878af3835f5d7fba46d315b6a",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-nvidia-geforce-rtx-4070-desktop-global.json",
+      "sha256": "7238b3b6bc19b44e68f29a2f5a937839c567dac997c259f782a27f2bee08f23c",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-nvidia-geforce-rtx-4070-laptop-laptop-global.json",
+      "sha256": "e9b408b8cbee4b988151db9d9c18b393c574df12667df2c7a5b1fb26934bc269",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-nvidia-geforce-rtx-4070-super-desktop-global.json",
+      "sha256": "366400abb15983662f52c3fe8f93666e0d5cc032a905c54b17f21316a76ef1a6",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-nvidia-geforce-rtx-4070-ti-desktop-global.json",
+      "sha256": "7a90bfedd36df667469b6df79c91b328b41ee24e188c08e1112645dfc3848c64",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-nvidia-geforce-rtx-4070-ti-super-desktop-global.json",
+      "sha256": "e8777aa995d5c591246846b186976709b9a4e36bc662b179b78192bc6f07f40f",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-nvidia-geforce-rtx-4080-desktop-global.json",
+      "sha256": "d94f44bd4b9466f75eb6a7e3912265db00b0519134cb82bfd34d05c375dcde24",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-nvidia-geforce-rtx-4080-laptop-laptop-global.json",
+      "sha256": "df8ca7132d0ca3eefe62074316d44c95cb5ea717d81ea7911503b459e8e98f7c",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-nvidia-geforce-rtx-4080-super-desktop-global.json",
+      "sha256": "1989764c343dfc257daf3580a3a0adc681711ce0ffd1f8626348e8f21d216aff",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-nvidia-geforce-rtx-4090-d-desktop-global.json",
+      "sha256": "ceba99a8c9ef05dc094cdf97263f483cc9ea8a7469755465fdc9caa5c953462f",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-nvidia-geforce-rtx-4090-desktop-global.json",
+      "sha256": "ceffcaa8002f954c8d00f1ea9fb051b2132e3e04ef6157be6335502af90062fd",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-nvidia-geforce-rtx-4090-laptop-laptop-global.json",
+      "sha256": "622e2c4d86036e4d946e90f83b4eb2ac78a3e8b9758add7dbc709f97de67f72c",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-nvidia-geforce-rtx-5050-desktop-global.json",
+      "sha256": "eda7b7568e54fe8e5f251609008d392411066601deb1f5cee2890d7adb8dc7f7",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-nvidia-geforce-rtx-5050-laptop-gpu-laptop-global.json",
+      "sha256": "e08a2186ed949fc171677ef38cb387eafd157729d10b3afe3a26979e6dc7f68d",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-nvidia-geforce-rtx-5060-desktop-global.json",
+      "sha256": "6b839dc81fc64ad2e6012532f231e16b0f03caa1fdbd7194cd39df15403c8058",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-nvidia-geforce-rtx-5060-laptop-laptop-global.json",
+      "sha256": "2e94a1e3a7c9424083fd01fb53c478da67217396eebeba885847cbf8c41bb35f",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-nvidia-geforce-rtx-5060-ti-16gb-desktop-global.json",
+      "sha256": "bb803b15d7361db93e7598a49c8684f90df9f91054c4f0465a768a1e37892f14",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-nvidia-geforce-rtx-5060-ti-8gb-desktop-global.json",
+      "sha256": "0e63af7dcdfe5b893557d87395b7926f066942a0c5b651020edcfd063512ff3f",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-nvidia-geforce-rtx-5070-desktop-global.json",
+      "sha256": "c368d468448be821b3eace5aaf4419cf1aa02d5c1245f5dd3f165af3c9fb26c5",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-nvidia-geforce-rtx-5070-laptop-laptop-global.json",
+      "sha256": "08abceebb0b64895020176624eb82c1702dcadb9756ad206559e0f99fa5d95a1",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-nvidia-geforce-rtx-5070-ti-desktop-global.json",
+      "sha256": "38f7339ff6d1d17151ea1fc70d23d14593f48d29d3a7093e341cd8bb51e6a809",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-nvidia-geforce-rtx-5070-ti-laptop-gpu-laptop-global.json",
+      "sha256": "05170888179901d04acbcf2278c920eed31428e2ecd1d52e6b781a8bd22a6c06",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-nvidia-geforce-rtx-5080-desktop-global.json",
+      "sha256": "f218089049fb2b3e97cc1def260daf1f23e926a939cb00cee51b2e62d5b8334f",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-nvidia-geforce-rtx-5080-laptop-laptop-global.json",
+      "sha256": "4a59e11385d353054b1f145ebe82628d36937d34fd97b44824c9f4a63e465ac1",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-nvidia-geforce-rtx-5090-desktop-global.json",
+      "sha256": "71beb0a48735dab0f44c84fffd5b590e2f5dd6bb95e8b0e417924b2d23d2f666",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-nvidia-geforce-rtx-5090-laptop-laptop-global.json",
+      "sha256": "7bc4dbcac2a8f08fd1ff0d46207b8c9389028cee16d1fe4bb5bd23ba68cd2687",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "benchmarks/hw-nvidia-geforce-rtx-5090d-desktop-global.json",
+      "sha256": "fec335a63836431865360e52d47fbc6d6ad7818ca23645b44d0b24659d14da81",
+      "record_type": "benchmark_run",
+      "status": "accepted"
+    },
+    {
+      "path": "metrics/passmark.cpu.mark.json",
+      "sha256": "124bd1d76f0a9746d5ec2859cc3ef51a07cf37a032773bec940ccbdba4038865",
+      "record_type": "metric_definition",
+      "status": "accepted"
+    },
+    {
+      "path": "metrics/passmark.cpu.rank_class.json",
+      "sha256": "74163ff2ef1f16e1e50528e7ef90ecd8dcd43049d18374f410ccbcd47584a9f7",
+      "record_type": "metric_definition",
+      "status": "accepted"
+    },
+    {
+      "path": "metrics/passmark.cpu.rank_multi.json",
+      "sha256": "e9875255685795382f049d79f2e7976d0a482f8219f7982989755aa4fa6d1d1f",
+      "record_type": "metric_definition",
+      "status": "accepted"
+    },
+    {
+      "path": "metrics/passmark.cpu.rank_single.json",
+      "sha256": "46eb6da859455cb1f337751cfcf8873f9ddca3dbbe706b930b65f44f5e20a730",
+      "record_type": "metric_definition",
+      "status": "accepted"
+    },
+    {
+      "path": "metrics/passmark.cpu.single_thread.json",
+      "sha256": "12b9e52d403f494f01b4ce3e84ab249a3325de8870f8dd303ab0ab3c262af4b0",
+      "record_type": "metric_definition",
+      "status": "accepted"
+    },
+    {
+      "path": "metrics/passmark.gpu.g3d_mark.json",
+      "sha256": "2b5bb5aef700b0412f2a2847004fcf5df54c09c0c2bd2a98fcdb33290f24a430",
+      "record_type": "metric_definition",
+      "status": "accepted"
+    },
+    {
+      "path": "metrics/passmark.gpu.rank.json",
+      "sha256": "f0a497b0bb7c88c7f8a7e7296c6313b636dbf8b1bef0c5032c658982a482d390",
+      "record_type": "metric_definition",
+      "status": "accepted"
+    },
+    {
+      "path": "organizations/org_passmark.json",
+      "sha256": "c40104ba58c9fdea08f14feffd4a099cfee72d868a0a16063e5bc385afbbd070",
+      "record_type": "organization",
+      "status": "accepted"
+    },
+    {
+      "path": "protocols/passmark-cpu-models.json",
+      "sha256": "303d202001e9973c07a2a3342a1279db738594aa100d37faa2aff1eca3e94198",
+      "record_type": "benchmark_protocol",
+      "status": "accepted"
+    },
+    {
+      "path": "protocols/passmark-gpu-list.json",
+      "sha256": "b57f345d7d20b1c0ce04a85e162b148ea27d53080ef393084dc5abc214a87b94",
+      "record_type": "benchmark_protocol",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/src_passmark_cpu-models-2026-09-16.json",
+      "sha256": "7b48748c5900909e459805800c4bb907e4580a78f8482f2c64650adb52801e1c",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/src_passmark_gpu-list-2026-09-16.json",
+      "sha256": "7bdb391aa66fd0aac4fa8e30a2dd005ba50cb4233a1d1098115c2042a638cca9",
+      "record_type": "source_document",
+      "status": "accepted"
+    }
+  ]
+}

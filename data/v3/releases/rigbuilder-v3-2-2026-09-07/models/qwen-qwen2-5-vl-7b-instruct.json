@@ -1,0 +1,67 @@
+{
+  "schema_version": "3.2",
+  "record_type": "model",
+  "status": "accepted",
+  "payload": {
+    "identity": {
+      "entity_key": "model:qwen:qwen2-5-vl-7b-instruct",
+      "canonical_name": "Qwen2.5-VL-7B-Instruct",
+      "entity_type": "ai_model",
+      "release_date": null,
+      "lifecycle_status": "unknown",
+      "recommendable": true
+    },
+    "publisher_key": "org:qwen",
+    "release_version": null,
+    "model_type": "dense",
+    "total_parameters": null,
+    "active_parameters": null,
+    "model_stage": "instruct",
+    "context_length_tokens": null,
+    "license_name": "Apache-2.0",
+    "commercial_use_status": "allowed",
+    "official_repo_url": null,
+    "official_model_card_url": null,
+    "architecture_notes": null,
+    "capabilities": [
+      {
+        "capability_key": "text_input",
+        "status": "supported",
+        "notes": "官方模型卡：image-text-to-text"
+      },
+      {
+        "capability_key": "vision_input",
+        "status": "supported",
+        "notes": "官方模型卡：视觉输入（image-text-to-text pipeline_tag）"
+      }
+    ],
+    "variants": [],
+    "evidence": [
+      {
+        "source_key": "source:qwen-qwen2.5-vl-7b-card",
+        "field_key": "entity.canonical_name",
+        "normalized_value": "Qwen2.5-VL-7B-Instruct",
+        "raw_excerpt": "Qwen2.5-VL-7B-Instruct",
+        "provenance_key": "official",
+        "review_status": "accepted",
+        "reviewed_at": "2026-09-07T00:00:00Z"
+      },
+      {
+        "source_key": "source:qwen-qwen2.5-vl-7b-card",
+        "field_key": "model.license_name",
+        "normalized_value": "Apache-2.0",
+        "raw_excerpt": "Apache-2.0",
+        "provenance_key": "official",
+        "review_status": "accepted",
+        "reviewed_at": "2026-09-07T00:00:00Z"
+      }
+    ],
+    "family": "Qwen2.5-VL"
+  },
+  "review_notes": [
+    "值未逐字读取官方页面确认，retrieved_at 为占位时间，须由实际访问者替换。",
+    "total_parameters / 部分 context_length_tokens 置 null：以官方 config/模型卡为准，不采用宣传 B 值猜测。",
+    "变体 file_size_bytes 置 null：需读取仓库 Files 元数据补真实字节。",
+    "视觉多模态（首个）：本批未录变体——VL 的 GGUF 支持不成熟（社区有 DhruvalLabs 等），待确认后单独补；上下文长度待模型卡确认。"
+  ]
+}

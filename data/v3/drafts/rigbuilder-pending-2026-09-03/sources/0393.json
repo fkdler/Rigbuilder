@@ -1,0 +1,24 @@
+{
+  "schema_version": "3.2",
+  "record_type": "source_document",
+  "status": "pending",
+  "payload": {
+    "source_key": "src:card:hunyuan3d-2",
+    "title": "Hunyuan3D-2 Model Card",
+    "url": "https://huggingface.co/tencent/Hunyuan3D-2",
+    "publisher_key": "org:tencent",
+    "source_type": "model_card",
+    "source_tier": "A",
+    "published_at": null,
+    "market_region": null,
+    "language": null,
+    "availability_status": "accessible",
+    "archive_url": null,
+    "accessed_at": "2026-09-15T11:33:29+00:00",
+    "content_hash": "3393f48b558693c5b89d49bccd56fb0d72b0c07452931fffd628a01a0145503d"
+  },
+  "review_notes": [
+    "多模态模型来源登记（2026-09-07）：pending。",
+    "2026-09-15 经镜像抓取：https://hf-mirror.com/tencent/Hunyuan3D-2（来源登记 URL 保持原样 https://huggingface.co/tencent/Hunyuan3D-2）。"
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "schema_version": "3.2",
+  "record_type": "organization",
+  "status": "accepted",
+  "payload": {
+    "identity": {
+      "entity_key": "org:hardquery",
+      "canonical_name": "HardQuery (third-party hardware database)",
+      "entity_type": "organization",
+      "release_date": null,
+      "lifecycle_status": "active",
+      "recommendable": false
+    },
+    "website_url": "https://hardquery.com",
+    "organization_type": "third_party_database",
+    "country_or_region": null,
+    "evidence": [
+      {
+        "source_key": "src:org:hardquery",
+        "field_key": "entity.canonical_name",
+        "normalized_value": "HardQuery (third-party hardware database)",
+        "provenance_key": "community_reported",
+        "raw_excerpt": "HardQuery (third-party hardware database)",
+        "review_status": "accepted",
+        "reviewed_at": null
+      }
+    ]
+  },
+  "review_notes": [
+    "组织补充批（2026-09-07）：为新增模型/第三方来源登记；未挂 evidence，待来源核验。",
+    "2026-09-07 evidence 补全：挂 canonical_name 证据（来源见 sources）。",
+    "Approved in bulk on 2026-09-16 at the user's explicit request; no per-record human review."
+  ]
+}

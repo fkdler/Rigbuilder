@@ -1,0 +1,16 @@
+{
+  "schema_version": "3.2",
+  "record_type": "metric_definition",
+  "status": "accepted",
+  "payload": {
+    "metric_key": "passmark.cpu.single_thread",
+    "label": "PassMark CPU single thread rating",
+    "value_type": "number",
+    "canonical_unit": "points",
+    "higher_is_better": true,
+    "description": "PassMark single-thread rating; the figure that tracks latency-bound work such as most games.",
+    "comparison_scope": "cpu",
+    "active": true
+  },
+  "review_notes": []
+}

@@ -1,0 +1,79 @@
+{
+  "schema_version": "3.2",
+  "record_type": "model",
+  "status": "accepted",
+  "payload": {
+    "identity": {
+      "entity_key": "model:internlm:internlm3-8b-instruct",
+      "canonical_name": "internlm3-8b-instruct",
+      "entity_type": "ai_model",
+      "recommendable": true
+    },
+    "official_repo_url": "https://huggingface.co/internlm/internlm3-8b-instruct",
+    "official_model_card_url": "https://huggingface.co/internlm/internlm3-8b-instruct",
+    "license_name": "Apache-2.0",
+    "commercial_use_status": "unknown",
+    "variants": [],
+    "evidence": [
+      {
+        "source_key": "source:hf-api-review-20260915:internlm/internlm3-8b-instruct",
+        "field_key": "entity.canonical_name",
+        "normalized_value": "internlm3-8b-instruct",
+        "raw_excerpt": "internlm/internlm3-8b-instruct",
+        "source_locator": "$.id (repository basename)",
+        "provenance_key": "official",
+        "review_status": "accepted",
+        "reviewed_at": "2026-09-15T11:31:42.209973+00:00"
+      },
+      {
+        "source_key": "source:hf-api-review-20260915:internlm/internlm3-8b-instruct",
+        "field_key": "model.license_name",
+        "normalized_value": "Apache-2.0",
+        "raw_excerpt": "apache-2.0",
+        "source_locator": "$.cardData.license (SPDX casing normalized)",
+        "provenance_key": "official",
+        "review_status": "accepted",
+        "reviewed_at": "2026-09-15T11:31:42.209973+00:00"
+      },
+      {
+        "source_key": "source:hf-api-review-20260915:internlm/internlm3-8b-instruct",
+        "field_key": "model.total_parameters",
+        "normalized_value": 8804241408,
+        "raw_excerpt": "8804241408",
+        "source_locator": "$.safetensors.total",
+        "provenance_key": "official",
+        "review_status": "accepted",
+        "reviewed_at": "2026-09-15T11:31:42.209973+00:00"
+      },
+      {
+        "source_key": "source:hf-api-review-20260915:internlm/internlm3-8b-instruct",
+        "field_key": "model.capability.text_input",
+        "normalized_value": "supported",
+        "raw_excerpt": "text-generation",
+        "source_locator": "$.pipeline_tag",
+        "provenance_key": "official",
+        "review_status": "accepted",
+        "reviewed_at": "2026-09-15T11:31:42.209973+00:00"
+      }
+    ],
+    "capabilities": [
+      {
+        "capability_key": "text_input",
+        "status": "supported",
+        "notes": "Official repository pipeline_tag: text-generation"
+      }
+    ],
+    "attributes": [
+      {
+        "field_key": "model.capability.text_input",
+        "value_text": "supported"
+      }
+    ],
+    "total_parameters": 8804241408
+  },
+  "review_notes": [
+    "User authorized reviewed import on 2026-09-15. Official repository metadata re-fetched and checked.",
+    "Only identity, explicit license, reported safetensors total and pipeline-derived supported capability fields are admitted; unverified draft release date, context length, commercial permission and variants are omitted for new models.",
+    "Pipeline is evidence of declared task support, not benchmark or device compatibility. A different pipeline does not prove unsupported modalities."
+  ]
+}

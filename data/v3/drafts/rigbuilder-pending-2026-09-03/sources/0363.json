@@ -1,0 +1,24 @@
+{
+  "schema_version": "3.2",
+  "record_type": "source_document",
+  "status": "pending",
+  "payload": {
+    "source_key": "src:card:cogvideox-5b",
+    "title": "CogVideoX-5B Model Card",
+    "url": "https://huggingface.co/THUDM/CogVideoX-5b",
+    "publisher_key": "org:thudm",
+    "source_type": "model_card",
+    "source_tier": "A",
+    "published_at": null,
+    "market_region": null,
+    "language": null,
+    "availability_status": "accessible",
+    "archive_url": null,
+    "accessed_at": "2026-09-15T11:31:25+00:00",
+    "content_hash": "a8ff9a321de4662311be85dbf59f08bd60bf80ea23bbf1be1f9ebe499b1f5a1a"
+  },
+  "review_notes": [
+    "多模态模型来源登记（2026-09-07）：pending，待抓取核验。",
+    "2026-09-15 经镜像抓取：https://hf-mirror.com/THUDM/CogVideoX-5b（来源登记 URL 保持原样 https://huggingface.co/THUDM/CogVideoX-5b）。"
+  ]
+}

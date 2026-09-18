@@ -1,0 +1,25 @@
+{
+  "schema_version": "3.2",
+  "record_type": "source_document",
+  "status": "accepted",
+  "payload": {
+    "source_key": "src:gguf:unsloth-phi-4-mini-instruct-gguf",
+    "title": "unsloth/Phi-4-mini-instruct-GGUF (Hugging Face)",
+    "url": "https://huggingface.co/unsloth/Phi-4-mini-instruct-GGUF",
+    "publisher_key": "org:unsloth",
+    "source_type": "community",
+    "source_tier": "D",
+    "published_at": null,
+    "market_region": null,
+    "language": null,
+    "availability_status": "accessible",
+    "archive_url": null,
+    "accessed_at": "2026-09-14T11:57:40+00:00",
+    "content_hash": "a63754c06246d6812892685546257bdaee975e5f1a620f61cc0733496294a3ae"
+  },
+  "review_notes": [
+    "模型扩展第二批来源（2026-09-07）：pending，待抓取核验。",
+    "2026-09-14 经镜像抓取：https://hf-mirror.com/unsloth/Phi-4-mini-instruct-GGUF（来源登记 URL 保持原样 https://huggingface.co/unsloth/Phi-4-mini-instruct-GGUF）。",
+    "Approved in bulk on 2026-09-16 at the user's explicit request; no per-record human review."
+  ]
+}

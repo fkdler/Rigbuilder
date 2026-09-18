@@ -1,0 +1,14 @@
+{
+  "schema_version": "3.2",
+  "record_type": "entity_alias",
+  "status": "accepted",
+  "payload": {
+    "entity_key": "hw:intel:core-i5-13400f:desktop:global",
+    "alias": "Intel Core i5-13400F",
+    "alias_type": "source_name",
+    "language": null,
+    "normalized_alias": "corei513400f",
+    "source_key": "src:passmark:cpu-models-2026-09-16"
+  },
+  "review_notes": []
+}

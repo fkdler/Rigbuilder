@@ -1,0 +1,14 @@
+{
+  "schema_version": "3.2",
+  "record_type": "entity_alias",
+  "status": "accepted",
+  "payload": {
+    "entity_key": "model:idea-research:grounding-dino-swint",
+    "alias": "IDEA-Research/grounding-dino-tiny",
+    "alias_type": "repository",
+    "language": null,
+    "normalized_alias": "idearesearchgroundingdinotiny",
+    "source_key": null
+  },
+  "review_notes": []
+}

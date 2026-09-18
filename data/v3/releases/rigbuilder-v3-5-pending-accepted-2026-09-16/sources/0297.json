@@ -1,0 +1,24 @@
+{
+  "schema_version": "3.2",
+  "record_type": "source_document",
+  "status": "accepted",
+  "payload": {
+    "source_key": "src:org:blizzard",
+    "title": "Blizzard Entertainment 官方站点",
+    "url": "https://www.blizzard.com/",
+    "publisher_key": "org:blizzard",
+    "source_type": "official_page",
+    "source_tier": "B",
+    "published_at": null,
+    "market_region": null,
+    "language": null,
+    "availability_status": "accessible",
+    "archive_url": null,
+    "accessed_at": "2026-09-14T11:15:42+00:00",
+    "content_hash": "61197d160ae0f075b3b898fcd3b392bcb8c314887ecb82654e7f37f89b24cf44"
+  },
+  "review_notes": [
+    "evidence 补全批（2026-09-07）：pending，待抓取核验。",
+    "Approved in bulk on 2026-09-16 at the user's explicit request; no per-record human review."
+  ]
+}

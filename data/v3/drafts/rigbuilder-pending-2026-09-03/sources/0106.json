@@ -1,0 +1,23 @@
+{
+  "schema_version": "3.2",
+  "record_type": "source_document",
+  "status": "pending",
+  "payload": {
+    "source_key": "source:rockstar-games-gta-v-sysreq",
+    "title": "Grand Theft Auto V — 官方系统需求",
+    "url": "https://store.steampowered.com/app/271590/Grand_Theft_Auto_V/",
+    "source_type": "official_page",
+    "source_tier": "A",
+    "publisher_key": null,
+    "published_at": null,
+    "accessed_at": "2026-09-07T07:11:18+00:00",
+    "content_hash": "234d5e56c62b86e632e801f0fb4ec7dd6e4e2188db2d26693ad8b4e276a0b4a2",
+    "archive_url": null,
+    "market_region": null,
+    "language": null,
+    "availability_status": "accessible"
+  },
+  "review_notes": [
+    "accessed_at 为占位时间，须由实际访问页面的调查员替换为真实访问时间。"
+  ]
+}

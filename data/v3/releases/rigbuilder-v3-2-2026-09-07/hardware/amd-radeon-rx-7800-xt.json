@@ -1,0 +1,138 @@
+{
+  "schema_version": "3.2",
+  "record_type": "hardware",
+  "status": "accepted",
+  "payload": {
+    "identity": {
+      "entity_key": "hw:amd:radeon-rx-7800-xt:desktop:global",
+      "canonical_name": "Radeon RX 7800 XT",
+      "entity_type": "hardware",
+      "release_date": "2023-09-06",
+      "lifecycle_status": "unknown",
+      "recommendable": true
+    },
+    "manufacturer_key": "org:amd",
+    "record_kind": "product",
+    "product_family": "Radeon",
+    "model_name": "RX 7800 XT",
+    "variant_name": null,
+    "market_segment": "consumer",
+    "form_factor": "desktop",
+    "region_code": "GLOBAL",
+    "official_product_id": null,
+    "attributes": [],
+    "evidence": [
+      {
+        "source_key": "src:amd:gpu-rx-7800-xt",
+        "field_key": "entity.canonical_name",
+        "normalized_value": "Radeon RX 7800 XT",
+        "provenance_key": "official",
+        "raw_excerpt": "Radeon RX 7800 XT",
+        "review_status": "accepted",
+        "reviewed_at": "2026-09-07T00:00:00Z"
+      },
+      {
+        "source_key": "src:amd:gpu-rx-7800-xt",
+        "field_key": "gpu.architecture",
+        "normalized_value": "RDNA 3",
+        "provenance_key": "official",
+        "raw_excerpt": "RDNA 3",
+        "review_status": "accepted",
+        "reviewed_at": "2026-09-07T00:00:00Z"
+      },
+      {
+        "source_key": "src:amd:gpu-rx-7800-xt",
+        "field_key": "gpu.vram_gib",
+        "normalized_value": 16,
+        "unit_key": "gib",
+        "provenance_key": "official",
+        "raw_excerpt": "16 GB GDDR6",
+        "review_status": "accepted",
+        "reviewed_at": "2026-09-07T00:00:00Z"
+      },
+      {
+        "source_key": "src:amd:gpu-rx-7800-xt",
+        "field_key": "gpu.memory_type",
+        "normalized_value": "GDDR6",
+        "provenance_key": "official",
+        "raw_excerpt": "GDDR6",
+        "review_status": "accepted",
+        "reviewed_at": "2026-09-07T00:00:00Z"
+      },
+      {
+        "source_key": "src:amd:gpu-rx-7800-xt",
+        "field_key": "gpu.board_power_w",
+        "normalized_value": 263,
+        "unit_key": "w",
+        "provenance_key": "official",
+        "raw_excerpt": "263 W",
+        "review_status": "accepted",
+        "reviewed_at": "2026-09-07T00:00:00Z"
+      },
+      {
+        "source_key": "src:amd:gpu-rx-7800-xt",
+        "field_key": "gpu.memory_bus_width_bit",
+        "normalized_value": 256,
+        "unit_key": "bit",
+        "provenance_key": "official",
+        "raw_excerpt": "256-bit",
+        "review_status": "accepted",
+        "reviewed_at": "2026-09-07T00:00:00Z"
+      },
+      {
+        "source_key": "src:amd:gpu-rx-7800-xt",
+        "field_key": "gpu.memory_bandwidth_gb_s",
+        "normalized_value": 624,
+        "unit_key": "gb_s",
+        "provenance_key": "official",
+        "raw_excerpt": "624 GB/s",
+        "review_status": "accepted",
+        "reviewed_at": "2026-09-07T00:00:00Z"
+      },
+      {
+        "source_key": "src:amd:gpu-rx-7800-xt",
+        "field_key": "gpu.pcie_generation",
+        "normalized_value": 4,
+        "provenance_key": "official",
+        "raw_excerpt": "PCIe 4.0",
+        "review_status": "accepted",
+        "reviewed_at": "2026-09-07T00:00:00Z"
+      },
+      {
+        "source_key": "src:amd:gpu-rx-7800-xt",
+        "field_key": "gpu.pcie_lanes",
+        "normalized_value": 16,
+        "provenance_key": "official",
+        "raw_excerpt": "x16",
+        "review_status": "accepted",
+        "reviewed_at": "2026-09-07T00:00:00Z"
+      },
+      {
+        "source_key": "src:amd:gpu-rx-7800-xt",
+        "field_key": "gpu.ecc_support",
+        "normalized_value": false,
+        "provenance_key": "official",
+        "raw_excerpt": "ECC not supported",
+        "review_status": "accepted",
+        "reviewed_at": "2026-09-07T00:00:00Z"
+      }
+    ],
+    "gpu_spec": {
+      "architecture": "RDNA 3",
+      "vram_gib": 16,
+      "memory_type": "GDDR6",
+      "memory_bus_width_bit": 256,
+      "memory_bandwidth_gb_s": 624,
+      "ecc_support": false,
+      "interface": null,
+      "pcie_generation": 4,
+      "pcie_lanes": 16,
+      "board_power_w": 263
+    },
+    "category": "gpu"
+  },
+  "review_notes": [
+    "来源 retrieved_at 为占位时间，调查员须替换为实际看到页面的时间。",
+    "source_key 前缀暂为 src: 与 quantization/format 大小写（Q4_K_M/GGUF）待审核人与词表对齐（可统一为 source:/小写）。"
+  ]
+}

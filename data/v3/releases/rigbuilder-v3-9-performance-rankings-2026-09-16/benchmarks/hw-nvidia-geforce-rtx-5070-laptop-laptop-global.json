@@ -1,0 +1,66 @@
+{
+  "schema_version": "3.2",
+  "record_type": "benchmark_run",
+  "status": "accepted",
+  "payload": {
+    "run_key": "passmark-gpu-list:hw:nvidia:geforce-rtx-5070-laptop:laptop:global:2026-09-16",
+    "protocol_key": "passmark-gpu-list",
+    "protocol_version": "1",
+    "workload_key": null,
+    "started_at": "2026-09-16T04:16:15.307650Z",
+    "completed_at": null,
+    "environment": {
+      "snapshot_date": "2026-09-16",
+      "form_factor": "laptop",
+      "source_name": "GeForce RTX 5070 Laptop GPU",
+      "population_source": "https://www.videocardbenchmark.net/gpu_list.php",
+      "population_all_gpus": 2860
+    },
+    "subjects": [
+      {
+        "entity_key": "hw:nvidia:geforce-rtx-5070-laptop:laptop:global",
+        "role": "gpu",
+        "is_primary": true,
+        "quantity": 1
+      }
+    ],
+    "metrics": [
+      {
+        "metric_key": "passmark.gpu.g3d_mark",
+        "value_number": "19091",
+        "unit": "points",
+        "value_integer": null,
+        "value_boolean": null,
+        "value_text": null,
+        "statistic": "reported",
+        "sample_count": null
+      },
+      {
+        "metric_key": "passmark.gpu.rank",
+        "value_number": null,
+        "unit": "rank",
+        "value_integer": 105,
+        "value_boolean": null,
+        "value_text": null,
+        "statistic": "reported",
+        "sample_count": null
+      }
+    ],
+    "evidence": [],
+    "source_key": "src:passmark:gpu-list-2026-09-16",
+    "run_origin": "independent",
+    "test_date": "2026-09-16",
+    "status": "success",
+    "settings": {
+      "source_page": "https://www.videocardbenchmark.net/gpu_list.php",
+      "score_column": "PassMark G3D Mark"
+    },
+    "settings_hash": null,
+    "sample_count": null,
+    "aggregation_method": "reported",
+    "raw_result_url": "https://www.videocardbenchmark.net/gpu_list.php",
+    "raw_result_hash": null,
+    "notes": "Figures as published for 'GeForce RTX 5070 Laptop GPU' in the 2026-09-16 snapshot."
+  },
+  "review_notes": []
+}

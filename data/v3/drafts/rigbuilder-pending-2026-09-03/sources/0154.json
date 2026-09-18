@@ -1,0 +1,23 @@
+{
+  "schema_version": "3.2",
+  "record_type": "source_document",
+  "status": "pending",
+  "payload": {
+    "source_key": "src:gguf:unsloth-qwen3-vl-32b-instruct-gguf",
+    "title": "unsloth/Qwen3-VL-32B-Instruct-GGUF (Hugging Face)",
+    "url": "https://huggingface.co/unsloth/Qwen3-VL-32B-Instruct-GGUF",
+    "publisher_key": "org:unsloth",
+    "source_type": "community",
+    "source_tier": "D",
+    "published_at": null,
+    "market_region": null,
+    "language": null,
+    "availability_status": "accessible",
+    "archive_url": null,
+    "accessed_at": "2026-09-07T09:50:42+00:00",
+    "content_hash": "a92c6b4053c78ccca3432ca16ba1fae9c382b179a1952820af64c7b8629ba575"
+  },
+  "review_notes": [
+    "第一梯队模型来源登记（2026-09-07）：pending，待 page_save.py --only-missing 抓取并回填 accessed_at/content_hash；GGUF 仓（社区）以 hf_fill 报告核对实际文件。"
+  ]
+}

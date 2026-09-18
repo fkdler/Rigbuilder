@@ -1,0 +1,23 @@
+{
+  "schema_version": "3.2",
+  "record_type": "source_document",
+  "status": "accepted",
+  "payload": {
+    "source_key": "source:jd:ryzen-9-9950x-100110580223",
+    "title": "AMD锐龙 9 9950X处理器(R9) 4nm 16核32线程 加速频率至高5.7GHz 盒装CPU 畅玩打瓦/三角洲/CSGO32线程CPU热卖榜第3名64",
+    "url": "https://item.jd.com/100110580223.html",
+    "source_type": "retailer",
+    "source_tier": "C",
+    "publisher_key": null,
+    "published_at": null,
+    "market_region": "CN",
+    "language": "zh-CN",
+    "availability_status": "accessible",
+    "archive_url": null,
+    "accessed_at": "2026-09-07T07:14:11+00:00",
+    "content_hash": "def20092db386f86c88ad26fb8fa90086a8a0851e91d16de276462e549877efe"
+  },
+  "review_notes": [
+    "京东标价 SKU 100110580223；店铺：已售1万+100+人复购AMD京东自营旗舰店；页面标价作为 current_new。"
+  ]
+}

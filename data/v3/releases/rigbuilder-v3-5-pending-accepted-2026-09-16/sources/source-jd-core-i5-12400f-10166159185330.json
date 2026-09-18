@@ -1,0 +1,24 @@
+{
+  "schema_version": "3.2",
+  "record_type": "source_document",
+  "status": "accepted",
+  "payload": {
+    "source_key": "source:jd:core-i5-12400f-10166159185330",
+    "title": "英特尔酷睿/i5/i7/Ultra5/7全新盒装CPU12600KF/12400F/14400F/14490F/14700KF游戏办公台式机处理器 i5 124",
+    "url": "https://item.jd.com/10166159185330.html",
+    "source_type": "retailer",
+    "source_tier": "C",
+    "publisher_key": null,
+    "published_at": null,
+    "market_region": "CN",
+    "language": "zh-CN",
+    "availability_status": "accessible",
+    "archive_url": null,
+    "accessed_at": "2026-09-07T07:11:34+00:00",
+    "content_hash": "cbab7772b937bac05aec22ff45b6314cf670413657895f59546bac0375f76861"
+  },
+  "review_notes": [
+    "京东标价 SKU 10166159185330；店铺：00+99%好评INTEL英睿专卖店；页面标价作为 current_new。",
+    "Approved in bulk on 2026-09-16 at the user's explicit request; no per-record human review."
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "schema_version": "3.2",
+  "record_type": "price_snapshot",
+  "status": "pending",
+  "payload": {
+    "price_key": "price:hw:amd:radeon-rx-7700-xt:desktop:global:cn:2026-09",
+    "entity_key": "hw:amd:radeon-rx-7700-xt:desktop:global",
+    "source_key": "source:jd:radeon-rx-7700-xt-10155573120328",
+    "observed_at": "2026-09-06T02:38:39+08:00",
+    "currency": "CNY",
+    "amount": 3099,
+    "availability": "in_stock",
+    "price_type": "current_new",
+    "market_region": "CN",
+    "condition": "new",
+    "seller_key": null,
+    "notes": "售300+1万+人种草技嘉电竞旗舰店"
+  },
+  "review_notes": [
+    "京东页面标价；抓取2026-09-06。"
+  ]
+}

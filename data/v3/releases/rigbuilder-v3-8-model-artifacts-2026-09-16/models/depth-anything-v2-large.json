@@ -1,0 +1,107 @@
+{
+  "schema_version": "3.2",
+  "record_type": "model",
+  "status": "accepted",
+  "payload": {
+    "identity": {
+      "entity_key": "model:depth-anything:depth-anything-v2-large",
+      "canonical_name": "Depth-Anything-V2-Large",
+      "entity_type": "ai_model",
+      "release_date": "2024-06-13",
+      "lifecycle_status": "unknown",
+      "recommendable": true
+    },
+    "publisher_key": "org:depth-anything",
+    "release_version": null,
+    "model_type": "dense",
+    "total_parameters": 335315649,
+    "active_parameters": null,
+    "model_stage": "depth_estimation",
+    "context_length_tokens": null,
+    "license_name": "CC-BY-NC-4.0",
+    "commercial_use_status": "restricted",
+    "official_repo_url": "https://huggingface.co/depth-anything/Depth-Anything-V2-Large-hf",
+    "official_model_card_url": "https://huggingface.co/depth-anything/Depth-Anything-V2-Large-hf",
+    "architecture_notes": null,
+    "capabilities": [
+      {
+        "capability_key": "vision_input",
+        "status": "supported",
+        "notes": null
+      },
+      {
+        "capability_key": "depth_output",
+        "status": "supported",
+        "notes": null
+      }
+    ],
+    "variants": [
+      {
+        "identity": {
+          "entity_key": "variant:depth-anything-depth-anything-v2-large-hf:official-safetensors",
+          "canonical_name": "Depth-Anything-V2-Large 官方权重 (safetensors, depth-anything)",
+          "entity_type": "model_variant",
+          "release_date": null,
+          "lifecycle_status": "unknown",
+          "recommendable": true
+        },
+        "file_size_bytes": 1341322868,
+        "weight_format": "safetensors",
+        "official_status": "official",
+        "repository_url": "https://huggingface.co/depth-anything/Depth-Anything-V2-Large-hf",
+        "evidence": [
+          {
+            "source_key": "src:hf:depth-anything-depth-anything-v2-large-hf",
+            "field_key": "entity.canonical_name",
+            "normalized_value": "Depth-Anything-V2-Large 官方权重 (safetensors, depth-anything)",
+            "review_status": "accepted",
+            "confidence": 1
+          }
+        ]
+      }
+    ],
+    "evidence": [
+      {
+        "source_key": "src:card:depth-anything-v2-large",
+        "field_key": "entity.canonical_name",
+        "normalized_value": "Depth-Anything-V2-Large",
+        "provenance_key": "official",
+        "raw_excerpt": "Depth-Anything-V2-Large",
+        "review_status": "accepted",
+        "reviewed_at": null
+      },
+      {
+        "source_key": "src:card:depth-anything-v2-large",
+        "field_key": "model.license_name",
+        "normalized_value": "CC-BY-NC-4.0",
+        "provenance_key": "official",
+        "raw_excerpt": "License: cc-by-nc-4.0",
+        "review_status": "accepted",
+        "reviewed_at": null
+      },
+      {
+        "source_key": "src:card:depth-anything-v2-large",
+        "field_key": "model.model_stage",
+        "normalized_value": "depth_estimation",
+        "provenance_key": "official",
+        "raw_excerpt": "depth_estimation",
+        "review_status": "accepted",
+        "reviewed_at": null
+      },
+      {
+        "source_key": "src:card:depth-anything-v2-large",
+        "field_key": "model.total_parameters",
+        "normalized_value": 335315649,
+        "provenance_key": "official",
+        "raw_excerpt": "HF API safetensors.total（精确）: 335315649",
+        "notes": "由官方 config/API 回填",
+        "review_status": "accepted",
+        "reviewed_at": null
+      }
+    ],
+    "family": "Depth Anything"
+  },
+  "review_notes": [
+    "Model artifacts enumerated from the official Hugging Face API on 2026-09-16 (file list and byte sizes only; no weights were downloaded or verified)."
+  ]
+}

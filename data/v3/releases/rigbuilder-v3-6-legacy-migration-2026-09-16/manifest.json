@@ -1,0 +1,51 @@
+{
+  "schema_version": "3.2",
+  "release_key": "rigbuilder-v3-6-legacy-migration-2026-09-16",
+  "created_at": "2026-09-16T03:37:21.611687Z",
+  "description": "Legacy migration: 3 RTX 3060-family release dates, 3 official sources absent from the catalogue, and the entity.release_date field definition",
+  "git_commit": null,
+  "files": [
+    {
+      "path": "fields/entity.release_date.json",
+      "sha256": "c80f31e3d3e1f4c1d5aa89e1e20989efe30bc40a9ef219363cc55703de0dfefb",
+      "record_type": "field_definition",
+      "status": "accepted"
+    },
+    {
+      "path": "hardware/geforce-rtx-3060-8gb.json",
+      "sha256": "307bf2777e51dcec6fec18d2da41b93182c70048366adb9def61ee2ff0e3ab72",
+      "record_type": "hardware",
+      "status": "accepted"
+    },
+    {
+      "path": "hardware/geforce-rtx-3060-ti.json",
+      "sha256": "6019bbd624446e6412c52c99387db556c7101c138b022b46a99fc97bc12b266a",
+      "record_type": "hardware",
+      "status": "accepted"
+    },
+    {
+      "path": "hardware/geforce-rtx-3060.json",
+      "sha256": "c92fdcadc8bf5d301b62a8c36bca5dee7c44d5a2a00bb00109d17ab5a53da4c6",
+      "record_type": "hardware",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/src_hf_google-gemma-2-9b-it.json",
+      "sha256": "9b046e6ae214d03ee865a9f293a55576f0217249749cd710d112b01d0367d069",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/src_nvidia_rtx-3060-3060ti-family.json",
+      "sha256": "18a7c1d4e8f11c91e332d5873ae084a737980a4ab82246708a7085f4c4086245",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/src_nvidia_rtx-5070-family.json",
+      "sha256": "5a6b33e6baffdf64df0f17517a2a6a0b1dbe4ed113858967bc7fc8e3bc7ad5f3",
+      "record_type": "source_document",
+      "status": "accepted"
+    }
+  ]
+}

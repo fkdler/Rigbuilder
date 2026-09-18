@@ -1,0 +1,64 @@
+{
+  "schema_version": "3.2",
+  "record_type": "hardware",
+  "status": "accepted",
+  "payload": {
+    "identity": {
+      "entity_key": "hw:intel:core-ultra-7-258v:laptop:global",
+      "canonical_name": "Core Ultra 7 258V",
+      "entity_type": "hardware",
+      "release_date": null,
+      "lifecycle_status": "unknown",
+      "recommendable": true
+    },
+    "category": "cpu",
+    "record_kind": "product",
+    "manufacturer_key": "org:intel",
+    "form_factor": "laptop",
+    "model_name": "Core Ultra 7 258V",
+    "variant_name": null,
+    "market_segment": "mobile",
+    "region_code": "GLOBAL",
+    "official_product_id": null,
+    "product_family": null,
+    "attributes": [],
+    "evidence": [
+      {
+        "source_key": "src:hardquery:cpu",
+        "field_key": "entity.canonical_name",
+        "normalized_value": "Core Ultra 7 258V",
+        "provenance_key": "community_reported",
+        "raw_excerpt": "Core Ultra 7 258V",
+        "review_status": "accepted",
+        "reviewed_at": null
+      }
+    ],
+    "cpu_spec": {
+      "architecture": "Lunar Lake",
+      "codename": "Lunar Lake",
+      "cores_total": 8,
+      "threads": 8,
+      "performance_cores": 4,
+      "efficiency_cores": 4,
+      "base_clock_mhz": null,
+      "boost_clock_mhz": 4800,
+      "l2_cache_mib": null,
+      "l3_cache_mib": 12,
+      "base_power_w": 30,
+      "max_power_w": null,
+      "socket": null,
+      "memory_channels": null,
+      "max_memory_gib": null,
+      "ecc_support": null,
+      "pcie_generation": null,
+      "pcie_lanes": null,
+      "integrated_gpu": "Intel Arc Graphics 140V",
+      "npu_model": "Intel NPU"
+    }
+  },
+  "review_notes": [
+    "CPU 缺口补充批（2026-09-07）：官方来源页待核验，未挂 evidence；值按公开规格知识填写，pending，待来源确认后核对；不确定字段留空。",
+    "2026-09-07 evidence 补全：挂 canonical_name 证据（来源见 sources）；其余字段证据待逐字核验后补。",
+    "Approved in bulk on 2026-09-16 at the user's explicit request; no per-record human review."
+  ]
+}

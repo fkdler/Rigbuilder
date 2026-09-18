@@ -1,0 +1,579 @@
+{
+  "schema_version": "3.2",
+  "release_key": "rigbuilder-v3-7-igpu-evidence-2026-09-16",
+  "created_at": "2026-09-16T03:37:31.392624Z",
+  "description": "Backfilled accepted cpu.integrated_gpu evidence for every CPU whose specification column already carried a value",
+  "git_commit": null,
+  "files": [
+    {
+      "path": "hardware/core-i3-12100.json",
+      "sha256": "055bf5da796fbca529f81306bea4a7244d9b04f663616dc598d336c5a0790166",
+      "record_type": "hardware",
+      "status": "accepted"
+    },
+    {
+      "path": "hardware/core-i3-13100.json",
+      "sha256": "8842d7056424188d5a23b7d1915411a4a90094b475d12238857843f904f22efb",
+      "record_type": "hardware",
+      "status": "accepted"
+    },
+    {
+      "path": "hardware/core-i3-14100.json",
+      "sha256": "aaef2b4163681425db8442c300454cb3d4dc84aae2715bf7a9054aaffdedc3d3",
+      "record_type": "hardware",
+      "status": "accepted"
+    },
+    {
+      "path": "hardware/core-i5-12400.json",
+      "sha256": "49927c36cdd5797192d83f79eefed3f3836b2bafccadb9895f6aad8493ba0ea9",
+      "record_type": "hardware",
+      "status": "accepted"
+    },
+    {
+      "path": "hardware/core-i5-12500.json",
+      "sha256": "32bd8387666a539bfc134c5bc16c6354284d83db660b0852c04b7b696da532f4",
+      "record_type": "hardware",
+      "status": "accepted"
+    },
+    {
+      "path": "hardware/core-i5-12600.json",
+      "sha256": "8b832ebaa300bb8675835bdf4fa2056ceeb61506115b92945f077560438aeff2",
+      "record_type": "hardware",
+      "status": "accepted"
+    },
+    {
+      "path": "hardware/core-i5-12600k.json",
+      "sha256": "7badc636bbc8e5566ac399a19341a7c9f685c913441db5a69e07a8da3adf94a9",
+      "record_type": "hardware",
+      "status": "accepted"
+    },
+    {
+      "path": "hardware/core-i5-13400.json",
+      "sha256": "f6fbab6f1f3eb4cfa0fdcf46efbee4ce4c66c16b3b03c91c4393e73500b34700",
+      "record_type": "hardware",
+      "status": "accepted"
+    },
+    {
+      "path": "hardware/core-i5-13400t.json",
+      "sha256": "f2cd15b23ecb3003c168f60e9e30b090879d3929f294ba5059fa48d3d861e0df",
+      "record_type": "hardware",
+      "status": "accepted"
+    },
+    {
+      "path": "hardware/core-i5-13420h.json",
+      "sha256": "5dd6c6a320e42eac699d8d3ca6cf269d054d4c5554e6e0124dc0c6987d58f8bf",
+      "record_type": "hardware",
+      "status": "accepted"
+    },
+    {
+      "path": "hardware/core-i5-13500.json",
+      "sha256": "60477aa2c32be1f2557a584314747f51f83a57dedc2e83ae071d1002d4bcdf98",
+      "record_type": "hardware",
+      "status": "accepted"
+    },
+    {
+      "path": "hardware/core-i5-13500h.json",
+      "sha256": "8aed380e487e74539b5088bd762e52facb02e15d524a6e8a39fb37642c03dfb2",
+      "record_type": "hardware",
+      "status": "accepted"
+    },
+    {
+      "path": "hardware/core-i5-13500t.json",
+      "sha256": "673beb98e6de3e7b7e527b651d2777dc50289d38e4e5a02a302f2fec158374cf",
+      "record_type": "hardware",
+      "status": "accepted"
+    },
+    {
+      "path": "hardware/core-i5-13600.json",
+      "sha256": "ba2f0adafaa3de2e49f0f882762076705e31a8a24875bf60238672903761b367",
+      "record_type": "hardware",
+      "status": "accepted"
+    },
+    {
+      "path": "hardware/core-i5-13600k.json",
+      "sha256": "bd8526af9cff0a7447a2dc8b762c75a2ae7484745efa01b54c650c3a937dcf7b",
+      "record_type": "hardware",
+      "status": "accepted"
+    },
+    {
+      "path": "hardware/core-i5-14400.json",
+      "sha256": "f8bb3334558a7d6560c1a530340ec83a4a5818596d14f78ca03e50fc50a51f58",
+      "record_type": "hardware",
+      "status": "accepted"
+    },
+    {
+      "path": "hardware/core-i5-14400t.json",
+      "sha256": "ccb92cc7f6513d0eba7b02db64891cd549fc7c472026a06a31656fff1dd1b7da",
+      "record_type": "hardware",
+      "status": "accepted"
+    },
+    {
+      "path": "hardware/core-i5-14500.json",
+      "sha256": "6f04af09d77395c97e6b454fe5ef39f914a7bd367dff86cc9aaac037ec42bc5f",
+      "record_type": "hardware",
+      "status": "accepted"
+    },
+    {
+      "path": "hardware/core-i5-14500t.json",
+      "sha256": "3dba29892f85ba2d5bfcbfb4d073facf5bb6ff8fea4939793e367582dfaf6407",
+      "record_type": "hardware",
+      "status": "accepted"
+    },
+    {
+      "path": "hardware/core-i5-14600.json",
+      "sha256": "dfc1e5dac4b9fdb8edb3b4e56d6ae8f27b44e485f9f1e8687c65ab33eff9c71b",
+      "record_type": "hardware",
+      "status": "accepted"
+    },
+    {
+      "path": "hardware/core-i5-14600k.json",
+      "sha256": "7ffef9c6869fc986573fe1823b726a69718bf1aa7ee0f3e46ea3efe439814717",
+      "record_type": "hardware",
+      "status": "accepted"
+    },
+    {
+      "path": "hardware/core-i7-12700.json",
+      "sha256": "f8eedbd95763b16aff2311aac3fbd21517f8e2298cd7fb094714d6f62b26a176",
+      "record_type": "hardware",
+      "status": "accepted"
+    },
+    {
+      "path": "hardware/core-i7-12700k.json",
+      "sha256": "78978a65b5a78278915cb28088c1d1a7955adbd49ddd3e6a8fdca85cc29a7987",
+      "record_type": "hardware",
+      "status": "accepted"
+    },
+    {
+      "path": "hardware/core-i7-13650hx.json",
+      "sha256": "8564be750042b9c0e686c2f14b1657082431d170a5b7db356ce2572f5ca88302",
+      "record_type": "hardware",
+      "status": "accepted"
+    },
+    {
+      "path": "hardware/core-i7-13700.json",
+      "sha256": "1988c8a91bc927c9f4c8a8424faf065b14f43f9fd3f23c0499891da94ab2fb9e",
+      "record_type": "hardware",
+      "status": "accepted"
+    },
+    {
+      "path": "hardware/core-i7-13700k.json",
+      "sha256": "689a2f21d28bb826fac7909a054f4d12eab7d76c920f398387571b44dda99f48",
+      "record_type": "hardware",
+      "status": "accepted"
+    },
+    {
+      "path": "hardware/core-i7-13700t.json",
+      "sha256": "19611c48d5d5019684af69f92d64305b2c13fd56066ce9dd288a7d0e3a8b2789",
+      "record_type": "hardware",
+      "status": "accepted"
+    },
+    {
+      "path": "hardware/core-i7-14650hx.json",
+      "sha256": "77a7645576361e73af14634764f87800d8f1cae8aff7c3ea336690f94700fe2a",
+      "record_type": "hardware",
+      "status": "accepted"
+    },
+    {
+      "path": "hardware/core-i7-14700.json",
+      "sha256": "38af7840a40e867cafa246340046e67b639175510c375f8dba44e77815d16202",
+      "record_type": "hardware",
+      "status": "accepted"
+    },
+    {
+      "path": "hardware/core-i7-14700h.json",
+      "sha256": "858ffae66852f5c0a25bd6c354da1aa48b73f466f3df9bde878466c2c61abaf6",
+      "record_type": "hardware",
+      "status": "accepted"
+    },
+    {
+      "path": "hardware/core-i7-14700k.json",
+      "sha256": "828cad177c1c3a495eb61d94adb276152593bf88b816881247766937554a521a",
+      "record_type": "hardware",
+      "status": "accepted"
+    },
+    {
+      "path": "hardware/core-i7-14700t.json",
+      "sha256": "7187db62a39bc90bf91b1d2e4bb0262b1f2622d3d02374ed1984153a1261fe6c",
+      "record_type": "hardware",
+      "status": "accepted"
+    },
+    {
+      "path": "hardware/core-i9-12900.json",
+      "sha256": "65ffe357501b18ae4f0f7d446c598f90ecbdfa65d567453813962cc96c8c5291",
+      "record_type": "hardware",
+      "status": "accepted"
+    },
+    {
+      "path": "hardware/core-i9-12900k.json",
+      "sha256": "5239b10c1f65180daa5ae209e28e6e126ac9931b46f211046c194c9c37692e85",
+      "record_type": "hardware",
+      "status": "accepted"
+    },
+    {
+      "path": "hardware/core-i9-12900ks.json",
+      "sha256": "275a421420af41f83067afaba0674847f61019f67a1c197f0cb626be862d3731",
+      "record_type": "hardware",
+      "status": "accepted"
+    },
+    {
+      "path": "hardware/core-i9-13900.json",
+      "sha256": "7f84cbfb38f98448aadf8383527847bb805b8df4bf4bf2fbd24d02ecee21a141",
+      "record_type": "hardware",
+      "status": "accepted"
+    },
+    {
+      "path": "hardware/core-i9-13900hx.json",
+      "sha256": "e1e319b12711f06937825407fb61ff6331c2edc5f187382389ec6a834b822849",
+      "record_type": "hardware",
+      "status": "accepted"
+    },
+    {
+      "path": "hardware/core-i9-13900k.json",
+      "sha256": "39955f5071c5e3dd2f0a6fd3377e7a693e3dc91bef8fe9e7d8703f793721030f",
+      "record_type": "hardware",
+      "status": "accepted"
+    },
+    {
+      "path": "hardware/core-i9-13900ks.json",
+      "sha256": "f69997d9ff581db063a429fff1ef40d40e739d5009f5aa9fd4d73caf875b6068",
+      "record_type": "hardware",
+      "status": "accepted"
+    },
+    {
+      "path": "hardware/core-i9-13900t.json",
+      "sha256": "bf087e28ef22f1c80d7afa1ef8b9e20828ad93771f467155da464bdeb971ebab",
+      "record_type": "hardware",
+      "status": "accepted"
+    },
+    {
+      "path": "hardware/core-i9-14900.json",
+      "sha256": "3531415b1fa90bbdb74c493c36045d2f8708236f5735ccf161eb9c9c8a105a49",
+      "record_type": "hardware",
+      "status": "accepted"
+    },
+    {
+      "path": "hardware/core-i9-14900h.json",
+      "sha256": "ae95801425c96f393446e54dbc43992eff6d3d09aead985aa6840e6104feda81",
+      "record_type": "hardware",
+      "status": "accepted"
+    },
+    {
+      "path": "hardware/core-i9-14900k.json",
+      "sha256": "11aea3371fa403dd61614989937789be084e21dfbd764c63a3e3a4b31bf35b56",
+      "record_type": "hardware",
+      "status": "accepted"
+    },
+    {
+      "path": "hardware/core-i9-14900ks.json",
+      "sha256": "a0b147b0516471e2a2e5d77d60c51c5b692f538d858f3209ff402043eb9950c0",
+      "record_type": "hardware",
+      "status": "accepted"
+    },
+    {
+      "path": "hardware/core-i9-14900t.json",
+      "sha256": "059c4b358059a5c53d97f1e80314ba83e4030e6629e2e2627fdb920b4cc88b08",
+      "record_type": "hardware",
+      "status": "accepted"
+    },
+    {
+      "path": "hardware/core-ultra-5-125h.json",
+      "sha256": "06c5329eae4192ca8414b94bf91c2d2dc0791c1d4969ed00db2495e75c4281e0",
+      "record_type": "hardware",
+      "status": "accepted"
+    },
+    {
+      "path": "hardware/core-ultra-5-225.json",
+      "sha256": "8815e8934eade770390ef2d4f71f337d767520285e011ce7f3ca70fcec1b97c2",
+      "record_type": "hardware",
+      "status": "accepted"
+    },
+    {
+      "path": "hardware/core-ultra-5-225h.json",
+      "sha256": "983b6fd2027108ecc473a6a7d2a5513ad879a28d19dd399359c5dcbc09d7bf0c",
+      "record_type": "hardware",
+      "status": "accepted"
+    },
+    {
+      "path": "hardware/core-ultra-5-225t.json",
+      "sha256": "3c0b38347bb66f71e92b87879473751470c7bf81af3eb9afc1461768899596ba",
+      "record_type": "hardware",
+      "status": "accepted"
+    },
+    {
+      "path": "hardware/core-ultra-5-228v.json",
+      "sha256": "c439f2ce0d69eab153341b665d37c7ef72ea3f28ab20301fc264d64f350565f9",
+      "record_type": "hardware",
+      "status": "accepted"
+    },
+    {
+      "path": "hardware/core-ultra-5-235.json",
+      "sha256": "1fe8df8a72d5e696f2c6740a0f09fa8b4ee19399c66b8b812a497585f9b054d2",
+      "record_type": "hardware",
+      "status": "accepted"
+    },
+    {
+      "path": "hardware/core-ultra-5-235h.json",
+      "sha256": "9f7249226fe3864e6b521e890ff1ef9469fca06450be1f53165ba601504e3c9e",
+      "record_type": "hardware",
+      "status": "accepted"
+    },
+    {
+      "path": "hardware/core-ultra-5-235t.json",
+      "sha256": "6345e07208e5636b1ca3f160f3018cf84f6f9109dd742e0b200045660e0006b0",
+      "record_type": "hardware",
+      "status": "accepted"
+    },
+    {
+      "path": "hardware/core-ultra-5-245.json",
+      "sha256": "4e3d73e9753ee0006349e37964888471fc5e23cf2a1df51e81332e6bcfe4697d",
+      "record_type": "hardware",
+      "status": "accepted"
+    },
+    {
+      "path": "hardware/core-ultra-5-245k.json",
+      "sha256": "9dfbd47cd912df8f5f932ec5dbc191a67eb901de5c6ab41e4d99c4af28586931",
+      "record_type": "hardware",
+      "status": "accepted"
+    },
+    {
+      "path": "hardware/core-ultra-5-245t.json",
+      "sha256": "5155f96d3a324c7a81e5ca853727cd4c82b7b50a219534355b7b5832fac59250",
+      "record_type": "hardware",
+      "status": "accepted"
+    },
+    {
+      "path": "hardware/core-ultra-7-155h.json",
+      "sha256": "f287825f0b7f673c2ecbd81dda4c21b631d1c120b9416ab65cc9fea4c4b4a131",
+      "record_type": "hardware",
+      "status": "accepted"
+    },
+    {
+      "path": "hardware/core-ultra-7-255h.json",
+      "sha256": "01afa7f42c3d76a4313dd299c588cf7aec4091ceaea8e13b3752822fd966e084",
+      "record_type": "hardware",
+      "status": "accepted"
+    },
+    {
+      "path": "hardware/core-ultra-7-258v.json",
+      "sha256": "7ebf66ffc005461a3d7742032a2cbc688d0e59e6f70ad5fadfc59008a9c90279",
+      "record_type": "hardware",
+      "status": "accepted"
+    },
+    {
+      "path": "hardware/core-ultra-7-265.json",
+      "sha256": "aadddc12482585dbee3668f36237b0757d29b730b9d64008998b39bb1e902df5",
+      "record_type": "hardware",
+      "status": "accepted"
+    },
+    {
+      "path": "hardware/core-ultra-7-265h.json",
+      "sha256": "96f63e273de3b11bd533b3deddc0db5328858b908a3466200fc06d537f96031f",
+      "record_type": "hardware",
+      "status": "accepted"
+    },
+    {
+      "path": "hardware/core-ultra-7-265k.json",
+      "sha256": "72bba9459bcbb3c4e0ed9d3f796afc13a185a708f8521c50991654280ba3e025",
+      "record_type": "hardware",
+      "status": "accepted"
+    },
+    {
+      "path": "hardware/core-ultra-7-265t.json",
+      "sha256": "68dc4cc870d4398fa6018f18cd6552d5b2656a0d5a713fedc67691b664d6f964",
+      "record_type": "hardware",
+      "status": "accepted"
+    },
+    {
+      "path": "hardware/core-ultra-7-268v.json",
+      "sha256": "9c394c50bd61ac1fefe3467b71aa38a6876092641b394a42afb063b15c19bd64",
+      "record_type": "hardware",
+      "status": "accepted"
+    },
+    {
+      "path": "hardware/core-ultra-9-185h.json",
+      "sha256": "30959873add3a42f2f43dd454dd3e0098f4131f8448e282f20482f9bf93bf575",
+      "record_type": "hardware",
+      "status": "accepted"
+    },
+    {
+      "path": "hardware/core-ultra-9-275hx.json",
+      "sha256": "522435920598b7b8f9c293b24aa0c7a3e08572b5c77805c24f537b84c1386258",
+      "record_type": "hardware",
+      "status": "accepted"
+    },
+    {
+      "path": "hardware/core-ultra-9-285.json",
+      "sha256": "8f371e0f29720f169c1f45d85ba60150d5d235a0051ed7a99b7a9c58da3fba46",
+      "record_type": "hardware",
+      "status": "accepted"
+    },
+    {
+      "path": "hardware/core-ultra-9-285h.json",
+      "sha256": "c5dc716aa9dac7abb5d6fd8ddf44c4f02310fa4188e137920e2c625ffe2879ab",
+      "record_type": "hardware",
+      "status": "accepted"
+    },
+    {
+      "path": "hardware/core-ultra-9-285k.json",
+      "sha256": "edba75997bf8f8741acbc85c4429a5fcfb58dcccb78d427ebe772bc6320141bc",
+      "record_type": "hardware",
+      "status": "accepted"
+    },
+    {
+      "path": "hardware/core-ultra-9-285t.json",
+      "sha256": "a1eda695a9b104c2ef531ab3cc329b08e1eeda292304d8799a0a53676584022f",
+      "record_type": "hardware",
+      "status": "accepted"
+    },
+    {
+      "path": "hardware/core-ultra-9-288v.json",
+      "sha256": "3caf3c778584610c8777299e8d0004023a5dc4ae457d666bc792c4ef68f706d7",
+      "record_type": "hardware",
+      "status": "accepted"
+    },
+    {
+      "path": "hardware/ryzen-3-8300g.json",
+      "sha256": "9d68d938d9eddc12cfe5cbe73a42e23dfdf42b1780bc2a8d27a0dff1738942c8",
+      "record_type": "hardware",
+      "status": "accepted"
+    },
+    {
+      "path": "hardware/ryzen-5-5500gt.json",
+      "sha256": "4a4fc85cedb3eb265582ca628ae06da86b709a19de54c85dedb36063cfc2d15d",
+      "record_type": "hardware",
+      "status": "accepted"
+    },
+    {
+      "path": "hardware/ryzen-5-5600g.json",
+      "sha256": "6e115d6f28837cf26a4a530bb72e7ea8bcb82ad4100796a02beb0578bfd3f804",
+      "record_type": "hardware",
+      "status": "accepted"
+    },
+    {
+      "path": "hardware/ryzen-5-5600gt.json",
+      "sha256": "a48892e4c9543e5b32699dca81903310ee3794b42d76fba8df1876c73d8a8c11",
+      "record_type": "hardware",
+      "status": "accepted"
+    },
+    {
+      "path": "hardware/ryzen-5-7640hs.json",
+      "sha256": "e2313d73bb0c855668db23877911af34d151127e952bb2944f67d20f726152e3",
+      "record_type": "hardware",
+      "status": "accepted"
+    },
+    {
+      "path": "hardware/ryzen-5-8500g.json",
+      "sha256": "dc663a5b4df34c51906cb6d4bbb322cd011e72dc73e7add0701a76db5c2261a2",
+      "record_type": "hardware",
+      "status": "accepted"
+    },
+    {
+      "path": "hardware/ryzen-5-8600g.json",
+      "sha256": "887bacff22cd99d00cb14b6d8f30049f613b4648fd7fa4bbcd4b7a332306469b",
+      "record_type": "hardware",
+      "status": "accepted"
+    },
+    {
+      "path": "hardware/ryzen-5-8640hs.json",
+      "sha256": "e2d954c7f6d1b30b392e64e208e01d304dbe2901d56dda017f27dd964b46d574",
+      "record_type": "hardware",
+      "status": "accepted"
+    },
+    {
+      "path": "hardware/ryzen-5-8645hs.json",
+      "sha256": "540485ddb2b140f2a02933f1e7090badfdc6b884080ced2ee91727618fc0c7b0",
+      "record_type": "hardware",
+      "status": "accepted"
+    },
+    {
+      "path": "hardware/ryzen-7-5700g.json",
+      "sha256": "96c616e3482787c4d4734f4e783e32a531d243bee455aad3f6d953d647e3b65f",
+      "record_type": "hardware",
+      "status": "accepted"
+    },
+    {
+      "path": "hardware/ryzen-7-7840hs.json",
+      "sha256": "66bb7f9dd1a851cdda87aa88d81fe3d53df61cefecb74d9bbd67ef051874c499",
+      "record_type": "hardware",
+      "status": "accepted"
+    },
+    {
+      "path": "hardware/ryzen-7-8700g.json",
+      "sha256": "8e9b3bab0931be4c5fa33384c1754ee8310ed04b5efc8f5d5362c85bcf6efe2f",
+      "record_type": "hardware",
+      "status": "accepted"
+    },
+    {
+      "path": "hardware/ryzen-7-8840hs.json",
+      "sha256": "68af6c0b8f766c94263455d9a3c3ade2c62fdd2e591dc9b91156606cebc7fde6",
+      "record_type": "hardware",
+      "status": "accepted"
+    },
+    {
+      "path": "hardware/ryzen-7-8845hs.json",
+      "sha256": "5fc4ec02096a450ba63c871764541a9bf35d2e7b7b3d04a462fe7a79b43f8a78",
+      "record_type": "hardware",
+      "status": "accepted"
+    },
+    {
+      "path": "hardware/ryzen-9-7940hs.json",
+      "sha256": "1e3bc48d8a2826c8a4953d3eba99b392543a5c17592135d9a53c0fe4079ed87a",
+      "record_type": "hardware",
+      "status": "accepted"
+    },
+    {
+      "path": "hardware/ryzen-9-8945hs.json",
+      "sha256": "ce2b3a7cfbe63ae2fa0200525b1992cf485effb1da4c3a454b06f7805f0df374",
+      "record_type": "hardware",
+      "status": "accepted"
+    },
+    {
+      "path": "hardware/ryzen-9-8945hx.json",
+      "sha256": "c6ce76d6c2d1640d0b59a4dc63f16f0c5fa1a6bdb24c05539de8015f6ed2c063",
+      "record_type": "hardware",
+      "status": "accepted"
+    },
+    {
+      "path": "hardware/ryzen-ai-5-340.json",
+      "sha256": "eef9209184a8351fe7712eebfcc19d71911db3b5cd5d0a8c277a8f4857d5a1cc",
+      "record_type": "hardware",
+      "status": "accepted"
+    },
+    {
+      "path": "hardware/ryzen-ai-7-350.json",
+      "sha256": "72ec6a37ed78f4f76709048865628ebeb897eeccba4fa2028f4b307ed0299ffb",
+      "record_type": "hardware",
+      "status": "accepted"
+    },
+    {
+      "path": "hardware/ryzen-ai-9-365.json",
+      "sha256": "01761cef04791aac5ac0df945f1c8ce7fd2c03254560f299e29c6a80600b0092",
+      "record_type": "hardware",
+      "status": "accepted"
+    },
+    {
+      "path": "hardware/ryzen-ai-9-hx-370.json",
+      "sha256": "0318f51ff5c2293f8d2bfa82a991e7f139478158dadd980e37ef2326dfdfe1c6",
+      "record_type": "hardware",
+      "status": "accepted"
+    },
+    {
+      "path": "hardware/ryzen-ai-max+-395.json",
+      "sha256": "a1472bd2e6068859a46dd0d44d85b48bbe1f9bc12c194e3a731f59c5a31fe95a",
+      "record_type": "hardware",
+      "status": "accepted"
+    },
+    {
+      "path": "hardware/ryzen-ai-max-385.json",
+      "sha256": "33c29c122a095c9708ed55fc9ca14e7e179f3fcf832bcf044f9b10f4f8cdb76b",
+      "record_type": "hardware",
+      "status": "accepted"
+    },
+    {
+      "path": "hardware/ryzen-ai-max-390.json",
+      "sha256": "62a376d118a16e77b89038c51e1e5a009d36b464bdc44ec2932d688e9b3c4bb6",
+      "record_type": "hardware",
+      "status": "accepted"
+    }
+  ]
+}

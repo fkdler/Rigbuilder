@@ -1,0 +1,86 @@
+{
+  "schema_version": "3.2",
+  "record_type": "model",
+  "status": "accepted",
+  "payload": {
+    "identity": {
+      "entity_key": "model:qwen:qwen-image-edit",
+      "canonical_name": "Qwen-Image-Edit",
+      "entity_type": "ai_model",
+      "release_date": "2025-08-19",
+      "lifecycle_status": "unknown",
+      "recommendable": true
+    },
+    "publisher_key": "org:qwen",
+    "release_version": null,
+    "model_type": "diffusion",
+    "total_parameters": 20430401088,
+    "active_parameters": null,
+    "model_stage": "image_editing",
+    "context_length_tokens": null,
+    "license_name": "Apache-2.0",
+    "commercial_use_status": "allowed",
+    "official_repo_url": "https://huggingface.co/Qwen/Qwen-Image-Edit",
+    "official_model_card_url": "https://huggingface.co/Qwen/Qwen-Image-Edit",
+    "architecture_notes": null,
+    "capabilities": [
+      {
+        "capability_key": "text_input",
+        "status": "supported",
+        "notes": null
+      },
+      {
+        "capability_key": "vision_input",
+        "status": "supported",
+        "notes": null
+      },
+      {
+        "capability_key": "image_output",
+        "status": "supported",
+        "notes": null
+      }
+    ],
+    "variants": [],
+    "evidence": [
+      {
+        "source_key": "src:card:qwen-image-edit",
+        "field_key": "entity.canonical_name",
+        "normalized_value": "Qwen-Image-Edit",
+        "provenance_key": "official",
+        "raw_excerpt": "Qwen-Image-Edit",
+        "review_status": "accepted",
+        "reviewed_at": null
+      },
+      {
+        "source_key": "src:card:qwen-image-edit",
+        "field_key": "model.license_name",
+        "normalized_value": "Apache-2.0",
+        "provenance_key": "official",
+        "raw_excerpt": "License: apache-2.0",
+        "review_status": "accepted",
+        "reviewed_at": null
+      },
+      {
+        "source_key": "src:card:qwen-image-edit",
+        "field_key": "model.total_parameters",
+        "normalized_value": 20430401088,
+        "provenance_key": "official",
+        "raw_excerpt": "HF API safetensors.total（精确）: 20430401088",
+        "review_status": "accepted",
+        "reviewed_at": null,
+        "notes": "由公开知识值校正为官方值（原值 20000000000）"
+      }
+    ],
+    "family": "Qwen-Image"
+  },
+  "review_notes": [
+    "多模态模型批（2026-09-07）：开放权重、可本地部署；官方卡/仓库页待逐字核验，参数与许可为公开知识值，pending。",
+    "本地部署权重要求：本批均为开放权重模型（非仅 API）；参数/日期/许可待官方卡逐字核验。",
+    "2026-09-15 evidence 提取：从快照 src_card_qwen-image-edit.txt 提取字段级逐字证据（pending，待审核）。",
+    "hf_fill --refresh-params：参数量取 HF API safetensors.total（精确），上下文取 config.json max_position_embeddings；已挂 evidence（pending）。",
+    "2026-09-15 evidence 提取：从快照 src_card_qwen-image-edit.txt 提取字段级逐字证据（pending，待审核）。",
+    "2026-09-15 evidence 提取：从快照 src_card_qwen-image-edit.txt 提取字段级逐字证据（pending，待审核）。",
+    "2026-09-15 evidence 提取：从快照 src_card_qwen-image-edit.txt 提取字段级逐字证据（pending，待审核）。",
+    "Approved in bulk on 2026-09-16 at the user's explicit request; no per-record human review."
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "schema_version": "3.2",
+  "record_type": "source_document",
+  "status": "pending",
+  "payload": {
+    "source_key": "src:amd:cpu-amd-ryzen-7-8700g",
+    "title": "AMD 7 8700G Desktop Processor",
+    "url": "https://www.amd.com/en/products/processors/desktops/ryzen/8000-series/amd-ryzen-7-8700g.html",
+    "publisher_key": "org:www",
+    "source_type": "official_page",
+    "source_tier": "A",
+    "published_at": null,
+    "market_region": null,
+    "language": null,
+    "availability_status": "accessible",
+    "archive_url": null,
+    "accessed_at": "2026-09-07T08:58:34+00:00",
+    "content_hash": "9d473d6a01f40e970e00facb2c86f8f64a46066e6bcccda713b4343216d7505c"
+  },
+  "review_notes": [
+    "gap_collect 自动注册（2026-09-07）：URL 为规则模板，待 page_save.py --only-missing 抓取并回填 accessed_at/content_hash；若页面 404 或未含目标型号规格，则人工更换官方替代来源。"
+  ]
+}

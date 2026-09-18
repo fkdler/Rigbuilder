@@ -1,0 +1,23 @@
+{
+  "schema_version": "3.2",
+  "record_type": "source_document",
+  "status": "pending",
+  "payload": {
+    "source_key": "source:jd:geforce-rtx-5070-100293009528",
+    "title": "丽台（LEADTEK）GeForce RTX 5070 HURRICANE 12G GDDR7 PCI-E5.0 DLSS 4 电竞光追游戏设计电脑显卡高效能散",
+    "url": "https://item.jd.com/100293009528.html",
+    "source_type": "retailer",
+    "source_tier": "C",
+    "publisher_key": null,
+    "published_at": null,
+    "market_region": "CN",
+    "language": "zh-CN",
+    "availability_status": "accessible",
+    "archive_url": null,
+    "accessed_at": "2026-09-07T07:12:54+00:00",
+    "content_hash": "def20092db386f86c88ad26fb8fa90086a8a0851e91d16de276462e549877efe"
+  },
+  "review_notes": [
+    "京东 search SKU 100293009528；店铺：售400+1900+人种草丽台京东自营旗舰店；京东自营/官方旗舰。"
+  ]
+}

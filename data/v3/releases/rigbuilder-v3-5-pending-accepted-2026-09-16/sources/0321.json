@@ -1,0 +1,24 @@
+{
+  "schema_version": "3.2",
+  "record_type": "source_document",
+  "status": "accepted",
+  "payload": {
+    "source_key": "src:org:rockstar-games",
+    "title": "Rockstar Games 官方站点",
+    "url": "https://www.rockstargames.com/",
+    "publisher_key": "org:rockstar-games",
+    "source_type": "official_page",
+    "source_tier": "B",
+    "published_at": null,
+    "market_region": null,
+    "language": null,
+    "availability_status": "accessible",
+    "archive_url": null,
+    "accessed_at": "2026-09-14T11:39:13+00:00",
+    "content_hash": "aa207d0e92872c9a21370450bc0a45c3829c220e15d32a245888ff2f0e77ff36"
+  },
+  "review_notes": [
+    "evidence 补全批（2026-09-07）：pending，待抓取核验。",
+    "Approved in bulk on 2026-09-16 at the user's explicit request; no per-record human review."
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "schema_version": "3.2",
+  "record_type": "source_document",
+  "status": "pending",
+  "payload": {
+    "source_key": "src:gguf:unsloth-glm-4-6-gguf",
+    "title": "unsloth/GLM-4.6-GGUF (Hugging Face)",
+    "url": "https://huggingface.co/unsloth/GLM-4.6-GGUF",
+    "publisher_key": "org:unsloth",
+    "source_type": "community",
+    "source_tier": "D",
+    "published_at": null,
+    "market_region": null,
+    "language": null,
+    "availability_status": "accessible",
+    "archive_url": null,
+    "accessed_at": "2026-09-14T11:56:15+00:00",
+    "content_hash": "af62d804383e540a0cc5f73301140bd690d9a6202cb1159a8d9ca507a82ba1da"
+  },
+  "review_notes": [
+    "模型扩展批来源登记（2026-09-07）：pending，待 page_save.py 抓取回填 accessed_at/content_hash。",
+    "2026-09-14 经镜像抓取：https://hf-mirror.com/unsloth/GLM-4.6-GGUF（来源登记 URL 保持原样 https://huggingface.co/unsloth/GLM-4.6-GGUF）。"
+  ]
+}

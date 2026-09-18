@@ -1,0 +1,18 @@
+{
+  "schema_version": "3.2",
+  "record_type": "runtime_support",
+  "status": "accepted",
+  "payload": {
+    "snapshot_key": "modelfit:variant:deepseek:deepseek-r1-distill-qwen-14b:gguf:q4-k-m:unsloth:lm-studio:2026-09-16",
+    "support_status": "supported",
+    "variant_key": "variant:deepseek:deepseek-r1-distill-qwen-14b:gguf:q4-k-m:unsloth",
+    "runtime_key": "lm-studio",
+    "min_version": null,
+    "tested_version": null,
+    "backend": "gguf",
+    "notes": "ModelFit lists this build as a GGUF package usable through this runtime. Runnability recorded; measured throughput is not part of this record. Reference command: ollama run deepseek-r1:14b",
+    "source_key": "src:modelfit:hardware-dataset-2026-09-16",
+    "checked_at": "2026-09-16T00:00:00Z"
+  },
+  "review_notes": []
+}

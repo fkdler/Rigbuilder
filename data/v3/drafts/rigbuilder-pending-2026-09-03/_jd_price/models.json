@@ -1,0 +1,658 @@
+{
+  "meta": {
+    "created": "2026-09-05T12:40:29.760Z",
+    "collection": "jd-current_new-cn",
+    "out_dir": "D:/code/Rigbuilder/data/v3/drafts/rigbuilder-pending-2026-09-03",
+    "total": 80
+  },
+  "models": [
+    {
+      "idx": 1,
+      "file": "nvidia-geforce-rtx-3080.json",
+      "entity_key": "hw:nvidia:geforce-rtx-3080:desktop:global",
+      "name": "GeForce RTX 3080",
+      "category": "gpu",
+      "mfr": "nvidia"
+    },
+    {
+      "idx": 2,
+      "file": "nvidia-geforce-rtx-3080-12gb.json",
+      "entity_key": "hw:nvidia:geforce-rtx-3080-12gb:desktop:global",
+      "name": "GeForce RTX 3080 12GB",
+      "category": "gpu",
+      "mfr": "nvidia"
+    },
+    {
+      "idx": 3,
+      "file": "nvidia-geforce-rtx-3080-ti.json",
+      "entity_key": "hw:nvidia:geforce-rtx-3080-ti:desktop:global",
+      "name": "GeForce RTX 3080 Ti",
+      "category": "gpu",
+      "mfr": "nvidia"
+    },
+    {
+      "idx": 4,
+      "file": "nvidia-geforce-rtx-3090.json",
+      "entity_key": "hw:nvidia:geforce-rtx-3090:desktop:global",
+      "name": "GeForce RTX 3090",
+      "category": "gpu",
+      "mfr": "nvidia"
+    },
+    {
+      "idx": 5,
+      "file": "nvidia-geforce-rtx-3090-ti.json",
+      "entity_key": "hw:nvidia:geforce-rtx-3090-ti:desktop:global",
+      "name": "GeForce RTX 3090 Ti",
+      "category": "gpu",
+      "mfr": "nvidia"
+    },
+    {
+      "idx": 6,
+      "file": "nvidia-geforce-rtx-4060.json",
+      "entity_key": "hw:nvidia:geforce-rtx-4060:desktop:global",
+      "name": "GeForce RTX 4060",
+      "category": "gpu",
+      "mfr": "nvidia"
+    },
+    {
+      "idx": 7,
+      "file": "nvidia-geforce-rtx-4060-ti-16gb.json",
+      "entity_key": "hw:nvidia:geforce-rtx-4060-ti-16gb:desktop:global",
+      "name": "GeForce RTX 4060 Ti 16GB",
+      "category": "gpu",
+      "mfr": "nvidia"
+    },
+    {
+      "idx": 8,
+      "file": "nvidia-geforce-rtx-4060-ti-8gb.json",
+      "entity_key": "hw:nvidia:geforce-rtx-4060-ti-8gb:desktop:global",
+      "name": "GeForce RTX 4060 Ti 8GB",
+      "category": "gpu",
+      "mfr": "nvidia"
+    },
+    {
+      "idx": 9,
+      "file": "nvidia-geforce-rtx-4070.json",
+      "entity_key": "hw:nvidia:geforce-rtx-4070:desktop:global",
+      "name": "GeForce RTX 4070",
+      "category": "gpu",
+      "mfr": "nvidia"
+    },
+    {
+      "idx": 10,
+      "file": "nvidia-geforce-rtx-4070-super.json",
+      "entity_key": "hw:nvidia:geforce-rtx-4070-super:desktop:global",
+      "name": "GeForce RTX 4070 SUPER",
+      "category": "gpu",
+      "mfr": "nvidia"
+    },
+    {
+      "idx": 11,
+      "file": "nvidia-geforce-rtx-4070-ti.json",
+      "entity_key": "hw:nvidia:geforce-rtx-4070-ti:desktop:global",
+      "name": "GeForce RTX 4070 Ti",
+      "category": "gpu",
+      "mfr": "nvidia"
+    },
+    {
+      "idx": 12,
+      "file": "nvidia-geforce-rtx-4070-ti-super.json",
+      "entity_key": "hw:nvidia:geforce-rtx-4070-ti-super:desktop:global",
+      "name": "GeForce RTX 4070 Ti SUPER",
+      "category": "gpu",
+      "mfr": "nvidia"
+    },
+    {
+      "idx": 13,
+      "file": "nvidia-geforce-rtx-4080.json",
+      "entity_key": "hw:nvidia:geforce-rtx-4080:desktop:global",
+      "name": "GeForce RTX 4080",
+      "category": "gpu",
+      "mfr": "nvidia"
+    },
+    {
+      "idx": 14,
+      "file": "nvidia-geforce-rtx-4080-super.json",
+      "entity_key": "hw:nvidia:geforce-rtx-4080-super:desktop:global",
+      "name": "GeForce RTX 4080 SUPER",
+      "category": "gpu",
+      "mfr": "nvidia"
+    },
+    {
+      "idx": 15,
+      "file": "nvidia-geforce-rtx-4090.json",
+      "entity_key": "hw:nvidia:geforce-rtx-4090:desktop:global",
+      "name": "GeForce RTX 4090",
+      "category": "gpu",
+      "mfr": "nvidia"
+    },
+    {
+      "idx": 16,
+      "file": "nvidia-geforce-rtx-5070.json",
+      "entity_key": "hw:nvidia:geforce-rtx-5070:desktop:global",
+      "name": "GeForce RTX 5070",
+      "category": "gpu",
+      "mfr": "nvidia"
+    },
+    {
+      "idx": 17,
+      "file": "nvidia-geforce-rtx-5070-ti.json",
+      "entity_key": "hw:nvidia:geforce-rtx-5070-ti:desktop:global",
+      "name": "GeForce RTX 5070 Ti",
+      "category": "gpu",
+      "mfr": "nvidia"
+    },
+    {
+      "idx": 18,
+      "file": "nvidia-geforce-rtx-5080.json",
+      "entity_key": "hw:nvidia:geforce-rtx-5080:desktop:global",
+      "name": "GeForce RTX 5080",
+      "category": "gpu",
+      "mfr": "nvidia"
+    },
+    {
+      "idx": 19,
+      "file": "nvidia-geforce-rtx-5090.json",
+      "entity_key": "hw:nvidia:geforce-rtx-5090:desktop:global",
+      "name": "GeForce RTX 5090",
+      "category": "gpu",
+      "mfr": "nvidia"
+    },
+    {
+      "idx": 20,
+      "file": "amd-radeon-rx-6600.json",
+      "entity_key": "hw:amd:radeon-rx-6600:desktop:global",
+      "name": "Radeon RX 6600",
+      "category": "gpu",
+      "mfr": "amd"
+    },
+    {
+      "idx": 21,
+      "file": "amd-radeon-rx-6600-xt.json",
+      "entity_key": "hw:amd:radeon-rx-6600-xt:desktop:global",
+      "name": "Radeon RX 6600 XT",
+      "category": "gpu",
+      "mfr": "amd"
+    },
+    {
+      "idx": 22,
+      "file": "amd-radeon-rx-6700-xt.json",
+      "entity_key": "hw:amd:radeon-rx-6700-xt:desktop:global",
+      "name": "Radeon RX 6700 XT",
+      "category": "gpu",
+      "mfr": "amd"
+    },
+    {
+      "idx": 23,
+      "file": "amd-radeon-rx-6800.json",
+      "entity_key": "hw:amd:radeon-rx-6800:desktop:global",
+      "name": "Radeon RX 6800",
+      "category": "gpu",
+      "mfr": "amd"
+    },
+    {
+      "idx": 24,
+      "file": "amd-radeon-rx-6800-xt.json",
+      "entity_key": "hw:amd:radeon-rx-6800-xt:desktop:global",
+      "name": "Radeon RX 6800 XT",
+      "category": "gpu",
+      "mfr": "amd"
+    },
+    {
+      "idx": 25,
+      "file": "amd-radeon-rx-6900-xt.json",
+      "entity_key": "hw:amd:radeon-rx-6900-xt:desktop:global",
+      "name": "Radeon RX 6900 XT",
+      "category": "gpu",
+      "mfr": "amd"
+    },
+    {
+      "idx": 26,
+      "file": "amd-radeon-rx-7600.json",
+      "entity_key": "hw:amd:radeon-rx-7600:desktop:global",
+      "name": "Radeon RX 7600",
+      "category": "gpu",
+      "mfr": "amd"
+    },
+    {
+      "idx": 27,
+      "file": "amd-radeon-rx-7600-xt.json",
+      "entity_key": "hw:amd:radeon-rx-7600-xt:desktop:global",
+      "name": "Radeon RX 7600 XT",
+      "category": "gpu",
+      "mfr": "amd"
+    },
+    {
+      "idx": 28,
+      "file": "amd-radeon-rx-7700-xt.json",
+      "entity_key": "hw:amd:radeon-rx-7700-xt:desktop:global",
+      "name": "Radeon RX 7700 XT",
+      "category": "gpu",
+      "mfr": "amd"
+    },
+    {
+      "idx": 29,
+      "file": "amd-radeon-rx-7800-xt.json",
+      "entity_key": "hw:amd:radeon-rx-7800-xt:desktop:global",
+      "name": "Radeon RX 7800 XT",
+      "category": "gpu",
+      "mfr": "amd"
+    },
+    {
+      "idx": 30,
+      "file": "amd-radeon-rx-7900-xt.json",
+      "entity_key": "hw:amd:radeon-rx-7900-xt:desktop:global",
+      "name": "Radeon RX 7900 XT",
+      "category": "gpu",
+      "mfr": "amd"
+    },
+    {
+      "idx": 31,
+      "file": "amd-radeon-rx-7900-xtx.json",
+      "entity_key": "hw:amd:radeon-rx-7900-xtx:desktop:global",
+      "name": "Radeon RX 7900 XTX",
+      "category": "gpu",
+      "mfr": "amd"
+    },
+    {
+      "idx": 32,
+      "file": "amd-radeon-rx-9060-xt.json",
+      "entity_key": "hw:amd:radeon-rx-9060-xt:desktop:global",
+      "name": "Radeon RX 9060 XT",
+      "category": "gpu",
+      "mfr": "amd"
+    },
+    {
+      "idx": 33,
+      "file": "amd-radeon-rx-9070.json",
+      "entity_key": "hw:amd:radeon-rx-9070:desktop:global",
+      "name": "Radeon RX 9070",
+      "category": "gpu",
+      "mfr": "amd"
+    },
+    {
+      "idx": 34,
+      "file": "amd-radeon-rx-9070-xt.json",
+      "entity_key": "hw:amd:radeon-rx-9070-xt:desktop:global",
+      "name": "Radeon RX 9070 XT",
+      "category": "gpu",
+      "mfr": "amd"
+    },
+    {
+      "idx": 35,
+      "file": "intel-arc-a380.json",
+      "entity_key": "hw:intel:arc-a380:desktop:global",
+      "name": "Intel Arc A380",
+      "category": "gpu",
+      "mfr": "intel"
+    },
+    {
+      "idx": 36,
+      "file": "intel-arc-a580.json",
+      "entity_key": "hw:intel:arc-a580:desktop:global",
+      "name": "Intel Arc A580",
+      "category": "gpu",
+      "mfr": "intel"
+    },
+    {
+      "idx": 37,
+      "file": "intel-arc-a750.json",
+      "entity_key": "hw:intel:arc-a750:desktop:global",
+      "name": "Intel Arc A750",
+      "category": "gpu",
+      "mfr": "intel"
+    },
+    {
+      "idx": 38,
+      "file": "intel-arc-a770-16gb.json",
+      "entity_key": "hw:intel:arc-a770-16gb:desktop:global",
+      "name": "Intel Arc A770 16GB",
+      "category": "gpu",
+      "mfr": "intel"
+    },
+    {
+      "idx": 39,
+      "file": "intel-arc-b570.json",
+      "entity_key": "hw:intel:arc-b570:desktop:global",
+      "name": "Intel Arc B570",
+      "category": "gpu",
+      "mfr": "intel"
+    },
+    {
+      "idx": 40,
+      "file": "intel-arc-b580.json",
+      "entity_key": "hw:intel:arc-b580:desktop:global",
+      "name": "Intel Arc B580",
+      "category": "gpu",
+      "mfr": "intel"
+    },
+    {
+      "idx": 41,
+      "file": "amd-ryzen-5-5600f.json",
+      "entity_key": "hw:amd:ryzen-5-5600f:desktop:global",
+      "name": "Ryzen 5 5600F",
+      "category": "cpu",
+      "mfr": "amd"
+    },
+    {
+      "idx": 42,
+      "file": "amd-ryzen-5-5600t.json",
+      "entity_key": "hw:amd:ryzen-5-5600t:desktop:global",
+      "name": "Ryzen 5 5600T",
+      "category": "cpu",
+      "mfr": "amd"
+    },
+    {
+      "idx": 43,
+      "file": "amd-ryzen-5-5600x.json",
+      "entity_key": "hw:amd:ryzen-5-5600x:desktop:global",
+      "name": "Ryzen 5 5600X",
+      "category": "cpu",
+      "mfr": "amd"
+    },
+    {
+      "idx": 44,
+      "file": "amd-ryzen-5-7600.json",
+      "entity_key": "hw:amd:ryzen-5-7600:desktop:global",
+      "name": "Ryzen 5 7600",
+      "category": "cpu",
+      "mfr": "amd"
+    },
+    {
+      "idx": 45,
+      "file": "amd-ryzen-5-7600x.json",
+      "entity_key": "hw:amd:ryzen-5-7600x:desktop:global",
+      "name": "Ryzen 5 7600X",
+      "category": "cpu",
+      "mfr": "amd"
+    },
+    {
+      "idx": 46,
+      "file": "amd-ryzen-5-9600x.json",
+      "entity_key": "hw:amd:ryzen-5-9600x:desktop:global",
+      "name": "Ryzen 5 9600X",
+      "category": "cpu",
+      "mfr": "amd"
+    },
+    {
+      "idx": 47,
+      "file": "amd-ryzen-7-5800x.json",
+      "entity_key": "hw:amd:ryzen-7-5800x:desktop:global",
+      "name": "Ryzen 7 5800X",
+      "category": "cpu",
+      "mfr": "amd"
+    },
+    {
+      "idx": 48,
+      "file": "amd-ryzen-7-5800x3d.json",
+      "entity_key": "hw:amd:ryzen-7-5800x3d:desktop:global",
+      "name": "Ryzen 7 5800X3D",
+      "category": "cpu",
+      "mfr": "amd"
+    },
+    {
+      "idx": 49,
+      "file": "amd-ryzen-7-7700.json",
+      "entity_key": "hw:amd:ryzen-7-7700:desktop:global",
+      "name": "Ryzen 7 7700",
+      "category": "cpu",
+      "mfr": "amd"
+    },
+    {
+      "idx": 50,
+      "file": "amd-ryzen-7-7700x.json",
+      "entity_key": "hw:amd:ryzen-7-7700x:desktop:global",
+      "name": "Ryzen 7 7700X",
+      "category": "cpu",
+      "mfr": "amd"
+    },
+    {
+      "idx": 51,
+      "file": "amd-ryzen-7-7800x3d.json",
+      "entity_key": "hw:amd:ryzen-7-7800x3d:desktop:global",
+      "name": "Ryzen 7 7800X3D",
+      "category": "cpu",
+      "mfr": "amd"
+    },
+    {
+      "idx": 52,
+      "file": "amd-ryzen-7-9700x.json",
+      "entity_key": "hw:amd:ryzen-7-9700x:desktop:global",
+      "name": "Ryzen 7 9700X",
+      "category": "cpu",
+      "mfr": "amd"
+    },
+    {
+      "idx": 53,
+      "file": "amd-ryzen-7-9800x3d.json",
+      "entity_key": "hw:amd:ryzen-7-9800x3d:desktop:global",
+      "name": "Ryzen 7 9800X3D",
+      "category": "cpu",
+      "mfr": "amd"
+    },
+    {
+      "idx": 54,
+      "file": "amd-ryzen-9-7900x.json",
+      "entity_key": "hw:amd:ryzen-9-7900x:desktop:global",
+      "name": "Ryzen 9 7900X",
+      "category": "cpu",
+      "mfr": "amd"
+    },
+    {
+      "idx": 55,
+      "file": "amd-ryzen-9-7950x.json",
+      "entity_key": "hw:amd:ryzen-9-7950x:desktop:global",
+      "name": "Ryzen 9 7950X",
+      "category": "cpu",
+      "mfr": "amd"
+    },
+    {
+      "idx": 56,
+      "file": "amd-ryzen-9-7950x3d.json",
+      "entity_key": "hw:amd:ryzen-9-7950x3d:desktop:global",
+      "name": "Ryzen 9 7950X3D",
+      "category": "cpu",
+      "mfr": "amd"
+    },
+    {
+      "idx": 57,
+      "file": "amd-ryzen-9-9900x.json",
+      "entity_key": "hw:amd:ryzen-9-9900x:desktop:global",
+      "name": "Ryzen 9 9900X",
+      "category": "cpu",
+      "mfr": "amd"
+    },
+    {
+      "idx": 58,
+      "file": "amd-ryzen-9-9950x.json",
+      "entity_key": "hw:amd:ryzen-9-9950x:desktop:global",
+      "name": "Ryzen 9 9950X",
+      "category": "cpu",
+      "mfr": "amd"
+    },
+    {
+      "idx": 59,
+      "file": "amd-ryzen-9-9950x3d.json",
+      "entity_key": "hw:amd:ryzen-9-9950x3d:desktop:global",
+      "name": "Ryzen 9 9950X3D",
+      "category": "cpu",
+      "mfr": "amd"
+    },
+    {
+      "idx": 60,
+      "file": "intel-core-i5-12400.json",
+      "entity_key": "hw:intel:core-i5-12400:desktop:global",
+      "name": "Core i5-12400",
+      "category": "cpu",
+      "mfr": "intel"
+    },
+    {
+      "idx": 61,
+      "file": "intel-core-i5-12400f.json",
+      "entity_key": "hw:intel:core-i5-12400f:desktop:global",
+      "name": "Core i5-12400F",
+      "category": "cpu",
+      "mfr": "intel"
+    },
+    {
+      "idx": 62,
+      "file": "intel-core-i5-13400.json",
+      "entity_key": "hw:intel:core-i5-13400:desktop:global",
+      "name": "Core i5-13400",
+      "category": "cpu",
+      "mfr": "intel"
+    },
+    {
+      "idx": 63,
+      "file": "intel-core-i5-13400f.json",
+      "entity_key": "hw:intel:core-i5-13400f:desktop:global",
+      "name": "Core i5-13400F",
+      "category": "cpu",
+      "mfr": "intel"
+    },
+    {
+      "idx": 64,
+      "file": "intel-core-i5-13600.json",
+      "entity_key": "hw:intel:core-i5-13600:desktop:global",
+      "name": "Core i5-13600",
+      "category": "cpu",
+      "mfr": "intel"
+    },
+    {
+      "idx": 65,
+      "file": "intel-core-i5-13600k.json",
+      "entity_key": "hw:intel:core-i5-13600k:desktop:global",
+      "name": "Core i5-13600K",
+      "category": "cpu",
+      "mfr": "intel"
+    },
+    {
+      "idx": 66,
+      "file": "intel-core-i5-13600kf.json",
+      "entity_key": "hw:intel:core-i5-13600kf:desktop:global",
+      "name": "Core i5-13600KF",
+      "category": "cpu",
+      "mfr": "intel"
+    },
+    {
+      "idx": 67,
+      "file": "intel-core-i5-14600k.json",
+      "entity_key": "hw:intel:core-i5-14600k:desktop:global",
+      "name": "Core i5-14600K",
+      "category": "cpu",
+      "mfr": "intel"
+    },
+    {
+      "idx": 68,
+      "file": "intel-core-i5-14600kf.json",
+      "entity_key": "hw:intel:core-i5-14600kf:desktop:global",
+      "name": "Core i5-14600KF",
+      "category": "cpu",
+      "mfr": "intel"
+    },
+    {
+      "idx": 69,
+      "file": "intel-core-i7-13700.json",
+      "entity_key": "hw:intel:core-i7-13700:desktop:global",
+      "name": "Core i7-13700",
+      "category": "cpu",
+      "mfr": "intel"
+    },
+    {
+      "idx": 70,
+      "file": "intel-core-i7-13700k.json",
+      "entity_key": "hw:intel:core-i7-13700k:desktop:global",
+      "name": "Core i7-13700K",
+      "category": "cpu",
+      "mfr": "intel"
+    },
+    {
+      "idx": 71,
+      "file": "intel-core-i7-13700kf.json",
+      "entity_key": "hw:intel:core-i7-13700kf:desktop:global",
+      "name": "Core i7-13700KF",
+      "category": "cpu",
+      "mfr": "intel"
+    },
+    {
+      "idx": 72,
+      "file": "intel-core-i7-14700k.json",
+      "entity_key": "hw:intel:core-i7-14700k:desktop:global",
+      "name": "Core i7-14700K",
+      "category": "cpu",
+      "mfr": "intel"
+    },
+    {
+      "idx": 73,
+      "file": "intel-core-i7-14700kf.json",
+      "entity_key": "hw:intel:core-i7-14700kf:desktop:global",
+      "name": "Core i7-14700KF",
+      "category": "cpu",
+      "mfr": "intel"
+    },
+    {
+      "idx": 74,
+      "file": "intel-core-i9-13900k.json",
+      "entity_key": "hw:intel:core-i9-13900k:desktop:global",
+      "name": "Core i9-13900K",
+      "category": "cpu",
+      "mfr": "intel"
+    },
+    {
+      "idx": 75,
+      "file": "intel-core-i9-13900kf.json",
+      "entity_key": "hw:intel:core-i9-13900kf:desktop:global",
+      "name": "Core i9-13900KF",
+      "category": "cpu",
+      "mfr": "intel"
+    },
+    {
+      "idx": 76,
+      "file": "intel-core-i9-14900k.json",
+      "entity_key": "hw:intel:core-i9-14900k:desktop:global",
+      "name": "Core i9-14900K",
+      "category": "cpu",
+      "mfr": "intel"
+    },
+    {
+      "idx": 77,
+      "file": "intel-core-i9-14900kf.json",
+      "entity_key": "hw:intel:core-i9-14900kf:desktop:global",
+      "name": "Core i9-14900KF",
+      "category": "cpu",
+      "mfr": "intel"
+    },
+    {
+      "idx": 78,
+      "file": "intel-core-ultra-7-265k.json",
+      "entity_key": "hw:intel:core-ultra-7-265k:desktop:global",
+      "name": "Core Ultra 7 265K",
+      "category": "cpu",
+      "mfr": "intel"
+    },
+    {
+      "idx": 79,
+      "file": "intel-core-ultra-7-265kf.json",
+      "entity_key": "hw:intel:core-ultra-7-265kf:desktop:global",
+      "name": "Core Ultra 7 265KF",
+      "category": "cpu",
+      "mfr": "intel"
+    },
+    {
+      "idx": 80,
+      "file": "intel-core-ultra-9-285k.json",
+      "entity_key": "hw:intel:core-ultra-9-285k:desktop:global",
+      "name": "Core Ultra 9 285K",
+      "category": "cpu",
+      "mfr": "intel"
+    },
+    {
+      "idx": 81,
+      "file": "nvidia-geforce-rtx-5090d.json",
+      "entity_key": "hw:nvidia:geforce-rtx-5090d:desktop:global",
+      "name": "GeForce RTX 5090D",
+      "category": "gpu",
+      "mfr": "nvidia"
+    }
+  ]
+}

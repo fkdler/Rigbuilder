@@ -1,0 +1,98 @@
+{
+  "schema_version": "3.2",
+  "record_type": "model",
+  "status": "accepted",
+  "payload": {
+    "identity": {
+      "entity_key": "model:thudm:cogvideox-5b",
+      "canonical_name": "CogVideoX-5B",
+      "entity_type": "ai_model",
+      "release_date": "2024-08-27",
+      "lifecycle_status": "unknown",
+      "recommendable": true
+    },
+    "publisher_key": "org:thudm",
+    "release_version": null,
+    "model_type": "diffusion",
+    "total_parameters": 5570283072,
+    "active_parameters": null,
+    "model_stage": "text_to_video",
+    "context_length_tokens": null,
+    "license_name": "CogVideoX-License",
+    "commercial_use_status": "allowed",
+    "official_repo_url": "https://huggingface.co/THUDM/CogVideoX-5b",
+    "official_model_card_url": "https://huggingface.co/THUDM/CogVideoX-5b",
+    "architecture_notes": null,
+    "capabilities": [
+      {
+        "capability_key": "text_input",
+        "status": "supported",
+        "notes": null
+      },
+      {
+        "capability_key": "video_output",
+        "status": "supported",
+        "notes": null
+      }
+    ],
+    "variants": [
+      {
+        "identity": {
+          "entity_key": "variant:thudm-cogvideox-5b:official-safetensors",
+          "canonical_name": "CogVideoX-5B 官方权重 (safetensors, THUDM)",
+          "entity_type": "model_variant",
+          "release_date": null,
+          "lifecycle_status": "unknown",
+          "recommendable": true
+        },
+        "file_size_bytes": 21527719772,
+        "weight_format": "safetensors",
+        "official_status": "official",
+        "repository_url": "https://huggingface.co/THUDM/CogVideoX-5b",
+        "evidence": [
+          {
+            "source_key": "src:hf:thudm-cogvideox-5b",
+            "field_key": "entity.canonical_name",
+            "normalized_value": "CogVideoX-5B 官方权重 (safetensors, THUDM)",
+            "review_status": "accepted",
+            "confidence": 1
+          }
+        ]
+      }
+    ],
+    "evidence": [
+      {
+        "source_key": "src:card:cogvideox-5b",
+        "field_key": "entity.canonical_name",
+        "normalized_value": "CogVideoX-5B",
+        "provenance_key": "official",
+        "raw_excerpt": "CogVideoX-5B",
+        "review_status": "accepted",
+        "reviewed_at": null
+      },
+      {
+        "source_key": "src:card:cogvideox-5b",
+        "field_key": "model.license_name",
+        "normalized_value": "CogVideoX-License",
+        "provenance_key": "official",
+        "raw_excerpt": "CogVideoX-License",
+        "review_status": "accepted",
+        "reviewed_at": null
+      },
+      {
+        "source_key": "src:card:cogvideox-5b",
+        "field_key": "model.total_parameters",
+        "normalized_value": 5570283072,
+        "provenance_key": "official",
+        "raw_excerpt": "HF API safetensors.total（精确）: 5570283072",
+        "review_status": "accepted",
+        "reviewed_at": null,
+        "notes": "由公开知识值校正为官方值（原值 5000000000）"
+      }
+    ],
+    "family": "CogVideoX"
+  },
+  "review_notes": [
+    "Model artifacts enumerated from the official Hugging Face API on 2026-09-16 (file list and byte sizes only; no weights were downloaded or verified)."
+  ]
+}

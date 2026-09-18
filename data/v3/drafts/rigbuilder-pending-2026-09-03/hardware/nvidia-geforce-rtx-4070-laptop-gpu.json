@@ -1,0 +1,60 @@
+{
+  "schema_version": "3.2",
+  "record_type": "hardware",
+  "status": "pending",
+  "payload": {
+    "identity": {
+      "entity_key": "hw:nvidia:geforce-rtx-4070-laptop:laptop:global",
+      "canonical_name": "GeForce RTX 4070 Laptop GPU",
+      "entity_type": "hardware",
+      "release_date": null,
+      "lifecycle_status": "unknown",
+      "recommendable": true
+    },
+    "category": "gpu",
+    "record_kind": "product",
+    "manufacturer_key": "org:nvidia",
+    "form_factor": "laptop",
+    "model_name": "GeForce RTX 4070 Laptop GPU",
+    "variant_name": null,
+    "market_segment": "mobile",
+    "region_code": "GLOBAL",
+    "official_product_id": null,
+    "product_family": null,
+    "attributes": [],
+    "evidence": [
+      {
+        "source_key": "src:nvidia:gpu-laptop-geforce-rtx-4070-laptop-gpu",
+        "field_key": "entity.canonical_name",
+        "normalized_value": "GeForce RTX 4070 Laptop GPU",
+        "provenance_key": "official",
+        "raw_excerpt": "GeForce RTX 4070 Laptop GPU",
+        "review_status": "pending",
+        "reviewed_at": null
+      }
+    ],
+    "laptop_gpu_spec": {
+      "tgp_min_w": null,
+      "tgp_max_w": 115,
+      "boost_clock_min_mhz": null,
+      "boost_clock_max_mhz": null,
+      "dynamic_boost_w": null
+    },
+    "gpu_spec": {
+      "architecture": "Ada Lovelace",
+      "vram_gib": 8,
+      "memory_type": "GDDR6",
+      "memory_bus_width_bit": 128,
+      "memory_bandwidth_gb_s": null,
+      "ecc_support": false,
+      "interface": null,
+      "pcie_generation": null,
+      "pcie_lanes": null,
+      "board_power_w": null
+    }
+  },
+  "review_notes": [
+    "重建/扩展收集（2026-09-07）：官方来源页待核验（弃用页将找替代官方来源），未挂 evidence；值按公开规格知识填写，pending，待来源确认后核对。",
+    "2026-09-07 补齐：laptop GPU 缺失的 gpu_spec（架构/显存/位宽，公开规格知识值，pending）。"
+  ]
+}

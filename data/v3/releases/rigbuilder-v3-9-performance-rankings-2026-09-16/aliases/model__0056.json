@@ -1,0 +1,14 @@
+{
+  "schema_version": "3.2",
+  "record_type": "entity_alias",
+  "status": "accepted",
+  "payload": {
+    "entity_key": "model:nvidia:parakeet-tdt-0-6b-v2",
+    "alias": "nvidia/parakeet-tdt-0.6b-v2",
+    "alias_type": "repository",
+    "language": null,
+    "normalized_alias": "nvidiaparakeettdt06bv2",
+    "source_key": null
+  },
+  "review_notes": []
+}

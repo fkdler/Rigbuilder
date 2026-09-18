@@ -1,0 +1,22 @@
+{
+  "schema_version": "3.2",
+  "record_type": "price_snapshot",
+  "status": "accepted",
+  "payload": {
+    "price_key": "price:hw:intel:core-i5-13400:desktop:global:cn:2026-09",
+    "entity_key": "hw:intel:core-i5-13400:desktop:global",
+    "source_key": "source:jd:core-i5-13400-10115164570550",
+    "observed_at": "2026-09-05T16:23:14+08:00",
+    "currency": "CNY",
+    "amount": 1849,
+    "availability": "in_stock",
+    "price_type": "current_new",
+    "market_region": "CN",
+    "condition": "new",
+    "seller_key": null,
+    "notes": "店铺未返回"
+  },
+  "review_notes": [
+    "京东页面标价；抓取2026-09-05。"
+  ]
+}

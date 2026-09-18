@@ -1,0 +1,79 @@
+{
+  "schema_version": "3.2",
+  "record_type": "model",
+  "status": "pending",
+  "payload": {
+    "identity": {
+      "entity_key": "model:swivid:f5-tts",
+      "canonical_name": "F5-TTS",
+      "entity_type": "ai_model",
+      "release_date": "2024-10-19",
+      "lifecycle_status": "unknown",
+      "recommendable": true
+    },
+    "publisher_key": "org:swivid",
+    "release_version": null,
+    "model_type": "dense",
+    "total_parameters": null,
+    "active_parameters": null,
+    "model_stage": "text_to_speech",
+    "context_length_tokens": null,
+    "license_name": "MIT",
+    "commercial_use_status": "allowed",
+    "official_repo_url": "https://huggingface.co/SWivid/F5-TTS",
+    "official_model_card_url": "https://huggingface.co/SWivid/F5-TTS",
+    "architecture_notes": null,
+    "capabilities": [
+      {
+        "capability_key": "text_input",
+        "status": "supported",
+        "notes": null
+      },
+      {
+        "capability_key": "audio_input",
+        "status": "supported",
+        "notes": null
+      },
+      {
+        "capability_key": "audio_output",
+        "status": "supported",
+        "notes": null
+      }
+    ],
+    "variants": [],
+    "evidence": [
+      {
+        "source_key": "src:card:f5-tts",
+        "field_key": "entity.canonical_name",
+        "normalized_value": "F5-TTS",
+        "provenance_key": "official",
+        "raw_excerpt": "F5-TTS",
+        "review_status": "pending",
+        "reviewed_at": null
+      },
+      {
+        "source_key": "src:card:f5-tts",
+        "field_key": "model.license_name",
+        "normalized_value": "MIT",
+        "provenance_key": "official",
+        "raw_excerpt": "MIT",
+        "review_status": "pending",
+        "reviewed_at": null
+      },
+      {
+        "source_key": "src:card:f5-tts",
+        "field_key": "model.model_stage",
+        "normalized_value": "text_to_speech",
+        "provenance_key": "official",
+        "raw_excerpt": "text_to_speech",
+        "review_status": "pending",
+        "reviewed_at": null
+      }
+    ],
+    "family": "F5-TTS"
+  },
+  "review_notes": [
+    "多模态模型批（2026-09-07）：开放权重、可本地部署；参数/日期/许可为公开知识值或留空，pending，待官方卡核验（参数量建议由 hf_fill 从 safetensors 精确回填）。",
+    "本地部署：开放权重（非 API-only）。"
+  ]
+}

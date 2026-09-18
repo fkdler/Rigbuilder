@@ -1,0 +1,69 @@
+{
+  "schema_version": "3.2",
+  "record_type": "hardware",
+  "status": "accepted",
+  "payload": {
+    "identity": {
+      "entity_key": "hw:intel:core-i7-14700t:desktop:global",
+      "canonical_name": "Core i7-14700T",
+      "entity_type": "hardware",
+      "release_date": null,
+      "lifecycle_status": "unknown",
+      "recommendable": true
+    },
+    "category": "cpu",
+    "record_kind": "product",
+    "manufacturer_key": "org:intel",
+    "form_factor": "desktop",
+    "model_name": "Core i7-14700T",
+    "variant_name": null,
+    "market_segment": "consumer",
+    "region_code": "GLOBAL",
+    "official_product_id": null,
+    "product_family": null,
+    "attributes": [],
+    "evidence": [
+      {
+        "source_key": "src:hardquery:cpu",
+        "field_key": "entity.canonical_name",
+        "normalized_value": "Core i7-14700T",
+        "provenance_key": "community_reported",
+        "raw_excerpt": "Core i7-14700T",
+        "review_status": "accepted",
+        "reviewed_at": null
+      },
+      {
+        "source_key": "src:hardquery:cpu",
+        "field_key": "cpu.integrated_gpu",
+        "normalized_value": "UHD Graphics 770",
+        "review_status": "accepted",
+        "confidence": 1
+      }
+    ],
+    "cpu_spec": {
+      "architecture": "Raptor Lake Refresh",
+      "codename": "Raptor Lake Refresh",
+      "cores_total": 20,
+      "threads": 28,
+      "performance_cores": null,
+      "efficiency_cores": null,
+      "base_clock_mhz": 1500,
+      "boost_clock_mhz": 5200,
+      "l2_cache_mib": null,
+      "l3_cache_mib": 33,
+      "base_power_w": 35,
+      "max_power_w": null,
+      "socket": "LGA1700",
+      "memory_channels": 2,
+      "max_memory_gib": null,
+      "ecc_support": null,
+      "pcie_generation": null,
+      "pcie_lanes": null,
+      "integrated_gpu": "UHD Graphics 770",
+      "npu_model": null
+    }
+  },
+  "review_notes": [
+    "Added 2026-09-16 by the migration/backfill pass; value matches the stored specification column."
+  ]
+}

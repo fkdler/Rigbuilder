@@ -1,0 +1,24 @@
+{
+  "schema_version": "3.2",
+  "record_type": "source_document",
+  "status": "pending",
+  "payload": {
+    "source_key": "src:card:qwen3-embedding-8b",
+    "title": "Qwen3-Embedding-8B Model Card",
+    "url": "https://huggingface.co/Qwen/Qwen3-Embedding-8B",
+    "publisher_key": "org:qwen",
+    "source_type": "model_card",
+    "source_tier": "A",
+    "published_at": null,
+    "market_region": null,
+    "language": null,
+    "availability_status": "accessible",
+    "archive_url": null,
+    "accessed_at": "2026-09-14T11:57:11+00:00",
+    "content_hash": "cb2e2f75ca8d9d4c2c6d23f8a6a12effc32407a6ce977eb978f4826d2aac19a1"
+  },
+  "review_notes": [
+    "模型扩展批来源登记（2026-09-07）：pending，待 page_save.py 抓取回填 accessed_at/content_hash。",
+    "2026-09-14 经镜像抓取：https://hf-mirror.com/Qwen/Qwen3-Embedding-8B（来源登记 URL 保持原样 https://huggingface.co/Qwen/Qwen3-Embedding-8B）。"
+  ]
+}

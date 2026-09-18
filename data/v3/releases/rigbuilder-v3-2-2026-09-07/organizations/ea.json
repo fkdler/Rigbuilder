@@ -1,0 +1,20 @@
+{
+  "schema_version": "3.2",
+  "record_type": "organization",
+  "status": "accepted",
+  "payload": {
+    "identity": {
+      "entity_key": "org:ea",
+      "canonical_name": "Electronic Arts",
+      "entity_type": "organization",
+      "release_date": null,
+      "lifecycle_status": "unknown",
+      "recommendable": false
+    },
+    "website_url": "https://www.ea.com/",
+    "country_or_region": null,
+    "organization_type": "publisher",
+    "evidence": []
+  },
+  "review_notes": []
+}

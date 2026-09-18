@@ -1,0 +1,25 @@
+{
+  "schema_version": "3.2",
+  "record_type": "source_document",
+  "status": "accepted",
+  "payload": {
+    "source_key": "src:card:kimi-k2-thinking",
+    "title": "Kimi-K2-Thinking Model Card",
+    "url": "https://huggingface.co/moonshotai/Kimi-K2-Thinking",
+    "publisher_key": "org:moonshot-ai",
+    "source_type": "model_card",
+    "source_tier": "A",
+    "published_at": null,
+    "market_region": null,
+    "language": null,
+    "availability_status": "accessible",
+    "archive_url": null,
+    "accessed_at": "2026-09-14T11:56:36+00:00",
+    "content_hash": "e2e7f28bff7c159bf55844e4f5d65bc5573c2c51e6319dff00ad229d4f011ab9"
+  },
+  "review_notes": [
+    "模型扩展批来源登记（2026-09-07）：pending，待 page_save.py 抓取回填 accessed_at/content_hash。",
+    "2026-09-14 经镜像抓取：https://hf-mirror.com/moonshotai/Kimi-K2-Thinking（来源登记 URL 保持原样 https://huggingface.co/moonshotai/Kimi-K2-Thinking）。",
+    "Approved in bulk on 2026-09-16 at the user's explicit request; no per-record human review."
+  ]
+}

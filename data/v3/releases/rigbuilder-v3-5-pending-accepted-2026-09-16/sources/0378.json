@@ -1,0 +1,25 @@
+{
+  "schema_version": "3.2",
+  "record_type": "source_document",
+  "status": "accepted",
+  "payload": {
+    "source_key": "src:card:pixtral-12b",
+    "title": "Pixtral-12B Model Card",
+    "url": "https://huggingface.co/mistralai/Pixtral-12B-2409",
+    "publisher_key": "org:mistral-ai",
+    "source_type": "model_card",
+    "source_tier": "A",
+    "published_at": null,
+    "market_region": null,
+    "language": null,
+    "availability_status": "accessible",
+    "archive_url": null,
+    "accessed_at": "2026-09-15T11:32:30+00:00",
+    "content_hash": "659f461e6e216c1c64ab7723b6be45901c18b1d97eafa7728583a3486a10cef7"
+  },
+  "review_notes": [
+    "多模态模型来源登记（2026-09-07）：pending。",
+    "2026-09-15 经镜像抓取：https://hf-mirror.com/mistralai/Pixtral-12B-2409（来源登记 URL 保持原样 https://huggingface.co/mistralai/Pixtral-12B-2409）。",
+    "Approved in bulk on 2026-09-16 at the user's explicit request; no per-record human review."
+  ]
+}

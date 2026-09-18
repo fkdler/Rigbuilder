@@ -1,0 +1,98 @@
+{
+  "schema_version": "3.2",
+  "record_type": "benchmark_run",
+  "status": "accepted",
+  "payload": {
+    "run_key": "passmark-cpu-models:hw:amd:ryzen-ai-max-395:laptop:global:2026-09-16",
+    "protocol_key": "passmark-cpu-models",
+    "protocol_version": "1",
+    "workload_key": null,
+    "started_at": "2026-09-16T04:16:04.406679Z",
+    "completed_at": null,
+    "environment": {
+      "snapshot_date": "2026-09-16",
+      "form_factor": "laptop",
+      "source_name": "AMD Ryzen AI Max+ 395",
+      "population_source": "https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+AI+Max%2B+395&id=6403",
+      "population_all_cpus": 6006,
+      "population_in_class": 1647,
+      "rank_class_label": "Laptop"
+    },
+    "subjects": [
+      {
+        "entity_key": "hw:amd:ryzen-ai-max-395:laptop:global",
+        "role": "cpu",
+        "is_primary": true,
+        "quantity": 1
+      }
+    ],
+    "metrics": [
+      {
+        "metric_key": "passmark.cpu.mark",
+        "value_number": "54900",
+        "unit": "points",
+        "value_integer": null,
+        "value_boolean": null,
+        "value_text": null,
+        "statistic": "reported",
+        "sample_count": null
+      },
+      {
+        "metric_key": "passmark.cpu.single_thread",
+        "value_number": "4147",
+        "unit": "points",
+        "value_integer": null,
+        "value_boolean": null,
+        "value_text": null,
+        "statistic": "reported",
+        "sample_count": null
+      },
+      {
+        "metric_key": "passmark.cpu.rank_multi",
+        "value_number": null,
+        "unit": "rank",
+        "value_integer": 227,
+        "value_boolean": null,
+        "value_text": null,
+        "statistic": "reported",
+        "sample_count": null
+      },
+      {
+        "metric_key": "passmark.cpu.rank_class",
+        "value_number": null,
+        "unit": "rank",
+        "value_integer": 9,
+        "value_boolean": null,
+        "value_text": null,
+        "statistic": "reported",
+        "sample_count": null
+      },
+      {
+        "metric_key": "passmark.cpu.rank_single",
+        "value_number": null,
+        "unit": "rank",
+        "value_integer": 170,
+        "value_boolean": null,
+        "value_text": null,
+        "statistic": "reported",
+        "sample_count": null
+      }
+    ],
+    "evidence": [],
+    "source_key": "src:passmark:cpu-models-2026-09-16",
+    "run_origin": "independent",
+    "test_date": "2026-09-16",
+    "status": "success",
+    "settings": {
+      "source_page": "https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+AI+Max%2B+395&id=6403",
+      "score_column": "Average CPU Mark"
+    },
+    "settings_hash": null,
+    "sample_count": null,
+    "aggregation_method": "reported",
+    "raw_result_url": "https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+AI+Max%2B+395&id=6403",
+    "raw_result_hash": "6d57b3d2552d100c5f9c2f1c0b71f574e1559d06b9b0a557c153adb75b06c11e",
+    "notes": "Figures as published for 'AMD Ryzen AI Max+ 395' in the 2026-09-16 snapshot."
+  },
+  "review_notes": []
+}

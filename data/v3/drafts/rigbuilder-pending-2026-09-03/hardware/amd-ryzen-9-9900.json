@@ -1,0 +1,56 @@
+{
+  "schema_version": "3.2",
+  "record_type": "hardware",
+  "status": "pending",
+  "payload": {
+    "identity": {
+      "entity_key": "hw:amd:ryzen-9-9900:desktop:global",
+      "canonical_name": "Ryzen 9 9900",
+      "entity_type": "hardware",
+      "release_date": null,
+      "lifecycle_status": "unknown",
+      "recommendable": true
+    },
+    "category": "cpu",
+    "record_kind": "product",
+    "manufacturer_key": "org:amd",
+    "form_factor": "desktop",
+    "model_name": "Ryzen 9 9900",
+    "variant_name": null,
+    "market_segment": "consumer",
+    "region_code": "GLOBAL",
+    "official_product_id": null,
+    "product_family": null,
+    "attributes": [],
+    "evidence": [],
+    "cpu_spec": {
+      "architecture": "Zen 5",
+      "codename": "Zen 5",
+      "cores_total": 12,
+      "threads": 24,
+      "performance_cores": null,
+      "efficiency_cores": null,
+      "base_clock_mhz": null,
+      "boost_clock_mhz": 5400,
+      "l2_cache_mib": null,
+      "l3_cache_mib": 64,
+      "base_power_w": null,
+      "max_power_w": null,
+      "socket": "AM5",
+      "memory_channels": 2,
+      "max_memory_gib": null,
+      "ecc_support": null,
+      "pcie_generation": 5,
+      "pcie_lanes": 24,
+      "integrated_gpu": null,
+      "npu_model": null
+    }
+  },
+  "review_notes": [
+    "重建/扩展收集（2026-09-07）：官方来源页待核验（弃用页将找替代官方来源），未挂 evidence；值按公开规格知识填写，pending，待来源确认后核对。",
+    "2026-09-07 evidence 补全：挂 canonical_name 证据（来源见 sources）；其余字段证据待逐字核验后补。",
+    "2026-09-14 来源替换：AMD 官网产品页 404，evidence 改指 HardQuery 第三方库（tier C），待官方替代来源或详情页核验。",
+    "2026-09-15 来源替换：HardQuery 栏目页 → AMD 官方支持页（tier A，可脚本抓取）。",
+    "2026-09-15 来源清理：AMD 官方无该型号产品页/支持页（OEM 版或非零售版），已移除无来源可依的证据 1 条；规格值保留为公开知识值，pending，待其他官方渠道或第三方来源补证。"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version": "3.2",
+  "record_type": "source_document",
+  "status": "accepted",
+  "payload": {
+    "source_key": "src:gguf:unsloth-kimi-k2-instruct-gguf",
+    "title": "unsloth/Kimi-K2-Instruct-GGUF (Hugging Face)",
+    "url": "https://huggingface.co/unsloth/Kimi-K2-Instruct-GGUF",
+    "publisher_key": "org:unsloth",
+    "source_type": "community",
+    "source_tier": "D",
+    "published_at": null,
+    "market_region": null,
+    "language": null,
+    "availability_status": "accessible",
+    "archive_url": null,
+    "accessed_at": "2026-09-14T11:56:32+00:00",
+    "content_hash": "688c179e449295e4df12829b27d83dbc01b50ea65fea95878f7d5e63ef118c6b"
+  },
+  "review_notes": [
+    "模型扩展批来源登记（2026-09-07）：pending，待 page_save.py 抓取回填 accessed_at/content_hash。",
+    "2026-09-14 经镜像抓取：https://hf-mirror.com/unsloth/Kimi-K2-Instruct-GGUF（来源登记 URL 保持原样 https://huggingface.co/unsloth/Kimi-K2-Instruct-GGUF）。",
+    "Approved in bulk on 2026-09-16 at the user's explicit request; no per-record human review."
+  ]
+}

@@ -1,0 +1,491 @@
+{
+  "$defs": {
+    "CalculationProof": {
+      "properties": {
+        "field_key": {
+          "title": "Field Key",
+          "type": "string"
+        },
+        "input_evidence_ids": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Input Evidence Ids",
+          "type": "array"
+        }
+      },
+      "required": [
+        "field_key",
+        "input_evidence_ids"
+      ],
+      "title": "CalculationProof",
+      "type": "object"
+    },
+    "DecisionCandidate": {
+      "properties": {
+        "entity_id": {
+          "title": "Entity Id",
+          "type": "string"
+        },
+        "category": {
+          "enum": [
+            "cpu",
+            "gpu"
+          ],
+          "title": "Category",
+          "type": "string"
+        },
+        "facts": {
+          "additionalProperties": {
+            "$ref": "#/$defs/EvidenceFact"
+          },
+          "title": "Facts",
+          "type": "object"
+        },
+        "facts_reference": {
+          "anyOf": [
+            {
+              "const": "row_bindings",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Facts Reference"
+        },
+        "position": {
+          "$ref": "#/$defs/SpecificationPosition"
+        },
+        "performance": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/PerformanceRanking"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "office_fit": {
+          "$ref": "#/$defs/OfficeFit"
+        },
+        "missing_fields": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Missing Fields",
+          "type": "array"
+        },
+        "confidence": {
+          "$ref": "#/$defs/FactCoverage"
+        }
+      },
+      "required": [
+        "entity_id",
+        "category",
+        "facts",
+        "position",
+        "office_fit",
+        "missing_fields",
+        "confidence"
+      ],
+      "title": "DecisionCandidate",
+      "type": "object"
+    },
+    "EvidenceFact": {
+      "properties": {
+        "value": {
+          "title": "Value"
+        },
+        "unit": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Unit"
+        },
+        "evidence_ids": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Evidence Ids",
+          "type": "array"
+        },
+        "observed_at": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Observed At"
+        },
+        "confidence": {
+          "maximum": 1,
+          "minimum": 0,
+          "title": "Confidence",
+          "type": "number"
+        }
+      },
+      "required": [
+        "value",
+        "unit",
+        "evidence_ids",
+        "observed_at",
+        "confidence"
+      ],
+      "title": "EvidenceFact",
+      "type": "object"
+    },
+    "FactCoverage": {
+      "properties": {
+        "meaning": {
+          "title": "Meaning",
+          "type": "string"
+        },
+        "coverage": {
+          "maximum": 1,
+          "minimum": 0,
+          "title": "Coverage",
+          "type": "number"
+        }
+      },
+      "required": [
+        "meaning",
+        "coverage"
+      ],
+      "title": "FactCoverage",
+      "type": "object"
+    },
+    "OfficeFit": {
+      "properties": {
+        "policy_version": {
+          "const": "office-fit-v1",
+          "title": "Policy Version",
+          "type": "string"
+        },
+        "score": {
+          "anyOf": [
+            {
+              "maximum": 100,
+              "minimum": 0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Score"
+        },
+        "meaning": {
+          "title": "Meaning",
+          "type": "string"
+        }
+      },
+      "required": [
+        "policy_version",
+        "meaning"
+      ],
+      "title": "OfficeFit",
+      "type": "object"
+    },
+    "PerformanceRanking": {
+      "description": "A policy-anchored index, kept separate from facts and measurements.\n\nThe raw score and publisher-rank-derived percentiles are third-party\nbenchmark metadata.\n``index_100`` and ``tier_label`` are this project's versioned product policy:\nhand-selected anchors with linear interpolation.  They are neither a publisher\npercentile nor a measurement this project performed.  A claim resting on them\nis ``derived``, never a ``fact`` claim.",
+      "properties": {
+        "basis": {
+          "const": "policy_anchored_index",
+          "title": "Basis",
+          "type": "string"
+        },
+        "policy_version": {
+          "const": "performance-anchor-v1",
+          "title": "Policy Version",
+          "type": "string"
+        },
+        "source_key": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Source Key"
+        },
+        "score": {
+          "title": "Score",
+          "type": "number"
+        },
+        "index_100": {
+          "maximum": 100,
+          "minimum": 0,
+          "title": "Index 100",
+          "type": "number"
+        },
+        "tier_label": {
+          "enum": [
+            "flagship",
+            "high",
+            "mid",
+            "entry",
+            "bottom"
+          ],
+          "title": "Tier Label",
+          "type": "string"
+        },
+        "population_size": {
+          "anyOf": [
+            {
+              "minimum": 1,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Population Size"
+        },
+        "cohort_size": {
+          "minimum": 1,
+          "title": "Cohort Size",
+          "type": "integer"
+        },
+        "market_percentile": {
+          "anyOf": [
+            {
+              "maximum": 100,
+              "minimum": 0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Market Percentile"
+        },
+        "class_percentile": {
+          "anyOf": [
+            {
+              "maximum": 100,
+              "minimum": 0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Class Percentile"
+        },
+        "meaning": {
+          "title": "Meaning",
+          "type": "string"
+        }
+      },
+      "required": [
+        "basis",
+        "policy_version",
+        "source_key",
+        "score",
+        "index_100",
+        "tier_label",
+        "cohort_size",
+        "meaning"
+      ],
+      "title": "PerformanceRanking",
+      "type": "object"
+    },
+    "PositionDimension": {
+      "properties": {
+        "rank": {
+          "minimum": 1,
+          "title": "Rank",
+          "type": "integer"
+        },
+        "percentile": {
+          "maximum": 1,
+          "minimum": 0,
+          "title": "Percentile",
+          "type": "number"
+        },
+        "sample_count": {
+          "minimum": 2,
+          "title": "Sample Count",
+          "type": "integer"
+        },
+        "direction": {
+          "const": "higher_value",
+          "title": "Direction",
+          "type": "string"
+        },
+        "calculation_id": {
+          "title": "Calculation Id",
+          "type": "string"
+        }
+      },
+      "required": [
+        "rank",
+        "percentile",
+        "sample_count",
+        "direction",
+        "calculation_id"
+      ],
+      "title": "PositionDimension",
+      "type": "object"
+    },
+    "SpecificationPosition": {
+      "properties": {
+        "basis": {
+          "const": "specification_position",
+          "title": "Basis",
+          "type": "string"
+        },
+        "cohort": {
+          "items": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "title": "Cohort",
+          "type": "array"
+        },
+        "generation_basis": {
+          "const": "architecture_proxy",
+          "title": "Generation Basis",
+          "type": "string"
+        },
+        "cohort_size": {
+          "minimum": 0,
+          "title": "Cohort Size",
+          "type": "integer"
+        },
+        "dimensions": {
+          "additionalProperties": {
+            "$ref": "#/$defs/PositionDimension"
+          },
+          "title": "Dimensions",
+          "type": "object"
+        },
+        "label": {
+          "title": "Label",
+          "type": "string"
+        },
+        "omitted_reason": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Omitted Reason"
+        }
+      },
+      "required": [
+        "basis",
+        "cohort",
+        "generation_basis",
+        "cohort_size",
+        "dimensions",
+        "label"
+      ],
+      "title": "SpecificationPosition",
+      "type": "object"
+    }
+  },
+  "properties": {
+    "policy_version": {
+      "const": "catalogue-position-v2",
+      "title": "Policy Version",
+      "type": "string"
+    },
+    "release_key": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "title": "Release Key"
+    },
+    "snapshot_applied_at": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Snapshot Applied At"
+    },
+    "data_cutoff": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "title": "Data Cutoff"
+    },
+    "candidates": {
+      "items": {
+        "$ref": "#/$defs/DecisionCandidate"
+      },
+      "title": "Candidates",
+      "type": "array"
+    },
+    "calculations": {
+      "additionalProperties": {
+        "$ref": "#/$defs/CalculationProof"
+      },
+      "title": "Calculations",
+      "type": "object"
+    },
+    "omitted_reason": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Omitted Reason"
+    }
+  },
+  "required": [
+    "policy_version",
+    "release_key",
+    "data_cutoff",
+    "candidates"
+  ],
+  "title": "DecisionContext",
+  "type": "object"
+}

@@ -1,0 +1,118 @@
+{
+  "schema_version": "3.2",
+  "record_type": "workload",
+  "status": "pending",
+  "payload": {
+    "identity": {
+      "entity_key": "workload:game:marvel-rivals",
+      "canonical_name": "Marvel Rivals",
+      "entity_type": "workload",
+      "release_date": null,
+      "lifecycle_status": "unknown",
+      "recommendable": true
+    },
+    "workload_type": "game",
+    "publisher_key": "org:netease",
+    "family": "Marvel Rivals",
+    "current_version": null,
+    "engine": "Unreal Engine 5",
+    "official_url": "https://www.marvelrivals.com/",
+    "description": "漫威争锋（UE5 竞技射击）",
+    "profiles": [
+      {
+        "profile_key": "minimum",
+        "label": "官方最低配置",
+        "version_label": null,
+        "settings": {},
+        "valid_from": null,
+        "valid_to": null,
+        "source_key": "source:game-marvel-rivals-sysreq"
+      },
+      {
+        "profile_key": "recommended",
+        "label": "官方推荐配置",
+        "version_label": null,
+        "settings": {},
+        "valid_from": null,
+        "valid_to": null,
+        "source_key": "source:game-marvel-rivals-sysreq"
+      }
+    ],
+    "requirements": [
+      {
+        "profile_key": "minimum",
+        "component_role": "cpu",
+        "operator": "text_only",
+        "reference_entity_key": null,
+        "numeric_value": null,
+        "unit_key": null,
+        "value_text": "Intel Core i5-6600K / AMD Ryzen 5 1600X",
+        "raw_value": "i5-6600K / Ryzen 5 1600X"
+      },
+      {
+        "profile_key": "minimum",
+        "component_role": "gpu",
+        "operator": "text_only",
+        "reference_entity_key": null,
+        "numeric_value": null,
+        "unit_key": null,
+        "value_text": "NVIDIA GTX 1060 / AMD RX 580 / Intel Arc A380",
+        "raw_value": "GTX 1060 / RX 580"
+      },
+      {
+        "profile_key": "minimum",
+        "component_role": "ram",
+        "operator": "gte",
+        "reference_entity_key": null,
+        "numeric_value": 16,
+        "unit_key": "gib",
+        "value_text": null,
+        "raw_value": null
+      },
+      {
+        "profile_key": "recommended",
+        "component_role": "cpu",
+        "operator": "text_only",
+        "reference_entity_key": null,
+        "numeric_value": null,
+        "unit_key": null,
+        "value_text": "Intel Core i5-10400 / AMD Ryzen 5 5600X",
+        "raw_value": "i5-10400 / Ryzen 5 5600X"
+      },
+      {
+        "profile_key": "recommended",
+        "component_role": "gpu",
+        "operator": "text_only",
+        "reference_entity_key": null,
+        "numeric_value": null,
+        "unit_key": null,
+        "value_text": "NVIDIA RTX 2060 Super / AMD RX 5700 XT",
+        "raw_value": "RTX 2060 Super / RX 5700 XT"
+      },
+      {
+        "profile_key": "recommended",
+        "component_role": "ram",
+        "operator": "gte",
+        "reference_entity_key": null,
+        "numeric_value": 16,
+        "unit_key": "gib",
+        "value_text": null,
+        "raw_value": null
+      }
+    ],
+    "evidence": [
+      {
+        "source_key": "source:game-marvel-rivals-sysreq",
+        "field_key": "entity.canonical_name",
+        "normalized_value": "game-marvel-rivals",
+        "provenance_key": "official",
+        "raw_excerpt": "game-marvel-rivals",
+        "review_status": "pending",
+        "reviewed_at": null
+      }
+    ]
+  },
+  "review_notes": [
+    "workload 扩展批（2026-09-07）：需求值为公开知识/官方需求整理，pending；游戏 sysreq 待官方页逐字核验；AI/工程类需求为我方整理口径（参考对应工具官方文档），需审核。"
+  ]
+}

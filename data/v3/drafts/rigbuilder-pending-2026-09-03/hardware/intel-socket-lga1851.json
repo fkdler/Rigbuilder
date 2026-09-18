@@ -1,0 +1,54 @@
+{
+  "schema_version": "3.2",
+  "record_type": "hardware",
+  "status": "pending",
+  "payload": {
+    "identity": {
+      "entity_key": "hw:intel:platform-socket-lga1851:desktop:global",
+      "canonical_name": "Socket LGA1851",
+      "entity_type": "hardware",
+      "release_date": null,
+      "lifecycle_status": "unknown",
+      "recommendable": false
+    },
+    "category": "platform",
+    "record_kind": "spec_profile",
+    "manufacturer_key": "org:intel",
+    "form_factor": "desktop",
+    "product_family": "Intel Desktop (Core Ultra 200S)",
+    "model_name": "LGA1851",
+    "variant_name": null,
+    "market_segment": "consumer",
+    "region_code": "GLOBAL",
+    "official_product_id": null,
+    "platform_spec": {
+      "chipset": null,
+      "socket": "LGA1851",
+      "memory_standard": [
+        {
+          "standard": "DDR5",
+          "max_speed_mt_s": 6400
+        }
+      ],
+      "max_memory_gib": null,
+      "pcie_generation": 5,
+      "overclock_support": null
+    },
+    "attributes": [],
+    "evidence": [
+      {
+        "source_key": "src:intel:cpu-sku-241060",
+        "field_key": "entity.canonical_name",
+        "normalized_value": "Socket LGA1851",
+        "raw_excerpt": "Socket LGA1851",
+        "provenance_key": "official",
+        "review_status": "pending",
+        "reviewed_at": null
+      }
+    ]
+  },
+  "review_notes": [
+    "platform spec_profile：公开规格知识填充（关联 CPU 官方规格页），值未逐字读取页面确认；access/复核待真人。",
+    "chipset/overclock/max_memory 等未填项待平台/芯片组官方页确认。"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "schema_version": "3.2",
+  "record_type": "source_document",
+  "status": "accepted",
+  "payload": {
+    "source_key": "source:jd:radeon-rx-7700-xt-10155573120328",
+    "title": "技嘉（GIGABYTE）【白条三期免息】AMD RX 7700XT 12G/7650GRE 8G显卡 魔鹰猎鹰 台式机电脑游戏AI绘图视频渲染 RX 7700X",
+    "url": "https://item.jd.com/10155573120328.html",
+    "source_type": "retailer",
+    "source_tier": "C",
+    "publisher_key": null,
+    "published_at": null,
+    "market_region": "CN",
+    "language": "zh-CN",
+    "availability_status": "accessible",
+    "archive_url": null,
+    "accessed_at": "2026-09-07T07:13:25+00:00",
+    "content_hash": "7895384b4d90bd149875e2359e20879ad5af84a0c6809c28e2394cff617223d0"
+  },
+  "review_notes": [
+    "京东标价 SKU 10155573120328；店铺：售300+1万+人种草技嘉电竞旗舰店。",
+    "Approved in bulk on 2026-09-16 at the user's explicit request; no per-record human review."
+  ]
+}

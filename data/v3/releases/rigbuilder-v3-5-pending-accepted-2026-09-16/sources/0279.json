@@ -1,0 +1,25 @@
+{
+  "schema_version": "3.2",
+  "record_type": "source_document",
+  "status": "accepted",
+  "payload": {
+    "source_key": "src:card:qwen3-4b-instruct-2507",
+    "title": "Qwen3-4B-Instruct-2507 Model Card",
+    "url": "https://huggingface.co/Qwen/Qwen3-4B-Instruct-2507",
+    "publisher_key": "org:qwen",
+    "source_type": "model_card",
+    "source_tier": "A",
+    "published_at": null,
+    "market_region": null,
+    "language": null,
+    "availability_status": "accessible",
+    "archive_url": null,
+    "accessed_at": "2026-09-14T11:58:44+00:00",
+    "content_hash": "41c8ec8a4c45beed461ebf596b1938039885cf65d6678b3f7664ab4ea76467d5"
+  },
+  "review_notes": [
+    "模型扩展第二批来源（2026-09-07）：pending，待抓取核验。",
+    "2026-09-14 经镜像抓取：https://hf-mirror.com/Qwen/Qwen3-4B-Instruct-2507（来源登记 URL 保持原样 https://huggingface.co/Qwen/Qwen3-4B-Instruct-2507）。",
+    "Approved in bulk on 2026-09-16 at the user's explicit request; no per-record human review."
+  ]
+}

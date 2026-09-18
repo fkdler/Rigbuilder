@@ -1,0 +1,135 @@
+{
+  "schema_version": "3.2",
+  "record_type": "hardware",
+  "status": "accepted",
+  "payload": {
+    "identity": {
+      "entity_key": "hw:intel:core-ultra-9-285k:desktop:global",
+      "canonical_name": "Core Ultra 9 285K",
+      "entity_type": "hardware",
+      "release_date": null,
+      "lifecycle_status": "unknown",
+      "recommendable": true
+    },
+    "manufacturer_key": "org:intel",
+    "record_kind": "product",
+    "product_family": "Core Ultra 200S",
+    "model_name": "Core Ultra 9 285K",
+    "variant_name": null,
+    "market_segment": "consumer",
+    "form_factor": "desktop",
+    "region_code": "GLOBAL",
+    "official_product_id": null,
+    "attributes": [],
+    "evidence": [
+      {
+        "source_key": "src:intel:cpu-sku-241060",
+        "field_key": "entity.canonical_name",
+        "normalized_value": "Core Ultra 9 285K",
+        "provenance_key": "official",
+        "raw_excerpt": "Core Ultra 9 285K",
+        "review_status": "accepted",
+        "reviewed_at": null
+      },
+      {
+        "source_key": "src:intel:cpu-sku-241060",
+        "field_key": "cpu.architecture",
+        "normalized_value": "Arrow Lake",
+        "provenance_key": "official",
+        "raw_excerpt": "Arrow Lake",
+        "review_status": "accepted",
+        "reviewed_at": null
+      },
+      {
+        "source_key": "src:intel:cpu-sku-241060",
+        "field_key": "cpu.cores_total",
+        "normalized_value": 24,
+        "provenance_key": "official",
+        "raw_excerpt": "24",
+        "review_status": "accepted",
+        "reviewed_at": null
+      },
+      {
+        "source_key": "src:intel:cpu-sku-241060",
+        "field_key": "cpu.threads",
+        "normalized_value": 24,
+        "provenance_key": "official",
+        "raw_excerpt": "24",
+        "review_status": "accepted",
+        "reviewed_at": null
+      },
+      {
+        "source_key": "src:intel:cpu-sku-241060",
+        "field_key": "cpu.base_clock_mhz",
+        "normalized_value": 3700,
+        "unit_key": "mhz",
+        "provenance_key": "official",
+        "raw_excerpt": "3.7 GHz",
+        "review_status": "accepted",
+        "reviewed_at": null
+      },
+      {
+        "source_key": "src:intel:cpu-sku-241060",
+        "field_key": "cpu.boost_clock_mhz",
+        "normalized_value": 5700,
+        "unit_key": "mhz",
+        "provenance_key": "official",
+        "raw_excerpt": "up to 5.7 GHz",
+        "review_status": "accepted",
+        "reviewed_at": null
+      },
+      {
+        "source_key": "src:intel:cpu-sku-241060",
+        "field_key": "cpu.base_power_w",
+        "normalized_value": 125,
+        "unit_key": "w",
+        "provenance_key": "official",
+        "raw_excerpt": "125 W",
+        "review_status": "accepted",
+        "reviewed_at": null
+      },
+      {
+        "source_key": "src:intel:cpu-sku-241060",
+        "field_key": "cpu.socket",
+        "normalized_value": "LGA1851",
+        "provenance_key": "official",
+        "raw_excerpt": "LGA1851",
+        "review_status": "accepted",
+        "reviewed_at": null
+      },
+      {
+        "source_key": "src:intel:cpu-sku-241060",
+        "field_key": "cpu.integrated_gpu",
+        "normalized_value": "Intel Graphics (Xe)",
+        "review_status": "accepted",
+        "confidence": 1
+      }
+    ],
+    "cpu_spec": {
+      "architecture": "Arrow Lake",
+      "codename": "Arrow Lake",
+      "cores_total": 24,
+      "threads": 24,
+      "performance_cores": 8,
+      "efficiency_cores": 16,
+      "base_clock_mhz": 3700,
+      "boost_clock_mhz": 5700,
+      "l2_cache_mib": null,
+      "l3_cache_mib": 36,
+      "base_power_w": 125,
+      "max_power_w": 250,
+      "socket": "LGA1851",
+      "memory_channels": 2,
+      "max_memory_gib": 192,
+      "ecc_support": null,
+      "pcie_generation": 5,
+      "pcie_lanes": 20,
+      "integrated_gpu": "Intel Graphics (Xe)",
+      "npu_model": null
+    },
+    "category": "cpu"
+  },
+  "review_notes": [
+    "Added 2026-09-16 by the migration/backfill pass; value matches the stored specification column."
+  ]
+}

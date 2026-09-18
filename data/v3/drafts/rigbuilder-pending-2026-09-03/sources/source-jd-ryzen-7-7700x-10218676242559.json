@@ -1,0 +1,23 @@
+{
+  "schema_version": "3.2",
+  "record_type": "source_document",
+  "status": "pending",
+  "payload": {
+    "source_key": "source:jd:ryzen-7-7700x-10218676242559",
+    "title": "AMD RYZENR5 5600X R9 5900X 5950X 7800X3D7900X 7950X 5700X R7 5700X 3D拆机 R7 7700X",
+    "url": "https://item.jd.com/10218676242559.html",
+    "source_type": "retailer",
+    "source_tier": "C",
+    "publisher_key": null,
+    "published_at": null,
+    "market_region": "CN",
+    "language": "zh-CN",
+    "availability_status": "accessible",
+    "archive_url": null,
+    "accessed_at": "2026-09-07T07:13:52+00:00",
+    "content_hash": "df953fd8bc8b12a30ff1ea82ab5a9ed59d1d82f8bd4cb9a92df04b27d36d30b3"
+  },
+  "review_notes": [
+    "京东标价 SKU 10218676242559；店铺：店铺未返回；页面标价作为 current_new。"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "schema_version": "3.2",
+  "record_type": "source_document",
+  "status": "pending",
+  "payload": {
+    "source_key": "src:card:qwen3-omni-collection",
+    "title": "Qwen3-Omni Collection（Hugging Face 官方集合）",
+    "url": "https://huggingface.co/collections/Qwen/qwen3-omni",
+    "publisher_key": "org:qwen",
+    "source_type": "official_page",
+    "source_tier": "A",
+    "published_at": null,
+    "market_region": null,
+    "language": null,
+    "availability_status": "accessible",
+    "archive_url": null,
+    "accessed_at": "2026-09-15T13:24:18+00:00",
+    "content_hash": "26d9c284132de1f9663c01389483d5f32f263228130eaecf36517a590cf48c51"
+  },
+  "review_notes": [
+    "2026-09-15 来源替换：原 Qwen/Qwen3-Omni-7B 仓不存在（404/401），改用 Qwen 官方 Qwen3-Omni 集合页。"
+  ]
+}

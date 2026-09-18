@@ -1,0 +1,131 @@
+{
+  "schema_version": "3.2",
+  "record_type": "hardware",
+  "status": "accepted",
+  "payload": {
+    "identity": {
+      "entity_key": "hw:intel:core-i5-13600k:desktop:global",
+      "canonical_name": "Core i5-13600K",
+      "entity_type": "hardware",
+      "release_date": null,
+      "lifecycle_status": "unknown",
+      "recommendable": true
+    },
+    "manufacturer_key": "org:intel",
+    "record_kind": "product",
+    "product_family": "Core",
+    "model_name": "Core i5-13600K",
+    "variant_name": null,
+    "market_segment": "consumer",
+    "form_factor": "desktop",
+    "region_code": "GLOBAL",
+    "official_product_id": null,
+    "attributes": [],
+    "evidence": [
+      {
+        "source_key": "src:intel:cpu-sku-230493",
+        "field_key": "entity.canonical_name",
+        "normalized_value": "Core i5-13600K",
+        "provenance_key": "official",
+        "raw_excerpt": "Core i5-13600K",
+        "review_status": "accepted",
+        "reviewed_at": null
+      },
+      {
+        "source_key": "src:intel:cpu-sku-230493",
+        "field_key": "cpu.architecture",
+        "normalized_value": "Raptor Lake",
+        "provenance_key": "official",
+        "raw_excerpt": "Raptor Lake",
+        "review_status": "accepted",
+        "reviewed_at": null
+      },
+      {
+        "source_key": "src:intel:cpu-sku-230493",
+        "field_key": "cpu.cores_total",
+        "normalized_value": 14,
+        "provenance_key": "official",
+        "raw_excerpt": "14",
+        "review_status": "accepted",
+        "reviewed_at": null
+      },
+      {
+        "source_key": "src:intel:cpu-sku-230493",
+        "field_key": "cpu.threads",
+        "normalized_value": 20,
+        "provenance_key": "official",
+        "raw_excerpt": "20",
+        "review_status": "accepted",
+        "reviewed_at": null
+      },
+      {
+        "source_key": "src:intel:cpu-sku-230493",
+        "field_key": "cpu.base_clock_mhz",
+        "normalized_value": 3500,
+        "unit_key": "mhz",
+        "provenance_key": "official",
+        "raw_excerpt": "3.5 GHz",
+        "review_status": "accepted",
+        "reviewed_at": null
+      },
+      {
+        "source_key": "src:intel:cpu-sku-230493",
+        "field_key": "cpu.boost_clock_mhz",
+        "normalized_value": 5100,
+        "unit_key": "mhz",
+        "provenance_key": "official",
+        "raw_excerpt": "up to 5.1 GHz",
+        "review_status": "accepted",
+        "reviewed_at": null
+      },
+      {
+        "source_key": "src:intel:cpu-sku-230493",
+        "field_key": "cpu.base_power_w",
+        "normalized_value": 125,
+        "unit_key": "w",
+        "provenance_key": "official",
+        "raw_excerpt": "125 W",
+        "review_status": "accepted",
+        "reviewed_at": null
+      },
+      {
+        "source_key": "src:intel:cpu-sku-230493",
+        "field_key": "cpu.socket",
+        "normalized_value": "LGA1700",
+        "provenance_key": "official",
+        "raw_excerpt": "LGA1700",
+        "review_status": "accepted",
+        "reviewed_at": null
+      }
+    ],
+    "cpu_spec": {
+      "architecture": "Raptor Lake",
+      "codename": "Raptor Lake",
+      "cores_total": 14,
+      "threads": 20,
+      "performance_cores": 6,
+      "efficiency_cores": 8,
+      "base_clock_mhz": 3500,
+      "boost_clock_mhz": 5100,
+      "l2_cache_mib": null,
+      "l3_cache_mib": 24,
+      "base_power_w": 125,
+      "max_power_w": 181,
+      "socket": "LGA1700",
+      "memory_channels": 2,
+      "max_memory_gib": 128,
+      "ecc_support": null,
+      "pcie_generation": 5,
+      "pcie_lanes": 20,
+      "integrated_gpu": "UHD Graphics 770",
+      "npu_model": null
+    },
+    "category": "cpu"
+  },
+  "review_notes": [
+    "来源 retrieved_at 为占位时间，调查员须替换为实际看到页面的时间。",
+    "source_key 前缀暂为 src: 与 quantization/format 大小写（Q4_K_M/GGUF）待审核人与词表对齐（可统一为 source:/小写）。",
+    "C 批补列（performance_cores, efficiency_cores, l3_cache_mib, max_power_w, memory_channels, max_memory_gib, pcie_generation, pcie_lanes, integrated_gpu）：公开规格知识填充，未逐字核对页面；对应 evidence 待审核阶段补（字段键待 vocabulary 注册）。",
+    "Approved in bulk on 2026-09-16 at the user's explicit request; no per-record human review."
+  ]
+}

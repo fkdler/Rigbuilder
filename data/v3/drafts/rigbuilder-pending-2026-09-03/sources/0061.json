@@ -1,0 +1,27 @@
+{
+  "schema_version": "3.2",
+  "record_type": "source_document",
+  "status": "pending",
+  "payload": {
+    "source_key": "src:intel:cpu-sku-230490",
+    "title": "Intel Core i7-13700 Product Specifications",
+    "url": "https://www.intel.com/content/www/us/en/products/sku/230490/intel-core-i713700-processor-30m-cache-up-to-5-20-ghz/specifications.html",
+    "publisher_key": "org:intel",
+    "source_type": "official_page",
+    "source_tier": "A",
+    "published_at": null,
+    "market_region": null,
+    "language": null,
+    "availability_status": "accessible",
+    "archive_url": null,
+    "accessed_at": "2026-09-15T13:25:38+00:00",
+    "content_hash": "c9d5f4bbde1f89d200249e0d7322bd21c6d9cd08d22d9156e0b66f91d85b15bb"
+  },
+  "review_notes": [
+    "来源 retrieved_at 为占位时间，调查员须替换为实际看到页面的时间。",
+    "source_key 前缀暂为 src: 与 quantization/format 大小写（Q4_K_M/GGUF）待审核人与词表对齐（可统一为 source:/小写）。",
+    "2026-09-15 人工浏览器另存导入（src_intel_cpu-sku-230490.html，415820B，文本 21529 字）",
+    "2026-09-15 人工浏览器另存导入（src_intel_cpu-sku-230490.html，415820B，文本 21529 字）",
+    "2026-09-15 人工浏览器另存导入（src_intel_cpu-sku-230490.html，415820B，文本 21529 字）"
+  ]
+}

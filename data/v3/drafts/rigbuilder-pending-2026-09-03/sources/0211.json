@@ -1,0 +1,24 @@
+{
+  "schema_version": "3.2",
+  "record_type": "source_document",
+  "status": "pending",
+  "payload": {
+    "source_key": "src:card:whisper-large-v3",
+    "title": "whisper-large-v3 Model Card",
+    "url": "https://huggingface.co/openai/whisper-large-v3",
+    "publisher_key": "org:openai",
+    "source_type": "model_card",
+    "source_tier": "A",
+    "published_at": null,
+    "market_region": null,
+    "language": null,
+    "availability_status": "accessible",
+    "archive_url": null,
+    "accessed_at": "2026-09-14T11:57:33+00:00",
+    "content_hash": "4be6e5a4605ca7fa5d8732494ae5fd1080c7a94f3525a80816b200ceb3473d77"
+  },
+  "review_notes": [
+    "模型扩展批来源登记（2026-09-07）：pending，待 page_save.py 抓取回填 accessed_at/content_hash。",
+    "2026-09-14 经镜像抓取：https://hf-mirror.com/openai/whisper-large-v3（来源登记 URL 保持原样 https://huggingface.co/openai/whisper-large-v3）。"
+  ]
+}

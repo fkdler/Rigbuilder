@@ -1,0 +1,23 @@
+{
+  "schema_version": "3.2",
+  "record_type": "source_document",
+  "status": "pending",
+  "payload": {
+    "source_key": "src:org:cd-projekt",
+    "title": "CD PROJEKT RED 官方站点",
+    "url": "https://www.cdprojektred.com/",
+    "publisher_key": "org:cd-projekt",
+    "source_type": "official_page",
+    "source_tier": "B",
+    "published_at": null,
+    "market_region": null,
+    "language": null,
+    "availability_status": "accessible",
+    "archive_url": null,
+    "accessed_at": "2026-09-14T11:16:11+00:00",
+    "content_hash": "46177c4cbf01b48bc539898c83cb0545141d9b130713280ef7b17a7a65bb1725"
+  },
+  "review_notes": [
+    "evidence 补全批（2026-09-07）：pending，待抓取核验。"
+  ]
+}

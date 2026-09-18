@@ -1,0 +1,24 @@
+{
+  "schema_version": "3.2",
+  "record_type": "source_document",
+  "status": "accepted",
+  "payload": {
+    "source_key": "source:larian-baldurs-gate-3-sysreq",
+    "title": "Baldur's Gate 3 — 官方系统需求",
+    "url": "https://store.steampowered.com/app/1086940/Baldurs_Gate_3/",
+    "source_type": "official_page",
+    "source_tier": "A",
+    "publisher_key": null,
+    "published_at": null,
+    "accessed_at": "2026-09-07T07:11:22+00:00",
+    "content_hash": "e3bdcf0f37e07ba97c82f257cc6775216c3d89621076a5bcd1bddcf5d4b71666",
+    "archive_url": null,
+    "market_region": null,
+    "language": null,
+    "availability_status": "accessible"
+  },
+  "review_notes": [
+    "accessed_at 为占位时间，须由实际访问页面的调查员替换为真实访问时间。",
+    "Approved in bulk on 2026-09-16 at the user's explicit request; no per-record human review."
+  ]
+}

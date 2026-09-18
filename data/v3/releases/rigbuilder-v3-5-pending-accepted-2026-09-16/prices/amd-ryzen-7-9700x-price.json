@@ -1,0 +1,23 @@
+{
+  "schema_version": "3.2",
+  "record_type": "price_snapshot",
+  "status": "accepted",
+  "payload": {
+    "price_key": "price:hw:amd:ryzen-7-9700x:desktop:global:cn:2026-09",
+    "entity_key": "hw:amd:ryzen-7-9700x:desktop:global",
+    "source_key": "source:jd:ryzen-7-9700x-100109234839",
+    "observed_at": "2026-09-05T16:19:51+08:00",
+    "currency": "CNY",
+    "amount": 1712.14,
+    "availability": "in_stock",
+    "price_type": "current_new",
+    "market_region": "CN",
+    "condition": "new",
+    "seller_key": null,
+    "notes": "0万+30天加购飙升5倍AMD京东自营旗舰店"
+  },
+  "review_notes": [
+    "京东页面标价；抓取2026-09-05。",
+    "Approved in bulk on 2026-09-16 at the user's explicit request; no per-record human review."
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": "3.2",
+  "record_type": "entity_alias",
+  "status": "accepted",
+  "payload": {
+    "entity_key": "model:deepseek:deepseek-r1",
+    "alias": "deepseek-ai/DeepSeek-R1",
+    "alias_type": "repository",
+    "language": null,
+    "normalized_alias": "deepseekaideepseekr1",
+    "source_key": null
+  },
+  "review_notes": []
+}

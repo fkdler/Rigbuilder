@@ -1,0 +1,24 @@
+{
+  "schema_version": "3.2",
+  "record_type": "source_document",
+  "status": "accepted",
+  "payload": {
+    "source_key": "src:amd:cpu-amd-ryzen-9-5950x",
+    "title": "AMD Ryzen 9 5950X - 官方产品页",
+    "url": "https://www.amd.com/en/products/processors/desktops/ryzen/5000-series/amd-ryzen-9-5950x.html",
+    "publisher_key": "org:amd",
+    "source_type": "official_page",
+    "source_tier": "A",
+    "published_at": null,
+    "market_region": null,
+    "language": null,
+    "availability_status": "accessible",
+    "archive_url": null,
+    "accessed_at": "2026-09-14T10:27:55+00:00",
+    "content_hash": "bd84a12a4f46c8d9db91584f8e8835cb177f8633f33041e33b4e94a672b23382"
+  },
+  "review_notes": [
+    "evidence 补全批（2026-09-07）：官方页/官方系列页；pending，待 page_save.py 抓取回填。",
+    "Approved in bulk on 2026-09-16 at the user's explicit request; no per-record human review."
+  ]
+}

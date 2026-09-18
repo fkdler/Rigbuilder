@@ -1,0 +1,24 @@
+{
+  "schema_version": "3.2",
+  "record_type": "source_document",
+  "status": "accepted",
+  "payload": {
+    "source_key": "src:gguf:bartowski-qwen-qwen3-vl-4b-instruct-gguf",
+    "title": "bartowski/Qwen_Qwen3-VL-4B-Instruct-GGUF (Hugging Face)",
+    "url": "https://huggingface.co/bartowski/Qwen_Qwen3-VL-4B-Instruct-GGUF",
+    "publisher_key": "org:bartowski",
+    "source_type": "community",
+    "source_tier": "D",
+    "published_at": null,
+    "market_region": null,
+    "language": null,
+    "availability_status": "accessible",
+    "archive_url": null,
+    "accessed_at": "2026-09-07T09:50:43+00:00",
+    "content_hash": "1eaacdbe0f7b92f50f2b34ed7a43922e18b301043a8b99f00ba70380f67e51fc"
+  },
+  "review_notes": [
+    "第一梯队模型来源登记（2026-09-07）：pending，待 page_save.py --only-missing 抓取并回填 accessed_at/content_hash；GGUF 仓（社区）以 hf_fill 报告核对实际文件。",
+    "Approved in bulk on 2026-09-16 at the user's explicit request; no per-record human review."
+  ]
+}

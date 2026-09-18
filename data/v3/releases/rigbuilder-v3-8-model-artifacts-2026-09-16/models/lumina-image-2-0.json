@@ -1,0 +1,98 @@
+{
+  "schema_version": "3.2",
+  "record_type": "model",
+  "status": "accepted",
+  "payload": {
+    "identity": {
+      "entity_key": "model:alpha-vllm:lumina-image-2-0",
+      "canonical_name": "Lumina-Image-2.0",
+      "entity_type": "ai_model",
+      "release_date": "2025-01-22",
+      "lifecycle_status": "unknown",
+      "recommendable": true
+    },
+    "publisher_key": "org:alpha-vllm",
+    "release_version": null,
+    "model_type": "diffusion",
+    "total_parameters": 2609769152,
+    "active_parameters": null,
+    "model_stage": "text_to_image",
+    "context_length_tokens": null,
+    "license_name": "Apache-2.0",
+    "commercial_use_status": "allowed",
+    "official_repo_url": "https://huggingface.co/Alpha-VLLM/Lumina-Image-2.0",
+    "official_model_card_url": "https://huggingface.co/Alpha-VLLM/Lumina-Image-2.0",
+    "architecture_notes": null,
+    "capabilities": [
+      {
+        "capability_key": "text_input",
+        "status": "supported",
+        "notes": null
+      },
+      {
+        "capability_key": "image_output",
+        "status": "supported",
+        "notes": null
+      }
+    ],
+    "variants": [
+      {
+        "identity": {
+          "entity_key": "variant:alpha-vllm-lumina-image-2-0:official-pth",
+          "canonical_name": "Lumina-Image-2.0 官方权重 (pth, Alpha-VLLM)",
+          "entity_type": "model_variant",
+          "release_date": null,
+          "lifecycle_status": "unknown",
+          "recommendable": true
+        },
+        "file_size_bytes": 31671118826,
+        "weight_format": "pth",
+        "official_status": "official",
+        "repository_url": "https://huggingface.co/Alpha-VLLM/Lumina-Image-2.0",
+        "evidence": [
+          {
+            "source_key": "src:hf:alpha-vllm-lumina-image-2-0",
+            "field_key": "entity.canonical_name",
+            "normalized_value": "Lumina-Image-2.0 官方权重 (pth, Alpha-VLLM)",
+            "review_status": "accepted",
+            "confidence": 1
+          }
+        ]
+      }
+    ],
+    "evidence": [
+      {
+        "source_key": "src:card:lumina-image-2-0",
+        "field_key": "entity.canonical_name",
+        "normalized_value": "Lumina-Image-2.0",
+        "provenance_key": "official",
+        "raw_excerpt": "Lumina-Image-2.0",
+        "review_status": "accepted",
+        "reviewed_at": null
+      },
+      {
+        "source_key": "src:card:lumina-image-2-0",
+        "field_key": "model.license_name",
+        "normalized_value": "Apache-2.0",
+        "provenance_key": "official",
+        "raw_excerpt": "License: apache-2.0",
+        "review_status": "accepted",
+        "reviewed_at": null
+      },
+      {
+        "source_key": "src:card:lumina-image-2-0",
+        "field_key": "model.total_parameters",
+        "normalized_value": 2609769152,
+        "provenance_key": "official",
+        "raw_excerpt": "HF API safetensors.total（精确）: 2609769152",
+        "review_status": "accepted",
+        "reviewed_at": null,
+        "notes": "由公开知识值校正为官方值（原值 2600000000）"
+      }
+    ],
+    "family": "Lumina"
+  },
+  "review_notes": [
+    "Model artifacts enumerated from the official Hugging Face API on 2026-09-16 (file list and byte sizes only; no weights were downloaded or verified)."
+  ]
+}

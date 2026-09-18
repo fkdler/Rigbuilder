@@ -1,0 +1,24 @@
+{
+  "schema_version": "3.2",
+  "record_type": "source_document",
+  "status": "accepted",
+  "payload": {
+    "source_key": "source:jd:ryzen-9-9950x3d-100149071725",
+    "title": "AMD 锐龙 9 9950X3D电脑组件CPU热卖榜第6名4.3GHz|144MB游戏|16核32线程|16核32线程电脑组件CPU热卖榜第6名",
+    "url": "https://item.jd.com/100149071725.html",
+    "source_type": "retailer",
+    "source_tier": "C",
+    "publisher_key": null,
+    "published_at": null,
+    "market_region": "CN",
+    "language": "zh-CN",
+    "availability_status": "accessible",
+    "archive_url": null,
+    "accessed_at": "2026-09-07T07:14:14+00:00",
+    "content_hash": "def20092db386f86c88ad26fb8fa90086a8a0851e91d16de276462e549877efe"
+  },
+  "review_notes": [
+    "京东标价 SKU 100149071725；店铺：2万+30天加购飙升5倍AMD京东自营旗舰店；页面标价作为 current_new。",
+    "Approved in bulk on 2026-09-16 at the user's explicit request; no per-record human review."
+  ]
+}

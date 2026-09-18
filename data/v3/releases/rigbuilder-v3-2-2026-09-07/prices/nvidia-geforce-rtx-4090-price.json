@@ -1,0 +1,22 @@
+{
+  "schema_version": "3.2",
+  "record_type": "price_snapshot",
+  "status": "accepted",
+  "payload": {
+    "price_key": "price:hw:nvidia:geforce-rtx-4090:desktop:global:cn:2026-09",
+    "entity_key": "hw:nvidia:geforce-rtx-4090:desktop:global",
+    "source_key": "source:jd:geforce-rtx-4090-10202342064286",
+    "observed_at": "2026-09-05T13:39:37+08:00",
+    "currency": "CNY",
+    "amount": 25999,
+    "availability": "in_stock",
+    "price_type": "current_new",
+    "market_region": "CN",
+    "condition": "new",
+    "seller_key": null,
+    "notes": "第三方渠道"
+  },
+  "review_notes": [
+    "第三方参考价，非自营；审核需复核。"
+  ]
+}

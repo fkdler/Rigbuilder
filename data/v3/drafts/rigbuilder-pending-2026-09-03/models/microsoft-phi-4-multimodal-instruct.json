@@ -1,0 +1,94 @@
+{
+  "schema_version": "3.2",
+  "record_type": "model",
+  "status": "pending",
+  "payload": {
+    "identity": {
+      "entity_key": "model:microsoft:phi-4-multimodal-instruct",
+      "canonical_name": "Phi-4-multimodal-instruct",
+      "entity_type": "ai_model",
+      "release_date": "2025-02-26",
+      "lifecycle_status": "unknown",
+      "recommendable": true
+    },
+    "publisher_key": "org:microsoft",
+    "release_version": null,
+    "model_type": "dense",
+    "total_parameters": 5574460384,
+    "active_parameters": null,
+    "model_stage": "instruct",
+    "context_length_tokens": 131072,
+    "license_name": "MIT",
+    "commercial_use_status": "allowed",
+    "official_repo_url": "https://huggingface.co/microsoft/Phi-4-multimodal-instruct",
+    "official_model_card_url": "https://huggingface.co/microsoft/Phi-4-multimodal-instruct",
+    "architecture_notes": null,
+    "capabilities": [
+      {
+        "capability_key": "text_input",
+        "status": "supported",
+        "notes": null
+      },
+      {
+        "capability_key": "vision_input",
+        "status": "supported",
+        "notes": null
+      },
+      {
+        "capability_key": "audio_input",
+        "status": "supported",
+        "notes": null
+      }
+    ],
+    "variants": [],
+    "evidence": [
+      {
+        "source_key": "src:card:phi-4-multimodal-instruct",
+        "field_key": "entity.canonical_name",
+        "normalized_value": "Phi-4-multimodal-instruct",
+        "provenance_key": "official",
+        "raw_excerpt": "Phi-4-multimodal-instruct",
+        "review_status": "pending",
+        "reviewed_at": null
+      },
+      {
+        "source_key": "src:card:phi-4-multimodal-instruct",
+        "field_key": "model.context_length_tokens",
+        "normalized_value": 131072,
+        "provenance_key": "official",
+        "raw_excerpt": "131072",
+        "review_status": "pending",
+        "reviewed_at": null
+      },
+      {
+        "source_key": "src:card:phi-4-multimodal-instruct",
+        "field_key": "model.license_name",
+        "normalized_value": "MIT",
+        "provenance_key": "official",
+        "raw_excerpt": "License: mit",
+        "review_status": "pending",
+        "reviewed_at": null
+      },
+      {
+        "source_key": "src:card:phi-4-multimodal-instruct",
+        "field_key": "model.total_parameters",
+        "normalized_value": 5574460384,
+        "provenance_key": "official",
+        "raw_excerpt": "HF API safetensors.total（精确）: 5574460384",
+        "review_status": "pending",
+        "reviewed_at": null,
+        "notes": "由公开知识值校正为官方值（原值 5600000000）"
+      }
+    ],
+    "family": "Phi-4"
+  },
+  "review_notes": [
+    "模型扩展第二批（2026-09-07）：官方卡待逐字核验；参数量/上下文为公开知识值，pending；GGUF file_size_bytes 待 hf_fill。",
+    "2026-09-14 evidence 提取：从快照 src_card_phi-4-multimodal-instruct.txt 提取字段级逐字证据（pending，待审核）。",
+    "2026-09-15 evidence 提取：从快照 src_card_phi-4-multimodal-instruct.txt 提取字段级逐字证据（pending，待审核）。",
+    "hf_fill --refresh-params：参数量取 HF API safetensors.total（精确），上下文取 config.json max_position_embeddings；已挂 evidence（pending）。",
+    "2026-09-15 evidence 提取：从快照 src_card_phi-4-multimodal-instruct.txt 提取字段级逐字证据（pending，待审核）。",
+    "2026-09-15 evidence 提取：从快照 src_card_phi-4-multimodal-instruct.txt 提取字段级逐字证据（pending，待审核）。",
+    "2026-09-15 evidence 提取：从快照 src_card_phi-4-multimodal-instruct.txt 提取字段级逐字证据（pending，待审核）。"
+  ]
+}

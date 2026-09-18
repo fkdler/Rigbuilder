@@ -1,0 +1,15 @@
+{
+  "status": "draft_only",
+  "hardware": 22,
+  "models": 8,
+  "model_variants": 24,
+  "evidence_input": 174,
+  "evidence_converted": 174,
+  "benchmarks": 0,
+  "source_drafts": 26,
+  "warnings": [
+    "No draft is importable",
+    "false capabilities were converted to unknown",
+    "file_size_gb was retained as display text, never converted to exact bytes"
+  ]
+}

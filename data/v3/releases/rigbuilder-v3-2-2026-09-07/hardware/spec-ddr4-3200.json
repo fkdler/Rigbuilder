@@ -1,0 +1,41 @@
+{
+  "schema_version": "3.2",
+  "record_type": "hardware",
+  "status": "accepted",
+  "payload": {
+    "identity": {
+      "entity_key": "hw:spec:memory-ddr4-3200:desktop:global",
+      "canonical_name": "DDR4-3200 (UDIMM)",
+      "entity_type": "hardware",
+      "release_date": null,
+      "lifecycle_status": "unknown",
+      "recommendable": false
+    },
+    "category": "memory",
+    "record_kind": "spec_profile",
+    "manufacturer_key": null,
+    "form_factor": "UDIMM",
+    "model_name": "DDR4-3200",
+    "variant_name": null,
+    "market_segment": "consumer",
+    "region_code": "GLOBAL",
+    "official_product_id": null,
+    "product_family": null,
+    "memory_spec": {
+      "memory_standard": "DDR4",
+      "form_factor": "UDIMM",
+      "capacity_gib": null,
+      "speed_mt_s": 3200,
+      "ecc": null,
+      "registered": null,
+      "voltage_v": 1.2
+    },
+    "attributes": [],
+    "evidence": []
+  },
+  "review_notes": [
+    "规格级 Profile（无厂商绑定）：值为公开标准常识档位（JEDEC/PCIe-SIG/80 PLUS/ATX 等），未逐字读取页面。",
+    "未注册具体来源 URL 前不挂 evidence（符合\"无来源不挂证据\"）；来源（标准组织官方页）待审核阶段补充。",
+    "capacity/connector 等具 SKU 特征的字段不在此规格档范围，保持 null/[]。"
+  ]
+}

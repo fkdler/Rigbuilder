@@ -1,0 +1,25 @@
+{
+  "schema_version": "3.2",
+  "record_type": "source_document",
+  "status": "accepted",
+  "payload": {
+    "source_key": "src:card:depth-anything-v2-large",
+    "title": "Depth-Anything-V2-Large Model Card",
+    "url": "https://huggingface.co/depth-anything/Depth-Anything-V2-Large-hf",
+    "publisher_key": "org:depth-anything",
+    "source_type": "model_card",
+    "source_tier": "A",
+    "published_at": null,
+    "market_region": null,
+    "language": null,
+    "availability_status": "accessible",
+    "archive_url": null,
+    "accessed_at": "2026-09-15T11:33:22+00:00",
+    "content_hash": "40f3b50b7797e374c2c799fe64581b45d65c763b3a04f1b92d68f6e39cbb3907"
+  },
+  "review_notes": [
+    "多模态模型来源登记（2026-09-07）：pending。",
+    "2026-09-15 经镜像抓取：https://hf-mirror.com/depth-anything/Depth-Anything-V2-Large-hf（来源登记 URL 保持原样 https://huggingface.co/depth-anything/Depth-Anything-V2-Large-hf）。",
+    "Approved in bulk on 2026-09-16 at the user's explicit request; no per-record human review."
+  ]
+}

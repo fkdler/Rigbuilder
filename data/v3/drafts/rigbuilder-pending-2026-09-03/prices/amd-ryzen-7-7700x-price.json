@@ -1,0 +1,22 @@
+{
+  "schema_version": "3.2",
+  "record_type": "price_snapshot",
+  "status": "pending",
+  "payload": {
+    "price_key": "price:hw:amd:ryzen-7-7700x:desktop:global:cn:2026-09",
+    "entity_key": "hw:amd:ryzen-7-7700x:desktop:global",
+    "source_key": "source:jd:ryzen-7-7700x-10218676242559",
+    "observed_at": "2026-09-05T16:19:51+08:00",
+    "currency": "CNY",
+    "amount": 2530.7,
+    "availability": "in_stock",
+    "price_type": "current_new",
+    "market_region": "CN",
+    "condition": "new",
+    "seller_key": null,
+    "notes": "店铺未返回"
+  },
+  "review_notes": [
+    "京东页面标价；抓取2026-09-05。"
+  ]
+}

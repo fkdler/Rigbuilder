@@ -1,0 +1,14 @@
+{
+  "schema_version": "3.2",
+  "record_type": "entity_alias",
+  "status": "accepted",
+  "payload": {
+    "entity_key": "hw:intel:core-i5-14500t:desktop:global",
+    "alias": "Intel Core i5-14500T",
+    "alias_type": "source_name",
+    "language": null,
+    "normalized_alias": "corei514500t",
+    "source_key": "src:passmark:cpu-models-2026-09-16"
+  },
+  "review_notes": []
+}

@@ -1,0 +1,130 @@
+{
+  "schema_version": "3.0",
+  "record_type": "model",
+  "status": "pending",
+  "payload": {
+    "identity": {
+      "entity_key": "model:microsoft:phi-4",
+      "canonical_name": "Phi-4",
+      "entity_type": "ai_model"
+    },
+    "publisher_key": "org:microsoft",
+    "parameter_count": 14700000000,
+    "total_parameters": 14700000000,
+    "model_type": "dense",
+    "context_length": 16384,
+    "context_length_tokens": 16384,
+    "license_name": "MIT",
+    "capabilities": [
+      {
+        "capability_key": "vision",
+        "status": "unknown"
+      },
+      {
+        "capability_key": "code",
+        "status": "supported"
+      }
+    ],
+    "variants": [
+      {
+        "identity": {
+          "entity_key": "variant:microsoft:phi-4:gguf:q4-k-m",
+          "canonical_name": "Phi-4 Q4_K_M GGUF",
+          "entity_type": "model_variant"
+        },
+        "quantization": "Q4_K_M",
+        "format": "GGUF",
+        "quantization_method": "Q4_K_M",
+        "weight_format": "GGUF",
+        "file_size_display": "8.71 GB (legacy value; GB/GiB and precision unverified)",
+        "source_url": "https://huggingface.co/unsloth/phi-4-GGUF",
+        "evidence": [
+          {
+            "source_key": "source:legacy:huggingface-co-unsloth-phi-4-gguf",
+            "field_key": "legacy.file_size_gb",
+            "raw_value": "8.71 GB",
+            "normalized_value": 8.71
+          }
+        ]
+      },
+      {
+        "identity": {
+          "entity_key": "variant:microsoft:phi-4:gguf:q5-k-m",
+          "canonical_name": "Phi-4 Q5_K_M GGUF",
+          "entity_type": "model_variant"
+        },
+        "quantization": "Q5_K_M",
+        "format": "GGUF",
+        "quantization_method": "Q5_K_M",
+        "weight_format": "GGUF",
+        "file_size_display": "10.08 GB (legacy value; GB/GiB and precision unverified)",
+        "source_url": "https://huggingface.co/unsloth/phi-4-GGUF",
+        "evidence": [
+          {
+            "source_key": "source:legacy:huggingface-co-unsloth-phi-4-gguf",
+            "field_key": "legacy.file_size_gb",
+            "raw_value": "10.08 GB",
+            "normalized_value": 10.08
+          }
+        ]
+      },
+      {
+        "identity": {
+          "entity_key": "variant:microsoft:phi-4:gguf:q8-0",
+          "canonical_name": "Phi-4 Q8_0 GGUF",
+          "entity_type": "model_variant"
+        },
+        "quantization": "Q8_0",
+        "format": "GGUF",
+        "quantization_method": "Q8_0",
+        "weight_format": "GGUF",
+        "file_size_display": "15.31 GB (legacy value; GB/GiB and precision unverified)",
+        "source_url": "https://huggingface.co/unsloth/phi-4-GGUF",
+        "evidence": [
+          {
+            "source_key": "source:legacy:huggingface-co-unsloth-phi-4-gguf",
+            "field_key": "legacy.file_size_gb",
+            "raw_value": "15.31 GB",
+            "normalized_value": 15.31
+          }
+        ]
+      }
+    ],
+    "evidence": [
+      {
+        "source_key": "source:legacy:huggingface-co-microsoft-phi-4",
+        "field_key": "model.parameter_count",
+        "raw_value": "14.7B",
+        "normalized_value": 14.7
+      },
+      {
+        "source_key": "source:legacy:huggingface-co-microsoft-phi-4",
+        "field_key": "model.context_length",
+        "raw_value": "16K",
+        "normalized_value": 16384
+      },
+      {
+        "source_key": "source:legacy:huggingface-co-microsoft-phi-4",
+        "field_key": "legacy.supports_vision",
+        "raw_value": null,
+        "normalized_value": false
+      },
+      {
+        "source_key": "source:legacy:huggingface-co-microsoft-phi-4",
+        "field_key": "legacy.supports_code",
+        "raw_value": null,
+        "normalized_value": true
+      },
+      {
+        "source_key": "source:legacy:huggingface-co-microsoft-phi-4",
+        "field_key": "model.license",
+        "raw_value": "MIT",
+        "normalized_value": "MIT"
+      }
+    ]
+  },
+  "review_notes": [
+    "legacy false capability values became unknown",
+    "variant file_size_bytes intentionally omitted pending verification"
+  ]
+}

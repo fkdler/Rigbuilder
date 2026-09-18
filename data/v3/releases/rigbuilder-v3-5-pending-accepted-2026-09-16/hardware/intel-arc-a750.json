@@ -1,0 +1,139 @@
+{
+  "schema_version": "3.2",
+  "record_type": "hardware",
+  "status": "accepted",
+  "payload": {
+    "identity": {
+      "entity_key": "hw:intel:arc-a750:desktop:global",
+      "canonical_name": "Intel Arc A750",
+      "entity_type": "hardware",
+      "release_date": "2022-10-05",
+      "lifecycle_status": "unknown",
+      "recommendable": true
+    },
+    "manufacturer_key": "org:intel",
+    "record_kind": "product",
+    "product_family": "Arc A-series",
+    "model_name": "Arc A750",
+    "variant_name": null,
+    "market_segment": "consumer",
+    "form_factor": "desktop",
+    "region_code": "GLOBAL",
+    "official_product_id": "227954",
+    "attributes": [],
+    "evidence": [
+      {
+        "source_key": "src:intel:gpu-sku-227954",
+        "field_key": "entity.canonical_name",
+        "normalized_value": "Intel Arc A750",
+        "provenance_key": "official",
+        "raw_excerpt": "Intel Arc A750",
+        "review_status": "accepted",
+        "reviewed_at": null
+      },
+      {
+        "source_key": "src:intel:gpu-sku-227954",
+        "field_key": "gpu.architecture",
+        "normalized_value": "Xe-HPG (Alchemist)",
+        "provenance_key": "official",
+        "raw_excerpt": "Xe-HPG (Alchemist)",
+        "review_status": "accepted",
+        "reviewed_at": null
+      },
+      {
+        "source_key": "src:intel:gpu-sku-227954",
+        "field_key": "gpu.vram_gib",
+        "normalized_value": 8,
+        "unit_key": "gib",
+        "provenance_key": "official",
+        "raw_excerpt": "8 GB GDDR6",
+        "review_status": "accepted",
+        "reviewed_at": null
+      },
+      {
+        "source_key": "src:intel:gpu-sku-227954",
+        "field_key": "gpu.memory_type",
+        "normalized_value": "GDDR6",
+        "provenance_key": "official",
+        "raw_excerpt": "GDDR6",
+        "review_status": "accepted",
+        "reviewed_at": null
+      },
+      {
+        "source_key": "src:intel:gpu-sku-227954",
+        "field_key": "gpu.board_power_w",
+        "normalized_value": 225,
+        "unit_key": "w",
+        "provenance_key": "official",
+        "raw_excerpt": "225 W",
+        "review_status": "accepted",
+        "reviewed_at": null
+      },
+      {
+        "source_key": "src:intel:gpu-sku-227954",
+        "field_key": "gpu.memory_bus_width_bit",
+        "normalized_value": 256,
+        "unit_key": "bit",
+        "provenance_key": "official",
+        "raw_excerpt": "256-bit",
+        "review_status": "accepted",
+        "reviewed_at": null
+      },
+      {
+        "source_key": "src:intel:gpu-sku-227954",
+        "field_key": "gpu.memory_bandwidth_gb_s",
+        "normalized_value": 512,
+        "unit_key": "gb_s",
+        "provenance_key": "official",
+        "raw_excerpt": "512 GB/s",
+        "review_status": "accepted",
+        "reviewed_at": null
+      },
+      {
+        "source_key": "src:intel:gpu-sku-227954",
+        "field_key": "gpu.pcie_generation",
+        "normalized_value": 4,
+        "provenance_key": "official",
+        "raw_excerpt": "PCIe 4.0",
+        "review_status": "accepted",
+        "reviewed_at": null
+      },
+      {
+        "source_key": "src:intel:gpu-sku-227954",
+        "field_key": "gpu.pcie_lanes",
+        "normalized_value": 16,
+        "provenance_key": "official",
+        "raw_excerpt": "x16",
+        "review_status": "accepted",
+        "reviewed_at": null
+      },
+      {
+        "source_key": "src:intel:gpu-sku-227954",
+        "field_key": "gpu.ecc_support",
+        "normalized_value": false,
+        "provenance_key": "official",
+        "raw_excerpt": "ECC not supported",
+        "review_status": "accepted",
+        "reviewed_at": null
+      }
+    ],
+    "gpu_spec": {
+      "architecture": "Xe-HPG (Alchemist)",
+      "vram_gib": 8,
+      "memory_type": "GDDR6",
+      "memory_bus_width_bit": 256,
+      "memory_bandwidth_gb_s": 512,
+      "ecc_support": false,
+      "interface": null,
+      "pcie_generation": 4,
+      "pcie_lanes": 16,
+      "board_power_w": 225
+    },
+    "category": "gpu"
+  },
+  "review_notes": [
+    "来源 retrieved_at 为占位时间，调查员须替换为实际看到页面的时间。",
+    "source_key 前缀暂为 src: 与 quantization/format 大小写（Q4_K_M/GGUF）待审核人与词表对齐（可统一为 source:/小写）。",
+    "Approved in bulk on 2026-09-16 at the user's explicit request; no per-record human review."
+  ]
+}

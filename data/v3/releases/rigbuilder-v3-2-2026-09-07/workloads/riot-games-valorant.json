@@ -1,0 +1,131 @@
+{
+  "schema_version": "3.2",
+  "record_type": "workload",
+  "status": "accepted",
+  "payload": {
+    "identity": {
+      "entity_key": "workload:game:valorant",
+      "canonical_name": "Valorant",
+      "entity_type": "workload",
+      "release_date": null,
+      "lifecycle_status": "unknown",
+      "recommendable": false
+    },
+    "workload_type": "game",
+    "publisher_key": "org:riot-games",
+    "family": "Valorant",
+    "current_version": null,
+    "engine": "Unreal Engine 4",
+    "official_url": "https://playvalorant.com/en-us/specs/",
+    "description": "",
+    "profiles": [
+      {
+        "profile_key": "minimum",
+        "label": "官方最低配置",
+        "version_label": null,
+        "settings": {},
+        "valid_from": null,
+        "valid_to": null,
+        "source_key": "source:riot-games-valorant-sysreq"
+      },
+      {
+        "profile_key": "recommended",
+        "label": "官方推荐配置",
+        "version_label": null,
+        "settings": {},
+        "valid_from": null,
+        "valid_to": null,
+        "source_key": "source:riot-games-valorant-sysreq"
+      }
+    ],
+    "requirements": [
+      {
+        "profile_key": "minimum",
+        "component_role": "cpu",
+        "operator": "text_only",
+        "value_text": "Intel Core 2 Duo E8400 / 同级",
+        "raw_value": "Intel Core 2 Duo E8400 / 同级",
+        "reference_entity_key": null,
+        "required_feature_key": null
+      },
+      {
+        "profile_key": "minimum",
+        "component_role": "gpu",
+        "operator": "text_only",
+        "value_text": "Intel HD 3000 / 同级",
+        "raw_value": "Intel HD 3000 / 同级",
+        "reference_entity_key": null,
+        "required_feature_key": null
+      },
+      {
+        "profile_key": "minimum",
+        "component_role": "ram",
+        "operator": "gte",
+        "numeric_value": 4,
+        "unit_key": "gib",
+        "reference_entity_key": null,
+        "required_feature_key": null
+      },
+      {
+        "profile_key": "minimum",
+        "component_role": "os",
+        "operator": "text_only",
+        "value_text": "Windows 10 64-bit",
+        "raw_value": "Windows 10 64-bit",
+        "reference_entity_key": null,
+        "required_feature_key": null
+      },
+      {
+        "profile_key": "recommended",
+        "component_role": "cpu",
+        "operator": "text_only",
+        "value_text": "Intel i5-4460 / Ryzen 3 1200",
+        "raw_value": "Intel i5-4460 / Ryzen 3 1200",
+        "reference_entity_key": null,
+        "required_feature_key": null
+      },
+      {
+        "profile_key": "recommended",
+        "component_role": "gpu",
+        "operator": "text_only",
+        "value_text": "GTX 1050 Ti",
+        "raw_value": "GTX 1050 Ti",
+        "reference_entity_key": null,
+        "required_feature_key": null
+      },
+      {
+        "profile_key": "recommended",
+        "component_role": "ram",
+        "operator": "gte",
+        "numeric_value": 4,
+        "unit_key": "gib",
+        "reference_entity_key": null,
+        "required_feature_key": null
+      },
+      {
+        "profile_key": "recommended",
+        "component_role": "os",
+        "operator": "text_only",
+        "value_text": "Windows 10 64-bit",
+        "raw_value": "Windows 10 64-bit",
+        "reference_entity_key": null,
+        "required_feature_key": null
+      }
+    ],
+    "evidence": [
+      {
+        "source_key": "source:riot-games-valorant-sysreq",
+        "field_key": "entity.canonical_name",
+        "normalized_value": "Valorant",
+        "raw_excerpt": "Valorant",
+        "provenance_key": "official",
+        "review_status": "accepted",
+        "reviewed_at": "2026-09-07T00:00:00Z"
+      }
+    ]
+  },
+  "review_notes": [
+    "Workload 系统需求为公开常见值（官方/Steam 系统需求），未逐字读取页面；须对照官方页逐条复核。",
+    "CPU/GPU 官方多给具体型号名，本批以 value_text + operator=text_only 保留原文；RAM 用数值 gte；分辨率/画质设置不在 workload。"
+  ]
+}

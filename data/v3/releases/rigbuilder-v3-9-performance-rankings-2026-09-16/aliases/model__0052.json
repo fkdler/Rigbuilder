@@ -1,0 +1,14 @@
+{
+  "schema_version": "3.2",
+  "record_type": "entity_alias",
+  "status": "accepted",
+  "payload": {
+    "entity_key": "model:mistral-ai:mistral-small-3-2-24b-instruct",
+    "alias": "mistralai/Mistral-Small-3.2-24B-Instruct-2506",
+    "alias_type": "repository",
+    "language": null,
+    "normalized_alias": "mistralaimistralsmall3224binstruct2506",
+    "source_key": null
+  },
+  "review_notes": []
+}

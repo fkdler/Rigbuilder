@@ -1,0 +1,39 @@
+{
+  "schema_version": "3.2",
+  "release_key": "rigbuilder-v3-3-qwen3-8b-2026-09-15",
+  "created_at": "2026-09-14T18:58:04.596835Z",
+  "description": "Curated Qwen3-8B local deployment model addition",
+  "git_commit": null,
+  "files": [
+    {
+      "path": "models/qwen-qwen3-8b.json",
+      "sha256": "d7b8e43ebaf06b0f91572ee1860fe363a0264cd2357a7c321ba1ee60112b7f29",
+      "record_type": "model",
+      "status": "accepted"
+    },
+    {
+      "path": "organizations/qwen.json",
+      "sha256": "932db6e50bc7ac2501dfbd71df5f5eac44695d5dab06e5d1eebded364f8613e1",
+      "record_type": "organization",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/0129.json",
+      "sha256": "bae2733f9c2625e724a81096c9564c47ec0525fe844bd928b3c401a480737a18",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/0148.json",
+      "sha256": "6c07ec8d5af9755785b71a8d71e8cfafb3ec0619b4125b84ad5a09d89bd03be4",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/0319.json",
+      "sha256": "80432c584a0bb65387ef5997b273eb746a82cf681fc8672cca12e1c4a2153d2d",
+      "record_type": "source_document",
+      "status": "accepted"
+    }
+  ]
+}

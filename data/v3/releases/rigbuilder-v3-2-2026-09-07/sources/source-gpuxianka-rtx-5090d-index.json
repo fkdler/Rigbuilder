@@ -1,0 +1,23 @@
+{
+  "schema_version": "3.2",
+  "record_type": "source_document",
+  "status": "accepted",
+  "payload": {
+    "source_key": "source:gpuxianka:rtx-5090d-index",
+    "title": "GPU显卡网：NVIDIA GeForce RTX 5090D 显卡参数索引",
+    "url": "https://www.gpuxianka.com/desktop-cards/nvidia/rtx-5090d-index.html",
+    "source_type": "community",
+    "source_tier": "C",
+    "publisher_key": null,
+    "published_at": null,
+    "market_region": "CN",
+    "language": "zh-CN",
+    "availability_status": "accessible",
+    "archive_url": null,
+    "accessed_at": "2026-09-07T16:46:18+08:00",
+    "content_hash": null
+  },
+  "review_notes": [
+    "用户指定该页面作为 RTX 5090D 的人工接受依据。自动访问环境返回 403，故未记录页面内容哈希或伪造摘录。"
+  ]
+}

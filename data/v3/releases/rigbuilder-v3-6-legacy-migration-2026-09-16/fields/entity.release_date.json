@@ -1,0 +1,26 @@
+{
+  "schema_version": "3.2",
+  "record_type": "field_definition",
+  "status": "accepted",
+  "payload": {
+    "field_key": "entity.release_date",
+    "label": "发布日期",
+    "applies_to_entity_type": "entity",
+    "value_type": "date",
+    "canonical_unit": null,
+    "description": "实体首次上市或发布的日期。NULL 表示未知。",
+    "allowed_units": [],
+    "indexed": false,
+    "cardinality": "one",
+    "comparison_method": "exact",
+    "tolerance": null,
+    "storage_kind": "column",
+    "storage_path": "catalog_entity.release_date",
+    "filterable": true,
+    "claimable": true,
+    "active": true
+  },
+  "review_notes": [
+    "Added 2026-09-16 by the migration/backfill pass; value matches the stored specification column."
+  ]
+}

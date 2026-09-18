@@ -1,0 +1,24 @@
+{
+  "schema_version": "3.2",
+  "record_type": "source_document",
+  "status": "accepted",
+  "payload": {
+    "source_key": "src:amd:cpu-amd-ryzen-5-7600x3d",
+    "title": "AMD 5 7600X3D Desktop Processor",
+    "url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-5-7600x3d.html",
+    "publisher_key": null,
+    "source_type": "official_page",
+    "source_tier": "A",
+    "published_at": null,
+    "market_region": null,
+    "language": null,
+    "availability_status": "accessible",
+    "archive_url": null,
+    "accessed_at": "2026-09-07T08:58:09+00:00",
+    "content_hash": "048f1fcb0b7f1cce4d66c8300182b12d57b32c1d24469557d514b3c7e957bae0"
+  },
+  "review_notes": [
+    "gap_collect 自动注册（2026-09-07）：URL 为规则模板，待 page_save.py --only-missing 抓取并回填 accessed_at/content_hash；若页面 404 或未含目标型号规格，则人工更换官方替代来源。",
+    "Approved in bulk on 2026-09-16 at the user's explicit request; no per-record human review."
+  ]
+}

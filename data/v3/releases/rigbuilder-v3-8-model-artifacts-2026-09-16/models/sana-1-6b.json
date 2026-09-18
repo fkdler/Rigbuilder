@@ -1,0 +1,98 @@
+{
+  "schema_version": "3.2",
+  "record_type": "model",
+  "status": "accepted",
+  "payload": {
+    "identity": {
+      "entity_key": "model:nvidia:sana-1-6b",
+      "canonical_name": "Sana-1.6B",
+      "entity_type": "ai_model",
+      "release_date": "2024-10-14",
+      "lifecycle_status": "unknown",
+      "recommendable": true
+    },
+    "publisher_key": "org:nvidia",
+    "release_version": null,
+    "model_type": "diffusion",
+    "total_parameters": 1648000000,
+    "active_parameters": null,
+    "model_stage": "text_to_image",
+    "context_length_tokens": null,
+    "license_name": "Apache-2.0",
+    "commercial_use_status": "allowed",
+    "official_repo_url": "https://huggingface.co/Efficient-Large-Model/Sana_1600M_1024px_diffusers",
+    "official_model_card_url": "https://huggingface.co/Efficient-Large-Model/Sana_1600M_1024px_diffusers",
+    "architecture_notes": null,
+    "capabilities": [
+      {
+        "capability_key": "text_input",
+        "status": "supported",
+        "notes": null
+      },
+      {
+        "capability_key": "image_output",
+        "status": "supported",
+        "notes": null
+      }
+    ],
+    "variants": [
+      {
+        "identity": {
+          "entity_key": "variant:efficient-large-model-sana-1600m-1024px-diffusers:official-safetensors",
+          "canonical_name": "Sana-1.6B 官方权重 (safetensors, Efficient-Large-Model)",
+          "entity_type": "model_variant",
+          "release_date": null,
+          "lifecycle_status": "unknown",
+          "recommendable": true
+        },
+        "file_size_bytes": 25791360656,
+        "weight_format": "safetensors",
+        "official_status": "official",
+        "repository_url": "https://huggingface.co/Efficient-Large-Model/Sana_1600M_1024px_diffusers",
+        "evidence": [
+          {
+            "source_key": "src:hf:efficient-large-model-sana-1600m-1024px-diffusers",
+            "field_key": "entity.canonical_name",
+            "normalized_value": "Sana-1.6B 官方权重 (safetensors, Efficient-Large-Model)",
+            "review_status": "accepted",
+            "confidence": 1
+          }
+        ]
+      }
+    ],
+    "evidence": [
+      {
+        "source_key": "src:card:sana-1-6b",
+        "field_key": "entity.canonical_name",
+        "normalized_value": "Sana-1.6B",
+        "provenance_key": "official",
+        "raw_excerpt": "Sana-1.6B",
+        "review_status": "accepted",
+        "reviewed_at": null
+      },
+      {
+        "source_key": "src:card:sana-1-6b",
+        "field_key": "model.license_name",
+        "normalized_value": "Apache-2.0",
+        "provenance_key": "official",
+        "raw_excerpt": "License: apache-2.0",
+        "review_status": "accepted",
+        "reviewed_at": null
+      },
+      {
+        "source_key": "src:card:sana-1-6b",
+        "field_key": "model.total_parameters",
+        "normalized_value": 1648000000,
+        "provenance_key": "official",
+        "raw_excerpt": "README: 1648M parameters: 1648000000",
+        "review_status": "accepted",
+        "reviewed_at": null,
+        "notes": "由公开知识值校正为官方值（原值 1600000000）"
+      }
+    ],
+    "family": "Sana"
+  },
+  "review_notes": [
+    "Model artifacts enumerated from the official Hugging Face API on 2026-09-16 (file list and byte sizes only; no weights were downloaded or verified)."
+  ]
+}

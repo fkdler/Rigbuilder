@@ -1,0 +1,24 @@
+{
+  "schema_version": "3.2",
+  "record_type": "source_document",
+  "status": "accepted",
+  "payload": {
+    "source_key": "src:card:qwen3-14b",
+    "title": "Qwen3-14B Model Card",
+    "url": "https://huggingface.co/Qwen/Qwen3-14B",
+    "publisher_key": "org:qwen",
+    "source_type": "model_card",
+    "source_tier": "A",
+    "published_at": null,
+    "market_region": null,
+    "language": null,
+    "availability_status": "accessible",
+    "archive_url": null,
+    "accessed_at": "2026-09-07T09:49:56+00:00",
+    "content_hash": "fdd3e2bf725f86c20ea44268ec355132bbda16e0d77e2ae1801cc90ad495f68a"
+  },
+  "review_notes": [
+    "第一梯队模型来源登记（2026-09-07）：pending，待 page_save.py --only-missing 抓取并回填 accessed_at/content_hash；GGUF 仓（官方）以 hf_fill 报告核对实际文件。",
+    "Approved in bulk on 2026-09-16 at the user's explicit request; no per-record human review."
+  ]
+}

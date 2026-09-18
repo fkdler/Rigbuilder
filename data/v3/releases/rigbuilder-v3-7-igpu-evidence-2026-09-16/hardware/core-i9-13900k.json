@@ -1,0 +1,135 @@
+{
+  "schema_version": "3.2",
+  "record_type": "hardware",
+  "status": "accepted",
+  "payload": {
+    "identity": {
+      "entity_key": "hw:intel:core-i9-13900k:desktop:global",
+      "canonical_name": "Core i9-13900K",
+      "entity_type": "hardware",
+      "release_date": null,
+      "lifecycle_status": "unknown",
+      "recommendable": true
+    },
+    "manufacturer_key": "org:intel",
+    "record_kind": "product",
+    "product_family": "Core",
+    "model_name": "Core i9-13900K",
+    "variant_name": null,
+    "market_segment": "consumer",
+    "form_factor": "desktop",
+    "region_code": "GLOBAL",
+    "official_product_id": null,
+    "attributes": [],
+    "evidence": [
+      {
+        "source_key": "src:intel:cpu-sku-230496",
+        "field_key": "entity.canonical_name",
+        "normalized_value": "Core i9-13900K",
+        "provenance_key": "official",
+        "raw_excerpt": "Core i9-13900K",
+        "review_status": "accepted",
+        "reviewed_at": null
+      },
+      {
+        "source_key": "src:intel:cpu-sku-230496",
+        "field_key": "cpu.architecture",
+        "normalized_value": "Raptor Lake",
+        "provenance_key": "official",
+        "raw_excerpt": "Raptor Lake",
+        "review_status": "accepted",
+        "reviewed_at": null
+      },
+      {
+        "source_key": "src:intel:cpu-sku-230496",
+        "field_key": "cpu.cores_total",
+        "normalized_value": 24,
+        "provenance_key": "official",
+        "raw_excerpt": "24",
+        "review_status": "accepted",
+        "reviewed_at": null
+      },
+      {
+        "source_key": "src:intel:cpu-sku-230496",
+        "field_key": "cpu.threads",
+        "normalized_value": 32,
+        "provenance_key": "official",
+        "raw_excerpt": "32",
+        "review_status": "accepted",
+        "reviewed_at": null
+      },
+      {
+        "source_key": "src:intel:cpu-sku-230496",
+        "field_key": "cpu.base_clock_mhz",
+        "normalized_value": 3000,
+        "unit_key": "mhz",
+        "provenance_key": "official",
+        "raw_excerpt": "3 GHz",
+        "review_status": "accepted",
+        "reviewed_at": null
+      },
+      {
+        "source_key": "src:intel:cpu-sku-230496",
+        "field_key": "cpu.boost_clock_mhz",
+        "normalized_value": 5800,
+        "unit_key": "mhz",
+        "provenance_key": "official",
+        "raw_excerpt": "up to 5.8 GHz",
+        "review_status": "accepted",
+        "reviewed_at": null
+      },
+      {
+        "source_key": "src:intel:cpu-sku-230496",
+        "field_key": "cpu.base_power_w",
+        "normalized_value": 125,
+        "unit_key": "w",
+        "provenance_key": "official",
+        "raw_excerpt": "125 W",
+        "review_status": "accepted",
+        "reviewed_at": null
+      },
+      {
+        "source_key": "src:intel:cpu-sku-230496",
+        "field_key": "cpu.socket",
+        "normalized_value": "LGA1700",
+        "provenance_key": "official",
+        "raw_excerpt": "LGA1700",
+        "review_status": "accepted",
+        "reviewed_at": null
+      },
+      {
+        "source_key": "src:intel:cpu-sku-230496",
+        "field_key": "cpu.integrated_gpu",
+        "normalized_value": "UHD Graphics 770",
+        "review_status": "accepted",
+        "confidence": 1
+      }
+    ],
+    "cpu_spec": {
+      "architecture": "Raptor Lake",
+      "codename": "Raptor Lake",
+      "cores_total": 24,
+      "threads": 32,
+      "performance_cores": 8,
+      "efficiency_cores": 16,
+      "base_clock_mhz": 3000,
+      "boost_clock_mhz": 5800,
+      "l2_cache_mib": null,
+      "l3_cache_mib": 36,
+      "base_power_w": 125,
+      "max_power_w": 253,
+      "socket": "LGA1700",
+      "memory_channels": 2,
+      "max_memory_gib": 128,
+      "ecc_support": null,
+      "pcie_generation": 5,
+      "pcie_lanes": 20,
+      "integrated_gpu": "UHD Graphics 770",
+      "npu_model": null
+    },
+    "category": "cpu"
+  },
+  "review_notes": [
+    "Added 2026-09-16 by the migration/backfill pass; value matches the stored specification column."
+  ]
+}

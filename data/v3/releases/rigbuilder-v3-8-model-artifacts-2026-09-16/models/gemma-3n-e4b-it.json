@@ -1,0 +1,112 @@
+{
+  "schema_version": "3.2",
+  "record_type": "model",
+  "status": "accepted",
+  "payload": {
+    "identity": {
+      "entity_key": "model:google:gemma-3n-e4b-it",
+      "canonical_name": "Gemma-3n-E4B-it",
+      "entity_type": "ai_model",
+      "release_date": "2025-06-26",
+      "lifecycle_status": "unknown",
+      "recommendable": true
+    },
+    "publisher_key": "org:google",
+    "release_version": null,
+    "model_type": "dense",
+    "total_parameters": 7849978192,
+    "active_parameters": 4000000000,
+    "model_stage": "instruct",
+    "context_length_tokens": 32768,
+    "license_name": "Gemma",
+    "commercial_use_status": "allowed",
+    "official_repo_url": "https://huggingface.co/google/gemma-3n-E4B-it",
+    "official_model_card_url": "https://huggingface.co/google/gemma-3n-E4B-it",
+    "architecture_notes": null,
+    "capabilities": [
+      {
+        "capability_key": "text_input",
+        "status": "supported",
+        "notes": null
+      },
+      {
+        "capability_key": "vision_input",
+        "status": "supported",
+        "notes": null
+      },
+      {
+        "capability_key": "audio_input",
+        "status": "supported",
+        "notes": null
+      }
+    ],
+    "variants": [
+      {
+        "identity": {
+          "entity_key": "variant:google-gemma-3n-e4b-it:official-safetensors",
+          "canonical_name": "Gemma-3n-E4B-it 官方权重 (safetensors, google)",
+          "entity_type": "model_variant",
+          "release_date": null,
+          "lifecycle_status": "unknown",
+          "recommendable": true
+        },
+        "file_size_bytes": 15700181712,
+        "weight_format": "safetensors",
+        "official_status": "official",
+        "repository_url": "https://huggingface.co/google/gemma-3n-E4B-it",
+        "evidence": [
+          {
+            "source_key": "src:hf:google-gemma-3n-e4b-it",
+            "field_key": "entity.canonical_name",
+            "normalized_value": "Gemma-3n-E4B-it 官方权重 (safetensors, google)",
+            "review_status": "accepted",
+            "confidence": 1
+          }
+        ]
+      }
+    ],
+    "evidence": [
+      {
+        "source_key": "src:card:gemma-3n-e4b-it",
+        "field_key": "entity.canonical_name",
+        "normalized_value": "Gemma-3n-E4B-it",
+        "provenance_key": "official",
+        "raw_excerpt": "Gemma-3n-E4B-it",
+        "review_status": "accepted",
+        "reviewed_at": null
+      },
+      {
+        "source_key": "src:card:gemma-3n-e4b-it",
+        "field_key": "model.context_length_tokens",
+        "normalized_value": 32768,
+        "provenance_key": "official",
+        "raw_excerpt": "32768",
+        "review_status": "accepted",
+        "reviewed_at": null
+      },
+      {
+        "source_key": "src:card:gemma-3n-e4b-it",
+        "field_key": "model.license_name",
+        "normalized_value": "Gemma",
+        "provenance_key": "official",
+        "raw_excerpt": "License: gemma",
+        "review_status": "accepted",
+        "reviewed_at": null
+      },
+      {
+        "source_key": "src:card:gemma-3n-e4b-it",
+        "field_key": "model.total_parameters",
+        "normalized_value": 7849978192,
+        "provenance_key": "official",
+        "raw_excerpt": "HF API safetensors.total（精确）: 7849978192",
+        "notes": "由官方 config/API 回填",
+        "review_status": "accepted",
+        "reviewed_at": null
+      }
+    ],
+    "family": "Gemma 3n"
+  },
+  "review_notes": [
+    "Model artifacts enumerated from the official Hugging Face API on 2026-09-16 (file list and byte sizes only; no weights were downloaded or verified)."
+  ]
+}

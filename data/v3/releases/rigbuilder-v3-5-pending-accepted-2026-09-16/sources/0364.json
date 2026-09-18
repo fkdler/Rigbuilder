@@ -1,0 +1,25 @@
+{
+  "schema_version": "3.2",
+  "record_type": "source_document",
+  "status": "accepted",
+  "payload": {
+    "source_key": "src:card:ltx-video-2b",
+    "title": "LTX-Video-2B Model Card",
+    "url": "https://huggingface.co/Lightricks/LTX-Video",
+    "publisher_key": "org:lightricks",
+    "source_type": "model_card",
+    "source_tier": "A",
+    "published_at": null,
+    "market_region": null,
+    "language": null,
+    "availability_status": "accessible",
+    "archive_url": null,
+    "accessed_at": "2026-09-15T11:31:28+00:00",
+    "content_hash": "005472c7b374b21fab1ee76219d67618975358d3ed437ad791af915fcb6bb274"
+  },
+  "review_notes": [
+    "多模态模型来源登记（2026-09-07）：pending，待抓取核验。",
+    "2026-09-15 经镜像抓取：https://hf-mirror.com/Lightricks/LTX-Video（来源登记 URL 保持原样 https://huggingface.co/Lightricks/LTX-Video）。",
+    "Approved in bulk on 2026-09-16 at the user's explicit request; no per-record human review."
+  ]
+}

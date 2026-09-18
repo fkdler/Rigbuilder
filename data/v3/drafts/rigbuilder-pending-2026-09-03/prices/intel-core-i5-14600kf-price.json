@@ -1,0 +1,22 @@
+{
+  "schema_version": "3.2",
+  "record_type": "price_snapshot",
+  "status": "pending",
+  "payload": {
+    "price_key": "price:hw:intel:core-i5-14600kf:desktop:global:cn:2026-09",
+    "entity_key": "hw:intel:core-i5-14600kf:desktop:global",
+    "source_key": "source:jd:core-i5-14600kf-10087603489124",
+    "observed_at": "2026-09-06T02:34:34+08:00",
+    "currency": "CNY",
+    "amount": 1619,
+    "availability": "in_stock",
+    "price_type": "current_new",
+    "market_region": "CN",
+    "condition": "new",
+    "seller_key": null,
+    "notes": "2万+30天加购飙升5倍英特尔官方旗舰店"
+  },
+  "review_notes": [
+    "京东页面标价；抓取2026-09-06。"
+  ]
+}

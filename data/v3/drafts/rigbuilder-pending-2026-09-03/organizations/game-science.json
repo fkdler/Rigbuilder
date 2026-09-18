@@ -1,0 +1,33 @@
+{
+  "schema_version": "3.2",
+  "record_type": "organization",
+  "status": "pending",
+  "payload": {
+    "identity": {
+      "entity_key": "org:game-science",
+      "canonical_name": "Game Science",
+      "entity_type": "organization",
+      "release_date": null,
+      "lifecycle_status": "active",
+      "recommendable": false
+    },
+    "website_url": "https://www.heishenhua.com",
+    "organization_type": "publisher",
+    "country_or_region": null,
+    "evidence": [
+      {
+        "source_key": "src:org:game-science",
+        "field_key": "entity.canonical_name",
+        "normalized_value": "Game Science",
+        "provenance_key": "community_reported",
+        "raw_excerpt": "Game Science",
+        "review_status": "pending",
+        "reviewed_at": null
+      }
+    ]
+  },
+  "review_notes": [
+    "workload 扩展批组织（2026-09-07）：待来源核验。",
+    "2026-09-07 evidence 补全：挂 canonical_name 证据（来源见 sources）。"
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "schema_version": "3.2",
+  "record_type": "hardware",
+  "status": "pending",
+  "payload": {
+    "identity": {
+      "entity_key": "hw:amd:ryzen-5-5600x3d:desktop:global",
+      "canonical_name": "Ryzen 5 5600X3D",
+      "entity_type": "hardware",
+      "release_date": null,
+      "lifecycle_status": "unknown",
+      "recommendable": true
+    },
+    "category": "cpu",
+    "record_kind": "product",
+    "manufacturer_key": "org:amd",
+    "form_factor": "desktop",
+    "model_name": "Ryzen 5 5600X3D",
+    "variant_name": null,
+    "market_segment": "consumer",
+    "region_code": "GLOBAL",
+    "official_product_id": null,
+    "product_family": null,
+    "attributes": [],
+    "evidence": [
+      {
+        "source_key": "src:amd:cpu-amd-ryzen-5-5600x3d",
+        "field_key": "entity.canonical_name",
+        "normalized_value": "Ryzen 5 5600X3D",
+        "provenance_key": "official",
+        "raw_excerpt": "Ryzen 5 5600X3D",
+        "review_status": "pending",
+        "reviewed_at": null
+      },
+      {
+        "source_key": "src:amd:cpu-amd-ryzen-5-5600x3d",
+        "field_key": "cpu_spec.l3_cache_mib",
+        "normalized_value": 96,
+        "provenance_key": "official",
+        "raw_excerpt": "L3 Cache \n 96 MB \n Default TDP \n 105W \n Processor Technology for CPU Cores \n TSMC 7nm FinFET \n Processor Technology for",
+        "review_status": "pending",
+        "reviewed_at": null
+      },
+      {
+        "source_key": "src:amd:cpu-amd-ryzen-5-5600x3d",
+        "field_key": "cpu_spec.base_power_w",
+        "normalized_value": 105,
+        "provenance_key": "official",
+        "raw_excerpt": "Default TDP \n 105W \n Processor Technology for CPU Cores \n TSMC 7nm FinFET \n Processor Technology for I/O Die \n 12nm (Glo",
+        "review_status": "pending",
+        "reviewed_at": null
+      },
+      {
+        "source_key": "src:amd:cpu-amd-ryzen-5-5600x3d",
+        "field_key": "cpu_spec.l2_cache_mib",
+        "normalized_value": 3,
+        "provenance_key": "official",
+        "raw_excerpt": "L2 Cache \n 3 MB \n L3 Cache \n 96 MB \n Default TDP \n 105W \n Processor Technology for CPU Cores \n TSMC 7nm FinFET \n Process",
+        "review_status": "pending",
+        "reviewed_at": null
+      }
+    ],
+    "cpu_spec": {
+      "architecture": "Zen 3",
+      "codename": "Zen 3",
+      "cores_total": 6,
+      "threads": 12,
+      "performance_cores": null,
+      "efficiency_cores": null,
+      "base_clock_mhz": null,
+      "boost_clock_mhz": 4400,
+      "l2_cache_mib": 3,
+      "l3_cache_mib": 96,
+      "base_power_w": 105,
+      "max_power_w": null,
+      "socket": "AM4",
+      "memory_channels": 2,
+      "max_memory_gib": null,
+      "ecc_support": null,
+      "pcie_generation": 4,
+      "pcie_lanes": 20,
+      "integrated_gpu": null,
+      "npu_model": null
+    }
+  },
+  "review_notes": [
+    "重建/扩展收集（2026-09-07）：官方来源页待核验（弃用页将找替代官方来源），未挂 evidence；值按公开规格知识填写，pending，待来源确认后核对。",
+    "2026-09-07 evidence 补全：挂 canonical_name 证据（来源见 sources）；其余字段证据待逐字核验后补。",
+    "2026-09-14 来源替换：AMD 官网产品页 404，evidence 改指 HardQuery 第三方库（tier C），待官方替代来源或详情页核验。",
+    "2026-09-15 来源替换：HardQuery 栏目页 → AMD 官方支持页（tier A，可脚本抓取）。",
+    "2026-09-15 evidence 提取：从快照 src_amd_cpu-amd-ryzen-5-5600x3d.txt 提取字段级逐字证据（pending，待审核）。",
+    "2026-09-15 evidence 提取：从快照 src_amd_cpu-amd-ryzen-5-5600x3d.txt 提取字段级逐字证据（pending，待审核）。"
+  ]
+}

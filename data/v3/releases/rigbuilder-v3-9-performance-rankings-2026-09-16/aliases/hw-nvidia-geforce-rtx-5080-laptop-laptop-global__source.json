@@ -1,0 +1,14 @@
+{
+  "schema_version": "3.2",
+  "record_type": "entity_alias",
+  "status": "accepted",
+  "payload": {
+    "entity_key": "hw:nvidia:geforce-rtx-5080-laptop:laptop:global",
+    "alias": "GeForce RTX 5080 Laptop GPU",
+    "alias_type": "source_name",
+    "language": null,
+    "normalized_alias": "geforcertx5080laptopgpu",
+    "source_key": "src:passmark:gpu-list-2026-09-16"
+  },
+  "review_notes": []
+}

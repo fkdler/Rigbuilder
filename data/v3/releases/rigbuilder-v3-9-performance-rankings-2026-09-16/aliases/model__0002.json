@@ -1,0 +1,14 @@
+{
+  "schema_version": "3.2",
+  "record_type": "entity_alias",
+  "status": "accepted",
+  "payload": {
+    "entity_key": "model:thudm:cogvideox-5b",
+    "alias": "THUDM/CogVideoX-5b",
+    "alias_type": "repository",
+    "language": null,
+    "normalized_alias": "thudmcogvideox5b",
+    "source_key": null
+  },
+  "review_notes": []
+}

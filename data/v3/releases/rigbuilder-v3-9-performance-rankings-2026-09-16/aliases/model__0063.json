@@ -1,0 +1,14 @@
+{
+  "schema_version": "3.2",
+  "record_type": "entity_alias",
+  "status": "accepted",
+  "payload": {
+    "entity_key": "model:qwen:qwen2-5-1-5b-instruct",
+    "alias": "Qwen/Qwen2.5-1.5B-Instruct",
+    "alias_type": "repository",
+    "language": null,
+    "normalized_alias": "qwenqwen2515binstruct",
+    "source_key": null
+  },
+  "review_notes": []
+}

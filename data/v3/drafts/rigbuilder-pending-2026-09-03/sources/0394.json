@@ -1,0 +1,24 @@
+{
+  "schema_version": "3.2",
+  "record_type": "source_document",
+  "status": "pending",
+  "payload": {
+    "source_key": "src:card:trellis-image-large",
+    "title": "TRELLIS-image-large Model Card",
+    "url": "https://huggingface.co/microsoft/TRELLIS-image-large",
+    "publisher_key": "org:microsoft",
+    "source_type": "model_card",
+    "source_tier": "A",
+    "published_at": null,
+    "market_region": null,
+    "language": null,
+    "availability_status": "accessible",
+    "archive_url": null,
+    "accessed_at": "2026-09-15T11:33:34+00:00",
+    "content_hash": "0633ef8c3678a5802b8630077fe3fa436258d39e3020ce74f0492f7082c74b4b"
+  },
+  "review_notes": [
+    "多模态模型来源登记（2026-09-07）：pending。",
+    "2026-09-15 经镜像抓取：https://hf-mirror.com/microsoft/TRELLIS-image-large（来源登记 URL 保持原样 https://huggingface.co/microsoft/TRELLIS-image-large）。"
+  ]
+}

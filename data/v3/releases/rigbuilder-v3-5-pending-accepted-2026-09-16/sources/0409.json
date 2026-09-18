@@ -1,0 +1,27 @@
+{
+  "schema_version": "3.2",
+  "record_type": "source_document",
+  "status": "accepted",
+  "payload": {
+    "source_key": "src:org:opengvlab",
+    "title": "OpenGVLab (Shanghai AI Lab) 官方站点",
+    "url": "https://huggingface.co/OpenGVLab",
+    "publisher_key": "org:opengvlab",
+    "source_type": "official_page",
+    "source_tier": "B",
+    "published_at": null,
+    "market_region": null,
+    "language": null,
+    "availability_status": "accessible",
+    "archive_url": null,
+    "accessed_at": "2026-09-15T13:25:38+00:00",
+    "content_hash": "87ffa014ae2648791dd5a49272d2f99c2f2d0bba2d8b68220ead33fd664ba017"
+  },
+  "review_notes": [
+    "组织来源登记（2026-09-15）：仅用于背书组织存在性；pending 待抓取。",
+    "2026-09-15 人工浏览器另存导入（src_org_opengvlab.html，526356B，文本 151768 字）",
+    "2026-09-15 人工浏览器另存导入（src_org_opengvlab.html，526356B，文本 151768 字）",
+    "2026-09-15 人工浏览器另存导入（src_org_opengvlab.html，526356B，文本 151768 字）",
+    "Approved in bulk on 2026-09-16 at the user's explicit request; no per-record human review."
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "schema_version": "3.2",
+  "record_type": "source_document",
+  "status": "pending",
+  "payload": {
+    "source_key": "src:card:gemma-3-1b-it",
+    "title": "Gemma-3-1b-it Model Card",
+    "url": "https://huggingface.co/google/gemma-3-1b-it",
+    "publisher_key": "org:google",
+    "source_type": "model_card",
+    "source_tier": "A",
+    "published_at": null,
+    "market_region": null,
+    "language": null,
+    "availability_status": "accessible",
+    "archive_url": null,
+    "accessed_at": "2026-09-07T09:50:17+00:00",
+    "content_hash": "3d4df0debfc060c5b0f411d0f16a89a370dc177645989c19890db54ac2b1cd56"
+  },
+  "review_notes": [
+    "第一梯队模型来源登记（2026-09-07）：pending，待 page_save.py --only-missing 抓取并回填 accessed_at/content_hash；GGUF 仓（官方）以 hf_fill 报告核对实际文件。"
+  ]
+}

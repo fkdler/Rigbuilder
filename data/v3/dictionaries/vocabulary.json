@@ -1,0 +1,13 @@
+{
+  "schema_version": "3.2",
+  "hardware_categories": ["cpu", "gpu", "memory", "storage", "psu", "platform"],
+  "entity_types": ["organization", "hardware", "ai_model", "model_variant", "workload"],
+  "lifecycle_statuses": ["announced", "upcoming", "active", "legacy", "discontinued", "unknown"],
+  "capability_statuses": ["supported", "unsupported", "partial", "unknown"],
+  "source_tiers": ["A", "B", "C", "D"],
+  "review_statuses": ["pending", "accepted", "rejected", "conflict"],
+  "benchmark_statuses": ["success", "partial", "oom", "failed", "invalid"],
+  "price_types": ["msrp", "launch", "current_new", "current_used"],
+  "price_conditions": ["new", "used", "refurbished"],
+  "attribute_statuses": ["known", "text_only", "unknown", "not_applicable"]
+}

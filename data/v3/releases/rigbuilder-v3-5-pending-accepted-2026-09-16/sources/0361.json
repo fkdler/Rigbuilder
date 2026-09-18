@@ -1,0 +1,25 @@
+{
+  "schema_version": "3.2",
+  "record_type": "source_document",
+  "status": "accepted",
+  "payload": {
+    "source_key": "src:card:wan2-2-ti2v-5b",
+    "title": "Wan2.2-TI2V-5B Model Card",
+    "url": "https://huggingface.co/Wan-AI/Wan2.2-TI2V-5B",
+    "publisher_key": "org:wan-ai",
+    "source_type": "model_card",
+    "source_tier": "A",
+    "published_at": null,
+    "market_region": null,
+    "language": null,
+    "availability_status": "accessible",
+    "archive_url": null,
+    "accessed_at": "2026-09-15T11:31:17+00:00",
+    "content_hash": "972d9a09cb1b62e865006b1c62ac6137d3db65ea4f40732354313f1ca0b32b70"
+  },
+  "review_notes": [
+    "多模态模型来源登记（2026-09-07）：pending，待抓取核验。",
+    "2026-09-15 经镜像抓取：https://hf-mirror.com/Wan-AI/Wan2.2-TI2V-5B（来源登记 URL 保持原样 https://huggingface.co/Wan-AI/Wan2.2-TI2V-5B）。",
+    "Approved in bulk on 2026-09-16 at the user's explicit request; no per-record human review."
+  ]
+}

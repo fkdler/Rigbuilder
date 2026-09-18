@@ -1,0 +1,760 @@
+[
+  {
+    "entity_key": "model:black-forest-labs:flux-1-dev",
+    "status": "new_model",
+    "name": "FLUX.1-dev",
+    "caps": [
+      "text_input",
+      "image_generation"
+    ],
+    "source_url": "https://huggingface.co/api/models/black-forest-labs/FLUX.1-dev",
+    "sha256": "698474cbd3cfc819aa0304f9bb647d0dceb5e66656e1c6d4414bf86e42660d1b",
+    "revision": "3de623fc3c33e44ffbe2bad470d0f45bccf2eb21",
+    "omitted_draft_capabilities": [
+      {
+        "capability_key": "image_output",
+        "status": "supported",
+        "notes": null
+      }
+    ]
+  },
+  {
+    "entity_key": "model:deepseek:deepseek-r1-distill-qwen-14b",
+    "status": "already_imported"
+  },
+  {
+    "entity_key": "model:deepseek:deepseek-r1-distill-qwen-32b",
+    "status": "already_imported"
+  },
+  {
+    "entity_key": "model:deepseek:deepseek-r1-distill-qwen-7b",
+    "status": "already_imported"
+  },
+  {
+    "entity_key": "model:deepseek:deepseek-r1",
+    "status": "new_model",
+    "name": "DeepSeek-R1",
+    "caps": [
+      "text_input"
+    ],
+    "source_url": "https://huggingface.co/api/models/deepseek-ai/DeepSeek-R1",
+    "sha256": "e6716a40ff3072de6e042a120f4b89596448e79bc3322f01e09757966ed3dad7",
+    "revision": "56d4cbbb4d29f4355bab4b9a39ccb717a14ad5ad",
+    "omitted_draft_capabilities": []
+  },
+  {
+    "entity_key": "model:deepseek:deepseek-v3-2-exp",
+    "status": "new_model",
+    "name": "DeepSeek-V3.2-Exp",
+    "caps": [
+      "text_input"
+    ],
+    "source_url": "https://huggingface.co/api/models/deepseek-ai/DeepSeek-V3.2-Exp",
+    "sha256": "9020f865b9a6e98271e416435f3dbf189d5152d7aaec27dcccf91704ce819d43",
+    "revision": "194c67e12b1b0d6df0ef373ddcf215bc84027409",
+    "omitted_draft_capabilities": [
+      {
+        "capability_key": "reasoning",
+        "status": "supported",
+        "notes": null
+      }
+    ]
+  },
+  {
+    "entity_key": "model:google:gemma-2-9b-it",
+    "status": "already_imported"
+  },
+  {
+    "entity_key": "model:google:gemma-3-12b-it",
+    "status": "new_model",
+    "name": "gemma-3-12b-it",
+    "caps": [
+      "text_input",
+      "vision_input"
+    ],
+    "source_url": "https://huggingface.co/api/models/google/gemma-3-12b-it",
+    "sha256": "a5651563f6d03996455e456aec4c1f9a190082b24c09ebdabb44a2b2decc74ff",
+    "revision": "96b6f1eccf38110c56df3a15bffe176da04bfd80",
+    "omitted_draft_capabilities": []
+  },
+  {
+    "entity_key": "model:google:gemma-3-1b-it",
+    "status": "new_model",
+    "name": "gemma-3-1b-it",
+    "caps": [
+      "text_input"
+    ],
+    "source_url": "https://huggingface.co/api/models/google/gemma-3-1b-it",
+    "sha256": "7cc9a8c06be5d13fc46c4a397778bd55ce466be729aba8c7cfbc6d316aafdd8e",
+    "revision": "dcc83ea841ab6100d6b47a070329e1ba4cf78752",
+    "omitted_draft_capabilities": [
+      {
+        "capability_key": "vision_input",
+        "status": "supported",
+        "notes": null
+      }
+    ]
+  },
+  {
+    "entity_key": "model:google:gemma-3-27b-it",
+    "status": "new_model",
+    "name": "gemma-3-27b-it",
+    "caps": [
+      "text_input",
+      "vision_input"
+    ],
+    "source_url": "https://huggingface.co/api/models/google/gemma-3-27b-it",
+    "sha256": "5cf9a5b530a802660dd70b47a2ea1176cd9c8ad3f7fba6aab28a336a26d9d5d6",
+    "revision": "005ad3404e59d6023443cb575daa05336842228a",
+    "omitted_draft_capabilities": []
+  },
+  {
+    "entity_key": "model:google:gemma-3-4b-it",
+    "status": "new_model",
+    "name": "gemma-3-4b-it",
+    "caps": [
+      "text_input",
+      "vision_input"
+    ],
+    "source_url": "https://huggingface.co/api/models/google/gemma-3-4b-it",
+    "sha256": "236151d0271071c05c502a0dadf9594095322383bd26c57c9e5cee3532f308f3",
+    "revision": "093f9f388b31de276ce2de164bdc2081324b9767",
+    "omitted_draft_capabilities": []
+  },
+  {
+    "entity_key": "model:google:gemma-3n-e2b-it",
+    "status": "new_model",
+    "name": "gemma-3n-E2B-it",
+    "caps": [
+      "text_input",
+      "vision_input"
+    ],
+    "source_url": "https://huggingface.co/api/models/google/gemma-3n-E2B-it",
+    "sha256": "9b2be00bd09aaa6f2d98264aa35d67cef6469b221b6fc0582fee8892b1403d45",
+    "revision": "5e092ebca197cdcd8d8b195040accf22693501bc",
+    "omitted_draft_capabilities": [
+      {
+        "capability_key": "audio_input",
+        "status": "supported",
+        "notes": null
+      }
+    ]
+  },
+  {
+    "entity_key": "model:google:gemma-3n-e4b-it",
+    "status": "new_model",
+    "name": "gemma-3n-E4B-it",
+    "caps": [
+      "text_input",
+      "vision_input"
+    ],
+    "source_url": "https://huggingface.co/api/models/google/gemma-3n-E4B-it",
+    "sha256": "77404e919a85f3b23d17df8b50ab2143b7adc85c96b2c7a90a2afed0bd2b02fc",
+    "revision": "c1221e9c62e34a43ab7ffacd1be0ea71f126ef10",
+    "omitted_draft_capabilities": [
+      {
+        "capability_key": "audio_input",
+        "status": "supported",
+        "notes": null
+      }
+    ]
+  },
+  {
+    "entity_key": "model:internlm:internlm3-8b-instruct",
+    "status": "new_model",
+    "name": "internlm3-8b-instruct",
+    "caps": [
+      "text_input"
+    ],
+    "source_url": "https://huggingface.co/api/models/internlm/internlm3-8b-instruct",
+    "sha256": "da6dce22f36a43a4301665554d6031f5f28c3fd312caa8e7ff6166183f703a5a",
+    "revision": "28c99415adaf61767bd1c619f4f99f308fdfd223",
+    "omitted_draft_capabilities": [
+      {
+        "capability_key": "reasoning",
+        "status": "supported",
+        "notes": null
+      }
+    ]
+  },
+  {
+    "entity_key": "model:meta:llama-3-1-8b-instruct",
+    "status": "already_imported"
+  },
+  {
+    "entity_key": "model:meta:llama-3-2-1b-instruct",
+    "status": "new_model",
+    "name": "Llama-3.2-1B-Instruct",
+    "caps": [
+      "text_input"
+    ],
+    "source_url": "https://huggingface.co/api/models/meta-llama/Llama-3.2-1B-Instruct",
+    "sha256": "f82019d303bbbf1899dc90852341187f4b56473e095e656b5a92b405a1568713",
+    "revision": "9213176726f574b556790deb65791e0c5aa438b6",
+    "omitted_draft_capabilities": []
+  },
+  {
+    "entity_key": "model:meta:llama-3-2-3b-instruct",
+    "status": "new_model",
+    "name": "Llama-3.2-3B-Instruct",
+    "caps": [
+      "text_input"
+    ],
+    "source_url": "https://huggingface.co/api/models/meta-llama/Llama-3.2-3B-Instruct",
+    "sha256": "0080e35b8b4b269eb20b9bd307f2a1b3ef9a1720c6893ed7a051abfea9830143",
+    "revision": "0cb88a4f764b7a12671c53f0838cd831a0843b95",
+    "omitted_draft_capabilities": []
+  },
+  {
+    "entity_key": "model:meta:llama-3-3-70b-instruct",
+    "status": "already_imported"
+  },
+  {
+    "entity_key": "model:meta:llama-4-maverick-17b-128e",
+    "status": "new_model",
+    "name": "Llama-4-Maverick-17B-128E-Instruct",
+    "caps": [
+      "text_input",
+      "vision_input"
+    ],
+    "source_url": "https://huggingface.co/api/models/meta-llama/Llama-4-Maverick-17B-128E-Instruct",
+    "sha256": "ae3093dbb000cf0f764184c47fb7769ba2e52cf7bad53e7b84ddec997fb0a882",
+    "revision": "73d14711bcc77c16df3470856949c3764056b617",
+    "omitted_draft_capabilities": []
+  },
+  {
+    "entity_key": "model:meta:llama-4-scout-17b-16e",
+    "status": "new_model",
+    "name": "Llama-4-Scout-17B-16E-Instruct",
+    "caps": [
+      "text_input",
+      "vision_input"
+    ],
+    "source_url": "https://huggingface.co/api/models/meta-llama/Llama-4-Scout-17B-16E-Instruct",
+    "sha256": "09461a305b9e2f760d54a2b75793785173ceac99ea78eab61bbe1aac73407251",
+    "revision": "92f3b1597a195b523d8d9e5700e57e4fbb8f20d3",
+    "omitted_draft_capabilities": []
+  },
+  {
+    "entity_key": "model:microsoft:phi-4-mini-instruct",
+    "status": "new_model",
+    "name": "Phi-4-mini-instruct",
+    "caps": [
+      "text_input"
+    ],
+    "source_url": "https://huggingface.co/api/models/microsoft/Phi-4-mini-instruct",
+    "sha256": "d1c6779e0cca44179e4fd931bb9eca928597ee74ab6ed2eec9279747a059cc8b",
+    "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+    "omitted_draft_capabilities": []
+  },
+  {
+    "entity_key": "model:microsoft:phi-4-multimodal-instruct",
+    "status": "new_model",
+    "name": "Phi-4-multimodal-instruct",
+    "caps": [
+      "audio_input"
+    ],
+    "source_url": "https://huggingface.co/api/models/microsoft/Phi-4-multimodal-instruct",
+    "sha256": "e8ef332fe4d1505f9618fef17888fe5563f9dade13022e55c5c66e052d9b5a59",
+    "revision": "93f923e1a7727d1c4f446756212d9d3e8fcc5d81",
+    "omitted_draft_capabilities": [
+      {
+        "capability_key": "text_input",
+        "status": "supported",
+        "notes": null
+      },
+      {
+        "capability_key": "vision_input",
+        "status": "supported",
+        "notes": null
+      }
+    ]
+  },
+  {
+    "entity_key": "model:microsoft:phi-4",
+    "status": "already_imported"
+  },
+  {
+    "entity_key": "model:minimax:minimax-m2",
+    "status": "new_model",
+    "name": "MiniMax-M2",
+    "caps": [
+      "text_input"
+    ],
+    "source_url": "https://huggingface.co/api/models/MiniMaxAI/MiniMax-M2",
+    "sha256": "6a1f0d93c7c16b101b4ecd167c8c3b6d8e087bf1cb3fcc974f6a49770fadfeed",
+    "revision": "757303d492a50514c312788b5247a4f696a4c6a3",
+    "omitted_draft_capabilities": [
+      {
+        "capability_key": "reasoning",
+        "status": "supported",
+        "notes": null
+      }
+    ]
+  },
+  {
+    "entity_key": "model:mistral-ai:mistral-7b-instruct-v0-3",
+    "status": "already_imported"
+  },
+  {
+    "entity_key": "model:mistral-ai:mistral-small-3-2-24b-instruct",
+    "status": "new_model",
+    "name": "Mistral-Small-3.2-24B-Instruct-2506",
+    "caps": [],
+    "source_url": "https://huggingface.co/api/models/mistralai/Mistral-Small-3.2-24B-Instruct-2506",
+    "sha256": "3b70051c3e20e8a55684b3c40095f93237f733e9ee9d9b44cea8c6404aea91eb",
+    "revision": "95a6d26c4bfb886c58daf9d3f7332c857cb27b43",
+    "omitted_draft_capabilities": [
+      {
+        "capability_key": "text_input",
+        "status": "supported",
+        "notes": null
+      },
+      {
+        "capability_key": "vision_input",
+        "status": "supported",
+        "notes": null
+      }
+    ]
+  },
+  {
+    "entity_key": "model:moonshot-ai:kimi-k2-instruct",
+    "status": "new_model",
+    "name": "Kimi-K2-Instruct",
+    "caps": [
+      "text_input"
+    ],
+    "source_url": "https://huggingface.co/api/models/moonshotai/Kimi-K2-Instruct",
+    "sha256": "03181f5754a66744051a2645227aef96ce77b9a91e891065d4e1dadd843a7352",
+    "revision": "fd1984e2b7a3350dbf7305fe73a4ede25c14de50",
+    "omitted_draft_capabilities": []
+  },
+  {
+    "entity_key": "model:moonshot-ai:kimi-k2-thinking",
+    "status": "new_model",
+    "name": "Kimi-K2-Thinking",
+    "caps": [
+      "text_input"
+    ],
+    "source_url": "https://huggingface.co/api/models/moonshotai/Kimi-K2-Thinking",
+    "sha256": "91eeeceadb842581593b6255049a7690c4f4916d59b3911a1fd6e6eedea171ea",
+    "revision": "a51ccc050d73dab088bf7b0e2dd9b30ae85a4e55",
+    "omitted_draft_capabilities": [
+      {
+        "capability_key": "reasoning",
+        "status": "supported",
+        "notes": null
+      }
+    ]
+  },
+  {
+    "entity_key": "model:openai:whisper-large-v3",
+    "status": "new_model",
+    "name": "whisper-large-v3",
+    "caps": [
+      "audio_input"
+    ],
+    "source_url": "https://huggingface.co/api/models/openai/whisper-large-v3",
+    "sha256": "56bec4a79e82932d6687046bedd8d7c47343abff721a67858b310f76bcb769db",
+    "revision": "06f233fe06e710322aca913c1bc4249a0d71fce1",
+    "omitted_draft_capabilities": [
+      {
+        "capability_key": "text_output",
+        "status": "supported",
+        "notes": null
+      }
+    ]
+  },
+  {
+    "entity_key": "model:qwen:qwen2-5-1-5b-instruct",
+    "status": "already_imported"
+  },
+  {
+    "entity_key": "model:qwen:qwen2-5-14b-instruct",
+    "status": "already_imported"
+  },
+  {
+    "entity_key": "model:qwen:qwen2-5-32b-instruct",
+    "status": "already_imported"
+  },
+  {
+    "entity_key": "model:qwen:qwen2-5-3b-instruct",
+    "status": "already_imported"
+  },
+  {
+    "entity_key": "model:qwen:qwen2-5-7b-instruct",
+    "status": "already_imported"
+  },
+  {
+    "entity_key": "model:qwen:qwen2-5-vl-7b-instruct",
+    "status": "capability_update",
+    "name": "Qwen2.5-VL-7B-Instruct",
+    "caps": [
+      "text_input",
+      "vision_input"
+    ],
+    "source_url": "https://huggingface.co/api/models/Qwen/Qwen2.5-VL-7B-Instruct",
+    "sha256": "95e95eabd2f4a92d901c367703c92f1b73e970c58e2627d3d31852be57372afe",
+    "revision": "cc594898137f460bfe9f0759e9844b3ce807cfb5",
+    "omitted_draft_capabilities": []
+  },
+  {
+    "entity_key": "model:qwen:qwen3-0-6b",
+    "status": "new_model",
+    "name": "Qwen3-0.6B",
+    "caps": [
+      "text_input"
+    ],
+    "source_url": "https://huggingface.co/api/models/Qwen/Qwen3-0.6B",
+    "sha256": "f8ae2e7b1e791b87c1b7d0df3e7bd8fac1fb20ba2ee940e7290217bfd52b837f",
+    "revision": "c1899de289a04d12100db370d81485cdf75e47ca",
+    "omitted_draft_capabilities": []
+  },
+  {
+    "entity_key": "model:qwen:qwen3-1-7b",
+    "status": "new_model",
+    "name": "Qwen3-1.7B",
+    "caps": [
+      "text_input"
+    ],
+    "source_url": "https://huggingface.co/api/models/Qwen/Qwen3-1.7B",
+    "sha256": "2811e2f109a0d250566415857981246920178284e049a4738419cdc854864e4d",
+    "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+    "omitted_draft_capabilities": []
+  },
+  {
+    "entity_key": "model:qwen:qwen3-14b",
+    "status": "new_model",
+    "name": "Qwen3-14B",
+    "caps": [
+      "text_input"
+    ],
+    "source_url": "https://huggingface.co/api/models/Qwen/Qwen3-14B",
+    "sha256": "b3790f4e7be888b60f023ae3c9882ed077cf7d94b3ddd4bdca3bd274c9a646b1",
+    "revision": "40c069824f4251a91eefaf281ebe4c544efd3e18",
+    "omitted_draft_capabilities": []
+  },
+  {
+    "entity_key": "model:qwen:qwen3-235b-a22b",
+    "status": "new_model",
+    "name": "Qwen3-235B-A22B",
+    "caps": [
+      "text_input"
+    ],
+    "source_url": "https://huggingface.co/api/models/Qwen/Qwen3-235B-A22B",
+    "sha256": "6c0fc62744abba9516140e1c47e437b2e8849fed5f2f2c23999ff0b775736bde",
+    "revision": "8efa61729e24bd65b1d152b5ab5409052aa80e65",
+    "omitted_draft_capabilities": []
+  },
+  {
+    "entity_key": "model:qwen:qwen3-30b-a3b-instruct-2507",
+    "status": "new_model",
+    "name": "Qwen3-30B-A3B-Instruct-2507",
+    "caps": [
+      "text_input"
+    ],
+    "source_url": "https://huggingface.co/api/models/Qwen/Qwen3-30B-A3B-Instruct-2507",
+    "sha256": "9f765d396854eb5a6ec150b1ab3c446cea3898b586eb3907e86041dd6952c50a",
+    "revision": "0d7cf23991f47feeb3a57ecb4c9cee8ea4a17bfe",
+    "omitted_draft_capabilities": []
+  },
+  {
+    "entity_key": "model:qwen:qwen3-30b-a3b",
+    "status": "new_model",
+    "name": "Qwen3-30B-A3B",
+    "caps": [
+      "text_input"
+    ],
+    "source_url": "https://huggingface.co/api/models/Qwen/Qwen3-30B-A3B",
+    "sha256": "0d87149b241399e8166a2ab8b492a396a0e63a8bcbdeeab622a8e1fa39c75b56",
+    "revision": "ad44e777bcd18fa416d9da3bd8f70d33ebb85d39",
+    "omitted_draft_capabilities": []
+  },
+  {
+    "entity_key": "model:qwen:qwen3-32b",
+    "status": "new_model",
+    "name": "Qwen3-32B",
+    "caps": [
+      "text_input"
+    ],
+    "source_url": "https://huggingface.co/api/models/Qwen/Qwen3-32B",
+    "sha256": "fc6cc881517c8dd3b6bfa3e4506184d8869f89c2aa0bdabfbb506252543393e6",
+    "revision": "9216db5781bf21249d130ec9da846c4624c16137",
+    "omitted_draft_capabilities": []
+  },
+  {
+    "entity_key": "model:qwen:qwen3-4b-instruct-2507",
+    "status": "new_model",
+    "name": "Qwen3-4B-Instruct-2507",
+    "caps": [
+      "text_input"
+    ],
+    "source_url": "https://huggingface.co/api/models/Qwen/Qwen3-4B-Instruct-2507",
+    "sha256": "00411e18845d4ea77259d0f72b2fd5e89e3366e60f8e32209723c1f31bb15c0b",
+    "revision": "cdbee75f17c01a7cc42f958dc650907174af0554",
+    "omitted_draft_capabilities": []
+  },
+  {
+    "entity_key": "model:qwen:qwen3-4b",
+    "status": "new_model",
+    "name": "Qwen3-4B",
+    "caps": [
+      "text_input"
+    ],
+    "source_url": "https://huggingface.co/api/models/Qwen/Qwen3-4B",
+    "sha256": "0d06b200f547932940cfb6d54b6ef0b3554e205e64252df671fbe75355182848",
+    "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+    "omitted_draft_capabilities": []
+  },
+  {
+    "entity_key": "model:qwen:qwen3-8b",
+    "status": "already_imported"
+  },
+  {
+    "entity_key": "model:qwen:qwen3-coder-30b-a3b-instruct",
+    "status": "new_model",
+    "name": "Qwen3-Coder-30B-A3B-Instruct",
+    "caps": [
+      "text_input"
+    ],
+    "source_url": "https://huggingface.co/api/models/Qwen/Qwen3-Coder-30B-A3B-Instruct",
+    "sha256": "d45257e37543b19febe1fcb4ea8f894e858ab98a15d3bca7a5e2305b1dbf268a",
+    "revision": "b2cff646eb4bb1d68355c01b18ae02e7cf42d120",
+    "omitted_draft_capabilities": [
+      {
+        "capability_key": "code",
+        "status": "supported",
+        "notes": null
+      }
+    ]
+  },
+  {
+    "entity_key": "model:qwen:qwen3-coder-480b-a35b-instruct",
+    "status": "new_model",
+    "name": "Qwen3-Coder-480B-A35B-Instruct",
+    "caps": [
+      "text_input"
+    ],
+    "source_url": "https://huggingface.co/api/models/Qwen/Qwen3-Coder-480B-A35B-Instruct",
+    "sha256": "cfc4c952f147da9e84de2824b38ca05976403ad9a3db9b4be348188f87390ad9",
+    "revision": "9d90cf8fca1bf7b7acca42d3fc9ae694a2194069",
+    "omitted_draft_capabilities": [
+      {
+        "capability_key": "code",
+        "status": "supported",
+        "notes": null
+      }
+    ]
+  },
+  {
+    "entity_key": "model:qwen:qwen3-embedding-0-6b",
+    "status": "new_model",
+    "name": "Qwen3-Embedding-0.6B",
+    "caps": [],
+    "source_url": "https://huggingface.co/api/models/Qwen/Qwen3-Embedding-0.6B",
+    "sha256": "19c1918a4a7397cb94811bc6b0b604b5329d51f7230fbb90b98ac8c6851d11f0",
+    "revision": "97b0c614be4d77ee51c0cef4e5f07c00f9eb65b3",
+    "omitted_draft_capabilities": [
+      {
+        "capability_key": "text_input",
+        "status": "supported",
+        "notes": null
+      },
+      {
+        "capability_key": "embedding",
+        "status": "supported",
+        "notes": null
+      }
+    ]
+  },
+  {
+    "entity_key": "model:qwen:qwen3-embedding-4b",
+    "status": "new_model",
+    "name": "Qwen3-Embedding-4B",
+    "caps": [],
+    "source_url": "https://huggingface.co/api/models/Qwen/Qwen3-Embedding-4B",
+    "sha256": "cf4bb26f488b28de3c3028089df0c18b0dd9d169ef0d0ed02b67545354ac3032",
+    "revision": "5cf2132abc99cad020ac570b19d031efec650f2b",
+    "omitted_draft_capabilities": [
+      {
+        "capability_key": "text_input",
+        "status": "supported",
+        "notes": null
+      },
+      {
+        "capability_key": "embedding",
+        "status": "supported",
+        "notes": null
+      }
+    ]
+  },
+  {
+    "entity_key": "model:qwen:qwen3-embedding-8b",
+    "status": "new_model",
+    "name": "Qwen3-Embedding-8B",
+    "caps": [],
+    "source_url": "https://huggingface.co/api/models/Qwen/Qwen3-Embedding-8B",
+    "sha256": "8e4aa7fabbdd6d96e25ce2a19d33e40239ba0b956a8ddd9958c6d233c5f109e3",
+    "revision": "1d8ad4ca9b3dd8059ad90a75d4983776a23d44af",
+    "omitted_draft_capabilities": [
+      {
+        "capability_key": "text_input",
+        "status": "supported",
+        "notes": null
+      },
+      {
+        "capability_key": "embedding",
+        "status": "supported",
+        "notes": null
+      }
+    ]
+  },
+  {
+    "entity_key": "model:qwen:qwen3-omni-7b",
+    "status": "deferred",
+    "reason": "source_http_401"
+  },
+  {
+    "entity_key": "model:qwen:qwen3-reranker-0-6b",
+    "status": "new_model",
+    "name": "Qwen3-Reranker-0.6B",
+    "caps": [],
+    "source_url": "https://huggingface.co/api/models/Qwen/Qwen3-Reranker-0.6B",
+    "sha256": "dbb6b4602a59143a17a809aed8b61b54a43cc96801f41b2f1fc09a58dd103c9e",
+    "revision": "e61197ed45024b0ed8a2d74b80b4d909f1255473",
+    "omitted_draft_capabilities": [
+      {
+        "capability_key": "text_input",
+        "status": "supported",
+        "notes": null
+      },
+      {
+        "capability_key": "rerank",
+        "status": "supported",
+        "notes": null
+      }
+    ]
+  },
+  {
+    "entity_key": "model:qwen:qwen3-reranker-4b",
+    "status": "new_model",
+    "name": "Qwen3-Reranker-4B",
+    "caps": [],
+    "source_url": "https://huggingface.co/api/models/Qwen/Qwen3-Reranker-4B",
+    "sha256": "af1443d8da6b7ff9b0d45e679c7eec0a9531f0b43879aa62e77df76b1239c9b4",
+    "revision": "22e683669bc0f0bd69640a1354a6d0aebcfeede5",
+    "omitted_draft_capabilities": [
+      {
+        "capability_key": "text_input",
+        "status": "supported",
+        "notes": null
+      },
+      {
+        "capability_key": "rerank",
+        "status": "supported",
+        "notes": null
+      }
+    ]
+  },
+  {
+    "entity_key": "model:qwen:qwen3-vl-30b-a3b-instruct",
+    "status": "new_model",
+    "name": "Qwen3-VL-30B-A3B-Instruct",
+    "caps": [
+      "text_input",
+      "vision_input"
+    ],
+    "source_url": "https://huggingface.co/api/models/Qwen/Qwen3-VL-30B-A3B-Instruct",
+    "sha256": "0760b01f11549216c7ef6e5081c191943cb92f0f358d0b307baadb8e28442232",
+    "revision": "9c4b90e1e4ba969fd3b5378b57d966d725f1b86c",
+    "omitted_draft_capabilities": []
+  },
+  {
+    "entity_key": "model:qwen:qwen3-vl-32b",
+    "status": "new_model",
+    "name": "Qwen3-VL-32B-Instruct",
+    "caps": [
+      "text_input",
+      "vision_input"
+    ],
+    "source_url": "https://huggingface.co/api/models/Qwen/Qwen3-VL-32B-Instruct",
+    "sha256": "5f8f5e67b57964493f6f43a605183305ab69db24ea5cda44d4bd938af9e1cd56",
+    "revision": "0cfaf48183f594c314753d30a4c4974bc75f3ccb",
+    "omitted_draft_capabilities": []
+  },
+  {
+    "entity_key": "model:qwen:qwen3-vl-4b",
+    "status": "new_model",
+    "name": "Qwen3-VL-4B-Instruct",
+    "caps": [
+      "text_input",
+      "vision_input"
+    ],
+    "source_url": "https://huggingface.co/api/models/Qwen/Qwen3-VL-4B-Instruct",
+    "sha256": "ec5ed8971559b11ae354e45416bb53dd29487292bc1eaebd7b36a2ef8bd7e4e0",
+    "revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "omitted_draft_capabilities": []
+  },
+  {
+    "entity_key": "model:qwen:qwen3-vl-8b",
+    "status": "new_model",
+    "name": "Qwen3-VL-8B-Instruct",
+    "caps": [
+      "text_input",
+      "vision_input"
+    ],
+    "source_url": "https://huggingface.co/api/models/Qwen/Qwen3-VL-8B-Instruct",
+    "sha256": "bb4eaa3585fbd5d068d4d8137a2d4f08e11c339d70f21ee0ba3bb246af63e8ac",
+    "revision": "0c351dd01ed87e9c1b53cbc748cba10e6187ff3b",
+    "omitted_draft_capabilities": []
+  },
+  {
+    "entity_key": "model:stability-ai:stable-diffusion-3-5-large",
+    "status": "new_model",
+    "name": "stable-diffusion-3.5-large",
+    "caps": [
+      "text_input",
+      "image_generation"
+    ],
+    "source_url": "https://huggingface.co/api/models/stabilityai/stable-diffusion-3.5-large",
+    "sha256": "c9f455be72b61a481d98750aa6c0baf8e1a1202847499e9530b399076e543c05",
+    "revision": "ceddf0a7fdf2064ea28e2213e3b84e4afa170a0f",
+    "omitted_draft_capabilities": [
+      {
+        "capability_key": "image_output",
+        "status": "supported",
+        "notes": null
+      }
+    ]
+  },
+  {
+    "entity_key": "model:zai-org:glm-4-5-air",
+    "status": "new_model",
+    "name": "GLM-4.5-Air",
+    "caps": [
+      "text_input"
+    ],
+    "source_url": "https://huggingface.co/api/models/zai-org/GLM-4.5-Air",
+    "sha256": "10bfee03038ddf0362a06169bc1f5954c50cb030c4c1f19bd88d9bc701f6adcc",
+    "revision": "a24ceef6ce4f3536971efe9b778bdaa1bab18daa",
+    "omitted_draft_capabilities": [
+      {
+        "capability_key": "reasoning",
+        "status": "supported",
+        "notes": null
+      }
+    ]
+  },
+  {
+    "entity_key": "model:zai-org:glm-4-6",
+    "status": "new_model",
+    "name": "GLM-4.6",
+    "caps": [
+      "text_input"
+    ],
+    "source_url": "https://huggingface.co/api/models/zai-org/GLM-4.6",
+    "sha256": "3618d2f7bb47ddf6111e2c187c3589078d53c17f8a926f6933b7fcf536f4651f",
+    "revision": "be72194883d968d7923a07e2f61681ea9a2826d1",
+    "omitted_draft_capabilities": []
+  }
+]

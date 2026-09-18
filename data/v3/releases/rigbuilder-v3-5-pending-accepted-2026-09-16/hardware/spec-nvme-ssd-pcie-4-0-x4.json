@@ -1,0 +1,53 @@
+{
+  "schema_version": "3.2",
+  "record_type": "hardware",
+  "status": "accepted",
+  "payload": {
+    "identity": {
+      "entity_key": "hw:spec:storage-nvme-ssd-pcie-4-0-x4:desktop:global",
+      "canonical_name": "NVMe SSD PCIe 4.0 x4",
+      "entity_type": "hardware",
+      "release_date": null,
+      "lifecycle_status": "unknown",
+      "recommendable": false
+    },
+    "category": "storage",
+    "record_kind": "spec_profile",
+    "manufacturer_key": null,
+    "form_factor": "m2",
+    "model_name": "NVMe SSD PCIe 4.0 x4",
+    "variant_name": null,
+    "market_segment": "consumer",
+    "region_code": "GLOBAL",
+    "official_product_id": null,
+    "product_family": null,
+    "storage_spec": {
+      "storage_type": "NVMe SSD",
+      "interface": "PCIe 4.0 x4",
+      "pcie_generation": 4,
+      "capacity_gib": null,
+      "sequential_read_mb_s_class": 7000,
+      "sequential_write_mb_s_class": 6000,
+      "typical_use_case": "系统/游戏/本地AI数据盘"
+    },
+    "attributes": [],
+    "evidence": [
+      {
+        "source_key": "src:hardquery:hardware",
+        "field_key": "entity.canonical_name",
+        "normalized_value": "NVMe SSD PCIe 4.0 x4",
+        "provenance_key": "community_reported",
+        "raw_excerpt": "NVMe SSD PCIe 4.0 x4",
+        "review_status": "accepted",
+        "reviewed_at": null
+      }
+    ]
+  },
+  "review_notes": [
+    "规格级 Profile（无厂商绑定）：值为公开标准常识档位（JEDEC/PCIe-SIG/80 PLUS/ATX 等），未逐字读取页面。",
+    "未注册具体来源 URL 前不挂 evidence（符合\"无来源不挂证据\"）；来源（标准组织官方页）待审核阶段补充。",
+    "capacity/connector 等具 SKU 特征的字段不在此规格档范围，保持 null/[]。",
+    "2026-09-07 evidence 补全：挂 canonical_name 证据（来源见 sources）；其余字段证据待逐字核验后补。",
+    "Approved in bulk on 2026-09-16 at the user's explicit request; no per-record human review."
+  ]
+}

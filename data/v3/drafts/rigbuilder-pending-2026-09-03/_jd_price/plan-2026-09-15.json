@@ -1,0 +1,2598 @@
+{
+  "generated": "2026-09-15",
+  "total": 259,
+  "priced": 80,
+  "unpriced": 179,
+  "rows": [
+    {
+      "entity_key": "hw:amd:radeon-rx-6400:desktop:global",
+      "file": "amd-radeon-rx-6400.json",
+      "name": "Radeon RX 6400",
+      "category": "gpu",
+      "mfr": "amd",
+      "priced": false,
+      "amount": null,
+      "sku": null
+    },
+    {
+      "entity_key": "hw:amd:radeon-rx-6500-xt:desktop:global",
+      "file": "amd-radeon-rx-6500-xt.json",
+      "name": "Radeon RX 6500 XT",
+      "category": "gpu",
+      "mfr": "amd",
+      "priced": false,
+      "amount": null,
+      "sku": null
+    },
+    {
+      "entity_key": "hw:amd:radeon-rx-6600-xt:desktop:global",
+      "file": "amd-radeon-rx-6600-xt.json",
+      "name": "Radeon RX 6600 XT",
+      "category": "gpu",
+      "mfr": "amd",
+      "priced": true,
+      "amount": 1438,
+      "sku": "10229497347935"
+    },
+    {
+      "entity_key": "hw:amd:radeon-rx-6600:desktop:global",
+      "file": "amd-radeon-rx-6600.json",
+      "name": "Radeon RX 6600",
+      "category": "gpu",
+      "mfr": "amd",
+      "priced": true,
+      "amount": 1189,
+      "sku": "10229497347934"
+    },
+    {
+      "entity_key": "hw:amd:radeon-rx-6650-xt:desktop:global",
+      "file": "amd-radeon-rx-6650-xt.json",
+      "name": "Radeon RX 6650 XT",
+      "category": "gpu",
+      "mfr": "amd",
+      "priced": false,
+      "amount": null,
+      "sku": null
+    },
+    {
+      "entity_key": "hw:amd:radeon-rx-6700-xt:desktop:global",
+      "file": "amd-radeon-rx-6700-xt.json",
+      "name": "Radeon RX 6700 XT",
+      "category": "gpu",
+      "mfr": "amd",
+      "priced": true,
+      "amount": 1876.74,
+      "sku": "10161539635802"
+    },
+    {
+      "entity_key": "hw:amd:radeon-rx-6700:desktop:global",
+      "file": "amd-radeon-rx-6700.json",
+      "name": "Radeon RX 6700",
+      "category": "gpu",
+      "mfr": "amd",
+      "priced": false,
+      "amount": null,
+      "sku": null
+    },
+    {
+      "entity_key": "hw:amd:radeon-rx-6750-gre:desktop:global",
+      "file": "amd-radeon-rx-6750-gre.json",
+      "name": "Radeon RX 6750 GRE",
+      "category": "gpu",
+      "mfr": "amd",
+      "priced": false,
+      "amount": null,
+      "sku": null
+    },
+    {
+      "entity_key": "hw:amd:radeon-rx-6750-xt:desktop:global",
+      "file": "amd-radeon-rx-6750-xt.json",
+      "name": "Radeon RX 6750 XT",
+      "category": "gpu",
+      "mfr": "amd",
+      "priced": false,
+      "amount": null,
+      "sku": null
+    },
+    {
+      "entity_key": "hw:amd:radeon-rx-6800-xt:desktop:global",
+      "file": "amd-radeon-rx-6800-xt.json",
+      "name": "Radeon RX 6800 XT",
+      "category": "gpu",
+      "mfr": "amd",
+      "priced": true,
+      "amount": 2990.36,
+      "sku": "100321682876"
+    },
+    {
+      "entity_key": "hw:amd:radeon-rx-6800:desktop:global",
+      "file": "amd-radeon-rx-6800.json",
+      "name": "Radeon RX 6800",
+      "category": "gpu",
+      "mfr": "amd",
+      "priced": true,
+      "amount": 2382.36,
+      "sku": "10233607472486"
+    },
+    {
+      "entity_key": "hw:amd:radeon-rx-6900-xt:desktop:global",
+      "file": "amd-radeon-rx-6900-xt.json",
+      "name": "Radeon RX 6900 XT",
+      "category": "gpu",
+      "mfr": "amd",
+      "priced": true,
+      "amount": 2779.36,
+      "sku": "10111193502747"
+    },
+    {
+      "entity_key": "hw:amd:radeon-rx-6950-xt:desktop:global",
+      "file": "amd-radeon-rx-6950-xt.json",
+      "name": "Radeon RX 6950 XT",
+      "category": "gpu",
+      "mfr": "amd",
+      "priced": false,
+      "amount": null,
+      "sku": null
+    },
+    {
+      "entity_key": "hw:amd:radeon-rx-7600-xt:desktop:global",
+      "file": "amd-radeon-rx-7600-xt.json",
+      "name": "Radeon RX 7600 XT",
+      "category": "gpu",
+      "mfr": "amd",
+      "priced": true,
+      "amount": 2090.36,
+      "sku": "10233102401048"
+    },
+    {
+      "entity_key": "hw:amd:radeon-rx-7600:desktop:global",
+      "file": "amd-radeon-rx-7600.json",
+      "name": "Radeon RX 7600",
+      "category": "gpu",
+      "mfr": "amd",
+      "priced": true,
+      "amount": 1890.36,
+      "sku": "10233230021106"
+    },
+    {
+      "entity_key": "hw:amd:radeon-rx-7600m-xt:laptop:global",
+      "file": "amd-radeon-rx-7600m-xt.json",
+      "name": "Radeon RX 7600M XT",
+      "category": "gpu",
+      "mfr": "amd",
+      "priced": false,
+      "amount": null,
+      "sku": null
+    },
+    {
+      "entity_key": "hw:amd:radeon-rx-7700-xt:desktop:global",
+      "file": "amd-radeon-rx-7700-xt.json",
+      "name": "Radeon RX 7700 XT",
+      "category": "gpu",
+      "mfr": "amd",
+      "priced": true,
+      "amount": 3099,
+      "sku": "10155573120328"
+    },
+    {
+      "entity_key": "hw:amd:radeon-rx-7800-xt:desktop:global",
+      "file": "amd-radeon-rx-7800-xt.json",
+      "name": "Radeon RX 7800 XT",
+      "category": "gpu",
+      "mfr": "amd",
+      "priced": true,
+      "amount": 3328,
+      "sku": "10229477836673"
+    },
+    {
+      "entity_key": "hw:amd:radeon-rx-7900-gre:desktop:global",
+      "file": "amd-radeon-rx-7900-gre.json",
+      "name": "Radeon RX 7900 GRE",
+      "category": "gpu",
+      "mfr": "amd",
+      "priced": false,
+      "amount": null,
+      "sku": null
+    },
+    {
+      "entity_key": "hw:amd:radeon-rx-7900-xt:desktop:global",
+      "file": "amd-radeon-rx-7900-xt.json",
+      "name": "Radeon RX 7900 XT",
+      "category": "gpu",
+      "mfr": "amd",
+      "priced": true,
+      "amount": 6698.88,
+      "sku": "10233443358451"
+    },
+    {
+      "entity_key": "hw:amd:radeon-rx-7900-xtx:desktop:global",
+      "file": "amd-radeon-rx-7900-xtx.json",
+      "name": "Radeon RX 7900 XTX",
+      "category": "gpu",
+      "mfr": "amd",
+      "priced": true,
+      "amount": 8699,
+      "sku": "10079430463027"
+    },
+    {
+      "entity_key": "hw:amd:radeon-rx-7900m:laptop:global",
+      "file": "amd-radeon-rx-7900m.json",
+      "name": "Radeon RX 7900M",
+      "category": "gpu",
+      "mfr": "amd",
+      "priced": false,
+      "amount": null,
+      "sku": null
+    },
+    {
+      "entity_key": "hw:amd:radeon-rx-9060-xt-8gb:desktop:global",
+      "file": "amd-radeon-rx-9060-xt-8gb.json",
+      "name": "Radeon RX 9060 XT 8GB",
+      "category": "gpu",
+      "mfr": "amd",
+      "priced": false,
+      "amount": null,
+      "sku": null
+    },
+    {
+      "entity_key": "hw:amd:radeon-rx-9060-xt:desktop:global",
+      "file": "amd-radeon-rx-9060-xt.json",
+      "name": "Radeon RX 9060 XT",
+      "category": "gpu",
+      "mfr": "amd",
+      "priced": true,
+      "amount": 3499,
+      "sku": "100217735992"
+    },
+    {
+      "entity_key": "hw:amd:radeon-rx-9070-gre:desktop:global",
+      "file": "amd-radeon-rx-9070-gre.json",
+      "name": "Radeon RX 9070 GRE",
+      "category": "gpu",
+      "mfr": "amd",
+      "priced": false,
+      "amount": null,
+      "sku": null
+    },
+    {
+      "entity_key": "hw:amd:radeon-rx-9070-xt:desktop:global",
+      "file": "amd-radeon-rx-9070-xt.json",
+      "name": "Radeon RX 9070 XT",
+      "category": "gpu",
+      "mfr": "amd",
+      "priced": true,
+      "amount": 7299,
+      "sku": "100193357148"
+    },
+    {
+      "entity_key": "hw:amd:radeon-rx-9070:desktop:global",
+      "file": "amd-radeon-rx-9070.json",
+      "name": "Radeon RX 9070",
+      "category": "gpu",
+      "mfr": "amd",
+      "priced": true,
+      "amount": 4639,
+      "sku": "100152380935"
+    },
+    {
+      "entity_key": "hw:amd:ryzen-3-8300g:desktop:global",
+      "file": "amd-ryzen-3-8300g.json",
+      "name": "Ryzen 3 8300G",
+      "category": "cpu",
+      "mfr": "amd",
+      "priced": false,
+      "amount": null,
+      "sku": null
+    },
+    {
+      "entity_key": "hw:amd:ryzen-5-5500:desktop:global",
+      "file": "amd-ryzen-5-5500.json",
+      "name": "Ryzen 5 5500",
+      "category": "cpu",
+      "mfr": "amd",
+      "priced": false,
+      "amount": null,
+      "sku": null
+    },
+    {
+      "entity_key": "hw:amd:ryzen-5-5500gt:desktop:global",
+      "file": "amd-ryzen-5-5500gt.json",
+      "name": "Ryzen 5 5500GT",
+      "category": "cpu",
+      "mfr": "amd",
+      "priced": false,
+      "amount": null,
+      "sku": null
+    },
+    {
+      "entity_key": "hw:amd:ryzen-5-5500x3d:desktop:global",
+      "file": "amd-ryzen-5-5500x3d.json",
+      "name": "Ryzen 5 5500X3D",
+      "category": "cpu",
+      "mfr": "amd",
+      "priced": false,
+      "amount": null,
+      "sku": null
+    },
+    {
+      "entity_key": "hw:amd:ryzen-5-5600:desktop:global",
+      "file": "amd-ryzen-5-5600.json",
+      "name": "Ryzen 5 5600",
+      "category": "cpu",
+      "mfr": "amd",
+      "priced": false,
+      "amount": null,
+      "sku": null
+    },
+    {
+      "entity_key": "hw:amd:ryzen-5-5600f:desktop:global",
+      "file": "amd-ryzen-5-5600f.json",
+      "name": "Ryzen 5 5600F",
+      "category": "cpu",
+      "mfr": "amd",
+      "priced": true,
+      "amount": 794,
+      "sku": "100035814972"
+    },
+    {
+      "entity_key": "hw:amd:ryzen-5-5600g:desktop:global",
+      "file": "amd-ryzen-5-5600g.json",
+      "name": "Ryzen 5 5600G",
+      "category": "cpu",
+      "mfr": "amd",
+      "priced": false,
+      "amount": null,
+      "sku": null
+    },
+    {
+      "entity_key": "hw:amd:ryzen-5-5600gt:desktop:global",
+      "file": "amd-ryzen-5-5600gt.json",
+      "name": "Ryzen 5 5600GT",
+      "category": "cpu",
+      "mfr": "amd",
+      "priced": false,
+      "amount": null,
+      "sku": null
+    },
+    {
+      "entity_key": "hw:amd:ryzen-5-5600t:desktop:global",
+      "file": "amd-ryzen-5-5600t.json",
+      "name": "Ryzen 5 5600T",
+      "category": "cpu",
+      "mfr": "amd",
+      "priced": true,
+      "amount": 1093,
+      "sku": "100085063817"
+    },
+    {
+      "entity_key": "hw:amd:ryzen-5-5600x:desktop:global",
+      "file": "amd-ryzen-5-5600x.json",
+      "name": "Ryzen 5 5600X",
+      "category": "cpu",
+      "mfr": "amd",
+      "priced": true,
+      "amount": 737.14,
+      "sku": "10222303490790"
+    },
+    {
+      "entity_key": "hw:amd:ryzen-5-5600x3d:desktop:global",
+      "file": "amd-ryzen-5-5600x3d.json",
+      "name": "Ryzen 5 5600X3D",
+      "category": "cpu",
+      "mfr": "amd",
+      "priced": false,
+      "amount": null,
+      "sku": null
+    },
+    {
+      "entity_key": "hw:amd:ryzen-5-7500f:desktop:global",
+      "file": "amd-ryzen-5-7500f.json",
+      "name": "Ryzen 5 7500F",
+      "category": "cpu",
+      "mfr": "amd",
+      "priced": false,
+      "amount": null,
+      "sku": null
+    },
+    {
+      "entity_key": "hw:amd:ryzen-5-7500x3d:desktop:global",
+      "file": "amd-ryzen-5-7500x3d.json",
+      "name": "Ryzen 5 7500X3D",
+      "category": "cpu",
+      "mfr": "amd",
+      "priced": false,
+      "amount": null,
+      "sku": null
+    },
+    {
+      "entity_key": "hw:amd:ryzen-5-7600:desktop:global",
+      "file": "amd-ryzen-5-7600.json",
+      "name": "Ryzen 5 7600",
+      "category": "cpu",
+      "mfr": "amd",
+      "priced": true,
+      "amount": 1475.84,
+      "sku": "100051589597"
+    },
+    {
+      "entity_key": "hw:amd:ryzen-5-7600x:desktop:global",
+      "file": "amd-ryzen-5-7600x.json",
+      "name": "Ryzen 5 7600X",
+      "category": "cpu",
+      "mfr": "amd",
+      "priced": true,
+      "amount": 967.14,
+      "sku": "10061637321328"
+    },
+    {
+      "entity_key": "hw:amd:ryzen-5-7600x3d:desktop:global",
+      "file": "amd-ryzen-5-7600x3d.json",
+      "name": "Ryzen 5 7600X3D",
+      "category": "cpu",
+      "mfr": "amd",
+      "priced": false,
+      "amount": null,
+      "sku": null
+    },
+    {
+      "entity_key": "hw:amd:ryzen-5-7640hs:laptop:global",
+      "file": "amd-ryzen-5-7640hs.json",
+      "name": "Ryzen 5 7640HS",
+      "category": "cpu",
+      "mfr": "amd",
+      "priced": false,
+      "amount": null,
+      "sku": null
+    },
+    {
+      "entity_key": "hw:amd:ryzen-5-8400f:desktop:global",
+      "file": "amd-ryzen-5-8400f.json",
+      "name": "Ryzen 5 8400F",
+      "category": "cpu",
+      "mfr": "amd",
+      "priced": false,
+      "amount": null,
+      "sku": null
+    },
+    {
+      "entity_key": "hw:amd:ryzen-5-8500g:desktop:global",
+      "file": "amd-ryzen-5-8500g.json",
+      "name": "Ryzen 5 8500G",
+      "category": "cpu",
+      "mfr": "amd",
+      "priced": false,
+      "amount": null,
+      "sku": null
+    },
+    {
+      "entity_key": "hw:amd:ryzen-5-8600g:desktop:global",
+      "file": "amd-ryzen-5-8600g.json",
+      "name": "Ryzen 5 8600G",
+      "category": "cpu",
+      "mfr": "amd",
+      "priced": false,
+      "amount": null,
+      "sku": null
+    },
+    {
+      "entity_key": "hw:amd:ryzen-5-8640hs:laptop:global",
+      "file": "amd-ryzen-5-8640hs.json",
+      "name": "Ryzen 5 8640HS",
+      "category": "cpu",
+      "mfr": "amd",
+      "priced": false,
+      "amount": null,
+      "sku": null
+    },
+    {
+      "entity_key": "hw:amd:ryzen-5-8645hs:laptop:global",
+      "file": "amd-ryzen-5-8645hs.json",
+      "name": "Ryzen 5 8645HS",
+      "category": "cpu",
+      "mfr": "amd",
+      "priced": false,
+      "amount": null,
+      "sku": null
+    },
+    {
+      "entity_key": "hw:amd:ryzen-5-9600:desktop:global",
+      "file": "amd-ryzen-5-9600.json",
+      "name": "Ryzen 5 9600",
+      "category": "cpu",
+      "mfr": "amd",
+      "priced": false,
+      "amount": null,
+      "sku": null
+    },
+    {
+      "entity_key": "hw:amd:ryzen-5-9600x:desktop:global",
+      "file": "amd-ryzen-5-9600x.json",
+      "name": "Ryzen 5 9600X",
+      "category": "cpu",
+      "mfr": "amd",
+      "priced": true,
+      "amount": 1312.14,
+      "sku": "100110580225"
+    },
+    {
+      "entity_key": "hw:amd:ryzen-7-5700:desktop:global",
+      "file": "amd-ryzen-7-5700.json",
+      "name": "Ryzen 7 5700",
+      "category": "cpu",
+      "mfr": "amd",
+      "priced": false,
+      "amount": null,
+      "sku": null
+    },
+    {
+      "entity_key": "hw:amd:ryzen-7-5700g:desktop:global",
+      "file": "amd-ryzen-7-5700g.json",
+      "name": "Ryzen 7 5700G",
+      "category": "cpu",
+      "mfr": "amd",
+      "priced": false,
+      "amount": null,
+      "sku": null
+    },
+    {
+      "entity_key": "hw:amd:ryzen-7-5700x:desktop:global",
+      "file": "amd-ryzen-7-5700x.json",
+      "name": "Ryzen 7 5700X",
+      "category": "cpu",
+      "mfr": "amd",
+      "priced": false,
+      "amount": null,
+      "sku": null
+    },
+    {
+      "entity_key": "hw:amd:ryzen-7-5700x3d:desktop:global",
+      "file": "amd-ryzen-7-5700x3d.json",
+      "name": "Ryzen 7 5700X3D",
+      "category": "cpu",
+      "mfr": "amd",
+      "priced": false,
+      "amount": null,
+      "sku": null
+    },
+    {
+      "entity_key": "hw:amd:ryzen-7-5800x:desktop:global",
+      "file": "amd-ryzen-7-5800x.json",
+      "name": "Ryzen 7 5800X",
+      "category": "cpu",
+      "mfr": "amd",
+      "priced": true,
+      "amount": 1468,
+      "sku": "10232004367133"
+    },
+    {
+      "entity_key": "hw:amd:ryzen-7-5800x3d:desktop:global",
+      "file": "amd-ryzen-7-5800x3d.json",
+      "name": "Ryzen 7 5800X3D",
+      "category": "cpu",
+      "mfr": "amd",
+      "priced": true,
+      "amount": 2482.14,
+      "sku": "100285871853"
+    },
+    {
+      "entity_key": "hw:amd:ryzen-7-7700:desktop:global",
+      "file": "amd-ryzen-7-7700.json",
+      "name": "Ryzen 7 7700",
+      "category": "cpu",
+      "mfr": "amd",
+      "priced": true,
+      "amount": 1443,
+      "sku": "10166863909098"
+    },
+    {
+      "entity_key": "hw:amd:ryzen-7-7700x:desktop:global",
+      "file": "amd-ryzen-7-7700x.json",
+      "name": "Ryzen 7 7700X",
+      "category": "cpu",
+      "mfr": "amd",
+      "priced": true,
+      "amount": 2530.7,
+      "sku": "10218676242559"
+    },
+    {
+      "entity_key": "hw:amd:ryzen-7-7700x3d:desktop:global",
+      "file": "amd-ryzen-7-7700x3d.json",
+      "name": "Ryzen 7 7700X3D",
+      "category": "cpu",
+      "mfr": "amd",
+      "priced": false,
+      "amount": null,
+      "sku": null
+    },
+    {
+      "entity_key": "hw:amd:ryzen-7-7800x:desktop:global",
+      "file": "amd-ryzen-7-7800x.json",
+      "name": "Ryzen 7 7800X",
+      "category": "cpu",
+      "mfr": "amd",
+      "priced": false,
+      "amount": null,
+      "sku": null
+    },
+    {
+      "entity_key": "hw:amd:ryzen-7-7800x3d:desktop:global",
+      "file": "amd-ryzen-7-7800x3d.json",
+      "name": "Ryzen 7 7800X3D",
+      "category": "cpu",
+      "mfr": "amd",
+      "priced": true,
+      "amount": 2582.14,
+      "sku": "100046394400"
+    },
+    {
+      "entity_key": "hw:amd:ryzen-7-7840hs:laptop:global",
+      "file": "amd-ryzen-7-7840hs.json",
+      "name": "Ryzen 7 7840HS",
+      "category": "cpu",
+      "mfr": "amd",
+      "priced": false,
+      "amount": null,
+      "sku": null
+    },
+    {
+      "entity_key": "hw:amd:ryzen-7-8700f:desktop:global",
+      "file": "amd-ryzen-7-8700f.json",
+      "name": "Ryzen 7 8700F",
+      "category": "cpu",
+      "mfr": "amd",
+      "priced": false,
+      "amount": null,
+      "sku": null
+    },
+    {
+      "entity_key": "hw:amd:ryzen-7-8700g:desktop:global",
+      "file": "amd-ryzen-7-8700g.json",
+      "name": "Ryzen 7 8700G",
+      "category": "cpu",
+      "mfr": "amd",
+      "priced": false,
+      "amount": null,
+      "sku": null
+    },
+    {
+      "entity_key": "hw:amd:ryzen-7-8840hs:laptop:global",
+      "file": "amd-ryzen-7-8840hs.json",
+      "name": "Ryzen 7 8840HS",
+      "category": "cpu",
+      "mfr": "amd",
+      "priced": false,
+      "amount": null,
+      "sku": null
+    },
+    {
+      "entity_key": "hw:amd:ryzen-7-8845hs:laptop:global",
+      "file": "amd-ryzen-7-8845hs.json",
+      "name": "Ryzen 7 8845HS",
+      "category": "cpu",
+      "mfr": "amd",
+      "priced": false,
+      "amount": null,
+      "sku": null
+    },
+    {
+      "entity_key": "hw:amd:ryzen-7-9700:desktop:global",
+      "file": "amd-ryzen-7-9700.json",
+      "name": "Ryzen 7 9700",
+      "category": "cpu",
+      "mfr": "amd",
+      "priced": false,
+      "amount": null,
+      "sku": null
+    },
+    {
+      "entity_key": "hw:amd:ryzen-7-9700x:desktop:global",
+      "file": "amd-ryzen-7-9700x.json",
+      "name": "Ryzen 7 9700X",
+      "category": "cpu",
+      "mfr": "amd",
+      "priced": true,
+      "amount": 1712.14,
+      "sku": "100109234839"
+    },
+    {
+      "entity_key": "hw:amd:ryzen-7-9800x:desktop:global",
+      "file": "amd-ryzen-7-9800x.json",
+      "name": "Ryzen 7 9800X",
+      "category": "cpu",
+      "mfr": "amd",
+      "priced": false,
+      "amount": null,
+      "sku": null
+    },
+    {
+      "entity_key": "hw:amd:ryzen-7-9800x3d:desktop:global",
+      "file": "amd-ryzen-7-9800x3d.json",
+      "name": "Ryzen 7 9800X3D",
+      "category": "cpu",
+      "mfr": "amd",
+      "priced": true,
+      "amount": 3162.14,
+      "sku": "100147630258"
+    },
+    {
+      "entity_key": "hw:amd:ryzen-9-5900x:desktop:global",
+      "file": "amd-ryzen-9-5900x.json",
+      "name": "Ryzen 9 5900X",
+      "category": "cpu",
+      "mfr": "amd",
+      "priced": false,
+      "amount": null,
+      "sku": null
+    },
+    {
+      "entity_key": "hw:amd:ryzen-9-5950x:desktop:global",
+      "file": "amd-ryzen-9-5950x.json",
+      "name": "Ryzen 9 5950X",
+      "category": "cpu",
+      "mfr": "amd",
+      "priced": false,
+      "amount": null,
+      "sku": null
+    },
+    {
+      "entity_key": "hw:amd:ryzen-9-7900:desktop:global",
+      "file": "amd-ryzen-9-7900.json",
+      "name": "Ryzen 9 7900",
+      "category": "cpu",
+      "mfr": "amd",
+      "priced": false,
+      "amount": null,
+      "sku": null
+    },
+    {
+      "entity_key": "hw:amd:ryzen-9-7900x:desktop:global",
+      "file": "amd-ryzen-9-7900x.json",
+      "name": "Ryzen 9 7900X",
+      "category": "cpu",
+      "mfr": "amd",
+      "priced": true,
+      "amount": 3035.26,
+      "sku": "10218676242575"
+    },
+    {
+      "entity_key": "hw:amd:ryzen-9-7900x3d:desktop:global",
+      "file": "amd-ryzen-9-7900x3d.json",
+      "name": "Ryzen 9 7900X3D",
+      "category": "cpu",
+      "mfr": "amd",
+      "priced": false,
+      "amount": null,
+      "sku": null
+    },
+    {
+      "entity_key": "hw:amd:ryzen-9-7940hs:laptop:global",
+      "file": "amd-ryzen-9-7940hs.json",
+      "name": "Ryzen 9 7940HS",
+      "category": "cpu",
+      "mfr": "amd",
+      "priced": false,
+      "amount": null,
+      "sku": null
+    },
+    {
+      "entity_key": "hw:amd:ryzen-9-7945hx:laptop:global",
+      "file": "amd-ryzen-9-7945hx.json",
+      "name": "Ryzen 9 7945HX",
+      "category": "cpu",
+      "mfr": "amd",
+      "priced": false,
+      "amount": null,
+      "sku": null
+    },
+    {
+      "entity_key": "hw:amd:ryzen-9-7945hx3d:laptop:global",
+      "file": "amd-ryzen-9-7945hx3d.json",
+      "name": "Ryzen 9 7945HX3D",
+      "category": "cpu",
+      "mfr": "amd",
+      "priced": false,
+      "amount": null,
+      "sku": null
+    },
+    {
+      "entity_key": "hw:amd:ryzen-9-7950x:desktop:global",
+      "file": "amd-ryzen-9-7950x.json",
+      "name": "Ryzen 9 7950X",
+      "category": "cpu",
+      "mfr": "amd",
+      "priced": true,
+      "amount": 2686,
+      "sku": "10166863909062"
+    },
+    {
+      "entity_key": "hw:amd:ryzen-9-7950x3d:desktop:global",
+      "file": "amd-ryzen-9-7950x3d.json",
+      "name": "Ryzen 9 7950X3D",
+      "category": "cpu",
+      "mfr": "amd",
+      "priced": true,
+      "amount": 5282.14,
+      "sku": "100053675655"
+    },
+    {
+      "entity_key": "hw:amd:ryzen-9-8945hs:laptop:global",
+      "file": "amd-ryzen-9-8945hs.json",
+      "name": "Ryzen 9 8945HS",
+      "category": "cpu",
+      "mfr": "amd",
+      "priced": false,
+      "amount": null,
+      "sku": null
+    },
+    {
+      "entity_key": "hw:amd:ryzen-9-8945hx:laptop:global",
+      "file": "amd-ryzen-9-8945hx.json",
+      "name": "Ryzen 9 8945HX",
+      "category": "cpu",
+      "mfr": "amd",
+      "priced": false,
+      "amount": null,
+      "sku": null
+    },
+    {
+      "entity_key": "hw:amd:ryzen-9-9900:desktop:global",
+      "file": "amd-ryzen-9-9900.json",
+      "name": "Ryzen 9 9900",
+      "category": "cpu",
+      "mfr": "amd",
+      "priced": false,
+      "amount": null,
+      "sku": null
+    },
+    {
+      "entity_key": "hw:amd:ryzen-9-9900x:desktop:global",
+      "file": "amd-ryzen-9-9900x.json",
+      "name": "Ryzen 9 9900X",
+      "category": "cpu",
+      "mfr": "amd",
+      "priced": true,
+      "amount": 2687.14,
+      "sku": "10140500539425"
+    },
+    {
+      "entity_key": "hw:amd:ryzen-9-9900x3d:desktop:global",
+      "file": "amd-ryzen-9-9900x3d.json",
+      "name": "Ryzen 9 9900X3D",
+      "category": "cpu",
+      "mfr": "amd",
+      "priced": false,
+      "amount": null,
+      "sku": null
+    },
+    {
+      "entity_key": "hw:amd:ryzen-9-9950x:desktop:global",
+      "file": "amd-ryzen-9-9950x.json",
+      "name": "Ryzen 9 9950X",
+      "category": "cpu",
+      "mfr": "amd",
+      "priced": true,
+      "amount": 3602.14,
+      "sku": "100110580223"
+    },
+    {
+      "entity_key": "hw:amd:ryzen-9-9950x3d:desktop:global",
+      "file": "amd-ryzen-9-9950x3d.json",
+      "name": "Ryzen 9 9950X3D",
+      "category": "cpu",
+      "mfr": "amd",
+      "priced": true,
+      "amount": 4802.14,
+      "sku": "100149071725"
+    },
+    {
+      "entity_key": "hw:amd:ryzen-9-9955hx:laptop:global",
+      "file": "amd-ryzen-9-9955hx.json",
+      "name": "Ryzen 9 9955HX",
+      "category": "cpu",
+      "mfr": "amd",
+      "priced": false,
+      "amount": null,
+      "sku": null
+    },
+    {
+      "entity_key": "hw:amd:ryzen-9-9955hx3d:laptop:global",
+      "file": "amd-ryzen-9-9955hx3d.json",
+      "name": "Ryzen 9 9955HX3D",
+      "category": "cpu",
+      "mfr": "amd",
+      "priced": false,
+      "amount": null,
+      "sku": null
+    },
+    {
+      "entity_key": "hw:amd:ryzen-ai-5-340:laptop:global",
+      "file": "amd-ryzen-ai-5-340.json",
+      "name": "Ryzen AI 5 340",
+      "category": "cpu",
+      "mfr": "amd",
+      "priced": false,
+      "amount": null,
+      "sku": null
+    },
+    {
+      "entity_key": "hw:amd:ryzen-ai-7-350:laptop:global",
+      "file": "amd-ryzen-ai-7-350.json",
+      "name": "Ryzen AI 7 350",
+      "category": "cpu",
+      "mfr": "amd",
+      "priced": false,
+      "amount": null,
+      "sku": null
+    },
+    {
+      "entity_key": "hw:amd:ryzen-ai-9-365:laptop:global",
+      "file": "amd-ryzen-ai-9-365.json",
+      "name": "Ryzen AI 9 365",
+      "category": "cpu",
+      "mfr": "amd",
+      "priced": false,
+      "amount": null,
+      "sku": null
+    },
+    {
+      "entity_key": "hw:amd:ryzen-ai-9-hx-370:laptop:global",
+      "file": "amd-ryzen-ai-9-hx-370.json",
+      "name": "Ryzen AI 9 HX 370",
+      "category": "cpu",
+      "mfr": "amd",
+      "priced": false,
+      "amount": null,
+      "sku": null
+    },
+    {
+      "entity_key": "hw:amd:ryzen-ai-max-385:laptop:global",
+      "file": "amd-ryzen-ai-max-385.json",
+      "name": "Ryzen AI Max 385",
+      "category": "cpu",
+      "mfr": "amd",
+      "priced": false,
+      "amount": null,
+      "sku": null
+    },
+    {
+      "entity_key": "hw:amd:ryzen-ai-max-390:laptop:global",
+      "file": "amd-ryzen-ai-max-390.json",
+      "name": "Ryzen AI Max 390",
+      "category": "cpu",
+      "mfr": "amd",
+      "priced": false,
+      "amount": null,
+      "sku": null
+    },
+    {
+      "entity_key": "hw:amd:ryzen-ai-max-395:laptop:global",
+      "file": "amd-ryzen-ai-max-395.json",
+      "name": "Ryzen AI Max+ 395",
+      "category": "cpu",
+      "mfr": "amd",
+      "priced": false,
+      "amount": null,
+      "sku": null
+    },
+    {
+      "entity_key": "hw:intel:arc-a310:desktop:global",
+      "file": "intel-arc-a310.json",
+      "name": "Intel Arc A310",
+      "category": "gpu",
+      "mfr": "intel",
+      "priced": false,
+      "amount": null,
+      "sku": null
+    },
+    {
+      "entity_key": "hw:intel:arc-a350m:laptop:global",
+      "file": "intel-arc-a350m.json",
+      "name": "Intel Arc A350M",
+      "category": "gpu",
+      "mfr": "intel",
+      "priced": false,
+      "amount": null,
+      "sku": null
+    },
+    {
+      "entity_key": "hw:intel:arc-a370m:laptop:global",
+      "file": "intel-arc-a370m.json",
+      "name": "Intel Arc A370M",
+      "category": "gpu",
+      "mfr": "intel",
+      "priced": false,
+      "amount": null,
+      "sku": null
+    },
+    {
+      "entity_key": "hw:intel:arc-a380:desktop:global",
+      "file": "intel-arc-a380.json",
+      "name": "Intel Arc A380",
+      "category": "gpu",
+      "mfr": "intel",
+      "priced": true,
+      "amount": 949,
+      "sku": "100123396963"
+    },
+    {
+      "entity_key": "hw:intel:arc-a550m:laptop:global",
+      "file": "intel-arc-a550m.json",
+      "name": "Intel Arc A550M",
+      "category": "gpu",
+      "mfr": "intel",
+      "priced": false,
+      "amount": null,
+      "sku": null
+    },
+    {
+      "entity_key": "hw:intel:arc-a580:desktop:global",
+      "file": "intel-arc-a580.json",
+      "name": "Intel Arc A580",
+      "category": "gpu",
+      "mfr": "intel",
+      "priced": true,
+      "amount": 1499,
+      "sku": "100070840263"
+    },
+    {
+      "entity_key": "hw:intel:arc-a730m:laptop:global",
+      "file": "intel-arc-a730m.json",
+      "name": "Intel Arc A730M",
+      "category": "gpu",
+      "mfr": "intel",
+      "priced": false,
+      "amount": null,
+      "sku": null
+    },
+    {
+      "entity_key": "hw:intel:arc-a750:desktop:global",
+      "file": "intel-arc-a750.json",
+      "name": "Intel Arc A750",
+      "category": "gpu",
+      "mfr": "intel",
+      "priced": true,
+      "amount": 1799,
+      "sku": "10223564546996"
+    },
+    {
+      "entity_key": "hw:intel:arc-a770-16gb:desktop:global",
+      "file": "intel-arc-a770-16gb.json",
+      "name": "Intel Arc A770 16GB",
+      "category": "gpu",
+      "mfr": "intel",
+      "priced": true,
+      "amount": 2130,
+      "sku": "100049871423"
+    },
+    {
+      "entity_key": "hw:intel:arc-a770m:laptop:global",
+      "file": "intel-arc-a770m.json",
+      "name": "Intel Arc A770M",
+      "category": "gpu",
+      "mfr": "intel",
+      "priced": false,
+      "amount": null,
+      "sku": null
+    },
+    {
+      "entity_key": "hw:intel:arc-b570:desktop:global",
+      "file": "intel-arc-b570.json",
+      "name": "Intel Arc B570",
+      "category": "gpu",
+      "mfr": "intel",
+      "priced": true,
+      "amount": 2099,
+      "sku": "10193688417972"
+    },
+    {
+      "entity_key": "hw:intel:arc-b580:desktop:global",
+      "file": "intel-arc-b580.json",
+      "name": "Intel Arc B580",
+      "category": "gpu",
+      "mfr": "intel",
+      "priced": true,
+      "amount": 2749,
+      "sku": "100166655976"
+    },
+    {
+      "entity_key": "hw:intel:core-i3-12100:desktop:global",
+      "file": "intel-core-i3-12100.json",
+      "name": "Core i3-12100",
+      "category": "cpu",
+      "mfr": "intel",
+      "priced": false,
+      "amount": null,
+      "sku": null
+    },
+    {
+      "entity_key": "hw:intel:core-i3-12100f:desktop:global",
+      "file": "intel-core-i3-12100f.json",
+      "name": "Core i3-12100F",
+      "category": "cpu",
+      "mfr": "intel",
+      "priced": false,
+      "amount": null,
+      "sku": null
+    },
+    {
+      "entity_key": "hw:intel:core-i3-13100:desktop:global",
+      "file": "intel-core-i3-13100.json",
+      "name": "Core i3-13100",
+      "category": "cpu",
+      "mfr": "intel",
+      "priced": false,
+      "amount": null,
+      "sku": null
+    },
+    {
+      "entity_key": "hw:intel:core-i3-13100f:desktop:global",
+      "file": "intel-core-i3-13100f.json",
+      "name": "Core i3-13100F",
+      "category": "cpu",
+      "mfr": "intel",
+      "priced": false,
+      "amount": null,
+      "sku": null
+    },
+    {
+      "entity_key": "hw:intel:core-i3-14100:desktop:global",
+      "file": "intel-core-i3-14100.json",
+      "name": "Core i3-14100",
+      "category": "cpu",
+      "mfr": "intel",
+      "priced": false,
+      "amount": null,
+      "sku": null
+    },
+    {
+      "entity_key": "hw:intel:core-i3-14100f:desktop:global",
+      "file": "intel-core-i3-14100f.json",
+      "name": "Core i3-14100F",
+      "category": "cpu",
+      "mfr": "intel",
+      "priced": false,
+      "amount": null,
+      "sku": null
+    },
+    {
+      "entity_key": "hw:intel:core-i5-12400:desktop:global",
+      "file": "intel-core-i5-12400.json",
+      "name": "Core i5-12400",
+      "category": "cpu",
+      "mfr": "intel",
+      "priced": true,
+      "amount": 969,
+      "sku": "10223181888200"
+    },
+    {
+      "entity_key": "hw:intel:core-i5-12400f:desktop:global",
+      "file": "intel-core-i5-12400f.json",
+      "name": "Core i5-12400F",
+      "category": "cpu",
+      "mfr": "intel",
+      "priced": true,
+      "amount": 887.14,
+      "sku": "10166159185330"
+    },
+    {
+      "entity_key": "hw:intel:core-i5-12490f:desktop:global",
+      "file": "intel-core-i5-12490f.json",
+      "name": "Core i5-12490F",
+      "category": "cpu",
+      "mfr": "intel",
+      "priced": false,
+      "amount": null,
+      "sku": null
+    },
+    {
+      "entity_key": "hw:intel:core-i5-12500:desktop:global",
+      "file": "intel-core-i5-12500.json",
+      "name": "Core i5-12500",
+      "category": "cpu",
+      "mfr": "intel",
+      "priced": false,
+      "amount": null,
+      "sku": null
+    },
+    {
+      "entity_key": "hw:intel:core-i5-12600:desktop:global",
+      "file": "intel-core-i5-12600.json",
+      "name": "Core i5-12600",
+      "category": "cpu",
+      "mfr": "intel",
+      "priced": false,
+      "amount": null,
+      "sku": null
+    },
+    {
+      "entity_key": "hw:intel:core-i5-12600k:desktop:global",
+      "file": "intel-core-i5-12600k.json",
+      "name": "Core i5-12600K",
+      "category": "cpu",
+      "mfr": "intel",
+      "priced": false,
+      "amount": null,
+      "sku": null
+    },
+    {
+      "entity_key": "hw:intel:core-i5-12600kf:desktop:global",
+      "file": "intel-core-i5-12600kf.json",
+      "name": "Core i5-12600KF",
+      "category": "cpu",
+      "mfr": "intel",
+      "priced": false,
+      "amount": null,
+      "sku": null
+    },
+    {
+      "entity_key": "hw:intel:core-i5-13400:desktop:global",
+      "file": "intel-core-i5-13400.json",
+      "name": "Core i5-13400",
+      "category": "cpu",
+      "mfr": "intel",
+      "priced": true,
+      "amount": 1849,
+      "sku": "10115164570550"
+    },
+    {
+      "entity_key": "hw:intel:core-i5-13400f:desktop:global",
+      "file": "intel-core-i5-13400f.json",
+      "name": "Core i5-13400F",
+      "category": "cpu",
+      "mfr": "intel",
+      "priced": true,
+      "amount": 1607.14,
+      "sku": "10161101178815"
+    },
+    {
+      "entity_key": "hw:intel:core-i5-13400t:desktop:global",
+      "file": "intel-core-i5-13400t.json",
+      "name": "Core i5-13400T",
+      "category": "cpu",
+      "mfr": "intel",
+      "priced": false,
+      "amount": null,
+      "sku": null
+    },
+    {
+      "entity_key": "hw:intel:core-i5-13420h:laptop:global",
+      "file": "intel-core-i5-13420h.json",
+      "name": "Core i5-13420H",
+      "category": "cpu",
+      "mfr": "intel",
+      "priced": false,
+      "amount": null,
+      "sku": null
+    },
+    {
+      "entity_key": "hw:intel:core-i5-13500:desktop:global",
+      "file": "intel-core-i5-13500.json",
+      "name": "Core i5-13500",
+      "category": "cpu",
+      "mfr": "intel",
+      "priced": false,
+      "amount": null,
+      "sku": null
+    },
+    {
+      "entity_key": "hw:intel:core-i5-13500h:laptop:global",
+      "file": "intel-core-i5-13500h.json",
+      "name": "Core i5-13500H",
+      "category": "cpu",
+      "mfr": "intel",
+      "priced": false,
+      "amount": null,
+      "sku": null
+    },
+    {
+      "entity_key": "hw:intel:core-i5-13500t:desktop:global",
+      "file": "intel-core-i5-13500t.json",
+      "name": "Core i5-13500T",
+      "category": "cpu",
+      "mfr": "intel",
+      "priced": false,
+      "amount": null,
+      "sku": null
+    },
+    {
+      "entity_key": "hw:intel:core-i5-13600:desktop:global",
+      "file": "intel-core-i5-13600.json",
+      "name": "Core i5-13600",
+      "category": "cpu",
+      "mfr": "intel",
+      "priced": true,
+      "amount": 1428,
+      "sku": "10078882241358"
+    },
+    {
+      "entity_key": "hw:intel:core-i5-13600k:desktop:global",
+      "file": "intel-core-i5-13600k.json",
+      "name": "Core i5-13600K",
+      "category": "cpu",
+      "mfr": "intel",
+      "priced": true,
+      "amount": 1886,
+      "sku": "10166165397750"
+    },
+    {
+      "entity_key": "hw:intel:core-i5-13600kf:desktop:global",
+      "file": "intel-core-i5-13600kf.json",
+      "name": "Core i5-13600KF",
+      "category": "cpu",
+      "mfr": "intel",
+      "priced": true,
+      "amount": 1746,
+      "sku": "10166165397751"
+    },
+    {
+      "entity_key": "hw:intel:core-i5-14400:desktop:global",
+      "file": "intel-core-i5-14400.json",
+      "name": "Core i5-14400",
+      "category": "cpu",
+      "mfr": "intel",
+      "priced": false,
+      "amount": null,
+      "sku": null
+    },
+    {
+      "entity_key": "hw:intel:core-i5-14400f:desktop:global",
+      "file": "intel-core-i5-14400f.json",
+      "name": "Core i5-14400F",
+      "category": "cpu",
+      "mfr": "intel",
+      "priced": false,
+      "amount": null,
+      "sku": null
+    },
+    {
+      "entity_key": "hw:intel:core-i5-14400t:desktop:global",
+      "file": "intel-core-i5-14400t.json",
+      "name": "Core i5-14400T",
+      "category": "cpu",
+      "mfr": "intel",
+      "priced": false,
+      "amount": null,
+      "sku": null
+    },
+    {
+      "entity_key": "hw:intel:core-i5-14500:desktop:global",
+      "file": "intel-core-i5-14500.json",
+      "name": "Core i5-14500",
+      "category": "cpu",
+      "mfr": "intel",
+      "priced": false,
+      "amount": null,
+      "sku": null
+    },
+    {
+      "entity_key": "hw:intel:core-i5-14500t:desktop:global",
+      "file": "intel-core-i5-14500t.json",
+      "name": "Core i5-14500T",
+      "category": "cpu",
+      "mfr": "intel",
+      "priced": false,
+      "amount": null,
+      "sku": null
+    },
+    {
+      "entity_key": "hw:intel:core-i5-14600:desktop:global",
+      "file": "intel-core-i5-14600.json",
+      "name": "Core i5-14600",
+      "category": "cpu",
+      "mfr": "intel",
+      "priced": false,
+      "amount": null,
+      "sku": null
+    },
+    {
+      "entity_key": "hw:intel:core-i5-14600k:desktop:global",
+      "file": "intel-core-i5-14600k.json",
+      "name": "Core i5-14600K",
+      "category": "cpu",
+      "mfr": "intel",
+      "priced": true,
+      "amount": 1719,
+      "sku": "10087603489123"
+    },
+    {
+      "entity_key": "hw:intel:core-i5-14600kf:desktop:global",
+      "file": "intel-core-i5-14600kf.json",
+      "name": "Core i5-14600KF",
+      "category": "cpu",
+      "mfr": "intel",
+      "priced": true,
+      "amount": 1619,
+      "sku": "10087603489124"
+    },
+    {
+      "entity_key": "hw:intel:core-i7-12700:desktop:global",
+      "file": "intel-core-i7-12700.json",
+      "name": "Core i7-12700",
+      "category": "cpu",
+      "mfr": "intel",
+      "priced": false,
+      "amount": null,
+      "sku": null
+    },
+    {
+      "entity_key": "hw:intel:core-i7-12700k:desktop:global",
+      "file": "intel-core-i7-12700k.json",
+      "name": "Core i7-12700K",
+      "category": "cpu",
+      "mfr": "intel",
+      "priced": false,
+      "amount": null,
+      "sku": null
+    },
+    {
+      "entity_key": "hw:intel:core-i7-12700kf:desktop:global",
+      "file": "intel-core-i7-12700kf.json",
+      "name": "Core i7-12700KF",
+      "category": "cpu",
+      "mfr": "intel",
+      "priced": false,
+      "amount": null,
+      "sku": null
+    },
+    {
+      "entity_key": "hw:intel:core-i7-13650hx:laptop:global",
+      "file": "intel-core-i7-13650hx.json",
+      "name": "Core i7-13650HX",
+      "category": "cpu",
+      "mfr": "intel",
+      "priced": false,
+      "amount": null,
+      "sku": null
+    },
+    {
+      "entity_key": "hw:intel:core-i7-13700:desktop:global",
+      "file": "intel-core-i7-13700.json",
+      "name": "Core i7-13700",
+      "category": "cpu",
+      "mfr": "intel",
+      "priced": true,
+      "amount": 1688,
+      "sku": "10092138267064"
+    },
+    {
+      "entity_key": "hw:intel:core-i7-13700f:desktop:global",
+      "file": "intel-core-i7-13700f.json",
+      "name": "Core i7-13700F",
+      "category": "cpu",
+      "mfr": "intel",
+      "priced": false,
+      "amount": null,
+      "sku": null
+    },
+    {
+      "entity_key": "hw:intel:core-i7-13700k:desktop:global",
+      "file": "intel-core-i7-13700k.json",
+      "name": "Core i7-13700K",
+      "category": "cpu",
+      "mfr": "intel",
+      "priced": true,
+      "amount": 3094,
+      "sku": "100040185489"
+    },
+    {
+      "entity_key": "hw:intel:core-i7-13700kf:desktop:global",
+      "file": "intel-core-i7-13700kf.json",
+      "name": "Core i7-13700KF",
+      "category": "cpu",
+      "mfr": "intel",
+      "priced": true,
+      "amount": 1799,
+      "sku": "10223181888261"
+    },
+    {
+      "entity_key": "hw:intel:core-i7-13700t:desktop:global",
+      "file": "intel-core-i7-13700t.json",
+      "name": "Core i7-13700T",
+      "category": "cpu",
+      "mfr": "intel",
+      "priced": false,
+      "amount": null,
+      "sku": null
+    },
+    {
+      "entity_key": "hw:intel:core-i7-14650hx:laptop:global",
+      "file": "intel-core-i7-14650hx.json",
+      "name": "Core i7-14650HX",
+      "category": "cpu",
+      "mfr": "intel",
+      "priced": false,
+      "amount": null,
+      "sku": null
+    },
+    {
+      "entity_key": "hw:intel:core-i7-14700:desktop:global",
+      "file": "intel-core-i7-14700.json",
+      "name": "Core i7-14700",
+      "category": "cpu",
+      "mfr": "intel",
+      "priced": false,
+      "amount": null,
+      "sku": null
+    },
+    {
+      "entity_key": "hw:intel:core-i7-14700f:desktop:global",
+      "file": "intel-core-i7-14700f.json",
+      "name": "Core i7-14700F",
+      "category": "cpu",
+      "mfr": "intel",
+      "priced": false,
+      "amount": null,
+      "sku": null
+    },
+    {
+      "entity_key": "hw:intel:core-i7-14700h:laptop:global",
+      "file": "intel-core-i7-14700h.json",
+      "name": "Core i7-14700H",
+      "category": "cpu",
+      "mfr": "intel",
+      "priced": false,
+      "amount": null,
+      "sku": null
+    },
+    {
+      "entity_key": "hw:intel:core-i7-14700hx:laptop:global",
+      "file": "intel-core-i7-14700hx.json",
+      "name": "Core i7-14700HX",
+      "category": "cpu",
+      "mfr": "intel",
+      "priced": false,
+      "amount": null,
+      "sku": null
+    },
+    {
+      "entity_key": "hw:intel:core-i7-14700k:desktop:global",
+      "file": "intel-core-i7-14700k.json",
+      "name": "Core i7-14700K",
+      "category": "cpu",
+      "mfr": "intel",
+      "priced": true,
+      "amount": 2624,
+      "sku": "10087603489125"
+    },
+    {
+      "entity_key": "hw:intel:core-i7-14700kf:desktop:global",
+      "file": "intel-core-i7-14700kf.json",
+      "name": "Core i7-14700KF",
+      "category": "cpu",
+      "mfr": "intel",
+      "priced": true,
+      "amount": 2499,
+      "sku": "10087603489126"
+    },
+    {
+      "entity_key": "hw:intel:core-i7-14700t:desktop:global",
+      "file": "intel-core-i7-14700t.json",
+      "name": "Core i7-14700T",
+      "category": "cpu",
+      "mfr": "intel",
+      "priced": false,
+      "amount": null,
+      "sku": null
+    },
+    {
+      "entity_key": "hw:intel:core-i9-12900:desktop:global",
+      "file": "intel-core-i9-12900.json",
+      "name": "Core i9-12900",
+      "category": "cpu",
+      "mfr": "intel",
+      "priced": false,
+      "amount": null,
+      "sku": null
+    },
+    {
+      "entity_key": "hw:intel:core-i9-12900k:desktop:global",
+      "file": "intel-core-i9-12900k.json",
+      "name": "Core i9-12900K",
+      "category": "cpu",
+      "mfr": "intel",
+      "priced": false,
+      "amount": null,
+      "sku": null
+    },
+    {
+      "entity_key": "hw:intel:core-i9-12900kf:desktop:global",
+      "file": "intel-core-i9-12900kf.json",
+      "name": "Core i9-12900KF",
+      "category": "cpu",
+      "mfr": "intel",
+      "priced": false,
+      "amount": null,
+      "sku": null
+    },
+    {
+      "entity_key": "hw:intel:core-i9-12900ks:desktop:global",
+      "file": "intel-core-i9-12900ks.json",
+      "name": "Core i9-12900KS",
+      "category": "cpu",
+      "mfr": "intel",
+      "priced": false,
+      "amount": null,
+      "sku": null
+    },
+    {
+      "entity_key": "hw:intel:core-i9-13900:desktop:global",
+      "file": "intel-core-i9-13900.json",
+      "name": "Core i9-13900",
+      "category": "cpu",
+      "mfr": "intel",
+      "priced": false,
+      "amount": null,
+      "sku": null
+    },
+    {
+      "entity_key": "hw:intel:core-i9-13900hx:laptop:global",
+      "file": "intel-core-i9-13900hx.json",
+      "name": "Core i9-13900HX",
+      "category": "cpu",
+      "mfr": "intel",
+      "priced": false,
+      "amount": null,
+      "sku": null
+    },
+    {
+      "entity_key": "hw:intel:core-i9-13900k:desktop:global",
+      "file": "intel-core-i9-13900k.json",
+      "name": "Core i9-13900K",
+      "category": "cpu",
+      "mfr": "intel",
+      "priced": true,
+      "amount": 3399,
+      "sku": "10115164570558"
+    },
+    {
+      "entity_key": "hw:intel:core-i9-13900kf:desktop:global",
+      "file": "intel-core-i9-13900kf.json",
+      "name": "Core i9-13900KF",
+      "category": "cpu",
+      "mfr": "intel",
+      "priced": true,
+      "amount": 2150,
+      "sku": "10120941369251"
+    },
+    {
+      "entity_key": "hw:intel:core-i9-13900ks:desktop:global",
+      "file": "intel-core-i9-13900ks.json",
+      "name": "Core i9-13900KS",
+      "category": "cpu",
+      "mfr": "intel",
+      "priced": false,
+      "amount": null,
+      "sku": null
+    },
+    {
+      "entity_key": "hw:intel:core-i9-13900t:desktop:global",
+      "file": "intel-core-i9-13900t.json",
+      "name": "Core i9-13900T",
+      "category": "cpu",
+      "mfr": "intel",
+      "priced": false,
+      "amount": null,
+      "sku": null
+    },
+    {
+      "entity_key": "hw:intel:core-i9-13980hx:laptop:global",
+      "file": "intel-core-i9-13980hx.json",
+      "name": "Core i9-13980HX",
+      "category": "cpu",
+      "mfr": "intel",
+      "priced": false,
+      "amount": null,
+      "sku": null
+    },
+    {
+      "entity_key": "hw:intel:core-i9-14900:desktop:global",
+      "file": "intel-core-i9-14900.json",
+      "name": "Core i9-14900",
+      "category": "cpu",
+      "mfr": "intel",
+      "priced": false,
+      "amount": null,
+      "sku": null
+    },
+    {
+      "entity_key": "hw:intel:core-i9-14900f:desktop:global",
+      "file": "intel-core-i9-14900f.json",
+      "name": "Core i9-14900F",
+      "category": "cpu",
+      "mfr": "intel",
+      "priced": false,
+      "amount": null,
+      "sku": null
+    },
+    {
+      "entity_key": "hw:intel:core-i9-14900h:laptop:global",
+      "file": "intel-core-i9-14900h.json",
+      "name": "Core i9-14900H",
+      "category": "cpu",
+      "mfr": "intel",
+      "priced": false,
+      "amount": null,
+      "sku": null
+    },
+    {
+      "entity_key": "hw:intel:core-i9-14900hx:laptop:global",
+      "file": "intel-core-i9-14900hx.json",
+      "name": "Core i9-14900HX",
+      "category": "cpu",
+      "mfr": "intel",
+      "priced": false,
+      "amount": null,
+      "sku": null
+    },
+    {
+      "entity_key": "hw:intel:core-i9-14900k:desktop:global",
+      "file": "intel-core-i9-14900k.json",
+      "name": "Core i9-14900K",
+      "category": "cpu",
+      "mfr": "intel",
+      "priced": true,
+      "amount": 3294,
+      "sku": "10213585841872"
+    },
+    {
+      "entity_key": "hw:intel:core-i9-14900kf:desktop:global",
+      "file": "intel-core-i9-14900kf.json",
+      "name": "Core i9-14900KF",
+      "category": "cpu",
+      "mfr": "intel",
+      "priced": true,
+      "amount": 4469,
+      "sku": "10141760708477"
+    },
+    {
+      "entity_key": "hw:intel:core-i9-14900ks:desktop:global",
+      "file": "intel-core-i9-14900ks.json",
+      "name": "Core i9-14900KS",
+      "category": "cpu",
+      "mfr": "intel",
+      "priced": false,
+      "amount": null,
+      "sku": null
+    },
+    {
+      "entity_key": "hw:intel:core-i9-14900t:desktop:global",
+      "file": "intel-core-i9-14900t.json",
+      "name": "Core i9-14900T",
+      "category": "cpu",
+      "mfr": "intel",
+      "priced": false,
+      "amount": null,
+      "sku": null
+    },
+    {
+      "entity_key": "hw:intel:core-ultra-5-125h:laptop:global",
+      "file": "intel-core-ultra-5-125h.json",
+      "name": "Core Ultra 5 125H",
+      "category": "cpu",
+      "mfr": "intel",
+      "priced": false,
+      "amount": null,
+      "sku": null
+    },
+    {
+      "entity_key": "hw:intel:core-ultra-5-225:desktop:global",
+      "file": "intel-core-ultra-5-225.json",
+      "name": "Core Ultra 5 225",
+      "category": "cpu",
+      "mfr": "intel",
+      "priced": false,
+      "amount": null,
+      "sku": null
+    },
+    {
+      "entity_key": "hw:intel:core-ultra-5-225f:desktop:global",
+      "file": "intel-core-ultra-5-225f.json",
+      "name": "Core Ultra 5 225F",
+      "category": "cpu",
+      "mfr": "intel",
+      "priced": false,
+      "amount": null,
+      "sku": null
+    },
+    {
+      "entity_key": "hw:intel:core-ultra-5-225h:laptop:global",
+      "file": "intel-core-ultra-5-225h.json",
+      "name": "Core Ultra 5 225H",
+      "category": "cpu",
+      "mfr": "intel",
+      "priced": false,
+      "amount": null,
+      "sku": null
+    },
+    {
+      "entity_key": "hw:intel:core-ultra-5-225t:desktop:global",
+      "file": "intel-core-ultra-5-225t.json",
+      "name": "Core Ultra 5 225T",
+      "category": "cpu",
+      "mfr": "intel",
+      "priced": false,
+      "amount": null,
+      "sku": null
+    },
+    {
+      "entity_key": "hw:intel:core-ultra-5-228v:laptop:global",
+      "file": "intel-core-ultra-5-228v.json",
+      "name": "Core Ultra 5 228V",
+      "category": "cpu",
+      "mfr": "intel",
+      "priced": false,
+      "amount": null,
+      "sku": null
+    },
+    {
+      "entity_key": "hw:intel:core-ultra-5-235:desktop:global",
+      "file": "intel-core-ultra-5-235.json",
+      "name": "Core Ultra 5 235",
+      "category": "cpu",
+      "mfr": "intel",
+      "priced": false,
+      "amount": null,
+      "sku": null
+    },
+    {
+      "entity_key": "hw:intel:core-ultra-5-235f:desktop:global",
+      "file": "intel-core-ultra-5-235f.json",
+      "name": "Core Ultra 5 235F",
+      "category": "cpu",
+      "mfr": "intel",
+      "priced": false,
+      "amount": null,
+      "sku": null
+    },
+    {
+      "entity_key": "hw:intel:core-ultra-5-235h:laptop:global",
+      "file": "intel-core-ultra-5-235h.json",
+      "name": "Core Ultra 5 235H",
+      "category": "cpu",
+      "mfr": "intel",
+      "priced": false,
+      "amount": null,
+      "sku": null
+    },
+    {
+      "entity_key": "hw:intel:core-ultra-5-235t:desktop:global",
+      "file": "intel-core-ultra-5-235t.json",
+      "name": "Core Ultra 5 235T",
+      "category": "cpu",
+      "mfr": "intel",
+      "priced": false,
+      "amount": null,
+      "sku": null
+    },
+    {
+      "entity_key": "hw:intel:core-ultra-5-245:desktop:global",
+      "file": "intel-core-ultra-5-245.json",
+      "name": "Core Ultra 5 245",
+      "category": "cpu",
+      "mfr": "intel",
+      "priced": false,
+      "amount": null,
+      "sku": null
+    },
+    {
+      "entity_key": "hw:intel:core-ultra-5-245f:desktop:global",
+      "file": "intel-core-ultra-5-245f.json",
+      "name": "Core Ultra 5 245F",
+      "category": "cpu",
+      "mfr": "intel",
+      "priced": false,
+      "amount": null,
+      "sku": null
+    },
+    {
+      "entity_key": "hw:intel:core-ultra-5-245k:desktop:global",
+      "file": "intel-core-ultra-5-245k.json",
+      "name": "Core Ultra 5 245K",
+      "category": "cpu",
+      "mfr": "intel",
+      "priced": false,
+      "amount": null,
+      "sku": null
+    },
+    {
+      "entity_key": "hw:intel:core-ultra-5-245kf:desktop:global",
+      "file": "intel-core-ultra-5-245kf.json",
+      "name": "Core Ultra 5 245KF",
+      "category": "cpu",
+      "mfr": "intel",
+      "priced": false,
+      "amount": null,
+      "sku": null
+    },
+    {
+      "entity_key": "hw:intel:core-ultra-5-245t:desktop:global",
+      "file": "intel-core-ultra-5-245t.json",
+      "name": "Core Ultra 5 245T",
+      "category": "cpu",
+      "mfr": "intel",
+      "priced": false,
+      "amount": null,
+      "sku": null
+    },
+    {
+      "entity_key": "hw:intel:core-ultra-7-155h:laptop:global",
+      "file": "intel-core-ultra-7-155h.json",
+      "name": "Core Ultra 7 155H",
+      "category": "cpu",
+      "mfr": "intel",
+      "priced": false,
+      "amount": null,
+      "sku": null
+    },
+    {
+      "entity_key": "hw:intel:core-ultra-7-255h:laptop:global",
+      "file": "intel-core-ultra-7-255h.json",
+      "name": "Core Ultra 7 255H",
+      "category": "cpu",
+      "mfr": "intel",
+      "priced": false,
+      "amount": null,
+      "sku": null
+    },
+    {
+      "entity_key": "hw:intel:core-ultra-7-258v:laptop:global",
+      "file": "intel-core-ultra-7-258v.json",
+      "name": "Core Ultra 7 258V",
+      "category": "cpu",
+      "mfr": "intel",
+      "priced": false,
+      "amount": null,
+      "sku": null
+    },
+    {
+      "entity_key": "hw:intel:core-ultra-7-265:desktop:global",
+      "file": "intel-core-ultra-7-265.json",
+      "name": "Core Ultra 7 265",
+      "category": "cpu",
+      "mfr": "intel",
+      "priced": false,
+      "amount": null,
+      "sku": null
+    },
+    {
+      "entity_key": "hw:intel:core-ultra-7-265f:desktop:global",
+      "file": "intel-core-ultra-7-265f.json",
+      "name": "Core Ultra 7 265F",
+      "category": "cpu",
+      "mfr": "intel",
+      "priced": false,
+      "amount": null,
+      "sku": null
+    },
+    {
+      "entity_key": "hw:intel:core-ultra-7-265h:laptop:global",
+      "file": "intel-core-ultra-7-265h.json",
+      "name": "Core Ultra 7 265H",
+      "category": "cpu",
+      "mfr": "intel",
+      "priced": false,
+      "amount": null,
+      "sku": null
+    },
+    {
+      "entity_key": "hw:intel:core-ultra-7-265k:desktop:global",
+      "file": "intel-core-ultra-7-265k.json",
+      "name": "Core Ultra 7 265K",
+      "category": "cpu",
+      "mfr": "intel",
+      "priced": true,
+      "amount": 1914,
+      "sku": "100120799071"
+    },
+    {
+      "entity_key": "hw:intel:core-ultra-7-265kf:desktop:global",
+      "file": "intel-core-ultra-7-265kf.json",
+      "name": "Core Ultra 7 265KF",
+      "category": "cpu",
+      "mfr": "intel",
+      "priced": true,
+      "amount": 1814,
+      "sku": "100120799085"
+    },
+    {
+      "entity_key": "hw:intel:core-ultra-7-265t:desktop:global",
+      "file": "intel-core-ultra-7-265t.json",
+      "name": "Core Ultra 7 265T",
+      "category": "cpu",
+      "mfr": "intel",
+      "priced": false,
+      "amount": null,
+      "sku": null
+    },
+    {
+      "entity_key": "hw:intel:core-ultra-7-268v:laptop:global",
+      "file": "intel-core-ultra-7-268v.json",
+      "name": "Core Ultra 7 268V",
+      "category": "cpu",
+      "mfr": "intel",
+      "priced": false,
+      "amount": null,
+      "sku": null
+    },
+    {
+      "entity_key": "hw:intel:core-ultra-9-185h:laptop:global",
+      "file": "intel-core-ultra-9-185h.json",
+      "name": "Core Ultra 9 185H",
+      "category": "cpu",
+      "mfr": "intel",
+      "priced": false,
+      "amount": null,
+      "sku": null
+    },
+    {
+      "entity_key": "hw:intel:core-ultra-9-275hx:laptop:global",
+      "file": "intel-core-ultra-9-275hx.json",
+      "name": "Core Ultra 9 275HX",
+      "category": "cpu",
+      "mfr": "intel",
+      "priced": false,
+      "amount": null,
+      "sku": null
+    },
+    {
+      "entity_key": "hw:intel:core-ultra-9-285:desktop:global",
+      "file": "intel-core-ultra-9-285.json",
+      "name": "Core Ultra 9 285",
+      "category": "cpu",
+      "mfr": "intel",
+      "priced": false,
+      "amount": null,
+      "sku": null
+    },
+    {
+      "entity_key": "hw:intel:core-ultra-9-285h:laptop:global",
+      "file": "intel-core-ultra-9-285h.json",
+      "name": "Core Ultra 9 285H",
+      "category": "cpu",
+      "mfr": "intel",
+      "priced": false,
+      "amount": null,
+      "sku": null
+    },
+    {
+      "entity_key": "hw:intel:core-ultra-9-285hx:laptop:global",
+      "file": "intel-core-ultra-9-285hx.json",
+      "name": "Core Ultra 9 285HX",
+      "category": "cpu",
+      "mfr": "intel",
+      "priced": false,
+      "amount": null,
+      "sku": null
+    },
+    {
+      "entity_key": "hw:intel:core-ultra-9-285k:desktop:global",
+      "file": "intel-core-ultra-9-285k.json",
+      "name": "Core Ultra 9 285K",
+      "category": "cpu",
+      "mfr": "intel",
+      "priced": true,
+      "amount": 4194,
+      "sku": "100145512952"
+    },
+    {
+      "entity_key": "hw:intel:core-ultra-9-285kf:desktop:global",
+      "file": "intel-core-ultra-9-285kf.json",
+      "name": "Core Ultra 9 285KF",
+      "category": "cpu",
+      "mfr": "intel",
+      "priced": false,
+      "amount": null,
+      "sku": null
+    },
+    {
+      "entity_key": "hw:intel:core-ultra-9-285t:desktop:global",
+      "file": "intel-core-ultra-9-285t.json",
+      "name": "Core Ultra 9 285T",
+      "category": "cpu",
+      "mfr": "intel",
+      "priced": false,
+      "amount": null,
+      "sku": null
+    },
+    {
+      "entity_key": "hw:intel:core-ultra-9-288v:laptop:global",
+      "file": "intel-core-ultra-9-288v.json",
+      "name": "Core Ultra 9 288V",
+      "category": "cpu",
+      "mfr": "intel",
+      "priced": false,
+      "amount": null,
+      "sku": null
+    },
+    {
+      "entity_key": "hw:nvidia:geforce-rtx-3050-6gb:desktop:global",
+      "file": "nvidia-geforce-rtx-3050-6gb.json",
+      "name": "GeForce RTX 3050 6GB",
+      "category": "gpu",
+      "mfr": "nvidia",
+      "priced": false,
+      "amount": null,
+      "sku": null
+    },
+    {
+      "entity_key": "hw:nvidia:geforce-rtx-3050-laptop:laptop:global",
+      "file": "nvidia-geforce-rtx-3050-laptop-gpu.json",
+      "name": "GeForce RTX 3050 Laptop GPU",
+      "category": "gpu",
+      "mfr": "nvidia",
+      "priced": false,
+      "amount": null,
+      "sku": null
+    },
+    {
+      "entity_key": "hw:nvidia:geforce-rtx-3050:desktop:global",
+      "file": "nvidia-geforce-rtx-3050.json",
+      "name": "GeForce RTX 3050",
+      "category": "gpu",
+      "mfr": "nvidia",
+      "priced": false,
+      "amount": null,
+      "sku": null
+    },
+    {
+      "entity_key": "hw:nvidia:geforce-rtx-3060-8gb:desktop:global",
+      "file": "nvidia-geforce-rtx-3060-8gb.json",
+      "name": "GeForce RTX 3060 8GB",
+      "category": "gpu",
+      "mfr": "nvidia",
+      "priced": false,
+      "amount": null,
+      "sku": null
+    },
+    {
+      "entity_key": "hw:nvidia:geforce-rtx-3060-laptop:laptop:global",
+      "file": "nvidia-geforce-rtx-3060-laptop-gpu.json",
+      "name": "GeForce RTX 3060 Laptop GPU",
+      "category": "gpu",
+      "mfr": "nvidia",
+      "priced": false,
+      "amount": null,
+      "sku": null
+    },
+    {
+      "entity_key": "hw:nvidia:geforce-rtx-3060-ti:desktop:global",
+      "file": "nvidia-geforce-rtx-3060-ti.json",
+      "name": "GeForce RTX 3060 Ti",
+      "category": "gpu",
+      "mfr": "nvidia",
+      "priced": false,
+      "amount": null,
+      "sku": null
+    },
+    {
+      "entity_key": "hw:nvidia:geforce-rtx-3060:desktop:global",
+      "file": "nvidia-geforce-rtx-3060.json",
+      "name": "GeForce RTX 3060",
+      "category": "gpu",
+      "mfr": "nvidia",
+      "priced": false,
+      "amount": null,
+      "sku": null
+    },
+    {
+      "entity_key": "hw:nvidia:geforce-rtx-3070-laptop:laptop:global",
+      "file": "nvidia-geforce-rtx-3070-laptop-gpu.json",
+      "name": "GeForce RTX 3070 Laptop GPU",
+      "category": "gpu",
+      "mfr": "nvidia",
+      "priced": false,
+      "amount": null,
+      "sku": null
+    },
+    {
+      "entity_key": "hw:nvidia:geforce-rtx-3070-ti-laptop-gpu:laptop:global",
+      "file": "nvidia-geforce-rtx-3070-ti-laptop-gpu.json",
+      "name": "GeForce RTX 3070 Ti Laptop GPU",
+      "category": "gpu",
+      "mfr": "nvidia",
+      "priced": false,
+      "amount": null,
+      "sku": null
+    },
+    {
+      "entity_key": "hw:nvidia:geforce-rtx-3070-ti:desktop:global",
+      "file": "nvidia-geforce-rtx-3070-ti.json",
+      "name": "GeForce RTX 3070 Ti",
+      "category": "gpu",
+      "mfr": "nvidia",
+      "priced": false,
+      "amount": null,
+      "sku": null
+    },
+    {
+      "entity_key": "hw:nvidia:geforce-rtx-3070:desktop:global",
+      "file": "nvidia-geforce-rtx-3070.json",
+      "name": "GeForce RTX 3070",
+      "category": "gpu",
+      "mfr": "nvidia",
+      "priced": false,
+      "amount": null,
+      "sku": null
+    },
+    {
+      "entity_key": "hw:nvidia:geforce-rtx-3080-12gb:desktop:global",
+      "file": "nvidia-geforce-rtx-3080-12gb.json",
+      "name": "GeForce RTX 3080 12GB",
+      "category": "gpu",
+      "mfr": "nvidia",
+      "priced": true,
+      "amount": 3899,
+      "sku": "10100584480075"
+    },
+    {
+      "entity_key": "hw:nvidia:geforce-rtx-3080-laptop:laptop:global",
+      "file": "nvidia-geforce-rtx-3080-laptop-gpu.json",
+      "name": "GeForce RTX 3080 Laptop GPU",
+      "category": "gpu",
+      "mfr": "nvidia",
+      "priced": false,
+      "amount": null,
+      "sku": null
+    },
+    {
+      "entity_key": "hw:nvidia:geforce-rtx-3080-ti-laptop:laptop:global",
+      "file": "nvidia-geforce-rtx-3080-ti-laptop-gpu.json",
+      "name": "GeForce RTX 3080 Ti Laptop GPU",
+      "category": "gpu",
+      "mfr": "nvidia",
+      "priced": false,
+      "amount": null,
+      "sku": null
+    },
+    {
+      "entity_key": "hw:nvidia:geforce-rtx-3080-ti:desktop:global",
+      "file": "nvidia-geforce-rtx-3080-ti.json",
+      "name": "GeForce RTX 3080 Ti",
+      "category": "gpu",
+      "mfr": "nvidia",
+      "priced": true,
+      "amount": 3899,
+      "sku": "10227212321266"
+    },
+    {
+      "entity_key": "hw:nvidia:geforce-rtx-3080:desktop:global",
+      "file": "nvidia-geforce-rtx-3080.json",
+      "name": "GeForce RTX 3080",
+      "category": "gpu",
+      "mfr": "nvidia",
+      "priced": true,
+      "amount": 4000,
+      "sku": "10150847424536"
+    },
+    {
+      "entity_key": "hw:nvidia:geforce-rtx-3090-ti:desktop:global",
+      "file": "nvidia-geforce-rtx-3090-ti.json",
+      "name": "GeForce RTX 3090 Ti",
+      "category": "gpu",
+      "mfr": "nvidia",
+      "priced": true,
+      "amount": 9099,
+      "sku": "10143406753592"
+    },
+    {
+      "entity_key": "hw:nvidia:geforce-rtx-3090:desktop:global",
+      "file": "nvidia-geforce-rtx-3090.json",
+      "name": "GeForce RTX 3090",
+      "category": "gpu",
+      "mfr": "nvidia",
+      "priced": true,
+      "amount": 8799,
+      "sku": "10143406753582"
+    },
+    {
+      "entity_key": "hw:nvidia:geforce-rtx-4050-laptop:laptop:global",
+      "file": "nvidia-geforce-rtx-4050-laptop-gpu.json",
+      "name": "GeForce RTX 4050 Laptop GPU",
+      "category": "gpu",
+      "mfr": "nvidia",
+      "priced": false,
+      "amount": null,
+      "sku": null
+    },
+    {
+      "entity_key": "hw:nvidia:geforce-rtx-4060-laptop:laptop:global",
+      "file": "nvidia-geforce-rtx-4060-laptop-gpu.json",
+      "name": "GeForce RTX 4060 Laptop GPU",
+      "category": "gpu",
+      "mfr": "nvidia",
+      "priced": false,
+      "amount": null,
+      "sku": null
+    },
+    {
+      "entity_key": "hw:nvidia:geforce-rtx-4060-ti-16gb:desktop:global",
+      "file": "nvidia-geforce-rtx-4060-ti-16gb.json",
+      "name": "GeForce RTX 4060 Ti 16GB",
+      "category": "gpu",
+      "mfr": "nvidia",
+      "priced": true,
+      "amount": 4250,
+      "sku": "10194428793230"
+    },
+    {
+      "entity_key": "hw:nvidia:geforce-rtx-4060-ti-8gb:desktop:global",
+      "file": "nvidia-geforce-rtx-4060-ti-8gb.json",
+      "name": "GeForce RTX 4060 Ti 8GB",
+      "category": "gpu",
+      "mfr": "nvidia",
+      "priced": true,
+      "amount": 2990.36,
+      "sku": "10212672769446"
+    },
+    {
+      "entity_key": "hw:nvidia:geforce-rtx-4060:desktop:global",
+      "file": "nvidia-geforce-rtx-4060.json",
+      "name": "GeForce RTX 4060",
+      "category": "gpu",
+      "mfr": "nvidia",
+      "priced": true,
+      "amount": 2599,
+      "sku": "10166834608980"
+    },
+    {
+      "entity_key": "hw:nvidia:geforce-rtx-4070-laptop:laptop:global",
+      "file": "nvidia-geforce-rtx-4070-laptop-gpu.json",
+      "name": "GeForce RTX 4070 Laptop GPU",
+      "category": "gpu",
+      "mfr": "nvidia",
+      "priced": false,
+      "amount": null,
+      "sku": null
+    },
+    {
+      "entity_key": "hw:nvidia:geforce-rtx-4070-super:desktop:global",
+      "file": "nvidia-geforce-rtx-4070-super.json",
+      "name": "GeForce RTX 4070 SUPER",
+      "category": "gpu",
+      "mfr": "nvidia",
+      "priced": true,
+      "amount": 5490.36,
+      "sku": "100373693346"
+    },
+    {
+      "entity_key": "hw:nvidia:geforce-rtx-4070-ti-super:desktop:global",
+      "file": "nvidia-geforce-rtx-4070-ti-super.json",
+      "name": "GeForce RTX 4070 Ti SUPER",
+      "category": "gpu",
+      "mfr": "nvidia",
+      "priced": true,
+      "amount": 6899,
+      "sku": "10158758460326"
+    },
+    {
+      "entity_key": "hw:nvidia:geforce-rtx-4070-ti:desktop:global",
+      "file": "nvidia-geforce-rtx-4070-ti.json",
+      "name": "GeForce RTX 4070 Ti",
+      "category": "gpu",
+      "mfr": "nvidia",
+      "priced": true,
+      "amount": 5899,
+      "sku": "10232015118416"
+    },
+    {
+      "entity_key": "hw:nvidia:geforce-rtx-4070:desktop:global",
+      "file": "nvidia-geforce-rtx-4070.json",
+      "name": "GeForce RTX 4070",
+      "category": "gpu",
+      "mfr": "nvidia",
+      "priced": true,
+      "amount": 3625,
+      "sku": "10166834608982"
+    },
+    {
+      "entity_key": "hw:nvidia:geforce-rtx-4080-laptop:laptop:global",
+      "file": "nvidia-geforce-rtx-4080-laptop-gpu.json",
+      "name": "GeForce RTX 4080 Laptop GPU",
+      "category": "gpu",
+      "mfr": "nvidia",
+      "priced": false,
+      "amount": null,
+      "sku": null
+    },
+    {
+      "entity_key": "hw:nvidia:geforce-rtx-4080-super:desktop:global",
+      "file": "nvidia-geforce-rtx-4080-super.json",
+      "name": "GeForce RTX 4080 SUPER",
+      "category": "gpu",
+      "mfr": "nvidia",
+      "priced": true,
+      "amount": 8860,
+      "sku": "10168545650431"
+    },
+    {
+      "entity_key": "hw:nvidia:geforce-rtx-4080:desktop:global",
+      "file": "nvidia-geforce-rtx-4080.json",
+      "name": "GeForce RTX 4080",
+      "category": "gpu",
+      "mfr": "nvidia",
+      "priced": true,
+      "amount": 8288,
+      "sku": "10232007385908"
+    },
+    {
+      "entity_key": "hw:nvidia:geforce-rtx-4090-d:desktop:global",
+      "file": "nvidia-geforce-rtx-4090-d.json",
+      "name": "GeForce RTX 4090 D",
+      "category": "gpu",
+      "mfr": "nvidia",
+      "priced": false,
+      "amount": null,
+      "sku": null
+    },
+    {
+      "entity_key": "hw:nvidia:geforce-rtx-4090-laptop:laptop:global",
+      "file": "nvidia-geforce-rtx-4090-laptop-gpu.json",
+      "name": "GeForce RTX 4090 Laptop GPU",
+      "category": "gpu",
+      "mfr": "nvidia",
+      "priced": false,
+      "amount": null,
+      "sku": null
+    },
+    {
+      "entity_key": "hw:nvidia:geforce-rtx-4090:desktop:global",
+      "file": "nvidia-geforce-rtx-4090.json",
+      "name": "GeForce RTX 4090",
+      "category": "gpu",
+      "mfr": "nvidia",
+      "priced": true,
+      "amount": 25999,
+      "sku": "10202342064286"
+    },
+    {
+      "entity_key": "hw:nvidia:geforce-rtx-5050-laptop-gpu:laptop:global",
+      "file": "nvidia-geforce-rtx-5050-laptop-gpu.json",
+      "name": "GeForce RTX 5050 Laptop GPU",
+      "category": "gpu",
+      "mfr": "nvidia",
+      "priced": false,
+      "amount": null,
+      "sku": null
+    },
+    {
+      "entity_key": "hw:nvidia:geforce-rtx-5050:desktop:global",
+      "file": "nvidia-geforce-rtx-5050.json",
+      "name": "GeForce RTX 5050",
+      "category": "gpu",
+      "mfr": "nvidia",
+      "priced": false,
+      "amount": null,
+      "sku": null
+    },
+    {
+      "entity_key": "hw:nvidia:geforce-rtx-5060-laptop:laptop:global",
+      "file": "nvidia-geforce-rtx-5060-laptop-gpu.json",
+      "name": "GeForce RTX 5060 Laptop GPU",
+      "category": "gpu",
+      "mfr": "nvidia",
+      "priced": false,
+      "amount": null,
+      "sku": null
+    },
+    {
+      "entity_key": "hw:nvidia:geforce-rtx-5060-ti-16gb:desktop:global",
+      "file": "nvidia-geforce-rtx-5060-ti-16gb.json",
+      "name": "GeForce RTX 5060 Ti 16GB",
+      "category": "gpu",
+      "mfr": "nvidia",
+      "priced": false,
+      "amount": null,
+      "sku": null
+    },
+    {
+      "entity_key": "hw:nvidia:geforce-rtx-5060-ti-8gb:desktop:global",
+      "file": "nvidia-geforce-rtx-5060-ti-8gb.json",
+      "name": "GeForce RTX 5060 Ti 8GB",
+      "category": "gpu",
+      "mfr": "nvidia",
+      "priced": false,
+      "amount": null,
+      "sku": null
+    },
+    {
+      "entity_key": "hw:nvidia:geforce-rtx-5060:desktop:global",
+      "file": "nvidia-geforce-rtx-5060.json",
+      "name": "GeForce RTX 5060",
+      "category": "gpu",
+      "mfr": "nvidia",
+      "priced": false,
+      "amount": null,
+      "sku": null
+    },
+    {
+      "entity_key": "hw:nvidia:geforce-rtx-5070-laptop:laptop:global",
+      "file": "nvidia-geforce-rtx-5070-laptop-gpu.json",
+      "name": "GeForce RTX 5070 Laptop GPU",
+      "category": "gpu",
+      "mfr": "nvidia",
+      "priced": false,
+      "amount": null,
+      "sku": null
+    },
+    {
+      "entity_key": "hw:nvidia:geforce-rtx-5070-ti-laptop-gpu:laptop:global",
+      "file": "nvidia-geforce-rtx-5070-ti-laptop-gpu.json",
+      "name": "GeForce RTX 5070 Ti Laptop GPU",
+      "category": "gpu",
+      "mfr": "nvidia",
+      "priced": false,
+      "amount": null,
+      "sku": null
+    },
+    {
+      "entity_key": "hw:nvidia:geforce-rtx-5070-ti:desktop:global",
+      "file": "nvidia-geforce-rtx-5070-ti.json",
+      "name": "GeForce RTX 5070 Ti",
+      "category": "gpu",
+      "mfr": "nvidia",
+      "priced": true,
+      "amount": 11090.36,
+      "sku": "100188447084"
+    },
+    {
+      "entity_key": "hw:nvidia:geforce-rtx-5070:desktop:global",
+      "file": "nvidia-geforce-rtx-5070.json",
+      "name": "GeForce RTX 5070",
+      "category": "gpu",
+      "mfr": "nvidia",
+      "priced": true,
+      "amount": 6990.36,
+      "sku": "100293009528"
+    },
+    {
+      "entity_key": "hw:nvidia:geforce-rtx-5080-laptop:laptop:global",
+      "file": "nvidia-geforce-rtx-5080-laptop-gpu.json",
+      "name": "GeForce RTX 5080 Laptop GPU",
+      "category": "gpu",
+      "mfr": "nvidia",
+      "priced": false,
+      "amount": null,
+      "sku": null
+    },
+    {
+      "entity_key": "hw:nvidia:geforce-rtx-5080:desktop:global",
+      "file": "nvidia-geforce-rtx-5080.json",
+      "name": "GeForce RTX 5080",
+      "category": "gpu",
+      "mfr": "nvidia",
+      "priced": false,
+      "amount": null,
+      "sku": null
+    },
+    {
+      "entity_key": "hw:nvidia:geforce-rtx-5090-laptop:laptop:global",
+      "file": "nvidia-geforce-rtx-5090-laptop-gpu.json",
+      "name": "GeForce RTX 5090 Laptop GPU",
+      "category": "gpu",
+      "mfr": "nvidia",
+      "priced": false,
+      "amount": null,
+      "sku": null
+    },
+    {
+      "entity_key": "hw:nvidia:geforce-rtx-5090:desktop:global",
+      "file": "nvidia-geforce-rtx-5090.json",
+      "name": "GeForce RTX 5090",
+      "category": "gpu",
+      "mfr": "nvidia",
+      "priced": true,
+      "amount": 33500,
+      "sku": "10212691978527"
+    },
+    {
+      "entity_key": "hw:nvidia:geforce-rtx-5090d:desktop:global",
+      "file": "nvidia-geforce-rtx-5090d.json",
+      "name": "GeForce RTX 5090D",
+      "category": "gpu",
+      "mfr": "nvidia",
+      "priced": true,
+      "amount": 28999,
+      "sku": "100200850043"
+    }
+  ]
+}

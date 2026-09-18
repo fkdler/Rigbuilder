@@ -1,0 +1,24 @@
+{
+  "schema_version": "3.2",
+  "record_type": "source_document",
+  "status": "pending",
+  "payload": {
+    "source_key": "src:org:unsloth",
+    "title": "Unsloth (community quantizer) 官方站点",
+    "url": "https://huggingface.co/unsloth",
+    "publisher_key": "org:unsloth",
+    "source_type": "official_page",
+    "source_tier": "B",
+    "published_at": null,
+    "market_region": null,
+    "language": null,
+    "availability_status": "accessible",
+    "archive_url": null,
+    "accessed_at": "2026-09-14T11:59:46+00:00",
+    "content_hash": "4719c32bdd806e8036f1fa4f71536da6b49dae66b5c3ffde5474b7f42246ffb2"
+  },
+  "review_notes": [
+    "evidence 补全批（2026-09-07）：pending，待抓取核验。",
+    "2026-09-14 经镜像抓取：https://hf-mirror.com/unsloth（来源登记 URL 保持原样 https://huggingface.co/unsloth）。"
+  ]
+}

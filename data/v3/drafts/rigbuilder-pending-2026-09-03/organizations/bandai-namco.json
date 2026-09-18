@@ -1,0 +1,32 @@
+{
+  "schema_version": "3.2",
+  "record_type": "organization",
+  "status": "pending",
+  "payload": {
+    "identity": {
+      "entity_key": "org:bandai-namco",
+      "canonical_name": "Bandai Namco",
+      "entity_type": "organization",
+      "release_date": null,
+      "lifecycle_status": "unknown",
+      "recommendable": false
+    },
+    "website_url": "https://www.bandainamcoent.com/",
+    "country_or_region": null,
+    "organization_type": "publisher",
+    "evidence": [
+      {
+        "source_key": "src:org:bandai-namco",
+        "field_key": "entity.canonical_name",
+        "normalized_value": "Bandai Namco",
+        "provenance_key": "community_reported",
+        "raw_excerpt": "Bandai Namco",
+        "review_status": "pending",
+        "reviewed_at": null
+      }
+    ]
+  },
+  "review_notes": [
+    "2026-09-07 evidence 补全：挂 canonical_name 证据（来源见 sources）。"
+  ]
+}

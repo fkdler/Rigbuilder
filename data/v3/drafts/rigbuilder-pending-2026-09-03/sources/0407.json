@@ -1,0 +1,26 @@
+{
+  "schema_version": "3.2",
+  "record_type": "source_document",
+  "status": "pending",
+  "payload": {
+    "source_key": "src:org:open-sora",
+    "title": "HPC-AI Tech (Open-Sora) 官方站点",
+    "url": "https://huggingface.co/hpcai-tech",
+    "publisher_key": "org:open-sora",
+    "source_type": "official_page",
+    "source_tier": "B",
+    "published_at": null,
+    "market_region": null,
+    "language": null,
+    "availability_status": "accessible",
+    "archive_url": null,
+    "accessed_at": "2026-09-15T13:25:38+00:00",
+    "content_hash": "95e5017ab5466778cf976b442f97ff0d7af509651ee4dee06fa1501bcae5a560"
+  },
+  "review_notes": [
+    "组织来源登记（2026-09-15）：仅用于背书组织存在性；pending 待抓取。",
+    "2026-09-15 人工浏览器另存导入（src_org_open-sora.html，188683B，文本 20418 字）",
+    "2026-09-15 人工浏览器另存导入（src_org_open-sora.html，188683B，文本 20418 字）",
+    "2026-09-15 人工浏览器另存导入（src_org_open-sora.html，188683B，文本 20418 字）"
+  ]
+}

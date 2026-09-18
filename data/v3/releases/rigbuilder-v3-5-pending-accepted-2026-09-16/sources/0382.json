@@ -1,0 +1,25 @@
+{
+  "schema_version": "3.2",
+  "record_type": "source_document",
+  "status": "accepted",
+  "payload": {
+    "source_key": "src:card:kokoro-82m",
+    "title": "Kokoro-82M Model Card",
+    "url": "https://huggingface.co/hexgrad/Kokoro-82M",
+    "publisher_key": "org:hexgrad",
+    "source_type": "model_card",
+    "source_tier": "A",
+    "published_at": null,
+    "market_region": null,
+    "language": null,
+    "availability_status": "accessible",
+    "archive_url": null,
+    "accessed_at": "2026-09-15T11:32:50+00:00",
+    "content_hash": "d8cbc699b22f7ceb5997ad8a33124824d4f1b940f97648be41aa97de79d7f39e"
+  },
+  "review_notes": [
+    "多模态模型来源登记（2026-09-07）：pending。",
+    "2026-09-15 经镜像抓取：https://hf-mirror.com/hexgrad/Kokoro-82M（来源登记 URL 保持原样 https://huggingface.co/hexgrad/Kokoro-82M）。",
+    "Approved in bulk on 2026-09-16 at the user's explicit request; no per-record human review."
+  ]
+}

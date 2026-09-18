@@ -1,0 +1,63 @@
+{
+  "schema_version": "3.2",
+  "record_type": "hardware",
+  "status": "pending",
+  "payload": {
+    "identity": {
+      "entity_key": "hw:intel:core-i3-13100f:desktop:global",
+      "canonical_name": "Core i3-13100F",
+      "entity_type": "hardware",
+      "release_date": null,
+      "lifecycle_status": "unknown",
+      "recommendable": true
+    },
+    "category": "cpu",
+    "record_kind": "product",
+    "manufacturer_key": "org:intel",
+    "form_factor": "desktop",
+    "model_name": "Core i3-13100F",
+    "variant_name": null,
+    "market_segment": "consumer",
+    "region_code": "GLOBAL",
+    "official_product_id": null,
+    "product_family": null,
+    "attributes": [],
+    "evidence": [
+      {
+        "source_key": "src:hardquery:cpu",
+        "field_key": "entity.canonical_name",
+        "normalized_value": "Core i3-13100F",
+        "provenance_key": "community_reported",
+        "raw_excerpt": "Core i3-13100F",
+        "review_status": "pending",
+        "reviewed_at": null
+      }
+    ],
+    "cpu_spec": {
+      "architecture": "Raptor Lake",
+      "codename": "Raptor Lake",
+      "cores_total": 4,
+      "threads": 8,
+      "performance_cores": null,
+      "efficiency_cores": null,
+      "base_clock_mhz": 3400,
+      "boost_clock_mhz": 4500,
+      "l2_cache_mib": null,
+      "l3_cache_mib": 12,
+      "base_power_w": 58,
+      "max_power_w": null,
+      "socket": "LGA1700",
+      "memory_channels": 2,
+      "max_memory_gib": null,
+      "ecc_support": null,
+      "pcie_generation": null,
+      "pcie_lanes": null,
+      "integrated_gpu": null,
+      "npu_model": null
+    }
+  },
+  "review_notes": [
+    "后缀矩阵补全（2026-09-07）：官方来源页待核验，值按公开规格知识（含 T 系低功耗档），pending；部分型号参数待来源确认后核对。",
+    "2026-09-07 evidence 补全：挂 canonical_name 证据（来源见 sources）；其余字段证据待逐字核验后补。"
+  ]
+}

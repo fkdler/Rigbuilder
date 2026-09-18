@@ -1,0 +1,25 @@
+{
+  "schema_version": "3.2",
+  "record_type": "source_document",
+  "status": "accepted",
+  "payload": {
+    "source_key": "src:card:minimax-m2",
+    "title": "MiniMax-M2 Model Card",
+    "url": "https://huggingface.co/MiniMaxAI/MiniMax-M2",
+    "publisher_key": "org:minimax",
+    "source_type": "model_card",
+    "source_tier": "A",
+    "published_at": null,
+    "market_region": null,
+    "language": null,
+    "availability_status": "accessible",
+    "archive_url": null,
+    "accessed_at": "2026-09-14T11:56:39+00:00",
+    "content_hash": "cfdc8536f531995f13463b893c8301d37f4ee09451cbb3f981c7707c42178bdb"
+  },
+  "review_notes": [
+    "模型扩展批来源登记（2026-09-07）：pending，待 page_save.py 抓取回填 accessed_at/content_hash。",
+    "2026-09-14 经镜像抓取：https://hf-mirror.com/MiniMaxAI/MiniMax-M2（来源登记 URL 保持原样 https://huggingface.co/MiniMaxAI/MiniMax-M2）。",
+    "Approved in bulk on 2026-09-16 at the user's explicit request; no per-record human review."
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "schema_version": "3.2",
+  "record_type": "source_document",
+  "status": "pending",
+  "payload": {
+    "source_key": "src:gguf:qwen-qwen2-5-14b-instruct-gguf",
+    "title": "Qwen/Qwen2.5-14B-Instruct-GGUF (Hugging Face)",
+    "url": "https://huggingface.co/Qwen/Qwen2.5-14B-Instruct-GGUF",
+    "publisher_key": "org:qwen",
+    "source_type": "official_page",
+    "source_tier": "A",
+    "published_at": null,
+    "market_region": null,
+    "language": null,
+    "availability_status": "accessible",
+    "archive_url": null,
+    "accessed_at": "2026-09-07T07:05:59+00:00",
+    "content_hash": "718d691b5d856f71b8af69ec5ef57ba1b45147d3b63506a026238a69ef51055f"
+  },
+  "review_notes": [
+    "来源 retrieved_at 为占位时间，调查员须替换为实际看到页面的时间。",
+    "source_key 前缀暂为 src: 与 quantization/format 大小写（Q4_K_M/GGUF）待审核人与词表对齐（可统一为 source:/小写）。"
+  ]
+}

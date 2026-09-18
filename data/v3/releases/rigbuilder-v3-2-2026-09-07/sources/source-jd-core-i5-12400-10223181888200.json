@@ -1,0 +1,23 @@
+{
+  "schema_version": "3.2",
+  "record_type": "source_document",
+  "status": "accepted",
+  "payload": {
+    "source_key": "source:jd:core-i5-12400-10223181888200",
+    "title": "酷睿i5-12400 全新正品 三年质保全新三年质保|公司采购发票|6核12线程新店促销秒杀全新三年质保|公司采购发票|6核12线程",
+    "url": "https://item.jd.com/10223181888200.html",
+    "source_type": "retailer",
+    "source_tier": "C",
+    "publisher_key": null,
+    "published_at": null,
+    "market_region": "CN",
+    "language": "zh-CN",
+    "availability_status": "accessible",
+    "archive_url": null,
+    "accessed_at": "2026-09-07T07:11:31+00:00",
+    "content_hash": "d3b45cc59c9bea6d4c38031c3237aa6cdffdd7f1c555b4b7472932853107f5c0"
+  },
+  "review_notes": [
+    "京东标价 SKU 10223181888200；店铺：店铺未返回；页面标价作为 current_new。"
+  ]
+}

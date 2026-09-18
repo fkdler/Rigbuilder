@@ -1,0 +1,184 @@
+{
+  "schema_version": "3.2",
+  "record_type": "model",
+  "status": "accepted",
+  "payload": {
+    "identity": {
+      "entity_key": "model:qwen:qwen3-30b-a3b-instruct-2507",
+      "canonical_name": "Qwen3-30B-A3B-Instruct-2507",
+      "entity_type": "ai_model",
+      "release_date": "2025-07-30",
+      "lifecycle_status": "unknown",
+      "recommendable": true
+    },
+    "publisher_key": "org:qwen",
+    "release_version": null,
+    "model_type": "moe",
+    "total_parameters": 30532122624,
+    "active_parameters": 3300000000,
+    "model_stage": "instruct",
+    "context_length_tokens": 262144,
+    "license_name": "Apache-2.0",
+    "commercial_use_status": "allowed",
+    "official_repo_url": "https://huggingface.co/Qwen/Qwen3-30B-A3B-Instruct-2507",
+    "official_model_card_url": "https://huggingface.co/Qwen/Qwen3-30B-A3B-Instruct-2507",
+    "architecture_notes": null,
+    "capabilities": [
+      {
+        "capability_key": "text_input",
+        "status": "supported",
+        "notes": null
+      }
+    ],
+    "variants": [
+      {
+        "identity": {
+          "entity_key": "variant:qwen:qwen3-30b-a3b-instruct-2507:gguf:q4-k-m:unsloth",
+          "canonical_name": "Qwen3-30B-A3B-Instruct-2507 Q4_K_M (GGUF, unsloth)",
+          "entity_type": "model_variant",
+          "release_date": null,
+          "lifecycle_status": "unknown",
+          "recommendable": false
+        },
+        "maintainer_key": "org:unsloth",
+        "quantization_method": "Q4_K_M",
+        "weight_format": "GGUF",
+        "bits_per_weight": null,
+        "file_size_bytes": 18556686752,
+        "official_status": "community",
+        "repository_url": "https://huggingface.co/unsloth/Qwen3-30B-A3B-Instruct-2507-GGUF",
+        "artifact_revision": null,
+        "artifact_manifest": null,
+        "checksum": null,
+        "evidence": [
+          {
+            "source_key": "src:gguf:unsloth-qwen3-30b-a3b-instruct-2507-gguf",
+            "field_key": "entity.canonical_name",
+            "normalized_value": "Qwen3-30B-A3B-Instruct-2507 Q4_K_M (GGUF, unsloth)",
+            "provenance_key": "official",
+            "raw_excerpt": "Qwen3-30B-A3B-Instruct-2507 Q4_K_M (GGUF, unsloth)",
+            "review_status": "accepted",
+            "reviewed_at": null
+          }
+        ]
+      },
+      {
+        "identity": {
+          "entity_key": "variant:qwen:qwen3-30b-a3b-instruct-2507:gguf:q5-k-m:unsloth",
+          "canonical_name": "Qwen3-30B-A3B-Instruct-2507 Q5_K_M (GGUF, unsloth)",
+          "entity_type": "model_variant",
+          "release_date": null,
+          "lifecycle_status": "unknown",
+          "recommendable": false
+        },
+        "maintainer_key": "org:unsloth",
+        "quantization_method": "Q5_K_M",
+        "weight_format": "GGUF",
+        "bits_per_weight": null,
+        "file_size_bytes": 21725581728,
+        "official_status": "community",
+        "repository_url": "https://huggingface.co/unsloth/Qwen3-30B-A3B-Instruct-2507-GGUF",
+        "artifact_revision": null,
+        "artifact_manifest": null,
+        "checksum": null,
+        "evidence": [
+          {
+            "source_key": "src:gguf:unsloth-qwen3-30b-a3b-instruct-2507-gguf",
+            "field_key": "entity.canonical_name",
+            "normalized_value": "Qwen3-30B-A3B-Instruct-2507 Q5_K_M (GGUF, unsloth)",
+            "provenance_key": "official",
+            "raw_excerpt": "Qwen3-30B-A3B-Instruct-2507 Q5_K_M (GGUF, unsloth)",
+            "review_status": "accepted",
+            "reviewed_at": null
+          }
+        ]
+      },
+      {
+        "identity": {
+          "entity_key": "variant:qwen:qwen3-30b-a3b-instruct-2507:gguf:q8-0:unsloth",
+          "canonical_name": "Qwen3-30B-A3B-Instruct-2507 Q8_0 (GGUF, unsloth)",
+          "entity_type": "model_variant",
+          "release_date": null,
+          "lifecycle_status": "unknown",
+          "recommendable": false
+        },
+        "maintainer_key": "org:unsloth",
+        "quantization_method": "Q8_0",
+        "weight_format": "GGUF",
+        "bits_per_weight": null,
+        "file_size_bytes": 32483932576,
+        "official_status": "community",
+        "repository_url": "https://huggingface.co/unsloth/Qwen3-30B-A3B-Instruct-2507-GGUF",
+        "artifact_revision": null,
+        "artifact_manifest": null,
+        "checksum": null,
+        "evidence": [
+          {
+            "source_key": "src:gguf:unsloth-qwen3-30b-a3b-instruct-2507-gguf",
+            "field_key": "entity.canonical_name",
+            "normalized_value": "Qwen3-30B-A3B-Instruct-2507 Q8_0 (GGUF, unsloth)",
+            "provenance_key": "official",
+            "raw_excerpt": "Qwen3-30B-A3B-Instruct-2507 Q8_0 (GGUF, unsloth)",
+            "review_status": "accepted",
+            "reviewed_at": null
+          }
+        ]
+      }
+    ],
+    "evidence": [
+      {
+        "source_key": "src:card:qwen3-30b-a3b-instruct-2507",
+        "field_key": "entity.canonical_name",
+        "normalized_value": "Qwen3-30B-A3B-Instruct-2507",
+        "provenance_key": "official",
+        "raw_excerpt": "Qwen3-30B-A3B-Instruct-2507",
+        "review_status": "accepted",
+        "reviewed_at": null
+      },
+      {
+        "source_key": "src:card:qwen3-30b-a3b-instruct-2507",
+        "field_key": "model.context_length_tokens",
+        "normalized_value": 262144,
+        "provenance_key": "official",
+        "raw_excerpt": "262144",
+        "review_status": "accepted",
+        "reviewed_at": null
+      },
+      {
+        "source_key": "src:card:qwen3-30b-a3b-instruct-2507",
+        "field_key": "model.license_name",
+        "normalized_value": "Apache-2.0",
+        "provenance_key": "official",
+        "raw_excerpt": "License: apache-2.0",
+        "review_status": "accepted",
+        "reviewed_at": null
+      },
+      {
+        "source_key": "src:card:qwen3-30b-a3b-instruct-2507",
+        "field_key": "model.total_parameters",
+        "normalized_value": 30532122624,
+        "provenance_key": "official",
+        "raw_excerpt": "HF API safetensors.total（精确）: 30532122624",
+        "review_status": "accepted",
+        "reviewed_at": null,
+        "notes": "由公开知识值校正为官方值（原值 30500000000）"
+      }
+    ],
+    "family": "Qwen3"
+  },
+  "review_notes": [
+    "模型扩展第二批（2026-09-07）：官方卡待逐字核验；参数量/上下文为公开知识值，pending；GGUF file_size_bytes 待 hf_fill。",
+    "2026-09-14 evidence 提取：从快照 src_card_qwen3-30b-a3b-instruct-2507.txt 提取字段级逐字证据（pending，待审核）。",
+    "2026-09-14 evidence 提取：从快照 src_gguf_unsloth-qwen3-30b-a3b-instruct-2507-gguf.txt 提取字段级逐字证据（pending，待审核）。",
+    "2026-09-15 evidence 提取：从快照 src_card_qwen3-30b-a3b-instruct-2507.txt 提取字段级逐字证据（pending，待审核）。",
+    "2026-09-15 evidence 提取：从快照 src_gguf_unsloth-qwen3-30b-a3b-instruct-2507-gguf.txt 提取字段级逐字证据（pending，待审核）。",
+    "hf_fill --refresh-params：参数量取 HF API safetensors.total（精确），上下文取 config.json max_position_embeddings；已挂 evidence（pending）。",
+    "2026-09-15 evidence 提取：从快照 src_card_qwen3-30b-a3b-instruct-2507.txt 提取字段级逐字证据（pending，待审核）。",
+    "2026-09-15 evidence 提取：从快照 src_gguf_unsloth-qwen3-30b-a3b-instruct-2507-gguf.txt 提取字段级逐字证据（pending，待审核）。",
+    "2026-09-15 evidence 提取：从快照 src_card_qwen3-30b-a3b-instruct-2507.txt 提取字段级逐字证据（pending，待审核）。",
+    "2026-09-15 evidence 提取：从快照 src_gguf_unsloth-qwen3-30b-a3b-instruct-2507-gguf.txt 提取字段级逐字证据（pending，待审核）。",
+    "2026-09-15 evidence 提取：从快照 src_card_qwen3-30b-a3b-instruct-2507.txt 提取字段级逐字证据（pending，待审核）。",
+    "2026-09-15 evidence 提取：从快照 src_gguf_unsloth-qwen3-30b-a3b-instruct-2507-gguf.txt 提取字段级逐字证据（pending，待审核）。",
+    "Approved in bulk on 2026-09-16 at the user's explicit request; no per-record human review."
+  ]
+}

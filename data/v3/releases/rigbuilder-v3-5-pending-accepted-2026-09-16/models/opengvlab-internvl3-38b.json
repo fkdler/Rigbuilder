@@ -1,0 +1,90 @@
+{
+  "schema_version": "3.2",
+  "record_type": "model",
+  "status": "accepted",
+  "payload": {
+    "identity": {
+      "entity_key": "model:opengvlab:internvl3-38b",
+      "canonical_name": "InternVL3-38B",
+      "entity_type": "ai_model",
+      "release_date": "2025-04-11",
+      "lifecycle_status": "unknown",
+      "recommendable": true
+    },
+    "publisher_key": "org:opengvlab",
+    "release_version": null,
+    "model_type": "dense",
+    "total_parameters": 38388164992,
+    "active_parameters": null,
+    "model_stage": "vision_language",
+    "context_length_tokens": null,
+    "license_name": "Apache-2.0",
+    "commercial_use_status": "allowed",
+    "official_repo_url": "https://huggingface.co/OpenGVLab/InternVL3-38B-Instruct",
+    "official_model_card_url": "https://huggingface.co/OpenGVLab/InternVL3-38B-Instruct",
+    "architecture_notes": null,
+    "capabilities": [
+      {
+        "capability_key": "text_input",
+        "status": "supported",
+        "notes": null
+      },
+      {
+        "capability_key": "vision_input",
+        "status": "supported",
+        "notes": null
+      }
+    ],
+    "variants": [],
+    "evidence": [
+      {
+        "source_key": "src:card:internvl3-38b",
+        "field_key": "entity.canonical_name",
+        "normalized_value": "InternVL3-38B",
+        "provenance_key": "official",
+        "raw_excerpt": "InternVL3-38B",
+        "review_status": "accepted",
+        "reviewed_at": null
+      },
+      {
+        "source_key": "src:card:internvl3-38b",
+        "field_key": "model.license_name",
+        "normalized_value": "Apache-2.0",
+        "provenance_key": "official",
+        "raw_excerpt": "License: apache-2.0",
+        "review_status": "accepted",
+        "reviewed_at": null
+      },
+      {
+        "source_key": "src:card:internvl3-38b",
+        "field_key": "model.model_stage",
+        "normalized_value": "vision_language",
+        "provenance_key": "official",
+        "raw_excerpt": "vision_language",
+        "review_status": "accepted",
+        "reviewed_at": null
+      },
+      {
+        "source_key": "src:card:internvl3-38b",
+        "field_key": "model.total_parameters",
+        "normalized_value": 38388164992,
+        "provenance_key": "official",
+        "raw_excerpt": "HF API safetensors.total（精确）: 38388164992",
+        "notes": "由官方 config/API 回填",
+        "review_status": "accepted",
+        "reviewed_at": null
+      }
+    ],
+    "family": "InternVL3"
+  },
+  "review_notes": [
+    "多模态模型批（2026-09-07）：开放权重、可本地部署；参数/日期/许可为公开知识值或留空，pending，待官方卡核验（参数量建议由 hf_fill 从 safetensors 精确回填）。",
+    "本地部署：开放权重（非 API-only）。",
+    "2026-09-15 evidence 提取：从快照 src_card_internvl3-38b.txt 提取字段级逐字证据（pending，待审核）。",
+    "hf_fill --refresh-params：参数量取 HF API safetensors.total（精确），上下文取 config.json max_position_embeddings；已挂 evidence（pending）。",
+    "2026-09-15 evidence 提取：从快照 src_card_internvl3-38b.txt 提取字段级逐字证据（pending，待审核）。",
+    "2026-09-15 evidence 提取：从快照 src_card_internvl3-38b.txt 提取字段级逐字证据（pending，待审核）。",
+    "2026-09-15 evidence 提取：从快照 src_card_internvl3-38b.txt 提取字段级逐字证据（pending，待审核）。",
+    "Approved in bulk on 2026-09-16 at the user's explicit request; no per-record human review."
+  ]
+}

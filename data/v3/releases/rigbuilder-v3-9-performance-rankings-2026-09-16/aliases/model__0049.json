@@ -1,0 +1,14 @@
+{
+  "schema_version": "3.2",
+  "record_type": "entity_alias",
+  "status": "accepted",
+  "payload": {
+    "entity_key": "model:openbmb:minicpm-v-4-5",
+    "alias": "openbmb/MiniCPM-V-4_5",
+    "alias_type": "repository",
+    "language": null,
+    "normalized_alias": "openbmbminicpmv45",
+    "source_key": null
+  },
+  "review_notes": []
+}

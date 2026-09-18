@@ -1,0 +1,106 @@
+{
+  "schema_version": "3.2",
+  "record_type": "hardware",
+  "status": "accepted",
+  "payload": {
+    "identity": {
+      "entity_key": "hw:nvidia:geforce-rtx-5070-ti-laptop-gpu:laptop:global",
+      "canonical_name": "GeForce RTX 5070 Ti Laptop GPU",
+      "entity_type": "hardware",
+      "release_date": null,
+      "lifecycle_status": "unknown",
+      "recommendable": false
+    },
+    "category": "gpu",
+    "record_kind": "product",
+    "manufacturer_key": "org:nvidia",
+    "form_factor": "laptop",
+    "model_name": "GeForce RTX 5070 Ti Laptop GPU",
+    "variant_name": null,
+    "market_segment": "mobile",
+    "region_code": "GLOBAL",
+    "official_product_id": null,
+    "product_family": null,
+    "attributes": [],
+    "evidence": [
+      {
+        "source_key": "src:nvidia:gpu-laptop-geforce-rtx-5090-laptop-gpu",
+        "field_key": "entity.canonical_name",
+        "normalized_value": "GeForce RTX 5070 Ti Laptop GPU",
+        "provenance_key": "official",
+        "raw_excerpt": "GeForce RTX 5070 Ti Laptop GPU",
+        "review_status": "accepted",
+        "reviewed_at": null
+      },
+      {
+        "source_key": "src:nvidia:gpu-laptop-geforce-rtx-5090-laptop-gpu",
+        "field_key": "gpu.vram_gib",
+        "normalized_value": 12,
+        "provenance_key": "official",
+        "raw_excerpt": "Standard Memory Configuration \n 24 GB GDDR7 \n 16 GB GDDR7 \n 12 GB GDDR7 \n 12 GB GDDR7 8 GB GDDR7 \n 8 GB GDDR7 \n 8 GB GDDR7",
+        "review_status": "accepted",
+        "reviewed_at": null,
+        "notes": "NVIDIA 规格表｜列「GeForce RTX 5070 T i Laptop GPU」（第 3/6 列）｜请核对：raw_excerpt 为页面该字段整行原文，本条目取其中该列的值"
+      },
+      {
+        "source_key": "src:nvidia:gpu-laptop-geforce-rtx-5090-laptop-gpu",
+        "field_key": "gpu.memory_bandwidth_gb_s",
+        "normalized_value": 672,
+        "provenance_key": "official",
+        "raw_excerpt": "Memory Bandwidth \n 896 GB/s \n 896 GB/s \n 672 GB/s \n 384 GB/s \n 384 GB/s \n 384 GB/s",
+        "review_status": "accepted",
+        "reviewed_at": null,
+        "notes": "NVIDIA 规格表｜列「GeForce RTX 5070 T i Laptop GPU」（第 3/6 列）｜请核对：raw_excerpt 为页面该字段整行原文，本条目取其中该列的值"
+      },
+      {
+        "source_key": "src:nvidia:gpu-laptop-geforce-rtx-5090-laptop-gpu",
+        "field_key": "laptop_gpu.boost_clock_min_mhz",
+        "normalized_value": 1447,
+        "provenance_key": "official",
+        "raw_excerpt": "Boost Clock (MHz) \n 1597 - 2160 MHz \n 1500 - 2287 MHz \n 1447 - 2220 MHz \n 1425 - 2347 MHz \n 1455 - 2497 MHz \n 1500 - 2662 MHz",
+        "review_status": "accepted",
+        "reviewed_at": null,
+        "notes": "NVIDIA 规格表｜列「GeForce RTX 5070 T i Laptop GPU」（第 3/6 列）｜请核对：raw_excerpt 为页面该字段整行原文，本条目取其中该列的值"
+      },
+      {
+        "source_key": "src:nvidia:gpu-laptop-geforce-rtx-5090-laptop-gpu",
+        "field_key": "laptop_gpu.boost_clock_max_mhz",
+        "normalized_value": 2220,
+        "provenance_key": "official",
+        "raw_excerpt": "Boost Clock (MHz) \n 1597 - 2160 MHz \n 1500 - 2287 MHz \n 1447 - 2220 MHz \n 1425 - 2347 MHz \n 1455 - 2497 MHz \n 1500 - 2662 MHz",
+        "review_status": "accepted",
+        "reviewed_at": null,
+        "notes": "NVIDIA 规格表｜列「GeForce RTX 5070 T i Laptop GPU」（第 3/6 列）｜请核对：raw_excerpt 为页面该字段整行原文，本条目取其中该列的值"
+      }
+    ],
+    "gpu_spec": {
+      "architecture": "Blackwell",
+      "vram_gib": 12,
+      "memory_type": "GDDR7",
+      "memory_bus_width_bit": null,
+      "memory_bandwidth_gb_s": 672,
+      "ecc_support": false,
+      "interface": null,
+      "pcie_generation": null,
+      "pcie_lanes": null,
+      "board_power_w": null
+    },
+    "laptop_gpu_spec": {
+      "tgp_min_w": null,
+      "tgp_max_w": null,
+      "boost_clock_min_mhz": 1447,
+      "boost_clock_max_mhz": 2220,
+      "dynamic_boost_w": null
+    }
+  },
+  "review_notes": [
+    "移动 GPU 后缀补全（2026-09-07）：官方规格页待核验，参数按公开报道/知识填写，pending；VRAM/总线等以官方页为准后再核对。",
+    "2026-09-07 evidence 补全：挂 canonical_name 证据（来源见 sources）；其余字段证据待逐字核验后补。",
+    "2026-09-14 evidence 提取：从快照 src_nvidia_gpu-laptop-geforce-rtx-5090-laptop-gpu.txt 提取字段级逐字证据（pending，待审核）。",
+    "2026-09-15 evidence 提取：从快照 src_nvidia_gpu-laptop-geforce-rtx-5090-laptop-gpu.txt 提取字段级逐字证据（pending，待审核）。",
+    "2026-09-15 evidence 提取：从快照 src_nvidia_gpu-laptop-geforce-rtx-5090-laptop-gpu.txt 提取字段级逐字证据（pending，待审核）。",
+    "2026-09-15 evidence 提取：从快照 src_nvidia_gpu-laptop-geforce-rtx-5090-laptop-gpu.txt 提取字段级逐字证据（pending，待审核）。",
+    "2026-09-15 evidence 提取：从快照 src_nvidia_gpu-laptop-geforce-rtx-5090-laptop-gpu.txt 提取字段级逐字证据（pending，待审核）。",
+    "Approved in bulk on 2026-09-16 at the user's explicit request; no per-record human review."
+  ]
+}

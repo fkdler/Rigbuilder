@@ -1,0 +1,23 @@
+{
+  "schema_version": "3.2",
+  "record_type": "source_document",
+  "status": "pending",
+  "payload": {
+    "source_key": "src:nvidia:gpu-laptop-40-series",
+    "title": "GeForce RTX 40 Series Laptops - NVIDIA",
+    "url": "https://www.nvidia.com/en-us/geforce/laptops/40-series/",
+    "publisher_key": "org:www",
+    "source_type": "official_page",
+    "source_tier": "A",
+    "published_at": null,
+    "market_region": null,
+    "language": null,
+    "availability_status": "accessible",
+    "archive_url": null,
+    "accessed_at": "2026-09-07T08:58:38+00:00",
+    "content_hash": "f8c639ac0df050972a5e65167647ce379557ba81a934b2741b6a8b2e25bc825b"
+  },
+  "review_notes": [
+    "gap_collect 自动注册（2026-09-07）：URL 为规则模板/家族页候选，待 page_save.py --only-missing 抓取并回填 accessed_at/content_hash；若页面 404 或未含目标型号规格，则人工更换官方替代来源。"
+  ]
+}

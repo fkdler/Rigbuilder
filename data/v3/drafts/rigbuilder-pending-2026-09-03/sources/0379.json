@@ -1,0 +1,24 @@
+{
+  "schema_version": "3.2",
+  "record_type": "source_document",
+  "status": "pending",
+  "payload": {
+    "source_key": "src:card:llama-3-2-11b-vision-instruct",
+    "title": "Llama-3.2-11B-Vision-Instruct Model Card",
+    "url": "https://huggingface.co/meta-llama/Llama-3.2-11B-Vision-Instruct",
+    "publisher_key": "org:meta",
+    "source_type": "model_card",
+    "source_tier": "A",
+    "published_at": null,
+    "market_region": null,
+    "language": null,
+    "availability_status": "accessible",
+    "archive_url": null,
+    "accessed_at": "2026-09-15T11:32:36+00:00",
+    "content_hash": "cc660df783bd388075492c82cb7776ab63fb0f90b2f4d551d0d80d5b47096506"
+  },
+  "review_notes": [
+    "多模态模型来源登记（2026-09-07）：pending。",
+    "2026-09-15 经镜像抓取：https://hf-mirror.com/meta-llama/Llama-3.2-11B-Vision-Instruct（来源登记 URL 保持原样 https://huggingface.co/meta-llama/Llama-3.2-11B-Vision-Instruct）。"
+  ]
+}

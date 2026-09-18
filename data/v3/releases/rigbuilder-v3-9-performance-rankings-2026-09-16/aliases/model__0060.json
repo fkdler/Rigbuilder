@@ -1,0 +1,14 @@
+{
+  "schema_version": "3.2",
+  "record_type": "entity_alias",
+  "status": "accepted",
+  "payload": {
+    "entity_key": "model:mistral-ai:pixtral-12b",
+    "alias": "mistralai/Pixtral-12B-2409",
+    "alias_type": "repository",
+    "language": null,
+    "normalized_alias": "mistralaipixtral12b2409",
+    "source_key": null
+  },
+  "review_notes": []
+}

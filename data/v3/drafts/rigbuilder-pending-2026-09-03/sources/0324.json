@@ -1,0 +1,23 @@
+{
+  "schema_version": "3.2",
+  "record_type": "source_document",
+  "status": "pending",
+  "payload": {
+    "source_key": "src:org:valve",
+    "title": "Valve 官方站点",
+    "url": "https://www.valve.com/",
+    "publisher_key": "org:valve",
+    "source_type": "official_page",
+    "source_tier": "B",
+    "published_at": null,
+    "market_region": null,
+    "language": null,
+    "availability_status": "accessible",
+    "archive_url": null,
+    "accessed_at": "2026-09-14T11:43:40+00:00",
+    "content_hash": "eaa384df9ed4ed8cf456518968e79ad9901143fb6ca29990b0dbe39501544945"
+  },
+  "review_notes": [
+    "evidence 补全批（2026-09-07）：pending，待抓取核验。"
+  ]
+}

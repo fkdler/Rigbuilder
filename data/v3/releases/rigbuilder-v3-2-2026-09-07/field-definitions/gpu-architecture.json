@@ -1,0 +1,28 @@
+{
+    "schema_version":  "3.2",
+    "record_type":  "field_definition",
+    "status":  "accepted",
+    "payload":  {
+                    "field_key":  "gpu.architecture",
+                    "label":  "GPU architecture",
+                    "applies_to_entity_type":  "hardware",
+                    "value_type":  "string",
+                    "canonical_unit":  null,
+                    "description":  "V3.2 field definition for gpu.architecture",
+                    "allowed_units":  [
+
+                                      ],
+                    "indexed":  false,
+                    "cardinality":  "one",
+                    "comparison_method":  "exact",
+                    "tolerance":  null,
+                    "storage_kind":  "column",
+                    "storage_path":  "gpu_spec.architecture",
+                    "filterable":  false,
+                    "claimable":  true,
+                    "active":  true
+                },
+    "review_notes":  [
+                         "Accepted as part of rigbuilder-v3-2-2026-09-07"
+                     ]
+}

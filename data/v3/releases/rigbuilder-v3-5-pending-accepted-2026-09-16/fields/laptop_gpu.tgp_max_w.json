@@ -1,0 +1,26 @@
+{
+  "schema_version": "3.2",
+  "record_type": "field_definition",
+  "status": "accepted",
+  "payload": {
+    "field_key": "laptop_gpu.tgp_max_w",
+    "label": "移动 GPU 最大 TGP",
+    "applies_to_entity_type": "hardware",
+    "value_type": "number",
+    "canonical_unit": "w",
+    "description": "移动 GPU 最大 TGP（2026-09-16 随 v3-5 批量补齐）",
+    "allowed_units": [
+      "w"
+    ],
+    "indexed": false,
+    "cardinality": "one",
+    "comparison_method": "exact",
+    "tolerance": null,
+    "storage_kind": "column",
+    "storage_path": "laptop_gpu_spec.tgp_max_w",
+    "filterable": false,
+    "claimable": true,
+    "active": true
+  },
+  "review_notes": []
+}

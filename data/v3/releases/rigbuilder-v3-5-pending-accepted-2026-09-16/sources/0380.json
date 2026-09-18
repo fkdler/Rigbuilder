@@ -1,0 +1,25 @@
+{
+  "schema_version": "3.2",
+  "record_type": "source_document",
+  "status": "accepted",
+  "payload": {
+    "source_key": "src:card:llava-onevision-7b",
+    "title": "LLaVA-OneVision-7B Model Card",
+    "url": "https://huggingface.co/llava-hf/llava-onevision-qwen2-7b-ov-hf",
+    "publisher_key": "org:llava-hf",
+    "source_type": "model_card",
+    "source_tier": "A",
+    "published_at": null,
+    "market_region": null,
+    "language": null,
+    "availability_status": "accessible",
+    "archive_url": null,
+    "accessed_at": "2026-09-15T11:32:41+00:00",
+    "content_hash": "b1be5def50c3028378c3ae55f56e18575b1b66914298e4d97c68400e64c6a8da"
+  },
+  "review_notes": [
+    "多模态模型来源登记（2026-09-07）：pending。",
+    "2026-09-15 经镜像抓取：https://hf-mirror.com/llava-hf/llava-onevision-qwen2-7b-ov-hf（来源登记 URL 保持原样 https://huggingface.co/llava-hf/llava-onevision-qwen2-7b-ov-hf）。",
+    "Approved in bulk on 2026-09-16 at the user's explicit request; no per-record human review."
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "schema_version": "3.2",
+  "record_type": "source_document",
+  "status": "accepted",
+  "payload": {
+    "source_key": "source:hf-api-review-20260915:Qwen/Qwen3-Coder-480B-A35B-Instruct",
+    "title": "Qwen/Qwen3-Coder-480B-A35B-Instruct official repository metadata",
+    "url": "https://huggingface.co/api/models/Qwen/Qwen3-Coder-480B-A35B-Instruct",
+    "source_type": "model_card",
+    "source_tier": "A",
+    "accessed_at": "2026-09-15T11:32:27.395199+00:00",
+    "content_hash": "cfc4c952f147da9e84de2824b38ca05976403ad9a3db9b4be348188f87390ad9",
+    "availability_status": "accessible"
+  },
+  "review_notes": [
+    "本次实际读取官方仓库公开 API 元数据；hash 对应保存的原始响应。不是下载权重或实测。"
+  ]
+}

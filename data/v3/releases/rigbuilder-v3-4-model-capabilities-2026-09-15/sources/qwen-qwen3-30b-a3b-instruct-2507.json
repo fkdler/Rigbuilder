@@ -1,0 +1,18 @@
+{
+  "schema_version": "3.2",
+  "record_type": "source_document",
+  "status": "accepted",
+  "payload": {
+    "source_key": "source:hf-api-review-20260915:Qwen/Qwen3-30B-A3B-Instruct-2507",
+    "title": "Qwen/Qwen3-30B-A3B-Instruct-2507 official repository metadata",
+    "url": "https://huggingface.co/api/models/Qwen/Qwen3-30B-A3B-Instruct-2507",
+    "source_type": "model_card",
+    "source_tier": "A",
+    "accessed_at": "2026-09-15T11:32:15.691766+00:00",
+    "content_hash": "9f765d396854eb5a6ec150b1ab3c446cea3898b586eb3907e86041dd6952c50a",
+    "availability_status": "accessible"
+  },
+  "review_notes": [
+    "本次实际读取官方仓库公开 API 元数据；hash 对应保存的原始响应。不是下载权重或实测。"
+  ]
+}

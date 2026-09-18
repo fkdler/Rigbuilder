@@ -1,0 +1,26 @@
+{
+  "schema_version": "3.2",
+  "record_type": "field_definition",
+  "status": "accepted",
+  "payload": {
+    "field_key": "model.deployment_min_ram_gb",
+    "label": "推理所需最低内存",
+    "applies_to_entity_type": "ai_model",
+    "value_type": "number",
+    "canonical_unit": "gib",
+    "description": "ModelFit 估算的运行该模型所需的最低系统内存（Q4_K_M）。估算值，不是实测值。",
+    "allowed_units": [
+      "gib"
+    ],
+    "indexed": false,
+    "cardinality": "one",
+    "comparison_method": "range",
+    "tolerance": null,
+    "storage_kind": "attribute",
+    "storage_path": null,
+    "filterable": true,
+    "claimable": true,
+    "active": true
+  },
+  "review_notes": []
+}

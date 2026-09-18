@@ -1,0 +1,108 @@
+{
+  "schema_version": "3.2",
+  "record_type": "model",
+  "status": "accepted",
+  "payload": {
+    "identity": {
+      "entity_key": "model:moonshot-ai:kimi-k2-thinking",
+      "canonical_name": "Kimi-K2-Thinking",
+      "entity_type": "ai_model",
+      "release_date": "2025-11-06",
+      "lifecycle_status": "unknown",
+      "recommendable": true
+    },
+    "publisher_key": "org:moonshot-ai",
+    "release_version": null,
+    "model_type": "moe",
+    "total_parameters": 1026408240256,
+    "active_parameters": 32000000000,
+    "model_stage": "reasoning",
+    "context_length_tokens": 262144,
+    "license_name": "Modified-MIT",
+    "commercial_use_status": "allowed",
+    "official_repo_url": "https://huggingface.co/moonshotai/Kimi-K2-Thinking",
+    "official_model_card_url": "https://huggingface.co/moonshotai/Kimi-K2-Thinking",
+    "architecture_notes": null,
+    "capabilities": [
+      {
+        "capability_key": "text_input",
+        "status": "supported",
+        "notes": null
+      },
+      {
+        "capability_key": "reasoning",
+        "status": "supported",
+        "notes": null
+      }
+    ],
+    "variants": [
+      {
+        "identity": {
+          "entity_key": "variant:moonshotai-kimi-k2-thinking:official-safetensors",
+          "canonical_name": "Kimi-K2-Thinking 官方权重 (safetensors, moonshotai)",
+          "entity_type": "model_variant",
+          "release_date": null,
+          "lifecycle_status": "unknown",
+          "recommendable": true
+        },
+        "file_size_bytes": 594232561304,
+        "weight_format": "safetensors",
+        "official_status": "official",
+        "repository_url": "https://huggingface.co/moonshotai/Kimi-K2-Thinking",
+        "evidence": [
+          {
+            "source_key": "src:hf:moonshotai-kimi-k2-thinking",
+            "field_key": "entity.canonical_name",
+            "normalized_value": "Kimi-K2-Thinking 官方权重 (safetensors, moonshotai)",
+            "review_status": "accepted",
+            "confidence": 1
+          }
+        ]
+      }
+    ],
+    "evidence": [
+      {
+        "source_key": "src:card:kimi-k2-thinking",
+        "field_key": "entity.canonical_name",
+        "normalized_value": "Kimi-K2-Thinking",
+        "provenance_key": "official",
+        "raw_excerpt": "Kimi-K2-Thinking",
+        "review_status": "accepted",
+        "reviewed_at": null
+      },
+      {
+        "source_key": "src:card:kimi-k2-thinking",
+        "field_key": "model.total_parameters",
+        "normalized_value": 1026408240256,
+        "provenance_key": "official",
+        "raw_excerpt": "HF API safetensors.total（精确）: 1026408240256",
+        "review_status": "accepted",
+        "reviewed_at": null,
+        "notes": "由公开知识值校正为官方值（原值 1000000000000）"
+      },
+      {
+        "source_key": "src:card:kimi-k2-thinking",
+        "field_key": "model.context_length_tokens",
+        "normalized_value": 262144,
+        "unit_key": "tokens",
+        "provenance_key": "official",
+        "raw_excerpt": "262144",
+        "review_status": "accepted",
+        "reviewed_at": null
+      },
+      {
+        "source_key": "src:card:kimi-k2-thinking",
+        "field_key": "model.license_name",
+        "normalized_value": "Modified-MIT",
+        "provenance_key": "official",
+        "raw_excerpt": "License: modified-mit",
+        "review_status": "accepted",
+        "reviewed_at": null
+      }
+    ],
+    "family": "Kimi K2"
+  },
+  "review_notes": [
+    "Model artifacts enumerated from the official Hugging Face API on 2026-09-16 (file list and byte sizes only; no weights were downloaded or verified)."
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "schema_version": "3.2",
+  "record_type": "benchmark_run",
+  "status": "accepted",
+  "payload": {
+    "run_key": "passmark-cpu-models:hw:amd:ryzen-9-7945hx3d:laptop:global:2026-09-16",
+    "protocol_key": "passmark-cpu-models",
+    "protocol_version": "1",
+    "workload_key": null,
+    "started_at": "2026-09-16T04:16:04.406679Z",
+    "completed_at": null,
+    "environment": {
+      "snapshot_date": "2026-09-16",
+      "form_factor": "laptop",
+      "source_name": "AMD Ryzen 9 7945HX3D",
+      "population_source": "https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+9+7945HX3D&id=5799",
+      "population_all_cpus": 6006,
+      "population_in_class": 1647,
+      "rank_class_label": "Laptop"
+    },
+    "subjects": [
+      {
+        "entity_key": "hw:amd:ryzen-9-7945hx3d:laptop:global",
+        "role": "cpu",
+        "is_primary": true,
+        "quantity": 1
+      }
+    ],
+    "metrics": [
+      {
+        "metric_key": "passmark.cpu.mark",
+        "value_number": "57717",
+        "unit": "points",
+        "value_integer": null,
+        "value_boolean": null,
+        "value_text": null,
+        "statistic": "reported",
+        "sample_count": null
+      },
+      {
+        "metric_key": "passmark.cpu.single_thread",
+        "value_number": "4064",
+        "unit": "points",
+        "value_integer": null,
+        "value_boolean": null,
+        "value_text": null,
+        "statistic": "reported",
+        "sample_count": null
+      },
+      {
+        "metric_key": "passmark.cpu.rank_multi",
+        "value_number": null,
+        "unit": "rank",
+        "value_integer": 199,
+        "value_boolean": null,
+        "value_text": null,
+        "statistic": "reported",
+        "sample_count": null
+      },
+      {
+        "metric_key": "passmark.cpu.rank_class",
+        "value_number": null,
+        "unit": "rank",
+        "value_integer": 3,
+        "value_boolean": null,
+        "value_text": null,
+        "statistic": "reported",
+        "sample_count": null
+      },
+      {
+        "metric_key": "passmark.cpu.rank_single",
+        "value_number": null,
+        "unit": "rank",
+        "value_integer": 203,
+        "value_boolean": null,
+        "value_text": null,
+        "statistic": "reported",
+        "sample_count": null
+      }
+    ],
+    "evidence": [],
+    "source_key": "src:passmark:cpu-models-2026-09-16",
+    "run_origin": "independent",
+    "test_date": "2026-09-16",
+    "status": "success",
+    "settings": {
+      "source_page": "https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+9+7945HX3D&id=5799",
+      "score_column": "Average CPU Mark"
+    },
+    "settings_hash": null,
+    "sample_count": null,
+    "aggregation_method": "reported",
+    "raw_result_url": "https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+9+7945HX3D&id=5799",
+    "raw_result_hash": "3123506a24d58f29feea5560593a78f6835bd25cde03cb908c9bb8a6e9ce8e46",
+    "notes": "Figures as published for 'AMD Ryzen 9 7945HX3D' in the 2026-09-16 snapshot."
+  },
+  "review_notes": []
+}

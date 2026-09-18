@@ -1,0 +1,69 @@
+{
+  "schema_version": "3.2",
+  "record_type": "hardware",
+  "status": "accepted",
+  "payload": {
+    "identity": {
+      "entity_key": "hw:amd:ryzen-5-7640hs:laptop:global",
+      "canonical_name": "Ryzen 5 7640HS",
+      "entity_type": "hardware",
+      "release_date": null,
+      "lifecycle_status": "unknown",
+      "recommendable": true
+    },
+    "category": "cpu",
+    "record_kind": "product",
+    "manufacturer_key": "org:amd",
+    "form_factor": "laptop",
+    "model_name": "Ryzen 5 7640HS",
+    "variant_name": null,
+    "market_segment": "mobile",
+    "region_code": "GLOBAL",
+    "official_product_id": null,
+    "product_family": null,
+    "attributes": [],
+    "evidence": [
+      {
+        "source_key": "src:amd:laptop-cpu",
+        "field_key": "entity.canonical_name",
+        "normalized_value": "Ryzen 5 7640HS",
+        "provenance_key": "official",
+        "raw_excerpt": "Ryzen 5 7640HS",
+        "review_status": "accepted",
+        "reviewed_at": null
+      },
+      {
+        "source_key": "src:amd:laptop-cpu",
+        "field_key": "cpu.integrated_gpu",
+        "normalized_value": "Radeon 760M",
+        "review_status": "accepted",
+        "confidence": 1
+      }
+    ],
+    "cpu_spec": {
+      "architecture": "Zen 4",
+      "codename": "Zen 4",
+      "cores_total": 6,
+      "threads": 12,
+      "performance_cores": null,
+      "efficiency_cores": null,
+      "base_clock_mhz": 4300,
+      "boost_clock_mhz": 5000,
+      "l2_cache_mib": null,
+      "l3_cache_mib": 16,
+      "base_power_w": 45,
+      "max_power_w": null,
+      "socket": null,
+      "memory_channels": null,
+      "max_memory_gib": null,
+      "ecc_support": null,
+      "pcie_generation": null,
+      "pcie_lanes": null,
+      "integrated_gpu": "Radeon 760M",
+      "npu_model": "Ryzen AI (NPU)"
+    }
+  },
+  "review_notes": [
+    "Added 2026-09-16 by the migration/backfill pass; value matches the stored specification column."
+  ]
+}

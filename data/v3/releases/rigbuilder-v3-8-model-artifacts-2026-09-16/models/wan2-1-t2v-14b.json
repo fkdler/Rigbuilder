@@ -1,0 +1,98 @@
+{
+  "schema_version": "3.2",
+  "record_type": "model",
+  "status": "accepted",
+  "payload": {
+    "identity": {
+      "entity_key": "model:wan-ai:wan2-1-t2v-14b",
+      "canonical_name": "Wan2.1-T2V-14B",
+      "entity_type": "ai_model",
+      "release_date": "2025-02-25",
+      "lifecycle_status": "unknown",
+      "recommendable": true
+    },
+    "publisher_key": "org:wan-ai",
+    "release_version": null,
+    "model_type": "diffusion",
+    "total_parameters": 14288491584,
+    "active_parameters": null,
+    "model_stage": "text_to_video",
+    "context_length_tokens": null,
+    "license_name": "Apache-2.0",
+    "commercial_use_status": "allowed",
+    "official_repo_url": "https://huggingface.co/Wan-AI/Wan2.1-T2V-14B",
+    "official_model_card_url": "https://huggingface.co/Wan-AI/Wan2.1-T2V-14B",
+    "architecture_notes": null,
+    "capabilities": [
+      {
+        "capability_key": "text_input",
+        "status": "supported",
+        "notes": null
+      },
+      {
+        "capability_key": "video_output",
+        "status": "supported",
+        "notes": null
+      }
+    ],
+    "variants": [
+      {
+        "identity": {
+          "entity_key": "variant:wan-ai-wan2-1-t2v-14b:official-pth",
+          "canonical_name": "Wan2.1-T2V-14B 官方权重 (pth, Wan-AI)",
+          "entity_type": "model_variant",
+          "release_date": null,
+          "lifecycle_status": "unknown",
+          "recommendable": true
+        },
+        "file_size_bytes": 69023607690,
+        "weight_format": "pth",
+        "official_status": "official",
+        "repository_url": "https://huggingface.co/Wan-AI/Wan2.1-T2V-14B",
+        "evidence": [
+          {
+            "source_key": "src:hf:wan-ai-wan2-1-t2v-14b",
+            "field_key": "entity.canonical_name",
+            "normalized_value": "Wan2.1-T2V-14B 官方权重 (pth, Wan-AI)",
+            "review_status": "accepted",
+            "confidence": 1
+          }
+        ]
+      }
+    ],
+    "evidence": [
+      {
+        "source_key": "src:card:wan2-1-t2v-14b",
+        "field_key": "entity.canonical_name",
+        "normalized_value": "Wan2.1-T2V-14B",
+        "provenance_key": "official",
+        "raw_excerpt": "Wan2.1-T2V-14B",
+        "review_status": "accepted",
+        "reviewed_at": null
+      },
+      {
+        "source_key": "src:card:wan2-1-t2v-14b",
+        "field_key": "model.license_name",
+        "normalized_value": "Apache-2.0",
+        "provenance_key": "official",
+        "raw_excerpt": "License: apache-2.0",
+        "review_status": "accepted",
+        "reviewed_at": null
+      },
+      {
+        "source_key": "src:card:wan2-1-t2v-14b",
+        "field_key": "model.total_parameters",
+        "normalized_value": 14288491584,
+        "provenance_key": "official",
+        "raw_excerpt": "HF API safetensors.total（精确）: 14288491584",
+        "review_status": "accepted",
+        "reviewed_at": null,
+        "notes": "由公开知识值校正为官方值（原值 14000000000）"
+      }
+    ],
+    "family": "Wan"
+  },
+  "review_notes": [
+    "Model artifacts enumerated from the official Hugging Face API on 2026-09-16 (file list and byte sizes only; no weights were downloaded or verified)."
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "schema_version": "3.2",
+  "record_type": "price_snapshot",
+  "status": "pending",
+  "payload": {
+    "price_key": "price:hw:nvidia:geforce-rtx-3090:desktop:global:cn:2026-09",
+    "entity_key": "hw:nvidia:geforce-rtx-3090:desktop:global",
+    "source_key": "source:jd:geforce-rtx-3090-10143406753582",
+    "observed_at": "2026-09-07T07:35:22+08:00",
+    "currency": "CNY",
+    "amount": 8799,
+    "availability": "in_stock",
+    "price_type": "current_new",
+    "market_region": "CN",
+    "condition": "new",
+    "seller_key": null,
+    "notes": "华硕猛禽"
+  },
+  "review_notes": [
+    "用户提供；华硕猛禽 京东页面价。"
+  ]
+}

@@ -1,0 +1,236 @@
+{
+  "schema_version": "3.2",
+  "record_type": "model",
+  "status": "accepted",
+  "payload": {
+    "identity": {
+      "entity_key": "model:qwen:qwen3-235b-a22b",
+      "canonical_name": "Qwen3-235B-A22B",
+      "entity_type": "ai_model",
+      "release_date": "2025-04-29",
+      "lifecycle_status": "unknown",
+      "recommendable": true
+    },
+    "publisher_key": "org:qwen",
+    "release_version": null,
+    "model_type": "moe",
+    "total_parameters": 235093634560,
+    "active_parameters": 22000000000,
+    "model_stage": "instruct",
+    "context_length_tokens": 40960,
+    "license_name": "Apache-2.0",
+    "commercial_use_status": "allowed",
+    "official_repo_url": "https://huggingface.co/Qwen/Qwen3-235B-A22B",
+    "official_model_card_url": "https://huggingface.co/Qwen/Qwen3-235B-A22B",
+    "architecture_notes": null,
+    "capabilities": [
+      {
+        "capability_key": "text_input",
+        "status": "supported",
+        "notes": null
+      }
+    ],
+    "variants": [
+      {
+        "identity": {
+          "entity_key": "variant:qwen:qwen3-235b-a22b:gguf:q4-k-m:unsloth",
+          "canonical_name": "Qwen3-235B-A22B Q4_K_M (GGUF, unsloth)",
+          "entity_type": "model_variant",
+          "release_date": null,
+          "lifecycle_status": "unknown",
+          "recommendable": false
+        },
+        "maintainer_key": "org:unsloth",
+        "quantization_method": "Q4_K_M",
+        "weight_format": "GGUF",
+        "bits_per_weight": null,
+        "file_size_bytes": 142154075712,
+        "official_status": "community",
+        "repository_url": "https://huggingface.co/unsloth/Qwen3-235B-A22B-128K-GGUF",
+        "artifact_revision": null,
+        "artifact_manifest": null,
+        "checksum": null,
+        "evidence": [
+          {
+            "source_key": "src:gguf:unsloth-qwen3-235b-a22b-128k-gguf",
+            "field_key": "entity.canonical_name",
+            "normalized_value": "Qwen3-235B-A22B Q4_K_M (GGUF, unsloth)",
+            "provenance_key": "community_reported",
+            "raw_excerpt": "Qwen3-235B-A22B Q4_K_M (GGUF, unsloth)",
+            "review_status": "accepted",
+            "reviewed_at": null
+          }
+        ]
+      },
+      {
+        "identity": {
+          "entity_key": "variant:qwen:qwen3-235b-a22b:gguf:q5-k-m:unsloth",
+          "canonical_name": "Qwen3-235B-A22B Q5_K_M (GGUF, unsloth)",
+          "entity_type": "model_variant",
+          "release_date": null,
+          "lifecycle_status": "unknown",
+          "recommendable": false
+        },
+        "maintainer_key": "org:unsloth",
+        "quantization_method": "Q5_K_M",
+        "weight_format": "GGUF",
+        "bits_per_weight": null,
+        "file_size_bytes": 166814158496,
+        "official_status": "community",
+        "repository_url": "https://huggingface.co/unsloth/Qwen3-235B-A22B-128K-GGUF",
+        "artifact_revision": null,
+        "artifact_manifest": null,
+        "checksum": null,
+        "evidence": [
+          {
+            "source_key": "src:gguf:unsloth-qwen3-235b-a22b-128k-gguf",
+            "field_key": "entity.canonical_name",
+            "normalized_value": "Qwen3-235B-A22B Q5_K_M (GGUF, unsloth)",
+            "provenance_key": "community_reported",
+            "raw_excerpt": "Qwen3-235B-A22B Q5_K_M (GGUF, unsloth)",
+            "review_status": "accepted",
+            "reviewed_at": null
+          }
+        ]
+      },
+      {
+        "identity": {
+          "entity_key": "variant:qwen:qwen3-235b-a22b:gguf:q8-0:unsloth",
+          "canonical_name": "Qwen3-235B-A22B Q8_0 (GGUF, unsloth)",
+          "entity_type": "model_variant",
+          "release_date": null,
+          "lifecycle_status": "unknown",
+          "recommendable": false
+        },
+        "maintainer_key": "org:unsloth",
+        "quantization_method": "Q8_0",
+        "weight_format": "GGUF",
+        "bits_per_weight": null,
+        "file_size_bytes": 249940107232,
+        "official_status": "community",
+        "repository_url": "https://huggingface.co/unsloth/Qwen3-235B-A22B-128K-GGUF",
+        "artifact_revision": null,
+        "artifact_manifest": null,
+        "checksum": null,
+        "evidence": [
+          {
+            "source_key": "src:gguf:unsloth-qwen3-235b-a22b-128k-gguf",
+            "field_key": "entity.canonical_name",
+            "normalized_value": "Qwen3-235B-A22B Q8_0 (GGUF, unsloth)",
+            "provenance_key": "community_reported",
+            "raw_excerpt": "Qwen3-235B-A22B Q8_0 (GGUF, unsloth)",
+            "review_status": "accepted",
+            "reviewed_at": null
+          }
+        ]
+      }
+    ],
+    "evidence": [
+      {
+        "source_key": "src:card:qwen3-235b-a22b",
+        "field_key": "entity.canonical_name",
+        "normalized_value": "Qwen3-235B-A22B",
+        "provenance_key": "official",
+        "raw_excerpt": "Qwen3-235B-A22B",
+        "review_status": "accepted",
+        "reviewed_at": null
+      },
+      {
+        "source_key": "src:card:qwen3-235b-a22b",
+        "field_key": "model.context_length_tokens",
+        "normalized_value": 40960,
+        "unit_key": "tokens",
+        "provenance_key": "official",
+        "raw_excerpt": "config.json max_position_embeddings: 40960",
+        "review_status": "accepted",
+        "reviewed_at": null,
+        "notes": "由公开知识值校正为官方值（原值 131072）"
+      },
+      {
+        "source_key": "src:card:qwen3-235b-a22b",
+        "field_key": "model.license_name",
+        "normalized_value": "Apache-2.0",
+        "provenance_key": "official",
+        "raw_excerpt": "License: apache-2.0",
+        "review_status": "accepted",
+        "reviewed_at": null
+      },
+      {
+        "source_key": "src:card:qwen3-235b-a22b",
+        "field_key": "model.total_parameters",
+        "normalized_value": 235093634560,
+        "provenance_key": "official",
+        "raw_excerpt": "HF API safetensors.total（精确）: 235093634560",
+        "notes": "由官方 config/API 回填",
+        "review_status": "accepted",
+        "reviewed_at": null
+      },
+      {
+        "source_key": "src:modelfit:hardware-dataset-2026-09-16",
+        "field_key": "model.deployment_min_ram_gb",
+        "normalized_value": 192,
+        "raw_excerpt": "ModelFit dataset, model 'Qwen3 235B A22B', minRamGb=192",
+        "source_locator": "models[model='Qwen3 235B A22B'].minRamGb",
+        "confidence": "0.8",
+        "unit_key": "gib",
+        "provenance_key": null,
+        "review_status": "accepted",
+        "collected_at": "2026-09-16T00:00:00Z",
+        "reviewed_at": null,
+        "notes": "ModelFit 自述该字段为估算值（estimates, not measured）；CC BY 4.0。"
+      },
+      {
+        "source_key": "src:modelfit:hardware-dataset-2026-09-16",
+        "field_key": "model.deployment_estimated_load_gb",
+        "normalized_value": 130,
+        "raw_excerpt": "ModelFit dataset, model 'Qwen3 235B A22B', estimatedLoadGb=130",
+        "source_locator": "models[model='Qwen3 235B A22B'].estimatedLoadGb",
+        "confidence": "0.8",
+        "unit_key": "gib",
+        "provenance_key": null,
+        "review_status": "accepted",
+        "collected_at": "2026-09-16T00:00:00Z",
+        "reviewed_at": null,
+        "notes": "ModelFit 自述该字段为估算值（estimates, not measured）；CC BY 4.0。"
+      }
+    ],
+    "family": "Qwen3",
+    "attributes": [
+      {
+        "field_key": "model.deployment_min_ram_gb",
+        "qualifier_key": "Q4_K_M",
+        "value_number": "192",
+        "value_boolean": null,
+        "value_date": null,
+        "value_json": null,
+        "value_integer": null,
+        "value_text": null,
+        "unit": "gib",
+        "value_status": "known",
+        "qualifier": {
+          "quantization": "Q4_K_M",
+          "source_field": "minRamGb"
+        }
+      },
+      {
+        "field_key": "model.deployment_estimated_load_gb",
+        "qualifier_key": "Q4_K_M",
+        "value_number": "130",
+        "value_boolean": null,
+        "value_date": null,
+        "value_json": null,
+        "value_integer": null,
+        "value_text": null,
+        "unit": "gib",
+        "value_status": "known",
+        "qualifier": {
+          "quantization": "Q4_K_M",
+          "source_field": "estimatedLoadGb"
+        }
+      }
+    ]
+  },
+  "review_notes": [
+    "Deployment attributes added 2026-09-16 from the ModelFit dataset (CC BY 4.0, modelfit.io). These are estimates published by ModelFit, not measurements this project performed."
+  ]
+}

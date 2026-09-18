@@ -1,0 +1,23 @@
+{
+  "schema_version": "3.2",
+  "record_type": "source_document",
+  "status": "accepted",
+  "payload": {
+    "source_key": "source:jd:ryzen-9-7950x3d-100053675655",
+    "title": "AMD锐龙9 7950X3D游戏处理器16核32线程144MB游戏缓存加速频率至高5.7GHz盒装CPU 畅玩无畏契约/CSGO4.2GHz|16核32线程|支",
+    "url": "https://item.jd.com/100053675655.html",
+    "source_type": "retailer",
+    "source_tier": "C",
+    "publisher_key": null,
+    "published_at": null,
+    "market_region": "CN",
+    "language": "zh-CN",
+    "availability_status": "accessible",
+    "archive_url": null,
+    "accessed_at": "2026-09-07T07:14:05+00:00",
+    "content_hash": "f70d36804249051a69ebcda8ac77bc1e1c67a07b6714c200dba8b402901d191b"
+  },
+  "review_notes": [
+    "京东标价 SKU 100053675655；店铺：000+3200+人种草AMD京东自营旗舰店；页面标价作为 current_new。"
+  ]
+}

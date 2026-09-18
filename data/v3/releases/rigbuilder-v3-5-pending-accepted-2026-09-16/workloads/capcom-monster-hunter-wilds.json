@@ -1,0 +1,129 @@
+{
+  "schema_version": "3.2",
+  "record_type": "workload",
+  "status": "accepted",
+  "payload": {
+    "identity": {
+      "entity_key": "workload:game:monster-hunter-wilds",
+      "canonical_name": "Monster Hunter Wilds",
+      "entity_type": "workload",
+      "release_date": null,
+      "lifecycle_status": "unknown",
+      "recommendable": true
+    },
+    "workload_type": "game",
+    "publisher_key": "org:capcom",
+    "family": "Monster Hunter",
+    "current_version": null,
+    "engine": "RE Engine",
+    "official_url": "https://www.monsterhunter.com/wilds/",
+    "description": "怪物猎人：荒野（RE Engine，中高需求）",
+    "profiles": [
+      {
+        "profile_key": "minimum",
+        "label": "官方最低配置",
+        "version_label": null,
+        "settings": {},
+        "valid_from": null,
+        "valid_to": null,
+        "source_key": "source:game-monster-hunter-wilds-sysreq"
+      },
+      {
+        "profile_key": "recommended",
+        "label": "官方推荐配置",
+        "version_label": null,
+        "settings": {},
+        "valid_from": null,
+        "valid_to": null,
+        "source_key": "source:game-monster-hunter-wilds-sysreq"
+      }
+    ],
+    "requirements": [
+      {
+        "profile_key": "minimum",
+        "component_role": "cpu",
+        "operator": "text_only",
+        "reference_entity_key": null,
+        "numeric_value": null,
+        "unit_key": null,
+        "value_text": "Intel Core i5-10400 / AMD Ryzen 5 3600",
+        "raw_value": "i5-10400 / Ryzen 5 3600"
+      },
+      {
+        "profile_key": "minimum",
+        "component_role": "gpu",
+        "operator": "text_only",
+        "reference_entity_key": null,
+        "numeric_value": null,
+        "unit_key": null,
+        "value_text": "NVIDIA GTX 1660 6GB / AMD RX 5500 XT 8GB",
+        "raw_value": "GTX 1660 / RX 5500 XT"
+      },
+      {
+        "profile_key": "minimum",
+        "component_role": "ram",
+        "operator": "gte",
+        "reference_entity_key": null,
+        "numeric_value": 16,
+        "unit_key": "gib",
+        "value_text": null,
+        "raw_value": null
+      },
+      {
+        "profile_key": "minimum",
+        "component_role": "storage",
+        "operator": "gte",
+        "reference_entity_key": null,
+        "numeric_value": 75,
+        "unit_key": "gib",
+        "value_text": null,
+        "raw_value": null
+      },
+      {
+        "profile_key": "recommended",
+        "component_role": "cpu",
+        "operator": "text_only",
+        "reference_entity_key": null,
+        "numeric_value": null,
+        "unit_key": null,
+        "value_text": "Intel Core i5-11600K / AMD Ryzen 5 5600X",
+        "raw_value": "i5-11600K / Ryzen 5 5600X"
+      },
+      {
+        "profile_key": "recommended",
+        "component_role": "gpu",
+        "operator": "text_only",
+        "reference_entity_key": null,
+        "numeric_value": null,
+        "unit_key": null,
+        "value_text": "NVIDIA RTX 2070 Super / AMD RX 6700 XT",
+        "raw_value": "RTX 2070 Super / RX 6700 XT"
+      },
+      {
+        "profile_key": "recommended",
+        "component_role": "ram",
+        "operator": "gte",
+        "reference_entity_key": null,
+        "numeric_value": 16,
+        "unit_key": "gib",
+        "value_text": null,
+        "raw_value": null
+      }
+    ],
+    "evidence": [
+      {
+        "source_key": "source:game-monster-hunter-wilds-sysreq",
+        "field_key": "entity.canonical_name",
+        "normalized_value": "Monster Hunter Wilds",
+        "provenance_key": "official",
+        "raw_excerpt": "game-monster-hunter-wilds",
+        "review_status": "accepted",
+        "reviewed_at": null
+      }
+    ]
+  },
+  "review_notes": [
+    "workload 扩展批（2026-09-07）：需求值为公开知识/官方需求整理，pending；游戏 sysreq 待官方页逐字核验；AI/工程类需求为我方整理口径（参考对应工具官方文档），需审核。",
+    "Approved in bulk on 2026-09-16 at the user's explicit request; no per-record human review."
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "schema_version": "3.2",
+  "record_type": "source_document",
+  "status": "accepted",
+  "payload": {
+    "source_key": "source:hf-api-review-20260915:Qwen/Qwen3-VL-30B-A3B-Instruct",
+    "title": "Qwen/Qwen3-VL-30B-A3B-Instruct official repository metadata",
+    "url": "https://huggingface.co/api/models/Qwen/Qwen3-VL-30B-A3B-Instruct",
+    "source_type": "model_card",
+    "source_tier": "A",
+    "accessed_at": "2026-09-15T11:32:41.013703+00:00",
+    "content_hash": "0760b01f11549216c7ef6e5081c191943cb92f0f358d0b307baadb8e28442232",
+    "availability_status": "accessible"
+  },
+  "review_notes": [
+    "本次实际读取官方仓库公开 API 元数据；hash 对应保存的原始响应。不是下载权重或实测。"
+  ]
+}

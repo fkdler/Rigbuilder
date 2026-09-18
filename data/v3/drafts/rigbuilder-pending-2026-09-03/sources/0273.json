@@ -1,0 +1,24 @@
+{
+  "schema_version": "3.2",
+  "record_type": "source_document",
+  "status": "pending",
+  "payload": {
+    "source_key": "src:gguf:unsloth-qwen3-vl-30b-a3b-instruct-gguf",
+    "title": "unsloth/Qwen3-VL-30B-A3B-Instruct-GGUF (Hugging Face)",
+    "url": "https://huggingface.co/unsloth/Qwen3-VL-30B-A3B-Instruct-GGUF",
+    "publisher_key": "org:unsloth",
+    "source_type": "community",
+    "source_tier": "D",
+    "published_at": null,
+    "market_region": null,
+    "language": null,
+    "availability_status": "accessible",
+    "archive_url": null,
+    "accessed_at": "2026-09-14T11:58:25+00:00",
+    "content_hash": "71577421c5e60b2da7d07e309bb04e73a0387cb3d28489511389de1e826770b4"
+  },
+  "review_notes": [
+    "模型扩展第二批来源（2026-09-07）：pending，待抓取核验。",
+    "2026-09-14 经镜像抓取：https://hf-mirror.com/unsloth/Qwen3-VL-30B-A3B-Instruct-GGUF（来源登记 URL 保持原样 https://huggingface.co/unsloth/Qwen3-VL-30B-A3B-Instruct-GGUF）。"
+  ]
+}

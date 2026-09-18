@@ -1,0 +1,25 @@
+{
+  "schema_version": "3.2",
+  "record_type": "source_document",
+  "status": "accepted",
+  "payload": {
+    "source_key": "src:card:llama-3-2-1b-instruct",
+    "title": "Llama-3.2-1B-Instruct Model Card",
+    "url": "https://huggingface.co/meta-llama/Llama-3.2-1B-Instruct",
+    "publisher_key": "org:meta",
+    "source_type": "model_card",
+    "source_tier": "A",
+    "published_at": null,
+    "market_region": null,
+    "language": null,
+    "availability_status": "accessible",
+    "archive_url": null,
+    "accessed_at": "2026-09-14T11:57:48+00:00",
+    "content_hash": "64754f4357180861a3105c91453d12d612aa67db9a9e3ba271043b55623f3c7a"
+  },
+  "review_notes": [
+    "模型扩展第二批来源（2026-09-07）：pending，待抓取核验。",
+    "2026-09-14 经镜像抓取：https://hf-mirror.com/meta-llama/Llama-3.2-1B-Instruct（来源登记 URL 保持原样 https://huggingface.co/meta-llama/Llama-3.2-1B-Instruct）。",
+    "Approved in bulk on 2026-09-16 at the user's explicit request; no per-record human review."
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": "3.2",
+  "record_type": "entity_alias",
+  "status": "accepted",
+  "payload": {
+    "entity_key": "model:moonshot-ai:kimi-k2-instruct",
+    "alias": "moonshotai/Kimi-K2-Instruct",
+    "alias_type": "repository",
+    "language": null,
+    "normalized_alias": "moonshotaikimik2instruct",
+    "source_key": null
+  },
+  "review_notes": []
+}

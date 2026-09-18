@@ -1,0 +1,98 @@
+{
+  "schema_version": "3.2",
+  "record_type": "model",
+  "status": "accepted",
+  "payload": {
+    "identity": {
+      "entity_key": "model:skywork:skyreels-v2",
+      "canonical_name": "SkyReels-V2",
+      "entity_type": "ai_model",
+      "release_date": "2025-04-21",
+      "lifecycle_status": "unknown",
+      "recommendable": true
+    },
+    "publisher_key": "org:skywork",
+    "release_version": null,
+    "model_type": "diffusion",
+    "total_parameters": 16394878784,
+    "active_parameters": null,
+    "model_stage": "text_to_video",
+    "context_length_tokens": null,
+    "license_name": "SkyReels-License",
+    "commercial_use_status": "allowed",
+    "official_repo_url": "https://huggingface.co/Skywork/SkyReels-V2-I2V-14B-720P-Diffusers",
+    "official_model_card_url": "https://huggingface.co/Skywork/SkyReels-V2-I2V-14B-720P-Diffusers",
+    "architecture_notes": null,
+    "capabilities": [
+      {
+        "capability_key": "text_input",
+        "status": "supported",
+        "notes": null
+      },
+      {
+        "capability_key": "video_output",
+        "status": "supported",
+        "notes": null
+      }
+    ],
+    "variants": [
+      {
+        "identity": {
+          "entity_key": "variant:skywork-skyreels-v2-i2v-14b-720p-diffusers:official-safetensors",
+          "canonical_name": "SkyReels-V2 官方权重 (safetensors, Skywork)",
+          "entity_type": "model_variant",
+          "release_date": null,
+          "lifecycle_status": "unknown",
+          "recommendable": true
+        },
+        "file_size_bytes": 91339283940,
+        "weight_format": "safetensors",
+        "official_status": "official",
+        "repository_url": "https://huggingface.co/Skywork/SkyReels-V2-I2V-14B-720P-Diffusers",
+        "evidence": [
+          {
+            "source_key": "src:hf:skywork-skyreels-v2-i2v-14b-720p-diffusers",
+            "field_key": "entity.canonical_name",
+            "normalized_value": "SkyReels-V2 官方权重 (safetensors, Skywork)",
+            "review_status": "accepted",
+            "confidence": 1
+          }
+        ]
+      }
+    ],
+    "evidence": [
+      {
+        "source_key": "src:card:skyreels-v2",
+        "field_key": "entity.canonical_name",
+        "normalized_value": "SkyReels-V2",
+        "provenance_key": "official",
+        "raw_excerpt": "SkyReels-V2",
+        "review_status": "accepted",
+        "reviewed_at": null
+      },
+      {
+        "source_key": "src:card:skyreels-v2",
+        "field_key": "model.license_name",
+        "normalized_value": "SkyReels-License",
+        "provenance_key": "official",
+        "raw_excerpt": "SkyReels-License",
+        "review_status": "accepted",
+        "reviewed_at": null
+      },
+      {
+        "source_key": "src:card:skyreels-v2",
+        "field_key": "model.total_parameters",
+        "normalized_value": 16394878784,
+        "provenance_key": "official",
+        "raw_excerpt": "HF API safetensors.total（精确）: 16394878784",
+        "notes": "由官方 config/API 回填",
+        "review_status": "accepted",
+        "reviewed_at": null
+      }
+    ],
+    "family": "SkyReels"
+  },
+  "review_notes": [
+    "Model artifacts enumerated from the official Hugging Face API on 2026-09-16 (file list and byte sizes only; no weights were downloaded or verified)."
+  ]
+}

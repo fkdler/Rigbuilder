@@ -1,0 +1,24 @@
+{
+  "schema_version": "3.2",
+  "record_type": "source_document",
+  "status": "pending",
+  "payload": {
+    "source_key": "src:card:fish-speech-1-5",
+    "title": "Fish-Speech-1.5 Model Card",
+    "url": "https://huggingface.co/fishaudio/fish-speech-1.5",
+    "publisher_key": "org:fishaudio",
+    "source_type": "model_card",
+    "source_tier": "A",
+    "published_at": null,
+    "market_region": null,
+    "language": null,
+    "availability_status": "accessible",
+    "archive_url": null,
+    "accessed_at": "2026-09-15T11:32:57+00:00",
+    "content_hash": "59df22ea6c82ca732125b030d4d3827d3e295e2d124fea035909b65e3110e616"
+  },
+  "review_notes": [
+    "多模态模型来源登记（2026-09-07）：pending。",
+    "2026-09-15 经镜像抓取：https://hf-mirror.com/fishaudio/fish-speech-1.5（来源登记 URL 保持原样 https://huggingface.co/fishaudio/fish-speech-1.5）。"
+  ]
+}

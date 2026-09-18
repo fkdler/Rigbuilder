@@ -1,0 +1,24 @@
+{
+  "schema_version": "3.2",
+  "record_type": "source_document",
+  "status": "accepted",
+  "payload": {
+    "source_key": "src:nvidia:gpu-family-5050",
+    "title": "GeForce RTX 5050 - NVIDIA",
+    "url": "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5050/",
+    "publisher_key": "org:nvidia",
+    "source_type": "official_page",
+    "source_tier": "A",
+    "published_at": null,
+    "market_region": null,
+    "language": null,
+    "availability_status": "accessible",
+    "archive_url": null,
+    "accessed_at": "2026-09-14T09:35:40+00:00",
+    "content_hash": "4c3cd4c66dd7f82d531ce2c884caac5e5d687e78b6b78c9ea8aca7325b275c83"
+  },
+  "review_notes": [
+    "GPU 批次来源登记（2026-09-07）：pending，待 page_save.py 抓取回填 accessed_at/content_hash。",
+    "Approved in bulk on 2026-09-16 at the user's explicit request; no per-record human review."
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "schema_version": "3.2",
+  "record_type": "hardware",
+  "status": "pending",
+  "payload": {
+    "identity": {
+      "entity_key": "hw:spec:memory-ddr5-4800:desktop:global",
+      "canonical_name": "DDR5-4800 (UDIMM)",
+      "entity_type": "hardware",
+      "release_date": null,
+      "lifecycle_status": "unknown",
+      "recommendable": false
+    },
+    "category": "memory",
+    "record_kind": "spec_profile",
+    "manufacturer_key": null,
+    "form_factor": "UDIMM",
+    "model_name": "DDR5-4800",
+    "variant_name": null,
+    "market_segment": "consumer",
+    "region_code": "GLOBAL",
+    "official_product_id": null,
+    "product_family": null,
+    "memory_spec": {
+      "memory_standard": "DDR5",
+      "form_factor": "UDIMM",
+      "capacity_gib": null,
+      "speed_mt_s": 4800,
+      "ecc": null,
+      "registered": null,
+      "voltage_v": 1.1
+    },
+    "attributes": [],
+    "evidence": [
+      {
+        "source_key": "src:hardquery:hardware",
+        "field_key": "entity.canonical_name",
+        "normalized_value": "DDR5-4800 (UDIMM)",
+        "provenance_key": "community_reported",
+        "raw_excerpt": "DDR5-4800 (UDIMM)",
+        "review_status": "pending",
+        "reviewed_at": null
+      }
+    ]
+  },
+  "review_notes": [
+    "规格级 Profile（无厂商绑定）：值为公开标准常识档位（JEDEC/PCIe-SIG/80 PLUS/ATX 等），未逐字读取页面。",
+    "未注册具体来源 URL 前不挂 evidence（符合\"无来源不挂证据\"）；来源（标准组织官方页）待审核阶段补充。",
+    "capacity/connector 等具 SKU 特征的字段不在此规格档范围，保持 null/[]。",
+    "2026-09-07 evidence 补全：挂 canonical_name 证据（来源见 sources）；其余字段证据待逐字核验后补。"
+  ]
+}

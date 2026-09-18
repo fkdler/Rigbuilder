@@ -1,0 +1,98 @@
+{
+  "schema_version": "3.2",
+  "record_type": "model",
+  "status": "accepted",
+  "payload": {
+    "identity": {
+      "entity_key": "model:stability-ai:stable-diffusion-3-5-medium",
+      "canonical_name": "stable-diffusion-3.5-medium",
+      "entity_type": "ai_model",
+      "release_date": "2024-10-22",
+      "lifecycle_status": "unknown",
+      "recommendable": true
+    },
+    "publisher_key": "org:stability-ai",
+    "release_version": null,
+    "model_type": "diffusion",
+    "total_parameters": 2469663936,
+    "active_parameters": null,
+    "model_stage": "text_to_image",
+    "context_length_tokens": null,
+    "license_name": "Stability-AI-Community",
+    "commercial_use_status": "allowed",
+    "official_repo_url": "https://huggingface.co/stabilityai/stable-diffusion-3.5-medium",
+    "official_model_card_url": "https://huggingface.co/stabilityai/stable-diffusion-3.5-medium",
+    "architecture_notes": null,
+    "capabilities": [
+      {
+        "capability_key": "text_input",
+        "status": "supported",
+        "notes": null
+      },
+      {
+        "capability_key": "image_output",
+        "status": "supported",
+        "notes": null
+      }
+    ],
+    "variants": [
+      {
+        "identity": {
+          "entity_key": "variant:stabilityai-stable-diffusion-3-5-medium:official-safetensors",
+          "canonical_name": "stable-diffusion-3.5-medium 官方权重 (safetensors, stabilityai)",
+          "entity_type": "model_variant",
+          "release_date": null,
+          "lifecycle_status": "unknown",
+          "recommendable": true
+        },
+        "file_size_bytes": 48854215964,
+        "weight_format": "safetensors",
+        "official_status": "official",
+        "repository_url": "https://huggingface.co/stabilityai/stable-diffusion-3.5-medium",
+        "evidence": [
+          {
+            "source_key": "src:hf:stabilityai-stable-diffusion-3-5-medium",
+            "field_key": "entity.canonical_name",
+            "normalized_value": "stable-diffusion-3.5-medium 官方权重 (safetensors, stabilityai)",
+            "review_status": "accepted",
+            "confidence": 1
+          }
+        ]
+      }
+    ],
+    "evidence": [
+      {
+        "source_key": "src:card:stable-diffusion-3-5-medium",
+        "field_key": "entity.canonical_name",
+        "normalized_value": "stable-diffusion-3.5-medium",
+        "provenance_key": "official",
+        "raw_excerpt": "stable-diffusion-3.5-medium",
+        "review_status": "accepted",
+        "reviewed_at": null
+      },
+      {
+        "source_key": "src:card:stable-diffusion-3-5-medium",
+        "field_key": "model.license_name",
+        "normalized_value": "Stability-AI-Community",
+        "provenance_key": "official",
+        "raw_excerpt": "License: stabilityai-ai-community",
+        "review_status": "accepted",
+        "reviewed_at": null
+      },
+      {
+        "source_key": "src:card:stable-diffusion-3-5-medium",
+        "field_key": "model.total_parameters",
+        "normalized_value": 2469663936,
+        "provenance_key": "official",
+        "raw_excerpt": "HF API safetensors.total（精确）: 2469663936",
+        "review_status": "accepted",
+        "reviewed_at": null,
+        "notes": "由公开知识值校正为官方值（原值 2500000000）"
+      }
+    ],
+    "family": "Stable Diffusion 3.5"
+  },
+  "review_notes": [
+    "Model artifacts enumerated from the official Hugging Face API on 2026-09-16 (file list and byte sizes only; no weights were downloaded or verified)."
+  ]
+}

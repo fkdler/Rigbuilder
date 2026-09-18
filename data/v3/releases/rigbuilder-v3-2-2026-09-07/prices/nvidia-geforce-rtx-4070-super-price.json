@@ -1,0 +1,22 @@
+{
+  "schema_version": "3.2",
+  "record_type": "price_snapshot",
+  "status": "accepted",
+  "payload": {
+    "price_key": "price:hw:nvidia:geforce-rtx-4070-super:desktop:global:cn:2026-09",
+    "entity_key": "hw:nvidia:geforce-rtx-4070-super:desktop:global",
+    "source_key": "source:jd:geforce-rtx-4070-super-100373693346",
+    "observed_at": "2026-09-05T13:26:28+08:00",
+    "currency": "CNY",
+    "amount": 5490.36,
+    "availability": "in_stock",
+    "price_type": "current_new",
+    "market_region": "CN",
+    "condition": "new",
+    "seller_key": null,
+    "notes": "0+65%好评梅捷（SOYO）京东自营旗舰店"
+  },
+  "review_notes": [
+    "京东页面当前价；抓取2026-09-05。"
+  ]
+}

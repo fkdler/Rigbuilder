@@ -1,0 +1,105 @@
+{
+  "schema_version": "3.2",
+  "record_type": "hardware",
+  "status": "pending",
+  "payload": {
+    "identity": {
+      "entity_key": "hw:nvidia:geforce-rtx-5060-laptop:laptop:global",
+      "canonical_name": "GeForce RTX 5060 Laptop GPU",
+      "entity_type": "hardware",
+      "release_date": null,
+      "lifecycle_status": "unknown",
+      "recommendable": true
+    },
+    "category": "gpu",
+    "record_kind": "product",
+    "manufacturer_key": "org:nvidia",
+    "form_factor": "laptop",
+    "model_name": "GeForce RTX 5060 Laptop GPU",
+    "variant_name": null,
+    "market_segment": "mobile",
+    "region_code": "GLOBAL",
+    "official_product_id": null,
+    "product_family": null,
+    "attributes": [],
+    "evidence": [
+      {
+        "source_key": "src:nvidia:gpu-laptop-geforce-rtx-5060-laptop-gpu",
+        "field_key": "entity.canonical_name",
+        "normalized_value": "GeForce RTX 5060 Laptop GPU",
+        "provenance_key": "official",
+        "raw_excerpt": "GeForce RTX 5060 Laptop GPU",
+        "review_status": "pending",
+        "reviewed_at": null
+      },
+      {
+        "source_key": "src:nvidia:gpu-laptop-geforce-rtx-5060-laptop-gpu",
+        "field_key": "gpu.vram_gib",
+        "normalized_value": 8,
+        "provenance_key": "official",
+        "raw_excerpt": "Standard Memory Configuration \n 24 GB GDDR7 \n 16 GB GDDR7 \n 12 GB GDDR7 \n 12 GB GDDR7 8 GB GDDR7 \n 8 GB GDDR7 \n 8 GB GDDR7",
+        "review_status": "pending",
+        "reviewed_at": null,
+        "notes": "NVIDIA 规格表｜列「GeForce RTX 5060 Laptop GPU」（第 5/6 列）｜请核对：raw_excerpt 为页面该字段整行原文，本条目取其中该列的值"
+      },
+      {
+        "source_key": "src:nvidia:gpu-laptop-geforce-rtx-5060-laptop-gpu",
+        "field_key": "gpu.memory_bandwidth_gb_s",
+        "normalized_value": 384,
+        "provenance_key": "official",
+        "raw_excerpt": "Memory Bandwidth \n 896 GB/s \n 896 GB/s \n 672 GB/s \n 384 GB/s \n 384 GB/s \n 384 GB/s",
+        "review_status": "pending",
+        "reviewed_at": null,
+        "notes": "NVIDIA 规格表｜列「GeForce RTX 5060 Laptop GPU」（第 5/6 列）｜请核对：raw_excerpt 为页面该字段整行原文，本条目取其中该列的值"
+      },
+      {
+        "source_key": "src:nvidia:gpu-laptop-geforce-rtx-5060-laptop-gpu",
+        "field_key": "laptop_gpu.boost_clock_min_mhz",
+        "normalized_value": 1455,
+        "provenance_key": "official",
+        "raw_excerpt": "Boost Clock (MHz) \n 1597 - 2160 MHz \n 1500 - 2287 MHz \n 1447 - 2220 MHz \n 1425 - 2347 MHz \n 1455 - 2497 MHz \n 1500 - 2662 MHz",
+        "review_status": "pending",
+        "reviewed_at": null,
+        "notes": "NVIDIA 规格表｜列「GeForce RTX 5060 Laptop GPU」（第 5/6 列）｜请核对：raw_excerpt 为页面该字段整行原文，本条目取其中该列的值"
+      },
+      {
+        "source_key": "src:nvidia:gpu-laptop-geforce-rtx-5060-laptop-gpu",
+        "field_key": "laptop_gpu.boost_clock_max_mhz",
+        "normalized_value": 2497,
+        "provenance_key": "official",
+        "raw_excerpt": "Boost Clock (MHz) \n 1597 - 2160 MHz \n 1500 - 2287 MHz \n 1447 - 2220 MHz \n 1425 - 2347 MHz \n 1455 - 2497 MHz \n 1500 - 2662 MHz",
+        "review_status": "pending",
+        "reviewed_at": null,
+        "notes": "NVIDIA 规格表｜列「GeForce RTX 5060 Laptop GPU」（第 5/6 列）｜请核对：raw_excerpt 为页面该字段整行原文，本条目取其中该列的值"
+      }
+    ],
+    "laptop_gpu_spec": {
+      "tgp_min_w": null,
+      "tgp_max_w": 115,
+      "boost_clock_min_mhz": 1455,
+      "boost_clock_max_mhz": 2497,
+      "dynamic_boost_w": null
+    },
+    "gpu_spec": {
+      "architecture": "Blackwell",
+      "vram_gib": 8,
+      "memory_type": "GDDR7",
+      "memory_bus_width_bit": 128,
+      "memory_bandwidth_gb_s": 384,
+      "ecc_support": false,
+      "interface": null,
+      "pcie_generation": null,
+      "pcie_lanes": null,
+      "board_power_w": null
+    }
+  },
+  "review_notes": [
+    "重建/扩展收集（2026-09-07）：官方来源页待核验（弃用页将找替代官方来源），未挂 evidence；值按公开规格知识填写，pending，待来源确认后核对。",
+    "2026-09-07 补齐：laptop GPU 缺失的 gpu_spec（架构/显存/位宽，公开规格知识值，pending）。",
+    "2026-09-14 evidence 提取：从快照 src_nvidia_gpu-laptop-geforce-rtx-5060-laptop-gpu.txt 提取字段级逐字证据（pending，待审核）。",
+    "2026-09-15 evidence 提取：从快照 src_nvidia_gpu-laptop-geforce-rtx-5060-laptop-gpu.txt 提取字段级逐字证据（pending，待审核）。",
+    "2026-09-15 evidence 提取：从快照 src_nvidia_gpu-laptop-geforce-rtx-5060-laptop-gpu.txt 提取字段级逐字证据（pending，待审核）。",
+    "2026-09-15 evidence 提取：从快照 src_nvidia_gpu-laptop-geforce-rtx-5060-laptop-gpu.txt 提取字段级逐字证据（pending，待审核）。",
+    "2026-09-15 evidence 提取：从快照 src_nvidia_gpu-laptop-geforce-rtx-5060-laptop-gpu.txt 提取字段级逐字证据（pending，待审核）。"
+  ]
+}

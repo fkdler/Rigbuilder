@@ -1,0 +1,24 @@
+{
+  "schema_version": "3.2",
+  "record_type": "source_document",
+  "status": "pending",
+  "payload": {
+    "source_key": "src:card:grounding-dino-swint",
+    "title": "Grounding-DINO-SwinT Model Card",
+    "url": "https://huggingface.co/IDEA-Research/grounding-dino-tiny",
+    "publisher_key": "org:idea-research",
+    "source_type": "model_card",
+    "source_tier": "A",
+    "published_at": null,
+    "market_region": null,
+    "language": null,
+    "availability_status": "accessible",
+    "archive_url": null,
+    "accessed_at": "2026-09-15T11:33:19+00:00",
+    "content_hash": "d8b096b0baf0d83899373e2fd4cacab6f16f637a7bd43f1eca4f70a863d08f51"
+  },
+  "review_notes": [
+    "多模态模型来源登记（2026-09-07）：pending。",
+    "2026-09-15 经镜像抓取：https://hf-mirror.com/IDEA-Research/grounding-dino-tiny（来源登记 URL 保持原样 https://huggingface.co/IDEA-Research/grounding-dino-tiny）。"
+  ]
+}

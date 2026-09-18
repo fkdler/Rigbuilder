@@ -1,0 +1,681 @@
+{
+  "schema_version": "3.2",
+  "release_key": "rigbuilder-v3-8-model-artifacts-2026-09-16",
+  "created_at": "2026-09-16T03:53:24.526912Z",
+  "description": "Model weight artifacts enumerated from the official Hugging Face API: file lists and byte sizes only, no weights downloaded",
+  "git_commit": null,
+  "files": [
+    {
+      "path": "models/bge-m3.json",
+      "sha256": "5d99a294c4b79cd256d77915f4f241052fccc4854fab6e2855a89d55a3897804",
+      "record_type": "model",
+      "status": "accepted"
+    },
+    {
+      "path": "models/bge-reranker-v2-m3.json",
+      "sha256": "e36f921b89b2265d9039b7d12e42c23f3e40e037607dc78ad58e682efb498de2",
+      "record_type": "model",
+      "status": "accepted"
+    },
+    {
+      "path": "models/cogvideox-5b.json",
+      "sha256": "2e01b34121d055302a0948ba7b3f866dcf18927dc20e00cc3e7a61c68e7d7f30",
+      "record_type": "model",
+      "status": "accepted"
+    },
+    {
+      "path": "models/cosyvoice2-0-5b.json",
+      "sha256": "a8bb89eeb40ea229f27e033be31bca99fe9d94e7d1fc72d7b936ab9dae4fc5c5",
+      "record_type": "model",
+      "status": "accepted"
+    },
+    {
+      "path": "models/deepseek-v3-2-exp.json",
+      "sha256": "88bec5415e9054f4fb505065b2f30c69ce8c151b09c8df7414817f8b0d8bbb43",
+      "record_type": "model",
+      "status": "accepted"
+    },
+    {
+      "path": "models/depth-anything-v2-large.json",
+      "sha256": "2de42be40259359da2448b3accf71d10d2ef9051659523bd2e6da5577a841f8c",
+      "record_type": "model",
+      "status": "accepted"
+    },
+    {
+      "path": "models/f5-tts.json",
+      "sha256": "2f53f7dc03c4b6676bce105753bcf615fda4209018146b65dbd90efba15042e5",
+      "record_type": "model",
+      "status": "accepted"
+    },
+    {
+      "path": "models/fish-speech-1-5.json",
+      "sha256": "2d409dad2b37f8a2158adbdb7383467daca1daeb51f9bcfb1007432860126239",
+      "record_type": "model",
+      "status": "accepted"
+    },
+    {
+      "path": "models/florence-2-large.json",
+      "sha256": "371245c0c9d51f8c4b80d7d4e20b85945722225068db751352a21483d1aafa58",
+      "record_type": "model",
+      "status": "accepted"
+    },
+    {
+      "path": "models/flux-1-dev.json",
+      "sha256": "a5ea7f0f81a3927b1c7797a65cf36c3d6710bbd7da9e5128105c75d8d1a3caf9",
+      "record_type": "model",
+      "status": "accepted"
+    },
+    {
+      "path": "models/flux-1-kontext-dev.json",
+      "sha256": "d7aea4539f06624fffdab3a9436c729dd4fc38b36dbf53eb5a3a7611ccd0f883",
+      "record_type": "model",
+      "status": "accepted"
+    },
+    {
+      "path": "models/flux-1-schnell.json",
+      "sha256": "7fdedeb7bd8eadeb1a73f1fd6223954107279f10727e503a3d56d9d8cdac4869",
+      "record_type": "model",
+      "status": "accepted"
+    },
+    {
+      "path": "models/gemma-3n-e2b-it.json",
+      "sha256": "540355247f7793e16f6e13f4c171b8a3bf197966aaf036a4bbe098d3c64bc5d0",
+      "record_type": "model",
+      "status": "accepted"
+    },
+    {
+      "path": "models/gemma-3n-e4b-it.json",
+      "sha256": "59b795fc3287e758b17c67ef88eb20080e07faad1629f700b5dfa649c673572e",
+      "record_type": "model",
+      "status": "accepted"
+    },
+    {
+      "path": "models/grounding-dino-swint.json",
+      "sha256": "1e2bee39b7cc9d437bb335f9e1eb70f5b2025051d4e8e583d47aeb63c9d747e7",
+      "record_type": "model",
+      "status": "accepted"
+    },
+    {
+      "path": "models/hunyuan3d-2.json",
+      "sha256": "d5983fe9756dbde60136032d2f3284595672fa7b3db5785cf3ae2e5aa3e21d9f",
+      "record_type": "model",
+      "status": "accepted"
+    },
+    {
+      "path": "models/hunyuanimage-3-0.json",
+      "sha256": "b2441baf2abdf73d72732d688d5ec9119286303b15cd4d651d82934d32d56378",
+      "record_type": "model",
+      "status": "accepted"
+    },
+    {
+      "path": "models/hunyuanvideo.json",
+      "sha256": "f1a81b2354a0f8410b8a4112e6a866e46e6009a55390aaf50f2a7ab7b3bbf754",
+      "record_type": "model",
+      "status": "accepted"
+    },
+    {
+      "path": "models/internvl3-38b.json",
+      "sha256": "cb0f09001da9912b93c4667e79b86436bb02f0489363ae1ef00f87a60b657dba",
+      "record_type": "model",
+      "status": "accepted"
+    },
+    {
+      "path": "models/internvl3-78b.json",
+      "sha256": "97428516737982a5ff24bf88931b21eb0bdef48062bba7f056bbeeee2c75e1ae",
+      "record_type": "model",
+      "status": "accepted"
+    },
+    {
+      "path": "models/internvl3-8b.json",
+      "sha256": "3d3e64a5931b5e4f4673be7af30c1d6b7f424e59979a3ae800ae096d7340044b",
+      "record_type": "model",
+      "status": "accepted"
+    },
+    {
+      "path": "models/kimi-k2-thinking.json",
+      "sha256": "ae019f219d68c2dc1f2955428dab427691863f6ac91fcf12001a6e8c60d9afee",
+      "record_type": "model",
+      "status": "accepted"
+    },
+    {
+      "path": "models/kokoro-82m.json",
+      "sha256": "360158d588089c7780d89c96aa8d0ef120efa46ad29205c419f471f40271b579",
+      "record_type": "model",
+      "status": "accepted"
+    },
+    {
+      "path": "models/kolors.json",
+      "sha256": "57187df5196509cf1dc0682983a434e22951108f53758c3b1a854cd7bd42e24f",
+      "record_type": "model",
+      "status": "accepted"
+    },
+    {
+      "path": "models/llama-3-2-11b-vision-instruct.json",
+      "sha256": "2e1f0f0c1db1d5aca978d900ef7398b7d75e23614278e84f49d16addf91ce0ef",
+      "record_type": "model",
+      "status": "accepted"
+    },
+    {
+      "path": "models/llava-onevision-7b.json",
+      "sha256": "86d1cfd6c367ce696383cce31d4506642edf4f07c054a663a09ccca96218d411",
+      "record_type": "model",
+      "status": "accepted"
+    },
+    {
+      "path": "models/ltx-video-2b.json",
+      "sha256": "be16c87b6fd7bb02c8da612a40310238d8f03a7fa91b30261c176f45b221a324",
+      "record_type": "model",
+      "status": "accepted"
+    },
+    {
+      "path": "models/lumina-image-2-0.json",
+      "sha256": "2147ba9219f9848fbea1c423aa9ab3e3452c5d5b2c451625f34651ec185c7c29",
+      "record_type": "model",
+      "status": "accepted"
+    },
+    {
+      "path": "models/minicpm-o-2-6.json",
+      "sha256": "eb8e35da36cefbb27623b958066de92b8c93fb61f2a3c8d6cb3b2111ddccb5ae",
+      "record_type": "model",
+      "status": "accepted"
+    },
+    {
+      "path": "models/minicpm-v-4-5.json",
+      "sha256": "43ba0ff030e4eba4e7849d1224a41ca450cc6cba3a91be76a2726bde4a7fc2b8",
+      "record_type": "model",
+      "status": "accepted"
+    },
+    {
+      "path": "models/mochi-1-preview.json",
+      "sha256": "67c65a9a3d6dc05d5bacc4b0b9817d52b0326e3f1d1afd365bccaf27eeb7fd41",
+      "record_type": "model",
+      "status": "accepted"
+    },
+    {
+      "path": "models/molmo-7b-d.json",
+      "sha256": "154ed88aa4c2cba8cbc33b38d214f1113418947aa8736447a5f7cb7f13ddaa64",
+      "record_type": "model",
+      "status": "accepted"
+    },
+    {
+      "path": "models/open-sora-2-0.json",
+      "sha256": "60044c3ae0d1fd5afc2a68f84ee5a77c84a75407a91167863cea60ee25256a1c",
+      "record_type": "model",
+      "status": "accepted"
+    },
+    {
+      "path": "models/phi-4-multimodal-instruct.json",
+      "sha256": "c900a412e42b0fb3be6baea661bf280a70a4b43eb9c3e82d574d634df11333ea",
+      "record_type": "model",
+      "status": "accepted"
+    },
+    {
+      "path": "models/pixtral-12b.json",
+      "sha256": "82691770cee066fa782adfc4e134cc6e8f474f9e106c866b92a151138bf6c459",
+      "record_type": "model",
+      "status": "accepted"
+    },
+    {
+      "path": "models/qwen-image-edit.json",
+      "sha256": "a7cfcd2fb7c534e7e8c153d922b886728a209ff416d13ccfb73a96fcae194b30",
+      "record_type": "model",
+      "status": "accepted"
+    },
+    {
+      "path": "models/qwen-image.json",
+      "sha256": "8519ac1dde11696aef2678395aff9ea5202790a710968a9a5536c43b281b6c9c",
+      "record_type": "model",
+      "status": "accepted"
+    },
+    {
+      "path": "models/qwen2-5-vl-32b-instruct.json",
+      "sha256": "f54481fa64608bc264628aa801debe9be3d8eeeca09480ebe8390a7d15cf5a7e",
+      "record_type": "model",
+      "status": "accepted"
+    },
+    {
+      "path": "models/qwen2-5-vl-3b-instruct.json",
+      "sha256": "150d8eedbd29ac6aa0e29552662c2a2739b0392c090635c13a4f4a10ea2df854",
+      "record_type": "model",
+      "status": "accepted"
+    },
+    {
+      "path": "models/qwen2-5-vl-72b-instruct.json",
+      "sha256": "11a9c7b5d03724dce35ca43bb6f603ba5d588c79c6d3726e005474a444e3700b",
+      "record_type": "model",
+      "status": "accepted"
+    },
+    {
+      "path": "models/qwen2-5-vl-7b-instruct.json",
+      "sha256": "c3878a69de7ae165a14bb5a89e606084927411e44c5b1b6bf8439f282b7c45c9",
+      "record_type": "model",
+      "status": "accepted"
+    },
+    {
+      "path": "models/qwen3-coder-480b-a35b-instruct.json",
+      "sha256": "8e7de122c6eb515b8231d638ad1dbf7a625bbf0e711d0b87aeaf70192b455ba3",
+      "record_type": "model",
+      "status": "accepted"
+    },
+    {
+      "path": "models/qwen3-reranker-0-6b.json",
+      "sha256": "21036edd3292ebb2773c68810a34ffb8989aea0f3f5380ab66805ea2190a5a2f",
+      "record_type": "model",
+      "status": "accepted"
+    },
+    {
+      "path": "models/qwen3-reranker-4b.json",
+      "sha256": "4537570311664102cdfbd09b1dc1f3b3c8ef8c7d05015abe5a65d1a22766b858",
+      "record_type": "model",
+      "status": "accepted"
+    },
+    {
+      "path": "models/sam-2-1-hiera-large.json",
+      "sha256": "e5c12362a0683f982aaa480b4d359872183f995563dd37497fc4e6f1c3d14bcf",
+      "record_type": "model",
+      "status": "accepted"
+    },
+    {
+      "path": "models/sana-1-6b.json",
+      "sha256": "31dbf1ba380ec0afcc9e4761465f5f5bdda584f60598bbe7913d5b0adfb891da",
+      "record_type": "model",
+      "status": "accepted"
+    },
+    {
+      "path": "models/skyreels-v2.json",
+      "sha256": "13ffb4face9a6388507279c00a9ac571cd1e7a35997556e2265978dd734353b1",
+      "record_type": "model",
+      "status": "accepted"
+    },
+    {
+      "path": "models/stable-diffusion-3-5-large.json",
+      "sha256": "308b872baed86ad72d4e977e5be7a619ee6967ca89ffdb6c8325087cb01c955d",
+      "record_type": "model",
+      "status": "accepted"
+    },
+    {
+      "path": "models/stable-diffusion-3-5-medium.json",
+      "sha256": "648d9f4693f05ef138e802a0ea384d8ef9bb8e6753e0ffd86be625b1150b8242",
+      "record_type": "model",
+      "status": "accepted"
+    },
+    {
+      "path": "models/stable-diffusion-xl-base-1-0.json",
+      "sha256": "81ab013602835cb343750d5e701d38017c30c3eb0dd22a0f7e2baa109df1c58a",
+      "record_type": "model",
+      "status": "accepted"
+    },
+    {
+      "path": "models/trellis-image-large.json",
+      "sha256": "95fecad1d1581e72a2d1b595a30eb0826f2409dccf68b134076a70de5b3ff3e6",
+      "record_type": "model",
+      "status": "accepted"
+    },
+    {
+      "path": "models/wan2-1-t2v-14b.json",
+      "sha256": "972c3e9b0ce1a45883bff56e0dc645f57cf93416323033ebd9ef804444ab2cfd",
+      "record_type": "model",
+      "status": "accepted"
+    },
+    {
+      "path": "models/wan2-2-t2v-a14b.json",
+      "sha256": "3f6e3c6fd1b5d62930d79c1a62fbcc798f90566e708ae8f9993fb43e6caac7b0",
+      "record_type": "model",
+      "status": "accepted"
+    },
+    {
+      "path": "models/wan2-2-ti2v-5b.json",
+      "sha256": "01b211eecee640ad7d5eb2a241364095bde4ce5c75d6ac5678574bfad0a10019",
+      "record_type": "model",
+      "status": "accepted"
+    },
+    {
+      "path": "models/whisper-large-v3-turbo.json",
+      "sha256": "a2ece834f3f95789fa25ef707c766b761d36550b4a548f108b576c1f5e8476f1",
+      "record_type": "model",
+      "status": "accepted"
+    },
+    {
+      "path": "models/whisper-large-v3.json",
+      "sha256": "36475808b59c4d85cc37bb159229b263a0e6a954085709a75a87056bc7ea3112",
+      "record_type": "model",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/allenai-molmo-7b-d-0924.json",
+      "sha256": "19e5df9824530da0421f909c7cee65bebb6c84dbdbe1d32e21426d4d38b805a1",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/alpha-vllm-lumina-image-2-0.json",
+      "sha256": "4b3eef614041551cf8cd2bea3fea787bec05d6c66d73f54c98d4253e1db0f389",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/baai-bge-m3.json",
+      "sha256": "a52c300de658f3d94a8432237a15dc111e0e5001bfe18414555379e3c6501498",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/baai-bge-reranker-v2-m3.json",
+      "sha256": "2cdfaf1c45583e0580a745c65188fc6c70d3bea6370a9b23797befa3d7e56234",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/black-forest-labs-flux-1-dev.json",
+      "sha256": "ff2c9242fe3cdfd8929693db386df4de38cae89fffd4283b308bb027c95a54d2",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/black-forest-labs-flux-1-kontext-dev.json",
+      "sha256": "3dfcf4d7466dd5c318362b60d8c23759dc33e0ca2615410f0da4e25b01e37cff",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/black-forest-labs-flux-1-schnell.json",
+      "sha256": "679127ad34c737452b7e8fe9cc9924cb10efe70daeb4f4b693b70215a6dbc178",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/deepseek-ai-deepseek-v3-2-exp.json",
+      "sha256": "90b032817ab7dce03ae606fd147b01fadaab4c67fe34fc9cf176f08a645256e2",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/depth-anything-depth-anything-v2-large-hf.json",
+      "sha256": "098ae7fdfc6c4a04d70b5733b79c66c8c26928f273915f73d673704d3db86705",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/efficient-large-model-sana-1600m-1024px-diffusers.json",
+      "sha256": "825fd3e3142cf66a4c725e0ef457652db9de9b28483730ae1ea9bdd4c9c3715e",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/facebook-sam2-1-hiera-large.json",
+      "sha256": "c8ced0544e23c00c98546b17560cb65dba0f9ed2a758b31fa6bf694c9e79cf11",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/fishaudio-fish-speech-1-5.json",
+      "sha256": "036476b3d19aa8139a477336ddf362b1e0917f505b97ee2292b0bcd2808a9006",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/funaudiollm-cosyvoice2-0-5b.json",
+      "sha256": "ab1eb88d816f374f0daadbdbe85c52a242524974b1a987b54d876548bd0869f5",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/genmo-mochi-1-preview.json",
+      "sha256": "5a744e05620a8c666b9e1976f474d2da8b5011af57d2493eb9a0176846a791a6",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/google-gemma-3n-e2b-it.json",
+      "sha256": "286af415b1f153bb124b6f1a0d96bdd9fba8bcd915da2146448a770e9dcbbc4b",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/google-gemma-3n-e4b-it.json",
+      "sha256": "edcab1d04841a44df87615de78bfc8dca14f617a8b6f60216f37006c2a9e65b6",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/hexgrad-kokoro-82m.json",
+      "sha256": "ae804ff8f598aa82143db55d387faf52ea4b9ca14cd1ce72692a21974cc58ca3",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/hpcai-tech-open-sora-v2.json",
+      "sha256": "577c97d93d4201fdb40246dc5f5d1396eb765d9933d66c067d1e7eaa438afcbc",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/idea-research-grounding-dino-tiny.json",
+      "sha256": "ed111c50a71769c5b0cfca4e4f12ac446fa7edbfa5b5af90eabc9793256e834e",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/kwai-kolors-kolors.json",
+      "sha256": "43a91c7a333fa31991dda3d365fbd89d8bbe4bde498c73d93636082fb3deb116",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/lightricks-ltx-video.json",
+      "sha256": "d8b56e2d48e7f112e5a4d1406865450ed2e0e401ffa7768b7603551f9c695e1f",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/llava-hf-llava-onevision-qwen2-7b-ov-hf.json",
+      "sha256": "0e9ae47837c4fe0bfe88975f29b4e2dad82d2f13b98b42c4274b025e59a79ade",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/meta-llama-llama-3-2-11b-vision-instruct.json",
+      "sha256": "ec69c1b2f3ded58f1ff5b404e59db652ab2714d13c8497f560050b27c48e6c46",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/microsoft-florence-2-large.json",
+      "sha256": "3e92ee9ca9cef474f5341b5385536058f3f101885cdec0ef7716c049cd81dde8",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/microsoft-phi-4-multimodal-instruct.json",
+      "sha256": "129172554cf6b9d8e5102b44933dedd6b2950f979331e3b0376abf80af3e3078",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/microsoft-trellis-image-large.json",
+      "sha256": "2d764c4e6f86eabc364f1e967324bfa20c98ca50a3b591ffcc2d7e65234cf570",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/mistralai-pixtral-12b-2409.json",
+      "sha256": "2504d79710083e180bd72f5543cfd0617b38058aa219b3da294a51b95dfcc641",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/moonshotai-kimi-k2-thinking.json",
+      "sha256": "f13acd7e5c985ba06c81afcf6d9dfc86373776cf293ea943e59e4b6ac6dd67c4",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/openai-whisper-large-v3-turbo.json",
+      "sha256": "c876e724be8166b0bc8c91042f1551136deeabfc08452d1babd4d367b21933da",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/openai-whisper-large-v3.json",
+      "sha256": "4fa9d61a1ad940d454c3a8ab73577392833a8e6dd0baec8c4c3c5197bf5046f5",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/openbmb-minicpm-o-2-6.json",
+      "sha256": "c3b5ed8522db6e2e7d164128faa3b67fea8d9b5add6d5767628332e4c38c9a17",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/openbmb-minicpm-v-4-5.json",
+      "sha256": "32feac9e2526131df3c66bef783ad6135f9160d0259c86112d2e7839f8f80c88",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/opengvlab-internvl3-38b-instruct.json",
+      "sha256": "ec27fbb361c417ed1d4fed961fe1f555772f8371c7a8d7ddab55b1700b7aa237",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/opengvlab-internvl3-78b-instruct.json",
+      "sha256": "c2de80b29b7bb65f204d82b3e4c145726faf6bbc68309b80ccaba60ecd0e8199",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/opengvlab-internvl3-8b-instruct.json",
+      "sha256": "3b625c7db0d30e6e853fc7a0e12f32b9be453583b9cd43980bdd35f46c2575bd",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/qwen-qwen-image-edit.json",
+      "sha256": "272b26236a461bc9075b85f3dbfa6f55459abf1e92f13c1da5fcd210e12241d7",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/qwen-qwen-image.json",
+      "sha256": "878058c917811bc5ac621b59de9080caf11f36e3cd174b85204340761f49306b",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/qwen-qwen2-5-vl-32b-instruct.json",
+      "sha256": "631be1b56da736cb735ba714f229085dcf1dc85d206a12a6869867a4fd6d870a",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/qwen-qwen2-5-vl-3b-instruct.json",
+      "sha256": "48070a40fe4885f98cac4d893496d32649a986708286bf8ae2228888949613fe",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/qwen-qwen2-5-vl-72b-instruct.json",
+      "sha256": "a44900e9b101552a817874d4efae53ffb2333b32cc561e7268235072704de1c6",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/qwen-qwen2-5-vl-7b-instruct.json",
+      "sha256": "8d1c9c71c3e3a36baf47f03c4f69daeb46d33d26b696fb7c512c1e108735159b",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/qwen-qwen3-coder-480b-a35b-instruct.json",
+      "sha256": "ff9bdd7aabeca6892d5ed3416f67c63a8e20566504b9f9dda8fe110be4fbadb0",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/qwen-qwen3-reranker-0-6b.json",
+      "sha256": "2c4f31805764f82841f56dbd1c9d951a68862f4d15afe728cd3ccc9a14f6f066",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/qwen-qwen3-reranker-4b.json",
+      "sha256": "1b06a58c7a0d35373d976365a059387bb26b0cc0fc20991f7a63596488f5f4fd",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/skywork-skyreels-v2-i2v-14b-720p-diffusers.json",
+      "sha256": "e80f395a23c0931f550d5cc518c1ddadcfa59e7a0c8586f5ec617dabcc8619dd",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/stabilityai-stable-diffusion-3-5-large.json",
+      "sha256": "c8262173aa43ebca5dc3213d432f64f8fbf048c7a025b512c4a37f2c7cb9853f",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/stabilityai-stable-diffusion-3-5-medium.json",
+      "sha256": "4f04926ca4c3446faf7085525bae56d47840d05111083bc1667f0a67375e2349",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/stabilityai-stable-diffusion-xl-base-1-0.json",
+      "sha256": "c12516f660651a52f1093cf06a4d1fb4dd9240d9f4cd166da9fc6778ab0adb61",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/swivid-f5-tts.json",
+      "sha256": "90a05fe6aaa17b84ae81619bee3b6bec0c2ce626abd55518dea19cf0c26711fb",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/tencent-hunyuan3d-2.json",
+      "sha256": "265491174aac6dcf217106d0161611240d904c53ca187ca537d537bfa0e4f0fa",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/tencent-hunyuanimage-3-0.json",
+      "sha256": "f4b734799db0b61d339ed0a3c2adaeb4e4d8f84bd90de77e59a66492cfa0d38e",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/tencent-hunyuanvideo.json",
+      "sha256": "089192440d285ff2fe86d8825c01bc30668c0d9945e9e8c471893dbee2334e81",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/thudm-cogvideox-5b.json",
+      "sha256": "c8b7098c53cb5e811be8102edabcbf5f4f36893a7aa5615ea9cf78f0b9385567",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/wan-ai-wan2-1-t2v-14b.json",
+      "sha256": "1397d8ce92e69247f471be0ebef8069fd7084850996af2e999c4cdc5c53bd9c8",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/wan-ai-wan2-2-t2v-a14b.json",
+      "sha256": "d0a8aea9381b68429784a278038540a9da25a901abfe9501ee1e9d6a3ab918db",
+      "record_type": "source_document",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/wan-ai-wan2-2-ti2v-5b.json",
+      "sha256": "229b21ef7d0a9dd3bb6dbdd581f8ee6738369582415f447167ca58017c75203e",
+      "record_type": "source_document",
+      "status": "accepted"
+    }
+  ]
+}

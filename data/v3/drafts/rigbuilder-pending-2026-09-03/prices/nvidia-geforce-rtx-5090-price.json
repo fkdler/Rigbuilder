@@ -1,0 +1,22 @@
+{
+  "schema_version": "3.2",
+  "record_type": "price_snapshot",
+  "status": "pending",
+  "payload": {
+    "price_key": "price:hw:nvidia:geforce-rtx-5090:desktop:global:cn:2026-09",
+    "entity_key": "hw:nvidia:geforce-rtx-5090:desktop:global",
+    "source_key": "source:jd:geforce-rtx-5090-10212691978527",
+    "observed_at": "2026-09-07T08:02:51+08:00",
+    "currency": "CNY",
+    "amount": 33500,
+    "availability": "out_of_stock",
+    "price_type": "current_new",
+    "market_region": "CN",
+    "condition": "new",
+    "seller_key": null,
+    "notes": "京东无货33500"
+  },
+  "review_notes": [
+    "京东无货33500"
+  ]
+}

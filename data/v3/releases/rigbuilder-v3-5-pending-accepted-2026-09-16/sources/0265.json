@@ -1,0 +1,25 @@
+{
+  "schema_version": "3.2",
+  "record_type": "source_document",
+  "status": "accepted",
+  "payload": {
+    "source_key": "src:gguf:unsloth-llama-3-2-1b-instruct-gguf",
+    "title": "unsloth/Llama-3.2-1B-Instruct-GGUF (Hugging Face)",
+    "url": "https://huggingface.co/unsloth/Llama-3.2-1B-Instruct-GGUF",
+    "publisher_key": "org:unsloth",
+    "source_type": "community",
+    "source_tier": "D",
+    "published_at": null,
+    "market_region": null,
+    "language": null,
+    "availability_status": "accessible",
+    "archive_url": null,
+    "accessed_at": "2026-09-14T11:57:51+00:00",
+    "content_hash": "62dff83fa27da553b5b41de997f5330153069631c00fb1ba0b7dcefa21405566"
+  },
+  "review_notes": [
+    "模型扩展第二批来源（2026-09-07）：pending，待抓取核验。",
+    "2026-09-14 经镜像抓取：https://hf-mirror.com/unsloth/Llama-3.2-1B-Instruct-GGUF（来源登记 URL 保持原样 https://huggingface.co/unsloth/Llama-3.2-1B-Instruct-GGUF）。",
+    "Approved in bulk on 2026-09-16 at the user's explicit request; no per-record human review."
+  ]
+}

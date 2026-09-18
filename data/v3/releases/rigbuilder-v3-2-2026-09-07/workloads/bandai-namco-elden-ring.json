@@ -1,0 +1,149 @@
+{
+  "schema_version": "3.2",
+  "record_type": "workload",
+  "status": "accepted",
+  "payload": {
+    "identity": {
+      "entity_key": "workload:game:elden-ring",
+      "canonical_name": "Elden Ring",
+      "entity_type": "workload",
+      "release_date": null,
+      "lifecycle_status": "unknown",
+      "recommendable": false
+    },
+    "workload_type": "game",
+    "publisher_key": "org:bandai-namco",
+    "family": "Elden Ring",
+    "current_version": null,
+    "engine": "自研",
+    "official_url": "https://store.steampowered.com/app/1245620/ELDEN_RING/",
+    "description": "",
+    "profiles": [
+      {
+        "profile_key": "minimum",
+        "label": "官方最低配置",
+        "version_label": null,
+        "settings": {},
+        "valid_from": null,
+        "valid_to": null,
+        "source_key": "source:bandai-namco-elden-ring-sysreq"
+      },
+      {
+        "profile_key": "recommended",
+        "label": "官方推荐配置",
+        "version_label": null,
+        "settings": {},
+        "valid_from": null,
+        "valid_to": null,
+        "source_key": "source:bandai-namco-elden-ring-sysreq"
+      }
+    ],
+    "requirements": [
+      {
+        "profile_key": "minimum",
+        "component_role": "cpu",
+        "operator": "text_only",
+        "value_text": "i5-8400 / R3 3300X",
+        "raw_value": "i5-8400 / R3 3300X",
+        "reference_entity_key": null,
+        "required_feature_key": null
+      },
+      {
+        "profile_key": "minimum",
+        "component_role": "gpu",
+        "operator": "text_only",
+        "value_text": "GTX 1060 3GB / RX 580 4GB",
+        "raw_value": "GTX 1060 3GB / RX 580 4GB",
+        "reference_entity_key": null,
+        "required_feature_key": null
+      },
+      {
+        "profile_key": "minimum",
+        "component_role": "ram",
+        "operator": "gte",
+        "numeric_value": 12,
+        "unit_key": "gib",
+        "reference_entity_key": null,
+        "required_feature_key": null
+      },
+      {
+        "profile_key": "minimum",
+        "component_role": "storage",
+        "operator": "text_only",
+        "value_text": "60 GB 可用空间",
+        "raw_value": "60 GB 可用空间",
+        "reference_entity_key": null,
+        "required_feature_key": null
+      },
+      {
+        "profile_key": "minimum",
+        "component_role": "feature",
+        "operator": "eq",
+        "value_text": "DX12",
+        "raw_value": "DX12",
+        "reference_entity_key": null,
+        "required_feature_key": "dx12"
+      },
+      {
+        "profile_key": "recommended",
+        "component_role": "cpu",
+        "operator": "text_only",
+        "value_text": "i7-8700K / R5 3600X",
+        "raw_value": "i7-8700K / R5 3600X",
+        "reference_entity_key": null,
+        "required_feature_key": null
+      },
+      {
+        "profile_key": "recommended",
+        "component_role": "gpu",
+        "operator": "text_only",
+        "value_text": "GTX 1070 / RX Vega 56",
+        "raw_value": "GTX 1070 / RX Vega 56",
+        "reference_entity_key": null,
+        "required_feature_key": null
+      },
+      {
+        "profile_key": "recommended",
+        "component_role": "ram",
+        "operator": "gte",
+        "numeric_value": 16,
+        "unit_key": "gib",
+        "reference_entity_key": null,
+        "required_feature_key": null
+      },
+      {
+        "profile_key": "recommended",
+        "component_role": "storage",
+        "operator": "text_only",
+        "value_text": "60 GB 可用空间",
+        "raw_value": "60 GB 可用空间",
+        "reference_entity_key": null,
+        "required_feature_key": null
+      },
+      {
+        "profile_key": "recommended",
+        "component_role": "feature",
+        "operator": "eq",
+        "value_text": "DX12",
+        "raw_value": "DX12",
+        "reference_entity_key": null,
+        "required_feature_key": "dx12"
+      }
+    ],
+    "evidence": [
+      {
+        "source_key": "source:bandai-namco-elden-ring-sysreq",
+        "field_key": "entity.canonical_name",
+        "normalized_value": "Elden Ring",
+        "raw_excerpt": "Elden Ring",
+        "provenance_key": "official",
+        "review_status": "accepted",
+        "reviewed_at": "2026-09-07T00:00:00Z"
+      }
+    ]
+  },
+  "review_notes": [
+    "Workload 系统需求为公开常见值（官方/Steam 系统需求），未逐字读取页面；须对照官方页逐条复核。",
+    "CPU/GPU 官方多给具体型号名，本批以 value_text + operator=text_only 保留原文；RAM 用数值 gte；分辨率/画质设置不在 workload。"
+  ]
+}

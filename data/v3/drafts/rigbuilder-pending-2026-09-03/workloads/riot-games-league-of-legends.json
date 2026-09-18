@@ -1,0 +1,131 @@
+{
+  "schema_version": "3.2",
+  "record_type": "workload",
+  "status": "pending",
+  "payload": {
+    "identity": {
+      "entity_key": "workload:game:league-of-legends",
+      "canonical_name": "League of Legends",
+      "entity_type": "workload",
+      "release_date": null,
+      "lifecycle_status": "unknown",
+      "recommendable": false
+    },
+    "workload_type": "game",
+    "publisher_key": "org:riot-games",
+    "family": "League of Legends",
+    "current_version": null,
+    "engine": "自研",
+    "official_url": "https://support-leagueoflegends.riotgames.com/hc/en-us/articles/201752654",
+    "description": "",
+    "profiles": [
+      {
+        "profile_key": "minimum",
+        "label": "官方最低配置",
+        "version_label": null,
+        "settings": {},
+        "valid_from": null,
+        "valid_to": null,
+        "source_key": "source:riot-games-league-of-legends-sysreq"
+      },
+      {
+        "profile_key": "recommended",
+        "label": "官方推荐配置",
+        "version_label": null,
+        "settings": {},
+        "valid_from": null,
+        "valid_to": null,
+        "source_key": "source:riot-games-league-of-legends-sysreq"
+      }
+    ],
+    "requirements": [
+      {
+        "profile_key": "minimum",
+        "component_role": "cpu",
+        "operator": "text_only",
+        "value_text": "3 GHz 双核",
+        "raw_value": "3 GHz 双核",
+        "reference_entity_key": null,
+        "required_feature_key": null
+      },
+      {
+        "profile_key": "minimum",
+        "component_role": "gpu",
+        "operator": "text_only",
+        "value_text": "DX9 级 512 MB 显卡",
+        "raw_value": "DX9 级 512 MB 显卡",
+        "reference_entity_key": null,
+        "required_feature_key": null
+      },
+      {
+        "profile_key": "minimum",
+        "component_role": "ram",
+        "operator": "gte",
+        "numeric_value": 2,
+        "unit_key": "gib",
+        "reference_entity_key": null,
+        "required_feature_key": null
+      },
+      {
+        "profile_key": "minimum",
+        "component_role": "storage",
+        "operator": "text_only",
+        "value_text": "12 GB 可用空间",
+        "raw_value": "12 GB 可用空间",
+        "reference_entity_key": null,
+        "required_feature_key": null
+      },
+      {
+        "profile_key": "recommended",
+        "component_role": "cpu",
+        "operator": "text_only",
+        "value_text": "3 GHz 四核",
+        "raw_value": "3 GHz 四核",
+        "reference_entity_key": null,
+        "required_feature_key": null
+      },
+      {
+        "profile_key": "recommended",
+        "component_role": "gpu",
+        "operator": "text_only",
+        "value_text": "DX11 级 1 GB 显卡",
+        "raw_value": "DX11 级 1 GB 显卡",
+        "reference_entity_key": null,
+        "required_feature_key": null
+      },
+      {
+        "profile_key": "recommended",
+        "component_role": "ram",
+        "operator": "gte",
+        "numeric_value": 4,
+        "unit_key": "gib",
+        "reference_entity_key": null,
+        "required_feature_key": null
+      },
+      {
+        "profile_key": "recommended",
+        "component_role": "storage",
+        "operator": "text_only",
+        "value_text": "16 GB 可用空间",
+        "raw_value": "16 GB 可用空间",
+        "reference_entity_key": null,
+        "required_feature_key": null
+      }
+    ],
+    "evidence": [
+      {
+        "source_key": "source:riot-games-league-of-legends-sysreq",
+        "field_key": "entity.canonical_name",
+        "normalized_value": "League of Legends",
+        "raw_excerpt": "League of Legends",
+        "provenance_key": "official",
+        "review_status": "pending",
+        "reviewed_at": null
+      }
+    ]
+  },
+  "review_notes": [
+    "Workload 系统需求为公开常见值（官方/Steam 系统需求），未逐字读取页面；须对照官方页逐条复核。",
+    "CPU/GPU 官方多给具体型号名，本批以 value_text + operator=text_only 保留原文；RAM 用数值 gte；分辨率/画质设置不在 workload。"
+  ]
+}

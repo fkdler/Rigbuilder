@@ -1,0 +1,179 @@
+{
+  "schema_version": "3.2",
+  "record_type": "model",
+  "status": "accepted",
+  "payload": {
+    "identity": {
+      "entity_key": "model:meta:llama-3-1-8b-instruct",
+      "canonical_name": "Llama-3.1-8B-Instruct",
+      "entity_type": "ai_model",
+      "release_date": "2024-07-23",
+      "lifecycle_status": "unknown",
+      "recommendable": true
+    },
+    "publisher_key": "org:meta",
+    "release_version": null,
+    "model_type": "dense",
+    "total_parameters": 8030261248,
+    "active_parameters": null,
+    "model_stage": "instruct",
+    "context_length_tokens": 131072,
+    "license_name": "Apache-2.0",
+    "commercial_use_status": "allowed",
+    "official_repo_url": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct",
+    "official_model_card_url": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct",
+    "architecture_notes": null,
+    "capabilities": [
+      {
+        "capability_key": "text_input",
+        "status": "supported",
+        "notes": null
+      }
+    ],
+    "variants": [
+      {
+        "identity": {
+          "entity_key": "variant:meta:llama-3-1-8b-instruct:gguf:q4-k-m:bartowski",
+          "canonical_name": "Llama-3.1-8B-Instruct Q4_K_M (GGUF, bartowski)",
+          "entity_type": "model_variant",
+          "release_date": null,
+          "lifecycle_status": "unknown",
+          "recommendable": false
+        },
+        "maintainer_key": "org:bartowski",
+        "quantization_method": "Q4_K_M",
+        "weight_format": "GGUF",
+        "bits_per_weight": null,
+        "file_size_bytes": 4920739232,
+        "official_status": "community",
+        "repository_url": "https://huggingface.co/bartowski/Meta-Llama-3.1-8B-Instruct-GGUF",
+        "artifact_revision": null,
+        "artifact_manifest": null,
+        "checksum": null,
+        "evidence": [
+          {
+            "source_key": "src:gguf:bartowski-meta-llama-3-1-8b-instruct-gguf",
+            "field_key": "entity.canonical_name",
+            "normalized_value": "Llama-3.1-8B-Instruct Q4_K_M (GGUF, bartowski)",
+            "provenance_key": "community_reported",
+            "raw_excerpt": "Llama-3.1-8B-Instruct Q4_K_M (GGUF, bartowski)",
+            "review_status": "accepted",
+            "reviewed_at": null
+          }
+        ]
+      },
+      {
+        "identity": {
+          "entity_key": "variant:meta:llama-3-1-8b-instruct:gguf:q5-k-m:bartowski",
+          "canonical_name": "Llama-3.1-8B-Instruct Q5_K_M (GGUF, bartowski)",
+          "entity_type": "model_variant",
+          "release_date": null,
+          "lifecycle_status": "unknown",
+          "recommendable": false
+        },
+        "maintainer_key": "org:bartowski",
+        "quantization_method": "Q5_K_M",
+        "weight_format": "GGUF",
+        "bits_per_weight": null,
+        "file_size_bytes": 5732992416,
+        "official_status": "community",
+        "repository_url": "https://huggingface.co/bartowski/Meta-Llama-3.1-8B-Instruct-GGUF",
+        "artifact_revision": null,
+        "artifact_manifest": null,
+        "checksum": null,
+        "evidence": [
+          {
+            "source_key": "src:gguf:bartowski-meta-llama-3-1-8b-instruct-gguf",
+            "field_key": "entity.canonical_name",
+            "normalized_value": "Llama-3.1-8B-Instruct Q5_K_M (GGUF, bartowski)",
+            "provenance_key": "community_reported",
+            "raw_excerpt": "Llama-3.1-8B-Instruct Q5_K_M (GGUF, bartowski)",
+            "review_status": "accepted",
+            "reviewed_at": null
+          }
+        ]
+      },
+      {
+        "identity": {
+          "entity_key": "variant:meta:llama-3-1-8b-instruct:gguf:q8-0:bartowski",
+          "canonical_name": "Llama-3.1-8B-Instruct Q8_0 (GGUF, bartowski)",
+          "entity_type": "model_variant",
+          "release_date": null,
+          "lifecycle_status": "unknown",
+          "recommendable": false
+        },
+        "maintainer_key": "org:bartowski",
+        "quantization_method": "Q8_0",
+        "weight_format": "GGUF",
+        "bits_per_weight": null,
+        "file_size_bytes": 8540775840,
+        "official_status": "community",
+        "repository_url": "https://huggingface.co/bartowski/Meta-Llama-3.1-8B-Instruct-GGUF",
+        "artifact_revision": null,
+        "artifact_manifest": null,
+        "checksum": null,
+        "evidence": [
+          {
+            "source_key": "src:gguf:bartowski-meta-llama-3-1-8b-instruct-gguf",
+            "field_key": "entity.canonical_name",
+            "normalized_value": "Llama-3.1-8B-Instruct Q8_0 (GGUF, bartowski)",
+            "provenance_key": "community_reported",
+            "raw_excerpt": "Llama-3.1-8B-Instruct Q8_0 (GGUF, bartowski)",
+            "review_status": "accepted",
+            "reviewed_at": null
+          }
+        ]
+      }
+    ],
+    "evidence": [
+      {
+        "source_key": "src:card:llama-3-1-8b-instruct",
+        "field_key": "entity.canonical_name",
+        "normalized_value": "Llama-3.1-8B-Instruct",
+        "provenance_key": "official",
+        "raw_excerpt": "Llama-3.1-8B-Instruct",
+        "review_status": "accepted",
+        "reviewed_at": null
+      },
+      {
+        "source_key": "src:card:llama-3-1-8b-instruct",
+        "field_key": "model.total_parameters",
+        "normalized_value": 8030261248,
+        "provenance_key": "official",
+        "notes": "由公开知识值校正为官方值（原值 8030000000）",
+        "raw_excerpt": "HF API safetensors.total（精确）: 8030261248",
+        "review_status": "accepted",
+        "reviewed_at": null
+      },
+      {
+        "source_key": "src:card:llama-3-1-8b-instruct",
+        "field_key": "model.context_length_tokens",
+        "normalized_value": 131072,
+        "unit_key": "tokens",
+        "provenance_key": "official",
+        "raw_excerpt": "131072",
+        "review_status": "accepted",
+        "reviewed_at": null
+      },
+      {
+        "source_key": "src:card:llama-3-1-8b-instruct",
+        "field_key": "model.license_name",
+        "normalized_value": "Apache-2.0",
+        "provenance_key": "official",
+        "raw_excerpt": "Apache-2.0",
+        "review_status": "accepted",
+        "reviewed_at": null
+      }
+    ],
+    "family": "Llama"
+  },
+  "review_notes": [
+    "来源 retrieved_at 为占位时间，调查员须替换为实际看到页面的时间。",
+    "source_key 前缀暂为 src: 与 quantization/format 大小写（Q4_K_M/GGUF）待审核人与词表对齐（可统一为 source:/小写）。",
+    "变体 Q4_K_M 页面参考大小：4.92 GB（页面十进制参考值，非精确字节；file_size_bytes 待真实元数据）（file_size_bytes 待真实元数据）",
+    "变体 Q5_K_M 页面参考大小：5.73 GB（页面十进制参考值，非精确字节；file_size_bytes 待真实元数据）（file_size_bytes 待真实元数据）",
+    "变体 Q8_0 页面参考大小：8.71 GB（页面十进制参考值，非精确字节；file_size_bytes 待真实元数据）（file_size_bytes 待真实元数据）",
+    "hf_fill --refresh-params：参数量取 HF API safetensors.total（精确），上下文取 config.json max_position_embeddings；已挂 evidence（pending）。",
+    "Approved in bulk on 2026-09-16 at the user's explicit request; no per-record human review."
+  ]
+}

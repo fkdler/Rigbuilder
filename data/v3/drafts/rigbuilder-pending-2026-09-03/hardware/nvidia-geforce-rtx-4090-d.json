@@ -1,0 +1,78 @@
+{
+  "schema_version": "3.2",
+  "record_type": "hardware",
+  "status": "pending",
+  "payload": {
+    "identity": {
+      "entity_key": "hw:nvidia:geforce-rtx-4090-d:desktop:global",
+      "canonical_name": "GeForce RTX 4090 D",
+      "entity_type": "hardware",
+      "release_date": null,
+      "lifecycle_status": "unknown",
+      "recommendable": true
+    },
+    "category": "gpu",
+    "record_kind": "product",
+    "manufacturer_key": "org:nvidia",
+    "form_factor": "desktop",
+    "model_name": "GeForce RTX 4090 D",
+    "variant_name": null,
+    "market_segment": "consumer",
+    "region_code": "CN",
+    "official_product_id": null,
+    "product_family": null,
+    "attributes": [],
+    "evidence": [
+      {
+        "source_key": "src:nvidia:gpu-desktop-40-series",
+        "field_key": "entity.canonical_name",
+        "normalized_value": "GeForce RTX 4090 D",
+        "provenance_key": "official",
+        "raw_excerpt": "GeForce RTX 4090 D",
+        "review_status": "pending",
+        "reviewed_at": null
+      },
+      {
+        "source_key": "src:nvidia:gpu-desktop-40-series",
+        "field_key": "gpu.vram_gib",
+        "normalized_value": 24,
+        "provenance_key": "official",
+        "raw_excerpt": "Memory Size \n 24 GB \n 16 GB \n 16 GB \n 16 GB \n 12 GB \n 12 GB \n 12 GB \n 16 GB / 8 GB \n 8 GB",
+        "review_status": "pending",
+        "reviewed_at": null,
+        "notes": "NVIDIA 规格表｜列「RTX 4090」（第 1/9 列）｜请核对：raw_excerpt 为页面该字段整行原文，本条目取其中该列的值"
+      },
+      {
+        "source_key": "src:nvidia:gpu-desktop-40-series",
+        "field_key": "gpu.memory_type",
+        "normalized_value": "GDDR6X",
+        "provenance_key": "official",
+        "raw_excerpt": "Memory Type \n GDDR6X \n GDDR6X \n GDDR6X \n GDDR6X \n GDDR6X \n GDDR6X \n GDDR6 / GDDR6X \n GDDR6 \n GDDR6",
+        "review_status": "pending",
+        "reviewed_at": null,
+        "notes": "NVIDIA 规格表｜列「RTX 4090」（第 1/9 列）｜请核对：raw_excerpt 为页面该字段整行原文，本条目取其中该列的值"
+      }
+    ],
+    "gpu_spec": {
+      "architecture": "Ada Lovelace",
+      "vram_gib": 24,
+      "memory_type": "GDDR6X",
+      "memory_bus_width_bit": 384,
+      "memory_bandwidth_gb_s": 1008,
+      "ecc_support": false,
+      "interface": null,
+      "pcie_generation": 4,
+      "pcie_lanes": 16,
+      "board_power_w": 425
+    }
+  },
+  "review_notes": [
+    "重建/扩展收集（2026-09-07）：官方来源页待核验（弃用页将找替代官方来源），未挂 evidence；值按公开规格知识填写，pending，待来源确认后核对。",
+    "2026-09-07 evidence 补全：挂 canonical_name 证据（来源见 sources）；其余字段证据待逐字核验后补。",
+    "2026-09-14 evidence 提取：从快照 src_nvidia_gpu-desktop-40-series.txt 提取字段级逐字证据（pending，待审核）。",
+    "2026-09-15 evidence 提取：从快照 src_nvidia_gpu-desktop-40-series.txt 提取字段级逐字证据（pending，待审核）。",
+    "2026-09-15 evidence 提取：从快照 src_nvidia_gpu-desktop-40-series.txt 提取字段级逐字证据（pending，待审核）。",
+    "2026-09-15 evidence 提取：从快照 src_nvidia_gpu-desktop-40-series.txt 提取字段级逐字证据（pending，待审核）。",
+    "2026-09-15 evidence 提取：从快照 src_nvidia_gpu-desktop-40-series.txt 提取字段级逐字证据（pending，待审核）。"
+  ]
+}

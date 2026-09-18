@@ -1,0 +1,24 @@
+{
+  "schema_version": "3.2",
+  "record_type": "source_document",
+  "status": "pending",
+  "payload": {
+    "source_key": "src:card:glm-4-6",
+    "title": "GLM-4.6 Model Card",
+    "url": "https://huggingface.co/zai-org/GLM-4.6",
+    "publisher_key": "org:zai-org",
+    "source_type": "model_card",
+    "source_tier": "A",
+    "published_at": null,
+    "market_region": null,
+    "language": null,
+    "availability_status": "accessible",
+    "archive_url": null,
+    "accessed_at": "2026-09-14T11:56:11+00:00",
+    "content_hash": "11aebad3d421d056161bcbb518c7c7346825414639a77f84defa224b002ec286"
+  },
+  "review_notes": [
+    "模型扩展批来源登记（2026-09-07）：pending，待 page_save.py 抓取回填 accessed_at/content_hash。",
+    "2026-09-14 经镜像抓取：https://hf-mirror.com/zai-org/GLM-4.6（来源登记 URL 保持原样 https://huggingface.co/zai-org/GLM-4.6）。"
+  ]
+}

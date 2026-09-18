@@ -1,0 +1,127 @@
+{
+  "schema_version": "3.2",
+  "record_type": "model",
+  "status": "accepted",
+  "payload": {
+    "identity": {
+      "entity_key": "model:openbmb:minicpm-o-2-6",
+      "canonical_name": "MiniCPM-o-2.6",
+      "entity_type": "ai_model",
+      "release_date": "2025-01-20",
+      "lifecycle_status": "unknown",
+      "recommendable": true
+    },
+    "publisher_key": "org:openbmb",
+    "release_version": null,
+    "model_type": "dense",
+    "total_parameters": 8674997028,
+    "active_parameters": null,
+    "model_stage": "vision_language",
+    "context_length_tokens": 32768,
+    "license_name": "Apache-2.0",
+    "commercial_use_status": "allowed",
+    "official_repo_url": "https://huggingface.co/openbmb/MiniCPM-o-2_6",
+    "official_model_card_url": "https://huggingface.co/openbmb/MiniCPM-o-2_6",
+    "architecture_notes": null,
+    "capabilities": [
+      {
+        "capability_key": "text_input",
+        "status": "supported",
+        "notes": null
+      },
+      {
+        "capability_key": "vision_input",
+        "status": "supported",
+        "notes": null
+      },
+      {
+        "capability_key": "audio_input",
+        "status": "supported",
+        "notes": null
+      },
+      {
+        "capability_key": "audio_output",
+        "status": "supported",
+        "notes": null
+      }
+    ],
+    "variants": [
+      {
+        "identity": {
+          "entity_key": "variant:openbmb-minicpm-o-2-6:official-pt",
+          "canonical_name": "MiniCPM-o-2.6 官方权重 (pt, openbmb)",
+          "entity_type": "model_variant",
+          "release_date": null,
+          "lifecycle_status": "unknown",
+          "recommendable": true
+        },
+        "file_size_bytes": 17404540719,
+        "weight_format": "pt",
+        "official_status": "official",
+        "repository_url": "https://huggingface.co/openbmb/MiniCPM-o-2_6",
+        "evidence": [
+          {
+            "source_key": "src:hf:openbmb-minicpm-o-2-6",
+            "field_key": "entity.canonical_name",
+            "normalized_value": "MiniCPM-o-2.6 官方权重 (pt, openbmb)",
+            "review_status": "accepted",
+            "confidence": 1
+          }
+        ]
+      }
+    ],
+    "evidence": [
+      {
+        "source_key": "src:card:minicpm-o-2-6",
+        "field_key": "entity.canonical_name",
+        "normalized_value": "MiniCPM-o-2.6",
+        "provenance_key": "official",
+        "raw_excerpt": "MiniCPM-o-2.6",
+        "review_status": "accepted",
+        "reviewed_at": null
+      },
+      {
+        "source_key": "src:card:minicpm-o-2-6",
+        "field_key": "model.license_name",
+        "normalized_value": "Apache-2.0",
+        "provenance_key": "official",
+        "raw_excerpt": "License: apache-2.0",
+        "review_status": "accepted",
+        "reviewed_at": null
+      },
+      {
+        "source_key": "src:card:minicpm-o-2-6",
+        "field_key": "model.model_stage",
+        "normalized_value": "vision_language",
+        "provenance_key": "official",
+        "raw_excerpt": "vision_language",
+        "review_status": "accepted",
+        "reviewed_at": null
+      },
+      {
+        "source_key": "src:card:minicpm-o-2-6",
+        "field_key": "model.total_parameters",
+        "normalized_value": 8674997028,
+        "provenance_key": "official",
+        "raw_excerpt": "HF API safetensors.total（精确）: 8674997028",
+        "notes": "由官方 config/API 回填",
+        "review_status": "accepted",
+        "reviewed_at": null
+      },
+      {
+        "source_key": "src:card:minicpm-o-2-6",
+        "field_key": "model.context_length_tokens",
+        "normalized_value": 32768,
+        "provenance_key": "official",
+        "raw_excerpt": "config.json max_position_embeddings: 32768",
+        "notes": "由官方 config/API 回填",
+        "review_status": "accepted",
+        "reviewed_at": null
+      }
+    ],
+    "family": "MiniCPM-o"
+  },
+  "review_notes": [
+    "Model artifacts enumerated from the official Hugging Face API on 2026-09-16 (file list and byte sizes only; no weights were downloaded or verified)."
+  ]
+}

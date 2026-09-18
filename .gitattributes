@@ -1,0 +1,3 @@
+# The published V3.2 manifest pins CRLF bytes. Force the same checkout form on
+# every OS so core.autocrlf cannot leave a subset as mixed/LF and break SHA-256.
+data/v3/releases/**/*.json text eol=crlf

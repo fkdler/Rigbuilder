@@ -1,0 +1,23 @@
+{
+  "schema_version": "3.2",
+  "record_type": "source_document",
+  "status": "accepted",
+  "payload": {
+    "source_key": "source:riot-games-valorant-sysreq",
+    "title": "Valorant — 官方系统需求",
+    "url": "https://playvalorant.com/en-us/specs/",
+    "source_type": "official_page",
+    "source_tier": "A",
+    "publisher_key": null,
+    "published_at": null,
+    "accessed_at": "2026-09-07T07:10:47+00:00",
+    "content_hash": "22606cbd118d70c35eace2905179abb9302060c1b962d2666f4fb00bf41854a5",
+    "archive_url": null,
+    "market_region": null,
+    "language": null,
+    "availability_status": "accessible"
+  },
+  "review_notes": [
+    "accessed_at 为占位时间，须由实际访问页面的调查员替换为真实访问时间。"
+  ]
+}

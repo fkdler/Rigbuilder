@@ -1,0 +1,6 @@
+Truth V3.2 import report: rigbuilder-v3-2-2026-09-07
+Mode: validate-only
+Added: 0
+Updated: 0
+Skipped: 436
+Rejected: 0

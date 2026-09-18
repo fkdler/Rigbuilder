@@ -1,0 +1,481 @@
+{
+  "mode": "apply",
+  "release": "rigbuilder-v3-4-model-capabilities-2026-09-15",
+  "added": 420,
+  "updated": 2,
+  "skipped": 4,
+  "rejected": 0,
+  "files": [
+    {
+      "path": "fields/model-capability-vision_input.json",
+      "status": "validated",
+      "record_type": "field_definition"
+    },
+    {
+      "path": "fields/model-capability-image_generation.json",
+      "status": "validated",
+      "record_type": "field_definition"
+    },
+    {
+      "path": "fields/model-capability-audio_input.json",
+      "status": "validated",
+      "record_type": "field_definition"
+    },
+    {
+      "path": "fields/model-capability-text_input.json",
+      "status": "validated",
+      "record_type": "field_definition"
+    },
+    {
+      "path": "sources/black-forest-labs-flux-1-dev.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "models/black-forest-labs-flux-1-dev.json",
+      "status": "validated",
+      "record_type": "model"
+    },
+    {
+      "path": "sources/deepseek-deepseek-r1.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "models/deepseek-deepseek-r1.json",
+      "status": "validated",
+      "record_type": "model"
+    },
+    {
+      "path": "sources/deepseek-deepseek-v3-2-exp.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "models/deepseek-deepseek-v3-2-exp.json",
+      "status": "validated",
+      "record_type": "model"
+    },
+    {
+      "path": "sources/google-gemma-3-12b-it.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "models/google-gemma-3-12b-it.json",
+      "status": "validated",
+      "record_type": "model"
+    },
+    {
+      "path": "sources/google-gemma-3-1b-it.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "models/google-gemma-3-1b-it.json",
+      "status": "validated",
+      "record_type": "model"
+    },
+    {
+      "path": "sources/google-gemma-3-27b-it.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "models/google-gemma-3-27b-it.json",
+      "status": "validated",
+      "record_type": "model"
+    },
+    {
+      "path": "sources/google-gemma-3-4b-it.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "models/google-gemma-3-4b-it.json",
+      "status": "validated",
+      "record_type": "model"
+    },
+    {
+      "path": "sources/google-gemma-3n-e2b-it.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "models/google-gemma-3n-e2b-it.json",
+      "status": "validated",
+      "record_type": "model"
+    },
+    {
+      "path": "sources/google-gemma-3n-e4b-it.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "models/google-gemma-3n-e4b-it.json",
+      "status": "validated",
+      "record_type": "model"
+    },
+    {
+      "path": "sources/internlm-internlm3-8b-instruct.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "models/internlm-internlm3-8b-instruct.json",
+      "status": "validated",
+      "record_type": "model"
+    },
+    {
+      "path": "sources/meta-llama-3-2-1b-instruct.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "models/meta-llama-3-2-1b-instruct.json",
+      "status": "validated",
+      "record_type": "model"
+    },
+    {
+      "path": "sources/meta-llama-3-2-3b-instruct.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "models/meta-llama-3-2-3b-instruct.json",
+      "status": "validated",
+      "record_type": "model"
+    },
+    {
+      "path": "sources/meta-llama-4-maverick-17b-128e.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "models/meta-llama-4-maverick-17b-128e.json",
+      "status": "validated",
+      "record_type": "model"
+    },
+    {
+      "path": "sources/meta-llama-4-scout-17b-16e.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "models/meta-llama-4-scout-17b-16e.json",
+      "status": "validated",
+      "record_type": "model"
+    },
+    {
+      "path": "sources/microsoft-phi-4-mini-instruct.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "models/microsoft-phi-4-mini-instruct.json",
+      "status": "validated",
+      "record_type": "model"
+    },
+    {
+      "path": "sources/microsoft-phi-4-multimodal-instruct.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "models/microsoft-phi-4-multimodal-instruct.json",
+      "status": "validated",
+      "record_type": "model"
+    },
+    {
+      "path": "sources/minimax-minimax-m2.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "models/minimax-minimax-m2.json",
+      "status": "validated",
+      "record_type": "model"
+    },
+    {
+      "path": "sources/mistral-ai-mistral-small-3-2-24b-instruct.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "models/mistral-ai-mistral-small-3-2-24b-instruct.json",
+      "status": "validated",
+      "record_type": "model"
+    },
+    {
+      "path": "sources/moonshot-ai-kimi-k2-instruct.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "models/moonshot-ai-kimi-k2-instruct.json",
+      "status": "validated",
+      "record_type": "model"
+    },
+    {
+      "path": "sources/moonshot-ai-kimi-k2-thinking.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "models/moonshot-ai-kimi-k2-thinking.json",
+      "status": "validated",
+      "record_type": "model"
+    },
+    {
+      "path": "sources/openai-whisper-large-v3.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "models/openai-whisper-large-v3.json",
+      "status": "validated",
+      "record_type": "model"
+    },
+    {
+      "path": "sources/qwen-qwen2-5-vl-7b-instruct.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "models/qwen-qwen2-5-vl-7b-instruct.json",
+      "status": "validated",
+      "record_type": "model"
+    },
+    {
+      "path": "sources/qwen-qwen3-0-6b.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "models/qwen-qwen3-0-6b.json",
+      "status": "validated",
+      "record_type": "model"
+    },
+    {
+      "path": "sources/qwen-qwen3-1-7b.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "models/qwen-qwen3-1-7b.json",
+      "status": "validated",
+      "record_type": "model"
+    },
+    {
+      "path": "sources/qwen-qwen3-14b.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "models/qwen-qwen3-14b.json",
+      "status": "validated",
+      "record_type": "model"
+    },
+    {
+      "path": "sources/qwen-qwen3-235b-a22b.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "models/qwen-qwen3-235b-a22b.json",
+      "status": "validated",
+      "record_type": "model"
+    },
+    {
+      "path": "sources/qwen-qwen3-30b-a3b-instruct-2507.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "models/qwen-qwen3-30b-a3b-instruct-2507.json",
+      "status": "validated",
+      "record_type": "model"
+    },
+    {
+      "path": "sources/qwen-qwen3-30b-a3b.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "models/qwen-qwen3-30b-a3b.json",
+      "status": "validated",
+      "record_type": "model"
+    },
+    {
+      "path": "sources/qwen-qwen3-32b.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "models/qwen-qwen3-32b.json",
+      "status": "validated",
+      "record_type": "model"
+    },
+    {
+      "path": "sources/qwen-qwen3-4b-instruct-2507.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "models/qwen-qwen3-4b-instruct-2507.json",
+      "status": "validated",
+      "record_type": "model"
+    },
+    {
+      "path": "sources/qwen-qwen3-4b.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "models/qwen-qwen3-4b.json",
+      "status": "validated",
+      "record_type": "model"
+    },
+    {
+      "path": "sources/qwen-qwen3-coder-30b-a3b-instruct.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "models/qwen-qwen3-coder-30b-a3b-instruct.json",
+      "status": "validated",
+      "record_type": "model"
+    },
+    {
+      "path": "sources/qwen-qwen3-coder-480b-a35b-instruct.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "models/qwen-qwen3-coder-480b-a35b-instruct.json",
+      "status": "validated",
+      "record_type": "model"
+    },
+    {
+      "path": "sources/qwen-qwen3-embedding-0-6b.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "models/qwen-qwen3-embedding-0-6b.json",
+      "status": "validated",
+      "record_type": "model"
+    },
+    {
+      "path": "sources/qwen-qwen3-embedding-4b.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "models/qwen-qwen3-embedding-4b.json",
+      "status": "validated",
+      "record_type": "model"
+    },
+    {
+      "path": "sources/qwen-qwen3-embedding-8b.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "models/qwen-qwen3-embedding-8b.json",
+      "status": "validated",
+      "record_type": "model"
+    },
+    {
+      "path": "sources/qwen-qwen3-reranker-0-6b.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "models/qwen-qwen3-reranker-0-6b.json",
+      "status": "validated",
+      "record_type": "model"
+    },
+    {
+      "path": "sources/qwen-qwen3-reranker-4b.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "models/qwen-qwen3-reranker-4b.json",
+      "status": "validated",
+      "record_type": "model"
+    },
+    {
+      "path": "sources/qwen-qwen3-vl-30b-a3b-instruct.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "models/qwen-qwen3-vl-30b-a3b-instruct.json",
+      "status": "validated",
+      "record_type": "model"
+    },
+    {
+      "path": "sources/qwen-qwen3-vl-32b.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "models/qwen-qwen3-vl-32b.json",
+      "status": "validated",
+      "record_type": "model"
+    },
+    {
+      "path": "sources/qwen-qwen3-vl-4b.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "models/qwen-qwen3-vl-4b.json",
+      "status": "validated",
+      "record_type": "model"
+    },
+    {
+      "path": "sources/qwen-qwen3-vl-8b.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "models/qwen-qwen3-vl-8b.json",
+      "status": "validated",
+      "record_type": "model"
+    },
+    {
+      "path": "sources/stability-ai-stable-diffusion-3-5-large.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "models/stability-ai-stable-diffusion-3-5-large.json",
+      "status": "validated",
+      "record_type": "model"
+    },
+    {
+      "path": "sources/zai-org-glm-4-5-air.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "models/zai-org-glm-4-5-air.json",
+      "status": "validated",
+      "record_type": "model"
+    },
+    {
+      "path": "sources/zai-org-glm-4-6.json",
+      "status": "validated",
+      "record_type": "source_document"
+    },
+    {
+      "path": "models/zai-org-glm-4-6.json",
+      "status": "validated",
+      "record_type": "model"
+    }
+  ],
+  "errors": []
+}

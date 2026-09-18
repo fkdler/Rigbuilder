@@ -1,0 +1,23 @@
+{
+  "schema_version": "3.2",
+  "record_type": "source_document",
+  "status": "pending",
+  "payload": {
+    "source_key": "source:jd:geforce-rtx-4060-10166834608980",
+    "title": "技嘉 RTX4060 8GRTX40系|高清输出|强力光追8G 大显存RTX40系|高清输出|强力光追",
+    "url": "https://item.jd.com/10166834608980.html",
+    "source_type": "retailer",
+    "source_tier": "C",
+    "publisher_key": null,
+    "published_at": null,
+    "market_region": "CN",
+    "language": "zh-CN",
+    "availability_status": "accessible",
+    "archive_url": null,
+    "accessed_at": "2026-09-07T07:12:28+00:00",
+    "content_hash": "def20092db386f86c88ad26fb8fa90086a8a0851e91d16de276462e549877efe"
+  },
+  "review_notes": [
+    "京东 search SKU 10166834608980；店铺：search 未返回店铺名，需人工复核；页面价作为 current_new 参考价。"
+  ]
+}

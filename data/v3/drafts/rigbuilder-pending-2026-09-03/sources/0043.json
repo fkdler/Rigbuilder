@@ -1,0 +1,24 @@
+{
+  "schema_version": "3.2",
+  "record_type": "source_document",
+  "status": "pending",
+  "payload": {
+    "source_key": "src:card:gemma-2-9b-it",
+    "title": "Gemma-2-9b-it Model Card",
+    "url": "https://huggingface.co/google/Gemma-2-9b-it",
+    "publisher_key": "org:google",
+    "source_type": "model_card",
+    "source_tier": "A",
+    "published_at": null,
+    "market_region": null,
+    "language": null,
+    "availability_status": "accessible",
+    "archive_url": null,
+    "accessed_at": "2026-09-07T07:05:44+00:00",
+    "content_hash": "1b28abe7716c45dddce444151b578b46b675e24a9c210c52d12be5530f308322"
+  },
+  "review_notes": [
+    "来源 retrieved_at 为占位时间，调查员须替换为实际看到页面的时间。",
+    "source_key 前缀暂为 src: 与 quantization/format 大小写（Q4_K_M/GGUF）待审核人与词表对齐（可统一为 source:/小写）。"
+  ]
+}

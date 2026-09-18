@@ -1,0 +1,56 @@
+{
+  "schema_version": "3.2",
+  "record_type": "hardware",
+  "status": "accepted",
+  "payload": {
+    "identity": {
+      "entity_key": "hw:amd:platform-amd-x870e:desktop:global",
+      "canonical_name": "AMD X870E",
+      "entity_type": "hardware",
+      "release_date": null,
+      "lifecycle_status": "unknown",
+      "recommendable": false
+    },
+    "category": "platform",
+    "record_kind": "spec_profile",
+    "manufacturer_key": "org:amd",
+    "form_factor": "desktop",
+    "product_family": "AMD Desktop Chipset",
+    "model_name": "AMD X870E",
+    "variant_name": null,
+    "market_segment": "consumer",
+    "region_code": "GLOBAL",
+    "official_product_id": null,
+    "platform_spec": {
+      "chipset": "AMD X870E",
+      "socket": "AM5",
+      "memory_standard": [
+        {
+          "standard": "DDR5",
+          "max_speed_mt_s": null
+        }
+      ],
+      "max_memory_gib": 256,
+      "pcie_generation": 5,
+      "overclock_support": true
+    },
+    "attributes": [],
+    "evidence": [
+      {
+        "source_key": "src:amd:platform-x870e",
+        "field_key": "entity.canonical_name",
+        "normalized_value": "AMD X870E",
+        "provenance_key": "official",
+        "raw_excerpt": "AMD X870E",
+        "review_status": "accepted",
+        "reviewed_at": null
+      }
+    ]
+  },
+  "review_notes": [
+    "platform 档位补充（2026-09-07）：芯片组规格为公开知识值，pending；AMD 官方芯片组页；max_speed/容量待官方页核验。",
+    "2026-09-14 来源替换：AMD 官网产品页 404，evidence 改指 HardQuery 第三方库（tier C），待官方替代来源或详情页核验。",
+    "2026-09-15 来源替换：HardQuery 栏目页 → AMD 官方支持页（tier A，可脚本抓取）。",
+    "Approved in bulk on 2026-09-16 at the user's explicit request; no per-record human review."
+  ]
+}

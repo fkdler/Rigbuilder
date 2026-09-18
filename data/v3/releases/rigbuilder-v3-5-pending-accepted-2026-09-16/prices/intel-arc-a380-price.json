@@ -1,0 +1,23 @@
+{
+  "schema_version": "3.2",
+  "record_type": "price_snapshot",
+  "status": "accepted",
+  "payload": {
+    "price_key": "price:hw:intel:arc-a380:desktop:global:cn:2026-09",
+    "entity_key": "hw:intel:arc-a380:desktop:global",
+    "source_key": "source:jd:intel-arc-a380-100123396963",
+    "observed_at": "2026-09-07T07:35:22+08:00",
+    "currency": "CNY",
+    "amount": 949,
+    "availability": "in_stock",
+    "price_type": "current_new",
+    "market_region": "CN",
+    "condition": "new",
+    "seller_key": null,
+    "notes": ""
+  },
+  "review_notes": [
+    "用户提供； 京东页面价。",
+    "Approved in bulk on 2026-09-16 at the user's explicit request; no per-record human review."
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "schema_version": "3.2",
+  "record_type": "benchmark_run",
+  "status": "accepted",
+  "payload": {
+    "run_key": "passmark-cpu-models:hw:amd:ryzen-ai-9-365:laptop:global:2026-09-16",
+    "protocol_key": "passmark-cpu-models",
+    "protocol_version": "1",
+    "workload_key": null,
+    "started_at": "2026-09-16T04:16:04.406679Z",
+    "completed_at": null,
+    "environment": {
+      "snapshot_date": "2026-09-16",
+      "form_factor": "laptop",
+      "source_name": "AMD Ryzen AI 9 365",
+      "population_source": "https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+AI+9+365&id=6180",
+      "population_all_cpus": 6006,
+      "population_in_class": 1588,
+      "rank_class_label": "Desktop"
+    },
+    "subjects": [
+      {
+        "entity_key": "hw:amd:ryzen-ai-9-365:laptop:global",
+        "role": "cpu",
+        "is_primary": true,
+        "quantity": 1
+      }
+    ],
+    "metrics": [
+      {
+        "metric_key": "passmark.cpu.mark",
+        "value_number": "30317",
+        "unit": "points",
+        "value_integer": null,
+        "value_boolean": null,
+        "value_text": null,
+        "statistic": "reported",
+        "sample_count": null
+      },
+      {
+        "metric_key": "passmark.cpu.single_thread",
+        "value_number": "3859",
+        "unit": "points",
+        "value_integer": null,
+        "value_boolean": null,
+        "value_text": null,
+        "statistic": "reported",
+        "sample_count": null
+      },
+      {
+        "metric_key": "passmark.cpu.rank_multi",
+        "value_number": null,
+        "unit": "rank",
+        "value_integer": 557,
+        "value_boolean": null,
+        "value_text": null,
+        "statistic": "reported",
+        "sample_count": null
+      },
+      {
+        "metric_key": "passmark.cpu.rank_class",
+        "value_number": null,
+        "unit": "rank",
+        "value_integer": 167,
+        "value_boolean": null,
+        "value_text": null,
+        "statistic": "reported",
+        "sample_count": null
+      },
+      {
+        "metric_key": "passmark.cpu.rank_single",
+        "value_number": null,
+        "unit": "rank",
+        "value_integer": 307,
+        "value_boolean": null,
+        "value_text": null,
+        "statistic": "reported",
+        "sample_count": null
+      }
+    ],
+    "evidence": [],
+    "source_key": "src:passmark:cpu-models-2026-09-16",
+    "run_origin": "independent",
+    "test_date": "2026-09-16",
+    "status": "success",
+    "settings": {
+      "source_page": "https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+AI+9+365&id=6180",
+      "score_column": "Average CPU Mark"
+    },
+    "settings_hash": null,
+    "sample_count": null,
+    "aggregation_method": "reported",
+    "raw_result_url": "https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+AI+9+365&id=6180",
+    "raw_result_hash": "975022e8120e2fdbf3bd40b48733d2a6f6e3d411ea8074b6a7e4c4aa454dd940",
+    "notes": "Figures as published for 'AMD Ryzen AI 9 365' in the 2026-09-16 snapshot."
+  },
+  "review_notes": []
+}

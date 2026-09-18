@@ -1,0 +1,55 @@
+{
+  "schema_version": "3.2",
+  "record_type": "hardware",
+  "status": "pending",
+  "payload": {
+    "identity": {
+      "entity_key": "hw:intel:arc-a310:desktop:global",
+      "canonical_name": "Intel Arc A310",
+      "entity_type": "hardware",
+      "release_date": null,
+      "lifecycle_status": "unknown",
+      "recommendable": true
+    },
+    "category": "gpu",
+    "record_kind": "product",
+    "manufacturer_key": "org:intel",
+    "form_factor": "desktop",
+    "model_name": "Intel Arc A310",
+    "variant_name": null,
+    "market_segment": "consumer",
+    "region_code": "GLOBAL",
+    "official_product_id": null,
+    "product_family": null,
+    "attributes": [],
+    "evidence": [
+      {
+        "source_key": "src:intel:gpu-arc-a770m",
+        "field_key": "entity.canonical_name",
+        "normalized_value": "Intel Arc A310",
+        "provenance_key": "official",
+        "raw_excerpt": "Intel Arc A310",
+        "review_status": "pending",
+        "reviewed_at": null
+      }
+    ],
+    "gpu_spec": {
+      "architecture": "Xe-HPG (Alchemist)",
+      "vram_gib": 4,
+      "memory_type": "GDDR6",
+      "memory_bus_width_bit": 64,
+      "memory_bandwidth_gb_s": 124,
+      "ecc_support": false,
+      "interface": null,
+      "pcie_generation": 4,
+      "pcie_lanes": null,
+      "board_power_w": 75
+    }
+  },
+  "review_notes": [
+    "重建/扩展收集（2026-09-07）：官方来源页待核验（弃用页将找替代官方来源），未挂 evidence；值按公开规格知识填写，pending，待来源确认后核对。",
+    "2026-09-07 evidence 补全：挂 canonical_name 证据（来源见 sources）；其余字段证据待逐字核验后补。",
+    "2026-09-15 来源替换（Intel 官方支持文章 / Qwen 官方集合页）。",
+    "2026-09-15 命名修正：文件名与 entity_key 去掉重复厂商前缀（intel-intel-arc-a310.json → intel-arc-a310.json）。"
+  ]
+}

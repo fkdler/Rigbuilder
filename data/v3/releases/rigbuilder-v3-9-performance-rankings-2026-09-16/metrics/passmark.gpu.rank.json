@@ -1,0 +1,16 @@
+{
+  "schema_version": "3.2",
+  "record_type": "metric_definition",
+  "status": "accepted",
+  "payload": {
+    "metric_key": "passmark.gpu.rank",
+    "label": "PassMark GPU rank",
+    "value_type": "integer",
+    "canonical_unit": "rank",
+    "higher_is_better": false,
+    "description": "Position in the PassMark video card list; lower is better.",
+    "comparison_scope": "gpu",
+    "active": true
+  },
+  "review_notes": []
+}

@@ -1,0 +1,80 @@
+{
+  "schema_version": "3.2",
+  "record_type": "hardware",
+  "status": "accepted",
+  "payload": {
+    "identity": {
+      "entity_key": "hw:nvidia:geforce-rtx-3060-8gb:desktop:global",
+      "canonical_name": "GeForce RTX 3060 8GB",
+      "entity_type": "hardware",
+      "release_date": "2022-10-29",
+      "lifecycle_status": "unknown",
+      "recommendable": true
+    },
+    "category": "gpu",
+    "record_kind": "product",
+    "manufacturer_key": "org:nvidia",
+    "form_factor": "desktop",
+    "model_name": "GeForce RTX 3060 8GB",
+    "variant_name": null,
+    "market_segment": "consumer",
+    "region_code": "GLOBAL",
+    "official_product_id": null,
+    "product_family": null,
+    "attributes": [],
+    "evidence": [
+      {
+        "source_key": "src:nvidia:gpu-desktop-30-series",
+        "field_key": "entity.canonical_name",
+        "normalized_value": "GeForce RTX 3060 8GB",
+        "provenance_key": "official",
+        "raw_excerpt": "GeForce RTX 3060 8GB",
+        "review_status": "accepted",
+        "reviewed_at": null
+      },
+      {
+        "source_key": "src:nvidia:gpu-desktop-30-series",
+        "field_key": "gpu.vram_gib",
+        "normalized_value": 8,
+        "provenance_key": "official",
+        "raw_excerpt": "Memory Size \n 24 GB \n 24 GB \n 12 GB \n 12 GB / 10 GB \n 8 GB \n 8 GB \n 8 GB \n 12 GB / 8 GB \n 8 GB \n 6 GB",
+        "review_status": "accepted",
+        "reviewed_at": null,
+        "notes": "NVIDIA 规格表｜列「G eForce RTX 3060」（第 8/10 列）｜请核对：raw_excerpt 为页面该字段整行原文，本条目取其中该列的值"
+      },
+      {
+        "source_key": "src:nvidia:gpu-desktop-30-series",
+        "field_key": "gpu.memory_type",
+        "normalized_value": "GDDR6",
+        "provenance_key": "official",
+        "raw_excerpt": "Memory Type \n GDDR6X \n GDDR6X \n GDDR6X \n GDDR6X \n GDDR6X \n GDDR6 \n GDDR6 / GDDR6X \n GDDR6 \n GDDR6 \n GDDR6",
+        "review_status": "accepted",
+        "reviewed_at": null,
+        "notes": "NVIDIA 规格表｜列「G eForce RTX 3060」（第 8/10 列）｜请核对：raw_excerpt 为页面该字段整行原文，本条目取其中该列的值"
+      },
+      {
+        "source_key": "src:nvidia:rtx-3060-3060ti-family",
+        "field_key": "entity.release_date",
+        "normalized_value": "2022-10-29",
+        "raw_excerpt": "Launch date 2022-10-29",
+        "review_status": "accepted",
+        "confidence": 1
+      }
+    ],
+    "gpu_spec": {
+      "architecture": "Ampere",
+      "vram_gib": 8,
+      "memory_type": "GDDR6",
+      "memory_bus_width_bit": 128,
+      "memory_bandwidth_gb_s": 240,
+      "ecc_support": false,
+      "interface": null,
+      "pcie_generation": 4,
+      "pcie_lanes": 16,
+      "board_power_w": 170
+    }
+  },
+  "review_notes": [
+    "Added 2026-09-16 by the migration/backfill pass; value matches the stored specification column."
+  ]
+}

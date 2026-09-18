@@ -1,0 +1,24 @@
+{
+  "schema_version": "3.2",
+  "record_type": "source_document",
+  "status": "pending",
+  "payload": {
+    "source_key": "src:org:internlm",
+    "title": "Shanghai AI Laboratory (InternLM) 官方站点",
+    "url": "https://huggingface.co/internlm",
+    "publisher_key": "org:internlm",
+    "source_type": "official_page",
+    "source_tier": "B",
+    "published_at": null,
+    "market_region": null,
+    "language": null,
+    "availability_status": "accessible",
+    "archive_url": null,
+    "accessed_at": "2026-09-14T11:59:06+00:00",
+    "content_hash": "10e04a1ea04196b77477519be8241656bb4c95786eb7c7894a22c15a3867763f"
+  },
+  "review_notes": [
+    "evidence 补全批（2026-09-07）：pending，待抓取核验。",
+    "2026-09-14 经镜像抓取：https://hf-mirror.com/internlm（来源登记 URL 保持原样 https://huggingface.co/internlm）。"
+  ]
+}

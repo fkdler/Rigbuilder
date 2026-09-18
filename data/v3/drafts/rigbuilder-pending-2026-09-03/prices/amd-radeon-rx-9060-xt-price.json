@@ -1,0 +1,22 @@
+{
+  "schema_version": "3.2",
+  "record_type": "price_snapshot",
+  "status": "pending",
+  "payload": {
+    "price_key": "price:hw:amd:radeon-rx-9060-xt:desktop:global:cn:2026-09",
+    "entity_key": "hw:amd:radeon-rx-9060-xt:desktop:global",
+    "source_key": "source:jd:radeon-rx-9060-xt-100217735992",
+    "observed_at": "2026-09-07T07:35:22+08:00",
+    "currency": "CNY",
+    "amount": 3499,
+    "availability": "in_stock",
+    "price_type": "current_new",
+    "market_region": "CN",
+    "condition": "new",
+    "seller_key": null,
+    "notes": ""
+  },
+  "review_notes": [
+    "用户提供； 京东页面价。"
+  ]
+}

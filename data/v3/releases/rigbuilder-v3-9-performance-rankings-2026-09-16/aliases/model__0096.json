@@ -1,0 +1,14 @@
+{
+  "schema_version": "3.2",
+  "record_type": "entity_alias",
+  "status": "accepted",
+  "payload": {
+    "entity_key": "model:skywork:skyreels-v2",
+    "alias": "Skywork/SkyReels-V2-I2V-14B-720P-Diffusers",
+    "alias_type": "repository",
+    "language": null,
+    "normalized_alias": "skyworkskyreelsv2i2v14b720pdiffusers",
+    "source_key": null
+  },
+  "review_notes": []
+}

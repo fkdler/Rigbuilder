@@ -1,0 +1,22 @@
+{
+  "schema_version": "3.2",
+  "record_type": "price_snapshot",
+  "status": "pending",
+  "payload": {
+    "price_key": "price:hw:intel:core-i5-13400f:desktop:global:cn:2026-09",
+    "entity_key": "hw:intel:core-i5-13400f:desktop:global",
+    "source_key": "source:jd:core-i5-13400f-10161101178815",
+    "observed_at": "2026-09-05T16:23:14+08:00",
+    "currency": "CNY",
+    "amount": 1607.14,
+    "availability": "in_stock",
+    "price_type": "current_new",
+    "market_region": "CN",
+    "condition": "new",
+    "seller_key": null,
+    "notes": "邮已售3万+97%好评微星板U旗舰店"
+  },
+  "review_notes": [
+    "京东页面标价；抓取2026-09-05。"
+  ]
+}

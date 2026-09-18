@@ -1,0 +1,16 @@
+{
+  "schema_version": "3.2",
+  "record_type": "metric_definition",
+  "status": "accepted",
+  "payload": {
+    "metric_key": "passmark.cpu.rank_multi",
+    "label": "PassMark CPU multithread rank",
+    "value_type": "integer",
+    "canonical_unit": "rank",
+    "higher_is_better": false,
+    "description": "Multithread rank among every CPU PassMark has graded; lower is better.",
+    "comparison_scope": "cpu",
+    "active": true
+  },
+  "review_notes": []
+}

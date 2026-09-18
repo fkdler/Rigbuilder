@@ -1,0 +1,23 @@
+{
+  "schema_version": "3.2",
+  "record_type": "source_document",
+  "status": "pending",
+  "payload": {
+    "source_key": "source:jd:core-i7-13700k-100040185489",
+    "title": "英特尔(Intel) i7-13700K 酷睿13代 16核24线程 睿频至高可达5.4Ghz 五年质保 台式机CPU 畅玩黑神话悟空多核心|混合架构|保修延长",
+    "url": "https://item.jd.com/100040185489.html",
+    "source_type": "retailer",
+    "source_tier": "C",
+    "publisher_key": null,
+    "published_at": null,
+    "market_region": "CN",
+    "language": "zh-CN",
+    "availability_status": "accessible",
+    "archive_url": null,
+    "accessed_at": "2026-09-07T07:11:59+00:00",
+    "content_hash": "c94ac7c938167addca7ae8c8f3826c8835642bab646d8d7622e2c7eae59601e7"
+  },
+  "review_notes": [
+    "京东标价 SKU 100040185489；店铺：4万+30天加购飙升5倍英特尔京东自营旗舰店。"
+  ]
+}

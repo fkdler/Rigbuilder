@@ -1,0 +1,24 @@
+{
+  "schema_version": "3.2",
+  "record_type": "source_document",
+  "status": "pending",
+  "payload": {
+    "source_key": "src:card:parakeet-tdt-0-6b-v2",
+    "title": "parakeet-tdt-0.6b-v2 Model Card",
+    "url": "https://huggingface.co/nvidia/parakeet-tdt-0.6b-v2",
+    "publisher_key": "org:nvidia",
+    "source_type": "model_card",
+    "source_tier": "A",
+    "published_at": null,
+    "market_region": null,
+    "language": null,
+    "availability_status": "accessible",
+    "archive_url": null,
+    "accessed_at": "2026-09-15T11:33:05+00:00",
+    "content_hash": "758a83110cc2996da4886bd556d0f5532958dd797d2b7036a6958337fff660f8"
+  },
+  "review_notes": [
+    "多模态模型来源登记（2026-09-07）：pending。",
+    "2026-09-15 经镜像抓取：https://hf-mirror.com/nvidia/parakeet-tdt-0.6b-v2（来源登记 URL 保持原样 https://huggingface.co/nvidia/parakeet-tdt-0.6b-v2）。"
+  ]
+}

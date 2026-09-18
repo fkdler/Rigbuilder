@@ -1,0 +1,185 @@
+{
+  "schema_version": "3.2",
+  "record_type": "model",
+  "status": "pending",
+  "payload": {
+    "identity": {
+      "entity_key": "model:minimax:minimax-m2",
+      "canonical_name": "MiniMax-M2",
+      "entity_type": "ai_model",
+      "release_date": "2025-10-27",
+      "lifecycle_status": "unknown",
+      "recommendable": true
+    },
+    "publisher_key": "org:minimax",
+    "release_version": null,
+    "model_type": "moe",
+    "total_parameters": 228689764864,
+    "active_parameters": 10000000000,
+    "model_stage": "instruct",
+    "context_length_tokens": 196608,
+    "license_name": "MIT",
+    "commercial_use_status": "allowed",
+    "official_repo_url": "https://huggingface.co/MiniMaxAI/MiniMax-M2",
+    "official_model_card_url": "https://huggingface.co/MiniMaxAI/MiniMax-M2",
+    "architecture_notes": null,
+    "capabilities": [
+      {
+        "capability_key": "text_input",
+        "status": "supported",
+        "notes": null
+      },
+      {
+        "capability_key": "reasoning",
+        "status": "supported",
+        "notes": null
+      }
+    ],
+    "variants": [
+      {
+        "identity": {
+          "entity_key": "variant:minimax:minimax-m2:gguf:q4-k-m:unsloth",
+          "canonical_name": "MiniMax-M2 Q4_K_M (GGUF, unsloth)",
+          "entity_type": "model_variant",
+          "release_date": null,
+          "lifecycle_status": "unknown",
+          "recommendable": false
+        },
+        "maintainer_key": "org:unsloth",
+        "quantization_method": "Q4_K_M",
+        "weight_format": "GGUF",
+        "bits_per_weight": null,
+        "file_size_bytes": 138342385120,
+        "official_status": "community",
+        "repository_url": "https://huggingface.co/unsloth/MiniMax-M2-GGUF",
+        "artifact_revision": null,
+        "artifact_manifest": null,
+        "checksum": null,
+        "evidence": [
+          {
+            "source_key": "src:gguf:unsloth-minimax-m2-gguf",
+            "field_key": "entity.canonical_name",
+            "normalized_value": "MiniMax-M2 Q4_K_M (GGUF, unsloth)",
+            "provenance_key": "official",
+            "raw_excerpt": "Q4_K_M",
+            "review_status": "pending",
+            "reviewed_at": null
+          }
+        ]
+      },
+      {
+        "identity": {
+          "entity_key": "variant:minimax:minimax-m2:gguf:q5-k-m:unsloth",
+          "canonical_name": "MiniMax-M2 Q5_K_M (GGUF, unsloth)",
+          "entity_type": "model_variant",
+          "release_date": null,
+          "lifecycle_status": "unknown",
+          "recommendable": false
+        },
+        "maintainer_key": "org:unsloth",
+        "quantization_method": "Q5_K_M",
+        "weight_format": "GGUF",
+        "bits_per_weight": null,
+        "file_size_bytes": 162303936128,
+        "official_status": "community",
+        "repository_url": "https://huggingface.co/unsloth/MiniMax-M2-GGUF",
+        "artifact_revision": null,
+        "artifact_manifest": null,
+        "checksum": null,
+        "evidence": [
+          {
+            "source_key": "src:gguf:unsloth-minimax-m2-gguf",
+            "field_key": "entity.canonical_name",
+            "normalized_value": "MiniMax-M2 Q5_K_M (GGUF, unsloth)",
+            "provenance_key": "official",
+            "raw_excerpt": "Q5_K_M",
+            "review_status": "pending",
+            "reviewed_at": null
+          }
+        ]
+      },
+      {
+        "identity": {
+          "entity_key": "variant:minimax:minimax-m2:gguf:q8-0:unsloth",
+          "canonical_name": "MiniMax-M2 Q8_0 (GGUF, unsloth)",
+          "entity_type": "model_variant",
+          "release_date": null,
+          "lifecycle_status": "unknown",
+          "recommendable": false
+        },
+        "maintainer_key": "org:unsloth",
+        "quantization_method": "Q8_0",
+        "weight_format": "GGUF",
+        "bits_per_weight": null,
+        "file_size_bytes": 243136873184,
+        "official_status": "community",
+        "repository_url": "https://huggingface.co/unsloth/MiniMax-M2-GGUF",
+        "artifact_revision": null,
+        "artifact_manifest": null,
+        "checksum": null,
+        "evidence": [
+          {
+            "source_key": "src:gguf:unsloth-minimax-m2-gguf",
+            "field_key": "entity.canonical_name",
+            "normalized_value": "MiniMax-M2 Q8_0 (GGUF, unsloth)",
+            "provenance_key": "official",
+            "raw_excerpt": "Q8_0",
+            "review_status": "pending",
+            "reviewed_at": null
+          }
+        ]
+      }
+    ],
+    "evidence": [
+      {
+        "source_key": "src:card:minimax-m2",
+        "field_key": "entity.canonical_name",
+        "normalized_value": "MiniMax-M2",
+        "provenance_key": "official",
+        "raw_excerpt": "MiniMax-M2",
+        "review_status": "pending",
+        "reviewed_at": null
+      },
+      {
+        "source_key": "src:card:minimax-m2",
+        "field_key": "model.total_parameters",
+        "normalized_value": 228689764864,
+        "provenance_key": "official",
+        "raw_excerpt": "HF API safetensors.total（精确）: 228689764864",
+        "review_status": "pending",
+        "reviewed_at": null,
+        "notes": "由公开知识值校正为官方值（原值 230000000000）"
+      },
+      {
+        "source_key": "src:card:minimax-m2",
+        "field_key": "model.context_length_tokens",
+        "normalized_value": 196608,
+        "unit_key": "tokens",
+        "provenance_key": "official",
+        "raw_excerpt": "config.json max_position_embeddings: 196608",
+        "review_status": "pending",
+        "reviewed_at": null,
+        "notes": "由公开知识值校正为官方值（原值 204800）"
+      },
+      {
+        "source_key": "src:gguf:unsloth-minimax-m2-gguf",
+        "field_key": "model.license_name",
+        "normalized_value": "MIT",
+        "provenance_key": "official",
+        "raw_excerpt": "License: mit",
+        "review_status": "pending",
+        "reviewed_at": null
+      }
+    ],
+    "family": "MiniMax M2"
+  },
+  "review_notes": [
+    "模型扩展批（2026-09-07）：官方卡待逐字核验；参数量/上下文为公开知识档位值，pending；GGUF 变体 file_size_bytes 待 hf_fill --apply-bytes。",
+    "2026-09-14 evidence 提取：从快照 src_gguf_unsloth-minimax-m2-gguf.txt 提取字段级逐字证据（pending，待审核）。",
+    "2026-09-15 evidence 提取：从快照 src_gguf_unsloth-minimax-m2-gguf.txt 提取字段级逐字证据（pending，待审核）。",
+    "hf_fill --refresh-params：参数量取 HF API safetensors.total（精确），上下文取 config.json max_position_embeddings；已挂 evidence（pending）。",
+    "2026-09-15 evidence 提取：从快照 src_gguf_unsloth-minimax-m2-gguf.txt 提取字段级逐字证据（pending，待审核）。",
+    "2026-09-15 evidence 提取：从快照 src_gguf_unsloth-minimax-m2-gguf.txt 提取字段级逐字证据（pending，待审核）。",
+    "2026-09-15 evidence 提取：从快照 src_gguf_unsloth-minimax-m2-gguf.txt 提取字段级逐字证据（pending，待审核）。"
+  ]
+}

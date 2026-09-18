@@ -1,0 +1,105 @@
+{
+  "schema_version": "3.2",
+  "record_type": "hardware",
+  "status": "accepted",
+  "payload": {
+    "identity": {
+      "entity_key": "hw:amd:ryzen-5-5500gt:desktop:global",
+      "canonical_name": "Ryzen 5 5500GT",
+      "entity_type": "hardware",
+      "release_date": null,
+      "lifecycle_status": "unknown",
+      "recommendable": true
+    },
+    "category": "cpu",
+    "record_kind": "product",
+    "manufacturer_key": "org:amd",
+    "form_factor": "desktop",
+    "model_name": "Ryzen 5 5500GT",
+    "variant_name": null,
+    "market_segment": "consumer",
+    "region_code": "GLOBAL",
+    "official_product_id": null,
+    "product_family": null,
+    "attributes": [],
+    "evidence": [
+      {
+        "source_key": "src:amd:cpu-amd-ryzen-5-5500gt",
+        "field_key": "entity.canonical_name",
+        "normalized_value": "Ryzen 5 5500GT",
+        "provenance_key": "official",
+        "raw_excerpt": "Ryzen 5 5500GT",
+        "review_status": "accepted",
+        "reviewed_at": null
+      },
+      {
+        "source_key": "src:amd:cpu-amd-ryzen-5-5500gt",
+        "field_key": "cpu.l3_cache_mib",
+        "normalized_value": 16,
+        "provenance_key": "official",
+        "raw_excerpt": "L3 Cache \n 16 MB \n Default TDP \n 65W \n AMD Configurable TDP (cTDP) \n 45-65W \n Processor Technology for CPU Cores \n TSMC",
+        "review_status": "accepted",
+        "reviewed_at": null
+      },
+      {
+        "source_key": "src:amd:cpu-amd-ryzen-5-5500gt",
+        "field_key": "cpu.base_power_w",
+        "normalized_value": 65,
+        "provenance_key": "official",
+        "raw_excerpt": "Default TDP \n 65W \n AMD Configurable TDP (cTDP) \n 45-65W \n Processor Technology for CPU Cores \n TSMC 7nm FinFET \n CPU Co",
+        "review_status": "accepted",
+        "reviewed_at": null
+      },
+      {
+        "source_key": "src:amd:cpu-amd-ryzen-5-5500gt",
+        "field_key": "cpu.l2_cache_mib",
+        "normalized_value": 3,
+        "provenance_key": "official",
+        "raw_excerpt": "L2 Cache \n 3 MB \n L3 Cache \n 16 MB \n Default TDP \n 65W \n AMD Configurable TDP (cTDP) \n 45-65W \n Processor Technology for",
+        "review_status": "accepted",
+        "reviewed_at": null
+      },
+      {
+        "source_key": "src:amd:cpu-amd-ryzen-5-5500gt",
+        "field_key": "cpu.memory_channels",
+        "normalized_value": 2,
+        "provenance_key": "official",
+        "raw_excerpt": "Memory Channels \n 2 \n Max. Memory \n 128 GB \n System Memory Subtype \n UDIMM \n Max Memory Speed \n 2x1R \n DDR4-3200 \n 2x2R",
+        "review_status": "accepted",
+        "reviewed_at": null
+      },
+      {
+        "source_key": "src:amd:cpu-amd-ryzen-5-5500gt",
+        "field_key": "cpu.integrated_gpu",
+        "normalized_value": "Radeon Graphics (Vega 7)",
+        "review_status": "accepted",
+        "confidence": 1
+      }
+    ],
+    "cpu_spec": {
+      "architecture": "Zen 3",
+      "codename": "Zen 3",
+      "cores_total": 6,
+      "threads": 12,
+      "performance_cores": null,
+      "efficiency_cores": null,
+      "base_clock_mhz": 3600,
+      "boost_clock_mhz": 4400,
+      "l2_cache_mib": 3,
+      "l3_cache_mib": 16,
+      "base_power_w": 65,
+      "max_power_w": null,
+      "socket": "AM4",
+      "memory_channels": 2,
+      "max_memory_gib": null,
+      "ecc_support": null,
+      "pcie_generation": 3,
+      "pcie_lanes": 20,
+      "integrated_gpu": "Radeon Graphics (Vega 7)",
+      "npu_model": null
+    }
+  },
+  "review_notes": [
+    "Added 2026-09-16 by the migration/backfill pass; value matches the stored specification column."
+  ]
+}

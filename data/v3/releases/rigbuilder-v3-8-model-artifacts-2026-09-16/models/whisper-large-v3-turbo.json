@@ -1,0 +1,107 @@
+{
+  "schema_version": "3.2",
+  "record_type": "model",
+  "status": "accepted",
+  "payload": {
+    "identity": {
+      "entity_key": "model:openai:whisper-large-v3-turbo",
+      "canonical_name": "whisper-large-v3-turbo",
+      "entity_type": "ai_model",
+      "release_date": "2024-10-01",
+      "lifecycle_status": "unknown",
+      "recommendable": true
+    },
+    "publisher_key": "org:openai",
+    "release_version": null,
+    "model_type": "dense",
+    "total_parameters": 808878080,
+    "active_parameters": null,
+    "model_stage": "speech_recognition",
+    "context_length_tokens": null,
+    "license_name": "MIT",
+    "commercial_use_status": "allowed",
+    "official_repo_url": "https://huggingface.co/openai/whisper-large-v3-turbo",
+    "official_model_card_url": "https://huggingface.co/openai/whisper-large-v3-turbo",
+    "architecture_notes": null,
+    "capabilities": [
+      {
+        "capability_key": "audio_input",
+        "status": "supported",
+        "notes": null
+      },
+      {
+        "capability_key": "text_output",
+        "status": "supported",
+        "notes": null
+      }
+    ],
+    "variants": [
+      {
+        "identity": {
+          "entity_key": "variant:openai-whisper-large-v3-turbo:official-safetensors",
+          "canonical_name": "whisper-large-v3-turbo 官方权重 (safetensors, openai)",
+          "entity_type": "model_variant",
+          "release_date": null,
+          "lifecycle_status": "unknown",
+          "recommendable": true
+        },
+        "file_size_bytes": 1617824864,
+        "weight_format": "safetensors",
+        "official_status": "official",
+        "repository_url": "https://huggingface.co/openai/whisper-large-v3-turbo",
+        "evidence": [
+          {
+            "source_key": "src:hf:openai-whisper-large-v3-turbo",
+            "field_key": "entity.canonical_name",
+            "normalized_value": "whisper-large-v3-turbo 官方权重 (safetensors, openai)",
+            "review_status": "accepted",
+            "confidence": 1
+          }
+        ]
+      }
+    ],
+    "evidence": [
+      {
+        "source_key": "src:card:whisper-large-v3-turbo",
+        "field_key": "entity.canonical_name",
+        "normalized_value": "whisper-large-v3-turbo",
+        "provenance_key": "official",
+        "raw_excerpt": "whisper-large-v3-turbo",
+        "review_status": "accepted",
+        "reviewed_at": null
+      },
+      {
+        "source_key": "src:card:whisper-large-v3-turbo",
+        "field_key": "model.license_name",
+        "normalized_value": "MIT",
+        "provenance_key": "official",
+        "raw_excerpt": "License: mit",
+        "review_status": "accepted",
+        "reviewed_at": null
+      },
+      {
+        "source_key": "src:card:whisper-large-v3-turbo",
+        "field_key": "model.model_stage",
+        "normalized_value": "speech_recognition",
+        "provenance_key": "official",
+        "raw_excerpt": "speech_recognition",
+        "review_status": "accepted",
+        "reviewed_at": null
+      },
+      {
+        "source_key": "src:card:whisper-large-v3-turbo",
+        "field_key": "model.total_parameters",
+        "normalized_value": 808878080,
+        "provenance_key": "official",
+        "raw_excerpt": "HF API safetensors.total（精确）: 808878080",
+        "notes": "由官方 config/API 回填",
+        "review_status": "accepted",
+        "reviewed_at": null
+      }
+    ],
+    "family": "Whisper"
+  },
+  "review_notes": [
+    "Model artifacts enumerated from the official Hugging Face API on 2026-09-16 (file list and byte sizes only; no weights were downloaded or verified)."
+  ]
+}

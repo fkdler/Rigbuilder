@@ -1,0 +1,22 @@
+{
+  "schema_version": "3.2",
+  "record_type": "price_snapshot",
+  "status": "accepted",
+  "payload": {
+    "price_key": "price:hw:intel:core-ultra-7-265k:desktop:global:cn:2026-09",
+    "entity_key": "hw:intel:core-ultra-7-265k:desktop:global",
+    "source_key": "source:jd:core-ultra-7-265k-100120799071",
+    "observed_at": "2026-09-06T02:32:31+08:00",
+    "currency": "CNY",
+    "amount": 1914,
+    "availability": "in_stock",
+    "price_type": "current_new",
+    "market_region": "CN",
+    "condition": "new",
+    "seller_key": null,
+    "notes": "已售5万+700+人复购英特尔京东自营旗舰店"
+  },
+  "review_notes": [
+    "京东页面标价；抓取2026-09-06。"
+  ]
+}

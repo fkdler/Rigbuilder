@@ -1,0 +1,24 @@
+{
+  "schema_version": "3.2",
+  "record_type": "source_document",
+  "status": "pending",
+  "payload": {
+    "source_key": "src:card:sam-2-1-hiera-large",
+    "title": "SAM-2.1-Hiera-Large Model Card",
+    "url": "https://huggingface.co/facebook/sam2.1-hiera-large",
+    "publisher_key": "org:meta",
+    "source_type": "model_card",
+    "source_tier": "A",
+    "published_at": null,
+    "market_region": null,
+    "language": null,
+    "availability_status": "accessible",
+    "archive_url": null,
+    "accessed_at": "2026-09-15T11:33:15+00:00",
+    "content_hash": "85037071cf7d71540afb93d99f4a223583e5dabb6c8b6633f22a8aed5182a3e3"
+  },
+  "review_notes": [
+    "多模态模型来源登记（2026-09-07）：pending。",
+    "2026-09-15 经镜像抓取：https://hf-mirror.com/facebook/sam2.1-hiera-large（来源登记 URL 保持原样 https://huggingface.co/facebook/sam2.1-hiera-large）。"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "schema_version": "3.2",
+  "record_type": "source_document",
+  "status": "pending",
+  "payload": {
+    "source_key": "source:qwen-qwen2.5-3b-instruct-card",
+    "title": "Qwen2.5-3B-Instruct Model Card",
+    "url": "https://huggingface.co/Qwen/Qwen2.5-3B-Instruct",
+    "source_type": "model_card",
+    "source_tier": "A",
+    "publisher_key": "org:qwen",
+    "published_at": null,
+    "market_region": null,
+    "language": null,
+    "availability_status": "accessible",
+    "archive_url": null,
+    "accessed_at": "2026-09-07T07:04:29+00:00",
+    "content_hash": "d6a01994dc972d25ad62917a6298fc2b9c84e1574e864b898d5738f7ca0065b5"
+  },
+  "review_notes": [
+    "值未逐字读取官方页面确认，retrieved_at 为占位时间，须由实际访问者替换。"
+  ]
+}

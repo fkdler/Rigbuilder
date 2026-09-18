@@ -1,0 +1,23 @@
+{
+  "schema_version": "3.2",
+  "record_type": "source_document",
+  "status": "pending",
+  "payload": {
+    "source_key": "src:org:amd",
+    "title": "AMD 官方站点",
+    "url": "https://www.amd.com/",
+    "publisher_key": "org:amd",
+    "source_type": "official_page",
+    "source_tier": "B",
+    "published_at": null,
+    "market_region": null,
+    "language": null,
+    "availability_status": "accessible",
+    "archive_url": null,
+    "accessed_at": "2026-09-14T11:11:08+00:00",
+    "content_hash": "952ac54a58a6ec37bcd63a722edcd58e3dd5846df8d9f0e77f5cd45897c94b76"
+  },
+  "review_notes": [
+    "evidence 补全批（2026-09-07）：pending，待抓取核验。"
+  ]
+}

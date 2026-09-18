@@ -1,0 +1,26 @@
+{
+  "schema_version": "3.2",
+  "record_type": "source_document",
+  "status": "pending",
+  "payload": {
+    "source_key": "src:org:thudm",
+    "title": "Zhipu AI / THUDM (CogVideoX) 官方站点",
+    "url": "https://huggingface.co/THUDM",
+    "publisher_key": "org:thudm",
+    "source_type": "official_page",
+    "source_tier": "B",
+    "published_at": null,
+    "market_region": null,
+    "language": null,
+    "availability_status": "accessible",
+    "archive_url": null,
+    "accessed_at": "2026-09-15T13:25:38+00:00",
+    "content_hash": "6bf6948ce71a7008a4a2171a4dbfddf256def44345e9222c9d71aee67af170c5"
+  },
+  "review_notes": [
+    "组织来源登记（2026-09-15）：仅用于背书组织存在性；pending 待抓取。",
+    "2026-09-15 人工浏览器另存导入（src_org_thudm.html，83737B，文本 2452 字）",
+    "2026-09-15 人工浏览器另存导入（src_org_thudm.html，83737B，文本 2452 字）",
+    "2026-09-15 人工浏览器另存导入（src_org_thudm.html，83737B，文本 2452 字）"
+  ]
+}

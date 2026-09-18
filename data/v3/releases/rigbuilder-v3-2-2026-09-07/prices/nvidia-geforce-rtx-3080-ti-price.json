@@ -1,0 +1,22 @@
+{
+  "schema_version": "3.2",
+  "record_type": "price_snapshot",
+  "status": "accepted",
+  "payload": {
+    "price_key": "price:hw:nvidia:geforce-rtx-3080-ti:desktop:global:cn:2026-09",
+    "entity_key": "hw:nvidia:geforce-rtx-3080-ti:desktop:global",
+    "source_key": "source:jd:geforce-rtx-3080-ti-10227212321266",
+    "observed_at": "2026-09-07T07:35:22+08:00",
+    "currency": "CNY",
+    "amount": 3899,
+    "availability": "unknown",
+    "price_type": "current_used",
+    "market_region": "CN",
+    "condition": "used",
+    "seller_key": null,
+    "notes": "二手公版(价由4045改为3899)"
+  },
+  "review_notes": [
+    "用户提供；二手公版(价由4045改为3899) 京东页面价(二手)。"
+  ]
+}

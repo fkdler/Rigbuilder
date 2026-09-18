@@ -1,0 +1,38 @@
+.admin-page { padding: clamp(20px, 3vw, 40px); font-family: var(--font-sans); font-size: 14px; line-height: 1.6; color-scheme: dark; }
+.admin-heading { display: flex; gap: 16px; justify-content: space-between; align-items: start; margin-bottom: 28px; }
+.admin-heading h1 { margin: 0; font-size: 24px; font-weight: 600; }
+.admin-heading p { margin: 7px 0 0; color: var(--color-terminal-fg-dim); }
+.admin-page h2 { margin: 0; font-size: 17px; font-weight: 600; }
+.admin-toolbar { display: flex; flex-wrap: wrap; align-items: end; gap: 12px; margin-bottom: 20px; }
+.admin-page label { display: grid; gap: 6px; color: var(--color-terminal-fg-dim); font-size: 13px; min-width: 0; }
+.admin-page input:not([type=checkbox]), .admin-page select { min-height: 42px; min-width: 0; width: 100%; padding: 8px 11px; border: var(--border-width-frame) solid var(--color-border-emphasis); border-radius: 6px; background: var(--color-terminal-bg); color: var(--color-terminal-fg); font: inherit; box-sizing: border-box; background-clip: padding-box; }
+.admin-page input::placeholder { color: var(--color-terminal-fg-dimmer); }
+.admin-page textarea { width: 100%; min-height: 80px; resize: vertical; box-sizing: border-box; border: var(--border-width-frame) solid var(--color-border-emphasis); border-radius: 6px; padding: 10px; background: var(--color-terminal-bg); background-clip: padding-box; color: var(--color-terminal-fg); font: inherit; }
+.admin-page textarea::placeholder { color: var(--color-terminal-fg-dimmer); }
+.admin-page textarea:focus-visible { outline: 2px solid var(--color-accent-cyan); outline-offset: 3px; }
+.admin-page input { caret-color: var(--color-accent-cyan); }
+.admin-button { min-height: 42px; padding: 8px 14px; border: var(--border-width-frame) solid var(--color-border-emphasis); border-radius: 6px; background: var(--color-terminal-bg-elevated); color: var(--color-terminal-fg); font: inherit; cursor: pointer; background-clip: padding-box; }
+.admin-button:hover:not(:disabled) { background: var(--color-terminal-bg-overlay); border-color: var(--color-terminal-fg-dimmer); }
+.admin-button:disabled { opacity: .45; cursor: not-allowed; }
+.admin-page :is(button, input, select, summary):focus-visible { outline: 2px solid var(--color-accent-cyan); outline-offset: 3px; }
+.admin-page .danger { color: var(--color-status-error); }
+.admin-error, .admin-notice { padding: 12px 14px; border: var(--border-width-frame) solid var(--color-border-emphasis); border-radius: 6px; background-clip: padding-box; }
+.admin-error { color: var(--color-status-error); }
+.admin-notice { color: var(--color-status-warning); }
+.admin-muted { color: var(--color-terminal-fg-dim); font-size: 13px; }
+.admin-empty { padding: 32px 16px; text-align: center; color: var(--color-terminal-fg-dim); }
+.admin-section-title { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 12px; margin: 24px 0 16px; }
+.admin-section-title span { font-size: 12px; color: var(--color-terminal-fg-dim); }
+.admin-table-wrap { width: 100%; overflow-x: auto; scrollbar-color: var(--color-border-emphasis) transparent; border-top: 1px solid var(--color-border); }
+.admin-page table { width: 100%; border-collapse: collapse; text-align: left; font-size: 13px; }
+.admin-page th, .admin-page td { padding: 13px 12px; border-bottom: 1px solid var(--color-border); vertical-align: top; font-variant-numeric: tabular-nums; }
+.admin-page th { color: var(--color-terminal-fg-dim); font-weight: 500; white-space: nowrap; }
+.admin-page td { overflow-wrap: anywhere; min-width: 90px; }
+.admin-page tbody tr:hover { background: var(--color-terminal-bg-elevated); }
+.admin-page td small { display: block; color: var(--color-terminal-fg-dimmer); font-size: 11px; margin-top: 4px; }
+.admin-pager { display: flex; flex-wrap: wrap; justify-content: end; align-items: center; gap: 12px; margin-top: 20px; }
+.admin-pager span { margin-right: auto; color: var(--color-terminal-fg-dim); font-size: 12px; }
+.admin-page details { margin-top: 16px; }
+.admin-page summary { cursor: pointer; min-height: 40px; padding: 8px 0; }
+.admin-page .admin-success { color: var(--color-status-success); }
+@media (max-width: 760px) { .admin-heading { margin-bottom: 20px; } .admin-toolbar label { flex: 1 1 130px; } .admin-heading h1 { font-size: 21px; } }

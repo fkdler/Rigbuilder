@@ -1,0 +1,58 @@
+{
+  "schema_version": "3.2",
+  "record_type": "model",
+  "status": "accepted",
+  "payload": {
+    "identity": {
+      "entity_key": "model:qwen:qwen3-reranker-0-6b",
+      "canonical_name": "Qwen3-Reranker-0.6B",
+      "entity_type": "ai_model",
+      "recommendable": true
+    },
+    "official_repo_url": "https://huggingface.co/Qwen/Qwen3-Reranker-0.6B",
+    "official_model_card_url": "https://huggingface.co/Qwen/Qwen3-Reranker-0.6B",
+    "license_name": "Apache-2.0",
+    "commercial_use_status": "unknown",
+    "variants": [],
+    "evidence": [
+      {
+        "source_key": "source:hf-api-review-20260915:Qwen/Qwen3-Reranker-0.6B",
+        "field_key": "entity.canonical_name",
+        "normalized_value": "Qwen3-Reranker-0.6B",
+        "raw_excerpt": "Qwen/Qwen3-Reranker-0.6B",
+        "source_locator": "$.id (repository basename)",
+        "provenance_key": "official",
+        "review_status": "accepted",
+        "reviewed_at": "2026-09-15T11:32:34.173184+00:00"
+      },
+      {
+        "source_key": "source:hf-api-review-20260915:Qwen/Qwen3-Reranker-0.6B",
+        "field_key": "model.license_name",
+        "normalized_value": "Apache-2.0",
+        "raw_excerpt": "apache-2.0",
+        "source_locator": "$.cardData.license (SPDX casing normalized)",
+        "provenance_key": "official",
+        "review_status": "accepted",
+        "reviewed_at": "2026-09-15T11:32:34.173184+00:00"
+      },
+      {
+        "source_key": "source:hf-api-review-20260915:Qwen/Qwen3-Reranker-0.6B",
+        "field_key": "model.total_parameters",
+        "normalized_value": 595776512,
+        "raw_excerpt": "595776512",
+        "source_locator": "$.safetensors.total",
+        "provenance_key": "official",
+        "review_status": "accepted",
+        "reviewed_at": "2026-09-15T11:32:34.173184+00:00"
+      }
+    ],
+    "capabilities": [],
+    "attributes": [],
+    "total_parameters": 595776512
+  },
+  "review_notes": [
+    "User authorized reviewed import on 2026-09-15. Official repository metadata re-fetched and checked.",
+    "Only identity, explicit license, reported safetensors total and pipeline-derived supported capability fields are admitted; unverified draft release date, context length, commercial permission and variants are omitted for new models.",
+    "Pipeline is evidence of declared task support, not benchmark or device compatibility. A different pipeline does not prove unsupported modalities."
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "schema_version": "3.2",
+  "record_type": "source_document",
+  "status": "accepted",
+  "payload": {
+    "source_key": "source:jd:core-i5-13600k-10166165397750",
+    "title": "英特尔(Intel)i5-13600K 盒装酷睿i7CPU热卖榜第9名三年质保|可开发票|强劲性能|酷睿13代酷睿i7CPU热卖榜第9名",
+    "url": "https://item.jd.com/10166165397750.html",
+    "source_type": "retailer",
+    "source_tier": "C",
+    "publisher_key": null,
+    "published_at": null,
+    "market_region": "CN",
+    "language": "zh-CN",
+    "availability_status": "accessible",
+    "archive_url": null,
+    "accessed_at": "2026-09-07T07:11:48+00:00",
+    "content_hash": "d52d9e5997e2f746c184ffa28ead75abfe58c81781d7765f7cdc7912c0460ce2"
+  },
+  "review_notes": [
+    "京东标价 SKU 10166165397750；店铺：店铺未返回；页面标价作为 current_new。"
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "schema_version": "3.0",
+  "record_type": "model",
+  "status": "pending",
+  "payload": {
+    "identity": {
+      "entity_key": "model:alibaba:qwen2-5-14b-instruct",
+      "canonical_name": "Qwen2.5-14B-Instruct",
+      "entity_type": "ai_model"
+    },
+    "publisher_key": "org:alibaba",
+    "parameter_count": 14800000000,
+    "total_parameters": 14800000000,
+    "model_type": "dense",
+    "context_length": 32768,
+    "context_length_tokens": 32768,
+    "license_name": "Apache-2.0",
+    "capabilities": [
+      {
+        "capability_key": "vision",
+        "status": "unknown"
+      },
+      {
+        "capability_key": "code",
+        "status": "supported"
+      }
+    ],
+    "variants": [
+      {
+        "identity": {
+          "entity_key": "variant:alibaba:qwen2-5-14b-instruct:gguf:q4-k-m",
+          "canonical_name": "Qwen2.5-14B-Instruct Q4_K_M GGUF",
+          "entity_type": "model_variant"
+        },
+        "quantization": "Q4_K_M",
+        "format": "GGUF",
+        "quantization_method": "Q4_K_M",
+        "weight_format": "GGUF",
+        "file_size_display": "9.08 GB (legacy value; GB/GiB and precision unverified)",
+        "source_url": "https://huggingface.co/Qwen/Qwen2.5-14B-Instruct-GGUF",
+        "evidence": [
+          {
+            "source_key": "source:legacy:huggingface-co-qwen-qwen2-5-14b-instruct-gguf",
+            "field_key": "legacy.file_size_gb",
+            "raw_value": "9.08 GB",
+            "normalized_value": 9.08
+          }
+        ]
+      },
+      {
+        "identity": {
+          "entity_key": "variant:alibaba:qwen2-5-14b-instruct:gguf:q5-k-m",
+          "canonical_name": "Qwen2.5-14B-Instruct Q5_K_M GGUF",
+          "entity_type": "model_variant"
+        },
+        "quantization": "Q5_K_M",
+        "format": "GGUF",
+        "quantization_method": "Q5_K_M",
+        "weight_format": "GGUF",
+        "file_size_display": "10.52 GB (legacy value; GB/GiB and precision unverified)",
+        "source_url": "https://huggingface.co/Qwen/Qwen2.5-14B-Instruct-GGUF",
+        "evidence": [
+          {
+            "source_key": "source:legacy:huggingface-co-qwen-qwen2-5-14b-instruct-gguf",
+            "field_key": "legacy.file_size_gb",
+            "raw_value": "10.52 GB",
+            "normalized_value": 10.52
+          }
+        ]
+      },
+      {
+        "identity": {
+          "entity_key": "variant:alibaba:qwen2-5-14b-instruct:gguf:q8-0",
+          "canonical_name": "Qwen2.5-14B-Instruct Q8_0 GGUF",
+          "entity_type": "model_variant"
+        },
+        "quantization": "Q8_0",
+        "format": "GGUF",
+        "quantization_method": "Q8_0",
+        "weight_format": "GGUF",
+        "file_size_display": "16.12 GB (legacy value; GB/GiB and precision unverified)",
+        "source_url": "https://huggingface.co/Qwen/Qwen2.5-14B-Instruct-GGUF",
+        "evidence": [
+          {
+            "source_key": "source:legacy:huggingface-co-qwen-qwen2-5-14b-instruct-gguf",
+            "field_key": "legacy.file_size_gb",
+            "raw_value": "16.12 GB",
+            "normalized_value": 16.12
+          }
+        ]
+      }
+    ],
+    "evidence": [
+      {
+        "source_key": "source:legacy:huggingface-co-qwen-qwen2-5-14b-instruct",
+        "field_key": "model.parameter_count",
+        "raw_value": "14.8B",
+        "normalized_value": 14.8
+      },
+      {
+        "source_key": "source:legacy:huggingface-co-qwen-qwen2-5-14b-instruct",
+        "field_key": "model.context_length",
+        "raw_value": "32K（最大 128K）",
+        "normalized_value": 32768
+      },
+      {
+        "source_key": "source:legacy:huggingface-co-qwen-qwen2-5-14b-instruct",
+        "field_key": "legacy.supports_vision",
+        "raw_value": null,
+        "normalized_value": false
+      },
+      {
+        "source_key": "source:legacy:huggingface-co-qwen-qwen2-5-14b-instruct",
+        "field_key": "legacy.supports_code",
+        "raw_value": null,
+        "normalized_value": true
+      },
+      {
+        "source_key": "source:legacy:huggingface-co-qwen-qwen2-5-14b-instruct",
+        "field_key": "model.license",
+        "raw_value": "Apache-2.0",
+        "normalized_value": "Apache-2.0"
+      }
+    ]
+  },
+  "review_notes": [
+    "legacy false capability values became unknown",
+    "variant file_size_bytes intentionally omitted pending verification"
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "schema_version": "3.2",
+  "record_type": "model",
+  "status": "accepted",
+  "payload": {
+    "identity": {
+      "entity_key": "model:tencent:hunyuan3d-2",
+      "canonical_name": "Hunyuan3D-2",
+      "entity_type": "ai_model",
+      "release_date": "2025-01-21",
+      "lifecycle_status": "unknown",
+      "recommendable": true
+    },
+    "publisher_key": "org:tencent",
+    "release_version": null,
+    "model_type": "diffusion",
+    "total_parameters": null,
+    "active_parameters": null,
+    "model_stage": "image_to_3d",
+    "context_length_tokens": null,
+    "license_name": "Tencent-Hunyuan",
+    "commercial_use_status": "allowed",
+    "official_repo_url": "https://huggingface.co/tencent/Hunyuan3D-2",
+    "official_model_card_url": "https://huggingface.co/tencent/Hunyuan3D-2",
+    "architecture_notes": null,
+    "capabilities": [
+      {
+        "capability_key": "vision_input",
+        "status": "supported",
+        "notes": null
+      },
+      {
+        "capability_key": "three_d_output",
+        "status": "supported",
+        "notes": null
+      }
+    ],
+    "variants": [
+      {
+        "identity": {
+          "entity_key": "variant:tencent-hunyuan3d-2:official-safetensors",
+          "canonical_name": "Hunyuan3D-2 官方权重 (safetensors, tencent)",
+          "entity_type": "model_variant",
+          "release_date": null,
+          "lifecycle_status": "unknown",
+          "recommendable": true
+        },
+        "file_size_bytes": 74858644699,
+        "weight_format": "safetensors",
+        "official_status": "official",
+        "repository_url": "https://huggingface.co/tencent/Hunyuan3D-2",
+        "evidence": [
+          {
+            "source_key": "src:hf:tencent-hunyuan3d-2",
+            "field_key": "entity.canonical_name",
+            "normalized_value": "Hunyuan3D-2 官方权重 (safetensors, tencent)",
+            "review_status": "accepted",
+            "confidence": 1
+          }
+        ]
+      }
+    ],
+    "evidence": [
+      {
+        "source_key": "src:card:hunyuan3d-2",
+        "field_key": "entity.canonical_name",
+        "normalized_value": "Hunyuan3D-2",
+        "provenance_key": "official",
+        "raw_excerpt": "Hunyuan3D-2",
+        "review_status": "accepted",
+        "reviewed_at": null
+      },
+      {
+        "source_key": "src:card:hunyuan3d-2",
+        "field_key": "model.license_name",
+        "normalized_value": "Tencent-Hunyuan",
+        "provenance_key": "official",
+        "raw_excerpt": "License: tencent-hunyuan-community",
+        "review_status": "accepted",
+        "reviewed_at": null
+      },
+      {
+        "source_key": "src:card:hunyuan3d-2",
+        "field_key": "model.model_stage",
+        "normalized_value": "image_to_3d",
+        "provenance_key": "official",
+        "raw_excerpt": "image_to_3d",
+        "review_status": "accepted",
+        "reviewed_at": null
+      }
+    ],
+    "family": "Hunyuan3D"
+  },
+  "review_notes": [
+    "Model artifacts enumerated from the official Hugging Face API on 2026-09-16 (file list and byte sizes only; no weights were downloaded or verified)."
+  ]
+}

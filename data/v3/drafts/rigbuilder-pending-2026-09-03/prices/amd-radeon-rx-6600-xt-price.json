@@ -1,0 +1,22 @@
+{
+  "schema_version": "3.2",
+  "record_type": "price_snapshot",
+  "status": "pending",
+  "payload": {
+    "price_key": "price:hw:amd:radeon-rx-6600-xt:desktop:global:cn:2026-09",
+    "entity_key": "hw:amd:radeon-rx-6600-xt:desktop:global",
+    "source_key": "source:jd:radeon-rx-6600-xt-10229497347935",
+    "observed_at": "2026-09-07T07:35:22+08:00",
+    "currency": "CNY",
+    "amount": 1438,
+    "availability": "in_stock",
+    "price_type": "current_new",
+    "market_region": "CN",
+    "condition": "new",
+    "seller_key": null,
+    "notes": "盈通游戏高手"
+  },
+  "review_notes": [
+    "用户提供；盈通游戏高手 京东页面价。"
+  ]
+}

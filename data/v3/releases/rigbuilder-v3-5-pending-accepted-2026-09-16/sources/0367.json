@@ -1,0 +1,28 @@
+{
+  "schema_version": "3.2",
+  "record_type": "source_document",
+  "status": "accepted",
+  "payload": {
+    "source_key": "src:card:skyreels-v2",
+    "title": "SkyReels-V2 (I2V-14B-720P) Model Card",
+    "url": "https://huggingface.co/Skywork/SkyReels-V2-I2V-14B-720P-Diffusers",
+    "publisher_key": "org:skywork",
+    "source_type": "model_card",
+    "source_tier": "A",
+    "published_at": null,
+    "market_region": null,
+    "language": null,
+    "availability_status": "accessible",
+    "archive_url": null,
+    "accessed_at": "2026-09-15T13:25:38+00:00",
+    "content_hash": "a5c715bcb7e43f97aa5a978bc3d2829983df8177f2f2de120902c1ba81e00645"
+  },
+  "review_notes": [
+    "多模态模型来源登记（2026-09-07）：pending，待抓取核验。",
+    "2026-09-15 修正：原 Skywork/SkyReels-V2 泛化仓名不存在（401），改用具体版本仓 SkyReels-V2-I2V-14B-720P-Diffusers。",
+    "2026-09-15 人工浏览器另存导入（src_card_skyreels-v2.html，247621B，文本 30019 字）",
+    "2026-09-15 人工浏览器另存导入（src_card_skyreels-v2.html，247621B，文本 30019 字）",
+    "2026-09-15 人工浏览器另存导入（src_card_skyreels-v2.html，247621B，文本 30019 字）",
+    "Approved in bulk on 2026-09-16 at the user's explicit request; no per-record human review."
+  ]
+}

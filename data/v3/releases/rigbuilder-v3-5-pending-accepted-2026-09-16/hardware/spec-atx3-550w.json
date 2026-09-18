@@ -1,0 +1,50 @@
+{
+  "schema_version": "3.2",
+  "record_type": "hardware",
+  "status": "accepted",
+  "payload": {
+    "identity": {
+      "entity_key": "hw:spec:psu-atx3-550w:desktop:global",
+      "canonical_name": "ATX 550W (80 PLUS Gold)",
+      "entity_type": "hardware",
+      "release_date": null,
+      "lifecycle_status": "unknown",
+      "recommendable": false
+    },
+    "category": "psu",
+    "record_kind": "spec_profile",
+    "manufacturer_key": null,
+    "form_factor": "atx",
+    "model_name": "ATX3 550W",
+    "variant_name": null,
+    "market_segment": "consumer",
+    "region_code": "GLOBAL",
+    "official_product_id": null,
+    "product_family": null,
+    "psu_spec": {
+      "atx_standard": "ATX 3.0",
+      "rated_power_w": 550,
+      "efficiency_certification": "80 PLUS Gold",
+      "connector_profile": []
+    },
+    "attributes": [],
+    "evidence": [
+      {
+        "source_key": "src:hardquery:hardware",
+        "field_key": "entity.canonical_name",
+        "normalized_value": "ATX 550W (80 PLUS Gold)",
+        "provenance_key": "community_reported",
+        "raw_excerpt": "ATX 550W (80 PLUS Gold)",
+        "review_status": "accepted",
+        "reviewed_at": null
+      }
+    ]
+  },
+  "review_notes": [
+    "规格级 Profile（无厂商绑定）：值为公开标准常识档位（JEDEC/PCIe-SIG/80 PLUS/ATX 等），未逐字读取页面。",
+    "未注册具体来源 URL 前不挂 evidence（符合\"无来源不挂证据\"）；来源（标准组织官方页）待审核阶段补充。",
+    "capacity/connector 等具 SKU 特征的字段不在此规格档范围，保持 null/[]。",
+    "2026-09-07 evidence 补全：挂 canonical_name 证据（来源见 sources）；其余字段证据待逐字核验后补。",
+    "Approved in bulk on 2026-09-16 at the user's explicit request; no per-record human review."
+  ]
+}

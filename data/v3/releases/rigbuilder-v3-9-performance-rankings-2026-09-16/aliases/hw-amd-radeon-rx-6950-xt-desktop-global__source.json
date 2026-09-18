@@ -1,0 +1,14 @@
+{
+  "schema_version": "3.2",
+  "record_type": "entity_alias",
+  "status": "accepted",
+  "payload": {
+    "entity_key": "hw:amd:radeon-rx-6950-xt:desktop:global",
+    "alias": "Radeon RX 6950 XT",
+    "alias_type": "source_name",
+    "language": null,
+    "normalized_alias": "radeonrx6950xt",
+    "source_key": "src:passmark:gpu-list-2026-09-16"
+  },
+  "review_notes": []
+}

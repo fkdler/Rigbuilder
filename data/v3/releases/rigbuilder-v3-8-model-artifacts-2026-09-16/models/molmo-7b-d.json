@@ -1,0 +1,117 @@
+{
+  "schema_version": "3.2",
+  "record_type": "model",
+  "status": "accepted",
+  "payload": {
+    "identity": {
+      "entity_key": "model:allenai:molmo-7b-d",
+      "canonical_name": "Molmo-7B-D",
+      "entity_type": "ai_model",
+      "release_date": "2024-09-25",
+      "lifecycle_status": "unknown",
+      "recommendable": true
+    },
+    "publisher_key": "org:allenai",
+    "release_version": null,
+    "model_type": "dense",
+    "total_parameters": 8021025280,
+    "active_parameters": null,
+    "model_stage": "vision_language",
+    "context_length_tokens": 4096,
+    "license_name": "Apache-2.0",
+    "commercial_use_status": "allowed",
+    "official_repo_url": "https://huggingface.co/allenai/Molmo-7B-D-0924",
+    "official_model_card_url": "https://huggingface.co/allenai/Molmo-7B-D-0924",
+    "architecture_notes": null,
+    "capabilities": [
+      {
+        "capability_key": "text_input",
+        "status": "supported",
+        "notes": null
+      },
+      {
+        "capability_key": "vision_input",
+        "status": "supported",
+        "notes": null
+      }
+    ],
+    "variants": [
+      {
+        "identity": {
+          "entity_key": "variant:allenai-molmo-7b-d-0924:official-safetensors",
+          "canonical_name": "Molmo-7B-D 官方权重 (safetensors, allenai)",
+          "entity_type": "model_variant",
+          "release_date": null,
+          "lifecycle_status": "unknown",
+          "recommendable": true
+        },
+        "file_size_bytes": 32084182064,
+        "weight_format": "safetensors",
+        "official_status": "official",
+        "repository_url": "https://huggingface.co/allenai/Molmo-7B-D-0924",
+        "evidence": [
+          {
+            "source_key": "src:hf:allenai-molmo-7b-d-0924",
+            "field_key": "entity.canonical_name",
+            "normalized_value": "Molmo-7B-D 官方权重 (safetensors, allenai)",
+            "review_status": "accepted",
+            "confidence": 1
+          }
+        ]
+      }
+    ],
+    "evidence": [
+      {
+        "source_key": "src:card:molmo-7b-d",
+        "field_key": "entity.canonical_name",
+        "normalized_value": "Molmo-7B-D",
+        "provenance_key": "official",
+        "raw_excerpt": "Molmo-7B-D",
+        "review_status": "accepted",
+        "reviewed_at": null
+      },
+      {
+        "source_key": "src:card:molmo-7b-d",
+        "field_key": "model.license_name",
+        "normalized_value": "Apache-2.0",
+        "provenance_key": "official",
+        "raw_excerpt": "License: apache-2.0",
+        "review_status": "accepted",
+        "reviewed_at": null
+      },
+      {
+        "source_key": "src:card:molmo-7b-d",
+        "field_key": "model.model_stage",
+        "normalized_value": "vision_language",
+        "provenance_key": "official",
+        "raw_excerpt": "vision_language",
+        "review_status": "accepted",
+        "reviewed_at": null
+      },
+      {
+        "source_key": "src:card:molmo-7b-d",
+        "field_key": "model.total_parameters",
+        "normalized_value": 8021025280,
+        "provenance_key": "official",
+        "raw_excerpt": "HF API safetensors.total（精确）: 8021025280",
+        "notes": "由官方 config/API 回填",
+        "review_status": "accepted",
+        "reviewed_at": null
+      },
+      {
+        "source_key": "src:card:molmo-7b-d",
+        "field_key": "model.context_length_tokens",
+        "normalized_value": 4096,
+        "provenance_key": "official",
+        "raw_excerpt": "config.json max_position_embeddings: 4096",
+        "notes": "由官方 config/API 回填",
+        "review_status": "accepted",
+        "reviewed_at": null
+      }
+    ],
+    "family": "Molmo"
+  },
+  "review_notes": [
+    "Model artifacts enumerated from the official Hugging Face API on 2026-09-16 (file list and byte sizes only; no weights were downloaded or verified)."
+  ]
+}

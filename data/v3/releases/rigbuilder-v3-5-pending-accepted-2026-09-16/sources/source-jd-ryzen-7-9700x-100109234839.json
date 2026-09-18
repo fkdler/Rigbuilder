@@ -1,0 +1,24 @@
+{
+  "schema_version": "3.2",
+  "record_type": "source_document",
+  "status": "accepted",
+  "payload": {
+    "source_key": "source:jd:ryzen-7-9700x-100109234839",
+    "title": "AMD锐龙 7 9700X 处理器(R7) 4nm 8核16线程 加速频率至高5.5GHz 盒装CPU 畅玩打瓦/三角洲/CSGO电脑组件CPU热卖榜第3名32",
+    "url": "https://item.jd.com/100109234839.html",
+    "source_type": "retailer",
+    "source_tier": "C",
+    "publisher_key": null,
+    "published_at": null,
+    "market_region": "CN",
+    "language": "zh-CN",
+    "availability_status": "accessible",
+    "archive_url": null,
+    "accessed_at": "2026-09-07T07:13:56+00:00",
+    "content_hash": "f0dcd0ac32270d7818d532c913fc88bd0b1ab552526cd80e3d5d32a5c8433d09"
+  },
+  "review_notes": [
+    "京东标价 SKU 100109234839；店铺：0万+30天加购飙升5倍AMD京东自营旗舰店；页面标价作为 current_new。",
+    "Approved in bulk on 2026-09-16 at the user's explicit request; no per-record human review."
+  ]
+}

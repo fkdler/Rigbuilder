@@ -1,0 +1,25 @@
+{
+  "schema_version": "3.2",
+  "record_type": "source_document",
+  "status": "accepted",
+  "payload": {
+    "source_key": "src:card:minicpm-v-4-5",
+    "title": "MiniCPM-V-4.5 Model Card",
+    "url": "https://huggingface.co/openbmb/MiniCPM-V-4_5",
+    "publisher_key": "org:openbmb",
+    "source_type": "model_card",
+    "source_tier": "A",
+    "published_at": null,
+    "market_region": null,
+    "language": null,
+    "availability_status": "accessible",
+    "archive_url": null,
+    "accessed_at": "2026-09-15T11:32:19+00:00",
+    "content_hash": "9f7c0da8aba39b03fba116c400aa415cc7533f9e3c7c646456b6307c12028f68"
+  },
+  "review_notes": [
+    "多模态模型来源登记（2026-09-07）：pending。",
+    "2026-09-15 经镜像抓取：https://hf-mirror.com/openbmb/MiniCPM-V-4_5（来源登记 URL 保持原样 https://huggingface.co/openbmb/MiniCPM-V-4_5）。",
+    "Approved in bulk on 2026-09-16 at the user's explicit request; no per-record human review."
+  ]
+}

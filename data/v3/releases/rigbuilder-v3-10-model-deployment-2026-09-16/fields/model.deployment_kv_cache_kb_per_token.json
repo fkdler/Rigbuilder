@@ -1,0 +1,26 @@
+{
+  "schema_version": "3.2",
+  "record_type": "field_definition",
+  "status": "accepted",
+  "payload": {
+    "field_key": "model.deployment_kv_cache_kb_per_token",
+    "label": "每 token KV cache 开销",
+    "applies_to_entity_type": "ai_model",
+    "value_type": "number",
+    "canonical_unit": "kib",
+    "description": "ModelFit 给出的每 token KV cache 开销；仅在发布方提供该字段时录入。",
+    "allowed_units": [
+      "kib"
+    ],
+    "indexed": false,
+    "cardinality": "one",
+    "comparison_method": "range",
+    "tolerance": null,
+    "storage_kind": "attribute",
+    "storage_path": null,
+    "filterable": true,
+    "claimable": true,
+    "active": true
+  },
+  "review_notes": []
+}

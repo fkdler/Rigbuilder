@@ -1,0 +1,3679 @@
+{
+  "$defs": {
+    "ArtifactFileInput": {
+      "additionalProperties": false,
+      "properties": {
+        "role": {
+          "enum": [
+            "weights",
+            "config",
+            "tokenizer",
+            "projector",
+            "adapter",
+            "metadata",
+            "other"
+          ],
+          "title": "Role",
+          "type": "string"
+        },
+        "path": {
+          "minLength": 1,
+          "title": "Path",
+          "type": "string"
+        },
+        "size_bytes": {
+          "minimum": 0,
+          "title": "Size Bytes",
+          "type": "integer"
+        },
+        "checksum": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Checksum"
+        },
+        "required": {
+          "default": true,
+          "title": "Required",
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "role",
+        "path",
+        "size_bytes"
+      ],
+      "title": "ArtifactFileInput",
+      "type": "object"
+    },
+    "AttributeValue": {
+      "additionalProperties": false,
+      "properties": {
+        "field_key": {
+          "title": "Field Key",
+          "type": "string"
+        },
+        "qualifier_key": {
+          "default": "default",
+          "title": "Qualifier Key",
+          "type": "string"
+        },
+        "value_number": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "pattern": "^(?!^[-+.]*$)[+-]?0*\\d*\\.?\\d*$",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Value Number"
+        },
+        "value_boolean": {
+          "anyOf": [
+            {
+              "type": "boolean"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Value Boolean"
+        },
+        "value_date": {
+          "anyOf": [
+            {
+              "format": "date",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Value Date"
+        },
+        "value_json": {
+          "anyOf": [
+            {},
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Value Json"
+        },
+        "value_integer": {
+          "anyOf": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Value Integer"
+        },
+        "value_text": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Value Text"
+        },
+        "unit": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Unit"
+        },
+        "value_status": {
+          "default": "known",
+          "enum": [
+            "known",
+            "text_only",
+            "unknown",
+            "not_applicable"
+          ],
+          "title": "Value Status",
+          "type": "string"
+        },
+        "qualifier": {
+          "anyOf": [
+            {
+              "additionalProperties": true,
+              "type": "object"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Qualifier"
+        }
+      },
+      "required": [
+        "field_key"
+      ],
+      "title": "AttributeValue",
+      "type": "object"
+    },
+    "BenchmarkMetricInput": {
+      "additionalProperties": false,
+      "properties": {
+        "metric_key": {
+          "title": "Metric Key",
+          "type": "string"
+        },
+        "value_number": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "pattern": "^(?!^[-+.]*$)[+-]?0*\\d*\\.?\\d*$",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Value Number"
+        },
+        "unit": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Unit"
+        },
+        "value_integer": {
+          "anyOf": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Value Integer"
+        },
+        "value_boolean": {
+          "anyOf": [
+            {
+              "type": "boolean"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Value Boolean"
+        },
+        "value_text": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Value Text"
+        },
+        "statistic": {
+          "default": "reported",
+          "enum": [
+            "reported",
+            "median",
+            "mean",
+            "p95",
+            "min",
+            "max"
+          ],
+          "title": "Statistic",
+          "type": "string"
+        },
+        "sample_count": {
+          "anyOf": [
+            {
+              "minimum": 1,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Sample Count"
+        }
+      },
+      "required": [
+        "metric_key"
+      ],
+      "title": "BenchmarkMetricInput",
+      "type": "object"
+    },
+    "BenchmarkProtocolPayload": {
+      "additionalProperties": false,
+      "properties": {
+        "protocol_key": {
+          "title": "Protocol Key",
+          "type": "string"
+        },
+        "name": {
+          "title": "Name",
+          "type": "string"
+        },
+        "version": {
+          "title": "Version",
+          "type": "string"
+        },
+        "description": {
+          "default": "",
+          "title": "Description",
+          "type": "string"
+        },
+        "workload_type": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Workload Type"
+        },
+        "method_document_url": {
+          "anyOf": [
+            {
+              "format": "uri",
+              "maxLength": 2083,
+              "minLength": 1,
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Method Document Url"
+        },
+        "settings_schema": {
+          "additionalProperties": true,
+          "title": "Settings Schema",
+          "type": "object"
+        },
+        "environment_schema": {
+          "additionalProperties": true,
+          "title": "Environment Schema",
+          "type": "object"
+        },
+        "active": {
+          "default": true,
+          "title": "Active",
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "protocol_key",
+        "name",
+        "version"
+      ],
+      "title": "BenchmarkProtocolPayload",
+      "type": "object"
+    },
+    "BenchmarkRunPayload": {
+      "additionalProperties": false,
+      "properties": {
+        "run_key": {
+          "title": "Run Key",
+          "type": "string"
+        },
+        "protocol_key": {
+          "title": "Protocol Key",
+          "type": "string"
+        },
+        "protocol_version": {
+          "title": "Protocol Version",
+          "type": "string"
+        },
+        "workload_key": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Workload Key"
+        },
+        "started_at": {
+          "format": "date-time",
+          "title": "Started At",
+          "type": "string"
+        },
+        "completed_at": {
+          "anyOf": [
+            {
+              "format": "date-time",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Completed At"
+        },
+        "environment": {
+          "additionalProperties": true,
+          "title": "Environment",
+          "type": "object"
+        },
+        "subjects": {
+          "items": {
+            "$ref": "#/$defs/BenchmarkSubjectInput"
+          },
+          "title": "Subjects",
+          "type": "array"
+        },
+        "metrics": {
+          "items": {
+            "$ref": "#/$defs/BenchmarkMetricInput"
+          },
+          "title": "Metrics",
+          "type": "array"
+        },
+        "evidence": {
+          "items": {
+            "$ref": "#/$defs/EvidenceRef"
+          },
+          "title": "Evidence",
+          "type": "array"
+        },
+        "source_key": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Source Key"
+        },
+        "run_origin": {
+          "anyOf": [
+            {
+              "enum": [
+                "project",
+                "independent",
+                "official"
+              ],
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Run Origin"
+        },
+        "test_date": {
+          "anyOf": [
+            {
+              "format": "date",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Test Date"
+        },
+        "status": {
+          "default": "success",
+          "enum": [
+            "success",
+            "partial",
+            "oom",
+            "failed",
+            "invalid"
+          ],
+          "title": "Status",
+          "type": "string"
+        },
+        "settings": {
+          "additionalProperties": true,
+          "title": "Settings",
+          "type": "object"
+        },
+        "settings_hash": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Settings Hash"
+        },
+        "sample_count": {
+          "anyOf": [
+            {
+              "minimum": 1,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Sample Count"
+        },
+        "aggregation_method": {
+          "anyOf": [
+            {
+              "enum": [
+                "median",
+                "mean",
+                "p95",
+                "reported"
+              ],
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Aggregation Method"
+        },
+        "raw_result_url": {
+          "anyOf": [
+            {
+              "format": "uri",
+              "maxLength": 2083,
+              "minLength": 1,
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Raw Result Url"
+        },
+        "raw_result_hash": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Raw Result Hash"
+        },
+        "notes": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Notes"
+        }
+      },
+      "required": [
+        "run_key",
+        "protocol_key",
+        "protocol_version",
+        "started_at",
+        "subjects",
+        "metrics"
+      ],
+      "title": "BenchmarkRunPayload",
+      "type": "object"
+    },
+    "BenchmarkSubjectInput": {
+      "additionalProperties": false,
+      "properties": {
+        "entity_key": {
+          "title": "Entity Key",
+          "type": "string"
+        },
+        "role": {
+          "title": "Role",
+          "type": "string"
+        },
+        "is_primary": {
+          "default": false,
+          "title": "Is Primary",
+          "type": "boolean"
+        },
+        "quantity": {
+          "default": 1,
+          "minimum": 1,
+          "title": "Quantity",
+          "type": "integer"
+        }
+      },
+      "required": [
+        "entity_key",
+        "role"
+      ],
+      "title": "BenchmarkSubjectInput",
+      "type": "object"
+    },
+    "CapabilityInput": {
+      "additionalProperties": false,
+      "properties": {
+        "capability_key": {
+          "title": "Capability Key",
+          "type": "string"
+        },
+        "status": {
+          "default": "unknown",
+          "enum": [
+            "supported",
+            "unsupported",
+            "partial",
+            "unknown"
+          ],
+          "title": "Status",
+          "type": "string"
+        },
+        "notes": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Notes"
+        }
+      },
+      "required": [
+        "capability_key"
+      ],
+      "title": "CapabilityInput",
+      "type": "object"
+    },
+    "ConnectorProfileItem": {
+      "additionalProperties": false,
+      "properties": {
+        "connector_type": {
+          "title": "Connector Type",
+          "type": "string"
+        },
+        "count": {
+          "minimum": 1,
+          "title": "Count",
+          "type": "integer"
+        },
+        "required": {
+          "default": true,
+          "title": "Required",
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "connector_type",
+        "count"
+      ],
+      "title": "ConnectorProfileItem",
+      "type": "object"
+    },
+    "CpuSpecInput": {
+      "additionalProperties": false,
+      "properties": {
+        "architecture": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Architecture"
+        },
+        "codename": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Codename"
+        },
+        "cores_total": {
+          "anyOf": [
+            {
+              "minimum": 0,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Cores Total"
+        },
+        "threads": {
+          "anyOf": [
+            {
+              "minimum": 0,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Threads"
+        },
+        "performance_cores": {
+          "anyOf": [
+            {
+              "minimum": 0,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Performance Cores"
+        },
+        "efficiency_cores": {
+          "anyOf": [
+            {
+              "minimum": 0,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Efficiency Cores"
+        },
+        "base_clock_mhz": {
+          "anyOf": [
+            {
+              "minimum": 0,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Base Clock Mhz"
+        },
+        "boost_clock_mhz": {
+          "anyOf": [
+            {
+              "minimum": 0,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Boost Clock Mhz"
+        },
+        "l2_cache_mib": {
+          "anyOf": [
+            {
+              "minimum": 0.0,
+              "type": "number"
+            },
+            {
+              "pattern": "^(?!^[-+.]*$)[+-]?0*\\d*\\.?\\d*$",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "L2 Cache Mib"
+        },
+        "l3_cache_mib": {
+          "anyOf": [
+            {
+              "minimum": 0.0,
+              "type": "number"
+            },
+            {
+              "pattern": "^(?!^[-+.]*$)[+-]?0*\\d*\\.?\\d*$",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "L3 Cache Mib"
+        },
+        "base_power_w": {
+          "anyOf": [
+            {
+              "minimum": 0.0,
+              "type": "number"
+            },
+            {
+              "pattern": "^(?!^[-+.]*$)[+-]?0*\\d*\\.?\\d*$",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Base Power W"
+        },
+        "max_power_w": {
+          "anyOf": [
+            {
+              "minimum": 0.0,
+              "type": "number"
+            },
+            {
+              "pattern": "^(?!^[-+.]*$)[+-]?0*\\d*\\.?\\d*$",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Max Power W"
+        },
+        "socket": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Socket"
+        },
+        "memory_channels": {
+          "anyOf": [
+            {
+              "minimum": 0,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Memory Channels"
+        },
+        "max_memory_gib": {
+          "anyOf": [
+            {
+              "minimum": 0.0,
+              "type": "number"
+            },
+            {
+              "pattern": "^(?!^[-+.]*$)[+-]?0*\\d*\\.?\\d*$",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Max Memory Gib"
+        },
+        "ecc_support": {
+          "anyOf": [
+            {
+              "type": "boolean"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Ecc Support"
+        },
+        "pcie_generation": {
+          "anyOf": [
+            {
+              "minimum": 0.0,
+              "type": "number"
+            },
+            {
+              "pattern": "^(?!^[-+.]*$)[+-]?0*\\d*\\.?\\d*$",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Pcie Generation"
+        },
+        "pcie_lanes": {
+          "anyOf": [
+            {
+              "minimum": 0,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Pcie Lanes"
+        },
+        "integrated_gpu": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Integrated Gpu"
+        },
+        "npu_model": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Npu Model"
+        }
+      },
+      "title": "CpuSpecInput",
+      "type": "object"
+    },
+    "DatacenterGpuSpecInput": {
+      "additionalProperties": false,
+      "properties": {
+        "mig_support": {
+          "anyOf": [
+            {
+              "type": "boolean"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Mig Support"
+        },
+        "nvlink_support": {
+          "anyOf": [
+            {
+              "type": "boolean"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Nvlink Support"
+        },
+        "nvlink_bandwidth_gb_s": {
+          "anyOf": [
+            {
+              "minimum": 0.0,
+              "type": "number"
+            },
+            {
+              "pattern": "^(?!^[-+.]*$)[+-]?0*\\d*\\.?\\d*$",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Nvlink Bandwidth Gb S"
+        },
+        "display_enabled": {
+          "anyOf": [
+            {
+              "type": "boolean"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Display Enabled"
+        },
+        "max_power_w": {
+          "anyOf": [
+            {
+              "minimum": 0.0,
+              "type": "number"
+            },
+            {
+              "pattern": "^(?!^[-+.]*$)[+-]?0*\\d*\\.?\\d*$",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Max Power W"
+        }
+      },
+      "title": "DatacenterGpuSpecInput",
+      "type": "object"
+    },
+    "EntityAliasPayload": {
+      "additionalProperties": false,
+      "description": "A name another source uses for an entity we already own.\n\nAliases are look-up metadata, not truth claims: they say \"this string refers\nto that entity\", never \"this entity has this property\".  They therefore carry\nno Evidence and are not available as claim backing.  They exist because every\nexternal source spells the same part differently -- PassMark writes\n``Intel Core i5-12400 @ 2.50GHz``, the catalogue writes ``Core i5-12400`` --\nand a lookup that has to guess with ``LIKE`` is a lookup that silently misses.",
+      "properties": {
+        "entity_key": {
+          "title": "Entity Key",
+          "type": "string"
+        },
+        "alias": {
+          "title": "Alias",
+          "type": "string"
+        },
+        "alias_type": {
+          "default": "alternate",
+          "enum": [
+            "alternate",
+            "short",
+            "vendor_full",
+            "source_name",
+            "repository",
+            "runtime_tag",
+            "localized"
+          ],
+          "title": "Alias Type",
+          "type": "string"
+        },
+        "language": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Language"
+        },
+        "normalized_alias": {
+          "title": "Normalized Alias",
+          "type": "string"
+        },
+        "source_key": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Source Key"
+        }
+      },
+      "required": [
+        "entity_key",
+        "alias",
+        "normalized_alias"
+      ],
+      "title": "EntityAliasPayload",
+      "type": "object"
+    },
+    "EntityIdentity": {
+      "additionalProperties": false,
+      "properties": {
+        "entity_key": {
+          "minLength": 3,
+          "pattern": "^[a-z0-9][a-z0-9._:/-]+$",
+          "title": "Entity Key",
+          "type": "string"
+        },
+        "canonical_name": {
+          "minLength": 1,
+          "title": "Canonical Name",
+          "type": "string"
+        },
+        "entity_type": {
+          "enum": [
+            "organization",
+            "hardware",
+            "ai_model",
+            "model_variant",
+            "workload"
+          ],
+          "title": "Entity Type",
+          "type": "string"
+        },
+        "release_date": {
+          "anyOf": [
+            {
+              "format": "date",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Release Date"
+        },
+        "lifecycle_status": {
+          "default": "unknown",
+          "enum": [
+            "announced",
+            "upcoming",
+            "active",
+            "legacy",
+            "discontinued",
+            "unknown"
+          ],
+          "title": "Lifecycle Status",
+          "type": "string"
+        },
+        "recommendable": {
+          "default": true,
+          "title": "Recommendable",
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "entity_key",
+        "canonical_name",
+        "entity_type"
+      ],
+      "title": "EntityIdentity",
+      "type": "object"
+    },
+    "EvidenceRef": {
+      "additionalProperties": false,
+      "properties": {
+        "source_key": {
+          "title": "Source Key",
+          "type": "string"
+        },
+        "field_key": {
+          "title": "Field Key",
+          "type": "string"
+        },
+        "normalized_value": {
+          "anyOf": [
+            {},
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Normalized Value"
+        },
+        "raw_excerpt": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Raw Excerpt"
+        },
+        "source_locator": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Source Locator"
+        },
+        "confidence": {
+          "anyOf": [
+            {
+              "maximum": 1.0,
+              "minimum": 0.0,
+              "type": "number"
+            },
+            {
+              "pattern": "^(?!^[-+.]*$)[+-]?0*\\d*\\.?\\d*$",
+              "type": "string"
+            }
+          ],
+          "default": "1",
+          "title": "Confidence"
+        },
+        "unit_key": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Unit Key"
+        },
+        "provenance_key": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Provenance Key"
+        },
+        "review_status": {
+          "enum": [
+            "pending",
+            "accepted",
+            "rejected",
+            "conflict"
+          ],
+          "title": "Review Status",
+          "type": "string"
+        },
+        "collected_at": {
+          "anyOf": [
+            {
+              "format": "date-time",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Collected At"
+        },
+        "reviewed_at": {
+          "anyOf": [
+            {
+              "format": "date-time",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Reviewed At"
+        },
+        "notes": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Notes"
+        }
+      },
+      "required": [
+        "source_key",
+        "field_key",
+        "review_status"
+      ],
+      "title": "EvidenceRef",
+      "type": "object"
+    },
+    "FieldDefinitionPayload": {
+      "additionalProperties": false,
+      "properties": {
+        "field_key": {
+          "title": "Field Key",
+          "type": "string"
+        },
+        "label": {
+          "title": "Label",
+          "type": "string"
+        },
+        "applies_to_entity_type": {
+          "title": "Applies To Entity Type",
+          "type": "string"
+        },
+        "value_type": {
+          "enum": [
+            "string",
+            "number",
+            "integer",
+            "boolean",
+            "date",
+            "json"
+          ],
+          "title": "Value Type",
+          "type": "string"
+        },
+        "canonical_unit": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Canonical Unit"
+        },
+        "description": {
+          "default": "",
+          "title": "Description",
+          "type": "string"
+        },
+        "allowed_units": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Allowed Units",
+          "type": "array"
+        },
+        "indexed": {
+          "default": false,
+          "title": "Indexed",
+          "type": "boolean"
+        },
+        "cardinality": {
+          "default": "one",
+          "enum": [
+            "one",
+            "many"
+          ],
+          "title": "Cardinality",
+          "type": "string"
+        },
+        "comparison_method": {
+          "default": "exact",
+          "enum": [
+            "exact",
+            "tolerance",
+            "set_contains",
+            "range",
+            "text_only"
+          ],
+          "title": "Comparison Method",
+          "type": "string"
+        },
+        "tolerance": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "pattern": "^(?!^[-+.]*$)[+-]?0*\\d*\\.?\\d*$",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Tolerance"
+        },
+        "storage_kind": {
+          "default": "attribute",
+          "enum": [
+            "column",
+            "attribute"
+          ],
+          "title": "Storage Kind",
+          "type": "string"
+        },
+        "storage_path": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Storage Path"
+        },
+        "filterable": {
+          "default": false,
+          "title": "Filterable",
+          "type": "boolean"
+        },
+        "claimable": {
+          "default": true,
+          "title": "Claimable",
+          "type": "boolean"
+        },
+        "active": {
+          "default": true,
+          "title": "Active",
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "field_key",
+        "label",
+        "applies_to_entity_type",
+        "value_type"
+      ],
+      "title": "FieldDefinitionPayload",
+      "type": "object"
+    },
+    "GpuSpecInput": {
+      "additionalProperties": false,
+      "properties": {
+        "architecture": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Architecture"
+        },
+        "vram_gib": {
+          "anyOf": [
+            {
+              "minimum": 0.0,
+              "type": "number"
+            },
+            {
+              "pattern": "^(?!^[-+.]*$)[+-]?0*\\d*\\.?\\d*$",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Vram Gib"
+        },
+        "memory_type": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Memory Type"
+        },
+        "memory_bus_width_bit": {
+          "anyOf": [
+            {
+              "minimum": 0,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Memory Bus Width Bit"
+        },
+        "memory_bandwidth_gb_s": {
+          "anyOf": [
+            {
+              "minimum": 0.0,
+              "type": "number"
+            },
+            {
+              "pattern": "^(?!^[-+.]*$)[+-]?0*\\d*\\.?\\d*$",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Memory Bandwidth Gb S"
+        },
+        "ecc_support": {
+          "anyOf": [
+            {
+              "type": "boolean"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Ecc Support"
+        },
+        "interface": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Interface"
+        },
+        "pcie_generation": {
+          "anyOf": [
+            {
+              "minimum": 0.0,
+              "type": "number"
+            },
+            {
+              "pattern": "^(?!^[-+.]*$)[+-]?0*\\d*\\.?\\d*$",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Pcie Generation"
+        },
+        "pcie_lanes": {
+          "anyOf": [
+            {
+              "minimum": 0,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Pcie Lanes"
+        },
+        "board_power_w": {
+          "anyOf": [
+            {
+              "minimum": 0.0,
+              "type": "number"
+            },
+            {
+              "pattern": "^(?!^[-+.]*$)[+-]?0*\\d*\\.?\\d*$",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Board Power W"
+        }
+      },
+      "title": "GpuSpecInput",
+      "type": "object"
+    },
+    "HardwarePayload": {
+      "additionalProperties": false,
+      "properties": {
+        "identity": {
+          "$ref": "#/$defs/EntityIdentity"
+        },
+        "category": {
+          "enum": [
+            "cpu",
+            "gpu",
+            "memory",
+            "storage",
+            "psu",
+            "platform"
+          ],
+          "title": "Category",
+          "type": "string"
+        },
+        "manufacturer_key": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Manufacturer Key"
+        },
+        "form_factor": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Form Factor"
+        },
+        "record_kind": {
+          "default": "product",
+          "enum": [
+            "product",
+            "spec_profile"
+          ],
+          "title": "Record Kind",
+          "type": "string"
+        },
+        "product_family": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Product Family"
+        },
+        "model_name": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Model Name"
+        },
+        "variant_name": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Variant Name"
+        },
+        "market_segment": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Market Segment"
+        },
+        "region_code": {
+          "default": "GLOBAL",
+          "title": "Region Code",
+          "type": "string"
+        },
+        "official_product_id": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Official Product Id"
+        },
+        "cpu_spec": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/CpuSpecInput"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "gpu_spec": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/GpuSpecInput"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "laptop_gpu_spec": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/LaptopGpuSpecInput"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "datacenter_gpu_spec": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/DatacenterGpuSpecInput"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "memory_spec": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/MemorySpecInput"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "storage_spec": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/StorageSpecInput"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "psu_spec": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/PsuSpecInput"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "platform_spec": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/PlatformSpecInput"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "attributes": {
+          "items": {
+            "$ref": "#/$defs/AttributeValue"
+          },
+          "title": "Attributes",
+          "type": "array"
+        },
+        "evidence": {
+          "items": {
+            "$ref": "#/$defs/EvidenceRef"
+          },
+          "title": "Evidence",
+          "type": "array"
+        }
+      },
+      "required": [
+        "identity",
+        "category"
+      ],
+      "title": "HardwarePayload",
+      "type": "object"
+    },
+    "LaptopGpuSpecInput": {
+      "additionalProperties": false,
+      "properties": {
+        "tgp_min_w": {
+          "anyOf": [
+            {
+              "minimum": 0.0,
+              "type": "number"
+            },
+            {
+              "pattern": "^(?!^[-+.]*$)[+-]?0*\\d*\\.?\\d*$",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Tgp Min W"
+        },
+        "tgp_max_w": {
+          "anyOf": [
+            {
+              "minimum": 0.0,
+              "type": "number"
+            },
+            {
+              "pattern": "^(?!^[-+.]*$)[+-]?0*\\d*\\.?\\d*$",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Tgp Max W"
+        },
+        "boost_clock_min_mhz": {
+          "anyOf": [
+            {
+              "minimum": 0,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Boost Clock Min Mhz"
+        },
+        "boost_clock_max_mhz": {
+          "anyOf": [
+            {
+              "minimum": 0,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Boost Clock Max Mhz"
+        },
+        "dynamic_boost_w": {
+          "anyOf": [
+            {
+              "minimum": 0.0,
+              "type": "number"
+            },
+            {
+              "pattern": "^(?!^[-+.]*$)[+-]?0*\\d*\\.?\\d*$",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Dynamic Boost W"
+        }
+      },
+      "title": "LaptopGpuSpecInput",
+      "type": "object"
+    },
+    "MemorySpecInput": {
+      "additionalProperties": false,
+      "properties": {
+        "memory_standard": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Memory Standard"
+        },
+        "form_factor": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Form Factor"
+        },
+        "capacity_gib": {
+          "anyOf": [
+            {
+              "minimum": 0.0,
+              "type": "number"
+            },
+            {
+              "pattern": "^(?!^[-+.]*$)[+-]?0*\\d*\\.?\\d*$",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Capacity Gib"
+        },
+        "speed_mt_s": {
+          "anyOf": [
+            {
+              "minimum": 0,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Speed Mt S"
+        },
+        "ecc": {
+          "anyOf": [
+            {
+              "type": "boolean"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Ecc"
+        },
+        "registered": {
+          "anyOf": [
+            {
+              "type": "boolean"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Registered"
+        },
+        "voltage_v": {
+          "anyOf": [
+            {
+              "minimum": 0.0,
+              "type": "number"
+            },
+            {
+              "pattern": "^(?!^[-+.]*$)[+-]?0*\\d*\\.?\\d*$",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Voltage V"
+        }
+      },
+      "title": "MemorySpecInput",
+      "type": "object"
+    },
+    "MemoryStandardItem": {
+      "additionalProperties": false,
+      "properties": {
+        "standard": {
+          "title": "Standard",
+          "type": "string"
+        },
+        "max_speed_mt_s": {
+          "anyOf": [
+            {
+              "minimum": 0,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Max Speed Mt S"
+        }
+      },
+      "required": [
+        "standard"
+      ],
+      "title": "MemoryStandardItem",
+      "type": "object"
+    },
+    "MetricDefinitionPayload": {
+      "additionalProperties": false,
+      "properties": {
+        "metric_key": {
+          "title": "Metric Key",
+          "type": "string"
+        },
+        "label": {
+          "title": "Label",
+          "type": "string"
+        },
+        "value_type": {
+          "default": "number",
+          "enum": [
+            "number",
+            "integer",
+            "string",
+            "boolean"
+          ],
+          "title": "Value Type",
+          "type": "string"
+        },
+        "canonical_unit": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Canonical Unit"
+        },
+        "higher_is_better": {
+          "anyOf": [
+            {
+              "type": "boolean"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Higher Is Better"
+        },
+        "description": {
+          "default": "",
+          "title": "Description",
+          "type": "string"
+        },
+        "comparison_scope": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Comparison Scope"
+        },
+        "active": {
+          "default": true,
+          "title": "Active",
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "metric_key",
+        "label"
+      ],
+      "title": "MetricDefinitionPayload",
+      "type": "object"
+    },
+    "ModelPayload": {
+      "additionalProperties": false,
+      "properties": {
+        "identity": {
+          "$ref": "#/$defs/EntityIdentity"
+        },
+        "publisher_key": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Publisher Key"
+        },
+        "license_name": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "License Name"
+        },
+        "capabilities": {
+          "items": {
+            "$ref": "#/$defs/CapabilityInput"
+          },
+          "title": "Capabilities",
+          "type": "array"
+        },
+        "variants": {
+          "items": {
+            "$ref": "#/$defs/VariantInput"
+          },
+          "title": "Variants",
+          "type": "array"
+        },
+        "attributes": {
+          "items": {
+            "$ref": "#/$defs/AttributeValue"
+          },
+          "title": "Attributes",
+          "type": "array"
+        },
+        "evidence": {
+          "items": {
+            "$ref": "#/$defs/EvidenceRef"
+          },
+          "title": "Evidence",
+          "type": "array"
+        },
+        "family": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Family"
+        },
+        "release_version": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Release Version"
+        },
+        "model_type": {
+          "anyOf": [
+            {
+              "enum": [
+                "dense",
+                "moe",
+                "diffusion"
+              ],
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Model Type"
+        },
+        "total_parameters": {
+          "anyOf": [
+            {
+              "minimum": 0,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Total Parameters"
+        },
+        "active_parameters": {
+          "anyOf": [
+            {
+              "minimum": 0,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Active Parameters"
+        },
+        "model_stage": {
+          "anyOf": [
+            {
+              "enum": [
+                "base",
+                "instruct",
+                "chat",
+                "reasoning",
+                "vision_language",
+                "text_to_image",
+                "image_editing",
+                "depth_estimation",
+                "text_to_video",
+                "text_image_to_video",
+                "text_to_speech",
+                "speech_recognition",
+                "object_detection",
+                "segmentation",
+                "image_to_3d",
+                "embedding",
+                "reranker"
+              ],
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Model Stage"
+        },
+        "context_length_tokens": {
+          "anyOf": [
+            {
+              "minimum": 0,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Context Length Tokens"
+        },
+        "commercial_use_status": {
+          "default": "unknown",
+          "enum": [
+            "allowed",
+            "restricted",
+            "unknown"
+          ],
+          "title": "Commercial Use Status",
+          "type": "string"
+        },
+        "official_repo_url": {
+          "anyOf": [
+            {
+              "format": "uri",
+              "maxLength": 2083,
+              "minLength": 1,
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Official Repo Url"
+        },
+        "official_model_card_url": {
+          "anyOf": [
+            {
+              "format": "uri",
+              "maxLength": 2083,
+              "minLength": 1,
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Official Model Card Url"
+        },
+        "architecture_notes": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Architecture Notes"
+        }
+      },
+      "required": [
+        "identity"
+      ],
+      "title": "ModelPayload",
+      "type": "object"
+    },
+    "OrganizationPayload": {
+      "additionalProperties": false,
+      "properties": {
+        "identity": {
+          "$ref": "#/$defs/EntityIdentity"
+        },
+        "website_url": {
+          "anyOf": [
+            {
+              "format": "uri",
+              "maxLength": 2083,
+              "minLength": 1,
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Website Url"
+        },
+        "evidence": {
+          "items": {
+            "$ref": "#/$defs/EvidenceRef"
+          },
+          "title": "Evidence",
+          "type": "array"
+        },
+        "organization_type": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Organization Type"
+        },
+        "country_or_region": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Country Or Region"
+        }
+      },
+      "required": [
+        "identity"
+      ],
+      "title": "OrganizationPayload",
+      "type": "object"
+    },
+    "PlatformSpecInput": {
+      "additionalProperties": false,
+      "properties": {
+        "chipset": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Chipset"
+        },
+        "socket": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Socket"
+        },
+        "memory_standard": {
+          "items": {
+            "$ref": "#/$defs/MemoryStandardItem"
+          },
+          "title": "Memory Standard",
+          "type": "array"
+        },
+        "max_memory_gib": {
+          "anyOf": [
+            {
+              "minimum": 0.0,
+              "type": "number"
+            },
+            {
+              "pattern": "^(?!^[-+.]*$)[+-]?0*\\d*\\.?\\d*$",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Max Memory Gib"
+        },
+        "pcie_generation": {
+          "anyOf": [
+            {
+              "minimum": 0.0,
+              "type": "number"
+            },
+            {
+              "pattern": "^(?!^[-+.]*$)[+-]?0*\\d*\\.?\\d*$",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Pcie Generation"
+        },
+        "overclock_support": {
+          "anyOf": [
+            {
+              "type": "boolean"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Overclock Support"
+        }
+      },
+      "title": "PlatformSpecInput",
+      "type": "object"
+    },
+    "PriceSnapshotPayload": {
+      "additionalProperties": false,
+      "properties": {
+        "price_key": {
+          "title": "Price Key",
+          "type": "string"
+        },
+        "entity_key": {
+          "title": "Entity Key",
+          "type": "string"
+        },
+        "source_key": {
+          "title": "Source Key",
+          "type": "string"
+        },
+        "observed_at": {
+          "format": "date-time",
+          "title": "Observed At",
+          "type": "string"
+        },
+        "currency": {
+          "maxLength": 3,
+          "minLength": 3,
+          "title": "Currency",
+          "type": "string"
+        },
+        "amount": {
+          "anyOf": [
+            {
+              "minimum": 0.0,
+              "type": "number"
+            },
+            {
+              "pattern": "^(?!^[-+.]*$)[+-]?0*\\d*\\.?\\d*$",
+              "type": "string"
+            }
+          ],
+          "title": "Amount"
+        },
+        "availability": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Availability"
+        },
+        "price_type": {
+          "anyOf": [
+            {
+              "enum": [
+                "msrp",
+                "launch",
+                "current_new",
+                "current_used"
+              ],
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Price Type"
+        },
+        "market_region": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Market Region"
+        },
+        "condition": {
+          "anyOf": [
+            {
+              "enum": [
+                "new",
+                "used",
+                "refurbished"
+              ],
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Condition"
+        },
+        "seller_key": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Seller Key"
+        },
+        "notes": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Notes"
+        }
+      },
+      "required": [
+        "price_key",
+        "entity_key",
+        "source_key",
+        "observed_at",
+        "currency",
+        "amount"
+      ],
+      "title": "PriceSnapshotPayload",
+      "type": "object"
+    },
+    "PsuSpecInput": {
+      "additionalProperties": false,
+      "properties": {
+        "atx_standard": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Atx Standard"
+        },
+        "rated_power_w": {
+          "anyOf": [
+            {
+              "minimum": 0,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Rated Power W"
+        },
+        "efficiency_certification": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Efficiency Certification"
+        },
+        "connector_profile": {
+          "items": {
+            "$ref": "#/$defs/ConnectorProfileItem"
+          },
+          "title": "Connector Profile",
+          "type": "array"
+        }
+      },
+      "title": "PsuSpecInput",
+      "type": "object"
+    },
+    "RuleDefinitionPayload": {
+      "additionalProperties": false,
+      "properties": {
+        "rule_key": {
+          "title": "Rule Key",
+          "type": "string"
+        },
+        "name": {
+          "title": "Name",
+          "type": "string"
+        },
+        "version": {
+          "title": "Version",
+          "type": "string"
+        },
+        "description": {
+          "default": "",
+          "title": "Description",
+          "type": "string"
+        },
+        "rule_type": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Rule Type"
+        },
+        "input_field_keys": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Input Field Keys",
+          "type": "array"
+        },
+        "output_field_key": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Output Field Key"
+        },
+        "implementation_ref": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Implementation Ref"
+        },
+        "source_key": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Source Key"
+        },
+        "active": {
+          "default": true,
+          "title": "Active",
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "rule_key",
+        "name",
+        "version"
+      ],
+      "title": "RuleDefinitionPayload",
+      "type": "object"
+    },
+    "RuntimeSupportPayload": {
+      "additionalProperties": false,
+      "properties": {
+        "snapshot_key": {
+          "title": "Snapshot Key",
+          "type": "string"
+        },
+        "support_status": {
+          "enum": [
+            "supported",
+            "unsupported",
+            "partial",
+            "unknown"
+          ],
+          "title": "Support Status",
+          "type": "string"
+        },
+        "variant_key": {
+          "title": "Variant Key",
+          "type": "string"
+        },
+        "runtime_key": {
+          "title": "Runtime Key",
+          "type": "string"
+        },
+        "min_version": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Min Version"
+        },
+        "tested_version": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Tested Version"
+        },
+        "backend": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Backend"
+        },
+        "notes": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Notes"
+        },
+        "source_key": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Source Key"
+        },
+        "checked_at": {
+          "format": "date-time",
+          "title": "Checked At",
+          "type": "string"
+        }
+      },
+      "required": [
+        "snapshot_key",
+        "support_status",
+        "variant_key",
+        "runtime_key",
+        "checked_at"
+      ],
+      "title": "RuntimeSupportPayload",
+      "type": "object"
+    },
+    "SourceDocumentPayload": {
+      "additionalProperties": false,
+      "properties": {
+        "source_key": {
+          "title": "Source Key",
+          "type": "string"
+        },
+        "title": {
+          "title": "Title",
+          "type": "string"
+        },
+        "url": {
+          "format": "uri",
+          "maxLength": 2083,
+          "minLength": 1,
+          "title": "Url",
+          "type": "string"
+        },
+        "source_type": {
+          "enum": [
+            "official",
+            "official_page",
+            "vendor",
+            "datasheet",
+            "model_card",
+            "paper",
+            "review",
+            "community",
+            "measurement",
+            "project_measurement",
+            "independent_benchmark",
+            "retailer",
+            "derived_rule",
+            "third_party_database"
+          ],
+          "title": "Source Type",
+          "type": "string"
+        },
+        "published_at": {
+          "anyOf": [
+            {
+              "format": "date-time",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Published At"
+        },
+        "accessed_at": {
+          "format": "date-time",
+          "title": "Accessed At",
+          "type": "string"
+        },
+        "content_hash": {
+          "anyOf": [
+            {
+              "pattern": "^[0-9a-f]{64}$",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Content Hash"
+        },
+        "publisher_key": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Publisher Key"
+        },
+        "source_tier": {
+          "anyOf": [
+            {
+              "enum": [
+                "A",
+                "B",
+                "C",
+                "D"
+              ],
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Source Tier"
+        },
+        "archive_url": {
+          "anyOf": [
+            {
+              "format": "uri",
+              "maxLength": 2083,
+              "minLength": 1,
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Archive Url"
+        },
+        "market_region": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Market Region"
+        },
+        "language": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Language"
+        },
+        "availability_status": {
+          "default": "accessible",
+          "enum": [
+            "accessible",
+            "archived",
+            "unavailable"
+          ],
+          "title": "Availability Status",
+          "type": "string"
+        }
+      },
+      "required": [
+        "source_key",
+        "title",
+        "url",
+        "source_type",
+        "accessed_at"
+      ],
+      "title": "SourceDocumentPayload",
+      "type": "object"
+    },
+    "StorageSpecInput": {
+      "additionalProperties": false,
+      "properties": {
+        "storage_type": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Storage Type"
+        },
+        "interface": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Interface"
+        },
+        "pcie_generation": {
+          "anyOf": [
+            {
+              "minimum": 0.0,
+              "type": "number"
+            },
+            {
+              "pattern": "^(?!^[-+.]*$)[+-]?0*\\d*\\.?\\d*$",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Pcie Generation"
+        },
+        "capacity_gib": {
+          "anyOf": [
+            {
+              "minimum": 0.0,
+              "type": "number"
+            },
+            {
+              "pattern": "^(?!^[-+.]*$)[+-]?0*\\d*\\.?\\d*$",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Capacity Gib"
+        },
+        "sequential_read_mb_s_class": {
+          "anyOf": [
+            {
+              "minimum": 0.0,
+              "type": "number"
+            },
+            {
+              "pattern": "^(?!^[-+.]*$)[+-]?0*\\d*\\.?\\d*$",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Sequential Read Mb S Class"
+        },
+        "sequential_write_mb_s_class": {
+          "anyOf": [
+            {
+              "minimum": 0.0,
+              "type": "number"
+            },
+            {
+              "pattern": "^(?!^[-+.]*$)[+-]?0*\\d*\\.?\\d*$",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Sequential Write Mb S Class"
+        },
+        "typical_use_case": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Typical Use Case"
+        }
+      },
+      "title": "StorageSpecInput",
+      "type": "object"
+    },
+    "VariantInput": {
+      "additionalProperties": false,
+      "properties": {
+        "identity": {
+          "$ref": "#/$defs/EntityIdentity"
+        },
+        "file_size_bytes": {
+          "anyOf": [
+            {
+              "minimum": 0,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "File Size Bytes"
+        },
+        "evidence": {
+          "items": {
+            "$ref": "#/$defs/EvidenceRef"
+          },
+          "title": "Evidence",
+          "type": "array"
+        },
+        "maintainer_key": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Maintainer Key"
+        },
+        "quantization_method": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Quantization Method"
+        },
+        "bits_per_weight": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "pattern": "^(?!^[-+.]*$)[+-]?0*\\d*\\.?\\d*$",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Bits Per Weight"
+        },
+        "weight_format": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Weight Format"
+        },
+        "artifact_revision": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Artifact Revision"
+        },
+        "official_status": {
+          "anyOf": [
+            {
+              "enum": [
+                "official",
+                "community",
+                "converted_by_project"
+              ],
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Official Status"
+        },
+        "repository_url": {
+          "anyOf": [
+            {
+              "format": "uri",
+              "maxLength": 2083,
+              "minLength": 1,
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Repository Url"
+        },
+        "artifact_manifest": {
+          "anyOf": [
+            {
+              "items": {
+                "$ref": "#/$defs/ArtifactFileInput"
+              },
+              "type": "array"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Artifact Manifest"
+        },
+        "checksum": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Checksum"
+        }
+      },
+      "required": [
+        "identity"
+      ],
+      "title": "VariantInput",
+      "type": "object"
+    },
+    "WorkloadPayload": {
+      "additionalProperties": false,
+      "properties": {
+        "identity": {
+          "$ref": "#/$defs/EntityIdentity"
+        },
+        "workload_type": {
+          "enum": [
+            "game",
+            "engineering",
+            "productivity",
+            "benchmark_suite"
+          ],
+          "title": "Workload Type",
+          "type": "string"
+        },
+        "description": {
+          "default": "",
+          "title": "Description",
+          "type": "string"
+        },
+        "profiles": {
+          "items": {
+            "$ref": "#/$defs/WorkloadProfileInput"
+          },
+          "title": "Profiles",
+          "type": "array"
+        },
+        "requirements": {
+          "items": {
+            "$ref": "#/$defs/WorkloadRequirementInput"
+          },
+          "title": "Requirements",
+          "type": "array"
+        },
+        "evidence": {
+          "items": {
+            "$ref": "#/$defs/EvidenceRef"
+          },
+          "title": "Evidence",
+          "type": "array"
+        },
+        "publisher_key": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Publisher Key"
+        },
+        "family": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Family"
+        },
+        "current_version": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Current Version"
+        },
+        "engine": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Engine"
+        },
+        "official_url": {
+          "anyOf": [
+            {
+              "format": "uri",
+              "maxLength": 2083,
+              "minLength": 1,
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Official Url"
+        }
+      },
+      "required": [
+        "identity",
+        "workload_type"
+      ],
+      "title": "WorkloadPayload",
+      "type": "object"
+    },
+    "WorkloadProfileInput": {
+      "additionalProperties": false,
+      "properties": {
+        "profile_key": {
+          "title": "Profile Key",
+          "type": "string"
+        },
+        "label": {
+          "title": "Label",
+          "type": "string"
+        },
+        "version_label": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Version Label"
+        },
+        "settings": {
+          "additionalProperties": true,
+          "title": "Settings",
+          "type": "object"
+        },
+        "valid_from": {
+          "anyOf": [
+            {
+              "format": "date",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Valid From"
+        },
+        "valid_to": {
+          "anyOf": [
+            {
+              "format": "date",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Valid To"
+        },
+        "source_key": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Source Key"
+        }
+      },
+      "required": [
+        "profile_key",
+        "label"
+      ],
+      "title": "WorkloadProfileInput",
+      "type": "object"
+    },
+    "WorkloadRequirementInput": {
+      "additionalProperties": false,
+      "properties": {
+        "profile_key": {
+          "title": "Profile Key",
+          "type": "string"
+        },
+        "component_role": {
+          "enum": [
+            "cpu",
+            "gpu",
+            "ram",
+            "storage",
+            "os",
+            "feature"
+          ],
+          "title": "Component Role",
+          "type": "string"
+        },
+        "operator": {
+          "enum": [
+            "eq",
+            "gte",
+            "one_of",
+            "text_only"
+          ],
+          "title": "Operator",
+          "type": "string"
+        },
+        "reference_entity_key": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Reference Entity Key"
+        },
+        "numeric_value": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "pattern": "^(?!^[-+.]*$)[+-]?0*\\d*\\.?\\d*$",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Numeric Value"
+        },
+        "unit_key": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Unit Key"
+        },
+        "value_text": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Value Text"
+        },
+        "required_feature_key": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Required Feature Key"
+        },
+        "raw_value": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Raw Value"
+        }
+      },
+      "required": [
+        "profile_key",
+        "component_role",
+        "operator"
+      ],
+      "title": "WorkloadRequirementInput",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "schema_version": {
+      "const": "3.2",
+      "default": "3.2",
+      "title": "Schema Version",
+      "type": "string"
+    },
+    "record_type": {
+      "enum": [
+        "source_document",
+        "field_definition",
+        "metric_definition",
+        "organization",
+        "hardware",
+        "model",
+        "workload",
+        "benchmark_protocol",
+        "benchmark_run",
+        "price_snapshot",
+        "runtime_support",
+        "rule_definition",
+        "entity_alias"
+      ],
+      "title": "Record Type",
+      "type": "string"
+    },
+    "status": {
+      "default": "pending",
+      "enum": [
+        "accepted",
+        "pending",
+        "rejected"
+      ],
+      "title": "Status",
+      "type": "string"
+    },
+    "payload": {
+      "anyOf": [
+        {
+          "$ref": "#/$defs/SourceDocumentPayload"
+        },
+        {
+          "$ref": "#/$defs/FieldDefinitionPayload"
+        },
+        {
+          "$ref": "#/$defs/MetricDefinitionPayload"
+        },
+        {
+          "$ref": "#/$defs/OrganizationPayload"
+        },
+        {
+          "$ref": "#/$defs/HardwarePayload"
+        },
+        {
+          "$ref": "#/$defs/ModelPayload"
+        },
+        {
+          "$ref": "#/$defs/WorkloadPayload"
+        },
+        {
+          "$ref": "#/$defs/BenchmarkProtocolPayload"
+        },
+        {
+          "$ref": "#/$defs/BenchmarkRunPayload"
+        },
+        {
+          "$ref": "#/$defs/RuntimeSupportPayload"
+        },
+        {
+          "$ref": "#/$defs/PriceSnapshotPayload"
+        },
+        {
+          "$ref": "#/$defs/RuleDefinitionPayload"
+        },
+        {
+          "$ref": "#/$defs/EntityAliasPayload"
+        }
+      ],
+      "title": "Payload"
+    },
+    "review_notes": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Review Notes",
+      "type": "array"
+    }
+  },
+  "required": [
+    "record_type",
+    "payload"
+  ],
+  "title": "Bundle",
+  "type": "object"
+}

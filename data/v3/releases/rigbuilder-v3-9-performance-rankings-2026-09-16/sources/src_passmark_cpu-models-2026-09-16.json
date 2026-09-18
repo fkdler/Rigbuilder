@@ -1,0 +1,21 @@
+{
+  "schema_version": "3.2",
+  "record_type": "source_document",
+  "status": "accepted",
+  "payload": {
+    "source_key": "src:passmark:cpu-models-2026-09-16",
+    "title": "PassMark CPU Benchmarks - per-model result pages (snapshot 2026-09-16)",
+    "url": "https://www.cpubenchmark.net/cpu.php",
+    "source_type": "independent_benchmark",
+    "published_at": null,
+    "accessed_at": "2026-09-16T04:16:04.406679Z",
+    "content_hash": "26b1f546c4d9641a3a84c1c4460a9fc1b02176fa590189cb3312f98310a8ebe3",
+    "publisher_key": "org:passmark",
+    "source_tier": "C",
+    "archive_url": null,
+    "market_region": null,
+    "language": "en",
+    "availability_status": "accessible"
+  },
+  "review_notes": []
+}

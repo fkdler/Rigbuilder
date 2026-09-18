@@ -1,0 +1,112 @@
+{
+  "schema_version": "3.2",
+  "record_type": "model",
+  "status": "accepted",
+  "payload": {
+    "identity": {
+      "entity_key": "model:idea-research:grounding-dino-swint",
+      "canonical_name": "Grounding-DINO-SwinT",
+      "entity_type": "ai_model",
+      "release_date": "2024-03-14",
+      "lifecycle_status": "unknown",
+      "recommendable": true
+    },
+    "publisher_key": "org:idea-research",
+    "release_version": null,
+    "model_type": "dense",
+    "total_parameters": 172277902,
+    "active_parameters": null,
+    "model_stage": "object_detection",
+    "context_length_tokens": null,
+    "license_name": "Apache-2.0",
+    "commercial_use_status": "allowed",
+    "official_repo_url": "https://huggingface.co/IDEA-Research/grounding-dino-tiny",
+    "official_model_card_url": "https://huggingface.co/IDEA-Research/grounding-dino-tiny",
+    "architecture_notes": null,
+    "capabilities": [
+      {
+        "capability_key": "text_input",
+        "status": "supported",
+        "notes": null
+      },
+      {
+        "capability_key": "vision_input",
+        "status": "supported",
+        "notes": null
+      },
+      {
+        "capability_key": "object_detection",
+        "status": "supported",
+        "notes": null
+      }
+    ],
+    "variants": [
+      {
+        "identity": {
+          "entity_key": "variant:idea-research-grounding-dino-tiny:official-safetensors",
+          "canonical_name": "Grounding-DINO-SwinT 官方权重 (safetensors, IDEA-Research)",
+          "entity_type": "model_variant",
+          "release_date": null,
+          "lifecycle_status": "unknown",
+          "recommendable": true
+        },
+        "file_size_bytes": 1381273698,
+        "weight_format": "safetensors",
+        "official_status": "official",
+        "repository_url": "https://huggingface.co/IDEA-Research/grounding-dino-tiny",
+        "evidence": [
+          {
+            "source_key": "src:hf:idea-research-grounding-dino-tiny",
+            "field_key": "entity.canonical_name",
+            "normalized_value": "Grounding-DINO-SwinT 官方权重 (safetensors, IDEA-Research)",
+            "review_status": "accepted",
+            "confidence": 1
+          }
+        ]
+      }
+    ],
+    "evidence": [
+      {
+        "source_key": "src:card:grounding-dino-swint",
+        "field_key": "entity.canonical_name",
+        "normalized_value": "Grounding-DINO-SwinT",
+        "provenance_key": "official",
+        "raw_excerpt": "Grounding-DINO-SwinT",
+        "review_status": "accepted",
+        "reviewed_at": null
+      },
+      {
+        "source_key": "src:card:grounding-dino-swint",
+        "field_key": "model.license_name",
+        "normalized_value": "Apache-2.0",
+        "provenance_key": "official",
+        "raw_excerpt": "License: apache-2.0",
+        "review_status": "accepted",
+        "reviewed_at": null
+      },
+      {
+        "source_key": "src:card:grounding-dino-swint",
+        "field_key": "model.model_stage",
+        "normalized_value": "object_detection",
+        "provenance_key": "official",
+        "raw_excerpt": "object_detection",
+        "review_status": "accepted",
+        "reviewed_at": null
+      },
+      {
+        "source_key": "src:card:grounding-dino-swint",
+        "field_key": "model.total_parameters",
+        "normalized_value": 172277902,
+        "provenance_key": "official",
+        "raw_excerpt": "HF API safetensors.total（精确）: 172277902",
+        "notes": "由官方 config/API 回填",
+        "review_status": "accepted",
+        "reviewed_at": null
+      }
+    ],
+    "family": "Grounding DINO"
+  },
+  "review_notes": [
+    "Model artifacts enumerated from the official Hugging Face API on 2026-09-16 (file list and byte sizes only; no weights were downloaded or verified)."
+  ]
+}

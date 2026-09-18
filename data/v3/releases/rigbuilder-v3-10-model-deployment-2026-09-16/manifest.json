@@ -1,0 +1,807 @@
+{
+  "schema_version": "3.2",
+  "release_key": "rigbuilder-v3-10-model-deployment-2026-09-16",
+  "created_at": "2026-09-16T08:47:31.380478Z",
+  "description": "Model deployment requirements from the ModelFit hardware-compatibility dataset (CC BY 4.0, modelfit.io, updated 2026-09-15): estimated minimum RAM, estimated loaded memory and per-token KV cache cost, qualified by quantization, plus runtime support rows for the GGUF builds ModelFit lists as runnable. Estimates published by a third party, not measurements performed here.",
+  "git_commit": null,
+  "files": [
+    {
+      "path": "fields/model.deployment_estimated_load_gb.json",
+      "sha256": "88945365eb8ec731164a58cec915f840b71cd3b596ebfea0eae83bc8a4190fd3",
+      "record_type": "field_definition",
+      "status": "accepted"
+    },
+    {
+      "path": "fields/model.deployment_kv_cache_kb_per_token.json",
+      "sha256": "7e3fe537b4db5a9914d7c88d75324521e58e26bd339d4b679061e0770d997c95",
+      "record_type": "field_definition",
+      "status": "accepted"
+    },
+    {
+      "path": "fields/model.deployment_min_ram_gb.json",
+      "sha256": "9c3aa80ebd609915c74ec2c087841f6e101097116b1aadf03450ba997dda6f4a",
+      "record_type": "field_definition",
+      "status": "accepted"
+    },
+    {
+      "path": "models/deepseek-deepseek-r1-distill-qwen-14b.json",
+      "sha256": "ed9441734d95612db52c1a6f8a023cbad347b610ebd128d3d7b3b17a53a1d5ef",
+      "record_type": "model",
+      "status": "accepted"
+    },
+    {
+      "path": "models/deepseek-deepseek-r1-distill-qwen-7b.json",
+      "sha256": "80a7b1e597762c7c74e934053e896370ff454adbc1e8fa489c9718dc10b27e0b",
+      "record_type": "model",
+      "status": "accepted"
+    },
+    {
+      "path": "models/deepseek-deepseek-r1.json",
+      "sha256": "2f19c4441b5d6dae24dfadca636f6ae7e22c2fddcd0ef3b82b3e01c235894635",
+      "record_type": "model",
+      "status": "accepted"
+    },
+    {
+      "path": "models/google-gemma-2-9b-it.json",
+      "sha256": "f81f5b6c3202a15cff8e37e024f25362575aa61538873f527347c90b452b752f",
+      "record_type": "model",
+      "status": "accepted"
+    },
+    {
+      "path": "models/google-gemma-3-12b-it.json",
+      "sha256": "9927f1a9f9853b7d3e40fa36827b9fb1c86366eb812f646c1317ff6257bcff25",
+      "record_type": "model",
+      "status": "accepted"
+    },
+    {
+      "path": "models/google-gemma-3-1b-it.json",
+      "sha256": "eb9d5669191ff6bd3a48b4419309ff1007c3bee8f8ac379a97d56f546b4c7844",
+      "record_type": "model",
+      "status": "accepted"
+    },
+    {
+      "path": "models/google-gemma-3-27b-it.json",
+      "sha256": "65d7b0f7b7ada3966347c82e3b43421dc1ad28be0ed0887bfcac5d958da66f80",
+      "record_type": "model",
+      "status": "accepted"
+    },
+    {
+      "path": "models/google-gemma-3-4b-it.json",
+      "sha256": "53231fdc287b3c8d4d206ae11d16c96e015d19bbe39fcecce72e7752518b7be5",
+      "record_type": "model",
+      "status": "accepted"
+    },
+    {
+      "path": "models/meta-llama-3-1-8b-instruct.json",
+      "sha256": "46399f65ca811602c0980bc37175cce07562ea6ece0cf59d46dd139e75575ec0",
+      "record_type": "model",
+      "status": "accepted"
+    },
+    {
+      "path": "models/meta-llama-3-2-1b-instruct.json",
+      "sha256": "81aa9cdf3218fa2ff80c817bc8492b5f1efa9de08cbedc5d2dab6f1bf570737e",
+      "record_type": "model",
+      "status": "accepted"
+    },
+    {
+      "path": "models/meta-llama-3-2-3b-instruct.json",
+      "sha256": "68f61a8f847e5160de5c113dd73aa13a56d26f5f19ed38e83c792aea821ba43f",
+      "record_type": "model",
+      "status": "accepted"
+    },
+    {
+      "path": "models/meta-llama-3-3-70b-instruct.json",
+      "sha256": "4378f49d9147f1e509a77dd18e8188aa2da67603786d1aea9d9a14accff803db",
+      "record_type": "model",
+      "status": "accepted"
+    },
+    {
+      "path": "models/microsoft-phi-4.json",
+      "sha256": "fb68079d7479e4aa5370f12562f4f380e3c841f79408506ebc1e322faf223428",
+      "record_type": "model",
+      "status": "accepted"
+    },
+    {
+      "path": "models/minicpm-v-4-5.json",
+      "sha256": "05bcf2967bb05b703dcbeff91fd58197f09c61a5c931c78664b7d7f38d6259a0",
+      "record_type": "model",
+      "status": "accepted"
+    },
+    {
+      "path": "models/mistral-ai-mistral-7b-instruct-v0-3.json",
+      "sha256": "783fb8c6e16d3be01501fbfac5e9383ab7fa3541bd7d724f66dbfd0d9924f256",
+      "record_type": "model",
+      "status": "accepted"
+    },
+    {
+      "path": "models/moonshot-ai-kimi-k2-instruct.json",
+      "sha256": "171d1b5e242dfd6363cc405c79e5844cea43e83341c7751b4fe1cf8158cb2257",
+      "record_type": "model",
+      "status": "accepted"
+    },
+    {
+      "path": "models/qwen-qwen2-5-1-5b-instruct.json",
+      "sha256": "1f5f08f53004f512163abde43cf53ff9cb10422f2541833a4547a0e12a8d8ba3",
+      "record_type": "model",
+      "status": "accepted"
+    },
+    {
+      "path": "models/qwen-qwen2-5-14b-instruct.json",
+      "sha256": "8d55d2ce2659d759b455f43987f8aebe2cc0dd048fe315548f41d4d42bb8a1d7",
+      "record_type": "model",
+      "status": "accepted"
+    },
+    {
+      "path": "models/qwen-qwen2-5-3b-instruct.json",
+      "sha256": "6d75957581820231373dc99c91eeb96611ec9ec3ff905d58d98e6d066c1bbf07",
+      "record_type": "model",
+      "status": "accepted"
+    },
+    {
+      "path": "models/qwen-qwen2-5-7b-instruct.json",
+      "sha256": "83aaf9aa0caafd8a8594658b10c24d22028924cf50749cd22654a983e7e9d791",
+      "record_type": "model",
+      "status": "accepted"
+    },
+    {
+      "path": "models/qwen-qwen3-14b.json",
+      "sha256": "6276d03f52bc9fb53846a21b5e2d8be83eb0db62479b045a34384ff88219f477",
+      "record_type": "model",
+      "status": "accepted"
+    },
+    {
+      "path": "models/qwen-qwen3-235b-a22b.json",
+      "sha256": "0bab151cfcff9dae8d7de2f0d54f454c24362ff15907f7f1ae23cc79754079b5",
+      "record_type": "model",
+      "status": "accepted"
+    },
+    {
+      "path": "models/qwen-qwen3-30b-a3b.json",
+      "sha256": "647d092ac7ec63431b1ec3e3d8ec6fcf5fcafee7cdcb158e678f4fbb7d9a1465",
+      "record_type": "model",
+      "status": "accepted"
+    },
+    {
+      "path": "models/qwen-qwen3-8b.json",
+      "sha256": "93c8512839cb19807673debf67bcc80c40ae673f819306f756d6227b7ea8ab9d",
+      "record_type": "model",
+      "status": "accepted"
+    },
+    {
+      "path": "runtime_support/variant_deepseek_deepseek-r1-distill-qwen-14b_gguf_q4-k-m_unsloth__llama.cpp.json",
+      "sha256": "6e05c7700a9d5bd50826d8503d2f90f21990f794c5fcfe9df74bad5a34caf0e5",
+      "record_type": "runtime_support",
+      "status": "accepted"
+    },
+    {
+      "path": "runtime_support/variant_deepseek_deepseek-r1-distill-qwen-14b_gguf_q4-k-m_unsloth__lm-studio.json",
+      "sha256": "9c23b5a3c0fd5049074d590beeac021a14a1c7ecb4d1dc959490120553c95934",
+      "record_type": "runtime_support",
+      "status": "accepted"
+    },
+    {
+      "path": "runtime_support/variant_deepseek_deepseek-r1-distill-qwen-14b_gguf_q4-k-m_unsloth__ollama.json",
+      "sha256": "be5673b77cbca08c87ca1172d8e018d24d5349e9ed3b1afd338022e1c959f902",
+      "record_type": "runtime_support",
+      "status": "accepted"
+    },
+    {
+      "path": "runtime_support/variant_deepseek_deepseek-r1-distill-qwen-14b_gguf_q8-0_unsloth__llama.cpp.json",
+      "sha256": "1ab65fa8223b538eea7255ea63ac89df86502dfff969c5a12c05c25e66ea6af5",
+      "record_type": "runtime_support",
+      "status": "accepted"
+    },
+    {
+      "path": "runtime_support/variant_deepseek_deepseek-r1-distill-qwen-14b_gguf_q8-0_unsloth__lm-studio.json",
+      "sha256": "c298131b750e1871bc5f82d5a74b724f6c689b55cdf33630fc0ee17d4b959b46",
+      "record_type": "runtime_support",
+      "status": "accepted"
+    },
+    {
+      "path": "runtime_support/variant_deepseek_deepseek-r1-distill-qwen-14b_gguf_q8-0_unsloth__ollama.json",
+      "sha256": "1793eaadab4bbb87b60efec59861d11b9580b1f019f38cd023dcaf7aa84c61a2",
+      "record_type": "runtime_support",
+      "status": "accepted"
+    },
+    {
+      "path": "runtime_support/variant_deepseek_deepseek-r1-distill-qwen-7b_gguf_q4-k-m_unsloth__llama.cpp.json",
+      "sha256": "dff101f0706d26a2a332bca73537733442239c28c1988b23f0d3b596dbaee020",
+      "record_type": "runtime_support",
+      "status": "accepted"
+    },
+    {
+      "path": "runtime_support/variant_deepseek_deepseek-r1-distill-qwen-7b_gguf_q4-k-m_unsloth__lm-studio.json",
+      "sha256": "ff5ef6379ccbdf3f76360c7e0011c5bb757c4f51d80a4a803c9f4ea0c2fda517",
+      "record_type": "runtime_support",
+      "status": "accepted"
+    },
+    {
+      "path": "runtime_support/variant_deepseek_deepseek-r1-distill-qwen-7b_gguf_q4-k-m_unsloth__ollama.json",
+      "sha256": "38b8f9ecc11f7a08566b73fee3899136a08920d549cc2ac223c72249af22632b",
+      "record_type": "runtime_support",
+      "status": "accepted"
+    },
+    {
+      "path": "runtime_support/variant_deepseek_deepseek-r1-distill-qwen-7b_gguf_q8-0_unsloth__llama.cpp.json",
+      "sha256": "74c95074660ee14e6756f3b0799f39d7ed38a54ca73b60789874fad8be67f729",
+      "record_type": "runtime_support",
+      "status": "accepted"
+    },
+    {
+      "path": "runtime_support/variant_deepseek_deepseek-r1-distill-qwen-7b_gguf_q8-0_unsloth__lm-studio.json",
+      "sha256": "cb3364c3ce1171878dfff88f12eb07c29227d6ee3a32f79b2c5305a5a272334f",
+      "record_type": "runtime_support",
+      "status": "accepted"
+    },
+    {
+      "path": "runtime_support/variant_deepseek_deepseek-r1-distill-qwen-7b_gguf_q8-0_unsloth__ollama.json",
+      "sha256": "d445085814f322c7ec3c7a4b1adf66b44bfbe3bd42641354e6dc80b51619c107",
+      "record_type": "runtime_support",
+      "status": "accepted"
+    },
+    {
+      "path": "runtime_support/variant_deepseek_deepseek-r1_gguf_q4-k-m_unsloth__llama.cpp.json",
+      "sha256": "c48f2e2b0ade374a7a4b9564212e32f5b290e5aa3a22c968de49f77a13acf1bf",
+      "record_type": "runtime_support",
+      "status": "accepted"
+    },
+    {
+      "path": "runtime_support/variant_deepseek_deepseek-r1_gguf_q4-k-m_unsloth__lm-studio.json",
+      "sha256": "a5b95844f936bd2f7cf8df42a3f213083784d2c3fa1d7761a54908692cd05023",
+      "record_type": "runtime_support",
+      "status": "accepted"
+    },
+    {
+      "path": "runtime_support/variant_deepseek_deepseek-r1_gguf_q4-k-m_unsloth__ollama.json",
+      "sha256": "6b86584673eb16333a7a2a45ab72aa269f0d967a1c2941cf36ca2d519ef43649",
+      "record_type": "runtime_support",
+      "status": "accepted"
+    },
+    {
+      "path": "runtime_support/variant_google_gemma-2-9b-it_gguf_q4-k-m_bartowski__llama.cpp.json",
+      "sha256": "8b203135619fc302a1099a32bd0c36747c78ab7f3e2ca3c673317d7b12a9219f",
+      "record_type": "runtime_support",
+      "status": "accepted"
+    },
+    {
+      "path": "runtime_support/variant_google_gemma-2-9b-it_gguf_q4-k-m_bartowski__lm-studio.json",
+      "sha256": "b47a8ca6a7de7cf20550d0df06ae8aab26e4dad5d3b2ace4c94ce0e7ba17577f",
+      "record_type": "runtime_support",
+      "status": "accepted"
+    },
+    {
+      "path": "runtime_support/variant_google_gemma-2-9b-it_gguf_q4-k-m_bartowski__ollama.json",
+      "sha256": "b57619f0a79f5c488e962b3c82040173ee6ccb8b4fb122ee7e75c01647b41961",
+      "record_type": "runtime_support",
+      "status": "accepted"
+    },
+    {
+      "path": "runtime_support/variant_google_gemma-3-12b-it_gguf_q4-k-m_bartowski__llama.cpp.json",
+      "sha256": "95d54efd09006a507f7d4f17238bb4992c493357c110c161e56307e8b8dae4fe",
+      "record_type": "runtime_support",
+      "status": "accepted"
+    },
+    {
+      "path": "runtime_support/variant_google_gemma-3-12b-it_gguf_q4-k-m_bartowski__lm-studio.json",
+      "sha256": "0a393f77097b7bb1b7c24faaa7fefad79786212675eb7373c18e45385fce3bb6",
+      "record_type": "runtime_support",
+      "status": "accepted"
+    },
+    {
+      "path": "runtime_support/variant_google_gemma-3-12b-it_gguf_q4-k-m_bartowski__ollama.json",
+      "sha256": "ee146042d4aea0f726b677d25f24d6da908bca8e30acea02b93b5df14a05c127",
+      "record_type": "runtime_support",
+      "status": "accepted"
+    },
+    {
+      "path": "runtime_support/variant_google_gemma-3-1b-it_gguf_q4-k-m_bartowski__llama.cpp.json",
+      "sha256": "42d19703c3d858909d341c1cfdaef97ed8189c27c0ed5874a567a340289f4ab0",
+      "record_type": "runtime_support",
+      "status": "accepted"
+    },
+    {
+      "path": "runtime_support/variant_google_gemma-3-1b-it_gguf_q4-k-m_bartowski__lm-studio.json",
+      "sha256": "73d6ba817a5663a7759a1526827effef18b781fdee00aad7b249c9f74e48b05c",
+      "record_type": "runtime_support",
+      "status": "accepted"
+    },
+    {
+      "path": "runtime_support/variant_google_gemma-3-1b-it_gguf_q4-k-m_bartowski__ollama.json",
+      "sha256": "e6b6e0d45a2c640100ebd3e53e00aa899714befe3ab73c162901be5f5d9f3dc0",
+      "record_type": "runtime_support",
+      "status": "accepted"
+    },
+    {
+      "path": "runtime_support/variant_google_gemma-3-1b-it_gguf_q8-0_bartowski__llama.cpp.json",
+      "sha256": "c83a02416963e4d58438be856038c3a76895e798a0db21ad66d3482735a9c6c9",
+      "record_type": "runtime_support",
+      "status": "accepted"
+    },
+    {
+      "path": "runtime_support/variant_google_gemma-3-1b-it_gguf_q8-0_bartowski__lm-studio.json",
+      "sha256": "cc2e9029218688570b8390da0d7d7ee858b6d49069fbc9b602efdd3ea49dffa4",
+      "record_type": "runtime_support",
+      "status": "accepted"
+    },
+    {
+      "path": "runtime_support/variant_google_gemma-3-1b-it_gguf_q8-0_bartowski__ollama.json",
+      "sha256": "d7f3d7e515bb4891a7e53316d0fb2be21c4394ca4cd930e144c1ca1ffba0586d",
+      "record_type": "runtime_support",
+      "status": "accepted"
+    },
+    {
+      "path": "runtime_support/variant_google_gemma-3-27b-it_gguf_q4-k-m_bartowski__llama.cpp.json",
+      "sha256": "4886c4a0f3e196fca2b7a7d3f75892886a90ab6a82c64bb63a1ef194f3e4a3e8",
+      "record_type": "runtime_support",
+      "status": "accepted"
+    },
+    {
+      "path": "runtime_support/variant_google_gemma-3-27b-it_gguf_q4-k-m_bartowski__lm-studio.json",
+      "sha256": "25514a0c19739de552bb495c8b9d66ab1d3fc043f3f2c8d114360b63ef505a58",
+      "record_type": "runtime_support",
+      "status": "accepted"
+    },
+    {
+      "path": "runtime_support/variant_google_gemma-3-27b-it_gguf_q4-k-m_bartowski__ollama.json",
+      "sha256": "7b3348dbe0cde05807c94d6cae19c1128f0347acddfc194ecf993108deb8bbe9",
+      "record_type": "runtime_support",
+      "status": "accepted"
+    },
+    {
+      "path": "runtime_support/variant_google_gemma-3-4b-it_gguf_q4-k-m_bartowski__llama.cpp.json",
+      "sha256": "91c4d639c0b7011da7571320cdb80669e5151084aa763d00a52e662bf8175e84",
+      "record_type": "runtime_support",
+      "status": "accepted"
+    },
+    {
+      "path": "runtime_support/variant_google_gemma-3-4b-it_gguf_q4-k-m_bartowski__lm-studio.json",
+      "sha256": "f48f775b4fae058315afe76246514933791084a8939362ce6d4bc2b7aeff398c",
+      "record_type": "runtime_support",
+      "status": "accepted"
+    },
+    {
+      "path": "runtime_support/variant_google_gemma-3-4b-it_gguf_q4-k-m_bartowski__ollama.json",
+      "sha256": "162b12c6e5a8dad361247fa96dd4830f35f7760f2772630ca4fe321a9bac09d0",
+      "record_type": "runtime_support",
+      "status": "accepted"
+    },
+    {
+      "path": "runtime_support/variant_google_gemma-3-4b-it_gguf_q8-0_bartowski__llama.cpp.json",
+      "sha256": "20064e7e071e64082b7f2bad04e657307a6e9d269c4e39acef290f160919577a",
+      "record_type": "runtime_support",
+      "status": "accepted"
+    },
+    {
+      "path": "runtime_support/variant_google_gemma-3-4b-it_gguf_q8-0_bartowski__lm-studio.json",
+      "sha256": "c7dec353c3a7ef8e0050e316867d097ec8ac0a004ed2c58845901ed3b9cfbd48",
+      "record_type": "runtime_support",
+      "status": "accepted"
+    },
+    {
+      "path": "runtime_support/variant_google_gemma-3-4b-it_gguf_q8-0_bartowski__ollama.json",
+      "sha256": "a67401779b9891dec0ed642da86d0ace849e57bbf62b490c78c251aa2a5098f9",
+      "record_type": "runtime_support",
+      "status": "accepted"
+    },
+    {
+      "path": "runtime_support/variant_meta_llama-3-1-8b-instruct_gguf_q4-k-m_bartowski__llama.cpp.json",
+      "sha256": "7349debaf5cb89638fe18d51932abd3fa946f9ddcf77b60fadf9f82be67f5a62",
+      "record_type": "runtime_support",
+      "status": "accepted"
+    },
+    {
+      "path": "runtime_support/variant_meta_llama-3-1-8b-instruct_gguf_q4-k-m_bartowski__lm-studio.json",
+      "sha256": "e261098853e90673cfd1195a90e5f4a3c640d2d8dec53ccd34b576ffc06eff57",
+      "record_type": "runtime_support",
+      "status": "accepted"
+    },
+    {
+      "path": "runtime_support/variant_meta_llama-3-1-8b-instruct_gguf_q4-k-m_bartowski__ollama.json",
+      "sha256": "bb501a47006f64638df18cc533f597eb86c928901e3ddf6a346070c466a143c8",
+      "record_type": "runtime_support",
+      "status": "accepted"
+    },
+    {
+      "path": "runtime_support/variant_meta_llama-3-1-8b-instruct_gguf_q5-k-m_bartowski__llama.cpp.json",
+      "sha256": "dbb3f1c2065f4b6e8dd151445875e9b2bba9c219240a67f329c89970968df7f4",
+      "record_type": "runtime_support",
+      "status": "accepted"
+    },
+    {
+      "path": "runtime_support/variant_meta_llama-3-1-8b-instruct_gguf_q5-k-m_bartowski__lm-studio.json",
+      "sha256": "340d0e6c2319f525ab9f98bce24c63901f787041f7005f43f832aa718567106b",
+      "record_type": "runtime_support",
+      "status": "accepted"
+    },
+    {
+      "path": "runtime_support/variant_meta_llama-3-1-8b-instruct_gguf_q5-k-m_bartowski__ollama.json",
+      "sha256": "fe05b62972a9024c1a562b917c83e89fb6dd59785eea10854b1a421f52f0e026",
+      "record_type": "runtime_support",
+      "status": "accepted"
+    },
+    {
+      "path": "runtime_support/variant_meta_llama-3-1-8b-instruct_gguf_q8-0_bartowski__llama.cpp.json",
+      "sha256": "ed49a60dff1c600f41bbd16037b260862fee050592c7fb9d95c131f9a2de6fb5",
+      "record_type": "runtime_support",
+      "status": "accepted"
+    },
+    {
+      "path": "runtime_support/variant_meta_llama-3-1-8b-instruct_gguf_q8-0_bartowski__lm-studio.json",
+      "sha256": "401765e122d98663ae81e401749ba42957baa822610bdb7f5833830871b0eb82",
+      "record_type": "runtime_support",
+      "status": "accepted"
+    },
+    {
+      "path": "runtime_support/variant_meta_llama-3-1-8b-instruct_gguf_q8-0_bartowski__ollama.json",
+      "sha256": "b473f4cc036cb05242bc9656bc7db4621098ab87606cb1d9699d0e84e1ec269e",
+      "record_type": "runtime_support",
+      "status": "accepted"
+    },
+    {
+      "path": "runtime_support/variant_meta_llama-3-2-1b-instruct_gguf_q4-k-m_unsloth__llama.cpp.json",
+      "sha256": "36e4a9cce19998a75e3401522e8193ec4892f8b1b06a43419e4d645df93eb188",
+      "record_type": "runtime_support",
+      "status": "accepted"
+    },
+    {
+      "path": "runtime_support/variant_meta_llama-3-2-1b-instruct_gguf_q4-k-m_unsloth__lm-studio.json",
+      "sha256": "1e2664aa2b9ecf7e924e86d97a12b58a117e770772ca97151972fc93dbf4c950",
+      "record_type": "runtime_support",
+      "status": "accepted"
+    },
+    {
+      "path": "runtime_support/variant_meta_llama-3-2-1b-instruct_gguf_q4-k-m_unsloth__ollama.json",
+      "sha256": "91edb8ad6cba9aa3c1f06e11da8b24aff323643bbc6cb7d951b8f255f4ea0317",
+      "record_type": "runtime_support",
+      "status": "accepted"
+    },
+    {
+      "path": "runtime_support/variant_meta_llama-3-2-3b-instruct_gguf_q4-k-m_unsloth__llama.cpp.json",
+      "sha256": "e6db33168534ff586cca63bfe44f84a5ade011aff28ca7b3a85c6faded4f1cac",
+      "record_type": "runtime_support",
+      "status": "accepted"
+    },
+    {
+      "path": "runtime_support/variant_meta_llama-3-2-3b-instruct_gguf_q4-k-m_unsloth__lm-studio.json",
+      "sha256": "332ddae46432f055fd86c0e59367177d24bddb8bb7e199953c4024ad95b8f7eb",
+      "record_type": "runtime_support",
+      "status": "accepted"
+    },
+    {
+      "path": "runtime_support/variant_meta_llama-3-2-3b-instruct_gguf_q4-k-m_unsloth__ollama.json",
+      "sha256": "5bbc555be4238b8fe933cabdb5274f1b23cbf315f467e8a8c03d4d5d960e4762",
+      "record_type": "runtime_support",
+      "status": "accepted"
+    },
+    {
+      "path": "runtime_support/variant_meta_llama-3-3-70b-instruct_gguf_q4-k-m_lmstudio-community__llama.cpp.json",
+      "sha256": "842ddbf2939d6c1a315e65aaf7620149d06f67a0cebf3d9bcda1d36bc833f4ab",
+      "record_type": "runtime_support",
+      "status": "accepted"
+    },
+    {
+      "path": "runtime_support/variant_meta_llama-3-3-70b-instruct_gguf_q4-k-m_lmstudio-community__lm-studio.json",
+      "sha256": "772c7f2ad42fc90b142c8548ae6ead7cbed24f76725e3778b9cb3c53f8d43cca",
+      "record_type": "runtime_support",
+      "status": "accepted"
+    },
+    {
+      "path": "runtime_support/variant_meta_llama-3-3-70b-instruct_gguf_q4-k-m_lmstudio-community__ollama.json",
+      "sha256": "d37a294c4b0afab7a81566f4326f45b284fa5783e5a2a36c932b1b399c4f2d5c",
+      "record_type": "runtime_support",
+      "status": "accepted"
+    },
+    {
+      "path": "runtime_support/variant_meta_llama-3-3-70b-instruct_gguf_q8-0_lmstudio-community__llama.cpp.json",
+      "sha256": "3001c3c07ae4f2bb43e2e39bdafb8c4ef8b30b86bafe75508efae58d1554e926",
+      "record_type": "runtime_support",
+      "status": "accepted"
+    },
+    {
+      "path": "runtime_support/variant_meta_llama-3-3-70b-instruct_gguf_q8-0_lmstudio-community__lm-studio.json",
+      "sha256": "509d6cde528e0062e3bf5ffe57f45438a9a4f637745ba2ab4d978b7e5d99bc9b",
+      "record_type": "runtime_support",
+      "status": "accepted"
+    },
+    {
+      "path": "runtime_support/variant_meta_llama-3-3-70b-instruct_gguf_q8-0_lmstudio-community__ollama.json",
+      "sha256": "6f867d325e58a92dc7f57ab2039d709d8062e2538b97115e11248843bb629929",
+      "record_type": "runtime_support",
+      "status": "accepted"
+    },
+    {
+      "path": "runtime_support/variant_microsoft_phi-4_gguf_q4-k-m_unsloth__llama.cpp.json",
+      "sha256": "4d91ddf30c388a9143d389dcfd872637f1fa0d7cb2b0c87eb143bc07e7321120",
+      "record_type": "runtime_support",
+      "status": "accepted"
+    },
+    {
+      "path": "runtime_support/variant_microsoft_phi-4_gguf_q4-k-m_unsloth__lm-studio.json",
+      "sha256": "4ae14457e6cdabfdd4c0bb92a428bb45b6461b086a0315e6065ad563ba0b251a",
+      "record_type": "runtime_support",
+      "status": "accepted"
+    },
+    {
+      "path": "runtime_support/variant_microsoft_phi-4_gguf_q4-k-m_unsloth__ollama.json",
+      "sha256": "0f8fc121c52df844349bdcfdd0ce0dff509d69cfa7b170401ef643ea679c51bc",
+      "record_type": "runtime_support",
+      "status": "accepted"
+    },
+    {
+      "path": "runtime_support/variant_microsoft_phi-4_gguf_q8-0_unsloth__llama.cpp.json",
+      "sha256": "d939013ddd089f48bcee3067c65a0f05f290c7452058169ac20abfaf9a683d78",
+      "record_type": "runtime_support",
+      "status": "accepted"
+    },
+    {
+      "path": "runtime_support/variant_microsoft_phi-4_gguf_q8-0_unsloth__lm-studio.json",
+      "sha256": "dbb8681aa5c706a61af665e6f50c45410500e630e1a1e6fda8e457f4b1b6c17a",
+      "record_type": "runtime_support",
+      "status": "accepted"
+    },
+    {
+      "path": "runtime_support/variant_microsoft_phi-4_gguf_q8-0_unsloth__ollama.json",
+      "sha256": "7614026cecb26ef1219c1aae3d90bfada01eef7eb607f9ff88c814c84357614d",
+      "record_type": "runtime_support",
+      "status": "accepted"
+    },
+    {
+      "path": "runtime_support/variant_mistral-ai_mistral-7b-instruct-v0-3_gguf_q4-k-m_bartowski__llama.cpp.json",
+      "sha256": "1ec4f74054221090f8d8b497c2f5f90184821d2df25568e34547b3fb1f388c88",
+      "record_type": "runtime_support",
+      "status": "accepted"
+    },
+    {
+      "path": "runtime_support/variant_mistral-ai_mistral-7b-instruct-v0-3_gguf_q4-k-m_bartowski__lm-studio.json",
+      "sha256": "5e9056c4e1a266162b0264f48db93187af005981f79963c7da08370ca51120b1",
+      "record_type": "runtime_support",
+      "status": "accepted"
+    },
+    {
+      "path": "runtime_support/variant_mistral-ai_mistral-7b-instruct-v0-3_gguf_q4-k-m_bartowski__ollama.json",
+      "sha256": "7da280fd6d3623b510de28ce22d8cc69b0d213431ccfa1759614a210ebd57e99",
+      "record_type": "runtime_support",
+      "status": "accepted"
+    },
+    {
+      "path": "runtime_support/variant_mistral-ai_mistral-7b-instruct-v0-3_gguf_q5-k-m_bartowski__llama.cpp.json",
+      "sha256": "01b07b2c4a01b09a9d6c9b01f79d32ec4fbe3a64aebaa9125534bd65efae98c5",
+      "record_type": "runtime_support",
+      "status": "accepted"
+    },
+    {
+      "path": "runtime_support/variant_mistral-ai_mistral-7b-instruct-v0-3_gguf_q5-k-m_bartowski__lm-studio.json",
+      "sha256": "ffbaaab7f22df583c6ecf0e7f21b5c0496c05ba3e42e58cf466050c0de10aeff",
+      "record_type": "runtime_support",
+      "status": "accepted"
+    },
+    {
+      "path": "runtime_support/variant_mistral-ai_mistral-7b-instruct-v0-3_gguf_q5-k-m_bartowski__ollama.json",
+      "sha256": "d3216092efd06c41eb0cd06e30de3e3b68350f780f5ccdf71e6e4996f6399cb3",
+      "record_type": "runtime_support",
+      "status": "accepted"
+    },
+    {
+      "path": "runtime_support/variant_mistral-ai_mistral-7b-instruct-v0-3_gguf_q8-0_bartowski__llama.cpp.json",
+      "sha256": "1290708feebc74a84b39d78c8ca056218827bc0fe7a84f11c2ae8a249349b51f",
+      "record_type": "runtime_support",
+      "status": "accepted"
+    },
+    {
+      "path": "runtime_support/variant_mistral-ai_mistral-7b-instruct-v0-3_gguf_q8-0_bartowski__lm-studio.json",
+      "sha256": "e73a0ca827ff3a6658d87b65d48635c51736a23d3e3cd235022e795b6bbbc734",
+      "record_type": "runtime_support",
+      "status": "accepted"
+    },
+    {
+      "path": "runtime_support/variant_mistral-ai_mistral-7b-instruct-v0-3_gguf_q8-0_bartowski__ollama.json",
+      "sha256": "4e382fba4b4bff4cae3110510b579420d8e8c55d719d85f6435cc662ad567701",
+      "record_type": "runtime_support",
+      "status": "accepted"
+    },
+    {
+      "path": "runtime_support/variant_qwen_qwen2-5-1-5b-instruct_gguf_q4-k-m_qwen__llama.cpp.json",
+      "sha256": "09f52959350958ad6ad6f6448b4ff90793605b18de723beff41f3c25600d92d3",
+      "record_type": "runtime_support",
+      "status": "accepted"
+    },
+    {
+      "path": "runtime_support/variant_qwen_qwen2-5-1-5b-instruct_gguf_q4-k-m_qwen__lm-studio.json",
+      "sha256": "00959abd7058bf26235a93acc795936b7544a3d0f213bbe3b4eb6804b5a09271",
+      "record_type": "runtime_support",
+      "status": "accepted"
+    },
+    {
+      "path": "runtime_support/variant_qwen_qwen2-5-1-5b-instruct_gguf_q4-k-m_qwen__ollama.json",
+      "sha256": "a8eb017dcdbfec87af4f7721bd36adef1dd424c360b2440dab27001cdc3f12e3",
+      "record_type": "runtime_support",
+      "status": "accepted"
+    },
+    {
+      "path": "runtime_support/variant_qwen_qwen2-5-14b-instruct_gguf_q4-k-m_qwen__llama.cpp.json",
+      "sha256": "22e00ff040b9871217928d7a0574df3ddd6ae7b76275fcdd615ff0abf6e1aef2",
+      "record_type": "runtime_support",
+      "status": "accepted"
+    },
+    {
+      "path": "runtime_support/variant_qwen_qwen2-5-14b-instruct_gguf_q4-k-m_qwen__lm-studio.json",
+      "sha256": "cead280a042812f19f1945237fd11498df9fa2ff1271ef6b325526fbbda23de6",
+      "record_type": "runtime_support",
+      "status": "accepted"
+    },
+    {
+      "path": "runtime_support/variant_qwen_qwen2-5-14b-instruct_gguf_q4-k-m_qwen__ollama.json",
+      "sha256": "8a02c86ab1e38a7f8f03aae121f976e2ae9fb577ca16eed80a62df5c8e3a1399",
+      "record_type": "runtime_support",
+      "status": "accepted"
+    },
+    {
+      "path": "runtime_support/variant_qwen_qwen2-5-3b-instruct_gguf_q4-k-m_qwen__llama.cpp.json",
+      "sha256": "9d5bac890f329c531b4ff41c561e8fa38cc2fa1ee27969d46ef80235c0567873",
+      "record_type": "runtime_support",
+      "status": "accepted"
+    },
+    {
+      "path": "runtime_support/variant_qwen_qwen2-5-3b-instruct_gguf_q4-k-m_qwen__lm-studio.json",
+      "sha256": "52c206c0701d889feaff0219651a58720d5e71f8ac9271791681d27e2bbeda5c",
+      "record_type": "runtime_support",
+      "status": "accepted"
+    },
+    {
+      "path": "runtime_support/variant_qwen_qwen2-5-3b-instruct_gguf_q4-k-m_qwen__ollama.json",
+      "sha256": "0daf750f1277bc967411d35433ef88bb434cf07e1eb12ca6417e76d62abc784e",
+      "record_type": "runtime_support",
+      "status": "accepted"
+    },
+    {
+      "path": "runtime_support/variant_qwen_qwen2-5-7b-instruct_gguf_q4-k-m_qwen__llama.cpp.json",
+      "sha256": "b483c64cb0d535b356e20af680daec663cf19819e4ac3ad3a56ee609bdd029ce",
+      "record_type": "runtime_support",
+      "status": "accepted"
+    },
+    {
+      "path": "runtime_support/variant_qwen_qwen2-5-7b-instruct_gguf_q4-k-m_qwen__lm-studio.json",
+      "sha256": "6b70a3da9d1877a4b2fac49b7bc101c9c6ca28bce61180fdcad25e30da4a2ce5",
+      "record_type": "runtime_support",
+      "status": "accepted"
+    },
+    {
+      "path": "runtime_support/variant_qwen_qwen2-5-7b-instruct_gguf_q4-k-m_qwen__ollama.json",
+      "sha256": "1469b3127121500d37b18f5a668d945822d1f028bfe906fe48dfd014505a2753",
+      "record_type": "runtime_support",
+      "status": "accepted"
+    },
+    {
+      "path": "runtime_support/variant_qwen_qwen3-14b_gguf_q4-k-m_qwen__llama.cpp.json",
+      "sha256": "dd9ba16f3f18f8d2d585abdec283915462ff268a3cfcdb3b4a55f94f856a2ae8",
+      "record_type": "runtime_support",
+      "status": "accepted"
+    },
+    {
+      "path": "runtime_support/variant_qwen_qwen3-14b_gguf_q4-k-m_qwen__lm-studio.json",
+      "sha256": "96a89b080b998c0abd09c1b3fc22762d9d8093b577bded5f40e048972a17e9b9",
+      "record_type": "runtime_support",
+      "status": "accepted"
+    },
+    {
+      "path": "runtime_support/variant_qwen_qwen3-14b_gguf_q4-k-m_qwen__ollama.json",
+      "sha256": "0fe1c9e13e1257d2d240c29afa5f2cb258753d2808b9ded57d42be8a6b4b72db",
+      "record_type": "runtime_support",
+      "status": "accepted"
+    },
+    {
+      "path": "runtime_support/variant_qwen_qwen3-14b_gguf_q8-0_qwen__llama.cpp.json",
+      "sha256": "1241bb07db84dd0c1b906a0a4152cd653b1e902977f91c0e63b5505416b4cf25",
+      "record_type": "runtime_support",
+      "status": "accepted"
+    },
+    {
+      "path": "runtime_support/variant_qwen_qwen3-14b_gguf_q8-0_qwen__lm-studio.json",
+      "sha256": "19d68aa2c8046ceedd416fe7f76b55fa998f1627463d053c56c38bca0a55a1a9",
+      "record_type": "runtime_support",
+      "status": "accepted"
+    },
+    {
+      "path": "runtime_support/variant_qwen_qwen3-14b_gguf_q8-0_qwen__ollama.json",
+      "sha256": "2061417bb54a72aed120bb4dfbbc274a5083b230cd159ef4bb86ff62f4002f95",
+      "record_type": "runtime_support",
+      "status": "accepted"
+    },
+    {
+      "path": "runtime_support/variant_qwen_qwen3-235b-a22b_gguf_q4-k-m_unsloth__llama.cpp.json",
+      "sha256": "446aafab053e77354219208a446340cf30480a6f1fb089e2725fc83b31be1b20",
+      "record_type": "runtime_support",
+      "status": "accepted"
+    },
+    {
+      "path": "runtime_support/variant_qwen_qwen3-235b-a22b_gguf_q4-k-m_unsloth__lm-studio.json",
+      "sha256": "4a9dd744cf9e44fc0a836e95fbf046beeec698b29d4d13983cf68c17a9cf8756",
+      "record_type": "runtime_support",
+      "status": "accepted"
+    },
+    {
+      "path": "runtime_support/variant_qwen_qwen3-235b-a22b_gguf_q4-k-m_unsloth__ollama.json",
+      "sha256": "957dbf05236660160e268aef8a5d1f070f6fe77ca21c5fbcb221127a2e5c0f1a",
+      "record_type": "runtime_support",
+      "status": "accepted"
+    },
+    {
+      "path": "runtime_support/variant_qwen_qwen3-30b-a3b_gguf_q4-k-m_unsloth__llama.cpp.json",
+      "sha256": "561185d5d31d4cd93dad46ed4dbf774d9abd4277f06253f1a7debfc4600515cd",
+      "record_type": "runtime_support",
+      "status": "accepted"
+    },
+    {
+      "path": "runtime_support/variant_qwen_qwen3-30b-a3b_gguf_q4-k-m_unsloth__lm-studio.json",
+      "sha256": "7736ffb03b71b207142826123380037727a1ac4cd4221684c7e21d0d7f277de2",
+      "record_type": "runtime_support",
+      "status": "accepted"
+    },
+    {
+      "path": "runtime_support/variant_qwen_qwen3-30b-a3b_gguf_q4-k-m_unsloth__ollama.json",
+      "sha256": "b2d4475859b7b693749288ff9c44c08e4375bcd7498170947840805fc01c1c07",
+      "record_type": "runtime_support",
+      "status": "accepted"
+    },
+    {
+      "path": "runtime_support/variant_qwen_qwen3-30b-a3b_gguf_q8-0_unsloth__llama.cpp.json",
+      "sha256": "df8c833bcaa6285be2cf788686212d4f9ea4eaa379984254038eb2c08d091707",
+      "record_type": "runtime_support",
+      "status": "accepted"
+    },
+    {
+      "path": "runtime_support/variant_qwen_qwen3-30b-a3b_gguf_q8-0_unsloth__lm-studio.json",
+      "sha256": "0e0e531e47d1118ec6ba2dd60727f431fe1306aeaf5e93a48588121fb59f92b5",
+      "record_type": "runtime_support",
+      "status": "accepted"
+    },
+    {
+      "path": "runtime_support/variant_qwen_qwen3-30b-a3b_gguf_q8-0_unsloth__ollama.json",
+      "sha256": "11e8584e5f0dd2bb8cc60e7b89969a3f90e0c92fcd4ee7e20744732337a524dc",
+      "record_type": "runtime_support",
+      "status": "accepted"
+    },
+    {
+      "path": "runtime_support/variant_qwen_qwen3-8b_gguf_q4-k-m_qwen__llama.cpp.json",
+      "sha256": "4194e6bbd74a069d447038ec81ccc41dfe8c0cb6e4d28ac898c4f81a63eb63b4",
+      "record_type": "runtime_support",
+      "status": "accepted"
+    },
+    {
+      "path": "runtime_support/variant_qwen_qwen3-8b_gguf_q4-k-m_qwen__lm-studio.json",
+      "sha256": "bd66c6d48705fe20465f3ccf6951e57f3d826a02580154ee55d2af3543c30f91",
+      "record_type": "runtime_support",
+      "status": "accepted"
+    },
+    {
+      "path": "runtime_support/variant_qwen_qwen3-8b_gguf_q4-k-m_qwen__ollama.json",
+      "sha256": "322ceeac54589f8d5193c07a51af0bcbd789783c3b6732f1a8e0d436d48d454b",
+      "record_type": "runtime_support",
+      "status": "accepted"
+    },
+    {
+      "path": "runtime_support/variant_qwen_qwen3-8b_gguf_q8-0_qwen__llama.cpp.json",
+      "sha256": "300e9610764a0425a3a4bfa23008641ee2712b1e69ab96b75871af23318ac499",
+      "record_type": "runtime_support",
+      "status": "accepted"
+    },
+    {
+      "path": "runtime_support/variant_qwen_qwen3-8b_gguf_q8-0_qwen__lm-studio.json",
+      "sha256": "f4680d0b18874fd454a0675b2038a6afdd8d2acd73633c3b8490827330902b50",
+      "record_type": "runtime_support",
+      "status": "accepted"
+    },
+    {
+      "path": "runtime_support/variant_qwen_qwen3-8b_gguf_q8-0_qwen__ollama.json",
+      "sha256": "eb2ca1342f31dd5e8e66781b988e8632275807fce5f4c37ee5e6948fd6db4d3e",
+      "record_type": "runtime_support",
+      "status": "accepted"
+    },
+    {
+      "path": "sources/src_modelfit_hardware-dataset-2026-09-16.json",
+      "sha256": "b21daebe6e871fd3aa0a8d43b6977701c9f3c70918a8665c09b1cd84f396b2a0",
+      "record_type": "source_document",
+      "status": "accepted"
+    }
+  ]
+}

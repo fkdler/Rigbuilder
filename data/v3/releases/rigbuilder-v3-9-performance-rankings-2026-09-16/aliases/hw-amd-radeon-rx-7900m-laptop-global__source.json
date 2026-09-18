@@ -1,0 +1,14 @@
+{
+  "schema_version": "3.2",
+  "record_type": "entity_alias",
+  "status": "accepted",
+  "payload": {
+    "entity_key": "hw:amd:radeon-rx-7900m:laptop:global",
+    "alias": "Radeon RX 7900M",
+    "alias_type": "source_name",
+    "language": null,
+    "normalized_alias": "radeonrx7900m",
+    "source_key": "src:passmark:gpu-list-2026-09-16"
+  },
+  "review_notes": []
+}

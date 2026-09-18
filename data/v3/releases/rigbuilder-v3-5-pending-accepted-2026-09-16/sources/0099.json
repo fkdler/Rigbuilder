@@ -1,0 +1,24 @@
+{
+  "schema_version": "3.2",
+  "record_type": "source_document",
+  "status": "accepted",
+  "payload": {
+    "source_key": "source:valve-dota-2-sysreq",
+    "title": "Dota 2 — 官方系统需求",
+    "url": "https://store.steampowered.com/app/570/Dota_2/",
+    "source_type": "official_page",
+    "source_tier": "A",
+    "publisher_key": null,
+    "published_at": null,
+    "accessed_at": "2026-09-07T07:10:39+00:00",
+    "content_hash": "40bc8dc6beb669299cf277169096dbeb77db11d9e41a3c2c527e0437bad71bad",
+    "archive_url": null,
+    "market_region": null,
+    "language": null,
+    "availability_status": "accessible"
+  },
+  "review_notes": [
+    "accessed_at 为占位时间，须由实际访问页面的调查员替换为真实访问时间。",
+    "Approved in bulk on 2026-09-16 at the user's explicit request; no per-record human review."
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "schema_version": "3.2",
+  "record_type": "model",
+  "status": "accepted",
+  "payload": {
+    "identity": {
+      "entity_key": "model:qwen:qwen3-4b",
+      "canonical_name": "Qwen3-4B",
+      "entity_type": "ai_model",
+      "recommendable": true
+    },
+    "official_repo_url": "https://huggingface.co/Qwen/Qwen3-4B",
+    "official_model_card_url": "https://huggingface.co/Qwen/Qwen3-4B",
+    "license_name": "Apache-2.0",
+    "commercial_use_status": "unknown",
+    "variants": [],
+    "evidence": [
+      {
+        "source_key": "source:hf-api-review-20260915:Qwen/Qwen3-4B",
+        "field_key": "entity.canonical_name",
+        "normalized_value": "Qwen3-4B",
+        "raw_excerpt": "Qwen/Qwen3-4B",
+        "source_locator": "$.id (repository basename)",
+        "provenance_key": "official",
+        "review_status": "accepted",
+        "reviewed_at": "2026-09-15T11:32:23.260339+00:00"
+      },
+      {
+        "source_key": "source:hf-api-review-20260915:Qwen/Qwen3-4B",
+        "field_key": "model.license_name",
+        "normalized_value": "Apache-2.0",
+        "raw_excerpt": "apache-2.0",
+        "source_locator": "$.cardData.license (SPDX casing normalized)",
+        "provenance_key": "official",
+        "review_status": "accepted",
+        "reviewed_at": "2026-09-15T11:32:23.260339+00:00"
+      },
+      {
+        "source_key": "source:hf-api-review-20260915:Qwen/Qwen3-4B",
+        "field_key": "model.total_parameters",
+        "normalized_value": 4022468096,
+        "raw_excerpt": "4022468096",
+        "source_locator": "$.safetensors.total",
+        "provenance_key": "official",
+        "review_status": "accepted",
+        "reviewed_at": "2026-09-15T11:32:23.260339+00:00"
+      },
+      {
+        "source_key": "source:hf-api-review-20260915:Qwen/Qwen3-4B",
+        "field_key": "model.capability.text_input",
+        "normalized_value": "supported",
+        "raw_excerpt": "text-generation",
+        "source_locator": "$.pipeline_tag",
+        "provenance_key": "official",
+        "review_status": "accepted",
+        "reviewed_at": "2026-09-15T11:32:23.260339+00:00"
+      }
+    ],
+    "capabilities": [
+      {
+        "capability_key": "text_input",
+        "status": "supported",
+        "notes": "Official repository pipeline_tag: text-generation"
+      }
+    ],
+    "attributes": [
+      {
+        "field_key": "model.capability.text_input",
+        "value_text": "supported"
+      }
+    ],
+    "total_parameters": 4022468096
+  },
+  "review_notes": [
+    "User authorized reviewed import on 2026-09-15. Official repository metadata re-fetched and checked.",
+    "Only identity, explicit license, reported safetensors total and pipeline-derived supported capability fields are admitted; unverified draft release date, context length, commercial permission and variants are omitted for new models.",
+    "Pipeline is evidence of declared task support, not benchmark or device compatibility. A different pipeline does not prove unsupported modalities."
+  ]
+}

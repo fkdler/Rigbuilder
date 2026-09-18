@@ -1,0 +1,23 @@
+{
+  "schema_version": "3.2",
+  "record_type": "source_document",
+  "status": "accepted",
+  "payload": {
+    "source_key": "source:jd:ryzen-5-5600t-100085063817",
+    "title": "Ryzen 5 5600T 京东商品 100085063817",
+    "url": "https://item.jd.com/100085063817.html",
+    "source_type": "retailer",
+    "source_tier": "C",
+    "publisher_key": null,
+    "published_at": null,
+    "market_region": "CN",
+    "language": "zh-CN",
+    "availability_status": "accessible",
+    "archive_url": null,
+    "accessed_at": "2026-09-07T07:35:22+08:00",
+    "content_hash": null
+  },
+  "review_notes": [
+    "用户提供渠道价：  京东 SKU 100085063817"
+  ]
+}

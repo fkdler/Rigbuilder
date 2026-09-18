@@ -1,0 +1,25 @@
+{
+  "schema_version": "3.2",
+  "record_type": "source_document",
+  "status": "accepted",
+  "payload": {
+    "source_key": "src:card:qwen3-embedding-0-6b",
+    "title": "Qwen3-Embedding-0.6B Model Card",
+    "url": "https://huggingface.co/Qwen/Qwen3-Embedding-0.6B",
+    "publisher_key": "org:qwen",
+    "source_type": "model_card",
+    "source_tier": "A",
+    "published_at": null,
+    "market_region": null,
+    "language": null,
+    "availability_status": "accessible",
+    "archive_url": null,
+    "accessed_at": "2026-09-14T11:56:57+00:00",
+    "content_hash": "3669e98c5112bac54650e8b30ab413fca3f81dbca7730b5b0c8f07181415c033"
+  },
+  "review_notes": [
+    "模型扩展批来源登记（2026-09-07）：pending，待 page_save.py 抓取回填 accessed_at/content_hash。",
+    "2026-09-14 经镜像抓取：https://hf-mirror.com/Qwen/Qwen3-Embedding-0.6B（来源登记 URL 保持原样 https://huggingface.co/Qwen/Qwen3-Embedding-0.6B）。",
+    "Approved in bulk on 2026-09-16 at the user's explicit request; no per-record human review."
+  ]
+}

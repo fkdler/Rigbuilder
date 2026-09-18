@@ -1,0 +1,26 @@
+{
+  "schema_version": "3.2",
+  "record_type": "field_definition",
+  "status": "accepted",
+  "payload": {
+    "field_key": "cpu.l2_cache_mib",
+    "label": "二级缓存",
+    "applies_to_entity_type": "hardware",
+    "value_type": "number",
+    "canonical_unit": "mib",
+    "description": "二级缓存（2026-09-16 随 v3-5 批量补齐）",
+    "allowed_units": [
+      "mib"
+    ],
+    "indexed": false,
+    "cardinality": "one",
+    "comparison_method": "exact",
+    "tolerance": null,
+    "storage_kind": "column",
+    "storage_path": "cpu_spec.l2_cache_mib",
+    "filterable": false,
+    "claimable": true,
+    "active": true
+  },
+  "review_notes": []
+}

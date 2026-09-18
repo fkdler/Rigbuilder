@@ -1,0 +1,23 @@
+{
+  "schema_version": "3.2",
+  "record_type": "source_document",
+  "status": "pending",
+  "payload": {
+    "source_key": "source:jd:ryzen-7-7800x3d-100046394400",
+    "title": "AMD锐龙7800X3D游戏处理器最终幻想CPU热卖榜第1名104MB缓存|8核心16线程|至高达5GHz|超频至5.0G最终幻想CPU热卖榜第1名",
+    "url": "https://item.jd.com/100046394400.html",
+    "source_type": "retailer",
+    "source_tier": "C",
+    "publisher_key": null,
+    "published_at": null,
+    "market_region": "CN",
+    "language": "zh-CN",
+    "availability_status": "accessible",
+    "archive_url": null,
+    "accessed_at": "2026-09-07T07:13:54+00:00",
+    "content_hash": "cf55dfda45e1c90274ca8994a5ebdea74e4e4c9027076350161c205847350b94"
+  },
+  "review_notes": [
+    "京东标价 SKU 100046394400；店铺：5万+30天加购飙升5倍AMD京东自营旗舰店；页面标价作为 current_new。"
+  ]
+}

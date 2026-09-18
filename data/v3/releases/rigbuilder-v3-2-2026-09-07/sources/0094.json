@@ -1,0 +1,23 @@
+{
+  "schema_version": "3.2",
+  "record_type": "source_document",
+  "status": "accepted",
+  "payload": {
+    "source_key": "source:deepseek-r1-distill-qwen-14b-card",
+    "title": "DeepSeek-R1-Distill-Qwen-14B Model Card",
+    "url": "https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-14B",
+    "source_type": "model_card",
+    "source_tier": "A",
+    "publisher_key": "org:deepseek",
+    "published_at": null,
+    "accessed_at": "2026-09-07T07:10:34+00:00",
+    "content_hash": "9b3551692402d185eb044ee052c7b120efa54261deea2c23d8122661c7e443e1",
+    "archive_url": null,
+    "market_region": null,
+    "language": null,
+    "availability_status": "accessible"
+  },
+  "review_notes": [
+    "accessed_at 为占位时间，须由实际访问页面的调查员替换为真实访问时间。"
+  ]
+}

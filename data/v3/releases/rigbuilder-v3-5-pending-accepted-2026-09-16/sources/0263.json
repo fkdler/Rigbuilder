@@ -1,0 +1,25 @@
+{
+  "schema_version": "3.2",
+  "record_type": "source_document",
+  "status": "accepted",
+  "payload": {
+    "source_key": "src:card:phi-4-multimodal-instruct",
+    "title": "Phi-4-multimodal-instruct Model Card",
+    "url": "https://huggingface.co/microsoft/Phi-4-multimodal-instruct",
+    "publisher_key": "org:microsoft",
+    "source_type": "model_card",
+    "source_tier": "A",
+    "published_at": null,
+    "market_region": null,
+    "language": null,
+    "availability_status": "accessible",
+    "archive_url": null,
+    "accessed_at": "2026-09-14T11:57:43+00:00",
+    "content_hash": "2543b3441c27487584e6bb4e5774284e673690a4620e13072ae952833a052b4c"
+  },
+  "review_notes": [
+    "模型扩展第二批来源（2026-09-07）：pending，待抓取核验。",
+    "2026-09-14 经镜像抓取：https://hf-mirror.com/microsoft/Phi-4-multimodal-instruct（来源登记 URL 保持原样 https://huggingface.co/microsoft/Phi-4-multimodal-instruct）。",
+    "Approved in bulk on 2026-09-16 at the user's explicit request; no per-record human review."
+  ]
+}

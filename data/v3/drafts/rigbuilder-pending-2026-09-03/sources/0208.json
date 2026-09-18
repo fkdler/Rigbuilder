@@ -1,0 +1,24 @@
+{
+  "schema_version": "3.2",
+  "record_type": "source_document",
+  "status": "pending",
+  "payload": {
+    "source_key": "src:card:qwen3-reranker-4b",
+    "title": "Qwen3-Reranker-4B Model Card",
+    "url": "https://huggingface.co/Qwen/Qwen3-Reranker-4B",
+    "publisher_key": "org:qwen",
+    "source_type": "model_card",
+    "source_tier": "A",
+    "published_at": null,
+    "market_region": null,
+    "language": null,
+    "availability_status": "accessible",
+    "archive_url": null,
+    "accessed_at": "2026-09-14T11:57:21+00:00",
+    "content_hash": "4cb72d790da877387e12cf7911eb8a947d6234ab9d335a4ad4f5a1dd4b983cd9"
+  },
+  "review_notes": [
+    "模型扩展批来源登记（2026-09-07）：pending，待 page_save.py 抓取回填 accessed_at/content_hash。",
+    "2026-09-14 经镜像抓取：https://hf-mirror.com/Qwen/Qwen3-Reranker-4B（来源登记 URL 保持原样 https://huggingface.co/Qwen/Qwen3-Reranker-4B）。"
+  ]
+}

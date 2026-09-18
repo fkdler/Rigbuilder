@@ -1,0 +1,114 @@
+{
+  "schema_version": "3.2",
+  "record_type": "hardware",
+  "status": "pending",
+  "payload": {
+    "identity": {
+      "entity_key": "hw:intel:arc-a730m:laptop:global",
+      "canonical_name": "Intel Arc A730M",
+      "entity_type": "hardware",
+      "release_date": null,
+      "lifecycle_status": "unknown",
+      "recommendable": true
+    },
+    "category": "gpu",
+    "record_kind": "product",
+    "manufacturer_key": "org:intel",
+    "form_factor": "laptop",
+    "model_name": "Intel Arc A730M",
+    "variant_name": null,
+    "market_segment": "mobile",
+    "region_code": "GLOBAL",
+    "official_product_id": null,
+    "product_family": null,
+    "attributes": [],
+    "evidence": [
+      {
+        "source_key": "src:intel:gpu-arc-a730m",
+        "field_key": "entity.canonical_name",
+        "normalized_value": "Intel Arc A730M",
+        "provenance_key": "official",
+        "raw_excerpt": "Intel Arc A730M",
+        "review_status": "pending",
+        "reviewed_at": null
+      },
+      {
+        "source_key": "src:intel:gpu-arc-a730m",
+        "field_key": "gpu.vram_gib",
+        "normalized_value": 12,
+        "provenance_key": "official",
+        "raw_excerpt": "Memory (GDDR6) 4GB 4GB 8GB 12GB 16GB",
+        "review_status": "pending",
+        "reviewed_at": null,
+        "notes": "Intel 支持文章表格｜列「A730M」（第 4/5 列）｜请核对：raw_excerpt 为页面该字段整行原文，本条目取其中该列的值"
+      },
+      {
+        "source_key": "src:intel:gpu-arc-a730m",
+        "field_key": "gpu.memory_bus_width_bit",
+        "normalized_value": 192,
+        "provenance_key": "official",
+        "raw_excerpt": "Memory Bus Width (GB/s) 64-bit 64-bit 128-bit 192-bit 256-bit",
+        "review_status": "pending",
+        "reviewed_at": null,
+        "notes": "Intel 支持文章表格｜列「A730M」（第 4/5 列）｜请核对：raw_excerpt 为页面该字段整行原文，本条目取其中该列的值"
+      },
+      {
+        "source_key": "src:intel:gpu-arc-a730m",
+        "field_key": "laptop_gpu.tgp_min_w",
+        "normalized_value": 80,
+        "provenance_key": "official",
+        "raw_excerpt": "Graphics Power 25-35W 35-50W 60-80W 80-120W 120-150W",
+        "review_status": "pending",
+        "reviewed_at": null,
+        "notes": "Intel 支持文章表格｜列「A730M」（第 4/5 列）｜请核对：raw_excerpt 为页面该字段整行原文，本条目取其中该列的值"
+      },
+      {
+        "source_key": "src:intel:gpu-arc-a730m",
+        "field_key": "laptop_gpu.tgp_max_w",
+        "normalized_value": 120,
+        "provenance_key": "official",
+        "raw_excerpt": "Graphics Power 25-35W 35-50W 60-80W 80-120W 120-150W",
+        "review_status": "pending",
+        "reviewed_at": null,
+        "notes": "Intel 支持文章表格｜列「A730M」（第 4/5 列）｜请核对：raw_excerpt 为页面该字段整行原文，本条目取其中该列的值"
+      },
+      {
+        "source_key": "src:intel:gpu-arc-a730m",
+        "field_key": "laptop_gpu.boost_clock_max_mhz",
+        "normalized_value": 1100,
+        "provenance_key": "official",
+        "raw_excerpt": "Graphics Clock (Mhz) 1150 1550 900 1100 1650",
+        "review_status": "pending",
+        "reviewed_at": null,
+        "notes": "Intel 支持文章表格｜列「A730M」（第 4/5 列）｜Intel 仅给出单一 Graphics Clock 值，记为 boost 上限｜请核对：raw_excerpt 为页面该字段整行原文，本条目取其中该列的值"
+      }
+    ],
+    "gpu_spec": {
+      "architecture": "Xe-HPG (Alchemist)",
+      "vram_gib": 12,
+      "memory_type": "GDDR6",
+      "memory_bus_width_bit": 192,
+      "memory_bandwidth_gb_s": null,
+      "ecc_support": false,
+      "interface": null,
+      "pcie_generation": 4,
+      "pcie_lanes": 16,
+      "board_power_w": 120
+    },
+    "laptop_gpu_spec": {
+      "tgp_min_w": 80,
+      "tgp_max_w": 120,
+      "boost_clock_min_mhz": null,
+      "boost_clock_max_mhz": 1100,
+      "dynamic_boost_w": null
+    }
+  },
+  "review_notes": [
+    "GPU 缺口补充/修复批（2026-09-07）：官方来源页待核验（抓取困难者用 HardQuery 第三方库），未逐字核验；值按公开规格知识填写，pending，待来源确认后核对。",
+    "来源等级：C（HardQuery 第三方数据库，待官方页替代）。",
+    "2026-09-15 来源替换（Intel 官方支持文章 / Qwen 官方集合页）。",
+    "2026-09-15 evidence 提取：从快照 src_intel_gpu-arc-a730m.txt 提取字段级逐字证据（pending，待审核）。",
+    "2026-09-15 命名修正：文件名与 entity_key 去掉重复厂商前缀（intel-intel-arc-a730m.json → intel-arc-a730m.json）。",
+    "2026-09-15 evidence 提取：从快照 src_intel_gpu-arc-a730m.txt 提取字段级逐字证据（pending，待审核）。"
+  ]
+}
